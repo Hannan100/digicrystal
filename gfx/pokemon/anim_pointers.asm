@@ -150,7 +150,7 @@ AnimationPointers:
 	dw DragoniteAnimation
 	dw MewtwoAnimation
 	dw MewAnimation
-	dw ChikoritaAnimation
+	dw TanemonAnimation
 	dw BayleefAnimation
 	dw MeganiumAnimation
 	dw CyndaquilAnimation

@@ -341,7 +341,7 @@ INCBIN "gfx/footprints/dragonair.1bpp",  footprint_top
 INCBIN "gfx/footprints/dragonite.1bpp",  footprint_top
 INCBIN "gfx/footprints/mewtwo.1bpp",     footprint_top
 INCBIN "gfx/footprints/mew.1bpp",        footprint_top
-INCBIN "gfx/footprints/chikorita.1bpp",  footprint_top
+INCBIN "gfx/footprints/tanemon.1bpp",  footprint_top
 ; 145-152 bottom halves
 INCBIN "gfx/footprints/zapdos.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/moltres.1bpp",    footprint_bottom
@@ -350,7 +350,7 @@ INCBIN "gfx/footprints/dragonair.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/dragonite.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/mewtwo.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/mew.1bpp",        footprint_bottom
-INCBIN "gfx/footprints/chikorita.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/tanemon.1bpp",  footprint_bottom
 ; 153-160 top halves
 INCBIN "gfx/footprints/bayleef.1bpp",    footprint_top
 INCBIN "gfx/footprints/meganium.1bpp",   footprint_top

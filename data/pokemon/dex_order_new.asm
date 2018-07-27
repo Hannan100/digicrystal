@@ -1,7 +1,7 @@
 ; Every Pokémon sorted in New Pokédex Order.
 
 NewPokedexOrder:
-	db CHIKORITA
+	db TANEMON
 	db BAYLEEF
 	db MEGANIUM
 	db CYNDAQUIL
