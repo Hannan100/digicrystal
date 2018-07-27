@@ -35,7 +35,7 @@ AlphabeticalPokedexOrder:
 	db CROBAT
 	db CROCONAW
 	db CUBONE
-	db CYNDAQUIL
+	db KOROMON
 	db DELIBIRD
 	db DEWGONG
 	db DIGLETT

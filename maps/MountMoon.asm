@@ -50,7 +50,7 @@ MountMoon_MapScripts:
 .Tanemon:
 	winlosstext MountMoonSilverTextWin, MountMoonSilverTextLoss
 	setlasttalked MOUNTMOON_SILVER
-	loadtrainer RIVAL2, RIVAL2_1_CYNDAQUIL
+	loadtrainer RIVAL2, RIVAL2_1_KOROMON
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

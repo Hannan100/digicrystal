@@ -84,7 +84,7 @@ BurnedTowerRivalBattleScript:
 .Tanemon
 	winlosstext BurnedTowerSilver_WinText, BurnedTowerSilver_LossText
 	setlasttalked BURNEDTOWER1F_SILVER
-	loadtrainer RIVAL1, RIVAL1_3_CYNDAQUIL
+	loadtrainer RIVAL1, RIVAL1_3_KOROMON
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

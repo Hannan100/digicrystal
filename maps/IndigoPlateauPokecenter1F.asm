@@ -92,7 +92,7 @@ PlateauRivalBattleCommon:
 	iftrue .Totodile
 	checkevent EVENT_GOT_TANEMON_FROM_ELM
 	iftrue .Tanemon
-	; Cyndaquil
+	; Koromon
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_SILVER
 	loadtrainer RIVAL2, RIVAL2_2_TOTODILE
@@ -113,7 +113,7 @@ PlateauRivalBattleCommon:
 .Tanemon:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_SILVER
-	loadtrainer RIVAL2, RIVAL2_2_CYNDAQUIL
+	loadtrainer RIVAL2, RIVAL2_2_KOROMON
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

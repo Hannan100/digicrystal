@@ -80,7 +80,7 @@ VictoryRoadRivalNext:
 .GotTanemon:
 	winlosstext VictoryRoadRivalDefeatText, VictoryRoadRivalVictoryText
 	setlasttalked VICTORYROAD_SILVER
-	loadtrainer RIVAL1, RIVAL1_5_CYNDAQUIL
+	loadtrainer RIVAL1, RIVAL1_5_KOROMON
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

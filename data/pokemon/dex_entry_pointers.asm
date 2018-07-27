@@ -154,7 +154,7 @@ PokedexDataPointerTable:
 	dw TanemonPokedexEntry
 	dw BayleefPokedexEntry
 	dw MeganiumPokedexEntry
-	dw CyndaquilPokedexEntry
+	dw KoromonPokedexEntry
 	dw QuilavaPokedexEntry
 	dw TyphlosionPokedexEntry
 	dw TotodilePokedexEntry

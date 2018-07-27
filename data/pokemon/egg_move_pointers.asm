@@ -157,7 +157,7 @@ endc
 	dw TanemonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw CyndaquilEggMoves
+	dw KoromonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw TotodileEggMoves

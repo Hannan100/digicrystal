@@ -155,7 +155,7 @@ EvosAttacksPointers::
 	dw TanemonEvosAttacks
 	dw BayleefEvosAttacks
 	dw MeganiumEvosAttacks
-	dw CyndaquilEvosAttacks
+	dw KoromonEvosAttacks
 	dw QuilavaEvosAttacks
 	dw TyphlosionEvosAttacks
 	dw TotodileEvosAttacks

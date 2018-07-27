@@ -84,7 +84,7 @@ AzaleaTownRivalBattleScript:
 .Tanemon:
 	winlosstext AzaleaTownRivalWinText, AzaleaTownRivalLossText
 	setlasttalked AZALEATOWN_SILVER
-	loadtrainer RIVAL1, RIVAL1_2_CYNDAQUIL
+	loadtrainer RIVAL1, RIVAL1_2_KOROMON
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

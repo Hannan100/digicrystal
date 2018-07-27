@@ -153,7 +153,7 @@ AnimationIdlePointers:
 	dw TanemonAnimationIdle
 	dw BayleefAnimationIdle
 	dw MeganiumAnimationIdle
-	dw CyndaquilAnimationIdle
+	dw KoromonAnimationIdle
 	dw QuilavaAnimationIdle
 	dw TyphlosionAnimationIdle
 	dw TotodileAnimationIdle

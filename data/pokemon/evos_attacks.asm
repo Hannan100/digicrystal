@@ -2117,7 +2117,7 @@ MeganiumEvosAttacks:
 	db 61, SOLARBEAM
 	db 0 ; no more level-up moves
 
-CyndaquilEvosAttacks:
+KoromonEvosAttacks:
 	db EVOLVE_LEVEL, 14, QUILAVA
 	db 0 ; no more evolutions
 	db 1, TACKLE

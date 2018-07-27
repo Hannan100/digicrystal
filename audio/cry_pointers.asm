@@ -47,7 +47,7 @@ Cries:
 	dba Cry_Hoothoot
 	dba Cry_Sentret
 	dba Cry_Slowking
-	dba Cry_Cyndaquil
+	dba Cry_Koromon
 	dba Cry_Tanemon
 	dba Cry_Totodile
 	dba Cry_Gligar

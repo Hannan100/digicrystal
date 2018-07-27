@@ -153,7 +153,7 @@ PokemonNames::
 	db "TANEMON@@@"
 	db "BAYLEEF@@@"
 	db "MEGANIUM@@"
-	db "CYNDAQUIL@"
+	db "KOROMON@@@"
 	db "QUILAVA@@@"
 	db "TYPHLOSION"
 	db "TOTODILE@@"

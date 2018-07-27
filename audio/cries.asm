@@ -39,10 +39,10 @@ Cry_Mareep:
 	musicheader 2, 5, Cry_Mareep_Ch5
 	musicheader 1, 6, Cry_Mareep_Ch6
 
-Cry_Cyndaquil:
-	musicheader 3, 5, Cry_Cyndaquil_Ch5
-	musicheader 1, 6, Cry_Cyndaquil_Ch6
-	musicheader 1, 8, Cry_Cyndaquil_Ch8
+Cry_Koromon:
+	musicheader 3, 5, Cry_Koromon_Ch5
+	musicheader 1, 6, Cry_Koromon_Ch6
+	musicheader 1, 8, Cry_Koromon_Ch8
 
 Cry_Tanemon:
 	musicheader 3, 5, Cry_Tanemon_Ch5
@@ -455,9 +455,9 @@ Cry_Gligar_branch_f3145:
 	sound __,  7, $f1, $075e
 	endchannel
 
-Cry_Cyndaquil_Ch5:
+Cry_Koromon_Ch5:
 	tone $0020
-Cry_Cyndaquil_Ch6:
+Cry_Koromon_Ch6:
 	dutycycle $2
 	sound __,  9, $2f, $0107
 .loop1
@@ -470,7 +470,7 @@ Cry_Cyndaquil_Ch6:
 	loopchannel 4, .loop2
 	endchannel
 
-Cry_Cyndaquil_Ch8:
+Cry_Koromon_Ch8:
 Cry_Gligar_Ch8:
 	noise __,  9, $3f, $52
 	noise C#,  1, $93, $4f

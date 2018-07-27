@@ -131,7 +131,7 @@ MrPokemonsHouse_OakScript:
 	checkevent EVENT_GOT_TOTODILE_FROM_ELM
 	iftrue .RivalTakesTanemon
 	checkevent EVENT_GOT_TANEMON_FROM_ELM
-	iftrue .RivalTakesCyndaquil
+	iftrue .RivalTakesKoromon
 	setevent EVENT_TOTODILE_POKEBALL_IN_ELMS_LAB
 	end
 
@@ -139,8 +139,8 @@ MrPokemonsHouse_OakScript:
 	setevent EVENT_TANEMON_POKEBALL_IN_ELMS_LAB
 	end
 
-.RivalTakesCyndaquil:
-	setevent EVENT_CYNDAQUIL_POKEBALL_IN_ELMS_LAB
+.RivalTakesKoromon:
+	setevent EVENT_KOROMON_POKEBALL_IN_ELMS_LAB
 	end
 
 MrPokemonsHouse_ForeignMagazines:

@@ -153,7 +153,7 @@ AnimationPointers:
 	dw TanemonAnimation
 	dw BayleefAnimation
 	dw MeganiumAnimation
-	dw CyndaquilAnimation
+	dw KoromonAnimation
 	dw QuilavaAnimation
 	dw TyphlosionAnimation
 	dw TotodileAnimation

@@ -190,7 +190,7 @@ UndergroundSilverBattleScript:
 .Tanemon:
 	winlosstext UndergroundSilverWinText, UndergroundSilverLossText
 	setlasttalked GOLDENRODUNDERGROUNDSWITCHROOMENTRANCES_SILVER
-	loadtrainer RIVAL1, RIVAL1_4_CYNDAQUIL
+	loadtrainer RIVAL1, RIVAL1_4_KOROMON
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

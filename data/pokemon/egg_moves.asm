@@ -489,7 +489,7 @@ TanemonEggMoves:
 	db SWORDS_DANCE
 	db -1 ; end
 
-CyndaquilEggMoves:
+KoromonEggMoves:
 	db FURY_SWIPES
 	db QUICK_ATTACK
 	db REVERSAL

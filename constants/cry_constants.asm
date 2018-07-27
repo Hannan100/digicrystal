@@ -52,7 +52,7 @@
 	const CRY_HOOTHOOT
 	const CRY_SENTRET
 	const CRY_SLOWKING
-	const CRY_CYNDAQUIL
+	const CRY_KOROMON
 	const CRY_TANEMON
 	const CRY_TOTODILE
 	const CRY_GLIGAR

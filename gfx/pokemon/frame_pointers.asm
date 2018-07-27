@@ -153,7 +153,7 @@ FramesPointers:
 	dw TanemonFrames
 	dw BayleefFrames
 	dw MeganiumFrames
-	dw CyndaquilFrames
+	dw KoromonFrames
 	dw QuilavaFrames
 	dw TyphlosionFrames
 	dw TotodileFrames

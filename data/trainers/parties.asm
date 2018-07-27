@@ -81,7 +81,7 @@ Rival1Group:
 
 	; RIVAL1 (2)
 	db "?@", TRAINERTYPE_NORMAL
-	db  5, CYNDAQUIL
+	db  5, KOROMON
 	db -1 ; end
 
 	; RIVAL1 (3)
@@ -207,7 +207,7 @@ PKMNTrainerGroup:
 	; CAL (1)
 	db "CAL@", TRAINERTYPE_NORMAL
 	db 10, TANEMON
-	db 10, CYNDAQUIL
+	db 10, KOROMON
 	db 10, TOTODILE
 	db -1 ; end
 
