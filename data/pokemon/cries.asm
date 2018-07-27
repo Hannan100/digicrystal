@@ -158,7 +158,7 @@ PokemonCries::
 	mon_cry CRY_PARAS,       $0ee,  $17f ; MEW
 	mon_cry CRY_TANEMON,    -$010,  $0b0 ; TANEMON
 	mon_cry CRY_TANEMON,    -$022,  $120 ; PALMON
-	mon_cry CRY_TANEMON     -$0b7,  $200 ; TOGEMON
+	mon_cry CRY_TANEMON,    -$0b7,  $200 ; TOGEMON
 	mon_cry CRY_CYNDAQUIL,   $347,  $080 ; CYNDAQUIL
 	mon_cry CRY_CYNDAQUIL,   $321,  $120 ; QUILAVA
 	mon_cry CRY_TYPHLOSION,  $f00,  $0d4 ; TYPHLOSION
