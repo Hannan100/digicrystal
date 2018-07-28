@@ -43,7 +43,7 @@ Cries:
 	dba Cry_Girafarig
 	dba Cry_Raikou
 	dba Cry_Mareep
-	dba Cry_Togetic
+	dba Cry_Veemon
 	dba Cry_Hoothoot
 	dba Cry_Sentret
 	dba Cry_Slowking

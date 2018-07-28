@@ -174,7 +174,7 @@ AnimationIdlePointers:
 	dw CleffaAnimationIdle
 	dw IgglybuffAnimationIdle
 	dw DemiveemonAnimationIdle
-	dw TogeticAnimationIdle
+	dw VeemonAnimationIdle
 	dw NatuAnimationIdle
 	dw XatuAnimationIdle
 	dw MareepAnimationIdle

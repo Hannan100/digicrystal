@@ -214,7 +214,7 @@ Pokered_MonIndices:
 	db CLEFFA
 	db IGGLYBUFF
 	db DEMIVEEMON
-	db TOGETIC
+	db VEEMON
 	db NATU
 	db XATU
 	db MAREEP

@@ -176,7 +176,7 @@ MonMenuIcons:
 	db ICON_CLEFAIRY    ; CLEFFA
 	db ICON_JIGGLYPUFF  ; IGGLYBUFF
 	db ICON_CLEFAIRY    ; DEMIVEEMON
-	db ICON_BIRD        ; TOGETIC
+	db ICON_BIRD        ; VEEMON
 	db ICON_BIRD        ; NATU
 	db ICON_BIRD        ; XATU
 	db ICON_FOX         ; MAREEP

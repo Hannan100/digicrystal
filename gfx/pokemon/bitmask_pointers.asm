@@ -174,7 +174,7 @@ BitmasksPointers:
 	dw CleffaBitmasks
 	dw IgglybuffBitmasks
 	dw DemiveemonBitmasks
-	dw TogeticBitmasks
+	dw VeemonBitmasks
 	dw NatuBitmasks
 	dw XatuBitmasks
 	dw MareepBitmasks

@@ -180,7 +180,7 @@ DugtrioFrontpic:     INCBIN "gfx/pokemon/dugtrio/front.animated.2bpp.lz"
 MagnetonFrontpic:    INCBIN "gfx/pokemon/magneton/front.animated.2bpp.lz"
 DragonairFrontpic:   INCBIN "gfx/pokemon/dragonair/front.animated.2bpp.lz"
 ForretressFrontpic:  INCBIN "gfx/pokemon/forretress/front.animated.2bpp.lz"
-TogeticFrontpic:     INCBIN "gfx/pokemon/togetic/front.animated.2bpp.lz"
+VeemonFrontpic:     INCBIN "gfx/pokemon/veemon/front.animated.2bpp.lz"
 KangaskhanBackpic:   INCBIN "gfx/pokemon/kangaskhan/back.2bpp.lz"
 
 
@@ -428,7 +428,7 @@ SECTION "Pics 14", ROMX
 SudowoodoBackpic:    INCBIN "gfx/pokemon/sudowoodo/back.2bpp.lz"
 FlaaffyBackpic:      INCBIN "gfx/pokemon/flaaffy/back.2bpp.lz"
 SentretFrontpic:     INCBIN "gfx/pokemon/sentret/front.animated.2bpp.lz"
-TogeticBackpic:      INCBIN "gfx/pokemon/togetic/back.2bpp.lz"
+VeemonBackpic:      INCBIN "gfx/pokemon/veemon/back.2bpp.lz"
 BugsyPic:            INCBIN "gfx/trainers/bugsy.2bpp.lz"
 MarowakBackpic:      INCBIN "gfx/pokemon/marowak/back.2bpp.lz"
 GeodudeBackpic:      INCBIN "gfx/pokemon/geodude/back.2bpp.lz"

@@ -7,9 +7,9 @@ Cry_Demiveemon:
 	musicheader 2, 5, Cry_Demiveemon_Ch5
 	musicheader 1, 6, Cry_Demiveemon_Ch6
 
-Cry_Togetic:
-	musicheader 2, 5, Cry_Togetic_Ch5
-	musicheader 1, 6, Cry_Togetic_Ch6
+Cry_Veemon:
+	musicheader 2, 5, Cry_Veemon_Ch5
+	musicheader 1, 6, Cry_Veemon_Ch6
 
 Cry_Spinarak:
 	musicheader 3, 5, Cry_Spinarak_Ch5
@@ -318,7 +318,7 @@ Cry_Marill_Ch8:
 Cry_Demiveemon_Ch5:
 	tone $0002
 Cry_Demiveemon_Ch6:
-Cry_Togetic_branch_f3022:
+Cry_Veemon_branch_f3022:
 	sound_duty 2, 0, 1, 1
 	sound __,  5, $f1, $0796
 	sound __,  5, $f1, $072d
@@ -326,11 +326,11 @@ Cry_Togetic_branch_f3022:
 	sound C_,  1, $f1, $07a7
 	endchannel
 
-Cry_Togetic_Ch5:
+Cry_Veemon_Ch5:
 	tone $0002
-Cry_Togetic_Ch6:
-	callchannel Cry_Togetic_branch_f3022
-	loopchannel 2, Cry_Togetic_Ch6
+Cry_Veemon_Ch6:
+	callchannel Cry_Veemon_branch_f3022
+	loopchannel 2, Cry_Veemon_Ch6
 	sound __, 15, $0, 0
 	sound __,  9, $f2, $07c2
 	endchannel

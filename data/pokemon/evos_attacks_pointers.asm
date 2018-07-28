@@ -176,7 +176,7 @@ EvosAttacksPointers::
 	dw CleffaEvosAttacks
 	dw IgglybuffEvosAttacks
 	dw DemiveemonEvosAttacks
-	dw TogeticEvosAttacks
+	dw VeemonEvosAttacks
 	dw NatuEvosAttacks
 	dw XatuEvosAttacks
 	dw MareepEvosAttacks

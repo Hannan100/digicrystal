@@ -195,7 +195,7 @@ JOHTO_POKEMON EQU const_value
 	const CLEFFA     ; ad
 	const IGGLYBUFF  ; ae
 	const DEMIVEEMON     ; af
-	const TOGETIC    ; b0
+	const VEEMON    ; b0
 	const NATU       ; b1
 	const XATU       ; b2
 	const MAREEP     ; b3

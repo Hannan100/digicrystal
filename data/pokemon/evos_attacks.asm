@@ -2397,7 +2397,7 @@ IgglybuffEvosAttacks:
 	db 0 ; no more level-up moves
 
 DemiveemonEvosAttacks:
-	db EVOLVE_LEVEL, 12, TOGETIC
+	db EVOLVE_LEVEL, 12, VEEMON
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, CHARM
@@ -2408,7 +2408,7 @@ DemiveemonEvosAttacks:
 	db 38, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
-TogeticEvosAttacks:
+VeemonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, CHARM

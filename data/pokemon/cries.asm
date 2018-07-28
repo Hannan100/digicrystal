@@ -180,7 +180,7 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,      $061,  $091 ; CLEFFA
 	mon_cry CRY_TANEMON,     $0e8,  $0e8 ; IGGLYBUFF
 	mon_cry CRY_DEMIVEEMON,      $010,  $100 ; DEMIVEEMON
-	mon_cry CRY_TOGETIC,     $03b,  $038 ; TOGETIC
+	mon_cry CRY_VEEMON,     $03b,  $038 ; VEEMON
 	mon_cry CRY_NATU,       -$067,  $100 ; NATU
 	mon_cry CRY_NATU,       -$0a7,  $168 ; XATU
 	mon_cry CRY_MAREEP,      $022,  $0d8 ; MAREEP

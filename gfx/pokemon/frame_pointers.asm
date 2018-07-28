@@ -174,7 +174,7 @@ FramesPointers:
 	dw CleffaFrames
 	dw IgglybuffFrames
 	dw DemiveemonFrames
-	dw TogeticFrames
+	dw VeemonFrames
 	dw NatuFrames
 	dw XatuFrames
 	dw MareepFrames

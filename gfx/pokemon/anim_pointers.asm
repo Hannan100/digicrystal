@@ -174,7 +174,7 @@ AnimationPointers:
 	dw CleffaAnimation
 	dw IgglybuffAnimation
 	dw DemiveemonAnimation
-	dw TogeticAnimation
+	dw VeemonAnimation
 	dw NatuAnimation
 	dw XatuAnimation
 	dw MareepAnimation

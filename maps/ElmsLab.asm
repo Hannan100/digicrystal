@@ -108,7 +108,7 @@ ElmCheckEverstone:
 	writebyte DEMIVEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmDemiveemonScript
-	writebyte TOGETIC
+	writebyte VEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmDemiveemonScript
 	writetext UnknownText_0x79a40
@@ -120,7 +120,7 @@ ElmEggHatchedScript:
 	writebyte DEMIVEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmDemiveemonScript
-	writebyte TOGETIC
+	writebyte VEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmDemiveemonScript
 	jump ElmCheckGotEggAgain

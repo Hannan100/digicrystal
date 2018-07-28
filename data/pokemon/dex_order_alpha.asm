@@ -225,7 +225,7 @@ AlphabeticalPokedexOrder:
 	db TENTACOOL
 	db TENTACRUEL
 	db DEMIVEEMON
-	db TOGETIC
+	db VEEMON
 	db TOTODILE
 	db TYPHLOSION
 	db TYRANITAR
