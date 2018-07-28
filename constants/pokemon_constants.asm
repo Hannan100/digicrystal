@@ -194,7 +194,7 @@ JOHTO_POKEMON EQU const_value
 	const PICHU      ; ac
 	const CLEFFA     ; ad
 	const IGGLYBUFF  ; ae
-	const TOGEPI     ; af
+	const DEMIVEEMON     ; af
 	const TOGETIC    ; b0
 	const NATU       ; b1
 	const XATU       ; b2

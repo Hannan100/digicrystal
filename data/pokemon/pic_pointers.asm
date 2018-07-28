@@ -350,8 +350,8 @@ PokemonPicPointers::
 	dba_pic CleffaBackpic
 	dba_pic IgglybuffFrontpic
 	dba_pic IgglybuffBackpic
-	dba_pic TogepiFrontpic
-	dba_pic TogepiBackpic
+	dba_pic DemiveemonFrontpic
+	dba_pic DemiveemonBackpic
 	dba_pic TogeticFrontpic
 	dba_pic TogeticBackpic
 	dba_pic NatuFrontpic

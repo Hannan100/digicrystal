@@ -101,37 +101,37 @@ ElmCheckMasterBall:
 ElmCheckEverstone:
 	checkevent EVENT_GOT_EVERSTONE_FROM_ELM
 	iftrue ElmScript_CallYou
-	checkevent EVENT_SHOWED_TOGEPI_TO_ELM
+	checkevent EVENT_SHOWED_DEMIVEEMON_TO_ELM
 	iftrue ElmGiveEverstoneScript
-	checkevent EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE
-	iffalse ElmCheckTogepiEgg
-	writebyte TOGEPI
+	checkevent EVENT_TOLD_ELM_ABOUT_DEMIVEEMON_OVER_THE_PHONE
+	iffalse ElmCheckDemiveemonEgg
+	writebyte DEMIVEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
+	iftrue ShowElmDemiveemonScript
 	writebyte TOGETIC
 	special FindPartyMonThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
+	iftrue ShowElmDemiveemonScript
 	writetext UnknownText_0x79a40
 	waitbutton
 	closetext
 	end
 
 ElmEggHatchedScript:
-	writebyte TOGEPI
+	writebyte DEMIVEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
+	iftrue ShowElmDemiveemonScript
 	writebyte TOGETIC
 	special FindPartyMonThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
+	iftrue ShowElmDemiveemonScript
 	jump ElmCheckGotEggAgain
 
-ElmCheckTogepiEgg:
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+ElmCheckDemiveemonEgg:
+	checkevent EVENT_GOT_DEMIVEEMON_EGG_FROM_ELMS_AIDE
 	iffalse ElmCheckGotEggAgain
-	checkevent EVENT_TOGEPI_HATCHED
+	checkevent EVENT_DEMIVEEMON_HATCHED
 	iftrue ElmEggHatchedScript
 ElmCheckGotEggAgain:
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE ; why are we checking it again?
+	checkevent EVENT_GOT_DEMIVEEMON_EGG_FROM_ELMS_AIDE ; why are we checking it again?
 	iftrue ElmWaitingEggHatchScript
 	checkflag ENGINE_ZEPHYRBADGE
 	iftrue ElmAideHasEggScript
@@ -366,16 +366,16 @@ ElmWaitingEggHatchScript:
 	closetext
 	end
 
-ShowElmTogepiScript:
-	writetext ShowElmTogepiText1
+ShowElmDemiveemonScript:
+	writetext ShowElmDemiveemonText1
 	waitbutton
 	closetext
 	showemote EMOTE_SHOCK, ELMSLAB_ELM, 15
-	setevent EVENT_SHOWED_TOGEPI_TO_ELM
+	setevent EVENT_SHOWED_DEMIVEEMON_TO_ELM
 	opentext
-	writetext ShowElmTogepiText2
+	writetext ShowElmDemiveemonText2
 	buttonsound
-	writetext ShowElmTogepiText3
+	writetext ShowElmDemiveemonText3
 	buttonsound
 ElmGiveEverstoneScript:
 	writetext ElmGiveEverstoneText1
@@ -515,7 +515,7 @@ AideScript_ReceiveTheBalls:
 ElmsAideScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_DEMIVEEMON_EGG_FROM_ELMS_AIDE
 	iftrue AideScript_AfterTheft
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftrue AideScript_ExplainBalls
@@ -1072,17 +1072,17 @@ UnknownText_0x79a40:
 	line "#MON?"
 	done
 
-ShowElmTogepiText1:
+ShowElmDemiveemonText1:
 	text "ELM: <PLAY_G>, you"
 	line "look great!"
 	done
 
-ShowElmTogepiText2:
+ShowElmDemiveemonText2:
 	text "What?"
 	line "That #MON!?!"
 	done
 
-ShowElmTogepiText3:
+ShowElmDemiveemonText3:
 	text "The EGG hatched!"
 	line "So, #MON are"
 	cont "born from EGGS…"

@@ -49,7 +49,7 @@
 	enum gymstatue1
 	enum gymstatue2
 	enum receiveitem
-	enum receivetogepiegg
+	enum receivedemiveemonegg
 	enum pcscript
 	enum gamecornercoinvendor
 	enum happinesschecknpc

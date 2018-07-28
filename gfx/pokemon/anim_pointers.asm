@@ -173,7 +173,7 @@ AnimationPointers:
 	dw PichuAnimation
 	dw CleffaAnimation
 	dw IgglybuffAnimation
-	dw TogepiAnimation
+	dw DemiveemonAnimation
 	dw TogeticAnimation
 	dw NatuAnimation
 	dw XatuAnimation

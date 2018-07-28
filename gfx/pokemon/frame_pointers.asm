@@ -173,7 +173,7 @@ FramesPointers:
 	dw PichuFrames
 	dw CleffaFrames
 	dw IgglybuffFrames
-	dw TogepiFrames
+	dw DemiveemonFrames
 	dw TogeticFrames
 	dw NatuFrames
 	dw XatuFrames

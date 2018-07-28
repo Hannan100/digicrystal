@@ -1,4 +1,4 @@
-	db TOGEPI ; 175
+	db DEMIVEEMON ; 175
 
 	db  35,  20,  65,  20,  40,  65
 	;   hp  atk  def  spd  sat  sdf
@@ -11,7 +11,7 @@
 	db 100 ; unknown 1
 	db 10 ; step cycles to hatch
 	db 5 ; unknown 2
-	INCBIN "gfx/pokemon/togepi/front.dimensions"
+	INCBIN "gfx/pokemon/demiveemon/front.dimensions"
 	db 0, 0, 0, 0 ; padding
 	db GROWTH_FAST ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups

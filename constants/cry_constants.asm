@@ -44,7 +44,7 @@
 ; gen 2
 	const CRY_MARILL
 	const CRY_SPINARAK
-	const CRY_TOGEPI
+	const CRY_DEMIVEEMON
 	const CRY_GIRAFARIG
 	const CRY_RAIKOU
 	const CRY_MAREEP

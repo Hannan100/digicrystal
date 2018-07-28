@@ -177,7 +177,7 @@ endc
 	dw PichuEggMoves
 	dw CleffaEggMoves
 	dw IgglybuffEggMoves
-	dw TogepiEggMoves
+	dw DemiveemonEggMoves
 	dw NoEggMoves
 	dw NatuEggMoves
 	dw NoEggMoves

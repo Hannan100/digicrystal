@@ -3,9 +3,9 @@ Cry_Marill:
 	musicheader 1, 6, Cry_Marill_Ch6
 	musicheader 1, 8, Cry_Marill_Ch8
 
-Cry_Togepi:
-	musicheader 2, 5, Cry_Togepi_Ch5
-	musicheader 1, 6, Cry_Togepi_Ch6
+Cry_Demiveemon:
+	musicheader 2, 5, Cry_Demiveemon_Ch5
+	musicheader 1, 6, Cry_Demiveemon_Ch6
 
 Cry_Togetic:
 	musicheader 2, 5, Cry_Togetic_Ch5
@@ -315,9 +315,9 @@ Cry_Marill_Ch8:
 	noise __, 11, $62, $6c
 	endchannel
 
-Cry_Togepi_Ch5:
+Cry_Demiveemon_Ch5:
 	tone $0002
-Cry_Togepi_Ch6:
+Cry_Demiveemon_Ch6:
 Cry_Togetic_branch_f3022:
 	sound_duty 2, 0, 1, 1
 	sound __,  5, $f1, $0796

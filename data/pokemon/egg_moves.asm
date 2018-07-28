@@ -571,7 +571,7 @@ IgglybuffEggMoves:
 	db FAINT_ATTACK
 	db -1 ; end
 
-TogepiEggMoves:
+DemiveemonEggMoves:
 	db PRESENT
 	db MIRROR_MOVE
 	db PECK

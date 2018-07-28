@@ -39,7 +39,7 @@ Cries:
 	dba Cry_Weepinbell
 	dba Cry_Marill
 	dba Cry_Spinarak
-	dba Cry_Togepi
+	dba Cry_Demiveemon
 	dba Cry_Girafarig
 	dba Cry_Raikou
 	dba Cry_Mareep

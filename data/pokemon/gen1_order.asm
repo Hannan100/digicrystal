@@ -213,7 +213,7 @@ Pokered_MonIndices:
 	db PICHU
 	db CLEFFA
 	db IGGLYBUFF
-	db TOGEPI
+	db DEMIVEEMON
 	db TOGETIC
 	db NATU
 	db XATU
