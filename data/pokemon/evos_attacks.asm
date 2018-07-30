@@ -2434,7 +2434,7 @@ VeedramonEvosAttacks:
 	db 50, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-XatuEvosAttacks:
+ExVeemonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, LEER

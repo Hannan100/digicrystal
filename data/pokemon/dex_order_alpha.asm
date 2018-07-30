@@ -248,7 +248,7 @@ AlphabeticalPokedexOrder:
 	db WIGGLYTUFF
 	db WOBBUFFET
 	db WOOPER
-	db XATU
+	db EXVEEMON
 	db YANMA
 	db ZAPDOS
 	db ZUBAT

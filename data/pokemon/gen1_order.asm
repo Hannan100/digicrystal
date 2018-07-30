@@ -216,7 +216,7 @@ Pokered_MonIndices:
 	db DEMIVEEMON
 	db VEEMON
 	db VEEDRAMON
-	db XATU
+	db EXVEEMON
 	db MAREEP
 	db FLAAFFY
 	db AMPHAROS

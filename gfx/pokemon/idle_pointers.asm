@@ -176,7 +176,7 @@ AnimationIdlePointers:
 	dw DemiveemonAnimationIdle
 	dw VeemonAnimationIdle
 	dw VeedramonAnimationIdle
-	dw XatuAnimationIdle
+	dw ExVeemonAnimationIdle
 	dw MareepAnimationIdle
 	dw FlaaffyAnimationIdle
 	dw AmpharosAnimationIdle

@@ -182,7 +182,7 @@ PokemonCries::
 	mon_cry CRY_DEMIVEEMON,      $010,  $100 ; DEMIVEEMON
 	mon_cry CRY_VEEMON,     $03b,  $038 ; VEEMON
 	mon_cry CRY_VEEDRAMON,       -$067,  $100 ; VEEDRAMON
-	mon_cry CRY_VEEDRAMON,       -$0a7,  $168 ; XATU
+	mon_cry CRY_VEEDRAMON,       -$0a7,  $168 ; EXVEEMON
 	mon_cry CRY_MAREEP,      $022,  $0d8 ; MAREEP
 	mon_cry CRY_MAREEP,     -$007,  $180 ; FLAAFFY
 	mon_cry CRY_AMPHAROS,   -$07c,  $0e8 ; AMPHAROS

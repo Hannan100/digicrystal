@@ -356,8 +356,8 @@ PokemonPicPointers::
 	dba_pic VeemonBackpic
 	dba_pic VeedramonFrontpic
 	dba_pic VeedramonBackpic
-	dba_pic XatuFrontpic
-	dba_pic XatuBackpic
+	dba_pic ExVeemonFrontpic
+	dba_pic ExVeemonBackpic
 	dba_pic MareepFrontpic
 	dba_pic MareepBackpic
 	dba_pic FlaaffyFrontpic

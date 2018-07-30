@@ -407,7 +407,7 @@ INCBIN "gfx/footprints/demiveemon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/veemon.1bpp",    footprint_bottom
 ; 177-184 top halves
 INCBIN "gfx/footprints/veedramon.1bpp",       footprint_top
-INCBIN "gfx/footprints/xatu.1bpp",       footprint_top
+INCBIN "gfx/footprints/exveemon.1bpp",       footprint_top
 INCBIN "gfx/footprints/mareep.1bpp",     footprint_top
 INCBIN "gfx/footprints/flaaffy.1bpp",    footprint_top
 INCBIN "gfx/footprints/ampharos.1bpp",   footprint_top
@@ -416,7 +416,7 @@ INCBIN "gfx/footprints/marill.1bpp",     footprint_top
 INCBIN "gfx/footprints/azumarill.1bpp",  footprint_top
 ; 177-184 bottom halves
 INCBIN "gfx/footprints/veedramon.1bpp",       footprint_bottom
-INCBIN "gfx/footprints/xatu.1bpp",       footprint_bottom
+INCBIN "gfx/footprints/exveemon.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/mareep.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/flaaffy.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/ampharos.1bpp",   footprint_bottom

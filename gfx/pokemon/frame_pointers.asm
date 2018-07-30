@@ -176,7 +176,7 @@ FramesPointers:
 	dw DemiveemonFrames
 	dw VeemonFrames
 	dw VeedramonFrames
-	dw XatuFrames
+	dw ExVeemonFrames
 	dw MareepFrames
 	dw FlaaffyFrames
 	dw AmpharosFrames
