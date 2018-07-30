@@ -2424,7 +2424,6 @@ VeemonEvosAttacks:
 	db 0 ; no more level-up moves
 
 VeedramonEvosAttacks:
-	db EVOLVE_LEVEL, 25, XATU
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, LEER
