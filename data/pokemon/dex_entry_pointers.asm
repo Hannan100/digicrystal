@@ -176,7 +176,7 @@ PokedexDataPointerTable:
 	dw IgglybuffPokedexEntry
 	dw DemiveemonPokedexEntry
 	dw VeemonPokedexEntry
-	dw NatuPokedexEntry
+	dw VeedramonPokedexEntry
 	dw XatuPokedexEntry
 	dw MareepPokedexEntry
 	dw FlaaffyPokedexEntry

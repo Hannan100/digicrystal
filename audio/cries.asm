@@ -82,10 +82,10 @@ Cry_Typhlosion:
 	musicheader 1, 6, Cry_Typhlosion_Ch6
 	musicheader 1, 8, Cry_Typhlosion_Ch8
 
-Cry_Natu:
-	musicheader 3, 5, Cry_Natu_Ch5
-	musicheader 1, 6, Cry_Natu_Ch6
-	musicheader 1, 8, Cry_Natu_Ch8
+Cry_Veedramon:
+	musicheader 3, 5, Cry_Veedramon_Ch5
+	musicheader 1, 6, Cry_Veedramon_Ch6
+	musicheader 1, 8, Cry_Veedramon_Ch8
 
 Cry_Teddiursa:
 	musicheader 3, 5, Cry_Teddiursa_Ch5
@@ -640,7 +640,7 @@ Cry_Typhlosion_Ch8:
 	noise C#,  1, $75, $5f
 	endchannel
 
-Cry_Natu_Ch5:
+Cry_Veedramon_Ch5:
 	sound_duty 2, 3, 1, 3
 Cry_Mantine_branch_f32e9:
 Cry_Sunflora_branch_f32e9:
@@ -654,7 +654,7 @@ Cry_Mantine_branch_f32f5:
 	endchannel
 
 Cry_Mantine_branch_f3302:
-Cry_Natu_Ch6:
+Cry_Veedramon_Ch6:
 Cry_Sunflora_Ch6:
 	sound_duty 2, 0, 3, 3
 	sound __,  5, $f8, $07b2
@@ -667,7 +667,7 @@ Cry_Mantine_branch_f3310:
 	endchannel
 
 Cry_Mantine_branch_f331d:
-Cry_Natu_Ch8:
+Cry_Veedramon_Ch8:
 Cry_Sunflora_Ch8:
 	noise __,  5, $88, $5
 	noise __,  5, $88, $4

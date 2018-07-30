@@ -571,7 +571,7 @@ LoadMusicMailGFX:
 	ld de, MorphMailBorderGFX
 	ld c, 2 * 8
 	call LoadMailGFX_Color2
-	ld de, MailNatuGFX
+	ld de, MailVeedramonGFX
 	ld c, 6 * 8
 	call LoadMailGFX_Color3
 	xor a

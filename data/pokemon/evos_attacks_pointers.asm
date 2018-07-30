@@ -177,7 +177,7 @@ EvosAttacksPointers::
 	dw IgglybuffEvosAttacks
 	dw DemiveemonEvosAttacks
 	dw VeemonEvosAttacks
-	dw NatuEvosAttacks
+	dw VeedramonEvosAttacks
 	dw XatuEvosAttacks
 	dw MareepEvosAttacks
 	dw FlaaffyEvosAttacks

@@ -159,7 +159,7 @@ NewPokedexOrder:
 	db MR__MIME
 	db SMEARGLE
 	db FARFETCH_D
-	db NATU
+	db VEEDRAMON
 	db XATU
 	db QWILFISH
 	db TENTACOOL

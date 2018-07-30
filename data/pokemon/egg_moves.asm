@@ -579,7 +579,7 @@ DemiveemonEggMoves:
 	db FUTURE_SIGHT
 	db -1 ; end
 
-NatuEggMoves:
+VeedramonEggMoves:
 	db HAZE
 	db DRILL_PECK
 	db QUICK_ATTACK

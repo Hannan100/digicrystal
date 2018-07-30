@@ -63,7 +63,7 @@
 	const CRY_WOOPER
 	const CRY_MANTINE
 	const CRY_TYPHLOSION
-	const CRY_NATU
+	const CRY_VEEDRAMON
 	const CRY_TEDDIURSA
 	const CRY_SUNFLORA
 	const CRY_AMPHAROS

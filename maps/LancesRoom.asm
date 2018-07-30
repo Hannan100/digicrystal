@@ -264,7 +264,7 @@ LanceBattleAfterText:
 	line "responded to your"
 
 	para "strong and up-"
-	line "standing nature."
+	line "standing veedramonre."
 
 	para "As a trainer, you"
 	line "will continue to"

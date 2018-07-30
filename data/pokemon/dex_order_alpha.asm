@@ -139,7 +139,7 @@ AlphabeticalPokedexOrder:
 	db MR__MIME
 	db MUK
 	db MURKROW
-	db NATU
+	db VEEDRAMON
 	db NIDOKING
 	db NIDOQUEEN
 	db NIDORAN_F

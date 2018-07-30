@@ -175,7 +175,7 @@ PokemonNames::
 	db "IGGLYBUFF@"
 	db "DEMIVEEMON"
 	db "VEEMON@@@@"
-	db "NATU@@@@@@"
+	db "VEEDRAMON@@@@@@"
 	db "XATU@@@@@@"
 	db "MAREEP@@@@"
 	db "FLAAFFY@@@"

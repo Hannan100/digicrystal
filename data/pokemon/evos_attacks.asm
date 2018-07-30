@@ -2396,7 +2396,7 @@ IgglybuffEvosAttacks:
 	db 14, SWEET_KISS
 	db 0 ; no more level-up moves
 
-DemiveemonEvosAttacks:
+DemiveemonEvosAttacks:	
 	db EVOLVE_LEVEL, 12, VEEMON
 	db 0 ; no more evolutions
 	db 1, GROWL
@@ -2409,6 +2409,10 @@ DemiveemonEvosAttacks:
 	db 0 ; no more level-up moves
 
 VeemonEvosAttacks:
+	db EVOLVE_STAT, 30, ATK_LT_DEF, VEEDRAMON
+	db EVOLVE_STAT, 30, ATK_GT_DEF, EXVEEMON
+	db EVOLVE_ITEM, FIRE_STONE, FLAMEDRMON
+	db EVOLVE_ITEM, THUNDER_STONE, RAIDRAMON
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, CHARM
@@ -2419,7 +2423,7 @@ VeemonEvosAttacks:
 	db 38, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
-NatuEvosAttacks:
+VeedramonEvosAttacks:
 	db EVOLVE_LEVEL, 25, XATU
 	db 0 ; no more evolutions
 	db 1, PECK

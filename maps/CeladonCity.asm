@@ -197,7 +197,7 @@ CeladonGymSignText:
 	line "#MON GYM"
 	cont "LEADER: ERIKA"
 
-	para "The Nature-Loving"
+	para "The Veedramonre-Loving"
 	line "Princess"
 	done
 

@@ -179,7 +179,7 @@ endc
 	dw IgglybuffEggMoves
 	dw DemiveemonEggMoves
 	dw NoEggMoves
-	dw NatuEggMoves
+	dw VeedramonEggMoves
 	dw NoEggMoves
 	dw MareepEggMoves
 	dw NoEggMoves

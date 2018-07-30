@@ -58,7 +58,7 @@ Cries:
 	dba Cry_Wooper
 	dba Cry_Mantine
 	dba Cry_Typhlosion
-	dba Cry_Natu
+	dba Cry_Veedramon
 	dba Cry_Teddiursa
 	dba Cry_Sunflora
 	dba Cry_Ampharos

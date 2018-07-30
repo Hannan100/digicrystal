@@ -356,26 +356,26 @@ JohtoGrassWildMons:
 	map_id RUINS_OF_ALPH_OUTSIDE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NATU
-	db 22, NATU
-	db 18, NATU
-	db 24, NATU
+	db 20, VEEDRAMON
+	db 22, VEEDRAMON
+	db 18, VEEDRAMON
+	db 24, VEEDRAMON
 	db 20, SMEARGLE
 	db 22, SMEARGLE
 	db 22, SMEARGLE
 	; day
-	db 20, NATU
-	db 22, NATU
-	db 18, NATU
-	db 24, NATU
+	db 20, VEEDRAMON
+	db 22, VEEDRAMON
+	db 18, VEEDRAMON
+	db 24, VEEDRAMON
 	db 20, SMEARGLE
 	db 22, SMEARGLE
 	db 22, SMEARGLE
 	; nite
-	db 20, NATU
-	db 22, NATU
-	db 18, NATU
-	db 24, NATU
+	db 20, VEEDRAMON
+	db 22, VEEDRAMON
+	db 18, VEEDRAMON
+	db 24, VEEDRAMON
 	db 22, WOOPER
 	db 22, QUAGSIRE
 	db 22, QUAGSIRE

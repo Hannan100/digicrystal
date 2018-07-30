@@ -175,7 +175,7 @@ FramesPointers:
 	dw IgglybuffFrames
 	dw DemiveemonFrames
 	dw VeemonFrames
-	dw NatuFrames
+	dw VeedramonFrames
 	dw XatuFrames
 	dw MareepFrames
 	dw FlaaffyFrames
