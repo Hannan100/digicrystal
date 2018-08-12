@@ -53,7 +53,7 @@ NewPokedexOrder:
 	db EKANS
 	db ARBOK
 	db DUNSPARCE
-	db MAREEP
+	db FLAMEDRMON
 	db FLAAFFY
 	db AMPHAROS
 	db WOOPER

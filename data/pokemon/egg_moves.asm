@@ -587,7 +587,7 @@ VeedramonEggMoves:
 	db STEEL_WING
 	db -1 ; end
 
-MareepEggMoves:
+FlamedrmonEggMoves:
 	db THUNDERBOLT
 	db TAKE_DOWN
 	db BODY_SLAM

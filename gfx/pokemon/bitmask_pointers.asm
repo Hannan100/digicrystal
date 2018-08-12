@@ -177,7 +177,7 @@ BitmasksPointers:
 	dw VeemonBitmasks
 	dw VeedramonBitmasks
 	dw ExVeemonBitmasks
-	dw MareepBitmasks
+	dw FlamedrmonBitmasks
 	dw FlaaffyBitmasks
 	dw AmpharosBitmasks
 	dw BellossomBitmasks

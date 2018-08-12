@@ -125,7 +125,7 @@ AlphabeticalPokedexOrder:
 	db MAGNETON
 	db MANKEY
 	db MANTINE
-	db MAREEP
+	db FLAMEDRMON
 	db MARILL
 	db MAROWAK
 	db MEGANIUM

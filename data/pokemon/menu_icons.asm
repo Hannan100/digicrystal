@@ -179,7 +179,7 @@ MonMenuIcons:
 	db ICON_BIRD        ; VEEMON
 	db ICON_BIRD        ; VEEDRAMON
 	db ICON_BIRD        ; EXVEEMON
-	db ICON_FOX         ; MAREEP
+	db ICON_FOX         ; FLAMEDRMON
 	db ICON_MONSTER     ; FLAAFFY
 	db ICON_MONSTER     ; AMPHAROS
 	db ICON_ODDISH      ; BELLOSSOM

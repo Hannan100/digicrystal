@@ -2446,7 +2446,7 @@ ExVeemonEvosAttacks:
 	db 65, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-MareepEvosAttacks:
+FlamedrmonEvosAttacks:
 	db EVOLVE_LEVEL, 15, FLAAFFY
 	db 0 ; no more evolutions
 	db 1, TACKLE

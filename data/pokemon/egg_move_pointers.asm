@@ -181,7 +181,7 @@ endc
 	dw NoEggMoves
 	dw VeedramonEggMoves
 	dw NoEggMoves
-	dw MareepEggMoves
+	dw FlamedrmonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

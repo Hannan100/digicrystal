@@ -42,7 +42,7 @@ Cries:
 	dba Cry_Demiveemon
 	dba Cry_Girafarig
 	dba Cry_Raikou
-	dba Cry_Mareep
+	dba Cry_Flamedrmon
 	dba Cry_Veemon
 	dba Cry_Hoothoot
 	dba Cry_Sentret

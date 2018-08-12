@@ -47,7 +47,7 @@
 	const CRY_DEMIVEEMON
 	const CRY_GIRAFARIG
 	const CRY_RAIKOU
-	const CRY_MAREEP
+	const CRY_FLAMEDRMON
 	const CRY_VEEMON
 	const CRY_HOOTHOOT
 	const CRY_SENTRET

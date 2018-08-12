@@ -35,9 +35,9 @@ Cry_Slowking:
 	musicheader 1, 6, Cry_Slowking_Ch6
 	musicheader 1, 8, Cry_Slowking_Ch8
 
-Cry_Mareep:
-	musicheader 2, 5, Cry_Mareep_Ch5
-	musicheader 1, 6, Cry_Mareep_Ch6
+Cry_Flamedrmon:
+	musicheader 2, 5, Cry_Flamedrmon_Ch5
+	musicheader 1, 6, Cry_Flamedrmon_Ch6
 
 Cry_Koromon:
 	musicheader 3, 5, Cry_Koromon_Ch5
@@ -440,14 +440,14 @@ Cry_Sentret_Ch8:
 	noise __,  9, $92, $0
 	endchannel
 
-Cry_Mareep_Ch5:
+Cry_Flamedrmon_Ch5:
 	tone $0020
 	dutycycle $0
-	jumpchannel Cry_Mareep_branch_f3145
+	jumpchannel Cry_Flamedrmon_branch_f3145
 
-Cry_Mareep_Ch6:
+Cry_Flamedrmon_Ch6:
 	sound_duty 1, 0, 0, 0
-Cry_Mareep_branch_f3145:
+Cry_Flamedrmon_branch_f3145:
 Cry_Gligar_branch_f3145:
 	sound __,  5, $3a, $073d
 	sound __,  7, $f8, $0762

@@ -177,7 +177,7 @@ PokemonNames::
 	db "VEEMON@@@@"
 	db "VEEDRAMON@"
 	db "EX-VEEMON@"
-	db "MAREEP@@@@"
+	db "FLAMEDRMON"
 	db "FLAAFFY@@@"
 	db "AMPHAROS@@"
 	db "BELLOSSOM@"

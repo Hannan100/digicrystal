@@ -177,7 +177,7 @@ AnimationPointers:
 	dw VeemonAnimation
 	dw VeedramonAnimation
 	dw ExVeemonAnimation
-	dw MareepAnimation
+	dw FlamedrmonAnimation
 	dw FlaaffyAnimation
 	dw AmpharosAnimation
 	dw BellossomAnimation

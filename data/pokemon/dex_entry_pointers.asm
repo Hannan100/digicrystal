@@ -178,7 +178,7 @@ PokedexDataPointerTable:
 	dw VeemonPokedexEntry
 	dw VeedramonPokedexEntry
 	dw ExVeemonPokedexEntry
-	dw MareepPokedexEntry
+	dw FlamedrmonPokedexEntry
 	dw FlaaffyPokedexEntry
 	dw AmpharosPokedexEntry
 	dw BellossomPokedexEntry

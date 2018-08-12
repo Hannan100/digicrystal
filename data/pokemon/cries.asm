@@ -183,8 +183,8 @@ PokemonCries::
 	mon_cry CRY_VEEMON,     $03b,  $038 ; VEEMON
 	mon_cry CRY_VEEDRAMON,       -$067,  $100 ; VEEDRAMON
 	mon_cry CRY_VEEDRAMON,       -$0a7,  $168 ; EXVEEMON
-	mon_cry CRY_MAREEP,      $022,  $0d8 ; MAREEP
-	mon_cry CRY_MAREEP,     -$007,  $180 ; FLAAFFY
+	mon_cry CRY_FLAMEDRMON,      $022,  $0d8 ; FLAMEDRMON
+	mon_cry CRY_FLAMEDRMON,     -$007,  $180 ; FLAAFFY
 	mon_cry CRY_AMPHAROS,   -$07c,  $0e8 ; AMPHAROS
 	mon_cry CRY_CLEFFA,      $084,  $150 ; BELLOSSOM
 	mon_cry CRY_MARILL,      $11b,  $120 ; MARILL

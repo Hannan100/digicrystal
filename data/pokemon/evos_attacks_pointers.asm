@@ -179,7 +179,7 @@ EvosAttacksPointers::
 	dw VeemonEvosAttacks
 	dw VeedramonEvosAttacks
 	dw ExVeemonEvosAttacks
-	dw MareepEvosAttacks
+	dw FlamedrmonEvosAttacks
 	dw FlaaffyEvosAttacks
 	dw AmpharosEvosAttacks
 	dw BellossomEvosAttacks
