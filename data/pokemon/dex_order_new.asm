@@ -54,7 +54,7 @@ NewPokedexOrder:
 	db ARBOK
 	db DUNSPARCE
 	db FLAMEDRMON
-	db FLAAFFY
+	db RAIDRAMON
 	db AMPHAROS
 	db WOOPER
 	db QUAGSIRE

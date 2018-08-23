@@ -178,7 +178,7 @@ AnimationIdlePointers:
 	dw VeedramonAnimationIdle
 	dw ExVeemonAnimationIdle
 	dw FlamedrmonAnimationIdle
-	dw FlaaffyAnimationIdle
+	dw RaidramonAnimationIdle
 	dw AmpharosAnimationIdle
 	dw BellossomAnimationIdle
 	dw MarillAnimationIdle

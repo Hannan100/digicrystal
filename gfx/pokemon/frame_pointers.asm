@@ -178,7 +178,7 @@ FramesPointers:
 	dw VeedramonFrames
 	dw ExVeemonFrames
 	dw FlamedrmonFrames
-	dw FlaaffyFrames
+	dw RaidramonFrames
 	dw AmpharosFrames
 	dw BellossomFrames
 	dw MarillFrames

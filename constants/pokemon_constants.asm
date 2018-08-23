@@ -199,7 +199,7 @@ JOHTO_POKEMON EQU const_value
 	const VEEDRAMON       ; b1
 	const EXVEEMON       ; b2
 	const FLAMEDRMON     ; b3
-	const FLAAFFY    ; b4
+	const RAIDRAMON    ; b4
 	const AMPHAROS   ; b5
 	const BELLOSSOM  ; b6
 	const MARILL     ; b7

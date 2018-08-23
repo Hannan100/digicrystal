@@ -61,7 +61,7 @@ AlphabeticalPokedexOrder:
 	db FARFETCH_D
 	db FEAROW
 	db FERALIGATR
-	db FLAAFFY
+	db RAIDRAMON
 	db FLAREON
 	db FORRETRESS
 	db FURRET

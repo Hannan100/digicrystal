@@ -1,4 +1,4 @@
-	db FLAAFFY ; 180
+	db RAIDRAMON ; 180
 
 	db  70,  55,  55,  45,  80,  60
 	;   hp  atk  def  spd  sat  sdf
@@ -11,7 +11,7 @@
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch
 	db 5 ; unknown 2
-	INCBIN "gfx/pokemon/flaaffy/front.dimensions"
+	INCBIN "gfx/pokemon/raidramon/front.dimensions"
 	db 0, 0, 0, 0 ; padding
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups

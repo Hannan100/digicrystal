@@ -179,7 +179,7 @@ PokedexDataPointerTable:
 	dw VeedramonPokedexEntry
 	dw ExVeemonPokedexEntry
 	dw FlamedrmonPokedexEntry
-	dw FlaaffyPokedexEntry
+	dw RaidramonPokedexEntry
 	dw AmpharosPokedexEntry
 	dw BellossomPokedexEntry
 	dw MarillPokedexEntry

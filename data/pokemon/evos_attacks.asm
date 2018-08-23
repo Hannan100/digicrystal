@@ -2447,7 +2447,7 @@ ExVeemonEvosAttacks:
 	db 0 ; no more level-up moves
 
 FlamedrmonEvosAttacks:
-	db EVOLVE_LEVEL, 15, FLAAFFY
+	db EVOLVE_LEVEL, 15, RAIDRAMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2458,7 +2458,7 @@ FlamedrmonEvosAttacks:
 	db 37, THUNDER
 	db 0 ; no more level-up moves
 
-FlaaffyEvosAttacks:
+RaidramonEvosAttacks:
 	db EVOLVE_LEVEL, 30, AMPHAROS
 	db 0 ; no more evolutions
 	db 1, TACKLE
