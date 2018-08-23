@@ -24,7 +24,7 @@
 	const CRY_BLASTOISE
 	const CRY_PIDGEOTTO
 	const CRY_WEEDLE
-	const CRY_CATERPIE
+	const CRY_WORMMON
 	const CRY_EKANS
 	const CRY_FEAROW
 	const CRY_CLEFAIRY

@@ -8,7 +8,7 @@ AnimationIdlePointers:
 	dw SquirtleAnimationIdle
 	dw WartortleAnimationIdle
 	dw BlastoiseAnimationIdle
-	dw CaterpieAnimationIdle
+	dw WormmonAnimationIdle
 	dw MetapodAnimationIdle
 	dw ButterfreeAnimationIdle
 	dw WeedleAnimationIdle

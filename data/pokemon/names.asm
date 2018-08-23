@@ -8,7 +8,7 @@ PokemonNames::
 	db "SQUIRTLE@@"
 	db "WARTORTLE@"
 	db "BLASTOISE@"
-	db "CATERPIE@@"
+	db "WORMMON@@@"
 	db "METAPOD@@@"
 	db "BUTTERFREE"
 	db "WEEDLE@@@@"

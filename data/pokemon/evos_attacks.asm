@@ -169,7 +169,7 @@ BlastoiseEvosAttacks:
 	db 68, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-CaterpieEvosAttacks:
+WormmonEvosAttacks:
 	db EVOLVE_LEVEL, 7, METAPOD
 	db 0 ; no more evolutions
 	db 1, TACKLE
@@ -2447,7 +2447,6 @@ ExVeemonEvosAttacks:
 	db 0 ; no more level-up moves
 
 FlamedrmonEvosAttacks:
-	db EVOLVE_LEVEL, 15, RAIDRAMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2459,7 +2458,6 @@ FlamedrmonEvosAttacks:
 	db 0 ; no more level-up moves
 
 RaidramonEvosAttacks:
-	db EVOLVE_LEVEL, 30, AMPHAROS
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL

@@ -9,7 +9,7 @@ PokedexDataPointerTable:
 	dw SquirtlePokedexEntry
 	dw WartortlePokedexEntry
 	dw BlastoisePokedexEntry
-	dw CaterpiePokedexEntry
+	dw WormmonPokedexEntry
 	dw MetapodPokedexEntry
 	dw ButterfreePokedexEntry
 	dw WeedlePokedexEntry
