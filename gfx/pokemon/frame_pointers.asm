@@ -8,7 +8,7 @@ FramesPointers:
 	dw SquirtleFrames
 	dw WartortleFrames
 	dw BlastoiseFrames
-	dw CaterpieFrames
+	dw WormmonFrames
 	dw MetapodFrames
 	dw ButterfreeFrames
 	dw WeedleFrames
@@ -150,10 +150,10 @@ FramesPointers:
 	dw DragoniteFrames
 	dw MewtwoFrames
 	dw MewFrames
-	dw ChikoritaFrames
+	dw TanemonFrames
 	dw BayleefFrames
 	dw MeganiumFrames
-	dw CyndaquilFrames
+	dw KoromonFrames
 	dw QuilavaFrames
 	dw TyphlosionFrames
 	dw TotodileFrames
@@ -173,12 +173,12 @@ FramesPointers:
 	dw PichuFrames
 	dw CleffaFrames
 	dw IgglybuffFrames
-	dw TogepiFrames
-	dw TogeticFrames
-	dw NatuFrames
-	dw XatuFrames
-	dw MareepFrames
-	dw FlaaffyFrames
+	dw DemiveemonFrames
+	dw VeemonFrames
+	dw VeedramonFrames
+	dw ExVeemonFrames
+	dw FlamedrmonFrames
+	dw RaidramonFrames
 	dw AmpharosFrames
 	dw BellossomFrames
 	dw MarillFrames

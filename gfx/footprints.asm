@@ -29,7 +29,7 @@ INCBIN "gfx/footprints/squirtle.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_bottom
 ; 009-016 top halves
 INCBIN "gfx/footprints/blastoise.1bpp",  footprint_top
-INCBIN "gfx/footprints/caterpie.1bpp",   footprint_top
+INCBIN "gfx/footprints/wormmon.1bpp",   footprint_top
 INCBIN "gfx/footprints/metapod.1bpp",    footprint_top
 INCBIN "gfx/footprints/butterfree.1bpp", footprint_top
 INCBIN "gfx/footprints/weedle.1bpp",     footprint_top
@@ -38,7 +38,7 @@ INCBIN "gfx/footprints/beedrill.1bpp",   footprint_top
 INCBIN "gfx/footprints/pidgey.1bpp",     footprint_top
 ; 009-016 bottom halves
 INCBIN "gfx/footprints/blastoise.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/caterpie.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/wormmon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/metapod.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/butterfree.1bpp", footprint_bottom
 INCBIN "gfx/footprints/weedle.1bpp",     footprint_bottom
@@ -341,7 +341,7 @@ INCBIN "gfx/footprints/dragonair.1bpp",  footprint_top
 INCBIN "gfx/footprints/dragonite.1bpp",  footprint_top
 INCBIN "gfx/footprints/mewtwo.1bpp",     footprint_top
 INCBIN "gfx/footprints/mew.1bpp",        footprint_top
-INCBIN "gfx/footprints/chikorita.1bpp",  footprint_top
+INCBIN "gfx/footprints/tanemon.1bpp",  footprint_top
 ; 145-152 bottom halves
 INCBIN "gfx/footprints/zapdos.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/moltres.1bpp",    footprint_bottom
@@ -350,11 +350,11 @@ INCBIN "gfx/footprints/dragonair.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/dragonite.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/mewtwo.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/mew.1bpp",        footprint_bottom
-INCBIN "gfx/footprints/chikorita.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/tanemon.1bpp",  footprint_bottom
 ; 153-160 top halves
 INCBIN "gfx/footprints/bayleef.1bpp",    footprint_top
 INCBIN "gfx/footprints/meganium.1bpp",   footprint_top
-INCBIN "gfx/footprints/cyndaquil.1bpp",  footprint_top
+INCBIN "gfx/footprints/koromon.1bpp",  footprint_top
 INCBIN "gfx/footprints/quilava.1bpp",    footprint_top
 INCBIN "gfx/footprints/typhlosion.1bpp", footprint_top
 INCBIN "gfx/footprints/totodile.1bpp",   footprint_top
@@ -363,7 +363,7 @@ INCBIN "gfx/footprints/feraligatr.1bpp", footprint_top
 ; 153-160 bottom halves
 INCBIN "gfx/footprints/bayleef.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/meganium.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/cyndaquil.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/koromon.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/quilava.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/typhlosion.1bpp", footprint_bottom
 INCBIN "gfx/footprints/totodile.1bpp",   footprint_bottom
@@ -394,8 +394,8 @@ INCBIN "gfx/footprints/lanturn.1bpp",    footprint_top
 INCBIN "gfx/footprints/pichu.1bpp",      footprint_top
 INCBIN "gfx/footprints/cleffa.1bpp",     footprint_top
 INCBIN "gfx/footprints/igglybuff.1bpp",  footprint_top
-INCBIN "gfx/footprints/togepi.1bpp",     footprint_top
-INCBIN "gfx/footprints/togetic.1bpp",    footprint_top
+INCBIN "gfx/footprints/demiveemon.1bpp",     footprint_top
+INCBIN "gfx/footprints/veemon.1bpp",    footprint_top
 ; 169-176 bottom halves
 INCBIN "gfx/footprints/crobat.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/chinchou.1bpp",   footprint_bottom
@@ -403,22 +403,22 @@ INCBIN "gfx/footprints/lanturn.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/pichu.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/cleffa.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/igglybuff.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/togepi.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/togetic.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/demiveemon.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/veemon.1bpp",    footprint_bottom
 ; 177-184 top halves
-INCBIN "gfx/footprints/natu.1bpp",       footprint_top
-INCBIN "gfx/footprints/xatu.1bpp",       footprint_top
-INCBIN "gfx/footprints/mareep.1bpp",     footprint_top
-INCBIN "gfx/footprints/flaaffy.1bpp",    footprint_top
+INCBIN "gfx/footprints/veedramon.1bpp",       footprint_top
+INCBIN "gfx/footprints/exveemon.1bpp",       footprint_top
+INCBIN "gfx/footprints/flamedrmon.1bpp",     footprint_top
+INCBIN "gfx/footprints/raidramon.1bpp",    footprint_top
 INCBIN "gfx/footprints/ampharos.1bpp",   footprint_top
 INCBIN "gfx/footprints/bellossom.1bpp",  footprint_top
 INCBIN "gfx/footprints/marill.1bpp",     footprint_top
 INCBIN "gfx/footprints/azumarill.1bpp",  footprint_top
 ; 177-184 bottom halves
-INCBIN "gfx/footprints/natu.1bpp",       footprint_bottom
-INCBIN "gfx/footprints/xatu.1bpp",       footprint_bottom
-INCBIN "gfx/footprints/mareep.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/flaaffy.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/veedramon.1bpp",       footprint_bottom
+INCBIN "gfx/footprints/exveemon.1bpp",       footprint_bottom
+INCBIN "gfx/footprints/flamedrmon.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/raidramon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/ampharos.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/bellossom.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/marill.1bpp",     footprint_bottom

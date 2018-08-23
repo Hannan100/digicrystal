@@ -19,13 +19,13 @@ AlphabeticalPokedexOrder:
 	db BLISSEY
 	db BULBASAUR
 	db BUTTERFREE
-	db CATERPIE
+	db WORMMON
 	db CELEBI
 	db CHANSEY
 	db CHARIZARD
 	db CHARMANDER
 	db CHARMELEON
-	db CHIKORITA
+	db TANEMON
 	db CHINCHOU
 	db CLEFABLE
 	db CLEFAIRY
@@ -35,7 +35,7 @@ AlphabeticalPokedexOrder:
 	db CROBAT
 	db CROCONAW
 	db CUBONE
-	db CYNDAQUIL
+	db KOROMON
 	db DELIBIRD
 	db DEWGONG
 	db DIGLETT
@@ -61,7 +61,7 @@ AlphabeticalPokedexOrder:
 	db FARFETCH_D
 	db FEAROW
 	db FERALIGATR
-	db FLAAFFY
+	db RAIDRAMON
 	db FLAREON
 	db FORRETRESS
 	db FURRET
@@ -125,7 +125,7 @@ AlphabeticalPokedexOrder:
 	db MAGNETON
 	db MANKEY
 	db MANTINE
-	db MAREEP
+	db FLAMEDRMON
 	db MARILL
 	db MAROWAK
 	db MEGANIUM
@@ -139,7 +139,7 @@ AlphabeticalPokedexOrder:
 	db MR__MIME
 	db MUK
 	db MURKROW
-	db NATU
+	db VEEDRAMON
 	db NIDOKING
 	db NIDOQUEEN
 	db NIDORAN_F
@@ -224,8 +224,8 @@ AlphabeticalPokedexOrder:
 	db TEDDIURSA
 	db TENTACOOL
 	db TENTACRUEL
-	db TOGEPI
-	db TOGETIC
+	db DEMIVEEMON
+	db VEEMON
 	db TOTODILE
 	db TYPHLOSION
 	db TYRANITAR
@@ -248,7 +248,7 @@ AlphabeticalPokedexOrder:
 	db WIGGLYTUFF
 	db WOBBUFFET
 	db WOOPER
-	db XATU
+	db EXVEEMON
 	db YANMA
 	db ZAPDOS
 	db ZUBAT

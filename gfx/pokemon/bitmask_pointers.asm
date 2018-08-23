@@ -8,7 +8,7 @@ BitmasksPointers:
 	dw SquirtleBitmasks
 	dw WartortleBitmasks
 	dw BlastoiseBitmasks
-	dw CaterpieBitmasks
+	dw WormmonBitmasks
 	dw MetapodBitmasks
 	dw ButterfreeBitmasks
 	dw WeedleBitmasks
@@ -150,10 +150,10 @@ BitmasksPointers:
 	dw DragoniteBitmasks
 	dw MewtwoBitmasks
 	dw MewBitmasks
-	dw ChikoritaBitmasks
+	dw TanemonBitmasks
 	dw BayleefBitmasks
 	dw MeganiumBitmasks
-	dw CyndaquilBitmasks
+	dw KoromonBitmasks
 	dw QuilavaBitmasks
 	dw TyphlosionBitmasks
 	dw TotodileBitmasks
@@ -173,12 +173,12 @@ BitmasksPointers:
 	dw PichuBitmasks
 	dw CleffaBitmasks
 	dw IgglybuffBitmasks
-	dw TogepiBitmasks
-	dw TogeticBitmasks
-	dw NatuBitmasks
-	dw XatuBitmasks
-	dw MareepBitmasks
-	dw FlaaffyBitmasks
+	dw DemiveemonBitmasks
+	dw VeemonBitmasks
+	dw VeedramonBitmasks
+	dw ExVeemonBitmasks
+	dw FlamedrmonBitmasks
+	dw RaidramonBitmasks
 	dw AmpharosBitmasks
 	dw BellossomBitmasks
 	dw MarillBitmasks

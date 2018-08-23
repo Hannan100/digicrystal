@@ -82,7 +82,7 @@ CinnabarIslandBlueText:
 	line "ning and losing in"
 
 	para "#MON. But if"
-	line "nature so much as"
+	line "veedramonre so much as"
 
 	para "twitches, we can"
 	line "lose in a second."

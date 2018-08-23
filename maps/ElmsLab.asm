@@ -101,37 +101,37 @@ ElmCheckMasterBall:
 ElmCheckEverstone:
 	checkevent EVENT_GOT_EVERSTONE_FROM_ELM
 	iftrue ElmScript_CallYou
-	checkevent EVENT_SHOWED_TOGEPI_TO_ELM
+	checkevent EVENT_SHOWED_DEMIVEEMON_TO_ELM
 	iftrue ElmGiveEverstoneScript
-	checkevent EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE
-	iffalse ElmCheckTogepiEgg
-	writebyte TOGEPI
+	checkevent EVENT_TOLD_ELM_ABOUT_DEMIVEEMON_OVER_THE_PHONE
+	iffalse ElmCheckDemiveemonEgg
+	writebyte DEMIVEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
-	writebyte TOGETIC
+	iftrue ShowElmDemiveemonScript
+	writebyte VEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
+	iftrue ShowElmDemiveemonScript
 	writetext UnknownText_0x79a40
 	waitbutton
 	closetext
 	end
 
 ElmEggHatchedScript:
-	writebyte TOGEPI
+	writebyte DEMIVEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
-	writebyte TOGETIC
+	iftrue ShowElmDemiveemonScript
+	writebyte VEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
+	iftrue ShowElmDemiveemonScript
 	jump ElmCheckGotEggAgain
 
-ElmCheckTogepiEgg:
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+ElmCheckDemiveemonEgg:
+	checkevent EVENT_GOT_DEMIVEEMON_EGG_FROM_ELMS_AIDE
 	iffalse ElmCheckGotEggAgain
-	checkevent EVENT_TOGEPI_HATCHED
+	checkevent EVENT_DEMIVEEMON_HATCHED
 	iftrue ElmEggHatchedScript
 ElmCheckGotEggAgain:
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE ; why are we checking it again?
+	checkevent EVENT_GOT_DEMIVEEMON_EGG_FROM_ELMS_AIDE ; why are we checking it again?
 	iftrue ElmWaitingEggHatchScript
 	checkflag ENGINE_ZEPHYRBADGE
 	iftrue ElmAideHasEggScript
@@ -155,34 +155,34 @@ LabTryToLeaveScript:
 	applymovement PLAYER, ElmsLab_CantLeaveMovement
 	end
 
-CyndaquilPokeBallScript:
+KoromonPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic CYNDAQUIL
-	cry CYNDAQUIL
+	pokepic KOROMON
+	cry KOROMON
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeCyndaquilText
+	writetext TakeKoromonText
 	yesorno
 	iffalse DidntChooseStarterScript
 	disappear ELMSLAB_POKE_BALL1
-	setevent EVENT_GOT_CYNDAQUIL_FROM_ELM
+	setevent EVENT_GOT_KOROMON_FROM_ELM
 	writetext ChoseStarterText
 	buttonsound
 	waitsfx
-	pokenamemem CYNDAQUIL, MEM_BUFFER_0
+	pokenamemem KOROMON, MEM_BUFFER_0
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke CYNDAQUIL, 5, BERRY
+	givepoke KOROMON, 5, BERRY
 	closetext
 	checkcode VAR_FACING
 	ifequal RIGHT, ElmDirectionsScript
-	applymovement PLAYER, AfterCyndaquilMovement
+	applymovement PLAYER, AfterKoromonMovement
 	jump ElmDirectionsScript
 
 TotodilePokeBallScript:
@@ -213,32 +213,32 @@ TotodilePokeBallScript:
 	applymovement PLAYER, AfterTotodileMovement
 	jump ElmDirectionsScript
 
-ChikoritaPokeBallScript:
+TanemonPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic CHIKORITA
-	cry CHIKORITA
+	pokepic TANEMON
+	cry TANEMON
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeChikoritaText
+	writetext TakeTanemonText
 	yesorno
 	iffalse DidntChooseStarterScript
 	disappear ELMSLAB_POKE_BALL3
-	setevent EVENT_GOT_CHIKORITA_FROM_ELM
+	setevent EVENT_GOT_TANEMON_FROM_ELM
 	writetext ChoseStarterText
 	buttonsound
 	waitsfx
-	pokenamemem CHIKORITA, MEM_BUFFER_0
+	pokenamemem TANEMON, MEM_BUFFER_0
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke CHIKORITA, 5, BERRY
+	givepoke TANEMON, 5, BERRY
 	closetext
-	applymovement PLAYER, AfterChikoritaMovement
+	applymovement PLAYER, AfterTanemonMovement
 	jump ElmDirectionsScript
 
 DidntChooseStarterScript:
@@ -366,16 +366,16 @@ ElmWaitingEggHatchScript:
 	closetext
 	end
 
-ShowElmTogepiScript:
-	writetext ShowElmTogepiText1
+ShowElmDemiveemonScript:
+	writetext ShowElmDemiveemonText1
 	waitbutton
 	closetext
 	showemote EMOTE_SHOCK, ELMSLAB_ELM, 15
-	setevent EVENT_SHOWED_TOGEPI_TO_ELM
+	setevent EVENT_SHOWED_DEMIVEEMON_TO_ELM
 	opentext
-	writetext ShowElmTogepiText2
+	writetext ShowElmDemiveemonText2
 	buttonsound
-	writetext ShowElmTogepiText3
+	writetext ShowElmDemiveemonText3
 	buttonsound
 ElmGiveEverstoneScript:
 	writetext ElmGiveEverstoneText1
@@ -515,7 +515,7 @@ AideScript_ReceiveTheBalls:
 ElmsAideScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_DEMIVEEMON_EGG_FROM_ELMS_AIDE
 	iftrue AideScript_AfterTheft
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftrue AideScript_ExplainBalls
@@ -702,7 +702,7 @@ ElmsLab_ElmToDefaultPositionMovement2:
 	turn_head DOWN
 	step_end
 
-AfterCyndaquilMovement:
+AfterKoromonMovement:
 	step LEFT
 	step UP
 	turn_head UP
@@ -715,7 +715,7 @@ AfterTotodileMovement:
 	turn_head UP
 	step_end
 
-AfterChikoritaMovement:
+AfterTanemonMovement:
 	step LEFT
 	step LEFT
 	step LEFT
@@ -856,9 +856,9 @@ LabWhereGoingText:
 	line "are you going?"
 	done
 
-TakeCyndaquilText:
+TakeKoromonText:
 	text "ELM: You'll take"
-	line "CYNDAQUIL, the"
+	line "KOROMON, the"
 	cont "fire #MON?"
 	done
 
@@ -868,9 +868,9 @@ TakeTotodileText:
 	cont "water #MON?"
 	done
 
-TakeChikoritaText:
+TakeTanemonText:
 	text "ELM: So, you like"
-	line "CHIKORITA, the"
+	line "TANEMON, the"
 	cont "grass #MON?"
 	done
 
@@ -1072,17 +1072,17 @@ UnknownText_0x79a40:
 	line "#MON?"
 	done
 
-ShowElmTogepiText1:
+ShowElmDemiveemonText1:
 	text "ELM: <PLAY_G>, you"
 	line "look great!"
 	done
 
-ShowElmTogepiText2:
+ShowElmDemiveemonText2:
 	text "What?"
 	line "That #MON!?!"
 	done
 
-ShowElmTogepiText3:
+ShowElmDemiveemonText3:
 	text "The EGG hatched!"
 	line "So, #MON are"
 	cont "born from EGGS…"
@@ -1406,7 +1406,7 @@ ElmsLab_MapEvents:
 	db 6 ; object events
 	object_event  5,  2, SPRITE_ELM, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfElmScript, -1
 	object_event  2,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ElmsAideScript, EVENT_ELMS_AIDE_IN_LAB
-	object_event  6,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CyndaquilPokeBallScript, EVENT_CYNDAQUIL_POKEBALL_IN_ELMS_LAB
+	object_event  6,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, KoromonPokeBallScript, EVENT_KOROMON_POKEBALL_IN_ELMS_LAB
 	object_event  7,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TotodilePokeBallScript, EVENT_TOTODILE_POKEBALL_IN_ELMS_LAB
-	object_event  8,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ChikoritaPokeBallScript, EVENT_CHIKORITA_POKEBALL_IN_ELMS_LAB
+	object_event  8,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TanemonPokeBallScript, EVENT_TANEMON_POKEBALL_IN_ELMS_LAB
 	object_event  5,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CopScript, EVENT_COP_IN_ELMS_LAB

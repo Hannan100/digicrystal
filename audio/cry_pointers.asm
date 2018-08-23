@@ -21,7 +21,7 @@ Cries:
 	dba Cry_Blastoise
 	dba Cry_Pidgeotto
 	dba Cry_Weedle
-	dba Cry_Caterpie
+	dba Cry_Wormmon
 	dba Cry_Ekans
 	dba Cry_Fearow
 	dba Cry_Clefairy
@@ -39,16 +39,16 @@ Cries:
 	dba Cry_Weepinbell
 	dba Cry_Marill
 	dba Cry_Spinarak
-	dba Cry_Togepi
+	dba Cry_Demiveemon
 	dba Cry_Girafarig
 	dba Cry_Raikou
-	dba Cry_Mareep
-	dba Cry_Togetic
+	dba Cry_Flamedrmon
+	dba Cry_Veemon
 	dba Cry_Hoothoot
 	dba Cry_Sentret
 	dba Cry_Slowking
-	dba Cry_Cyndaquil
-	dba Cry_Chikorita
+	dba Cry_Koromon
+	dba Cry_Tanemon
 	dba Cry_Totodile
 	dba Cry_Gligar
 	dba Cry_Cleffa
@@ -58,7 +58,7 @@ Cries:
 	dba Cry_Wooper
 	dba Cry_Mantine
 	dba Cry_Typhlosion
-	dba Cry_Natu
+	dba Cry_Veedramon
 	dba Cry_Teddiursa
 	dba Cry_Sunflora
 	dba Cry_Ampharos

@@ -20,8 +20,8 @@ PokemonPicPointers::
 	dba_pic WartortleBackpic
 	dba_pic BlastoiseFrontpic
 	dba_pic BlastoiseBackpic
-	dba_pic CaterpieFrontpic
-	dba_pic CaterpieBackpic
+	dba_pic WormmonFrontpic
+	dba_pic WormmonBackpic
 	dba_pic MetapodFrontpic
 	dba_pic MetapodBackpic
 	dba_pic ButterfreeFrontpic
@@ -304,14 +304,14 @@ PokemonPicPointers::
 	dba_pic MewtwoBackpic
 	dba_pic MewFrontpic
 	dba_pic MewBackpic
-	dba_pic ChikoritaFrontpic
-	dba_pic ChikoritaBackpic
+	dba_pic TanemonFrontpic
+	dba_pic TanemonBackpic
 	dba_pic BayleefFrontpic
 	dba_pic BayleefBackpic
 	dba_pic MeganiumFrontpic
 	dba_pic MeganiumBackpic
-	dba_pic CyndaquilFrontpic
-	dba_pic CyndaquilBackpic
+	dba_pic KoromonFrontpic
+	dba_pic KoromonBackpic
 	dba_pic QuilavaFrontpic
 	dba_pic QuilavaBackpic
 	dba_pic TyphlosionFrontpic
@@ -350,18 +350,18 @@ PokemonPicPointers::
 	dba_pic CleffaBackpic
 	dba_pic IgglybuffFrontpic
 	dba_pic IgglybuffBackpic
-	dba_pic TogepiFrontpic
-	dba_pic TogepiBackpic
-	dba_pic TogeticFrontpic
-	dba_pic TogeticBackpic
-	dba_pic NatuFrontpic
-	dba_pic NatuBackpic
-	dba_pic XatuFrontpic
-	dba_pic XatuBackpic
-	dba_pic MareepFrontpic
-	dba_pic MareepBackpic
-	dba_pic FlaaffyFrontpic
-	dba_pic FlaaffyBackpic
+	dba_pic DemiveemonFrontpic
+	dba_pic DemiveemonBackpic
+	dba_pic VeemonFrontpic
+	dba_pic VeemonBackpic
+	dba_pic VeedramonFrontpic
+	dba_pic VeedramonBackpic
+	dba_pic ExVeemonFrontpic
+	dba_pic ExVeemonBackpic
+	dba_pic FlamedrmonFrontpic
+	dba_pic FlamedrmonBackpic
+	dba_pic RaidramonFrontpic
+	dba_pic RaidramonBackpic
 	dba_pic AmpharosFrontpic
 	dba_pic AmpharosBackpic
 	dba_pic BellossomFrontpic

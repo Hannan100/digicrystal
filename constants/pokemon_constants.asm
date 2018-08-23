@@ -28,7 +28,7 @@
 	const SQUIRTLE   ; 07
 	const WARTORTLE  ; 08
 	const BLASTOISE  ; 09
-	const CATERPIE   ; 0a
+	const WORMMON   ; 0a
 	const METAPOD    ; 0b
 	const BUTTERFREE ; 0c
 	const WEEDLE     ; 0d
@@ -171,10 +171,10 @@
 	const MEWTWO     ; 96
 	const MEW        ; 97
 JOHTO_POKEMON EQU const_value
-	const CHIKORITA  ; 98
+	const TANEMON    ; 98
 	const BAYLEEF    ; 99
 	const MEGANIUM   ; 9a
-	const CYNDAQUIL  ; 9b
+	const KOROMON  ; 9b
 	const QUILAVA    ; 9c
 	const TYPHLOSION ; 9d
 	const TOTODILE   ; 9e
@@ -194,12 +194,12 @@ JOHTO_POKEMON EQU const_value
 	const PICHU      ; ac
 	const CLEFFA     ; ad
 	const IGGLYBUFF  ; ae
-	const TOGEPI     ; af
-	const TOGETIC    ; b0
-	const NATU       ; b1
-	const XATU       ; b2
-	const MAREEP     ; b3
-	const FLAAFFY    ; b4
+	const DEMIVEEMON     ; af
+	const VEEMON    ; b0
+	const VEEDRAMON       ; b1
+	const EXVEEMON       ; b2
+	const FLAMEDRMON     ; b3
+	const RAIDRAMON    ; b4
 	const AMPHAROS   ; b5
 	const BELLOSSOM  ; b6
 	const MARILL     ; b7

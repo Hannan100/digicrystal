@@ -480,7 +480,7 @@ DratiniEggMoves:
 	db SUPERSONIC
 	db -1 ; end
 
-ChikoritaEggMoves:
+TanemonEggMoves:
 	db VINE_WHIP
 	db LEECH_SEED
 	db COUNTER
@@ -489,7 +489,7 @@ ChikoritaEggMoves:
 	db SWORDS_DANCE
 	db -1 ; end
 
-CyndaquilEggMoves:
+KoromonEggMoves:
 	db FURY_SWIPES
 	db QUICK_ATTACK
 	db REVERSAL
@@ -571,7 +571,7 @@ IgglybuffEggMoves:
 	db FAINT_ATTACK
 	db -1 ; end
 
-TogepiEggMoves:
+DemiveemonEggMoves:
 	db PRESENT
 	db MIRROR_MOVE
 	db PECK
@@ -579,7 +579,7 @@ TogepiEggMoves:
 	db FUTURE_SIGHT
 	db -1 ; end
 
-NatuEggMoves:
+VeedramonEggMoves:
 	db HAZE
 	db DRILL_PECK
 	db QUICK_ATTACK
@@ -587,7 +587,7 @@ NatuEggMoves:
 	db STEEL_WING
 	db -1 ; end
 
-MareepEggMoves:
+FlamedrmonEggMoves:
 	db THUNDERBOLT
 	db TAKE_DOWN
 	db BODY_SLAM

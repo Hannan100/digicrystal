@@ -10,7 +10,7 @@ EvosAttacksPointers::
 	dw SquirtleEvosAttacks
 	dw WartortleEvosAttacks
 	dw BlastoiseEvosAttacks
-	dw CaterpieEvosAttacks
+	dw WormmonEvosAttacks
 	dw MetapodEvosAttacks
 	dw ButterfreeEvosAttacks
 	dw WeedleEvosAttacks
@@ -152,10 +152,10 @@ EvosAttacksPointers::
 	dw DragoniteEvosAttacks
 	dw MewtwoEvosAttacks
 	dw MewEvosAttacks
-	dw ChikoritaEvosAttacks
+	dw TanemonEvosAttacks
 	dw BayleefEvosAttacks
 	dw MeganiumEvosAttacks
-	dw CyndaquilEvosAttacks
+	dw KoromonEvosAttacks
 	dw QuilavaEvosAttacks
 	dw TyphlosionEvosAttacks
 	dw TotodileEvosAttacks
@@ -175,12 +175,12 @@ EvosAttacksPointers::
 	dw PichuEvosAttacks
 	dw CleffaEvosAttacks
 	dw IgglybuffEvosAttacks
-	dw TogepiEvosAttacks
-	dw TogeticEvosAttacks
-	dw NatuEvosAttacks
-	dw XatuEvosAttacks
-	dw MareepEvosAttacks
-	dw FlaaffyEvosAttacks
+	dw DemiveemonEvosAttacks
+	dw VeemonEvosAttacks
+	dw VeedramonEvosAttacks
+	dw ExVeemonEvosAttacks
+	dw FlamedrmonEvosAttacks
+	dw RaidramonEvosAttacks
 	dw AmpharosEvosAttacks
 	dw BellossomEvosAttacks
 	dw MarillEvosAttacks

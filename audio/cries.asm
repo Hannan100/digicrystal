@@ -3,13 +3,13 @@ Cry_Marill:
 	musicheader 1, 6, Cry_Marill_Ch6
 	musicheader 1, 8, Cry_Marill_Ch8
 
-Cry_Togepi:
-	musicheader 2, 5, Cry_Togepi_Ch5
-	musicheader 1, 6, Cry_Togepi_Ch6
+Cry_Demiveemon:
+	musicheader 2, 5, Cry_Demiveemon_Ch5
+	musicheader 1, 6, Cry_Demiveemon_Ch6
 
-Cry_Togetic:
-	musicheader 2, 5, Cry_Togetic_Ch5
-	musicheader 1, 6, Cry_Togetic_Ch6
+Cry_Veemon:
+	musicheader 2, 5, Cry_Veemon_Ch5
+	musicheader 1, 6, Cry_Veemon_Ch6
 
 Cry_Spinarak:
 	musicheader 3, 5, Cry_Spinarak_Ch5
@@ -35,19 +35,19 @@ Cry_Slowking:
 	musicheader 1, 6, Cry_Slowking_Ch6
 	musicheader 1, 8, Cry_Slowking_Ch8
 
-Cry_Mareep:
-	musicheader 2, 5, Cry_Mareep_Ch5
-	musicheader 1, 6, Cry_Mareep_Ch6
+Cry_Flamedrmon:
+	musicheader 2, 5, Cry_Flamedrmon_Ch5
+	musicheader 1, 6, Cry_Flamedrmon_Ch6
 
-Cry_Cyndaquil:
-	musicheader 3, 5, Cry_Cyndaquil_Ch5
-	musicheader 1, 6, Cry_Cyndaquil_Ch6
-	musicheader 1, 8, Cry_Cyndaquil_Ch8
+Cry_Koromon:
+	musicheader 3, 5, Cry_Koromon_Ch5
+	musicheader 1, 6, Cry_Koromon_Ch6
+	musicheader 1, 8, Cry_Koromon_Ch8
 
-Cry_Chikorita:
-	musicheader 3, 5, Cry_Chikorita_Ch5
-	musicheader 1, 6, Cry_Chikorita_Ch6
-	musicheader 1, 8, Cry_Chikorita_Ch8
+Cry_Tanemon:
+	musicheader 3, 5, Cry_Tanemon_Ch5
+	musicheader 1, 6, Cry_Tanemon_Ch6
+	musicheader 1, 8, Cry_Tanemon_Ch8
 
 Cry_Gligar:
 	musicheader 2, 5, Cry_Gligar_Ch5
@@ -82,10 +82,10 @@ Cry_Typhlosion:
 	musicheader 1, 6, Cry_Typhlosion_Ch6
 	musicheader 1, 8, Cry_Typhlosion_Ch8
 
-Cry_Natu:
-	musicheader 3, 5, Cry_Natu_Ch5
-	musicheader 1, 6, Cry_Natu_Ch6
-	musicheader 1, 8, Cry_Natu_Ch8
+Cry_Veedramon:
+	musicheader 3, 5, Cry_Veedramon_Ch5
+	musicheader 1, 6, Cry_Veedramon_Ch6
+	musicheader 1, 8, Cry_Veedramon_Ch8
 
 Cry_Teddiursa:
 	musicheader 3, 5, Cry_Teddiursa_Ch5
@@ -315,10 +315,10 @@ Cry_Marill_Ch8:
 	noise __, 11, $62, $6c
 	endchannel
 
-Cry_Togepi_Ch5:
+Cry_Demiveemon_Ch5:
 	tone $0002
-Cry_Togepi_Ch6:
-Cry_Togetic_branch_f3022:
+Cry_Demiveemon_Ch6:
+Cry_Veemon_branch_f3022:
 	sound_duty 2, 0, 1, 1
 	sound __,  5, $f1, $0796
 	sound __,  5, $f1, $072d
@@ -326,11 +326,11 @@ Cry_Togetic_branch_f3022:
 	sound C_,  1, $f1, $07a7
 	endchannel
 
-Cry_Togetic_Ch5:
+Cry_Veemon_Ch5:
 	tone $0002
-Cry_Togetic_Ch6:
-	callchannel Cry_Togetic_branch_f3022
-	loopchannel 2, Cry_Togetic_Ch6
+Cry_Veemon_Ch6:
+	callchannel Cry_Veemon_branch_f3022
+	loopchannel 2, Cry_Veemon_Ch6
 	sound __, 15, $0, 0
 	sound __,  9, $f2, $07c2
 	endchannel
@@ -440,14 +440,14 @@ Cry_Sentret_Ch8:
 	noise __,  9, $92, $0
 	endchannel
 
-Cry_Mareep_Ch5:
+Cry_Flamedrmon_Ch5:
 	tone $0020
 	dutycycle $0
-	jumpchannel Cry_Mareep_branch_f3145
+	jumpchannel Cry_Flamedrmon_branch_f3145
 
-Cry_Mareep_Ch6:
+Cry_Flamedrmon_Ch6:
 	sound_duty 1, 0, 0, 0
-Cry_Mareep_branch_f3145:
+Cry_Flamedrmon_branch_f3145:
 Cry_Gligar_branch_f3145:
 	sound __,  5, $3a, $073d
 	sound __,  7, $f8, $0762
@@ -455,9 +455,9 @@ Cry_Gligar_branch_f3145:
 	sound __,  7, $f1, $075e
 	endchannel
 
-Cry_Cyndaquil_Ch5:
+Cry_Koromon_Ch5:
 	tone $0020
-Cry_Cyndaquil_Ch6:
+Cry_Koromon_Ch6:
 	dutycycle $2
 	sound __,  9, $2f, $0107
 .loop1
@@ -470,15 +470,15 @@ Cry_Cyndaquil_Ch6:
 	loopchannel 4, .loop2
 	endchannel
 
-Cry_Cyndaquil_Ch8:
+Cry_Koromon_Ch8:
 Cry_Gligar_Ch8:
 	noise __,  9, $3f, $52
 	noise C#,  1, $93, $4f
 	endchannel
 
-Cry_Chikorita_Ch5:
+Cry_Tanemon_Ch5:
 	tone $0020
-Cry_Chikorita_Ch6:
+Cry_Tanemon_Ch6:
 	sound_duty 1, 0, 2, 0
 	sound __,  3, $c8, $0641
 	sound __,  3, $48, $0641
@@ -487,7 +487,7 @@ Cry_Chikorita_Ch6:
 	sound __,  5, $f1, $078b
 	endchannel
 
-Cry_Chikorita_Ch8:
+Cry_Tanemon_Ch8:
 	noise __,  5, $91, $10
 	noise __,  9, $94, $3
 	endchannel
@@ -640,7 +640,7 @@ Cry_Typhlosion_Ch8:
 	noise C#,  1, $75, $5f
 	endchannel
 
-Cry_Natu_Ch5:
+Cry_Veedramon_Ch5:
 	sound_duty 2, 3, 1, 3
 Cry_Mantine_branch_f32e9:
 Cry_Sunflora_branch_f32e9:
@@ -654,7 +654,7 @@ Cry_Mantine_branch_f32f5:
 	endchannel
 
 Cry_Mantine_branch_f3302:
-Cry_Natu_Ch6:
+Cry_Veedramon_Ch6:
 Cry_Sunflora_Ch6:
 	sound_duty 2, 0, 3, 3
 	sound __,  5, $f8, $07b2
@@ -667,7 +667,7 @@ Cry_Mantine_branch_f3310:
 	endchannel
 
 Cry_Mantine_branch_f331d:
-Cry_Natu_Ch8:
+Cry_Veedramon_Ch8:
 Cry_Sunflora_Ch8:
 	noise __,  5, $88, $5
 	noise __,  5, $88, $4
@@ -937,10 +937,10 @@ Cry_Weedle:
 	musicheader 1, 6, Cry_Weedle_Ch6
 	musicheader 1, 8, Cry_Weedle_Ch8
 
-Cry_Caterpie:
-	musicheader 3, 5, Cry_Caterpie_Ch5
-	musicheader 1, 6, Cry_Caterpie_Ch6
-	musicheader 1, 8, Cry_Caterpie_Ch8
+Cry_Wormmon:
+	musicheader 3, 5, Cry_Wormmon_Ch5
+	musicheader 1, 6, Cry_Wormmon_Ch6
+	musicheader 1, 8, Cry_Wormmon_Ch8
 
 Cry_Ekans:
 	musicheader 3, 5, Cry_Ekans_Ch5
@@ -1624,21 +1624,21 @@ Cry_Clefairy_Ch6:
 Cry_Clefairy_Ch8:
 	endchannel
 
-Cry_Caterpie_Ch5:
+Cry_Wormmon_Ch5:
 	sound_duty 0, 0, 3, 3
 	sound __, 16, $d7, $0780
 	sound __,  5, $e6, $07a0
 	sound __, 16, $d2, $0740
 	endchannel
 
-Cry_Caterpie_Ch6:
+Cry_Wormmon_Ch6:
 	sound_duty 2, 2, 1, 1
 	sound __, 16, $c7, $0753
 	sound __,  6, $b6, $0772
 	sound __, 16, $c2, $0711
 	endchannel
 
-Cry_Caterpie_Ch8:
+Cry_Wormmon_Ch8:
 	noise __, 14, $f6, $4c
 	noise __,  5, $e6, $3c
 	noise __, 16, $f2, $4c

@@ -48,7 +48,7 @@ StdScripts::
 	dba GymStatue1Script
 	dba GymStatue2Script
 	dba ReceiveItemScript
-	dba ReceiveTogepiEggScript
+	dba ReceiveDemiveemonEggScript
 	dba PCScript
 	dba GameCornerCoinVendorScript
 	dba HappinessCheckScript
@@ -1775,7 +1775,7 @@ ReceiveItemScript:
 	waitsfx
 	end
 
-ReceiveTogepiEggScript:
+ReceiveDemiveemonEggScript:
 	waitsfx
 	farwritetext ReceivedItemText
 	playsound SFX_GET_EGG_FROM_DAY_CARE_LADY

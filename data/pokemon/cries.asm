@@ -14,9 +14,9 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,    $060,  $0c0 ; SQUIRTLE
 	mon_cry CRY_SQUIRTLE,    $020,  $0c0 ; WARTORTLE
 	mon_cry CRY_BLASTOISE,   $000,  $100 ; BLASTOISE
-	mon_cry CRY_CATERPIE,    $080,  $0a0 ; CATERPIE
+	mon_cry CRY_WORMMON,    $080,  $0a0 ; WORMMON
 	mon_cry CRY_METAPOD,     $0cc,  $081 ; METAPOD
-	mon_cry CRY_CATERPIE,    $077,  $0c0 ; BUTTERFREE
+	mon_cry CRY_WORMMON,    $077,  $0c0 ; BUTTERFREE
 	mon_cry CRY_WEEDLE,      $0ee,  $081 ; WEEDLE
 	mon_cry CRY_BLASTOISE,   $0ff,  $081 ; KAKUNA
 	mon_cry CRY_BLASTOISE,   $060,  $100 ; BEEDRILL
@@ -122,12 +122,12 @@ PokemonCries::
 	mon_cry CRY_KANGASKHAN,  $000,  $100 ; KANGASKHAN
 	mon_cry CRY_CLEFAIRY,    $099,  $090 ; HORSEA
 	mon_cry CRY_CLEFAIRY,    $03c,  $081 ; SEADRA
-	mon_cry CRY_CATERPIE,    $080,  $0c0 ; GOLDEEN
-	mon_cry CRY_CATERPIE,    $010,  $17f ; SEAKING
+	mon_cry CRY_WORMMON,    $080,  $0c0 ; GOLDEEN
+	mon_cry CRY_WORMMON,    $010,  $17f ; SEAKING
 	mon_cry CRY_PARAS,       $002,  $0a0 ; STARYU
 	mon_cry CRY_PARAS,       $000,  $100 ; STARMIE
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; MR__MIME
-	mon_cry CRY_CATERPIE,    $000,  $100 ; SCYTHER
+	mon_cry CRY_WORMMON,    $000,  $100 ; SCYTHER
 	mon_cry CRY_DROWZEE,     $0ff,  $17f ; JYNX
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; ELECTABUZZ
 	mon_cry CRY_CHARMANDER,  $0ff,  $0b0 ; MAGMAR
@@ -144,7 +144,7 @@ PokemonCries::
 	mon_cry CRY_WEEPINBELL,  $0aa,  $17f ; PORYGON
 	mon_cry CRY_GROWLITHE,   $0f0,  $081 ; OMANYTE
 	mon_cry CRY_GROWLITHE,   $0ff,  $0c0 ; OMASTAR
-	mon_cry CRY_CATERPIE,    $0bb,  $0c0 ; KABUTO
+	mon_cry CRY_WORMMON,    $0bb,  $0c0 ; KABUTO
 	mon_cry CRY_FEAROW,      $0ee,  $081 ; KABUTOPS
 	mon_cry CRY_VILEPLUME,   $020,  $170 ; AERODACTYL
 	mon_cry CRY_GRIMER,      $055,  $081 ; SNORLAX
@@ -156,11 +156,11 @@ PokemonCries::
 	mon_cry CRY_BULBASAUR,   $03c,  $140 ; DRAGONITE
 	mon_cry CRY_PARAS,       $099,  $17f ; MEWTWO
 	mon_cry CRY_PARAS,       $0ee,  $17f ; MEW
-	mon_cry CRY_CHIKORITA,  -$010,  $0b0 ; CHIKORITA
-	mon_cry CRY_CHIKORITA,  -$022,  $120 ; BAYLEEF
-	mon_cry CRY_CHIKORITA,  -$0b7,  $200 ; MEGANIUM
-	mon_cry CRY_CYNDAQUIL,   $347,  $080 ; CYNDAQUIL
-	mon_cry CRY_CYNDAQUIL,   $321,  $120 ; QUILAVA
+	mon_cry CRY_TANEMON,    -$010,  $0b0 ; TANEMON
+	mon_cry CRY_TANEMON,    -$022,  $120 ; PALMON
+	mon_cry CRY_TANEMON,    -$0b7,  $200 ; TOGEMON
+	mon_cry CRY_KOROMON,   $347,  $080 ; KOROMON
+	mon_cry CRY_KOROMON,   $321,  $120 ; QUILAVA
 	mon_cry CRY_TYPHLOSION,  $f00,  $0d4 ; TYPHLOSION
 	mon_cry CRY_TOTODILE,    $46c,  $0e8 ; TOTODILE
 	mon_cry CRY_TOTODILE,    $440,  $110 ; CROCONAW
@@ -174,17 +174,17 @@ PokemonCries::
 	mon_cry CRY_SPINARAK,    $011,  $200 ; SPINARAK
 	mon_cry CRY_SPINARAK,   -$0ae,  $1e2 ; ARIADOS
 	mon_cry CRY_SQUIRTLE,   -$010,  $140 ; CROBAT
-	mon_cry CRY_CYNDAQUIL,   $3c9,  $140 ; CHINCHOU
-	mon_cry CRY_CYNDAQUIL,   $2d0,  $110 ; LANTURN
+	mon_cry CRY_KOROMON,   $3c9,  $140 ; CHINCHOU
+	mon_cry CRY_KOROMON,   $2d0,  $110 ; LANTURN
 	mon_cry CRY_PICHU,       $000,  $140 ; PICHU
 	mon_cry CRY_CLEFFA,      $061,  $091 ; CLEFFA
-	mon_cry CRY_CHIKORITA,   $0e8,  $0e8 ; IGGLYBUFF
-	mon_cry CRY_TOGEPI,      $010,  $100 ; TOGEPI
-	mon_cry CRY_TOGETIC,     $03b,  $038 ; TOGETIC
-	mon_cry CRY_NATU,       -$067,  $100 ; NATU
-	mon_cry CRY_NATU,       -$0a7,  $168 ; XATU
-	mon_cry CRY_MAREEP,      $022,  $0d8 ; MAREEP
-	mon_cry CRY_MAREEP,     -$007,  $180 ; FLAAFFY
+	mon_cry CRY_TANEMON,     $0e8,  $0e8 ; IGGLYBUFF
+	mon_cry CRY_DEMIVEEMON,      $010,  $100 ; DEMIVEEMON
+	mon_cry CRY_VEEMON,     $03b,  $038 ; VEEMON
+	mon_cry CRY_VEEDRAMON,       -$067,  $100 ; VEEDRAMON
+	mon_cry CRY_VEEDRAMON,       -$0a7,  $168 ; EXVEEMON
+	mon_cry CRY_FLAMEDRMON,      $022,  $0d8 ; FLAMEDRMON
+	mon_cry CRY_FLAMEDRMON,     -$007,  $180 ; RAIDRAMON
 	mon_cry CRY_AMPHAROS,   -$07c,  $0e8 ; AMPHAROS
 	mon_cry CRY_CLEFFA,      $084,  $150 ; BELLOSSOM
 	mon_cry CRY_MARILL,      $11b,  $120 ; MARILL
@@ -224,7 +224,7 @@ PokemonCries::
 	mon_cry CRY_TEDDIURSA,   $640,  $0d8 ; URSARING
 	mon_cry CRY_SLUGMA,     -$1d8,  $140 ; SLUGMA
 	mon_cry CRY_MAGCARGO,   -$20d,  $1c0 ; MAGCARGO
-	mon_cry CRY_CYNDAQUIL,   $1fe,  $140 ; SWINUB
+	mon_cry CRY_KOROMON,   $1fe,  $140 ; SWINUB
 	mon_cry CRY_MAGCARGO,   -$109,  $100 ; PILOSWINE
 	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; CORSOLA
 	mon_cry CRY_SUNFLORA,    $00d,  $100 ; REMORAID
@@ -232,7 +232,7 @@ PokemonCries::
 	mon_cry CRY_TEDDIURSA,   $002,  $06a ; DELIBIRD
 	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; MANTINE
 	mon_cry CRY_AMPHAROS,    $8a9,  $180 ; SKARMORY
-	mon_cry CRY_CYNDAQUIL,   $039,  $140 ; HOUNDOUR
+	mon_cry CRY_KOROMON,   $039,  $140 ; HOUNDOUR
 	mon_cry CRY_TOTODILE,   -$10a,  $100 ; HOUNDOOM
 	mon_cry CRY_SLUGMA,      $2fb,  $100 ; KINGDRA
 	mon_cry CRY_SENTRET,     $048,  $230 ; PHANPY

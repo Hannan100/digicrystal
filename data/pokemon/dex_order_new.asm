@@ -1,10 +1,10 @@
 ; Every Pokémon sorted in New Pokédex Order.
 
 NewPokedexOrder:
-	db CHIKORITA
+	db TANEMON
 	db BAYLEEF
 	db MEGANIUM
-	db CYNDAQUIL
+	db KOROMON
 	db QUILAVA
 	db TYPHLOSION
 	db TOTODILE
@@ -24,7 +24,7 @@ NewPokedexOrder:
 	db PICHU
 	db PIKACHU
 	db RAICHU
-	db CATERPIE
+	db WORMMON
 	db METAPOD
 	db BUTTERFREE
 	db WEEDLE
@@ -46,15 +46,15 @@ NewPokedexOrder:
 	db IGGLYBUFF
 	db JIGGLYPUFF
 	db WIGGLYTUFF
-	db TOGEPI
-	db TOGETIC
+	db DEMIVEEMON
+	db VEEMON
 	db SANDSHREW
 	db SANDSLASH
 	db EKANS
 	db ARBOK
 	db DUNSPARCE
-	db MAREEP
-	db FLAAFFY
+	db FLAMEDRMON
+	db RAIDRAMON
 	db AMPHAROS
 	db WOOPER
 	db QUAGSIRE
@@ -159,8 +159,8 @@ NewPokedexOrder:
 	db MR__MIME
 	db SMEARGLE
 	db FARFETCH_D
-	db NATU
-	db XATU
+	db VEEDRAMON
+	db EXVEEMON
 	db QWILFISH
 	db TENTACOOL
 	db TENTACRUEL

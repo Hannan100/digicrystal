@@ -9,7 +9,7 @@ PokedexDataPointerTable:
 	dw SquirtlePokedexEntry
 	dw WartortlePokedexEntry
 	dw BlastoisePokedexEntry
-	dw CaterpiePokedexEntry
+	dw WormmonPokedexEntry
 	dw MetapodPokedexEntry
 	dw ButterfreePokedexEntry
 	dw WeedlePokedexEntry
@@ -151,10 +151,10 @@ PokedexDataPointerTable:
 	dw DragonitePokedexEntry
 	dw MewtwoPokedexEntry
 	dw MewPokedexEntry
-	dw ChikoritaPokedexEntry
+	dw TanemonPokedexEntry
 	dw BayleefPokedexEntry
 	dw MeganiumPokedexEntry
-	dw CyndaquilPokedexEntry
+	dw KoromonPokedexEntry
 	dw QuilavaPokedexEntry
 	dw TyphlosionPokedexEntry
 	dw TotodilePokedexEntry
@@ -174,12 +174,12 @@ PokedexDataPointerTable:
 	dw PichuPokedexEntry
 	dw CleffaPokedexEntry
 	dw IgglybuffPokedexEntry
-	dw TogepiPokedexEntry
-	dw TogeticPokedexEntry
-	dw NatuPokedexEntry
-	dw XatuPokedexEntry
-	dw MareepPokedexEntry
-	dw FlaaffyPokedexEntry
+	dw DemiveemonPokedexEntry
+	dw VeemonPokedexEntry
+	dw VeedramonPokedexEntry
+	dw ExVeemonPokedexEntry
+	dw FlamedrmonPokedexEntry
+	dw RaidramonPokedexEntry
 	dw AmpharosPokedexEntry
 	dw BellossomPokedexEntry
 	dw MarillPokedexEntry

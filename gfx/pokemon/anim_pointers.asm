@@ -8,7 +8,7 @@ AnimationPointers:
 	dw SquirtleAnimation
 	dw WartortleAnimation
 	dw BlastoiseAnimation
-	dw CaterpieAnimation
+	dw WormmonAnimation
 	dw MetapodAnimation
 	dw ButterfreeAnimation
 	dw WeedleAnimation
@@ -150,10 +150,10 @@ AnimationPointers:
 	dw DragoniteAnimation
 	dw MewtwoAnimation
 	dw MewAnimation
-	dw ChikoritaAnimation
+	dw TanemonAnimation
 	dw BayleefAnimation
 	dw MeganiumAnimation
-	dw CyndaquilAnimation
+	dw KoromonAnimation
 	dw QuilavaAnimation
 	dw TyphlosionAnimation
 	dw TotodileAnimation
@@ -173,12 +173,12 @@ AnimationPointers:
 	dw PichuAnimation
 	dw CleffaAnimation
 	dw IgglybuffAnimation
-	dw TogepiAnimation
-	dw TogeticAnimation
-	dw NatuAnimation
-	dw XatuAnimation
-	dw MareepAnimation
-	dw FlaaffyAnimation
+	dw DemiveemonAnimation
+	dw VeemonAnimation
+	dw VeedramonAnimation
+	dw ExVeemonAnimation
+	dw FlamedrmonAnimation
+	dw RaidramonAnimation
 	dw AmpharosAnimation
 	dw BellossomAnimation
 	dw MarillAnimation

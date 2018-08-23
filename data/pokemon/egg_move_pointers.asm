@@ -154,10 +154,10 @@ endc
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw ChikoritaEggMoves
+	dw TanemonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw CyndaquilEggMoves
+	dw KoromonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw TotodileEggMoves
@@ -177,11 +177,11 @@ endc
 	dw PichuEggMoves
 	dw CleffaEggMoves
 	dw IgglybuffEggMoves
-	dw TogepiEggMoves
+	dw DemiveemonEggMoves
 	dw NoEggMoves
-	dw NatuEggMoves
+	dw VeedramonEggMoves
 	dw NoEggMoves
-	dw MareepEggMoves
+	dw FlamedrmonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

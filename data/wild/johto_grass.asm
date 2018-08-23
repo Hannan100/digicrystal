@@ -333,7 +333,7 @@ JohtoGrassWildMons:
 	db 12, NIDORAN_F
 	db 14, LEDYBA
 	db 13, PIDGEY
-	db 10, CATERPIE
+	db 10, WORMMON
 	db 10, WEEDLE
 	db 10, WEEDLE
 	; day
@@ -341,7 +341,7 @@ JohtoGrassWildMons:
 	db 12, NIDORAN_M
 	db 14, SUNKERN
 	db 13, PIDGEY
-	db 10, CATERPIE
+	db 10, WORMMON
 	db 10, WEEDLE
 	db 10, WEEDLE
 	; nite
@@ -356,26 +356,26 @@ JohtoGrassWildMons:
 	map_id RUINS_OF_ALPH_OUTSIDE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NATU
-	db 22, NATU
-	db 18, NATU
-	db 24, NATU
+	db 20, VEEDRAMON
+	db 22, VEEDRAMON
+	db 18, VEEDRAMON
+	db 24, VEEDRAMON
 	db 20, SMEARGLE
 	db 22, SMEARGLE
 	db 22, SMEARGLE
 	; day
-	db 20, NATU
-	db 22, NATU
-	db 18, NATU
-	db 24, NATU
+	db 20, VEEDRAMON
+	db 22, VEEDRAMON
+	db 18, VEEDRAMON
+	db 24, VEEDRAMON
 	db 20, SMEARGLE
 	db 22, SMEARGLE
 	db 22, SMEARGLE
 	; nite
-	db 20, NATU
-	db 22, NATU
-	db 18, NATU
-	db 24, NATU
+	db 20, VEEDRAMON
+	db 22, VEEDRAMON
+	db 18, VEEDRAMON
+	db 24, VEEDRAMON
 	db 22, WOOPER
 	db 22, QUAGSIRE
 	db 22, QUAGSIRE
@@ -545,7 +545,7 @@ JohtoGrassWildMons:
 	map_id ILEX_FOREST
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, CATERPIE
+	db 5, WORMMON
 	db 5, WEEDLE
 	db 7, METAPOD
 	db 7, KAKUNA
@@ -553,7 +553,7 @@ JohtoGrassWildMons:
 	db 6, PARAS
 	db 6, PARAS
 	; day
-	db 5, CATERPIE
+	db 5, WORMMON
 	db 5, WEEDLE
 	db 7, METAPOD
 	db 7, KAKUNA
@@ -1221,16 +1221,16 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, LEDYBA
-	db 3, CATERPIE
-	db 4, CATERPIE
+	db 3, WORMMON
+	db 4, WORMMON
 	db 4, PIDGEY
 	db 3, WEEDLE
 	db 4, HOPPIP
 	db 4, HOPPIP
 	; day
 	db 3, PIDGEY
-	db 3, CATERPIE
-	db 4, CATERPIE
+	db 3, WORMMON
+	db 4, WORMMON
 	db 4, PIDGEY
 	db 3, WEEDLE
 	db 4, HOPPIP
@@ -1248,7 +1248,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 4, LEDYBA
-	db 4, CATERPIE
+	db 4, WORMMON
 	db 5, BELLSPROUT
 	db 5, PIDGEY
 	db 4, WEEDLE
@@ -1256,7 +1256,7 @@ JohtoGrassWildMons:
 	db 5, HOPPIP
 	; day
 	db 4, PIDGEY
-	db 4, CATERPIE
+	db 4, WORMMON
 	db 5, BELLSPROUT
 	db 5, PIDGEY
 	db 4, WEEDLE

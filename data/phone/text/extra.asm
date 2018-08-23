@@ -822,7 +822,7 @@ ChadTravelGossipText:
 	line "he must've learned"
 
 	para "about #MON"
-	line "naturally."
+	line "veedramonrally."
 
 	para "I envy him…"
 	line "I'd like to travel"

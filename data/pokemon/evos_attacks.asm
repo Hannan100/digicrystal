@@ -169,7 +169,7 @@ BlastoiseEvosAttacks:
 	db 68, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-CaterpieEvosAttacks:
+WormmonEvosAttacks:
 	db EVOLVE_LEVEL, 7, METAPOD
 	db 0 ; no more evolutions
 	db 1, TACKLE
@@ -2069,7 +2069,7 @@ MewEvosAttacks:
 	db 50, ANCIENTPOWER
 	db 0 ; no more level-up moves
 
-ChikoritaEvosAttacks:
+TanemonEvosAttacks:
 	db EVOLVE_LEVEL, 16, BAYLEEF
 	db 0 ; no more evolutions
 	db 1, TACKLE
@@ -2117,7 +2117,7 @@ MeganiumEvosAttacks:
 	db 61, SOLARBEAM
 	db 0 ; no more level-up moves
 
-CyndaquilEvosAttacks:
+KoromonEvosAttacks:
 	db EVOLVE_LEVEL, 14, QUILAVA
 	db 0 ; no more evolutions
 	db 1, TACKLE
@@ -2396,8 +2396,8 @@ IgglybuffEvosAttacks:
 	db 14, SWEET_KISS
 	db 0 ; no more level-up moves
 
-TogepiEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, TOGETIC
+DemiveemonEvosAttacks:	
+	db EVOLVE_LEVEL, 12, VEEMON
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, CHARM
@@ -2408,7 +2408,11 @@ TogepiEvosAttacks:
 	db 38, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
-TogeticEvosAttacks:
+VeemonEvosAttacks:
+	db EVOLVE_STAT, 30, ATK_LT_DEF, VEEDRAMON
+	db EVOLVE_STAT, 30, ATK_GT_DEF, EXVEEMON
+	db EVOLVE_ITEM, FIRE_STONE, FLAMEDRMON
+	db EVOLVE_ITEM, THUNDER_STONE, RAIDRAMON
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, CHARM
@@ -2419,8 +2423,7 @@ TogeticEvosAttacks:
 	db 38, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
-NatuEvosAttacks:
-	db EVOLVE_LEVEL, 25, XATU
+VeedramonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, LEER
@@ -2431,7 +2434,7 @@ NatuEvosAttacks:
 	db 50, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-XatuEvosAttacks:
+ExVeemonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, LEER
@@ -2443,8 +2446,7 @@ XatuEvosAttacks:
 	db 65, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-MareepEvosAttacks:
-	db EVOLVE_LEVEL, 15, FLAAFFY
+FlamedrmonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2455,8 +2457,7 @@ MareepEvosAttacks:
 	db 37, THUNDER
 	db 0 ; no more level-up moves
 
-FlaaffyEvosAttacks:
-	db EVOLVE_LEVEL, 30, AMPHAROS
+RaidramonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL

@@ -24,7 +24,7 @@
 	const CRY_BLASTOISE
 	const CRY_PIDGEOTTO
 	const CRY_WEEDLE
-	const CRY_CATERPIE
+	const CRY_WORMMON
 	const CRY_EKANS
 	const CRY_FEAROW
 	const CRY_CLEFAIRY
@@ -44,16 +44,16 @@
 ; gen 2
 	const CRY_MARILL
 	const CRY_SPINARAK
-	const CRY_TOGEPI
+	const CRY_DEMIVEEMON
 	const CRY_GIRAFARIG
 	const CRY_RAIKOU
-	const CRY_MAREEP
-	const CRY_TOGETIC
+	const CRY_FLAMEDRMON
+	const CRY_VEEMON
 	const CRY_HOOTHOOT
 	const CRY_SENTRET
 	const CRY_SLOWKING
-	const CRY_CYNDAQUIL
-	const CRY_CHIKORITA
+	const CRY_KOROMON
+	const CRY_TANEMON
 	const CRY_TOTODILE
 	const CRY_GLIGAR
 	const CRY_CLEFFA
@@ -63,7 +63,7 @@
 	const CRY_WOOPER
 	const CRY_MANTINE
 	const CRY_TYPHLOSION
-	const CRY_NATU
+	const CRY_VEEDRAMON
 	const CRY_TEDDIURSA
 	const CRY_SUNFLORA
 	const CRY_AMPHAROS

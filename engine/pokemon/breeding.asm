@@ -237,13 +237,13 @@ HatchEggs:
 	call SetSeenAndCaughtMon
 
 	ld a, [wCurPartySpecies]
-	cp TOGEPI
-	jr nz, .nottogepi
-	; set the event flag for hatching togepi
-	ld de, EVENT_TOGEPI_HATCHED
+	cp DEMIVEEMON
+	jr nz, .notdemiveemon
+	; set the event flag for hatching demiveemon
+	ld de, EVENT_DEMIVEEMON_HATCHED
 	ld b, SET_FLAG
 	call EventFlagAction
-.nottogepi
+.notdemiveemon
 
 	pop de
 
