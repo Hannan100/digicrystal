@@ -156,17 +156,17 @@ PokemonNames::
 	db "KOROMON@@@" ; Cyndaquil
 	db "QUILAVA@@@" ; !Agumon
 	db "TYPHLOSION" ; !Greymon
-	db "TOTODILE@@" ; !
+	db "TOTODILE@@" ; !Bukamon
 	db "CROCONAW@@" ; !Gomamon
 	db "FERALIGATR" ; !Ikakumon
-	db "SENTRET@@@"
-	db "FURRET@@@@"
-	db "HOOTHOOT@@" ; !Hawkmon
-	db "NOCTOWL@@@"
-	db "LEDYBA@@@@"
-	db "LEDIAN@@@@"
-	db "SPINARAK@@"
-	db "ARIADOS@@@"
+	db "SENTRET@@@" ; !Gummymon
+	db "FURRET@@@@" ; !Terriermon
+	db "HOOTHOOT@@" ; !Poromon
+	db "NOCTOWL@@@" ; !Hawkmon
+	db "LEDYBA@@@@" ; !Puroromon
+	db "LEDIAN@@@@" ; !Fanbeemon
+	db "SPINARAK@@" ; !Tentomon
+	db "ARIADOS@@@" ; !Kbuterimon
 	db "CROBAT@@@@"
 	db "CHINCHOU@@"
 	db "LANTURN@@@"
@@ -181,31 +181,31 @@ PokemonNames::
 	db "RAIDRAMON@" ; Flaaffy
 	db "AMPHAROS@@" ; !Paildramon
 	db "BELLOSSOM@" ; !Dinobeemon
-	db "MARILL@@@@" ; !Imperialdramon
+	db "MARILL@@@@" ; !Imprldrmon
 	db "AZUMARILL@" 
-	db "SUDOWOODO@"
-	db "POLITOED@@"
-	db "HOPPIP@@@@"
+	db "SUDOWOODO@" ; !Woodmon
+	db "POLITOED@@" ; !Cherrymon
+	db "HOPPIP@@@@" ; !Puppetmon
 	db "SKIPLOOM@@"
 	db "JUMPLUFF@@"
-	db "AIPOM@@@@@"
-	db "SUNKERN@@@"
-	db "SUNFLORA@@"
-	db "YANMA@@@@@"
-	db "WOOPER@@@@"
-	db "QUAGSIRE@@"
-	db "ESPEON@@@@"
-	db "UMBREON@@@"
-	db "MURKROW@@@"
-	db "SLOWKING@@"
-	db "MISDREAVUS"
-	db "UNOWN@@@@@"
-	db "WOBBUFFET@"
-	db "GIRAFARIG@"
-	db "PINECO@@@@"
-	db "FORRETRESS"
-	db "DUNSPARCE@"
-	db "GLIGAR@@@@"
+	db "AIPOM@@@@@" ; !Sethmon
+	db "SUNKERN@@@" ; !Yasyamon
+	db "SUNFLORA@@" ; !Honeybeemon
+	db "YANMA@@@@@" ; !Depthmon
+	db "WOOPER@@@@" ; !Sagittarimon
+	db "QUAGSIRE@@" ; !Gargoylemon
+	db "ESPEON@@@@" ; !Kangarumon
+	db "UMBREON@@@" ; !Magnamon
+	db "MURKROW@@@" ; !Allomon
+	db "SLOWKING@@" ; !Rinkmon
+	db "MISDREAVUS" ; !Halsemon
+	db "UNOWN@@@@@" ; !Shurimon
+	db "WOBBUFFET@" ; !Flybeemon
+	db "GIRAFARIG@" ; !Orcamon
+	db "PINECO@@@@" ; !Moosemon
+	db "FORRETRESS" ; !Harpymon
+	db "DUNSPARCE@" ; !Toucanmon
+	db "GLIGAR@@@@" ; !Peacockmon
 	db "STEELIX@@@"
 	db "SNUBBULL@@"
 	db "GRANBULL@@"
@@ -243,7 +243,7 @@ PokemonNames::
 	db "BLISSEY@@@"
 	db "RAIKOU@@@@"
 	db "ENTEI@@@@@"
-	db "SUICUNE@@@" ; !Baihumon
+	db "SUICUNE@@@" ; !Baihumon (Should be with other legendaries in dex)
 	db "LARVITAR@@"
 	db "PUPITAR@@@"
 	db "TYRANITAR@" ; !Ebonwumon
