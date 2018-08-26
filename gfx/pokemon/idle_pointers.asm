@@ -161,7 +161,7 @@ AnimationIdlePointers:
 	dw FeraligatrAnimationIdle
 	dw SentretAnimationIdle
 	dw FurretAnimationIdle
-	dw HoothootAnimationIdle
+	dw PoromonAnimationIdle
 	dw NoctowlAnimationIdle
 	dw LedybaAnimationIdle
 	dw LedianAnimationIdle

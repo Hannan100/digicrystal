@@ -165,7 +165,7 @@ endc
 	dw NoEggMoves
 	dw SentretEggMoves
 	dw NoEggMoves
-	dw HoothootEggMoves
+	dw PoromonEggMoves
 	dw NoEggMoves
 	dw LedybaEggMoves
 	dw NoEggMoves

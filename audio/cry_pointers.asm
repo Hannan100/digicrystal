@@ -44,7 +44,7 @@ Cries:
 	dba Cry_Raikou
 	dba Cry_Flamedrmon
 	dba Cry_Veemon
-	dba Cry_Hoothoot
+	dba Cry_Poromon
 	dba Cry_Sentret
 	dba Cry_Slowking
 	dba Cry_Koromon

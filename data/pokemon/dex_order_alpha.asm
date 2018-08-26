@@ -86,7 +86,7 @@ AlphabeticalPokedexOrder:
 	db HITMONLEE
 	db HITMONTOP
 	db HO_OH
-	db HOOTHOOT
+	dbPOROMON
 	db HOPPIP
 	db HORSEA
 	db HOUNDOOM

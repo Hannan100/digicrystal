@@ -182,7 +182,7 @@ JOHTO_POKEMON EQU const_value
 	const FERALIGATR ; a0
 	const SENTRET    ; a1
 	const FURRET     ; a2
-	const HOOTHOOT   ; a3
+	constPOROMON   ; a3
 	const NOCTOWL    ; a4
 	const LEDYBA     ; a5
 	const LEDIAN     ; a6

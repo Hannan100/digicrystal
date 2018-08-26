@@ -15,7 +15,7 @@ NewPokedexOrder:
 	db PIDGEOT
 	db SPEAROW
 	db FEAROW
-	db HOOTHOOT
+	dbPOROMON
 	db NOCTOWL
 	db RATTATA
 	db RATICATE

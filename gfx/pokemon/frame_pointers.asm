@@ -161,7 +161,7 @@ FramesPointers:
 	dw FeraligatrFrames
 	dw SentretFrames
 	dw FurretFrames
-	dw HoothootFrames
+	dw PoromonFrames
 	dw NoctowlFrames
 	dw LedybaFrames
 	dw LedianFrames

@@ -3095,7 +3095,7 @@ SageGroup:
 	; SAGE (4)
 	db "TROY@", TRAINERTYPE_NORMAL
 	db  7, BELLSPROUT
-	db  7, HOOTHOOT
+	db  7,POROMON
 	db -1 ; end
 
 	; SAGE (5)
@@ -3128,7 +3128,7 @@ SageGroup:
 	db "LI@", TRAINERTYPE_NORMAL
 	db  7, BELLSPROUT
 	db  7, BELLSPROUT
-	db 10, HOOTHOOT
+	db 10,POROMON
 	db -1 ; end
 
 	; SAGE (10)
