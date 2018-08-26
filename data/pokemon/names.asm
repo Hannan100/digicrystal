@@ -156,8 +156,8 @@ PokemonNames::
 	db "KOROMON@@@" ; Cyndaquil
 	db "QUILAVA@@@" ; !Agumon
 	db "TYPHLOSION" ; !Greymon
-	db "TOTODILE@@" ; !Bukamon
-	db "CROCONAW@@" ; !Gomamon
+	db "BUKAMON@@@" ; !Bukamon
+	db "GOMAMON@@@" ; !Gomamon
 	db "FERALIGATR" ; !Ikakumon
 	db "SENTRET@@@" ; !Gummymon
 	db "FURRET@@@@" ; !Terriermon

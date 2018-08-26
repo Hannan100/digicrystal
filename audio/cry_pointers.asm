@@ -49,7 +49,7 @@ Cries:
 	dba Cry_Slowking
 	dba Cry_Koromon
 	dba Cry_Tanemon
-	dba Cry_Totodile
+	dba Cry_Bukamon
 	dba Cry_Gligar
 	dba Cry_Cleffa
 	dba Cry_Slugma

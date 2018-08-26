@@ -500,7 +500,7 @@ if _CRYSTAL
 endc
 	db -1 ; end
 
-TotodileEggMoves:
+BukamonEggMoves:
 	db CRUNCH
 	db THRASH
 	db HYDRO_PUMP

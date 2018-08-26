@@ -60,19 +60,19 @@ AzaleaTownRivalBattleScript:
 	waitbutton
 	closetext
 	setevent EVENT_RIVAL_AZALEA_TOWN
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftrue .Totodile
+	checkevent EVENT_GOT_BUKAMON_FROM_ELM
+	iftrue .Bukamon
 	checkevent EVENT_GOT_TANEMON_FROM_ELM
 	iftrue .Tanemon
 	winlosstext AzaleaTownRivalWinText, AzaleaTownRivalLossText
 	setlasttalked AZALEATOWN_SILVER
-	loadtrainer RIVAL1, RIVAL1_2_TOTODILE
+	loadtrainer RIVAL1, RIVAL1_2_BUKAMON
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	jump .AfterBattle
 
-.Totodile:
+.Bukamon:
 	winlosstext AzaleaTownRivalWinText, AzaleaTownRivalLossText
 	setlasttalked AZALEATOWN_SILVER
 	loadtrainer RIVAL1, RIVAL1_2_TANEMON

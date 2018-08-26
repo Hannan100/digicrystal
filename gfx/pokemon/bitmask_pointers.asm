@@ -156,8 +156,8 @@ BitmasksPointers:
 	dw KoromonBitmasks
 	dw QuilavaBitmasks
 	dw TyphlosionBitmasks
-	dw TotodileBitmasks
-	dw CroconawBitmasks
+	dw BukamonBitmasks
+	dw GomamonBitmasks
 	dw FeraligatrBitmasks
 	dw SentretBitmasks
 	dw FurretBitmasks

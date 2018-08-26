@@ -160,7 +160,7 @@ endc
 	dw KoromonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw TotodileEggMoves
+	dw BukamonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw SentretEggMoves

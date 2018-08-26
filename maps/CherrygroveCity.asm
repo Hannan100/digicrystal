@@ -113,13 +113,13 @@ CherrygroveSilverSceneNorth:
 	writetext CherrygroveRivalText_Seen
 	waitbutton
 	closetext
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftrue .Totodile
+	checkevent EVENT_GOT_BUKAMON_FROM_ELM
+	iftrue .Bukamon
 	checkevent EVENT_GOT_TANEMON_FROM_ELM
 	iftrue .Tanemon
 	winlosstext SilverCherrygroveWinText, SilverCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_SILVER
-	loadtrainer RIVAL1, RIVAL1_1_TOTODILE
+	loadtrainer RIVAL1, RIVAL1_1_BUKAMON
 	writecode VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
 	dontrestartmapmusic
@@ -127,7 +127,7 @@ CherrygroveSilverSceneNorth:
 	iftrue .AfterVictorious
 	jump .AfterYourDefeat
 
-.Totodile:
+.Bukamon:
 	winlosstext SilverCherrygroveWinText, SilverCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_SILVER
 	loadtrainer RIVAL1, RIVAL1_1_TANEMON

@@ -196,8 +196,8 @@ Pokered_MonIndices:
 	db KOROMON
 	db QUILAVA
 	db TYPHLOSION
-	db TOTODILE
-	db CROCONAW
+	db BUKAMON
+	db GOMAMON
 	db FERALIGATR
 	db SENTRET
 	db FURRET

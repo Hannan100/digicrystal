@@ -156,8 +156,8 @@ AnimationIdlePointers:
 	dw KoromonAnimationIdle
 	dw QuilavaAnimationIdle
 	dw TyphlosionAnimationIdle
-	dw TotodileAnimationIdle
-	dw CroconawAnimationIdle
+	dw BukamonAnimationIdle
+	dw GomamonAnimationIdle
 	dw FeraligatrAnimationIdle
 	dw SentretAnimationIdle
 	dw FurretAnimationIdle

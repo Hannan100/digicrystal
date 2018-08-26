@@ -156,8 +156,8 @@ FramesPointers:
 	dw KoromonFrames
 	dw QuilavaFrames
 	dw TyphlosionFrames
-	dw TotodileFrames
-	dw CroconawFrames
+	dw BukamonFrames
+	dw GomamonFrames
 	dw FeraligatrFrames
 	dw SentretFrames
 	dw FurretFrames

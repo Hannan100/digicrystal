@@ -2158,8 +2158,8 @@ TyphlosionEvosAttacks:
 	db 60, FLAMETHROWER
 	db 0 ; no more level-up moves
 
-TotodileEvosAttacks:
-	db EVOLVE_LEVEL, 18, CROCONAW
+BukamonEvosAttacks:
+	db EVOLVE_LEVEL, 18, GOMAMON
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
@@ -2172,7 +2172,7 @@ TotodileEvosAttacks:
 	db 52, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-CroconawEvosAttacks:
+GomamonEvosAttacks:
 	db EVOLVE_LEVEL, 30, FERALIGATR
 	db 0 ; no more evolutions
 	db 1, SCRATCH

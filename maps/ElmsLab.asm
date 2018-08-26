@@ -185,32 +185,32 @@ KoromonPokeBallScript:
 	applymovement PLAYER, AfterKoromonMovement
 	jump ElmDirectionsScript
 
-TotodilePokeBallScript:
+BukamonPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic TOTODILE
-	cry TOTODILE
+	pokepic BUKAMON
+	cry BUKAMON
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeTotodileText
+	writetext TakeBukamonText
 	yesorno
 	iffalse DidntChooseStarterScript
 	disappear ELMSLAB_POKE_BALL2
-	setevent EVENT_GOT_TOTODILE_FROM_ELM
+	setevent EVENT_GOT_BUKAMON_FROM_ELM
 	writetext ChoseStarterText
 	buttonsound
 	waitsfx
-	pokenamemem TOTODILE, MEM_BUFFER_0
+	pokenamemem BUKAMON, MEM_BUFFER_0
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke TOTODILE, 5, BERRY
+	givepoke BUKAMON, 5, BERRY
 	closetext
-	applymovement PLAYER, AfterTotodileMovement
+	applymovement PLAYER, AfterBukamonMovement
 	jump ElmDirectionsScript
 
 TanemonPokeBallScript:
@@ -708,7 +708,7 @@ AfterKoromonMovement:
 	turn_head UP
 	step_end
 
-AfterTotodileMovement:
+AfterBukamonMovement:
 	step LEFT
 	step LEFT
 	step UP
@@ -862,9 +862,9 @@ TakeKoromonText:
 	cont "fire #MON?"
 	done
 
-TakeTotodileText:
+TakeBukamonText:
 	text "ELM: Do you want"
-	line "TOTODILE, the"
+	line "BUKAMON, the"
 	cont "water #MON?"
 	done
 
@@ -1407,6 +1407,6 @@ ElmsLab_MapEvents:
 	object_event  5,  2, SPRITE_ELM, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfElmScript, -1
 	object_event  2,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ElmsAideScript, EVENT_ELMS_AIDE_IN_LAB
 	object_event  6,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, KoromonPokeBallScript, EVENT_KOROMON_POKEBALL_IN_ELMS_LAB
-	object_event  7,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TotodilePokeBallScript, EVENT_TOTODILE_POKEBALL_IN_ELMS_LAB
+	object_event  7,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BukamonPokeBallScript, EVENT_BUKAMON_POKEBALL_IN_ELMS_LAB
 	object_event  8,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TanemonPokeBallScript, EVENT_TANEMON_POKEBALL_IN_ELMS_LAB
 	object_event  5,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CopScript, EVENT_COP_IN_ELMS_LAB

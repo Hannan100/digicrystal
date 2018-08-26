@@ -33,7 +33,7 @@ AlphabeticalPokedexOrder:
 	db CLOYSTER
 	db CORSOLA
 	db CROBAT
-	db CROCONAW
+	db GOMAMON
 	db CUBONE
 	db KOROMON
 	db DELIBIRD
@@ -226,7 +226,7 @@ AlphabeticalPokedexOrder:
 	db TENTACRUEL
 	db DEMIVEEMON
 	db VEEMON
-	db TOTODILE
+	db BUKAMON
 	db TYPHLOSION
 	db TYRANITAR
 	db TYROGUE

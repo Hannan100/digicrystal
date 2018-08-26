@@ -48,7 +48,7 @@ EZChat_SortedPokemon:
 	dw .wa
 	dw .end
 
-.a:        db EKANS, ARBOK, SEAKING, ARIADOS, CROCONAW, UNOWN, -1
+.a:        db EKANS, ARBOK, SEAKING, ARIADOS, GOMAMON, UNOWN, -1
 .i:        db EEVEE, GEODUDE, SPINARAK, PILOSWINE, ONIX, -1
 .u:        db ARCANINE, SUDOWOODO, WEEPINBELL, VICTREEBEL, WOOPER, SWINUB, -1
 .e:        db SKARMORY, AIPOM, ESPEON, HITMONCHAN, ELEKID, ELECTABUZZ, ENTEI, -1
@@ -91,5 +91,5 @@ EZChat_SortedPokemon:
 .ru:       db JYNX, LUGIA, -1
 .re:       db MAGNETON, LEDIAN, LEDYBA, -1
 .ro:       db VULPIX, -1
-.wa:       db JUMPLUFF, TOTODILE, MACHOP ;, -1
+.wa:       db JUMPLUFF, BUKAMON, MACHOP ;, -1
 .end:      db -1

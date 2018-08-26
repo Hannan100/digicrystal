@@ -102,10 +102,10 @@ Cry_Ampharos:
 	musicheader 1, 6, Cry_Ampharos_Ch6
 	musicheader 1, 8, Cry_Ampharos_Ch8
 
-Cry_Totodile:
-	musicheader 3, 5, Cry_Totodile_Ch5
-	musicheader 1, 6, Cry_Totodile_Ch6
-	musicheader 1, 8, Cry_Totodile_Ch8
+Cry_Bukamon:
+	musicheader 3, 5, Cry_Bukamon_Ch5
+	musicheader 1, 6, Cry_Bukamon_Ch6
+	musicheader 1, 8, Cry_Bukamon_Ch8
 
 Cry_Cleffa:
 	musicheader 3, 5, Cry_Cleffa_Ch5
@@ -733,7 +733,7 @@ Cry_Ampharos_Ch8:
 	noise C_,  9, $d2, $5b
 	endchannel
 
-Cry_Totodile_Ch5:
+Cry_Bukamon_Ch5:
 	sound_duty 2, 0, 3, 0
 	sound __,  9, $f8, $0330
 	sound __,  9, $f8, $0340
@@ -742,7 +742,7 @@ Cry_Totodile_Ch5:
 	sound C#,  1, $b2, $07b4
 	endchannel
 
-Cry_Totodile_Ch6:
+Cry_Bukamon_Ch6:
 	sound_duty 2, 0, 1, 0
 	sound __,  9, $e8, $0320
 	sound __,  9, $e8, $0328
@@ -751,7 +751,7 @@ Cry_Totodile_Ch6:
 	sound C#,  1, $72, $0784
 	endchannel
 
-Cry_Totodile_Ch8:
+Cry_Bukamon_Ch8:
 	noise __,  3, $be, $49
 	noise __,  6, $be, $3a
 	noise __,  3, $be, $29

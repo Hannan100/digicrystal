@@ -7,8 +7,8 @@ NewPokedexOrder:
 	db KOROMON
 	db QUILAVA
 	db TYPHLOSION
-	db TOTODILE
-	db CROCONAW
+	db BUKAMON
+	db GOMAMON
 	db FERALIGATR
 	db PIDGEY
 	db PIDGEOTTO

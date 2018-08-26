@@ -56,19 +56,19 @@ VictoryRoadRivalNext:
 	waitbutton
 	closetext
 	setevent EVENT_RIVAL_VICTORY_ROAD
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftrue .GotTotodile
+	checkevent EVENT_GOT_BUKAMON_FROM_ELM
+	iftrue .GotBukamon
 	checkevent EVENT_GOT_TANEMON_FROM_ELM
 	iftrue .GotTanemon
 	winlosstext VictoryRoadRivalDefeatText, VictoryRoadRivalVictoryText
 	setlasttalked VICTORYROAD_SILVER
-	loadtrainer RIVAL1, RIVAL1_5_TOTODILE
+	loadtrainer RIVAL1, RIVAL1_5_BUKAMON
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	jump .AfterBattle
 
-.GotTotodile:
+.GotBukamon:
 	winlosstext VictoryRoadRivalDefeatText, VictoryRoadRivalVictoryText
 	setlasttalked VICTORYROAD_SILVER
 	loadtrainer RIVAL1, RIVAL1_5_TANEMON
