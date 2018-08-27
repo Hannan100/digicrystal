@@ -163,7 +163,7 @@ MonMenuIcons:
 	db ICON_MONSTER     ; FERALIGATR
 	db ICON_FOX         ; SENTRET
 	db ICON_FOX         ; FURRET
-	db ICON_BIRD        ;POROMON
+	db ICON_BIRD        ; POROMON
 	db ICON_BIRD        ; NOCTOWL
 	db ICON_BUG         ; LEDYBA
 	db ICON_BUG         ; LEDIAN

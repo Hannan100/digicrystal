@@ -182,7 +182,7 @@ JOHTO_POKEMON EQU const_value
 	const FERALIGATR ; a0
 	const SENTRET    ; a1
 	const FURRET     ; a2
-	constPOROMON   ; a3
+	const POROMON   ; a3
 	const NOCTOWL    ; a4
 	const LEDYBA     ; a5
 	const LEDIAN     ; a6
@@ -194,12 +194,12 @@ JOHTO_POKEMON EQU const_value
 	const PICHU      ; ac
 	const CLEFFA     ; ad
 	const IGGLYBUFF  ; ae
-	const DEMIVEEMON     ; af
-	const VEEMON    ; b0
-	const VEEDRAMON       ; b1
-	const EXVEEMON       ; b2
-	const FLAMEDRMON     ; b3
-	const RAIDRAMON    ; b4
+	const DEMIVEEMON ; af
+	const VEEMON     ; b0
+	const VEEDRAMON  ; b1
+	const EXVEEMON   ; b2
+	const FLAMEDRMON ; b3
+	const RAIDRAMON  ; b4
 	const AMPHAROS   ; b5
 	const BELLOSSOM  ; b6
 	const MARILL     ; b7

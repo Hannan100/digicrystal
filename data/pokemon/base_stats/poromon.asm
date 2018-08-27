@@ -1,4 +1,4 @@
-	dbPOROMON ; 163
+	db POROMON ; 163
 
 	db  60,  30,  30,  50,  36,  56
 	;   hp  atk  def  spd  sat  sdf

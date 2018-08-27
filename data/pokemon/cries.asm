@@ -167,7 +167,7 @@ PokemonCries::
 	mon_cry CRY_BUKAMON,    $3fc,  $180 ; FERALIGATR
 	mon_cry CRY_SENTRET,     $08a,  $0b8 ; SENTRET
 	mon_cry CRY_SENTRET,     $06b,  $102 ; FURRET
-	mon_cry CRY_HOOTHOOT,    $091,  $0d8 ;POROMON
+	mon_cry CRY_HOOTHOOT,    $091,  $0d8 ; POROMON
 	mon_cry CRY_HOOTHOOT,    $000,  $1a0 ; NOCTOWL
 	mon_cry CRY_LEDYBA,      $000,  $0de ; LEDYBA
 	mon_cry CRY_LEDYBA,     -$096,  $138 ; LEDIAN

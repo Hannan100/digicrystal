@@ -201,7 +201,7 @@ Pokered_MonIndices:
 	db FERALIGATR
 	db SENTRET
 	db FURRET
-	dbPOROMON
+	db POROMON
 	db NOCTOWL
 	db LEDYBA
 	db LEDIAN
