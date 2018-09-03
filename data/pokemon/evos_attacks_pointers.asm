@@ -158,12 +158,12 @@ EvosAttacksPointers::
 	dw KoromonEvosAttacks
 	dw QuilavaEvosAttacks
 	dw TyphlosionEvosAttacks
-	dw TotodileEvosAttacks
-	dw CroconawEvosAttacks
+	dw BukamonEvosAttacks
+	dw GomamonEvosAttacks
 	dw FeraligatrEvosAttacks
 	dw SentretEvosAttacks
 	dw FurretEvosAttacks
-	dw HoothootEvosAttacks
+	dw PoromonEvosAttacks
 	dw NoctowlEvosAttacks
 	dw LedybaEvosAttacks
 	dw LedianEvosAttacks

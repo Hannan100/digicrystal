@@ -88,20 +88,20 @@ PlateauRivalBattleCommon:
 	waitbutton
 	closetext
 	setevent EVENT_INDIGO_PLATEAU_POKECENTER_RIVAL
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftrue .Totodile
+	checkevent EVENT_GOT_BUKAMON_FROM_ELM
+	iftrue .Bukamon
 	checkevent EVENT_GOT_TANEMON_FROM_ELM
 	iftrue .Tanemon
 	; Koromon
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_SILVER
-	loadtrainer RIVAL2, RIVAL2_2_TOTODILE
+	loadtrainer RIVAL2, RIVAL2_2_BUKAMON
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	jump PlateauRivalPostBattle
 
-.Totodile:
+.Bukamon:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_SILVER
 	loadtrainer RIVAL2, RIVAL2_2_TANEMON

@@ -183,13 +183,13 @@ KantoGrassWildMons:
 	db 4, PIDGEY
 	db 4, PIDGEY
 	; nite
-	db 2, HOOTHOOT
+	db 2, POROMON
 	db 2, RATTATA
 	db 3, RATTATA
-	db 3, HOOTHOOT
+	db 3, POROMON
 	db 6, RATICATE
-	db 4, HOOTHOOT
-	db 4, HOOTHOOT
+	db 4 ,POROMON
+	db 4, POROMON
 
 	map_id ROUTE_2
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -210,9 +210,9 @@ KantoGrassWildMons:
 	db 4, PIKACHU
 	db 4, PIKACHU
 	; nite
-	db 3, HOOTHOOT
+	db 3,POROMON
 	db 3, SPINARAK
-	db 5, HOOTHOOT
+	db 5, POROMON
 	db 7, NOCTOWL
 	db 7, ARIADOS
 	db 4, NOCTOWL
@@ -291,7 +291,7 @@ KantoGrassWildMons:
 	db 14, ABRA
 	db 14, ABRA
 	; nite
-	db 13, HOOTHOOT
+	db 13, POROMON
 	db 13, MEOWTH
 	db 15, NOCTOWL
 	db 12, ABRA
@@ -724,7 +724,7 @@ KantoGrassWildMons:
 	db 14, BUTTERFREE
 	; nite
 	db 10, ODDISH
-	db 10, HOOTHOOT
+	db 10, POROMON
 	db 10, VENONAT
 	db 12, NOCTOWL
 	db 10, BELLSPROUT

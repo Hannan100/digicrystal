@@ -2158,8 +2158,8 @@ TyphlosionEvosAttacks:
 	db 60, FLAMETHROWER
 	db 0 ; no more level-up moves
 
-TotodileEvosAttacks:
-	db EVOLVE_LEVEL, 18, CROCONAW
+BukamonEvosAttacks:
+	db EVOLVE_LEVEL, 18, GOMAMON
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
@@ -2172,7 +2172,7 @@ TotodileEvosAttacks:
 	db 52, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-CroconawEvosAttacks:
+GomamonEvosAttacks:
 	db EVOLVE_LEVEL, 30, FERALIGATR
 	db 0 ; no more evolutions
 	db 1, SCRATCH
@@ -2227,7 +2227,7 @@ FurretEvosAttacks:
 	db 48, AMNESIA
 	db 0 ; no more level-up moves
 
-HoothootEvosAttacks:
+PoromonEvosAttacks:
 	db EVOLVE_LEVEL, 20, NOCTOWL
 	db 0 ; no more evolutions
 	db 1, TACKLE
@@ -2412,7 +2412,7 @@ VeemonEvosAttacks:
 	db EVOLVE_STAT, 30, ATK_LT_DEF, VEEDRAMON
 	db EVOLVE_STAT, 30, ATK_GT_DEF, EXVEEMON
 	db EVOLVE_ITEM, FIRE_STONE, FLAMEDRMON
-	db EVOLVE_ITEM, THUNDER_STONE, RAIDRAMON
+	db EVOLVE_ITEM, THUNDERSTONE, RAIDRAMON
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, CHARM

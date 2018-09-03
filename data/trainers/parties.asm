@@ -86,7 +86,7 @@ Rival1Group:
 
 	; RIVAL1 (3)
 	db "?@", TRAINERTYPE_NORMAL
-	db  5, TOTODILE
+	db  5, BUKAMON
 	db -1 ; end
 
 	; RIVAL1 (4)
@@ -107,7 +107,7 @@ Rival1Group:
 	db "?@", TRAINERTYPE_NORMAL
 	db 12, GASTLY
 	db 14, ZUBAT
-	db 16, CROCONAW
+	db 16, GOMAMON
 	db -1 ; end
 
 	; RIVAL1 (7)
@@ -131,7 +131,7 @@ Rival1Group:
 	db 20, HAUNTER,    LICK, SPITE, MEAN_LOOK, CURSE
 	db 18, MAGNEMITE,  TACKLE, THUNDERSHOCK, SUPERSONIC, SONICBOOM
 	db 20, ZUBAT,      LEECH_LIFE, SUPERSONIC, BITE, CONFUSE_RAY
-	db 22, CROCONAW,   LEER, RAGE, WATER_GUN, BITE
+	db 22, GOMAMON,   LEER, RAGE, WATER_GUN, BITE
 	db -1 ; end
 
 	; RIVAL1 (10)
@@ -208,14 +208,14 @@ PKMNTrainerGroup:
 	db "CAL@", TRAINERTYPE_NORMAL
 	db 10, TANEMON
 	db 10, KOROMON
-	db 10, TOTODILE
+	db 10, BUKAMON
 	db -1 ; end
 
 	; CAL (2)
 	db "CAL@", TRAINERTYPE_NORMAL
 	db 30, BAYLEEF
 	db 30, QUILAVA
-	db 30, CROCONAW
+	db 30, GOMAMON
 	db -1 ; end
 
 	; CAL (3)
@@ -3095,7 +3095,7 @@ SageGroup:
 	; SAGE (4)
 	db "TROY@", TRAINERTYPE_NORMAL
 	db  7, BELLSPROUT
-	db  7, HOOTHOOT
+	db  7, POROMON
 	db -1 ; end
 
 	; SAGE (5)
@@ -3128,7 +3128,7 @@ SageGroup:
 	db "LI@", TRAINERTYPE_NORMAL
 	db  7, BELLSPROUT
 	db  7, BELLSPROUT
-	db 10, HOOTHOOT
+	db 10, POROMON
 	db -1 ; end
 
 	; SAGE (10)

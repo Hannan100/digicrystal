@@ -166,19 +166,19 @@ UndergroundSilverBattleScript:
 	waitbutton
 	closetext
 	setevent EVENT_RIVAL_GOLDENROD_UNDERGROUND
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftrue .Totodile
+	checkevent EVENT_GOT_BUKAMON_FROM_ELM
+	iftrue .Bukamon
 	checkevent EVENT_GOT_TANEMON_FROM_ELM
 	iftrue .Tanemon
 	winlosstext UndergroundSilverWinText, UndergroundSilverLossText
 	setlasttalked GOLDENRODUNDERGROUNDSWITCHROOMENTRANCES_SILVER
-	loadtrainer RIVAL1, RIVAL1_4_TOTODILE
+	loadtrainer RIVAL1, RIVAL1_4_BUKAMON
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	jump .FinishRivalBattle
 
-.Totodile:
+.Bukamon:
 	winlosstext UndergroundSilverWinText, UndergroundSilverLossText
 	setlasttalked GOLDENRODUNDERGROUNDSWITCHROOMENTRANCES_SILVER
 	loadtrainer RIVAL1, RIVAL1_4_TANEMON

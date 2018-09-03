@@ -156,12 +156,12 @@ AnimationPointers:
 	dw KoromonAnimation
 	dw QuilavaAnimation
 	dw TyphlosionAnimation
-	dw TotodileAnimation
-	dw CroconawAnimation
+	dw BukamonAnimation
+	dw GomamonAnimation
 	dw FeraligatrAnimation
 	dw SentretAnimation
 	dw FurretAnimation
-	dw HoothootAnimation
+	dw PoromonAnimation
 	dw NoctowlAnimation
 	dw LedybaAnimation
 	dw LedianAnimation

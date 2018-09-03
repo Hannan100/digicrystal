@@ -8,14 +8,14 @@ PokemonNames::
 	db "SQUIRTLE@@"
 	db "WARTORTLE@"
 	db "BLASTOISE@"
-	db "WORMMON@@@"
-	db "METAPOD@@@"
-	db "BUTTERFREE"
-	db "WEEDLE@@@@"
+	db "WORMMON@@@" ; Caterpie
+	db "METAPOD@@@" ; !Stingmon
+	db "BUTTERFREE" ; !Armor evo
+	db "WEEDLE@@@@" ; !Armor evo
 	db "KAKUNA@@@@"
 	db "BEEDRILL@@"
-	db "PIDGEY@@@@"
-	db "PIDGEOTTO@"
+	db "PIDGEY@@@@" ; !Biyomon
+	db "PIDGEOTTO@" ; !Birdramon
 	db "PIDGEOT@@@"
 	db "RATTATA@@@"
 	db "RATICATE@@"
@@ -72,14 +72,14 @@ PokemonNames::
 	db "VICTREEBEL"
 	db "TENTACOOL@"
 	db "TENTACRUEL"
-	db "GEODUDE@@@"
+	db "GEODUDE@@@" ; !Gotsumon
 	db "GRAVELER@@"
 	db "GOLEM@@@@@"
 	db "PONYTA@@@@"
 	db "RAPIDASH@@"
 	db "SLOWPOKE@@"
 	db "SLOWBRO@@@"
-	db "MAGNEMITE@"
+	db "MAGNEMITE@" ; !Hagurumon
 	db "MAGNETON@@"
 	db "FARFETCH'D"
 	db "DODUO@@@@@"
@@ -129,13 +129,13 @@ PokemonNames::
 	db "TAUROS@@@@"
 	db "MAGIKARP@@"
 	db "GYARADOS@@"
-	db "LAPRAS@@@@"
+	db "LAPRAS@@@@" ; !Plesiomon
 	db "DITTO@@@@@"
 	db "EEVEE@@@@@"
 	db "VAPOREON@@"
 	db "JOLTEON@@@"
 	db "FLAREON@@@"
-	db "PORYGON@@@"
+	db "PORYGON@@@" ; Porymon ;)
 	db "OMANYTE@@@"
 	db "OMASTAR@@@"
 	db "KABUTO@@@@"
@@ -150,62 +150,62 @@ PokemonNames::
 	db "DRAGONITE@"
 	db "MEWTWO@@@@"
 	db "MEW@@@@@@@"
-	db "TANEMON@@@"
-	db "BAYLEEF@@@"
-	db "MEGANIUM@@"
-	db "KOROMON@@@"
-	db "QUILAVA@@@"
-	db "TYPHLOSION"
-	db "TOTODILE@@"
-	db "CROCONAW@@"
-	db "FERALIGATR"
-	db "SENTRET@@@"
-	db "FURRET@@@@"
-	db "HOOTHOOT@@"
-	db "NOCTOWL@@@"
-	db "LEDYBA@@@@"
-	db "LEDIAN@@@@"
-	db "SPINARAK@@"
-	db "ARIADOS@@@"
+	db "TANEMON@@@" ; Chikorita
+	db "BAYLEEF@@@" ; !Palmon
+	db "MEGANIUM@@" ; !Togemon
+	db "KOROMON@@@" ; Cyndaquil
+	db "QUILAVA@@@" ; !Agumon
+	db "TYPHLOSION" ; !Greymon
+	db "BUKAMON@@@" ; Bukamon
+	db "GOMAMON@@@" ; Gomamon
+	db "FERALIGATR" ; !Ikakumon
+	db "SENTRET@@@" ; !Gummymon
+	db "FURRET@@@@" ; !Terriermon
+	db "HOOTHOOT@@" ; !Poromon
+	db "NOCTOWL@@@" ; !Hawkmon
+	db "LEDYBA@@@@" ; !Puroromon
+	db "LEDIAN@@@@" ; !Fanbeemon
+	db "SPINARAK@@" ; !Tentomon
+	db "ARIADOS@@@" ; !Kbuterimon
 	db "CROBAT@@@@"
 	db "CHINCHOU@@"
 	db "LANTURN@@@"
 	db "PICHU@@@@@"
 	db "CLEFFA@@@@"
 	db "IGGLYBUFF@"
-	db "DEMIVEEMON"
-	db "VEEMON@@@@"
-	db "VEEDRAMON@"
-	db "EX-VEEMON@"
-	db "FLAMEDRMON"
-	db "RAIDRAMON@"
-	db "AMPHAROS@@"
-	db "BELLOSSOM@"
-	db "MARILL@@@@"
-	db "AZUMARILL@"
-	db "SUDOWOODO@"
-	db "POLITOED@@"
-	db "HOPPIP@@@@"
+	db "DEMIVEEMON" ; Togepi
+	db "VEEMON@@@@" ; Togetic
+	db "VEEDRAMON@" ; Natu
+	db "EX-VEEMON@" ; Xatu
+	db "FLAMEDRMON" ; Mareep
+	db "RAIDRAMON@" ; Flaaffy
+	db "AMPHAROS@@" ; !Paildramon
+	db "BELLOSSOM@" ; !Dinobeemon
+	db "MARILL@@@@" ; !Imprldrmon
+	db "AZUMARILL@" 
+	db "SUDOWOODO@" ; !Woodmon
+	db "POLITOED@@" ; !Cherrymon
+	db "HOPPIP@@@@" ; !Puppetmon
 	db "SKIPLOOM@@"
 	db "JUMPLUFF@@"
-	db "AIPOM@@@@@"
-	db "SUNKERN@@@"
-	db "SUNFLORA@@"
-	db "YANMA@@@@@"
-	db "WOOPER@@@@"
-	db "QUAGSIRE@@"
-	db "ESPEON@@@@"
-	db "UMBREON@@@"
-	db "MURKROW@@@"
-	db "SLOWKING@@"
-	db "MISDREAVUS"
-	db "UNOWN@@@@@"
-	db "WOBBUFFET@"
-	db "GIRAFARIG@"
-	db "PINECO@@@@"
-	db "FORRETRESS"
-	db "DUNSPARCE@"
-	db "GLIGAR@@@@"
+	db "AIPOM@@@@@" ; !Sethmon
+	db "SUNKERN@@@" ; !Yasyamon
+	db "SUNFLORA@@" ; !Honeybeemon
+	db "YANMA@@@@@" ; !Depthmon
+	db "WOOPER@@@@" ; !Sagittarimon
+	db "QUAGSIRE@@" ; !Gargoylemon
+	db "ESPEON@@@@" ; !Kangarumon
+	db "UMBREON@@@" ; !Magnamon
+	db "MURKROW@@@" ; !Allomon
+	db "SLOWKING@@" ; !Rinkmon
+	db "MISDREAVUS" ; !Halsemon
+	db "UNOWN@@@@@" ; !Shurimon
+	db "WOBBUFFET@" ; !Flybeemon
+	db "GIRAFARIG@" ; !Orcamon
+	db "PINECO@@@@" ; !Moosemon
+	db "FORRETRESS" ; !Harpymon
+	db "DUNSPARCE@" ; !Toucanmon
+	db "GLIGAR@@@@" ; !Peacockmon
 	db "STEELIX@@@"
 	db "SNUBBULL@@"
 	db "GRANBULL@@"
@@ -243,15 +243,15 @@ PokemonNames::
 	db "BLISSEY@@@"
 	db "RAIKOU@@@@"
 	db "ENTEI@@@@@"
-	db "SUICUNE@@@"
+	db "SUICUNE@@@" ; !Baihumon (Should be with other legendaries in dex)
 	db "LARVITAR@@"
 	db "PUPITAR@@@"
-	db "TYRANITAR@"
-	db "LUGIA@@@@@"
-	db "HO-OH@@@@@"
-	db "CELEBI@@@@"
+	db "TYRANITAR@" ; !Ebonwumon
+	db "LUGIA@@@@@" ; !Azulongmon
+	db "HO-OH@@@@@" ; !Zhuqiaomon
+	db "CELEBI@@@@" ; !Hwnglngmon
 	db "?????@@@@@"
-	db "EGG@@@@@@@"
+	db "DIGIEGG@@@"
 	db "?????@@@@@"
 	db "?????@@@@@"
 	db "?????@@@@@"

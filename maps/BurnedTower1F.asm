@@ -60,19 +60,19 @@ BurnedTowerRivalBattleScript:
 	writetext BurnedTowerSilver_BeforeText
 	waitbutton
 	closetext
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftrue .totodile
+	checkevent EVENT_GOT_BUKAMON_FROM_ELM
+	iftrue .bukamon
 	checkevent EVENT_GOT_TANEMON_FROM_ELM
 	iftrue .Tanemon
 	winlosstext BurnedTowerSilver_WinText, BurnedTowerSilver_LossText
 	setlasttalked BURNEDTOWER1F_SILVER
-	loadtrainer RIVAL1, RIVAL1_3_TOTODILE
+	loadtrainer RIVAL1, RIVAL1_3_BUKAMON
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	jump .returnfrombattle
 
-.totodile
+.bukamon
 	winlosstext BurnedTowerSilver_WinText, BurnedTowerSilver_LossText
 	setlasttalked BURNEDTOWER1F_SILVER
 	loadtrainer RIVAL1, RIVAL1_3_TANEMON

@@ -54,7 +54,7 @@
 	const CRY_SLOWKING
 	const CRY_KOROMON
 	const CRY_TANEMON
-	const CRY_TOTODILE
+	const CRY_BUKAMON
 	const CRY_GLIGAR
 	const CRY_CLEFFA
 	const CRY_SLUGMA

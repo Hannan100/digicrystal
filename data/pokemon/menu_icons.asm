@@ -158,12 +158,12 @@ MonMenuIcons:
 	db ICON_FOX         ; KOROMON
 	db ICON_FOX         ; QUILAVA
 	db ICON_FOX         ; TYPHLOSION
-	db ICON_MONSTER     ; TOTODILE
-	db ICON_MONSTER     ; CROCONAW
+	db ICON_MONSTER     ; BUKAMON
+	db ICON_MONSTER     ; GOMAMON
 	db ICON_MONSTER     ; FERALIGATR
 	db ICON_FOX         ; SENTRET
 	db ICON_FOX         ; FURRET
-	db ICON_BIRD        ; HOOTHOOT
+	db ICON_BIRD        ; POROMON
 	db ICON_BIRD        ; NOCTOWL
 	db ICON_BUG         ; LEDYBA
 	db ICON_BUG         ; LEDIAN

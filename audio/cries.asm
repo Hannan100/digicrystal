@@ -21,10 +21,10 @@ Cry_Raikou:
 	musicheader 1, 6, Cry_Raikou_Ch6
 	musicheader 1, 8, Cry_Raikou_Ch8
 
-Cry_Hoothoot:
-	musicheader 3, 5, Cry_Hoothoot_Ch5
-	musicheader 1, 6, Cry_Hoothoot_Ch6
-	musicheader 1, 8, Cry_Hoothoot_Ch8
+Cry_Poromon:
+	musicheader 3, 5, Cry_Poromon_Ch5
+	musicheader 1, 6, Cry_Poromon_Ch6
+	musicheader 1, 8, Cry_Poromon_Ch8
 
 Cry_Sentret:
 	musicheader 2, 5, Cry_Sentret_Ch5
@@ -102,10 +102,10 @@ Cry_Ampharos:
 	musicheader 1, 6, Cry_Ampharos_Ch6
 	musicheader 1, 8, Cry_Ampharos_Ch8
 
-Cry_Totodile:
-	musicheader 3, 5, Cry_Totodile_Ch5
-	musicheader 1, 6, Cry_Totodile_Ch6
-	musicheader 1, 8, Cry_Totodile_Ch8
+Cry_Bukamon:
+	musicheader 3, 5, Cry_Bukamon_Ch5
+	musicheader 1, 6, Cry_Bukamon_Ch6
+	musicheader 1, 8, Cry_Bukamon_Ch8
 
 Cry_Cleffa:
 	musicheader 3, 5, Cry_Cleffa_Ch5
@@ -392,7 +392,7 @@ Cry_Raikou_Ch8:
 	noise C_,  1, $d2, $4f
 	endchannel
 
-Cry_Hoothoot_Ch5:
+Cry_Poromon_Ch5:
 	sound_duty 2, 1, 2, 1
 	sound __,  5, $78, $0650
 	sound __,  5, $f8, $0660
@@ -404,7 +404,7 @@ Cry_Hoothoot_Ch5:
 	sound __,  5, $f1, $0674
 	endchannel
 
-Cry_Hoothoot_Ch6:
+Cry_Poromon_Ch6:
 	sound_duty 2, 0, 2, 0
 .loop1
 	sound __,  3, $a1, $0600
@@ -416,7 +416,7 @@ Cry_Hoothoot_Ch6:
 	sound __,  5, $91, $0638
 	endchannel
 
-Cry_Hoothoot_Ch8:
+Cry_Poromon_Ch8:
 	noise __,  2, $68, $36
 	noise C_,  1, $88, $6a
 	noise __,  2, $98, $5e
@@ -733,7 +733,7 @@ Cry_Ampharos_Ch8:
 	noise C_,  9, $d2, $5b
 	endchannel
 
-Cry_Totodile_Ch5:
+Cry_Bukamon_Ch5:
 	sound_duty 2, 0, 3, 0
 	sound __,  9, $f8, $0330
 	sound __,  9, $f8, $0340
@@ -742,7 +742,7 @@ Cry_Totodile_Ch5:
 	sound C#,  1, $b2, $07b4
 	endchannel
 
-Cry_Totodile_Ch6:
+Cry_Bukamon_Ch6:
 	sound_duty 2, 0, 1, 0
 	sound __,  9, $e8, $0320
 	sound __,  9, $e8, $0328
@@ -751,7 +751,7 @@ Cry_Totodile_Ch6:
 	sound C#,  1, $72, $0784
 	endchannel
 
-Cry_Totodile_Ch8:
+Cry_Bukamon_Ch8:
 	noise __,  3, $be, $49
 	noise __,  6, $be, $3a
 	noise __,  3, $be, $29

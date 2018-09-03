@@ -500,7 +500,7 @@ if _CRYSTAL
 endc
 	db -1 ; end
 
-TotodileEggMoves:
+BukamonEggMoves:
 	db CRUNCH
 	db THRASH
 	db HYDRO_PUMP
@@ -517,7 +517,7 @@ SentretEggMoves:
 	db REVERSAL
 	db -1 ; end
 
-HoothootEggMoves:
+PoromonEggMoves:
 	db MIRROR_MOVE
 	db SUPERSONIC
 	db FAINT_ATTACK

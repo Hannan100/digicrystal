@@ -157,12 +157,12 @@ PokedexDataPointerTable:
 	dw KoromonPokedexEntry
 	dw QuilavaPokedexEntry
 	dw TyphlosionPokedexEntry
-	dw TotodilePokedexEntry
-	dw CroconawPokedexEntry
+	dw BukamonPokedexEntry
+	dw GomamonPokedexEntry
 	dw FeraligatrPokedexEntry
 	dw SentretPokedexEntry
 	dw FurretPokedexEntry
-	dw HoothootPokedexEntry
+	dw PoromonPokedexEntry
 	dw NoctowlPokedexEntry
 	dw LedybaPokedexEntry
 	dw LedianPokedexEntry

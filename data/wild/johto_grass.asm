@@ -346,9 +346,9 @@ JohtoGrassWildMons:
 	db 10, WEEDLE
 	; nite
 	db 12, PSYDUCK
-	db 13, HOOTHOOT
+	db 13,POROMON
 	db 14, SPINARAK
-	db 15, HOOTHOOT
+	db 15,POROMON
 	db 10, VENONAT
 	db 12, VENONAT
 	db 12, VENONAT
@@ -565,7 +565,7 @@ JohtoGrassWildMons:
 	db 5, VENONAT
 	db 7, ODDISH
 	db 7, PSYDUCK
-	db 7, HOOTHOOT
+	db 7,POROMON
 	db 6, PARAS
 	db 6, PARAS
 
@@ -1209,13 +1209,13 @@ JohtoGrassWildMons:
 	db 3, HOPPIP
 	db 3, HOPPIP
 	; nite
-	db 2, HOOTHOOT
+	db 2,POROMON
 	db 2, RATTATA
-	db 3, HOOTHOOT
+	db 3,POROMON
 	db 3, RATTATA
 	db 2, RATTATA
-	db 3, HOOTHOOT
-	db 3, HOOTHOOT
+	db 3,POROMON
+	db 3,POROMON
 
 	map_id ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1237,12 +1237,12 @@ JohtoGrassWildMons:
 	db 4, HOPPIP
 	; nite
 	db 3, SPINARAK
-	db 3, HOOTHOOT
+	db 3,POROMON
 	db 4, POLIWAG
-	db 4, HOOTHOOT
+	db 4,POROMON
 	db 3, ZUBAT
-	db 4, HOOTHOOT
-	db 4, HOOTHOOT
+	db 4,POROMON
+	db 4,POROMON
 
 	map_id ROUTE_31
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1266,7 +1266,7 @@ JohtoGrassWildMons:
 	db 4, SPINARAK
 	db 4, POLIWAG
 	db 5, BELLSPROUT
-	db 5, HOOTHOOT
+	db 5,POROMON
 	db 4, ZUBAT
 	db 5, GASTLY
 	db 5, GASTLY
@@ -1294,7 +1294,7 @@ JohtoGrassWildMons:
 	db 5, RATTATA
 	db 7, BELLSPROUT
 	db 6, ZUBAT
-	db 7, HOOTHOOT
+	db 7,POROMON
 	db 7, GASTLY
 	db 7, GASTLY
 
@@ -1346,7 +1346,7 @@ JohtoGrassWildMons:
 	; nite
 	db 12, DROWZEE
 	db 11, RATTATA
-	db 12, HOOTHOOT
+	db 12,POROMON
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
@@ -1372,7 +1372,7 @@ JohtoGrassWildMons:
 	db 12, YANMA
 	; nite
 	db 12, DROWZEE
-	db 14, HOOTHOOT
+	db 14,POROMON
 	db 13, PSYDUCK
 	db 10, ABRA
 	db 12, JIGGLYPUFF
@@ -1399,10 +1399,10 @@ JohtoGrassWildMons:
 	db 6, PIDGEY
 	; nite
 	db 4, SPINARAK
-	db 4, HOOTHOOT
+	db 4,POROMON
 	db 5, BELLSPROUT
-	db 5, HOOTHOOT
-	db 5, HOOTHOOT
+	db 5,POROMON
+	db 5,POROMON
 	db 5, GASTLY
 	db 5, GASTLY
 
@@ -1427,7 +1427,7 @@ JohtoGrassWildMons:
 	; nite
 	db 13, SPINARAK
 	db 14, STANTLER
-	db 15, HOOTHOOT
+	db 15,POROMON
 	db 16, STANTLER
 	db 15, NOCTOWL
 	db 15, ARIADOS
