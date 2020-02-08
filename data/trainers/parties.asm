@@ -35,7 +35,7 @@ BugsyGroup:
 MortyGroup:
 	; MORTY (1)
 	db "MORTY@", TRAINERTYPE_MOVES
-	db 21, GASTLY,     LICK, SPITE, MEAN_LOOK, CURSE
+	db 21, BAKEMON,     LICK, SPITE, MEAN_LOOK, CURSE
 	db 21, HAUNTER,    HYPNOSIS, MIMIC, CURSE, NIGHT_SHADE
 	db 25, GENGAR,     HYPNOSIS, SHADOW_BALL, MEAN_LOOK, DREAM_EATER
 	db 23, HAUNTER,    SPITE, MEAN_LOOK, MIMIC, NIGHT_SHADE
@@ -91,21 +91,21 @@ Rival1Group:
 
 	; RIVAL1 (4)
 	db "?@", TRAINERTYPE_NORMAL
-	db 12, GASTLY
+	db 12, BAKEMON
 	db 14, ZUBAT
 	db 16, BAYLEEF
 	db -1 ; end
 
 	; RIVAL1 (5)
 	db "?@", TRAINERTYPE_NORMAL
-	db 12, GASTLY
+	db 12, BAKEMON
 	db 14, ZUBAT
 	db 16, QUILAVA
 	db -1 ; end
 
 	; RIVAL1 (6)
 	db "?@", TRAINERTYPE_NORMAL
-	db 12, GASTLY
+	db 12, BAKEMON
 	db 14, ZUBAT
 	db 16, GOMAMON
 	db -1 ; end
@@ -3105,11 +3105,11 @@ SageGroup:
 
 	; SAGE (6)
 	db "PING@", TRAINERTYPE_NORMAL
-	db 16, GASTLY
-	db 16, GASTLY
-	db 16, GASTLY
-	db 16, GASTLY
-	db 16, GASTLY
+	db 16, BAKEMON
+	db 16, BAKEMON
+	db 16, BAKEMON
+	db 16, BAKEMON
+	db 16, BAKEMON
 	db -1 ; end
 
 	; SAGE (7)
@@ -3152,9 +3152,9 @@ SageGroup:
 MediumGroup:
 	; MEDIUM (1)
 	db "MARTHA@", TRAINERTYPE_NORMAL
-	db 18, GASTLY
+	db 18, BAKEMON
 	db 20, HAUNTER
-	db 20, GASTLY
+	db 20, BAKEMON
 	db -1 ; end
 
 	; MEDIUM (2)

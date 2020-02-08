@@ -90,7 +90,7 @@ PokemonNames::
 	db "MUK@@@@@@@"
 	db "SHELLDER@@"
 	db "CLOYSTER@@"
-	db "GASTLY@@@@"
+	db "BAKEMON@@@"
 	db "HAUNTER@@@"
 	db "GENGAR@@@@"
 	db "ONIX@@@@@@"

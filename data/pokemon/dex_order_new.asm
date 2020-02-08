@@ -58,7 +58,7 @@ NewPokedexOrder:
 	db AMPHAROS
 	db WOOPER
 	db QUAGSIRE
-	db GASTLY
+	db BAKEMON
 	db HAUNTER
 	db GENGAR
 	db UNOWN

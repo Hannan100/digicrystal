@@ -90,7 +90,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw ShellderEggMoves
 	dw NoEggMoves
-	dw GastlyEggMoves
+	dw BakemonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw OnixEggMoves
