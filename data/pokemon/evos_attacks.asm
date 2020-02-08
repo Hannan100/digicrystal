@@ -2070,7 +2070,7 @@ MewEvosAttacks:
 	db 0 ; no more level-up moves
 
 TanemonEvosAttacks:
-	db EVOLVE_LEVEL, 16, BAYLEEF
+	db EVOLVE_LEVEL, 16, PALMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2084,7 +2084,7 @@ TanemonEvosAttacks:
 	db 50, SOLARBEAM
 	db 0 ; no more level-up moves
 
-BayleefEvosAttacks:
+PalmonEvosAttacks:
 	db EVOLVE_LEVEL, 32, MEGANIUM
 	db 0 ; no more evolutions
 	db 1, TACKLE

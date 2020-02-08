@@ -153,7 +153,7 @@ EvosAttacksPointers::
 	dw MewtwoEvosAttacks
 	dw MewEvosAttacks
 	dw TanemonEvosAttacks
-	dw BayleefEvosAttacks
+	dw PalmonEvosAttacks
 	dw MeganiumEvosAttacks
 	dw KoromonEvosAttacks
 	dw QuilavaEvosAttacks

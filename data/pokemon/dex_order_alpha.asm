@@ -11,7 +11,7 @@ AlphabeticalPokedexOrder:
 	db ARIADOS
 	db ARTICUNO
 	db AZUMARILL
-	db BAYLEEF
+	db PALMON
 	db BEEDRILL
 	db BELLOSSOM
 	db BELLSPROUT

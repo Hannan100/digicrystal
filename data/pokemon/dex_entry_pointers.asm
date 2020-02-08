@@ -152,7 +152,7 @@ PokedexDataPointerTable:
 	dw MewtwoPokedexEntry
 	dw MewPokedexEntry
 	dw TanemonPokedexEntry
-	dw BayleefPokedexEntry
+	dw PalmonPokedexEntry
 	dw MeganiumPokedexEntry
 	dw KoromonPokedexEntry
 	dw QuilavaPokedexEntry

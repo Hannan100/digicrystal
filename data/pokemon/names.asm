@@ -151,7 +151,7 @@ PokemonNames::
 	db "MEWTWO@@@@"
 	db "MEW@@@@@@@"
 	db "TANEMON@@@" ; Chikorita
-	db "BAYLEEF@@@" ; !Palmon
+	db "PALMON@@@" ; !Palmon
 	db "MEGANIUM@@" ; !Togemon
 	db "KOROMON@@@" ; Cyndaquil
 	db "QUILAVA@@@" ; !Agumon
