@@ -17,7 +17,7 @@ PokemonNames::
 	db "PIDGEY@@@@" ; !Biyomon
 	db "PIDGEOTTO@" ; !Birdramon
 	db "PIDGEOT@@@"
-	db "RATTATA@@@"
+	db "PUNIMON@@@"
 	db "RATICATE@@"
 	db "SPEAROW@@@"
 	db "FEAROW@@@@"

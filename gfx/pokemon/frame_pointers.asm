@@ -17,7 +17,7 @@ FramesPointers:
 	dw PidgeyFrames
 	dw PidgeottoFrames
 	dw PidgeotFrames
-	dw RattataFrames
+	dw PunimonFrames
 	dw RaticateFrames
 	dw SpearowFrames
 	dw FearowFrames

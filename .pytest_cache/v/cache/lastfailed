@@ -1,0 +1,5 @@
+{
+  "extras/tests/test_dump_sections.py": true, 
+  "extras/tests/test_vba.py": true, 
+  "extras/tests/test_vba_battle.py": true
+}

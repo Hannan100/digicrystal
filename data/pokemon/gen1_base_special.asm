@@ -19,7 +19,7 @@ KantoMonSpecials:
 	db  35 ; PIDGEY
 	db  50 ; PIDGEOTTO
 	db  70 ; PIDGEOT
-	db  25 ; RATTATA
+	db  25 ; PUNIMON
 	db  50 ; RATICATE
 	db  31 ; SPEAROW
 	db  61 ; FEAROW

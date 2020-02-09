@@ -997,10 +997,10 @@ Cry_Psyduck:
 	musicheader 1, 6, Cry_Psyduck_Ch6
 	musicheader 1, 8, Cry_Psyduck_Ch8
 
-Cry_Rattata:
-	musicheader 3, 5, Cry_Rattata_Ch5
-	musicheader 1, 6, Cry_Rattata_Ch6
-	musicheader 1, 8, Cry_Rattata_Ch8
+Cry_Punimon:
+	musicheader 3, 5, Cry_Punimon_Ch5
+	musicheader 1, 6, Cry_Punimon_Ch6
+	musicheader 1, 8, Cry_Punimon_Ch8
 
 Cry_Vileplume:
 	musicheader 3, 5, Cry_Vileplume_Ch5
@@ -2021,7 +2021,7 @@ Cry_Psyduck_Ch6:
 Cry_Psyduck_Ch8:
 	endchannel
 
-Cry_Rattata_Ch5:
+Cry_Punimon_Ch5:
 	sound_duty 1, 0, 1, 0
 	sound __,  3, $3d, $0381
 	sound __,  8, $f5, $0601
@@ -2029,7 +2029,7 @@ Cry_Rattata_Ch5:
 	sound __,  9, $91, $0381
 	endchannel
 
-Cry_Rattata_Ch6:
+Cry_Punimon_Ch6:
 	sound_duty 2, 3, 2, 3
 	sound __,  3, $3e, $05b0
 	sound __,  8, $d5, $075d
@@ -2037,7 +2037,7 @@ Cry_Rattata_Ch6:
 	sound __,  9, $61, $05b0
 	endchannel
 
-Cry_Rattata_Ch8:
+Cry_Punimon_Ch8:
 	noise __,  3, $92, $49
 	noise __,  8, $b5, $29
 	noise __,  2, $a2, $39

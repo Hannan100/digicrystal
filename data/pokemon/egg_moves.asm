@@ -51,7 +51,7 @@ if !_CRYSTAL
 endc
 	db -1 ; end
 
-RattataEggMoves:
+PunimonEggMoves:
 	db SCREECH
 	db FLAME_WHEEL
 	db FURY_SWIPES

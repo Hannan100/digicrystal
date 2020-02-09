@@ -17,7 +17,7 @@ NewPokedexOrder:
 	db FEAROW
 	db POROMON
 	db NOCTOWL
-	db RATTATA
+	db PUNIMON
 	db RATICATE
 	db SENTRET
 	db FURRET

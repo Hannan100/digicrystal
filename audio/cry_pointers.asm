@@ -33,7 +33,7 @@ Cries:
 	dba Cry_Growlithe
 	dba Cry_Krabby
 	dba Cry_Psyduck
-	dba Cry_Rattata
+	dba Cry_Punimon
 	dba Cry_Vileplume
 	dba Cry_Vulpix
 	dba Cry_Weepinbell
