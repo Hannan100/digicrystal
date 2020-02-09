@@ -154,7 +154,7 @@ BitmasksPointers:
 	dw PalmonBitmasks
 	dw TogemonBitmasks
 	dw KoromonBitmasks
-	dw QuilavaBitmasks
+	dw AgumonBitmasks
 	dw TyphlosionBitmasks
 	dw BukamonBitmasks
 	dw GomamonBitmasks

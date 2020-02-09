@@ -176,7 +176,7 @@ AlphabeticalPokedexOrder:
 	db PSYDUCK
 	db PUPITAR
 	db QUAGSIRE
-	db QUILAVA
+	db AGUMON
 	db QWILFISH
 	db RAICHU
 	db RAIKOU

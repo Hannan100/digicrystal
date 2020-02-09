@@ -194,7 +194,7 @@ Pokered_MonIndices:
 	db PALMON
 	db TOGEMON
 	db KOROMON
-	db QUILAVA
+	db AGUMON
 	db TYPHLOSION
 	db BUKAMON
 	db GOMAMON

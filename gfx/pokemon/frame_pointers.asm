@@ -154,7 +154,7 @@ FramesPointers:
 	dw PalmonFrames
 	dw TogemonFrames
 	dw KoromonFrames
-	dw QuilavaFrames
+	dw AgumonFrames
 	dw TyphlosionFrames
 	dw BukamonFrames
 	dw GomamonFrames

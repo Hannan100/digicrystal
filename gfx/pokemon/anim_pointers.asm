@@ -154,7 +154,7 @@ AnimationPointers:
 	dw PalmonAnimation
 	dw TogemonAnimation
 	dw KoromonAnimation
-	dw QuilavaAnimation
+	dw AgumonAnimation
 	dw TyphlosionAnimation
 	dw BukamonAnimation
 	dw GomamonAnimation

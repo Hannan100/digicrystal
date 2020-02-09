@@ -154,7 +154,7 @@ AnimationIdlePointers:
 	dw PalmonAnimationIdle
 	dw TogemonAnimationIdle
 	dw KoromonAnimationIdle
-	dw QuilavaAnimationIdle
+	dw AgumonAnimationIdle
 	dw TyphlosionAnimationIdle
 	dw BukamonAnimationIdle
 	dw GomamonAnimationIdle

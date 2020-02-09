@@ -154,7 +154,7 @@ PokemonNames::
 	db "PALMON@@@" ; !Palmon
 	db "TOGEMON@@" ; !Togemon
 	db "KOROMON@@@" ; Cyndaquil
-	db "QUILAVA@@@" ; !Agumon
+	db "AGUMON@@@" ; !Agumon
 	db "TYPHLOSION" ; !Greymon
 	db "BUKAMON@@@" ; Bukamon
 	db "GOMAMON@@@" ; Gomamon

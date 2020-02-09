@@ -155,7 +155,7 @@ PokedexDataPointerTable:
 	dw PalmonPokedexEntry
 	dw TogemonPokedexEntry
 	dw KoromonPokedexEntry
-	dw QuilavaPokedexEntry
+	dw AgumonPokedexEntry
 	dw TyphlosionPokedexEntry
 	dw BukamonPokedexEntry
 	dw GomamonPokedexEntry

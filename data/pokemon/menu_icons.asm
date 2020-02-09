@@ -156,7 +156,7 @@ MonMenuIcons:
 	db ICON_ODDISH      ; PALMON
 	db ICON_ODDISH      ; TOGEMON
 	db ICON_FOX         ; KOROMON
-	db ICON_FOX         ; QUILAVA
+	db ICON_FOX         ; AGUMON
 	db ICON_FOX         ; TYPHLOSION
 	db ICON_MONSTER     ; BUKAMON
 	db ICON_MONSTER     ; GOMAMON
