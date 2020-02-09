@@ -110,7 +110,7 @@
 	const MUK        ; 59
 	const SHELLDER   ; 5a
 	const CLOYSTER   ; 5b
-	const BAKEMON     ; 5c
+	const TSUMEMON     ; 5c
 	const HAUNTER    ; 5d
 	const GENGAR     ; 5e
 	const ONIX       ; 5f

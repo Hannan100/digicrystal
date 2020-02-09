@@ -92,7 +92,7 @@ KantoMonSpecials:
 	db  65 ; MUK
 	db  45 ; SHELLDER
 	db  85 ; CLOYSTER
-	db 100 ; BAKEMON
+	db 100 ; TSUMEMON
 	db 115 ; HAUNTER
 	db 130 ; GENGAR
 	db  30 ; ONIX

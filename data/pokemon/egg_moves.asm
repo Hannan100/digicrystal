@@ -298,7 +298,7 @@ ShellderEggMoves:
 	db SCREECH
 	db -1 ; end
 
-BakemonEggMoves:
+TsumemonEggMoves:
 	db PSYWAVE
 	db PERISH_SONG
 	db HAZE

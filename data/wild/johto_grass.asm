@@ -21,11 +21,11 @@ JohtoGrassWildMons:
 	db 5, PUNIMON
 	db 5, PUNIMON
 	; nite
-	db 3, BAKEMON
-	db 4, BAKEMON
-	db 5, BAKEMON
+	db 3, TSUMEMON
+	db 4, TSUMEMON
+	db 5, TSUMEMON
 	db 3, PUNIMON
-	db 6, BAKEMON
+	db 6, TSUMEMON
 	db 5, PUNIMON
 	db 5, PUNIMON
 
@@ -48,11 +48,11 @@ JohtoGrassWildMons:
 	db 5, PUNIMON
 	db 5, PUNIMON
 	; nite
-	db 3, BAKEMON
-	db 4, BAKEMON
-	db 5, BAKEMON
+	db 3, TSUMEMON
+	db 4, TSUMEMON
+	db 5, TSUMEMON
 	db 3, PUNIMON
-	db 6, BAKEMON
+	db 6, TSUMEMON
 	db 5, PUNIMON
 	db 5, PUNIMON
 
@@ -75,9 +75,9 @@ JohtoGrassWildMons:
 	db 24, PUNIMON
 	db 24, PUNIMON
 	; nite
-	db 20, BAKEMON
-	db 21, BAKEMON
-	db 22, BAKEMON
+	db 20, TSUMEMON
+	db 21, TSUMEMON
+	db 22, TSUMEMON
 	db 22, PUNIMON
 	db 23, PUNIMON
 	db 24, PUNIMON
@@ -102,9 +102,9 @@ JohtoGrassWildMons:
 	db 24, PUNIMON
 	db 24, PUNIMON
 	; nite
-	db 20, BAKEMON
-	db 21, BAKEMON
-	db 22, BAKEMON
+	db 20, TSUMEMON
+	db 21, TSUMEMON
+	db 22, TSUMEMON
 	db 22, PUNIMON
 	db 23, PUNIMON
 	db 24, PUNIMON
@@ -129,9 +129,9 @@ JohtoGrassWildMons:
 	db 24, PUNIMON
 	db 24, PUNIMON
 	; nite
-	db 20, BAKEMON
-	db 21, BAKEMON
-	db 22, BAKEMON
+	db 20, TSUMEMON
+	db 21, TSUMEMON
+	db 22, TSUMEMON
 	db 22, PUNIMON
 	db 23, PUNIMON
 	db 24, PUNIMON
@@ -156,9 +156,9 @@ JohtoGrassWildMons:
 	db 24, PUNIMON
 	db 24, PUNIMON
 	; nite
-	db 20, BAKEMON
-	db 21, BAKEMON
-	db 22, BAKEMON
+	db 20, TSUMEMON
+	db 21, TSUMEMON
+	db 22, TSUMEMON
 	db 22, PUNIMON
 	db 23, PUNIMON
 	db 24, PUNIMON
@@ -183,9 +183,9 @@ JohtoGrassWildMons:
 	db 24, PUNIMON
 	db 24, PUNIMON
 	; nite
-	db 20, BAKEMON
-	db 21, BAKEMON
-	db 22, BAKEMON
+	db 20, TSUMEMON
+	db 21, TSUMEMON
+	db 22, TSUMEMON
 	db 22, PUNIMON
 	db 23, PUNIMON
 	db 24, PUNIMON
@@ -210,9 +210,9 @@ JohtoGrassWildMons:
 	db 24, PUNIMON
 	db 24, PUNIMON
 	; nite
-	db 20, BAKEMON
-	db 21, BAKEMON
-	db 22, BAKEMON
+	db 20, TSUMEMON
+	db 21, TSUMEMON
+	db 22, TSUMEMON
 	db 22, PUNIMON
 	db 23, PUNIMON
 	db 24, PUNIMON
@@ -237,9 +237,9 @@ JohtoGrassWildMons:
 	db 24, PUNIMON
 	db 24, PUNIMON
 	; nite
-	db 20, BAKEMON
-	db 21, BAKEMON
-	db 22, BAKEMON
+	db 20, TSUMEMON
+	db 21, TSUMEMON
+	db 22, TSUMEMON
 	db 22, PUNIMON
 	db 23, PUNIMON
 	db 24, PUNIMON
@@ -264,9 +264,9 @@ JohtoGrassWildMons:
 	db 24, PUNIMON
 	db 24, PUNIMON
 	; nite
-	db 20, BAKEMON
-	db 21, BAKEMON
-	db 22, BAKEMON
+	db 20, TSUMEMON
+	db 21, TSUMEMON
+	db 22, TSUMEMON
 	db 22, PUNIMON
 	db 23, PUNIMON
 	db 24, PUNIMON
@@ -1268,8 +1268,8 @@ JohtoGrassWildMons:
 	db 5, BELLSPROUT
 	db 5,POROMON
 	db 4, ZUBAT
-	db 5, BAKEMON
-	db 5, BAKEMON
+	db 5, TSUMEMON
+	db 5, TSUMEMON
 
 	map_id ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1295,8 +1295,8 @@ JohtoGrassWildMons:
 	db 7, BELLSPROUT
 	db 6, ZUBAT
 	db 7,POROMON
-	db 7, BAKEMON
-	db 7, BAKEMON
+	db 7, TSUMEMON
+	db 7, TSUMEMON
 
 	map_id ROUTE_33
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1403,8 +1403,8 @@ JohtoGrassWildMons:
 	db 5, BELLSPROUT
 	db 5,POROMON
 	db 5,POROMON
-	db 5, BAKEMON
-	db 5, BAKEMON
+	db 5, TSUMEMON
+	db 5, TSUMEMON
 
 	map_id ROUTE_37
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

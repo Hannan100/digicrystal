@@ -1241,7 +1241,7 @@ endc
 	db 41, SPIKE_CANNON
 	db 0 ; no more level-up moves
 
-BakemonEvosAttacks:
+TsumemonEvosAttacks:
 	db EVOLVE_LEVEL, 25, HAUNTER
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS

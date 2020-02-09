@@ -90,7 +90,7 @@ BitmasksPointers:
 	dw MukBitmasks
 	dw ShellderBitmasks
 	dw CloysterBitmasks
-	dw BakemonBitmasks
+	dw TsumemonBitmasks
 	dw HaunterBitmasks
 	dw GengarBitmasks
 	dw OnixBitmasks

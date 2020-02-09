@@ -91,7 +91,7 @@ PokedexDataPointerTable:
 	dw MukPokedexEntry
 	dw ShellderPokedexEntry
 	dw CloysterPokedexEntry
-	dw BakemonPokedexEntry
+	dw TsumemonPokedexEntry
 	dw HaunterPokedexEntry
 	dw GengarPokedexEntry
 	dw OnixPokedexEntry
