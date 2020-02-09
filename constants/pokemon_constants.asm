@@ -173,7 +173,7 @@
 JOHTO_POKEMON EQU const_value
 	const TANEMON    ; 98
 	const PALMON    ; 99
-	const MEGANIUM   ; 9a
+	const TOGEMON   ; 9a
 	const KOROMON  ; 9b
 	const QUILAVA    ; 9c
 	const TYPHLOSION ; 9d

@@ -152,7 +152,7 @@ FramesPointers:
 	dw MewFrames
 	dw TanemonFrames
 	dw PalmonFrames
-	dw MeganiumFrames
+	dw TogemonFrames
 	dw KoromonFrames
 	dw QuilavaFrames
 	dw TyphlosionFrames

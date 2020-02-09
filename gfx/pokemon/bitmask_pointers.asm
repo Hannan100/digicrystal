@@ -152,7 +152,7 @@ BitmasksPointers:
 	dw MewBitmasks
 	dw TanemonBitmasks
 	dw PalmonBitmasks
-	dw MeganiumBitmasks
+	dw TogemonBitmasks
 	dw KoromonBitmasks
 	dw QuilavaBitmasks
 	dw TyphlosionBitmasks

@@ -128,7 +128,7 @@ AlphabeticalPokedexOrder:
 	db FLAMEDRMON
 	db MARILL
 	db MAROWAK
-	db MEGANIUM
+	db TOGEMON
 	db MEOWTH
 	db METAPOD
 	db MEW

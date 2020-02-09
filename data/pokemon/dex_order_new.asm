@@ -3,7 +3,7 @@
 NewPokedexOrder:
 	db TANEMON
 	db PALMON
-	db MEGANIUM
+	db TOGEMON
 	db KOROMON
 	db QUILAVA
 	db TYPHLOSION

@@ -152,7 +152,7 @@ AnimationPointers:
 	dw MewAnimation
 	dw TanemonAnimation
 	dw PalmonAnimation
-	dw MeganiumAnimation
+	dw TogemonAnimation
 	dw KoromonAnimation
 	dw QuilavaAnimation
 	dw TyphlosionAnimation

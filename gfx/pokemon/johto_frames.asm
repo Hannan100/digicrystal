@@ -2,7 +2,7 @@ JohtoFrames: ; used only for BANK(JohtoFrames)
 
 TanemonFrames:    INCLUDE "gfx/pokemon/tanemon/frames.asm"
 PalmonFrames:    INCLUDE "gfx/pokemon/palmon/frames.asm"
-MeganiumFrames:   INCLUDE "gfx/pokemon/meganium/frames.asm"
+TogemonFrames:   INCLUDE "gfx/pokemon/togemon/frames.asm"
 KoromonFrames:  INCLUDE "gfx/pokemon/koromon/frames.asm"
 QuilavaFrames:    INCLUDE "gfx/pokemon/quilava/frames.asm"
 TyphlosionFrames: INCLUDE "gfx/pokemon/typhlosion/frames.asm"

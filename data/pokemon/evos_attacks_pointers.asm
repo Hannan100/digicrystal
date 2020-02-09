@@ -154,7 +154,7 @@ EvosAttacksPointers::
 	dw MewEvosAttacks
 	dw TanemonEvosAttacks
 	dw PalmonEvosAttacks
-	dw MeganiumEvosAttacks
+	dw TogemonEvosAttacks
 	dw KoromonEvosAttacks
 	dw QuilavaEvosAttacks
 	dw TyphlosionEvosAttacks
