@@ -94,7 +94,7 @@ EvosAttacksPointers::
 	dw CloysterEvosAttacks
 	dw TsumemonEvosAttacks
 	dw KeramonEvosAttacks
-	dw GengarEvosAttacks
+	dw InfermonEvosAttacks
 	dw OnixEvosAttacks
 	dw DrowzeeEvosAttacks
 	dw HypnoEvosAttacks

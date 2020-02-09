@@ -60,7 +60,7 @@ NewPokedexOrder:
 	db QUAGSIRE
 	db TSUMEMON
 	db KERAMON
-	db GENGAR
+	db INFERMON
 	db UNOWN
 	db ONIX
 	db STEELIX

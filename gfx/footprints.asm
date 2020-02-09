@@ -213,7 +213,7 @@ INCBIN "gfx/footprints/shellder.1bpp",   footprint_top
 INCBIN "gfx/footprints/cloyster.1bpp",   footprint_top
 INCBIN "gfx/footprints/tsumemon.1bpp",     footprint_top
 INCBIN "gfx/footprints/keramon.1bpp",    footprint_top
-INCBIN "gfx/footprints/gengar.1bpp",     footprint_top
+INCBIN "gfx/footprints/infermon.1bpp",     footprint_top
 INCBIN "gfx/footprints/onix.1bpp",       footprint_top
 INCBIN "gfx/footprints/drowzee.1bpp",    footprint_top
 ; 089-096 bottom halves
@@ -222,7 +222,7 @@ INCBIN "gfx/footprints/shellder.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/cloyster.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/tsumemon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/keramon.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/gengar.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/infermon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/onix.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/drowzee.1bpp",    footprint_bottom
 ; 097-104 top halves

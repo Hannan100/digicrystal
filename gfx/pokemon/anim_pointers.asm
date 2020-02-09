@@ -92,7 +92,7 @@ AnimationPointers:
 	dw CloysterAnimation
 	dw TsumemonAnimation
 	dw KeramonAnimation
-	dw GengarAnimation
+	dw InfermonAnimation
 	dw OnixAnimation
 	dw DrowzeeAnimation
 	dw HypnoAnimation

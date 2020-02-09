@@ -92,7 +92,7 @@ PokemonNames::
 	db "CLOYSTER@@"
 	db "TSUMEMON@@@"
 	db "KERAMON@@@"
-	db "GENGAR@@@@"
+	db "INFERMON@@@@"
 	db "ONIX@@@@@@"
 	db "DROWZEE@@@"
 	db "HYPNO@@@@@"

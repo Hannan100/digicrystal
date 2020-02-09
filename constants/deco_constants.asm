@@ -112,7 +112,7 @@ __enum__ = 0
 	deco  STARMIE_DOLL
 	deco  MAGIKARP_DOLL
 	deco  ODDISH_DOLL
-	deco  GENGAR_DOLL
+	deco  INFERMON_DOLL
 	deco  SHELLDER_DOLL
 	deco  GRIMER_DOLL
 	deco  VOLTORB_DOLL
