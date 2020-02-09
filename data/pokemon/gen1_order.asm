@@ -164,7 +164,7 @@ Pokered_MonIndices:
 	db PONYTA
 	db RAPIDASH
 	db PUNIMON
-	db RATICATE
+	db TSUNOMON
 	db NIDORINO
 	db NIDORINA
 	db GEODUDE

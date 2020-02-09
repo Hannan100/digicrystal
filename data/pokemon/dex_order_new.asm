@@ -18,7 +18,7 @@ NewPokedexOrder:
 	db POROMON
 	db NOCTOWL
 	db PUNIMON
-	db RATICATE
+	db TSUNOMON
 	db SENTRET
 	db FURRET
 	db PICHU

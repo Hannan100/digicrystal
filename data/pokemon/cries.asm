@@ -24,7 +24,7 @@ PokemonCries::
 	mon_cry CRY_PIDGEOTTO,   $028,  $140 ; PIDGEOTTO
 	mon_cry CRY_PIDGEOTTO,   $011,  $17f ; PIDGEOT
 	mon_cry CRY_PUNIMON,     $000,  $100 ; PUNIMON
-	mon_cry CRY_PUNIMON,     $020,  $17f ; RATICATE
+	mon_cry CRY_PUNIMON,     $020,  $17f ; TSUNOMON
 	mon_cry CRY_SPEAROW,     $000,  $100 ; SPEAROW
 	mon_cry CRY_FEAROW,      $040,  $120 ; FEAROW
 	mon_cry CRY_EKANS,       $012,  $0c0 ; EKANS
