@@ -91,7 +91,7 @@ PokemonNames::
 	db "SHELLDER@@"
 	db "CLOYSTER@@"
 	db "TSUMEMON@@@"
-	db "HAUNTER@@@"
+	db "KERAMON@@@"
 	db "GENGAR@@@@"
 	db "ONIX@@@@@@"
 	db "DROWZEE@@@"

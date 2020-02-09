@@ -91,7 +91,7 @@ FramesPointers:
 	dw ShellderFrames
 	dw CloysterFrames
 	dw TsumemonFrames
-	dw HaunterFrames
+	dw KeramonFrames
 	dw GengarFrames
 	dw OnixFrames
 	dw DrowzeeFrames

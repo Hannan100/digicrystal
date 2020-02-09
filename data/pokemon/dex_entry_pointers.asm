@@ -92,7 +92,7 @@ PokedexDataPointerTable:
 	dw ShellderPokedexEntry
 	dw CloysterPokedexEntry
 	dw TsumemonPokedexEntry
-	dw HaunterPokedexEntry
+	dw KeramonPokedexEntry
 	dw GengarPokedexEntry
 	dw OnixPokedexEntry
 	dw DrowzeePokedexEntry

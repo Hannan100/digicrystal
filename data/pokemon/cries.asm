@@ -97,7 +97,7 @@ PokemonCries::
 	mon_cry CRY_FEAROW,      $000,  $100 ; SHELLDER
 	mon_cry CRY_FEAROW,      $06f,  $160 ; CLOYSTER
 	mon_cry CRY_METAPOD,     $000,  $100 ; TSUMEMON
-	mon_cry CRY_METAPOD,     $030,  $0c0 ; HAUNTER
+	mon_cry CRY_METAPOD,     $030,  $0c0 ; KERAMON
 	mon_cry CRY_MUK,         $000,  $17f ; GENGAR
 	mon_cry CRY_EKANS,       $0ff,  $140 ; ONIX
 	mon_cry CRY_DROWZEE,     $088,  $0a0 ; DROWZEE

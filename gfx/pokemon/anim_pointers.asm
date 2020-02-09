@@ -91,7 +91,7 @@ AnimationPointers:
 	dw ShellderAnimation
 	dw CloysterAnimation
 	dw TsumemonAnimation
-	dw HaunterAnimation
+	dw KeramonAnimation
 	dw GengarAnimation
 	dw OnixAnimation
 	dw DrowzeeAnimation

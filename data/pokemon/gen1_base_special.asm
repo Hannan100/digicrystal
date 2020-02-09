@@ -93,7 +93,7 @@ KantoMonSpecials:
 	db  45 ; SHELLDER
 	db  85 ; CLOYSTER
 	db 100 ; TSUMEMON
-	db 115 ; HAUNTER
+	db 115 ; KERAMON
 	db 130 ; GENGAR
 	db  30 ; ONIX
 	db  90 ; DROWZEE

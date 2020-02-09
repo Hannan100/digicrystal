@@ -1242,7 +1242,7 @@ endc
 	db 0 ; no more level-up moves
 
 TsumemonEvosAttacks:
-	db EVOLVE_LEVEL, 25, HAUNTER
+	db EVOLVE_LEVEL, 25, KERAMON
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
 	db 1, LICK
@@ -1255,7 +1255,7 @@ TsumemonEvosAttacks:
 	db 36, DESTINY_BOND
 	db 0 ; no more level-up moves
 
-HaunterEvosAttacks:
+KeramonEvosAttacks:
 	db EVOLVE_TRADE, -1, GENGAR
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS

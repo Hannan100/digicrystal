@@ -91,7 +91,7 @@ BitmasksPointers:
 	dw ShellderBitmasks
 	dw CloysterBitmasks
 	dw TsumemonBitmasks
-	dw HaunterBitmasks
+	dw KeramonBitmasks
 	dw GengarBitmasks
 	dw OnixBitmasks
 	dw DrowzeeBitmasks

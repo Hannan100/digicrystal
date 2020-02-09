@@ -111,7 +111,7 @@
 	const SHELLDER   ; 5a
 	const CLOYSTER   ; 5b
 	const TSUMEMON     ; 5c
-	const HAUNTER    ; 5d
+	const KERAMON    ; 5d
 	const GENGAR     ; 5e
 	const ONIX       ; 5f
 	const DROWZEE    ; 60

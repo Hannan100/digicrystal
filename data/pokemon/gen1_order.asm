@@ -145,7 +145,7 @@ Pokered_MonIndices:
 	db PERSIAN
 	db MAROWAK
 	db HITMONTOP ; MISSINGNO.
-	db HAUNTER
+	db KERAMON
 	db ABRA
 	db ALAKAZAM
 	db PIDGEOTTO
