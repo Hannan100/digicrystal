@@ -1,82 +1,82 @@
 PokemonNames::
-	db "BULBASAUR@"
-	db "IVYSAUR@@@"
-	db "VENUSAUR@@"
-	db "CHARMANDER"
-	db "CHARMELEON"
-	db "CHARIZARD@"
-	db "SQUIRTLE@@"
-	db "WARTORTLE@"
-	db "BLASTOISE@"
-	db "CATERPIE@@"
-	db "METAPOD@@@"
-	db "BUTTERFREE"
-	db "WEEDLE@@@@"
-	db "KAKUNA@@@@"
-	db "BEEDRILL@@"
-	db "PIDGEY@@@@"
-	db "PIDGEOTTO@"
-	db "PIDGEOT@@@"
-	db "RATTATA@@@"
-	db "RATICATE@@"
-	db "SPEAROW@@@"
-	db "FEAROW@@@@"
-	db "EKANS@@@@@"
-	db "ARBOK@@@@@"
-	db "PIKACHU@@@"
-	db "RAICHU@@@@"
-	db "SANDSHREW@"
-	db "SANDSLASH@"
-	db "NIDORAN♀@@"
-	db "NIDORINA@@"
-	db "NIDOQUEEN@"
-	db "NIDORAN♂@@"
-	db "NIDORINO@@"
-	db "NIDOKING@@"
-	db "CLEFAIRY@@"
-	db "CLEFABLE@@"
-	db "VULPIX@@@@"
-	db "NINETALES@"
-	db "JIGGLYPUFF"
-	db "WIGGLYTUFF"
-	db "ZUBAT@@@@@"
-	db "GOLBAT@@@@"
-	db "ODDISH@@@@"
-	db "GLOOM@@@@@"
-	db "VILEPLUME@"
-	db "PARAS@@@@@"
-	db "PARASECT@@"
-	db "VENONAT@@@"
-	db "VENOMOTH@@"
-	db "DIGLETT@@@"
-	db "DUGTRIO@@@"
-	db "MEOWTH@@@@"
-	db "PERSIAN@@@"
-	db "PSYDUCK@@@"
-	db "GOLDUCK@@@"
-	db "MANKEY@@@@"
-	db "PRIMEAPE@@"
-	db "GROWLITHE@"
-	db "ARCANINE@@"
-	db "POLIWAG@@@"
-	db "POLIWHIRL@"
-	db "POLIWRATH@"
-	db "ABRA@@@@@@"
-	db "KADABRA@@@"
-	db "ALAKAZAM@@"
-	db "MACHOP@@@@"
-	db "MACHOKE@@@"
-	db "MACHAMP@@@"
-	db "BELLSPROUT"
-	db "WEEPINBELL"
-	db "VICTREEBEL"
-	db "TENTACOOL@"
-	db "TENTACRUEL"
-	db "GEODUDE@@@"
-	db "GRAVELER@@"
-	db "GOLEM@@@@@"
-	db "PONYTA@@@@"
-	db "RAPIDASH@@"
+	db "NYOKOMON@@" ; BULBASAUR
+	db "PUNIMON@@@" ; IVYSAUR
+	db "BOTAMON@@@" ; VENUSAUR
+	db "KURAMON@@@" ; CHARMANDER
+	db "MINOMON@@@" ; CHARMELEON
+	db "PAGUMON@@@" ; CHARIZARD
+	db "DEMIVEEMON" ; SQUIRTLE
+	db "KOROMON@@@" ; WARTORTLE
+	db "POROMON@@@" ; BLASTOISE
+	db "TSUMEMON@@" ; CATERPIE
+	db "TANEMON@@@" ; METAPOD
+	db "YOKOMON@@@" ; BUTTERFREE
+	db "MOTIMON@@@" ; WEEDLE
+	db "TSUNOMON@@" ; KAKUNA
+	db "TOKOMON@@@" ; BEEDRILL
+	db "NYAROMON@@" ; PIDGEY
+	db "GUMMYMON@@" ; PIDGEOTTO
+	db "KOKOMON@@@" ; PIDGEOT
+	db "BUKAMON@@@" ; RATTATA
+	db "WORMMON@@@" ; RATICATE
+	db "TENTOMON@@" ; SPEAROW
+	db "MUSHROOMON" ; FEAROW
+	db "KUNEMON@@@" ; EKANS
+	db "FANBEEMON@" ; ARBOK
+	db "GAZIMON@@@" ; PIKACHU
+	db "DEMIDVIMON" ; RAICHU
+	db "IMPMON@@@@" ; SANDSHREW
+	db "VEEMON@@@@" ; SANDSLASH
+	db "HAGURUMON@" ; NIDORAN♀
+	db "ELECMON@@@" ; NIDORANA
+	db "HAWKMOON@@" ; NIDOQUEEN
+	db "GUILMON@@@" ; NIDORAN♂
+	db "CANDLEMON@" ; NIDORINO
+	db "AGUMON@@@@" ; NIDOKING
+	db "BIYOMON@@@" ; CLEFAIRY
+	db "KERAMON@@@" ; CLEFABLE
+	db "FLORAMON@@" ; VULPIX
+	db "GOBLIMON@@" ; NINETALES
+	db "LALAMON@@@" ; JIGGLYPUFF
+	db "PALMON@@@@" ; WIGGLYTUFF
+	db "ARMDILOMON" ; ZUBAT
+	db "TERRIERMON" ; GOLBAT
+	db "LOPMON@@@@" ; ODDISH
+	db "GABUMON@@@" ; GLOOM
+	db "PATAMON@@@" ; VILEPLUME
+	db "TAPIRMON@@" ; PARAS
+	db "CHUUMON@@@" ; PARASECT
+	db "SALAMON@@@" ; VENONAT
+	db "RENAMON@@@" ; VENOMOTH
+	db "KUDAMON@@@" ; DIGLET
+	db "GOTSUMON@@" ; DUGTRIO
+	db "BETAMON@@@" ; MEOWTH
+	db "OTAMAMON@@" ; PERSIAN
+	db "CRABMON@@@" ; PSYDUCK
+	db "GIZAMON@@@" ; GOLDUCK
+	db "SWIMMON@@@" ; MANKEY
+	db "GOMAMON@@@" ; PRIMEAPE
+	db "STINGMON@@" ; GROWLITHE
+	db "KABUTRIMON" ; ARCANINE
+	db "KUWAGIMON@" ; POLIWAG
+	db "WASPMON@@@" ; POLIWHIRL
+	db "HUNYBEEMON" ; POLIWRATH
+	db "DEVIMON@@@" ; ABRA
+	db "ENDIGOMON@" ; KADABRA
+	db "TYRANNOMON" ; ALAKAZAM
+	db "STRKEDRMON" ; MACHOP
+	db "VEEDRAMON@" ; MACHOKE
+	db "EXVEEMON@@" ; MACHAMP
+	db "FLAMEDRMON" ; BELLSPROUT
+	db "RAIDRAMON@" ; WEEPINBELL
+	db "LEOMON@@@@" ; VICTREEBEL
+	db "MERAMON@@@" ; TENTACOOL
+	db "TENTACRUEL" ; TENTACRUEL
+	db "GREYMON@@@" ; GEODUDE
+	db "GROWLMON@@" ; GRAVELER
+	db "BIRDRAMON@" ; GOLEM
+	db "SHADRAMON@" ; PONYTA
+	db "PEGASUSMON" ; RAPIDASH
 	db "SLOWPOKE@@"
 	db "SLOWBRO@@@"
 	db "MAGNEMITE@"
