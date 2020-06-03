@@ -392,12 +392,12 @@ TMCharText::      db "TM@"
 TrainerCharText:: db "TRAINER@"
 PCCharText::      db "PC@"
 RocketCharText::  db "ROCKET@"
-PlacePOKeText::   db "POKé@"
+PlacePOKeText::   db "DIGI@"
 KougekiText::     db "こうげき@"
 SixDotsCharText:: db "……@"
 EnemyText::       db "Enemy @"
-PlacePKMNText::   db "<PK><MN>@"
-PlacePOKEText::   db "<PO><KE>@"
+PlacePKMNText::   db "<DG><MN>@"
+PlacePOKEText::   db "<DI><GI>@"S
 String_Space::    db " @"
 ; These strings have been dummied out.
 PlaceJPRouteText::
