@@ -77,110 +77,110 @@ PokemonNames::
 	db "BIRDRAMON@" ; GOLEM
 	db "SHADRAMON@" ; PONYTA
 	db "PEGASUSMON" ; RAPIDASH
-	db "SLOWPOKE@@"
-	db "SLOWBRO@@@"
-	db "MAGNEMITE@"
-	db "MAGNETON@@"
-	db "FARFETCH'D"
-	db "DODUO@@@@@"
-	db "DODRIO@@@@"
-	db "SEEL@@@@@@"
-	db "DEWGONG@@@"
-	db "GRIMER@@@@"
-	db "MUK@@@@@@@"
-	db "SHELLDER@@"
-	db "CLOYSTER@@"
-	db "GASTLY@@@@"
-	db "HAUNTER@@@"
-	db "GENGAR@@@@"
-	db "ONIX@@@@@@"
-	db "DROWZEE@@@"
-	db "HYPNO@@@@@"
-	db "KRABBY@@@@"
-	db "KINGLER@@@"
-	db "VOLTORB@@@"
-	db "ELECTRODE@"
-	db "EXEGGCUTE@"
-	db "EXEGGUTOR@"
-	db "CUBONE@@@@"
-	db "MAROWAK@@@"
-	db "HITMONLEE@"
-	db "HITMONCHAN"
-	db "LICKITUNG@"
-	db "KOFFING@@@"
-	db "WEEZING@@@"
-	db "RHYHORN@@@"
-	db "RHYDON@@@@"
-	db "CHANSEY@@@"
-	db "TANGELA@@@"
-	db "KANGASKHAN"
-	db "HORSEA@@@@"
-	db "SEADRA@@@@"
-	db "GOLDEEN@@@"
-	db "SEAKING@@@"
-	db "STARYU@@@@"
-	db "STARMIE@@@"
-	db "MR.MIME@@@"
-	db "SCYTHER@@@"
-	db "JYNX@@@@@@"
-	db "ELECTABUZZ"
-	db "MAGMAR@@@@"
-	db "PINSIR@@@@"
-	db "TAUROS@@@@"
-	db "MAGIKARP@@"
-	db "GYARADOS@@"
-	db "LAPRAS@@@@"
-	db "DITTO@@@@@"
-	db "EEVEE@@@@@"
-	db "VAPOREON@@"
-	db "JOLTEON@@@"
-	db "FLAREON@@@"
-	db "PORYGON@@@"
-	db "OMANYTE@@@"
-	db "OMASTAR@@@"
-	db "KABUTO@@@@"
-	db "KABUTOPS@@"
-	db "AERODACTYL"
-	db "SNORLAX@@@"
-	db "ARTICUNO@@"
-	db "ZAPDOS@@@@"
-	db "MOLTRES@@@"
-	db "DRATINI@@@"
-	db "DRAGONAIR@"
-	db "DRAGONITE@"
-	db "MEWTWO@@@@"
-	db "MEW@@@@@@@"
-	db "CHIKORITA@"
-	db "BAYLEEF@@@"
-	db "MEGANIUM@@"
-	db "CYNDAQUIL@"
-	db "QUILAVA@@@"
-	db "TYPHLOSION"
-	db "TOTODILE@@"
-	db "CROCONAW@@"
-	db "FERALIGATR"
-	db "SENTRET@@@"
-	db "FURRET@@@@"
-	db "HOOTHOOT@@"
-	db "NOCTOWL@@@"
-	db "LEDYBA@@@@"
-	db "LEDIAN@@@@"
-	db "SPINARAK@@"
-	db "ARIADOS@@@"
-	db "CROBAT@@@@"
-	db "CHINCHOU@@"
-	db "LANTURN@@@"
-	db "PICHU@@@@@"
-	db "CLEFFA@@@@"
-	db "IGGLYBUFF@"
-	db "TOGEPI@@@@"
-	db "TOGETIC@@@"
-	db "NATU@@@@@@"
-	db "XATU@@@@@@"
-	db "MAREEP@@@@"
-	db "FLAAFFY@@@"
-	db "AMPHAROS@@"
-	db "BELLOSSOM@"
+	db "KRYSALIMON" ; SLOWPOKE
+	db "KIWIMON@@@" ; SLOWBRO
+	db "OGREMON@@@" ; MAGNEMITE
+	db "WOODMON@@@" ; MAGNETON
+	db "SHURIMON@@" ; FARFETCH'D
+	db "TOGEMON@@@" ; DODUO
+	db "BOARMON@@@" ; DODRIO
+	db "ANKYLOMON@" ; SEEL
+	db "DIGMON@@@@" ; DEWGONG
+	db "GARURUMON@" ; GRIMER
+	db "FRIGIMON@@" ; MUK
+	db "GATOMON@@@" ; SHELLDER
+	db "PORYMON@@@" ; CLOYSTER
+	db "NUMEMON@@@" ; GASTLY
+	db "RAREMON@@@" ; HAUNTER
+	db "ANGEMON@@@" ; GENGAR
+	db "NEFERTIMON" ; ONIX
+	db "KYUBIMON@@" ; DROWZEE
+	db "WIZARDMON@" ; HYPNO
+	db "MONOCROMON" ; KRABBY
+	db "GOLEMON@@@" ; KINGLER
+	db "GUARDROMON" ; VOLTORB
+	db "HALSEMON@@" ; ELECTRODE
+	db "SHELLMON@@" ; EXEGGCUTE
+	db "GEKOMON@@@" ; EXEGGUTOR
+	db "COELAMON@@" ; CUBONE
+	db "SEADRAMON@" ; MAROWAK
+	db "IKKAKUMON@" ; HITMONLEE
+	db "SUBMARIMON" ; HITMONCHAN
+	db "KIMERAMON@" ; LICKITUNG
+	db "MKABTRIMON" ; KOFFING
+	db "DINOBEEMON" ; WEEZING
+	db "OKUWAMON@@" ; RHYHORN
+	db "LDYDEVIMON" ; RHYDON
+	db "MEGADRAMON" ; CHANSEY
+	db "CYBERDRMON" ; TANGELA
+	db "PAILDRAMON" ; KANGASKHAN
+	db "AERVDRAMON" ; HORSEA
+	db "DATAMON@@@" ; SEADRA
+	db "ETEMON@@@@" ; GOLDEEN
+	db "GARUDAMON@" ; SEAKING
+	db "SBERLEOMON" ; STARYU
+	db "SKLGREYMON" ; STARMIE
+	db "PARROTMON@" ; MR.MIME
+	db "PHANTOMON@" ; SCYTHER
+	db "INFERMON@@" ; JYNX
+	db "CHERRYMON@" ; ELECTABUZZ
+	db "LILYMON@@@" ; MAGMAR
+	db "TRICERAMON" ; PINSIR
+	db "WRGRURUMON" ; TAUROS
+	db "MAMMOTHMON" ; MAGIKARP
+	db "GARGOMON@@" ; GYARADOS
+	db "MONZAEMON@" ; LAPRAS
+	db "RAPIDMON@@" ; DITTO
+	db "MYOTISMON@" ; EEVEE
+	db "ANGEWOMON@" ; VAPOREON
+	db "TAOMON@@@@" ; JOLTEON
+	db "SHAKKOUMON" ; FLAREON
+	db "SILPHYMON@" ; PORYGON
+	db "ANTYLAMON@" ; OMANYTE
+	db "MGNANGEMON" ; OMASTAR
+	db "MTLGREYMON" ; KABUTO
+	db "ANDROMON@@" ; KABUTOPS
+	db "WRGROWLMON" ; AERODACTYL
+	db "MTLTYRNMON" ; SNORLAX
+	db "SHGNGKOMON" ; ARTICUNO
+	db "ZUDOMON@@@" ; ZAPDOS
+	db "MSEADRAMON" ; MOLTRES
+	db "WHAMON@@@@" ; DRATINI
+	db "MILENIUMON" ; DRAGONAIR
+	db "MOONMLNMON" ; DRAGONITE
+	db "GKUWAGAMON" ; MEWTWO
+	db "HKBUTRIMON" ; MEW
+	db "MEGIDRAMON" ; CHIKORITA
+	db "ALGOMON@@@" ; BAYLEEF
+	db "IMPRLDRMON" ; MEGANIUM
+	db "IMPRLDRMON" ; CYNDAQUIL
+	db "MAGNAMON@@" ; QUILAVA
+	db "HNGLONGMON" ; TYPHLOSION
+	db "ULFVDRAMON" ; TOTODILE
+	db "AZULONGMON" ; CROCONAW
+	db "ZHUQIAOMON" ; FERALIGATR
+	db "PHOENIXMON" ; SENTRET
+	db "WARGREYMON" ; FURRET
+	db "OMNIMON@@@" ; HOOTHOOT
+	db "GALLANTMON" ; NOCTOWL
+	db "DIABOROMON" ; LEDYBA
+	db "ROSEMON@@@" ; LEDIAN
+	db "EBONWUMON@" ; SPINARAK
+	db "BAIHUMON@@" ; ARIADOS
+	db "VIKEMON@@@" ; CROBAT
+	db "MGARURUMON" ; CHINCHOU
+	db "VALKYRIMON" ; LANTURN
+	db "SERAPHIMON" ; PICHU
+	db "HOLYDRAMON" ; CLEFFA
+	db "OPHANIMON@" ; IGGLYBUFF
+	db "SAKUYAMON@" ; TOGEPI
+	db "CHERUBIMON" ; TOGETIC
+	db "MCHNEDRMON" ; NATU
+	db "MGARGOMON@" ; XATU
+	db "MTLETEMON@" ; MAREEP
+	db "PLESIOMON@" ; FLAAFY
+	db "MTLSEDRMON" ; AMPHAROS
+	db "ZMLENIUMON" ; BELLOSSOM
 	db "MARILL@@@@"
 	db "AZUMARILL@"
 	db "SUDOWOODO@"
