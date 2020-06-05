@@ -3164,7 +3164,7 @@ BattleTowerMons6:
 	bigdw 165 ; SDef
 	db "RU-ZIyuRA@@"
 
-	db BLASTOISE
+	db POROMON
 	db GOLD_BERRY
 	db SURF, EARTHQUAKE, RAPID_SPIN, BLIZZARD
 	dw 0 ; OT ID
@@ -3765,7 +3765,7 @@ BattleTowerMons7:
 	bigdw 186 ; SDef
 	db "HERAKUROSU@"
 
-	db VENUSAUR
+	db BOTAMON
 	db BRIGHTPOWDER
 	db SUNNY_DAY, SOLARBEAM, SYNTHESIS, HYPER_BEAM
 	dw 0 ; OT ID
@@ -3817,7 +3817,7 @@ BattleTowerMons7:
 	bigdw 159 ; SDef
 	db "RIZA-DON@@@"
 
-	db BLASTOISE
+	db POROMON
 	db QUICK_CLAW
 	db HYDRO_PUMP, ICE_PUNCH, HYPER_BEAM, IRON_TAIL
 	dw 0 ; OT ID

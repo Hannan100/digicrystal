@@ -15,7 +15,7 @@ AlphabeticalPokedexOrder:
 	db BEEDRILL
 	db BELLOSSOM
 	db BELLSPROUT
-	db BLASTOISE
+	db POROMON
 	db BLISSEY
 	db BULBASAUR
 	db BUTTERFREE
@@ -160,7 +160,7 @@ AlphabeticalPokedexOrder:
 	db PICHU
 	db PIDGEOT
 	db PIDGEOTTO
-	db PIDGEY
+	db NYAROMON
 	db PIKACHU
 	db PILOSWINE
 	db PINECO
@@ -209,7 +209,7 @@ AlphabeticalPokedexOrder:
 	db SNUBBULL
 	db SPEAROW
 	db SPINARAK
-	db SQUIRTLE
+	db DEMIVEEMON
 	db STANTLER
 	db STARMIE
 	db STARYU
@@ -236,12 +236,12 @@ AlphabeticalPokedexOrder:
 	db VAPOREON
 	db VENOMOTH
 	db VENONAT
-	db VENUSAUR
+	db BOTAMON
 	db VICTREEBEL
 	db VILEPLUME
 	db VOLTORB
 	db VULPIX
-	db WARTORTLE
+	db KOROMON
 	db WEEDLE
 	db WEEPINBELL
 	db WEEZING

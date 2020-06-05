@@ -1703,7 +1703,7 @@ DebugMobileTrade:
 	ret
 
 .DebugTradeData:
-	db VENUSAUR
+	db BOTAMON
 	db "ゲーフり@@"
 	dw $0123
 	db "かびーん@@"

@@ -3,20 +3,20 @@
 KantoMonSpecials:
 	db  65 ; BULBASAUR
 	db  80 ; IVYSAUR
-	db 100 ; VENUSAUR
+	db 100 ; BOTAMON
 	db  50 ; CHARMANDER
 	db  65 ; CHARMELEON
 	db  85 ; CHARIZARD
-	db  50 ; SQUIRTLE
-	db  65 ; WARTORTLE
-	db  85 ; BLASTOISE
+	db  50 ; DEMIVEEMON
+	db  65 ; KOROMON
+	db  85 ; POROMON
 	db  20 ; CATERPIE
 	db  25 ; METAPOD
 	db  80 ; BUTTERFREE
 	db  20 ; WEEDLE
 	db  25 ; KAKUNA
 	db  45 ; BEEDRILL
-	db  35 ; PIDGEY
+	db  35 ; NYAROMON
 	db  50 ; PIDGEOTTO
 	db  70 ; PIDGEOT
 	db  25 ; RATTATA

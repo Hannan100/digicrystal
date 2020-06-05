@@ -35,7 +35,7 @@ MrFujisNidorino:
 MrFujisPidgey:
 	opentext
 	writetext MrFujisPidgeyText
-	cry PIDGEY
+	cry NYAROMON
 	waitbutton
 	closetext
 	end
@@ -74,7 +74,7 @@ MrFujisNidorinoText:
 	done
 
 MrFujisPidgeyText:
-	text "PIDGEY: Pijji!"
+	text "NYAROMON: Pijji!"
 	done
 
 MrFujisHouse_MapEvents:

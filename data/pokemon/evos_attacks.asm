@@ -34,7 +34,7 @@ BulbasaurEvosAttacks:
 	db 0 ; no more level-up moves
 
 IvysaurEvosAttacks:
-	db EVOLVE_LEVEL, 32, VENUSAUR
+	db EVOLVE_LEVEL, 32, BOTAMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -52,6 +52,10 @@ IvysaurEvosAttacks:
 	db 0 ; no more level-up moves
 
 VenusaurEvosAttacks:
+	db EVOLVE_STAT, 10, ATK_EQ_DEF, DEMIVEEMON
+	db EVOLVE_STAT, 10, ATK_GT_DEF, KOROMON
+	db EVOLVE_STAT, 10, ATK_LT_DEF, POROMON
+	db EVOLVE_HAPPINESS, EVOLVE_HAPPINESS, ANYTIME, NYAROMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -118,7 +122,7 @@ CharizardEvosAttacks:
 	db 0 ; no more level-up moves
 
 SquirtleEvosAttacks:
-	db EVOLVE_LEVEL, 16, WARTORTLE
+	db EVOLVE_LEVEL, 16, KOROMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, TAIL_WHIP
@@ -134,7 +138,7 @@ SquirtleEvosAttacks:
 	db 0 ; no more level-up moves
 
 WartortleEvosAttacks:
-	db EVOLVE_LEVEL, 36, BLASTOISE
+	db EVOLVE_LEVEL, 36, POROMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP

@@ -1,4 +1,4 @@
-	db PIDGEY ; 016
+	db NYAROMON ; 016
 
 	db  40,  45,  40,  56,  35,  35
 	;   hp  atk  def  spd  sat  sdf

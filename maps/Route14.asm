@@ -63,7 +63,7 @@ PokefanmCarterBeatenText:
 	done
 
 PokefanmCarterAfterBattleText:
-	text "SQUIRTLE, CHARMAN-"
+	text "DEMIVEEMON, CHARMAN-"
 	line "DER and BULBASAUR…"
 
 	para "I think that's a"
