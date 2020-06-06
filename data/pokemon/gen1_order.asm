@@ -187,7 +187,7 @@ Pokered_MonIndices:
 	db GLOOM
 	db VILEPLUME
 	db BELLSPROUT
-	db WEEPINBELL
+	db RAIDRAMON
 	db VICTREEBEL
 
 	db CHIKORITA

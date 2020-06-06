@@ -243,7 +243,7 @@ AlphabeticalPokedexOrder:
 	db VULPIX
 	db KOROMON
 	db WEEDLE
-	db WEEPINBELL
+	db RAIDRAMON
 	db WEEZING
 	db WIGGLYTUFF
 	db WOBBUFFET
