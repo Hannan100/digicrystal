@@ -72,7 +72,7 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     152,  383 ; ALAKAZAM
 	mon_cry CRY_GROWLITHE,   238,  129 ; MACHOP
 	mon_cry CRY_GROWLITHE,    72,  224 ; MACHOKE
-	mon_cry CRY_GROWLITHE,     8,  320 ; MACHAMP
+	mon_cry CRY_GROWLITHE,     8,  320 ; EXVEEMON
 	mon_cry CRY_PSYDUCK,      85,  129 ; FLAMEDRMON
 	mon_cry CRY_WEEPINBELL,   68,  160 ; RAIDRAMON
 	mon_cry CRY_WEEPINBELL,  102,  332 ; VICTREEBEL

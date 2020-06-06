@@ -114,7 +114,7 @@ AlphabeticalPokedexOrder:
 	db LEDYBA
 	db LICKITUNG
 	db LUGIA
-	db MACHAMP
+	db EXVEEMON
 	db MACHOKE
 	db MACHOP
 	db MAGBY

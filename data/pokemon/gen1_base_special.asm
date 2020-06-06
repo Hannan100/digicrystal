@@ -68,7 +68,7 @@ KantoMonSpecials:
 	db 135 ; ALAKAZAM
 	db  35 ; MACHOP
 	db  50 ; MACHOKE
-	db  65 ; MACHAMP
+	db  65 ; EXVEEMON
 	db  70 ; FLAMEDRMON
 	db  85 ; RAIDRAMON
 	db 100 ; VICTREEBEL

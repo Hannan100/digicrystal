@@ -86,7 +86,7 @@
 	const ALAKAZAM   ; 41
 	const MACHOP     ; 42
 	const MACHOKE    ; 43
-	const MACHAMP    ; 44
+	const EXVEEMON    ; 44
 	const FLAMEDRMON ; 45
 	const RAIDRAMON ; 46
 	const VICTREEBEL ; 47

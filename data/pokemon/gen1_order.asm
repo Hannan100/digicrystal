@@ -124,7 +124,7 @@ Pokered_MonIndices:
 	db CATERPIE
 	db METAPOD
 	db BUTTERFREE
-	db MACHAMP
+	db EXVEEMON
 	db DONPHAN ; MISSINGNO.
 	db GOLDUCK
 	db HYPNO

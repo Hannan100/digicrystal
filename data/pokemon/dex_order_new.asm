@@ -142,7 +142,7 @@ NewPokedexOrder:
 	db GOLDUCK
 	db MACHOP
 	db MACHOKE
-	db MACHAMP
+	db EXVEEMON
 	db TYROGUE
 	db HITMONLEE
 	db HITMONCHAN
