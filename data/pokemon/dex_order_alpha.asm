@@ -168,7 +168,7 @@ AlphabeticalPokedexOrder:
 	db POLITOED
 	db POLIWAG
 	db POLIWHIRL
-	db POLIWRATH
+	db HUNYBEEMON
 	db PONYTA
 	db PORYGON
 	db PORYGON2

@@ -62,7 +62,7 @@ KantoMonSpecials:
 	db  80 ; ARCANINE
 	db  40 ; POLIWAG
 	db  50 ; POLIWHIRL
-	db  70 ; POLIWRATH
+	db  70 ; HUNYBEEMON
 	db 105 ; ABRA
 	db 120 ; KADABRA
 	db 135 ; ALAKAZAM

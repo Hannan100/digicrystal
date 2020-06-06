@@ -420,7 +420,6 @@ SunkernFrontpic:     INCBIN "gfx/pokemon/sunkern/front.animated.2bpp.lz"
 NidorinoBackpic:     INCBIN "gfx/pokemon/nidorino/back.2bpp.lz"
 MysticalmanPic:      INCBIN "gfx/trainers/mysticalman.2bpp.lz"
 CooltrainerfPic:     INCBIN "gfx/trainers/cooltrainer_f.2bpp.lz"
-ElectrodeFrontpic:   INCBIN "gfx/pokemon/electrode/front.animated.2bpp.lz"
 
 
 SECTION "Pics 14", ROMX
@@ -710,6 +709,7 @@ UnownYBackpic:       INCBIN "gfx/pokemon/unown_y/back.2bpp.lz"
 UnownPBackpic:       INCBIN "gfx/pokemon/unown_p/back.2bpp.lz"
 UnownIBackpic:       INCBIN "gfx/pokemon/unown_i/back.2bpp.lz"
 UnownRBackpic:       INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
+ElectrodeFrontpic:   INCBIN "gfx/pokemon/electrode/front.animated.2bpp.lz"
 
 
 SECTION "Pics 19", ROMX

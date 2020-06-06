@@ -25,7 +25,7 @@ CeladonCityFisherScript:
 CeladonCityPoliwrath:
 	opentext
 	writetext CeladonCityPoliwrathText
-	cry POLIWRATH
+	cry HUNYBEEMON
 	waitbutton
 	closetext
 	end
@@ -76,7 +76,7 @@ CeladonCityHiddenPpUp:
 	hiddenitem PP_UP, EVENT_CELADON_CITY_HIDDEN_PP_UP
 
 CeladonCityFisherText:
-	text "This POLIWRATH is"
+	text "This HUNYBEEMON is"
 	line "my partner."
 
 	para "I wonder if it'll"
@@ -85,7 +85,7 @@ CeladonCityFisherText:
 	done
 
 CeladonCityPoliwrathText:
-	text "POLIWRATH: Croak!"
+	text "HUNYBEEMON: Croak!"
 	done
 
 CeladonCityTeacher1Text:

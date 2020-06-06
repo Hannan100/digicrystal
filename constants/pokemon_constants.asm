@@ -80,7 +80,7 @@
 	const ARCANINE   ; 3b
 	const POLIWAG    ; 3c
 	const POLIWHIRL  ; 3d
-	const POLIWRATH  ; 3e
+	const HUNYBEEMON  ; 3e
 	const ABRA       ; 3f
 	const KADABRA    ; 40
 	const ALAKAZAM   ; 41

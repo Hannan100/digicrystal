@@ -386,6 +386,11 @@ SandshrewEvosAttacks:
 	db 0 ; no more level-up moves
 
 SandslashEvosAttacks:
+	db EVOLVE_ITEM, THUNDERSTONE, RAIDRAMON
+	db EVOLVE_ITEM, LEAF_STONE, HUNYBEEMON
+	; db EVOLVE_ITEM, FIRE_STONE, FLAMEDRAMON
+	; db EVOLVE_HAPPINESS, TR_ANYTIME, EXVEEMON
+	; db EVOLVE_LEVEL, 32, VEEDRAMON
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, DEFENSE_CURL
@@ -809,7 +814,7 @@ PoliwagEvosAttacks:
 	db 0 ; no more level-up moves
 
 PoliwhirlEvosAttacks:
-	db EVOLVE_ITEM, WATER_STONE, POLIWRATH
+	db EVOLVE_ITEM, WATER_STONE, HUNYBEEMON
 	db EVOLVE_TRADE, KINGS_ROCK, POLITOED
 	db 0 ; no more evolutions
 	db 1, BUBBLE
@@ -916,7 +921,7 @@ MachampEvosAttacks:
 	db 0 ; no more level-up moves
 
 BellsproutEvosAttacks:
-	db EVOLVE_LEVEL, 21, WEEPINBELL
+	db EVOLVE_LEVEL, 21, RAIDRAMON
 	db 0 ; no more evolutions
 	db 1, VINE_WHIP
 	db 6, GROWTH

@@ -1127,7 +1127,7 @@ BattleTowerMons3:
 	bigdw 87 ; SDef
 	db "SANDA-SU@@@"
 
-	db POLIWRATH
+	db HUNYBEEMON
 	db BRIGHTPOWDER
 	db DOUBLE_TEAM, SURF, FISSURE, SUBMISSION
 	dw 0 ; OT ID
