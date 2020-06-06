@@ -69,7 +69,7 @@ KantoMonSpecials:
 	db  35 ; MACHOP
 	db  50 ; MACHOKE
 	db  65 ; MACHAMP
-	db  70 ; BELLSPROUT
+	db  70 ; FLAMEDRMON
 	db  85 ; RAIDRAMON
 	db 100 ; VICTREEBEL
 	db 100 ; TENTACOOL

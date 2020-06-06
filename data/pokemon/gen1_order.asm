@@ -186,7 +186,7 @@ Pokered_MonIndices:
 	db ODDISH
 	db GLOOM
 	db VILEPLUME
-	db BELLSPROUT
+	db FLAMEDRMON
 	db RAIDRAMON
 	db VICTREEBEL
 

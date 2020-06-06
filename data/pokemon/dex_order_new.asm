@@ -64,7 +64,7 @@ NewPokedexOrder:
 	db UNOWN
 	db ONIX
 	db STEELIX
-	db BELLSPROUT
+	db FLAMEDRMON
 	db RAIDRAMON
 	db VICTREEBEL
 	db HOPPIP

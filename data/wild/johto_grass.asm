@@ -1249,7 +1249,7 @@ JohtoGrassWildMons:
 	; morn
 	db 4, LEDYBA
 	db 4, CATERPIE
-	db 5, BELLSPROUT
+	db 5, FLAMEDRMON
 	db 5, NYAROMON
 	db 4, WEEDLE
 	db 5, HOPPIP
@@ -1257,7 +1257,7 @@ JohtoGrassWildMons:
 	; day
 	db 4, NYAROMON
 	db 4, CATERPIE
-	db 5, BELLSPROUT
+	db 5, FLAMEDRMON
 	db 5, NYAROMON
 	db 4, WEEDLE
 	db 5, HOPPIP
@@ -1265,7 +1265,7 @@ JohtoGrassWildMons:
 	; nite
 	db 4, SPINARAK
 	db 4, POLIWAG
-	db 5, BELLSPROUT
+	db 5, FLAMEDRMON
 	db 5, HOOTHOOT
 	db 4, ZUBAT
 	db 5, GASTLY
@@ -1276,7 +1276,7 @@ JohtoGrassWildMons:
 	; morn
 	db 4, EKANS
 	db 5, RATTATA
-	db 7, BELLSPROUT
+	db 7, FLAMEDRMON
 	db 6, HOPPIP
 	db 7, NYAROMON
 	db 7, HOPPIP
@@ -1284,7 +1284,7 @@ JohtoGrassWildMons:
 	; day
 	db 4, EKANS
 	db 5, RATTATA
-	db 7, BELLSPROUT
+	db 7, FLAMEDRMON
 	db 6, HOPPIP
 	db 7, NYAROMON
 	db 7, HOPPIP
@@ -1292,7 +1292,7 @@ JohtoGrassWildMons:
 	; nite
 	db 4, WOOPER
 	db 5, RATTATA
-	db 7, BELLSPROUT
+	db 7, FLAMEDRMON
 	db 6, ZUBAT
 	db 7, HOOTHOOT
 	db 7, GASTLY
@@ -1384,7 +1384,7 @@ JohtoGrassWildMons:
 	; morn
 	db 4, LEDYBA
 	db 4, NYAROMON
-	db 5, BELLSPROUT
+	db 5, FLAMEDRMON
 	db 5, GROWLITHE
 	db 5, NYAROMON
 	db 6, NYAROMON
@@ -1392,7 +1392,7 @@ JohtoGrassWildMons:
 	; day
 	db 4, NYAROMON
 	db 4, NYAROMON
-	db 5, BELLSPROUT
+	db 5, FLAMEDRMON
 	db 5, GROWLITHE
 	db 5, NYAROMON
 	db 6, NYAROMON
@@ -1400,7 +1400,7 @@ JohtoGrassWildMons:
 	; nite
 	db 4, SPINARAK
 	db 4, HOOTHOOT
-	db 5, BELLSPROUT
+	db 5, FLAMEDRMON
 	db 5, HOOTHOOT
 	db 5, HOOTHOOT
 	db 5, GASTLY
@@ -1546,7 +1546,7 @@ JohtoGrassWildMons:
 	; morn
 	db 23, TANGELA
 	db 22, LICKITUNG
-	db 22, BELLSPROUT
+	db 22, FLAMEDRMON
 	db 24, RAIDRAMON
 	db 24, LICKITUNG
 	db 26, LICKITUNG
@@ -1554,7 +1554,7 @@ JohtoGrassWildMons:
 	; day
 	db 23, TANGELA
 	db 22, LICKITUNG
-	db 22, BELLSPROUT
+	db 22, FLAMEDRMON
 	db 24, RAIDRAMON
 	db 24, LICKITUNG
 	db 26, LICKITUNG
@@ -1562,7 +1562,7 @@ JohtoGrassWildMons:
 	; nite
 	db 23, TANGELA
 	db 22, POLIWAG
-	db 22, BELLSPROUT
+	db 22, FLAMEDRMON
 	db 24, RAIDRAMON
 	db 24, POLIWHIRL
 	db 26, POLIWHIRL

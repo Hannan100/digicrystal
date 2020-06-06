@@ -14,7 +14,7 @@ AlphabeticalPokedexOrder:
 	db BAYLEEF
 	db BEEDRILL
 	db BELLOSSOM
-	db BELLSPROUT
+	db FLAMEDRMON
 	db POROMON
 	db BLISSEY
 	db BULBASAUR

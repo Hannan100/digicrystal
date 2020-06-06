@@ -684,7 +684,7 @@ KantoGrassWildMons:
 	db 10, CATERPIE
 	db 12, METAPOD
 	db 12, ABRA
-	db 10, BELLSPROUT
+	db 10, FLAMEDRMON
 	db 14, BUTTERFREE
 	db 14, BUTTERFREE
 	; day
@@ -692,7 +692,7 @@ KantoGrassWildMons:
 	db 12, SUNKERN
 	db 10, CATERPIE
 	db 12, ABRA
-	db 10, BELLSPROUT
+	db 10, FLAMEDRMON
 	db 14, BUTTERFREE
 	db 14, BUTTERFREE
 	; nite
@@ -700,7 +700,7 @@ KantoGrassWildMons:
 	db 10, ODDISH
 	db 12, ODDISH
 	db 12, ABRA
-	db 10, BELLSPROUT
+	db 10, FLAMEDRMON
 	db 14, GLOOM
 	db 14, GLOOM
 
@@ -711,7 +711,7 @@ KantoGrassWildMons:
 	db 10, NYAROMON
 	db 12, PIDGEOTTO
 	db 12, METAPOD
-	db 10, BELLSPROUT
+	db 10, FLAMEDRMON
 	db 14, BUTTERFREE
 	db 14, BUTTERFREE
 	; day
@@ -719,7 +719,7 @@ KantoGrassWildMons:
 	db 10, NYAROMON
 	db 12, PIDGEOTTO
 	db 12, METAPOD
-	db 10, BELLSPROUT
+	db 10, FLAMEDRMON
 	db 14, BUTTERFREE
 	db 14, BUTTERFREE
 	; nite
@@ -727,7 +727,7 @@ KantoGrassWildMons:
 	db 10, HOOTHOOT
 	db 10, VENONAT
 	db 12, NOCTOWL
-	db 10, BELLSPROUT
+	db 10, FLAMEDRMON
 	db 14, NOCTOWL
 	db 14, NOCTOWL
 
