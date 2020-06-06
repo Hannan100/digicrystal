@@ -49,7 +49,7 @@ NewPokedexOrder:
 	db TOGEPI
 	db TOGETIC
 	db SANDSHREW
-	db SANDSLASH
+	db VEEMON
 	db EKANS
 	db ARBOK
 	db DUNSPARCE

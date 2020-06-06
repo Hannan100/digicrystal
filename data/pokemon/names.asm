@@ -26,7 +26,7 @@ PokemonNames::
 	db "GAZIMON@@@" ; PIKACHU
 	db "DEMIDVIMON" ; RAICHU
 	db "IMPMON@@@@" ; SANDSHREW
-	db "VEEMON@@@@" ; SANDSLASH
+	db "VEEMON@@@@" ; VEEMON
 	db "HAGURUMON@" ; NIDORAN♀
 	db "ELECMON@@@" ; NIDORANA
 	db "HAWKMOON@@" ; NIDOQUEEN

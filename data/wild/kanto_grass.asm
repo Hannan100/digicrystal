@@ -117,7 +117,7 @@ KantoGrassWildMons:
 	db 32, RHYHORN
 	db 33, ONIX
 	db 34, GOLBAT
-	db 35, SANDSLASH
+	db 35, VEEMON
 	db 35, RHYDON
 	db 35, RHYDON
 	; day
@@ -125,7 +125,7 @@ KantoGrassWildMons:
 	db 32, RHYHORN
 	db 33, ONIX
 	db 34, GOLBAT
-	db 35, SANDSLASH
+	db 35, VEEMON
 	db 35, RHYDON
 	db 35, RHYDON
 	; nite
@@ -735,7 +735,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 28, DODUO
-	db 28, SANDSLASH
+	db 28, VEEMON
 	db 32, PONYTA
 	db 30, RATICATE
 	db 30, DODUO
@@ -743,7 +743,7 @@ KantoGrassWildMons:
 	db 30, ARBOK
 	; day
 	db 28, DODUO
-	db 28, SANDSLASH
+	db 28, VEEMON
 	db 32, PONYTA
 	db 30, RATICATE
 	db 30, DODUO
