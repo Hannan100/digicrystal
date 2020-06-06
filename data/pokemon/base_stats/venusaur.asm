@@ -1,9 +1,9 @@
 	db BOTAMON ; 003
 
-	db  80,  82,  83,  80, 100, 100
+	db  35,  40,  40,  25,  40,  65
 	;   hp  atk  def  spd  sat  sdf
 
-	db GRASS, POISON ; type
+	db NORMAL, NORMAL ; type
 	db 45 ; catch rate
 	db 208 ; base exp
 	db NO_ITEM, NO_ITEM ; items
