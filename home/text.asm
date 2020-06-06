@@ -396,8 +396,8 @@ PlacePOKeText::   db "DIGI@"
 KougekiText::     db "こうげき@"
 SixDotsCharText:: db "……@"
 EnemyText::       db "Enemy @"
-PlacePKMNText::   db "<DG><MN>@"
-PlacePOKEText::   db "<DI><GI>@"
+PlacePKMNText::   db "<PK><MN>@"
+PlacePOKEText::   db "DIGI@"
 String_Space::    db " @"
 ; These strings have been dummied out.
 PlaceJPRouteText::
