@@ -139,6 +139,7 @@ DemiveemonEvosAttacks:
 
 KoromonEvosAttacks:
 	db EVOLVE_LEVEL, 16, AGUMON
+	db EVOLVE_HAPPINESS, TR_NITE, GUILMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
