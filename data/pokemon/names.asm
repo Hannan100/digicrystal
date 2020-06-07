@@ -6,7 +6,7 @@ PokemonNames::
 	db "MINOMON@@@" ; CHARMELEON
 	db "PAGUMON@@@" ; CHARIZARD
 	db "DEMIVEEMON" ; SQUIRTLE
-	db "KOROMON@@@" ; WARTORTLE
+	db "KOROMON@@@" ; KOROMON
 	db "POROMON@@@" ; BLASTOISE
 	db "TSUMEMON@@" ; CATERPIE
 	db "TANEMON@@@" ; METAPOD

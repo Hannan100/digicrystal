@@ -6,7 +6,7 @@ AnimationIdlePointers:
 	dw CharmeleonAnimationIdle
 	dw CharizardAnimationIdle
 	dw DemiveemonAnimationIdle
-	dw WartortleAnimationIdle
+	dw KoromonAnimationIdle
 	dw BlastoiseAnimationIdle
 	dw CaterpieAnimationIdle
 	dw MetapodAnimationIdle

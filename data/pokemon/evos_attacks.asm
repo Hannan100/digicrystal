@@ -137,7 +137,7 @@ DemiveemonEvosAttacks:
 	db 47, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-WartortleEvosAttacks:
+KoromonEvosAttacks:
 	db EVOLVE_LEVEL, 36, POROMON
 	db 0 ; no more evolutions
 	db 1, TACKLE

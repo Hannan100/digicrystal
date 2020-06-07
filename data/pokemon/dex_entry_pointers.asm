@@ -7,7 +7,7 @@ PokedexDataPointerTable:
 	dw CharmeleonPokedexEntry
 	dw CharizardPokedexEntry
 	dw DemiveemonPokedexEntry
-	dw WartortlePokedexEntry
+	dw KoromonPokedexEntry
 	dw BlastoisePokedexEntry
 	dw CaterpiePokedexEntry
 	dw MetapodPokedexEntry
