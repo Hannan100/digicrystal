@@ -1046,7 +1046,7 @@ BattleTowerMons2:
 	bigdw 36 ; SDef
 	db "PUKURIN@@@@"
 
-	db NIDOKING
+	db AGUMON
 	db BERRY
 	db BLIZZARD, EARTHQUAKE, SURF, THUNDERPUNCH
 	dw 0 ; OT ID
@@ -1070,7 +1070,7 @@ BattleTowerMons2:
 	bigdw 49 ; Spd
 	bigdw 50 ; SAtk
 	bigdw 46 ; SDef
-	db "NIDOKINGU@@"
+	db "AGUMONU@@"
 
 	db QUAGSIRE
 	db QUICK_CLAW

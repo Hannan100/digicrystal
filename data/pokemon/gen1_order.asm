@@ -5,7 +5,7 @@ Pokered_MonIndices:
 	db CLEFAIRY
 	db SPEAROW
 	db VOLTORB
-	db NIDOKING
+	db AGUMON
 	db SLOWBRO
 	db IVYSAUR
 	db EXEGGUTOR

@@ -38,7 +38,7 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,     0,  256 ; NIDOQUEEN
 	mon_cry CRY_NIDORAN_M,     0,  256 ; NIDORAN_M
 	mon_cry CRY_NIDORAN_M,    44,  320 ; NIDORINO
-	mon_cry CRY_RAICHU,        0,  256 ; NIDOKING
+	mon_cry CRY_RAICHU,        0,  256 ; AGUMON
 	mon_cry CRY_CLEFAIRY,    204,  129 ; CLEFAIRY
 	mon_cry CRY_CLEFAIRY,    170,  160 ; CLEFABLE
 	mon_cry CRY_VULPIX,       79,  144 ; VULPIX

@@ -100,7 +100,7 @@ NewPokedexOrder:
 	db NIDOQUEEN
 	db NIDORAN_M
 	db NIDORINO
-	db NIDOKING
+	db AGUMON
 	db YANMA
 	db SUNKERN
 	db SUNFLORA

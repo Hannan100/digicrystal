@@ -375,7 +375,7 @@ PokemaniacRonSeenText:
 	done
 
 PokemaniacRonBeatenText:
-	text "My NIDOKING did"
+	text "My AGUMON did"
 	line "pretty right on!"
 	done
 

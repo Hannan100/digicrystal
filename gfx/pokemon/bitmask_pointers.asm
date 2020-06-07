@@ -32,7 +32,7 @@ BitmasksPointers:
 	dw NidoqueenBitmasks
 	dw NidoranMBitmasks
 	dw NidorinoBitmasks
-	dw NidokingBitmasks
+	dw AGUMONBitmasks
 	dw ClefairyBitmasks
 	dw ClefableBitmasks
 	dw VulpixBitmasks

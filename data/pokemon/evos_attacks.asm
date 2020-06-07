@@ -453,7 +453,7 @@ NidoranMEvosAttacks:
 	db 0 ; no more level-up moves
 
 NidorinoEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, NIDOKING
+	db EVOLVE_ITEM, MOON_STONE, AGUMON
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, TACKLE
@@ -465,7 +465,7 @@ NidorinoEvosAttacks:
 	db 46, HORN_DRILL
 	db 0 ; no more level-up moves
 
-NidokingEvosAttacks:
+AGUMONEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, HORN_ATTACK

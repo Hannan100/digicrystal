@@ -32,7 +32,7 @@ PokemonNames::
 	db "HAWKMOON@@" ; NIDOQUEEN
 	db "GUILMON@@@" ; NIDORAN♂
 	db "CANDLEMON@" ; NIDORINO
-	db "AGUMON@@@@" ; NIDOKING
+	db "AGUMON@@@@" ; AGUMON
 	db "BIYOMON@@@" ; CLEFAIRY
 	db "KERAMON@@@" ; CLEFABLE
 	db "FLORAMON@@" ; VULPIX
