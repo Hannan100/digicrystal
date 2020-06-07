@@ -68,7 +68,7 @@ PokedexDataPointerTable:
 	dw MachopPokedexEntry
 	dw MachokePokedexEntry
 	dw MachampPokedexEntry
-	dw BellsproutPokedexEntry
+	dw FlamedrmonPokedexEntry
 	dw RaidramonPokedexEntry
 	dw VictreebelPokedexEntry
 	dw TentacoolPokedexEntry

@@ -67,7 +67,7 @@ EggMovePointers::
 	dw MachopEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw BellsproutEggMoves
+	dw FlamedrmonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw TentacoolEggMoves

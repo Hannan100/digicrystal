@@ -67,7 +67,7 @@ BitmasksPointers:
 	dw MachopBitmasks
 	dw MachokeBitmasks
 	dw MachampBitmasks
-	dw BellsproutBitmasks
+	dw FlamedrmonBitmasks
 	dw RaidramonBitmasks
 	dw VictreebelBitmasks
 	dw TentacoolBitmasks
