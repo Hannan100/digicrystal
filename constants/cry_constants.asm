@@ -21,7 +21,7 @@
 	const CRY_SPEAROW
 	const CRY_RHYDON
 	const CRY_GOLEM
-	const CRY_BLASTOISE
+	const CRY_POROMON
 	const CRY_PIDGEOTTO
 	const CRY_WEEDLE
 	const CRY_CATERPIE

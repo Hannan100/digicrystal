@@ -9,7 +9,7 @@ EvosAttacksPointers::
 	dw CharizardEvosAttacks
 	dw DemiveemonEvosAttacks
 	dw KoromonEvosAttacks
-	dw BlastoiseEvosAttacks
+	dw PoromonEvosAttacks
 	dw CaterpieEvosAttacks
 	dw MetapodEvosAttacks
 	dw ButterfreeEvosAttacks

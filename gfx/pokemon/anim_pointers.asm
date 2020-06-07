@@ -7,7 +7,7 @@ AnimationPointers:
 	dw CharizardAnimation
 	dw DemiveemonAnimation
 	dw KoromonAnimation
-	dw BlastoiseAnimation
+	dw PoromonAnimation
 	dw CaterpieAnimation
 	dw MetapodAnimation
 	dw ButterfreeAnimation

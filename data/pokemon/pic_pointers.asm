@@ -18,8 +18,8 @@ PokemonPicPointers::
 	dba_pic DemiveemonBackpic
 	dba_pic KoromonFrontpic
 	dba_pic KoromonBackpic
-	dba_pic BlastoiseFrontpic
-	dba_pic BlastoiseBackpic
+	dba_pic PoromonFrontpic
+	dba_pic PoromonBackpic
 	dba_pic CaterpieFrontpic
 	dba_pic CaterpieBackpic
 	dba_pic MetapodFrontpic

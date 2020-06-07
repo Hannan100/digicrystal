@@ -7,7 +7,7 @@ FramesPointers:
 	dw CharizardFrames
 	dw DemiveemonFrames
 	dw KoromonFrames
-	dw BlastoiseFrames
+	dw PoromonFrames
 	dw CaterpieFrames
 	dw MetapodFrames
 	dw ButterfreeFrames

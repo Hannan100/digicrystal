@@ -8,7 +8,7 @@ PokedexDataPointerTable:
 	dw CharizardPokedexEntry
 	dw DemiveemonPokedexEntry
 	dw KoromonPokedexEntry
-	dw BlastoisePokedexEntry
+	dw PoromonPokedexEntry
 	dw CaterpiePokedexEntry
 	dw MetapodPokedexEntry
 	dw ButterfreePokedexEntry
