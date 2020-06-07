@@ -65,7 +65,7 @@ AnimationPointers:
 	dw KadabraAnimation
 	dw AlakazamAnimation
 	dw MachopAnimation
-	dw MachokeAnimation
+	dw VeedramonAnimation
 	dw ExveemonAnimation
 	dw FlamedrmonAnimation
 	dw RaidramonAnimation

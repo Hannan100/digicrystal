@@ -73,7 +73,7 @@ SECTION "Pokedex Entries 065-128", ROMX
 
 AlakazamPokedexEntry::   INCLUDE "data/pokemon/dex_entries/alakazam.asm"
 MachopPokedexEntry::     INCLUDE "data/pokemon/dex_entries/machop.asm"
-MachokePokedexEntry::    INCLUDE "data/pokemon/dex_entries/machoke.asm"
+VeedramonPokedexEntry::    INCLUDE "data/pokemon/dex_entries/veedramon.asm"
 ExveemonPokedexEntry::    INCLUDE "data/pokemon/dex_entries/exveemon.asm"
 FlamedrmonPokedexEntry:: INCLUDE "data/pokemon/dex_entries/flamedrmon.asm"
 RaidramonPokedexEntry:: INCLUDE "data/pokemon/dex_entries/raidramon.asm"

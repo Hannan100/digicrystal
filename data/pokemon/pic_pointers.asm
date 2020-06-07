@@ -134,8 +134,8 @@ PokemonPicPointers::
 	dba_pic AlakazamBackpic
 	dba_pic MachopFrontpic
 	dba_pic MachopBackpic
-	dba_pic MachokeFrontpic
-	dba_pic MachokeBackpic
+	dba_pic VeedramonFrontpic
+	dba_pic VeedramonBackpic
 	dba_pic ExveemonFrontpic
 	dba_pic ExveemonBackpic
 	dba_pic FlamedrmonFrontpic

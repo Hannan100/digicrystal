@@ -889,7 +889,7 @@ MachopEvosAttacks:
 	db 49, SUBMISSION
 	db 0 ; no more level-up moves
 
-MachokeEvosAttacks:
+VeedramonEvosAttacks:
 	db EVOLVE_TRADE, -1, EXVEEMON
 	db 0 ; no more evolutions
 	db 1, LOW_KICK

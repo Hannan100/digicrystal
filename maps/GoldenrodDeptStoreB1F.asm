@@ -55,7 +55,7 @@ GoldenrodDeptStoreB1FBlackBelt3Script:
 
 GoldenrodDeptStoreB1FMachopScript:
 	opentext
-	writetext GoldenrodDeptStoreB1FMachokeText
+	writetext GoldenrodDeptStoreB1FVeedramonText
 	cry VEEDRAMON
 	waitbutton
 	closetext
@@ -103,7 +103,7 @@ GoldenrodDeptStoreB1FBlackBelt3Text:
 	line "want it!"
 	done
 
-GoldenrodDeptStoreB1FMachokeText:
+GoldenrodDeptStoreB1FVeedramonText:
 	text "VEEDRAMON: Maaacho!"
 	done
 

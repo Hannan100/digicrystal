@@ -66,7 +66,7 @@ PokedexDataPointerTable:
 	dw KadabraPokedexEntry
 	dw AlakazamPokedexEntry
 	dw MachopPokedexEntry
-	dw MachokePokedexEntry
+	dw VeedramonPokedexEntry
 	dw ExveemonPokedexEntry
 	dw FlamedrmonPokedexEntry
 	dw RaidramonPokedexEntry
