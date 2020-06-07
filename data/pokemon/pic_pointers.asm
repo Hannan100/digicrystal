@@ -140,8 +140,8 @@ PokemonPicPointers::
 	dba_pic MachampBackpic
 	dba_pic BellsproutFrontpic
 	dba_pic BellsproutBackpic
-	dba_pic WeepinbellFrontpic
-	dba_pic WeepinbellBackpic
+	dba_pic RaidramonFrontpic
+	dba_pic RaidramonBackpic
 	dba_pic VictreebelFrontpic
 	dba_pic VictreebelBackpic
 	dba_pic TentacoolFrontpic

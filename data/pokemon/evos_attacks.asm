@@ -935,7 +935,7 @@ BellsproutEvosAttacks:
 	db 45, SLAM
 	db 0 ; no more level-up moves
 
-WeepinbellEvosAttacks:
+RaidramonEvosAttacks:
 	db EVOLVE_ITEM, LEAF_STONE, VICTREEBEL
 	db 0 ; no more evolutions
 	db 1, VINE_WHIP
