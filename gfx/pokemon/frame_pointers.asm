@@ -66,7 +66,7 @@ FramesPointers:
 	dw AlakazamFrames
 	dw MachopFrames
 	dw MachokeFrames
-	dw MachampFrames
+	dw ExveemonFrames
 	dw FlamedrmonFrames
 	dw RaidramonFrames
 	dw VictreebelFrames

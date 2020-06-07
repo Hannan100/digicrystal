@@ -905,7 +905,7 @@ MachokeEvosAttacks:
 	db 61, SUBMISSION
 	db 0 ; no more level-up moves
 
-MachampEvosAttacks:
+ExveemonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LOW_KICK
 	db 1, LEER
