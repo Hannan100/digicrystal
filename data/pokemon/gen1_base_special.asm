@@ -32,7 +32,7 @@ KantoMonSpecials:
 	db  40 ; NIDORAN_F
 	db  55 ; NIDORINA
 	db  75 ; NIDOQUEEN
-	db  40 ; NIDORAN_M
+	db  40 ; GUILMON
 	db  55 ; NIDORINO
 	db  75 ; AGUMON
 	db  60 ; CLEFAIRY

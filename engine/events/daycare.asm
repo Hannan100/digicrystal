@@ -599,7 +599,7 @@ DayCare_InitBreeding:
 	cp 50 percent + 1
 	ld a, NIDORAN_F
 	jr c, .GotEggSpecies
-	ld a, NIDORAN_M
+	ld a, GUILMON
 .GotEggSpecies:
 	ld [wCurPartySpecies], a
 	ld [wCurSpecies], a

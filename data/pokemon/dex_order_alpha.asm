@@ -143,7 +143,7 @@ AlphabeticalPokedexOrder:
 	db AGUMON
 	db NIDOQUEEN
 	db NIDORAN_F
-	db NIDORAN_M
+	db GUILMON
 	db NIDORINA
 	db NIDORINO
 	db NINETALES

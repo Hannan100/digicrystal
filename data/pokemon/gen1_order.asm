@@ -1,7 +1,7 @@
 Pokered_MonIndices:
 	db RHYDON
 	db KANGASKHAN
-	db NIDORAN_M
+	db GUILMON
 	db CLEFAIRY
 	db SPEAROW
 	db VOLTORB

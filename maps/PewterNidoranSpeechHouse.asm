@@ -1,6 +1,6 @@
 	object_const_def ; object_event constants
 	const PEWTERNIDORANSPEECHHOUSE_SUPER_NERD
-	const PEWTERNIDORANSPEECHHOUSE_NIDORAN_M
+	const PEWTERNIDORANSPEECHHOUSE_GUILMON
 
 PewterNidoranSpeechHouse_MapScripts:
 	db 0 ; scene scripts
@@ -13,7 +13,7 @@ PewterNidoranSpeechHouseSuperNerdScript:
 PewterNidoran:
 	opentext
 	writetext PewterNidoranText
-	cry NIDORAN_M
+	cry GUILMON
 	waitbutton
 	closetext
 	end

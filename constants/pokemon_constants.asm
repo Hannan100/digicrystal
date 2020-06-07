@@ -50,7 +50,7 @@
 	const NIDORAN_F  ; 1d
 	const NIDORINA   ; 1e
 	const NIDOQUEEN  ; 1f
-	const NIDORAN_M  ; 20
+	const GUILMON  ; 20
 	const NIDORINO   ; 21
 	const AGUMON   ; 22
 	const CLEFAIRY   ; 23

@@ -2,7 +2,7 @@
 	const_def
 
 ; gen 1
-	const CRY_NIDORAN_M
+	const CRY_GUILMON
 	const CRY_NIDORAN_F
 	const CRY_SLOWPOKE
 	const CRY_KANGASKHAN

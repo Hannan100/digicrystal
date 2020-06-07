@@ -329,7 +329,7 @@ JohtoGrassWildMons:
 	map_id NATIONAL_PARK
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, NIDORAN_M
+	db 12, GUILMON
 	db 12, NIDORAN_F
 	db 14, LEDYBA
 	db 13, NYAROMON
@@ -338,7 +338,7 @@ JohtoGrassWildMons:
 	db 10, WEEDLE
 	; day
 	db 12, NIDORAN_F
-	db 12, NIDORAN_M
+	db 12, GUILMON
 	db 14, SUNKERN
 	db 13, NYAROMON
 	db 10, CATERPIE

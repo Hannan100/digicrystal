@@ -98,7 +98,7 @@ NewPokedexOrder:
 	db NIDORAN_F
 	db NIDORINA
 	db NIDOQUEEN
-	db NIDORAN_M
+	db GUILMON
 	db NIDORINO
 	db AGUMON
 	db YANMA

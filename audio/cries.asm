@@ -857,11 +857,11 @@ Cry_Aipom_Ch8:
 	noise_note 20, 10, 3, 76
 	sound_ret
 
-Cry_Nidoran_M:
+Cry_Guilmon:
 	channel_count 3
-	channel 5, Cry_Nidoran_M_Ch5
-	channel 6, Cry_Nidoran_M_Ch6
-	channel 8, Cry_Nidoran_M_Ch8
+	channel 5, Cry_Guilmon_Ch5
+	channel 6, Cry_Guilmon_Ch6
+	channel 8, Cry_Guilmon_Ch8
 
 Cry_Nidoran_F:
 	channel_count 3
@@ -1350,21 +1350,21 @@ Cry_Spearow_Ch8:
 	noise_note 4, 7, 1, 32
 	sound_ret
 
-Cry_Nidoran_M_Ch5:
+Cry_Guilmon_Ch5:
 	duty_cycle_pattern 3, 3, 1, 1
 	square_note 4, 15, 3, 1816
 	square_note 15, 14, 5, 1944
 	square_note 8, 9, 1, 1880
 	sound_ret
 
-Cry_Nidoran_M_Ch6:
+Cry_Guilmon_Ch6:
 	duty_cycle_pattern 2, 2, 0, 0
 	square_note 5, 11, 3, 1800
 	square_note 15, 12, 5, 1928
 	square_note 8, 7, 1, 1864
 	sound_ret
 
-Cry_Nidoran_M_Ch8:
+Cry_Guilmon_Ch8:
 	noise_note 3, 10, 1, 28
 	noise_note 14, 9, 4, 44
 	noise_note 8, 8, 1, 28
