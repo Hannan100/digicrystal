@@ -32,7 +32,7 @@ FramesPointers:
 	dw NidoqueenFrames
 	dw NidoranMFrames
 	dw NidorinoFrames
-	dw AGUMONFrames
+	dw AgumonFrames
 	dw ClefairyFrames
 	dw ClefableFrames
 	dw VulpixFrames

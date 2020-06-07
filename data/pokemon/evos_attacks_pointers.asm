@@ -34,7 +34,7 @@ EvosAttacksPointers::
 	dw NidoqueenEvosAttacks
 	dw NidoranMEvosAttacks
 	dw NidorinoEvosAttacks
-	dw AGUMONEvosAttacks
+	dw AgumonEvosAttacks
 	dw ClefairyEvosAttacks
 	dw ClefableEvosAttacks
 	dw VulpixEvosAttacks

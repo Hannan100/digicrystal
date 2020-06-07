@@ -33,7 +33,7 @@ PokedexDataPointerTable:
 	dw NidoqueenPokedexEntry
 	dw NidoranMPokedexEntry
 	dw NidorinoPokedexEntry
-	dw AGUMONPokedexEntry
+	dw AgumonPokedexEntry
 	dw ClefairyPokedexEntry
 	dw ClefablePokedexEntry
 	dw VulpixPokedexEntry

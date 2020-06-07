@@ -32,7 +32,7 @@ AnimationPointers:
 	dw NidoqueenAnimation
 	dw NidoranMAnimation
 	dw NidorinoAnimation
-	dw AGUMONAnimation
+	dw AgumonAnimation
 	dw ClefairyAnimation
 	dw ClefableAnimation
 	dw VulpixAnimation

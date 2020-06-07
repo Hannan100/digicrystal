@@ -32,7 +32,7 @@ AnimationIdlePointers:
 	dw NidoqueenAnimationIdle
 	dw NidoranMAnimationIdle
 	dw NidorinoAnimationIdle
-	dw AGUMONAnimationIdle
+	dw AgumonAnimationIdle
 	dw ClefairyAnimationIdle
 	dw ClefableAnimationIdle
 	dw VulpixAnimationIdle
