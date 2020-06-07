@@ -6,8 +6,8 @@ PokemonPicPointers::
 	dba_pic BulbasaurBackpic
 	dba_pic IvysaurFrontpic
 	dba_pic IvysaurBackpic
-	dba_pic VenusaurFrontpic
-	dba_pic VenusaurBackpic
+	dba_pic BotamonFrontpic
+	dba_pic BotamonBackpic
 	dba_pic CharmanderFrontpic
 	dba_pic CharmanderBackpic
 	dba_pic CharmeleonFrontpic

@@ -1,7 +1,7 @@
 FramesPointers:
 	dw BulbasaurFrames
 	dw IvysaurFrames
-	dw VenusaurFrames
+	dw BotamonFrames
 	dw CharmanderFrames
 	dw CharmeleonFrames
 	dw CharizardFrames

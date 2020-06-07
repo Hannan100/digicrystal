@@ -2,7 +2,7 @@ PokedexDataPointerTable:
 ; entries correspond to constants/pokemon_constants.asm
 	dw BulbasaurPokedexEntry
 	dw IvysaurPokedexEntry
-	dw VenusaurPokedexEntry
+	dw BotamonPokedexEntry
 	dw CharmanderPokedexEntry
 	dw CharmeleonPokedexEntry
 	dw CharizardPokedexEntry

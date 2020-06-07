@@ -1,7 +1,7 @@
 PokemonNames::
 	db "NYOKOMON@@" ; BULBASAUR
 	db "PUNIMON@@@" ; IVYSAUR
-	db "BOTAMON@@@" ; VENUSAUR
+	db "BOTAMON@@@" ; BOTAMON
 	db "KURAMON@@@" ; CHARMANDER
 	db "MINOMON@@@" ; CHARMELEON
 	db "PAGUMON@@@" ; CHARIZARD

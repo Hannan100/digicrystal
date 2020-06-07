@@ -1,6 +1,6 @@
 BulbasaurAnimation:  INCLUDE "gfx/pokemon/bulbasaur/anim.asm"
 IvysaurAnimation:    INCLUDE "gfx/pokemon/ivysaur/anim.asm"
-VenusaurAnimation:   INCLUDE "gfx/pokemon/venusaur/anim.asm"
+BotamonAnimation:   INCLUDE "gfx/pokemon/botamon/anim.asm"
 CharmanderAnimation: INCLUDE "gfx/pokemon/charmander/anim.asm"
 CharmeleonAnimation: INCLUDE "gfx/pokemon/charmeleon/anim.asm"
 CharizardAnimation:  INCLUDE "gfx/pokemon/charizard/anim.asm"

@@ -1,7 +1,7 @@
 BitmasksPointers:
 	dw BulbasaurBitmasks
 	dw IvysaurBitmasks
-	dw VenusaurBitmasks
+	dw BotamonBitmasks
 	dw CharmanderBitmasks
 	dw CharmeleonBitmasks
 	dw CharizardBitmasks

@@ -51,7 +51,7 @@ IvysaurEvosAttacks:
 	db 56, SOLARBEAM
 	db 0 ; no more level-up moves
 
-VenusaurEvosAttacks:
+BotamonEvosAttacks:
 	db EVOLVE_STAT, 10, ATK_EQ_DEF, DEMIVEEMON
 	db EVOLVE_STAT, 10, ATK_GT_DEF, KOROMON
 	db EVOLVE_STAT, 10, ATK_LT_DEF, POROMON

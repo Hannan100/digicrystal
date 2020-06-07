@@ -31,7 +31,7 @@ RaikouFrontpic:      INCBIN "gfx/pokemon/raikou/front.animated.2bpp.lz"
 LugiaFrontpic:       INCBIN "gfx/pokemon/lugia/front.animated.2bpp.lz"
 ArticunoFrontpic:    INCBIN "gfx/pokemon/articuno/front.animated.2bpp.lz"
 TaurosFrontpic:      INCBIN "gfx/pokemon/tauros/front.animated.2bpp.lz"
-VenusaurFrontpic:    INCBIN "gfx/pokemon/venusaur/front.animated.2bpp.lz"
+BotamonFrontpic:    INCBIN "gfx/pokemon/botamon/front.animated.2bpp.lz"
 EnteiFrontpic:       INCBIN "gfx/pokemon/entei/front.animated.2bpp.lz"
 SuicuneFrontpic:     INCBIN "gfx/pokemon/suicune/front.animated.2bpp.lz"
 TyphlosionFrontpic:  INCBIN "gfx/pokemon/typhlosion/front.animated.2bpp.lz"
@@ -333,7 +333,7 @@ SnorlaxBackpic:      INCBIN "gfx/pokemon/snorlax/back.2bpp.lz"
 
 SECTION "Pics 12", ROMX
 
-VenusaurBackpic:     INCBIN "gfx/pokemon/venusaur/back.2bpp.lz"
+BotamonBackpic:     INCBIN "gfx/pokemon/botamon/back.2bpp.lz"
 MoltresBackpic:      INCBIN "gfx/pokemon/moltres/back.2bpp.lz"
 SunfloraBackpic:     INCBIN "gfx/pokemon/sunflora/back.2bpp.lz"
 PhanpyFrontpic:      INCBIN "gfx/pokemon/phanpy/front.animated.2bpp.lz"

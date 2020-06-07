@@ -181,12 +181,12 @@ Unreferenced_Function8b4d:
 	ldh a, [hSGB]
 	and a
 	ret z
-	ld hl, PalPacket_BetaIntroVenusaur
+	ld hl, PalPacket_BetaIntroBotamon
 	jp PushSGBPals
 
 .cgb
 	ld de, wOBPals1
-	ld a, PREDEFPAL_BETA_INTRO_VENUSAUR
+	ld a, PREDEFPAL_BETA_INTRO_BOTAMON
 	call GetPredefPal
 	jp LoadHLPaletteIntoDE
 
