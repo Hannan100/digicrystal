@@ -5,7 +5,7 @@ SLOTS_SEVEN    EQU $00
 SLOTS_POKEBALL EQU $04
 SLOTS_CHERRY   EQU $08
 SLOTS_PIKACHU  EQU $0c
-SLOTS_SQUIRTLE EQU $10
+SLOTS_DEMIVEEMON EQU $10
 SLOTS_STARYU   EQU $14
 
 REEL_SIZE EQU 15
@@ -1652,7 +1652,7 @@ Slots_InitBias:
 	db   1 percent - 1, SLOTS_SEVEN
 	db   1 percent + 1, SLOTS_POKEBALL
 	db   4 percent,     SLOTS_STARYU
-	db   8 percent,     SLOTS_SQUIRTLE
+	db   8 percent,     SLOTS_DEMIVEEMON
 	db  16 percent,     SLOTS_PIKACHU
 	db  19 percent,     SLOTS_CHERRY
 	db 100 percent,     SLOTS_NO_BIAS
@@ -1661,7 +1661,7 @@ Slots_InitBias:
 	db   1 percent,     SLOTS_SEVEN
 	db   1 percent + 1, SLOTS_POKEBALL
 	db   3 percent + 1, SLOTS_STARYU
-	db   6 percent + 1, SLOTS_SQUIRTLE
+	db   6 percent + 1, SLOTS_DEMIVEEMON
 	db  12 percent,     SLOTS_PIKACHU
 	db  31 percent + 1, SLOTS_CHERRY
 	db 100 percent,     SLOTS_NO_BIAS
@@ -2146,17 +2146,17 @@ Reel1Tilemap:
 	db SLOTS_CHERRY   ;  1
 	db SLOTS_STARYU   ;  2
 	db SLOTS_PIKACHU  ;  3
-	db SLOTS_SQUIRTLE ;  4
+	db SLOTS_DEMIVEEMON ;  4
 	db SLOTS_SEVEN    ;  5
 	db SLOTS_CHERRY   ;  6
 	db SLOTS_STARYU   ;  7
 	db SLOTS_PIKACHU  ;  8
-	db SLOTS_SQUIRTLE ;  9
+	db SLOTS_DEMIVEEMON ;  9
 	db SLOTS_POKEBALL ; 10
 	db SLOTS_CHERRY   ; 11
 	db SLOTS_STARYU   ; 12
 	db SLOTS_PIKACHU  ; 13
-	db SLOTS_SQUIRTLE ; 14
+	db SLOTS_DEMIVEEMON ; 14
 	db SLOTS_SEVEN    ;  0
 	db SLOTS_CHERRY   ;  1
 	db SLOTS_STARYU   ;  2
@@ -2165,17 +2165,17 @@ Reel2Tilemap:
 	db SLOTS_SEVEN    ;  0
 	db SLOTS_PIKACHU  ;  1
 	db SLOTS_CHERRY   ;  2
-	db SLOTS_SQUIRTLE ;  3
+	db SLOTS_DEMIVEEMON ;  3
 	db SLOTS_STARYU   ;  4
 	db SLOTS_POKEBALL ;  5
 	db SLOTS_PIKACHU  ;  6
 	db SLOTS_CHERRY   ;  7
-	db SLOTS_SQUIRTLE ;  8
+	db SLOTS_DEMIVEEMON ;  8
 	db SLOTS_STARYU   ;  9
 	db SLOTS_POKEBALL ; 10
 	db SLOTS_PIKACHU  ; 11
 	db SLOTS_CHERRY   ; 12
-	db SLOTS_SQUIRTLE ; 13
+	db SLOTS_DEMIVEEMON ; 13
 	db SLOTS_STARYU   ; 14
 	db SLOTS_SEVEN    ;  0
 	db SLOTS_PIKACHU  ;  1
@@ -2185,16 +2185,16 @@ Reel3Tilemap:
 	db SLOTS_SEVEN    ;  0
 	db SLOTS_PIKACHU  ;  1
 	db SLOTS_CHERRY   ;  2
-	db SLOTS_SQUIRTLE ;  3
+	db SLOTS_DEMIVEEMON ;  3
 	db SLOTS_STARYU   ;  4
 	db SLOTS_PIKACHU  ;  5
 	db SLOTS_CHERRY   ;  6
-	db SLOTS_SQUIRTLE ;  7
+	db SLOTS_DEMIVEEMON ;  7
 	db SLOTS_STARYU   ;  8
 	db SLOTS_PIKACHU  ;  9
 	db SLOTS_POKEBALL ; 10
 	db SLOTS_CHERRY   ; 11
-	db SLOTS_SQUIRTLE ; 12
+	db SLOTS_DEMIVEEMON ; 12
 	db SLOTS_STARYU   ; 13
 	db SLOTS_PIKACHU  ; 14
 	db SLOTS_SEVEN    ;  0

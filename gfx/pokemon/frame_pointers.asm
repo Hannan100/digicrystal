@@ -5,7 +5,7 @@ FramesPointers:
 	dw CharmanderFrames
 	dw CharmeleonFrames
 	dw CharizardFrames
-	dw SquirtleFrames
+	dw DemiveemonFrames
 	dw WartortleFrames
 	dw BlastoiseFrames
 	dw CaterpieFrames

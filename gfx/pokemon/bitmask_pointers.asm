@@ -5,7 +5,7 @@ BitmasksPointers:
 	dw CharmanderBitmasks
 	dw CharmeleonBitmasks
 	dw CharizardBitmasks
-	dw SquirtleBitmasks
+	dw DemiveemonBitmasks
 	dw WartortleBitmasks
 	dw BlastoiseBitmasks
 	dw CaterpieBitmasks
