@@ -138,7 +138,7 @@ DemiveemonEvosAttacks:
 	db 0 ; no more level-up moves
 
 KoromonEvosAttacks:
-	db EVOLVE_LEVEL, 36, POROMON
+	db EVOLVE_LEVEL, 16, AGUMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
