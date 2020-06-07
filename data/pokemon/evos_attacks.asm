@@ -385,7 +385,7 @@ SandshrewEvosAttacks:
 	db 45, SANDSTORM
 	db 0 ; no more level-up moves
 
-SandslashEvosAttacks:
+VeemonEvosAttacks:
 	db EVOLVE_ITEM, THUNDERSTONE, RAIDRAMON
 	db EVOLVE_ITEM, LEAF_STONE, HUNYBEEMON
 	db EVOLVE_ITEM, FIRE_STONE, FLAMEDRMON

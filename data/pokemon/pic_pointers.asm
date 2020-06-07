@@ -56,8 +56,8 @@ PokemonPicPointers::
 	dba_pic RaichuBackpic
 	dba_pic SandshrewFrontpic
 	dba_pic SandshrewBackpic
-	dba_pic SandslashFrontpic
-	dba_pic SandslashBackpic
+	dba_pic VeemonFrontpic
+	dba_pic VeemonBackpic
 	dba_pic NidoranFFrontpic
 	dba_pic NidoranFBackpic
 	dba_pic NidorinaFrontpic
