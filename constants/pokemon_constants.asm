@@ -85,7 +85,7 @@
 	const KADABRA    ; 40
 	const ALAKAZAM   ; 41
 	const MACHOP     ; 42
-	const MACHOKE    ; 43
+	const VEEDRAMON    ; 43
 	const EXVEEMON    ; 44
 	const FLAMEDRMON ; 45
 	const RAIDRAMON ; 46

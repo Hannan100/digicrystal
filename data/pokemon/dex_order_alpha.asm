@@ -115,7 +115,7 @@ AlphabeticalPokedexOrder:
 	db LICKITUNG
 	db LUGIA
 	db EXVEEMON
-	db MACHOKE
+	db VEEDRAMON
 	db MACHOP
 	db MAGBY
 	db MAGCARGO

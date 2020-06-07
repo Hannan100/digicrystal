@@ -390,7 +390,7 @@ SandslashEvosAttacks:
 	db EVOLVE_ITEM, LEAF_STONE, HUNYBEEMON
 	db EVOLVE_ITEM, FIRE_STONE, FLAMEDRMON
 	db EVOLVE_HAPPINESS, TR_ANYTIME, EXVEEMON
-	; db EVOLVE_LEVEL, 32, VEEDRAMON
+	db EVOLVE_LEVEL, 32, VEEDRAMON
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, DEFENSE_CURL
@@ -875,7 +875,7 @@ AlakazamEvosAttacks:
 	db 0 ; no more level-up moves
 
 MachopEvosAttacks:
-	db EVOLVE_LEVEL, 28, MACHOKE
+	db EVOLVE_LEVEL, 28, VEEDRAMON
 	db 0 ; no more evolutions
 	db 1, LOW_KICK
 	db 1, LEER

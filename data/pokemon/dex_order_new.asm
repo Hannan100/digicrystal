@@ -141,7 +141,7 @@ NewPokedexOrder:
 	db PSYDUCK
 	db GOLDUCK
 	db MACHOP
-	db MACHOKE
+	db VEEDRAMON
 	db EXVEEMON
 	db TYROGUE
 	db HITMONLEE

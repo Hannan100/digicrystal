@@ -63,7 +63,7 @@ KantoGrassWildMons:
 	db 11, GEODUDE
 	db 12, MACHOP
 	db 12, ZUBAT
-	db 15, MACHOKE
+	db 15, VEEDRAMON
 	db 12, MAROWAK
 	db 12, MAROWAK
 	; day
@@ -71,7 +71,7 @@ KantoGrassWildMons:
 	db 11, GEODUDE
 	db 12, MACHOP
 	db 12, ZUBAT
-	db 15, MACHOKE
+	db 15, VEEDRAMON
 	db 12, MAROWAK
 	db 12, MAROWAK
 	; nite
