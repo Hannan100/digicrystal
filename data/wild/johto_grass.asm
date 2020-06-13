@@ -410,7 +410,7 @@ JohtoGrassWildMons:
 	map_id UNION_CAVE_1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 6, GEODUDE
+	db 6, GREYMON
 	db 6, SANDSHREW
 	db 5, ZUBAT
 	db 4, RATTATA
@@ -418,7 +418,7 @@ JohtoGrassWildMons:
 	db 6, ONIX
 	db 6, ONIX
 	; day
-	db 6, GEODUDE
+	db 6, GREYMON
 	db 6, SANDSHREW
 	db 5, ZUBAT
 	db 4, RATTATA
@@ -426,7 +426,7 @@ JohtoGrassWildMons:
 	db 6, ONIX
 	db 6, ONIX
 	; nite
-	db 6, GEODUDE
+	db 6, GREYMON
 	db 6, RATTATA
 	db 5, WOOPER
 	db 4, RATTATA
@@ -437,7 +437,7 @@ JohtoGrassWildMons:
 	map_id UNION_CAVE_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 8, GEODUDE
+	db 8, GREYMON
 	db 6, ZUBAT
 	db 8, ZUBAT
 	db 8, ONIX
@@ -445,7 +445,7 @@ JohtoGrassWildMons:
 	db 8, RATTATA
 	db 8, RATTATA
 	; day
-	db 8, GEODUDE
+	db 8, GREYMON
 	db 6, ZUBAT
 	db 8, ZUBAT
 	db 8, ONIX
@@ -453,7 +453,7 @@ JohtoGrassWildMons:
 	db 8, RATTATA
 	db 8, RATTATA
 	; nite
-	db 8, GEODUDE
+	db 8, GREYMON
 	db 6, ZUBAT
 	db 8, WOOPER
 	db 8, ONIX
@@ -468,7 +468,7 @@ JohtoGrassWildMons:
 	db 22, GOLBAT
 	db 22, ZUBAT
 	db 21, RATICATE
-	db 20, GEODUDE
+	db 20, GREYMON
 	db 23, ONIX
 	db 23, ONIX
 	; day
@@ -476,7 +476,7 @@ JohtoGrassWildMons:
 	db 22, GOLBAT
 	db 22, ZUBAT
 	db 21, RATICATE
-	db 20, GEODUDE
+	db 20, GREYMON
 	db 23, ONIX
 	db 23, ONIX
 	; nite
@@ -484,7 +484,7 @@ JohtoGrassWildMons:
 	db 22, GOLBAT
 	db 22, QUAGSIRE
 	db 21, RATICATE
-	db 20, GEODUDE
+	db 20, GREYMON
 	db 23, ONIX
 	db 23, ONIX
 
@@ -576,7 +576,7 @@ JohtoGrassWildMons:
 	db 13, ZUBAT
 	db 14, MACHOP
 	db 13, GOLBAT
-	db 14, GEODUDE
+	db 14, GREYMON
 	db 16, RATICATE
 	db 16, RATICATE
 	; day
@@ -584,7 +584,7 @@ JohtoGrassWildMons:
 	db 13, ZUBAT
 	db 14, MACHOP
 	db 13, GOLBAT
-	db 14, GEODUDE
+	db 14, GREYMON
 	db 16, RATICATE
 	db 16, RATICATE
 	; nite
@@ -592,14 +592,14 @@ JohtoGrassWildMons:
 	db 13, ZUBAT
 	db 14, MARILL
 	db 13, GOLBAT
-	db 14, GEODUDE
+	db 14, GREYMON
 	db 16, RATICATE
 	db 16, RATICATE
 
 	map_id MOUNT_MORTAR_1F_INSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, GEODUDE
+	db 13, GREYMON
 	db 14, RATTATA
 	db 15, MACHOP
 	db 14, RATICATE
@@ -607,7 +607,7 @@ JohtoGrassWildMons:
 	db 15, GOLBAT
 	db 15, GOLBAT
 	; day
-	db 13, GEODUDE
+	db 13, GREYMON
 	db 14, RATTATA
 	db 15, MACHOP
 	db 14, RATICATE
@@ -615,7 +615,7 @@ JohtoGrassWildMons:
 	db 15, GOLBAT
 	db 15, GOLBAT
 	; nite
-	db 13, GEODUDE
+	db 13, GREYMON
 	db 14, RATTATA
 	db 15, RATICATE
 	db 14, ZUBAT
@@ -628,7 +628,7 @@ JohtoGrassWildMons:
 	; morn
 	db 31, GRAVELER
 	db 32, VEEDRAMON
-	db 31, GEODUDE
+	db 31, GREYMON
 	db 30, RATICATE
 	db 28, MACHOP
 	db 30, GOLBAT
@@ -636,14 +636,14 @@ JohtoGrassWildMons:
 	; day
 	db 31, GRAVELER
 	db 32, VEEDRAMON
-	db 31, GEODUDE
+	db 31, GREYMON
 	db 30, RATICATE
 	db 28, MACHOP
 	db 30, GOLBAT
 	db 30, GOLBAT
 	; nite
 	db 31, GRAVELER
-	db 31, GEODUDE
+	db 31, GREYMON
 	db 30, RATICATE
 	db 30, GOLBAT
 	db 28, MARILL
@@ -657,7 +657,7 @@ JohtoGrassWildMons:
 	db 17, ZUBAT
 	db 17, GOLBAT
 	db 16, MACHOP
-	db 16, GEODUDE
+	db 16, GREYMON
 	db 18, RATICATE
 	db 18, RATICATE
 	; day
@@ -665,7 +665,7 @@ JohtoGrassWildMons:
 	db 17, ZUBAT
 	db 17, GOLBAT
 	db 16, MACHOP
-	db 16, GEODUDE
+	db 16, GREYMON
 	db 18, RATICATE
 	db 18, RATICATE
 	; nite
@@ -673,7 +673,7 @@ JohtoGrassWildMons:
 	db 17, ZUBAT
 	db 17, GOLBAT
 	db 16, MARILL
-	db 16, GEODUDE
+	db 16, GREYMON
 	db 18, RATICATE
 	db 18, RATICATE
 
@@ -1139,26 +1139,26 @@ JohtoGrassWildMons:
 	map_id DARK_CAVE_VIOLET_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, GEODUDE
+	db 3, GREYMON
 	db 2, ZUBAT
-	db 2, GEODUDE
-	db 4, GEODUDE
+	db 2, GREYMON
+	db 4, GREYMON
 	db 2, TEDDIURSA
 	db 4, ZUBAT
 	db 4, DUNSPARCE
 	; day
-	db 3, GEODUDE
+	db 3, GREYMON
 	db 2, ZUBAT
-	db 2, GEODUDE
-	db 4, GEODUDE
+	db 2, GREYMON
+	db 4, GREYMON
 	db 2, ZUBAT
 	db 4, ZUBAT
 	db 4, DUNSPARCE
 	; nite
-	db 3, GEODUDE
+	db 3, GREYMON
 	db 2, ZUBAT
-	db 2, GEODUDE
-	db 4, GEODUDE
+	db 2, GREYMON
+	db 4, GREYMON
 	db 2, ZUBAT
 	db 4, ZUBAT
 	db 4, DUNSPARCE
@@ -1166,7 +1166,7 @@ JohtoGrassWildMons:
 	map_id DARK_CAVE_BLACKTHORN_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, GEODUDE
+	db 23, GREYMON
 	db 23, ZUBAT
 	db 25, GRAVELER
 	db 25, URSARING
@@ -1174,7 +1174,7 @@ JohtoGrassWildMons:
 	db 23, GOLBAT
 	db 23, GOLBAT
 	; day
-	db 23, GEODUDE
+	db 23, GREYMON
 	db 23, ZUBAT
 	db 25, GRAVELER
 	db 25, URSARING
@@ -1182,7 +1182,7 @@ JohtoGrassWildMons:
 	db 23, GOLBAT
 	db 23, GOLBAT
 	; nite
-	db 23, GEODUDE
+	db 23, GREYMON
 	db 23, ZUBAT
 	db 25, GRAVELER
 	db 20, WOBBUFFET
@@ -1303,7 +1303,7 @@ JohtoGrassWildMons:
 	; morn
 	db 6, RATTATA
 	db 6, SPEAROW
-	db 6, GEODUDE
+	db 6, GREYMON
 	db 6, HOPPIP
 	db 7, EKANS
 	db 7, HOPPIP
@@ -1311,7 +1311,7 @@ JohtoGrassWildMons:
 	; day
 	db 6, RATTATA
 	db 6, SPEAROW
-	db 6, GEODUDE
+	db 6, GREYMON
 	db 6, HOPPIP
 	db 7, EKANS
 	db 7, HOPPIP
@@ -1319,7 +1319,7 @@ JohtoGrassWildMons:
 	; nite
 	db 6, RATTATA
 	db 6, ZUBAT
-	db 6, GEODUDE
+	db 6, GREYMON
 	db 6, ZUBAT
 	db 7, RATTATA
 	db 7, RATTATA
@@ -1571,7 +1571,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_45
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, GEODUDE
+	db 23, GREYMON
 	db 23, GRAVELER
 	db 24, GLIGAR
 	db 25, DONPHAN
@@ -1579,7 +1579,7 @@ JohtoGrassWildMons:
 	db 27, SKARMORY
 	db 27, SKARMORY
 	; day
-	db 23, GEODUDE
+	db 23, GREYMON
 	db 23, GRAVELER
 	db 24, GLIGAR
 	db 25, DONPHAN
@@ -1587,7 +1587,7 @@ JohtoGrassWildMons:
 	db 27, SKARMORY
 	db 27, SKARMORY
 	; nite
-	db 23, GEODUDE
+	db 23, GREYMON
 	db 23, GRAVELER
 	db 24, GLIGAR
 	db 25, GRAVELER
@@ -1598,25 +1598,25 @@ JohtoGrassWildMons:
 	map_id ROUTE_46
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, GEODUDE
+	db 2, GREYMON
 	db 2, SPEAROW
-	db 3, GEODUDE
+	db 3, GREYMON
 	db 3, RATTATA
 	db 2, PHANPY
 	db 2, RATTATA
 	db 2, RATTATA
 	; day
-	db 2, GEODUDE
+	db 2, GREYMON
 	db 2, SPEAROW
-	db 3, GEODUDE
+	db 3, GREYMON
 	db 3, RATTATA
 	db 2, RATTATA
 	db 2, RATTATA
 	db 2, RATTATA
 	; nite
-	db 2, GEODUDE
+	db 2, GREYMON
 	db 2, RATTATA
-	db 3, GEODUDE
+	db 3, GREYMON
 	db 3, RATTATA
 	db 2, RATTATA
 	db 2, RATTATA

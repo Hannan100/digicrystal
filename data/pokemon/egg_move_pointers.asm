@@ -72,7 +72,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw TentacoolEggMoves
 	dw NoEggMoves
-	dw GeodudeEggMoves
+	dw GreymonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw PonytaEggMoves

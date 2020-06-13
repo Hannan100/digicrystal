@@ -72,7 +72,7 @@ AnimationPointers:
 	dw VictreebelAnimation
 	dw TentacoolAnimation
 	dw TentacruelAnimation
-	dw GeodudeAnimation
+	dw GreymonAnimation
 	dw GravelerAnimation
 	dw GolemAnimation
 	dw PonytaAnimation

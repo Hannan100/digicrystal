@@ -467,6 +467,7 @@ NidorinoEvosAttacks:
 	db 0 ; no more level-up moves
 
 AgumonEvosAttacks:
+	db EVOLVE_LEVEL, 30, GREYMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, HORN_ATTACK
@@ -990,7 +991,7 @@ TentacruelEvosAttacks:
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-GeodudeEvosAttacks:
+GreymonEvosAttacks:
 	db EVOLVE_LEVEL, 25, GRAVELER
 	db 0 ; no more evolutions
 	db 1, TACKLE

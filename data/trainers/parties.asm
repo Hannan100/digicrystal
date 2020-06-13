@@ -2270,40 +2270,40 @@ GuitaristGroup:
 HikerGroup:
 	; HIKER (1)
 	db "ANTHONY@", TRAINERTYPE_NORMAL
-	db 16, GEODUDE
+	db 16, GREYMON
 	db 18, EXVEEMON
 	db -1 ; end
 
 	; HIKER (2)
 	db "RUSSELL@", TRAINERTYPE_NORMAL
-	db  4, GEODUDE
-	db  6, GEODUDE
-	db  8, GEODUDE
+	db  4, GREYMON
+	db  6, GREYMON
+	db  8, GREYMON
 	db -1 ; end
 
 	; HIKER (3)
 	db "PHILLIP@", TRAINERTYPE_NORMAL
-	db 23, GEODUDE
-	db 23, GEODUDE
+	db 23, GREYMON
+	db 23, GREYMON
 	db 23, GRAVELER
 	db -1 ; end
 
 	; HIKER (4)
 	db "LEONARD@", TRAINERTYPE_NORMAL
-	db 23, GEODUDE
+	db 23, GREYMON
 	db 25, MACHOP
 	db -1 ; end
 
 	; HIKER (5)
 	db "ANTHONY@", TRAINERTYPE_NORMAL
-	db 11, GEODUDE
+	db 11, GREYMON
 	db 11, MACHOP
 	db -1 ; end
 
 	; HIKER (6)
 	db "BENJAMIN@", TRAINERTYPE_NORMAL
 	db 14, DIGLETT
-	db 14, GEODUDE
+	db 14, GREYMON
 	db 16, DUGTRIO
 	db -1 ; end
 
@@ -2316,7 +2316,7 @@ HikerGroup:
 
 	; HIKER (8)
 	db "MICHAEL@", TRAINERTYPE_NORMAL
-	db 25, GEODUDE
+	db 25, GREYMON
 	db 25, GRAVELER
 	db 25, GOLEM
 	db -1 ; end
@@ -2335,11 +2335,11 @@ HikerGroup:
 
 	; HIKER (11)
 	db "BAILEY@", TRAINERTYPE_NORMAL
-	db 13, GEODUDE
-	db 13, GEODUDE
-	db 13, GEODUDE
-	db 13, GEODUDE
-	db 13, GEODUDE
+	db 13, GREYMON
+	db 13, GREYMON
+	db 13, GREYMON
+	db 13, GREYMON
+	db 13, GREYMON
 	db -1 ; end
 
 	; HIKER (12)
@@ -2978,15 +2978,15 @@ CamperGroup:
 
 	; CAMPER (12)
 	db "TODD@", TRAINERTYPE_NORMAL
-	db 17, GEODUDE
-	db 17, GEODUDE
+	db 17, GREYMON
+	db 17, GREYMON
 	db 23, PSYDUCK
 	db -1 ; end
 
 	; CAMPER (13)
 	db "TODD@", TRAINERTYPE_NORMAL
-	db 23, GEODUDE
-	db 23, GEODUDE
+	db 23, GREYMON
+	db 23, GREYMON
 	db 26, PSYDUCK
 	db -1 ; end
 

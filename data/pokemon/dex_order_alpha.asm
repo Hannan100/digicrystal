@@ -67,7 +67,7 @@ AlphabeticalPokedexOrder:
 	db FURRET
 	db GASTLY
 	db GENGAR
-	db GEODUDE
+	db GREYMON
 	db GIRAFARIG
 	db GLIGAR
 	db GLOOM

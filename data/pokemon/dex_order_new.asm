@@ -34,7 +34,7 @@ NewPokedexOrder:
 	db LEDIAN
 	db SPINARAK
 	db ARIADOS
-	db GEODUDE
+	db GREYMON
 	db GRAVELER
 	db GOLEM
 	db ZUBAT

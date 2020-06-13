@@ -33,26 +33,26 @@ KantoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 6, ZUBAT
-	db 8, GEODUDE
+	db 8, GREYMON
 	db 8, SANDSHREW
 	db 12, PARAS
-	db 10, GEODUDE
+	db 10, GREYMON
 	db 8, CLEFAIRY
 	db 8, CLEFAIRY
 	; day
 	db 6, ZUBAT
-	db 8, GEODUDE
+	db 8, GREYMON
 	db 8, SANDSHREW
 	db 12, PARAS
-	db 10, GEODUDE
+	db 10, GREYMON
 	db 8, CLEFAIRY
 	db 8, CLEFAIRY
 	; nite
 	db 6, ZUBAT
-	db 8, GEODUDE
+	db 8, GREYMON
 	db 8, CLEFAIRY
 	db 12, PARAS
-	db 10, GEODUDE
+	db 10, GREYMON
 	db 12, CLEFAIRY
 	db 12, CLEFAIRY
 
@@ -60,7 +60,7 @@ KantoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 10, CUBONE
-	db 11, GEODUDE
+	db 11, GREYMON
 	db 12, MACHOP
 	db 12, ZUBAT
 	db 15, VEEDRAMON
@@ -68,7 +68,7 @@ KantoGrassWildMons:
 	db 12, MAROWAK
 	; day
 	db 10, CUBONE
-	db 11, GEODUDE
+	db 11, GREYMON
 	db 12, MACHOP
 	db 12, ZUBAT
 	db 15, VEEDRAMON
@@ -76,8 +76,8 @@ KantoGrassWildMons:
 	db 12, MAROWAK
 	; nite
 	db 12, ZUBAT
-	db 11, GEODUDE
-	db 12, GEODUDE
+	db 11, GREYMON
+	db 12, GREYMON
 	db 17, HAUNTER
 	db 15, ZUBAT
 	db 15, ZUBAT
@@ -87,7 +87,7 @@ KantoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 12, CUBONE
-	db 14, GEODUDE
+	db 14, GREYMON
 	db 16, ONIX
 	db 12, ZUBAT
 	db 15, MAROWAK
@@ -95,7 +95,7 @@ KantoGrassWildMons:
 	db 15, KANGASKHAN
 	; day
 	db 12, CUBONE
-	db 14, GEODUDE
+	db 14, GREYMON
 	db 16, ONIX
 	db 12, ZUBAT
 	db 15, MAROWAK
@@ -103,7 +103,7 @@ KantoGrassWildMons:
 	db 15, KANGASKHAN
 	; nite
 	db 12, ZUBAT
-	db 14, GEODUDE
+	db 14, GREYMON
 	db 16, ONIX
 	db 15, ZUBAT
 	db 15, HAUNTER
