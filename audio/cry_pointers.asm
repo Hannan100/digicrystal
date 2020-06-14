@@ -31,7 +31,7 @@ Cries:
 	dba Cry_Demiveemon
 	dba Cry_Paras
 	dba Cry_Growlithe
-	dba Cry_Krabby
+	dba Cry_Monocromon
 	dba Cry_Psyduck
 	dba Cry_Rattata
 	dba Cry_Vileplume

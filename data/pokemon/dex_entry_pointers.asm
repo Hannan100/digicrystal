@@ -97,7 +97,7 @@ PokedexDataPointerTable:
 	dw OnixPokedexEntry
 	dw DrowzeePokedexEntry
 	dw HypnoPokedexEntry
-	dw KrabbyPokedexEntry
+	dw MonocromonPokedexEntry
 	dw KinglerPokedexEntry
 	dw VoltorbPokedexEntry
 	dw ElectrodePokedexEntry

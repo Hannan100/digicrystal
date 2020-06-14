@@ -293,7 +293,7 @@ DrowzeeEggMoves:
 	db BARRIER
 	db -1 ; end
 
-KrabbyEggMoves:
+MonocromonEggMoves:
 	db DIG
 	db HAZE
 	db AMNESIA

@@ -98,7 +98,7 @@ KantoMonSpecials:
 	db  30 ; ONIX
 	db  90 ; DROWZEE
 	db 115 ; HYPNO
-	db  25 ; KRABBY
+	db  25 ; MONOCROMON
 	db  50 ; KINGLER
 	db  55 ; VOLTORB
 	db  80 ; ELECTRODE

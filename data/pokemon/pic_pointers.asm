@@ -196,8 +196,8 @@ PokemonPicPointers::
 	dba_pic DrowzeeBackpic
 	dba_pic HypnoFrontpic
 	dba_pic HypnoBackpic
-	dba_pic KrabbyFrontpic
-	dba_pic KrabbyBackpic
+	dba_pic MonocromonFrontpic
+	dba_pic MonocromonBackpic
 	dba_pic KinglerFrontpic
 	dba_pic KinglerBackpic
 	dba_pic VoltorbFrontpic

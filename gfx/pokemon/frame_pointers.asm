@@ -96,7 +96,7 @@ FramesPointers:
 	dw OnixFrames
 	dw DrowzeeFrames
 	dw HypnoFrames
-	dw KrabbyFrames
+	dw MonocromonFrames
 	dw KinglerFrames
 	dw VoltorbFrames
 	dw ElectrodeFrames

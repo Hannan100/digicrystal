@@ -116,7 +116,7 @@
 	const ONIX       ; 5f
 	const DROWZEE    ; 60
 	const HYPNO      ; 61
-	const KRABBY     ; 62
+	const MONOCROMON     ; 62
 	const KINGLER    ; 63
 	const VOLTORB    ; 64
 	const ELECTRODE  ; 65
