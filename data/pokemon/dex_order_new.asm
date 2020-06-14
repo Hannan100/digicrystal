@@ -35,7 +35,7 @@ NewPokedexOrder:
 	db SPINARAK
 	db ARIADOS
 	db GREYMON
-	db GRAVELER
+	db GROWLMON
 	db GOLEM
 	db ZUBAT
 	db GOLBAT

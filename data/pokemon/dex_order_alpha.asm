@@ -76,7 +76,7 @@ AlphabeticalPokedexOrder:
 	db GOLDUCK
 	db GOLEM
 	db GRANBULL
-	db GRAVELER
+	db GROWLMON
 	db GRIMER
 	db GROWLITHE
 	db GYARADOS

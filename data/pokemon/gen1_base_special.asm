@@ -75,7 +75,7 @@ KantoMonSpecials:
 	db 100 ; TENTACOOL
 	db 120 ; TENTACRUEL
 	db  30 ; GREYMON
-	db  45 ; GRAVELER
+	db  45 ; GROWLMON
 	db  55 ; GOLEM
 	db  65 ; PONYTA
 	db  80 ; RAPIDASH

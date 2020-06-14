@@ -73,7 +73,7 @@ AnimationIdlePointers:
 	dw TentacoolAnimationIdle
 	dw TentacruelAnimationIdle
 	dw GreymonAnimationIdle
-	dw GravelerAnimationIdle
+	dw GrowlmonAnimationIdle
 	dw GolemAnimationIdle
 	dw PonytaAnimationIdle
 	dw RapidashAnimationIdle

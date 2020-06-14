@@ -993,7 +993,7 @@ TentacruelEvosAttacks:
 	db 0 ; no more level-up moves
 
 GreymonEvosAttacks:
-	db EVOLVE_LEVEL, 25, GRAVELER
+	db EVOLVE_LEVEL, 25, GROWLMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 6, DEFENSE_CURL
@@ -1006,7 +1006,7 @@ GreymonEvosAttacks:
 	db 41, EXPLOSION
 	db 0 ; no more level-up moves
 
-GravelerEvosAttacks:
+GrowlmonEvosAttacks:
 	db EVOLVE_TRADE, -1, GOLEM
 	db 0 ; no more evolutions
 	db 1, TACKLE

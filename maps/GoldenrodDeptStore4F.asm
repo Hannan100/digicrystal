@@ -62,7 +62,7 @@ GoldenrodDeptStore4FGameboyKidText:
 	line "VEEDRAMON, KADABRA,"
 
 	para "HAUNTER and, um,"
-	line "GRAVELER."
+	line "GROWLMON."
 
 	para "I heard there are"
 	line "others too."

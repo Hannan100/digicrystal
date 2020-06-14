@@ -73,7 +73,7 @@ BitmasksPointers:
 	dw TentacoolBitmasks
 	dw TentacruelBitmasks
 	dw GreymonBitmasks
-	dw GravelerBitmasks
+	dw GrowlmonBitmasks
 	dw GolemBitmasks
 	dw PonytaBitmasks
 	dw RapidashBitmasks

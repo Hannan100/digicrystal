@@ -626,7 +626,7 @@ JohtoGrassWildMons:
 	map_id MOUNT_MORTAR_2F_INSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 31, GRAVELER
+	db 31, GROWLMON
 	db 32, VEEDRAMON
 	db 31, GREYMON
 	db 30, RATICATE
@@ -634,7 +634,7 @@ JohtoGrassWildMons:
 	db 30, GOLBAT
 	db 30, GOLBAT
 	; day
-	db 31, GRAVELER
+	db 31, GROWLMON
 	db 32, VEEDRAMON
 	db 31, GREYMON
 	db 30, RATICATE
@@ -642,7 +642,7 @@ JohtoGrassWildMons:
 	db 30, GOLBAT
 	db 30, GOLBAT
 	; nite
-	db 31, GRAVELER
+	db 31, GROWLMON
 	db 31, GREYMON
 	db 30, RATICATE
 	db 30, GOLBAT
@@ -1031,7 +1031,7 @@ JohtoGrassWildMons:
 	map_id SILVER_CAVE_ROOM_1
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 43, GRAVELER
+	db 43, GROWLMON
 	db 44, URSARING
 	db 42, ONIX
 	db 45, MAGMAR
@@ -1039,7 +1039,7 @@ JohtoGrassWildMons:
 	db 20, LARVITAR
 	db 15, LARVITAR
 	; day
-	db 43, GRAVELER
+	db 43, GROWLMON
 	db 44, URSARING
 	db 42, ONIX
 	db 45, MAGMAR
@@ -1047,7 +1047,7 @@ JohtoGrassWildMons:
 	db 20, LARVITAR
 	db 15, LARVITAR
 	; nite
-	db 43, GRAVELER
+	db 43, GROWLMON
 	db 44, GOLBAT
 	db 42, ONIX
 	db 42, GOLBAT
@@ -1087,7 +1087,7 @@ JohtoGrassWildMons:
 	; morn
 	db 51, GOLBAT
 	db 48, ONIX
-	db 48, GRAVELER
+	db 48, GROWLMON
 	db 50, URSARING
 	db 20, LARVITAR
 	db 15, LARVITAR
@@ -1095,7 +1095,7 @@ JohtoGrassWildMons:
 	; day
 	db 51, GOLBAT
 	db 48, ONIX
-	db 48, GRAVELER
+	db 48, GROWLMON
 	db 50, URSARING
 	db 20, LARVITAR
 	db 15, LARVITAR
@@ -1103,7 +1103,7 @@ JohtoGrassWildMons:
 	; nite
 	db 51, GOLBAT
 	db 48, ONIX
-	db 48, GRAVELER
+	db 48, GROWLMON
 	db 49, GOLBAT
 	db 45, GOLDUCK
 	db 53, GOLBAT
@@ -1168,7 +1168,7 @@ JohtoGrassWildMons:
 	; morn
 	db 23, GREYMON
 	db 23, ZUBAT
-	db 25, GRAVELER
+	db 25, GROWLMON
 	db 25, URSARING
 	db 20, TEDDIURSA
 	db 23, GOLBAT
@@ -1176,7 +1176,7 @@ JohtoGrassWildMons:
 	; day
 	db 23, GREYMON
 	db 23, ZUBAT
-	db 25, GRAVELER
+	db 25, GROWLMON
 	db 25, URSARING
 	db 30, URSARING
 	db 23, GOLBAT
@@ -1184,7 +1184,7 @@ JohtoGrassWildMons:
 	; nite
 	db 23, GREYMON
 	db 23, ZUBAT
-	db 25, GRAVELER
+	db 25, GROWLMON
 	db 20, WOBBUFFET
 	db 25, WOBBUFFET
 	db 23, GOLBAT
@@ -1572,7 +1572,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, GREYMON
-	db 23, GRAVELER
+	db 23, GROWLMON
 	db 24, GLIGAR
 	db 25, DONPHAN
 	db 20, PHANPY
@@ -1580,7 +1580,7 @@ JohtoGrassWildMons:
 	db 27, SKARMORY
 	; day
 	db 23, GREYMON
-	db 23, GRAVELER
+	db 23, GROWLMON
 	db 24, GLIGAR
 	db 25, DONPHAN
 	db 30, DONPHAN
@@ -1588,12 +1588,12 @@ JohtoGrassWildMons:
 	db 27, SKARMORY
 	; nite
 	db 23, GREYMON
-	db 23, GRAVELER
+	db 23, GROWLMON
 	db 24, GLIGAR
-	db 25, GRAVELER
-	db 27, GRAVELER
-	db 27, GRAVELER
-	db 27, GRAVELER
+	db 25, GROWLMON
+	db 27, GROWLMON
+	db 27, GROWLMON
+	db 27, GROWLMON
 
 	map_id ROUTE_46
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

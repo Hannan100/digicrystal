@@ -79,7 +79,7 @@ PokemonCries::
 	mon_cry CRY_VENONAT,       0,  256 ; TENTACOOL
 	mon_cry CRY_VENONAT,     238,  383 ; TENTACRUEL
 	mon_cry CRY_VULPIX,      240,  144 ; GREYMON
-	mon_cry CRY_VULPIX,        0,  256 ; GRAVELER
+	mon_cry CRY_VULPIX,        0,  256 ; GROWLMON
 	mon_cry CRY_GOLEM,       224,  192 ; GOLEM
 	mon_cry CRY_RAIDRAMON,    0,  256 ; PONYTA
 	mon_cry CRY_RAIDRAMON,   32,  320 ; RAPIDASH

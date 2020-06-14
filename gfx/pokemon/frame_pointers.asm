@@ -73,7 +73,7 @@ FramesPointers:
 	dw TentacoolFrames
 	dw TentacruelFrames
 	dw GreymonFrames
-	dw GravelerFrames
+	dw GrowlmonFrames
 	dw GolemFrames
 	dw PonytaFrames
 	dw RapidashFrames

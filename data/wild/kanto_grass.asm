@@ -113,7 +113,7 @@ KantoGrassWildMons:
 	map_id VICTORY_ROAD
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 34, GRAVELER
+	db 34, GROWLMON
 	db 32, RHYHORN
 	db 33, ONIX
 	db 34, GOLBAT
@@ -121,7 +121,7 @@ KantoGrassWildMons:
 	db 35, RHYDON
 	db 35, RHYDON
 	; day
-	db 34, GRAVELER
+	db 34, GROWLMON
 	db 32, RHYHORN
 	db 33, ONIX
 	db 34, GOLBAT
@@ -130,12 +130,12 @@ KantoGrassWildMons:
 	db 35, RHYDON
 	; nite
 	db 34, GOLBAT
-	db 34, GRAVELER
+	db 34, GROWLMON
 	db 32, ONIX
-	db 36, GRAVELER
-	db 38, GRAVELER
-	db 40, GRAVELER
-	db 40, GRAVELER
+	db 36, GROWLMON
+	db 38, GROWLMON
+	db 40, GROWLMON
+	db 40, GROWLMON
 
 	map_id TOHJO_FALLS
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite

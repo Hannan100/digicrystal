@@ -37,7 +37,7 @@ Pokered_MonIndices:
 	db NYAROMON
 	db SLOWPOKE
 	db KADABRA
-	db GRAVELER
+	db GROWLMON
 	db CHANSEY
 	db VEEDRAMON
 	db MR__MIME
