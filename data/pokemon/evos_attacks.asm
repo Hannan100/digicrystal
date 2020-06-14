@@ -468,6 +468,7 @@ NidorinoEvosAttacks:
 
 AgumonEvosAttacks:
 	db EVOLVE_LEVEL, 30, GREYMON
+	db EVOLVE_HAPPINESS, TR_NITE, VEEDRAMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, HORN_ATTACK
