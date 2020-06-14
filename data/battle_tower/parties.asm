@@ -656,7 +656,7 @@ BattleTowerMons2:
 	bigdw 48 ; SDef
 	db "HAGANE-RU@@"
 
-	db ALAKAZAM
+	db TYRANNOMON
 	db BERRY_JUICE
 	db PSYCHIC_M, PSYCH_UP, TOXIC, THUNDERPUNCH
 	dw 0 ; OT ID
@@ -1780,7 +1780,7 @@ BattleTowerMons4:
 	bigdw 87 ; SDef
 	db "HAGANE-RU@@"
 
-	db ALAKAZAM
+	db TYRANNOMON
 	db KINGS_ROCK
 	db PSYCHIC_M, THUNDERPUNCH, RECOVER, FIRE_PUNCH
 	dw 0 ; OT ID

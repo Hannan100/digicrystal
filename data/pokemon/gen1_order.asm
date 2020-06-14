@@ -147,7 +147,7 @@ Pokered_MonIndices:
 	db HITMONTOP ; MISSINGNO.
 	db HAUNTER
 	db ABRA
-	db ALAKAZAM
+	db TYRANNOMON
 	db PIDGEOTTO
 	db PIDGEOT
 	db STARMIE

@@ -65,7 +65,7 @@ EvosAttacksPointers::
 	dw PoliwrathEvosAttacks
 	dw AbraEvosAttacks
 	dw KadabraEvosAttacks
-	dw AlakazamEvosAttacks
+	dw TyrannomonEvosAttacks
 	dw MachopEvosAttacks
 	dw VeedramonEvosAttacks
 	dw ExveemonEvosAttacks

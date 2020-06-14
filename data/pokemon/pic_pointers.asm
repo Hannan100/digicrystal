@@ -130,8 +130,8 @@ PokemonPicPointers::
 	dba_pic AbraBackpic
 	dba_pic KadabraFrontpic
 	dba_pic KadabraBackpic
-	dba_pic AlakazamFrontpic
-	dba_pic AlakazamBackpic
+	dba_pic TyrannomonFrontpic
+	dba_pic TyrannomonBackpic
 	dba_pic MachopFrontpic
 	dba_pic MachopBackpic
 	dba_pic VeedramonFrontpic

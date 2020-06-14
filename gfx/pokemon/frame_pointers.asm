@@ -63,7 +63,7 @@ FramesPointers:
 	dw PoliwrathFrames
 	dw AbraFrames
 	dw KadabraFrames
-	dw AlakazamFrames
+	dw TyrannomonFrames
 	dw MachopFrames
 	dw VeedramonFrames
 	dw ExveemonFrames

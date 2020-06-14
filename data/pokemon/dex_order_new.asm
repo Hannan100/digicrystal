@@ -91,7 +91,7 @@ NewPokedexOrder:
 	db HYPNO
 	db ABRA
 	db KADABRA
-	db ALAKAZAM
+	db TYRANNOMON
 	db DITTO
 	db PINECO
 	db FORRETRESS

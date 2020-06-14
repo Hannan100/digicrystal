@@ -71,7 +71,7 @@ KadabraPokedexEntry::    INCLUDE "data/pokemon/dex_entries/kadabra.asm"
 
 SECTION "Pokedex Entries 065-128", ROMX
 
-AlakazamPokedexEntry::   INCLUDE "data/pokemon/dex_entries/alakazam.asm"
+TyrannomonPokedexEntry::   INCLUDE "data/pokemon/dex_entries/tyrannomon.asm"
 MachopPokedexEntry::     INCLUDE "data/pokemon/dex_entries/machop.asm"
 VeedramonPokedexEntry::    INCLUDE "data/pokemon/dex_entries/veedramon.asm"
 ExveemonPokedexEntry::    INCLUDE "data/pokemon/dex_entries/exveemon.asm"

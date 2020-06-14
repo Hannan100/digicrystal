@@ -69,7 +69,7 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,        0,  383 ; HUNYBEEMON
 	mon_cry CRY_METAPOD,     192,  129 ; ABRA
 	mon_cry CRY_METAPOD,     168,  320 ; KADABRA
-	mon_cry CRY_METAPOD,     152,  383 ; ALAKAZAM
+	mon_cry CRY_METAPOD,     152,  383 ; TYRANNOMON
 	mon_cry CRY_GROWLITHE,   238,  129 ; MACHOP
 	mon_cry CRY_GROWLITHE,    72,  224 ; VEEDRAMON
 	mon_cry CRY_GROWLITHE,     8,  320 ; EXVEEMON

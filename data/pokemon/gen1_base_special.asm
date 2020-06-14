@@ -65,7 +65,7 @@ KantoMonSpecials:
 	db  70 ; HUNYBEEMON
 	db 105 ; ABRA
 	db 120 ; KADABRA
-	db 135 ; ALAKAZAM
+	db 135 ; TYRANNOMON
 	db  35 ; MACHOP
 	db  50 ; VEEDRAMON
 	db  65 ; EXVEEMON

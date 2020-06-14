@@ -64,7 +64,7 @@ PokedexDataPointerTable:
 	dw PoliwrathPokedexEntry
 	dw AbraPokedexEntry
 	dw KadabraPokedexEntry
-	dw AlakazamPokedexEntry
+	dw TyrannomonPokedexEntry
 	dw MachopPokedexEntry
 	dw VeedramonPokedexEntry
 	dw ExveemonPokedexEntry

@@ -63,7 +63,7 @@ AnimationPointers:
 	dw PoliwrathAnimation
 	dw AbraAnimation
 	dw KadabraAnimation
-	dw AlakazamAnimation
+	dw TyrannomonAnimation
 	dw MachopAnimation
 	dw VeedramonAnimation
 	dw ExveemonAnimation

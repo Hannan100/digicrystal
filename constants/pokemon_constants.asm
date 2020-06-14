@@ -83,7 +83,7 @@
 	const HUNYBEEMON  ; 3e
 	const ABRA       ; 3f
 	const KADABRA    ; 40
-	const ALAKAZAM   ; 41
+	const TYRANNOMON   ; 41
 	const MACHOP     ; 42
 	const VEEDRAMON    ; 43
 	const EXVEEMON    ; 44

@@ -63,7 +63,7 @@ AnimationIdlePointers:
 	dw PoliwrathAnimationIdle
 	dw AbraAnimationIdle
 	dw KadabraAnimationIdle
-	dw AlakazamAnimationIdle
+	dw TyrannomonAnimationIdle
 	dw MachopAnimationIdle
 	dw VeedramonAnimationIdle
 	dw ExveemonAnimationIdle

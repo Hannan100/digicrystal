@@ -849,7 +849,7 @@ AbraEvosAttacks:
 	db 0 ; no more level-up moves
 
 KadabraEvosAttacks:
-	db EVOLVE_TRADE, -1, ALAKAZAM
+	db EVOLVE_TRADE, -1, TYRANNOMON
 	db 0 ; no more evolutions
 	db 1, TELEPORT
 	db 1, KINESIS
@@ -863,7 +863,7 @@ KadabraEvosAttacks:
 	db 45, REFLECT
 	db 0 ; no more level-up moves
 
-AlakazamEvosAttacks:
+TyrannomonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TELEPORT
 	db 1, KINESIS

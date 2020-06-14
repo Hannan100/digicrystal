@@ -154,7 +154,7 @@ INCBIN "gfx/footprints/poliwrath.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/abra.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/kadabra.1bpp",    footprint_bottom
 ; 065-072 top halves
-INCBIN "gfx/footprints/alakazam.1bpp",   footprint_top
+INCBIN "gfx/footprints/tyrannomon.1bpp",   footprint_top
 INCBIN "gfx/footprints/machop.1bpp",     footprint_top
 INCBIN "gfx/footprints/veedramon.1bpp",    footprint_top
 INCBIN "gfx/footprints/exveemon.1bpp",    footprint_top
@@ -163,7 +163,7 @@ INCBIN "gfx/footprints/raidramon.1bpp", footprint_top
 INCBIN "gfx/footprints/victreebel.1bpp", footprint_top
 INCBIN "gfx/footprints/tentacool.1bpp",  footprint_top
 ; 065-072 bottom halves
-INCBIN "gfx/footprints/alakazam.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/tyrannomon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/machop.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/veedramon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/exveemon.1bpp",    footprint_bottom
