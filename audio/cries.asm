@@ -917,11 +917,11 @@ Cry_Raichu:
 	channel 6, Cry_Raichu_Ch6
 	channel 8, Cry_Raichu_Ch8
 
-Cry_Nidoqueen:
+Cry_Hawkmon:
 	channel_count 3
-	channel 5, Cry_Nidoqueen_Ch5
-	channel 6, Cry_Nidoqueen_Ch6
-	channel 8, Cry_Nidoqueen_Ch8
+	channel 5, Cry_Hawkmon_Ch5
+	channel 6, Cry_Hawkmon_Ch6
+	channel 8, Cry_Hawkmon_Ch8
 
 Cry_Diglett:
 	channel_count 3
@@ -1589,7 +1589,7 @@ Cry_Nidoran_F_Ch8:
 	noise_note 8, 7, 1, 44
 	sound_ret
 
-Cry_Nidoqueen_Ch5:
+Cry_Hawkmon_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
 	square_note 8, 15, 7, 1760
 	square_note 6, 14, 6, 1765
@@ -1600,7 +1600,7 @@ Cry_Nidoqueen_Ch5:
 	square_note 15, 10, 2, 1736
 	sound_ret
 
-Cry_Nidoqueen_Ch6:
+Cry_Hawkmon_Ch6:
 	duty_cycle_pattern 0, 0, 1, 1
 	square_note 3, 0, 8, 0
 	square_note 8, 10, 7, 1697
@@ -1612,7 +1612,7 @@ Cry_Nidoqueen_Ch6:
 	square_note 15, 7, 2, 1673
 	sound_ret
 
-Cry_Nidoqueen_Ch8:
+Cry_Hawkmon_Ch8:
 	noise_note 2, 15, 2, 60
 	noise_note 8, 14, 4, 62
 	noise_note 8, 13, 7, 60

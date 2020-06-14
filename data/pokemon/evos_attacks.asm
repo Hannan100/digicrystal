@@ -419,7 +419,7 @@ NidoranFEvosAttacks:
 	db 0 ; no more level-up moves
 
 NidorinaEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, NIDOQUEEN
+	db EVOLVE_ITEM, MOON_STONE, HAWKMON
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, TACKLE
@@ -431,7 +431,7 @@ NidorinaEvosAttacks:
 	db 46, FURY_SWIPES
 	db 0 ; no more level-up moves
 
-NidoqueenEvosAttacks:
+HawkmonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SCRATCH

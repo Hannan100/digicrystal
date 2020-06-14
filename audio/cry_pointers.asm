@@ -9,7 +9,7 @@ Cries:
 	dba Cry_Muk
 	dba Cry_Oddish
 	dba Cry_Raichu
-	dba Cry_Nidoqueen
+	dba Cry_Hawkmon
 	dba Cry_Diglett
 	dba Cry_Seel
 	dba Cry_Drowzee

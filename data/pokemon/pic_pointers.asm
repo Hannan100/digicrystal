@@ -62,8 +62,8 @@ PokemonPicPointers::
 	dba_pic NidoranFBackpic
 	dba_pic NidorinaFrontpic
 	dba_pic NidorinaBackpic
-	dba_pic NidoqueenFrontpic
-	dba_pic NidoqueenBackpic
+	dba_pic HawkmonFrontpic
+	dba_pic HawkmonBackpic
 	dba_pic NidoranMFrontpic
 	dba_pic NidoranMBackpic
 	dba_pic NidorinoFrontpic

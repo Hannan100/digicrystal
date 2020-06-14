@@ -12,7 +12,7 @@
 	const CRY_MUK
 	const CRY_ODDISH
 	const CRY_RAICHU
-	const CRY_NIDOQUEEN
+	const CRY_HAWKMON
 	const CRY_DIGLETT
 	const CRY_SEEL
 	const CRY_DROWZEE

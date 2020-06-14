@@ -29,7 +29,7 @@ AnimationIdlePointers:
 	dw VeemonAnimationIdle
 	dw NidoranFAnimationIdle
 	dw NidorinaAnimationIdle
-	dw NidoqueenAnimationIdle
+	dw HawkmonAnimationIdle
 	dw NidoranMAnimationIdle
 	dw NidorinoAnimationIdle
 	dw AgumonAnimationIdle

@@ -35,7 +35,7 @@ PokemonCries::
 	mon_cry CRY_GUILMON,   255,  383 ; VEEMON
 	mon_cry CRY_NIDORAN_F,     0,  256 ; NIDORAN_F
 	mon_cry CRY_NIDORAN_F,    44,  352 ; NIDORINA
-	mon_cry CRY_NIDOQUEEN,     0,  256 ; NIDOQUEEN
+	mon_cry CRY_HAWKMON,     0,  256 ; HAWKMON
 	mon_cry CRY_GUILMON,     0,  256 ; GUILMON
 	mon_cry CRY_GUILMON,    44,  320 ; NIDORINO
 	mon_cry CRY_RAICHU,        0,  256 ; AGUMON
@@ -60,8 +60,8 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,    153,  383 ; PERSIAN
 	mon_cry CRY_PSYDUCK,      32,  224 ; PSYDUCK
 	mon_cry CRY_PSYDUCK,     255,  192 ; GOLDUCK
-	mon_cry CRY_NIDOQUEEN,   221,  224 ; MANKEY
-	mon_cry CRY_NIDOQUEEN,   175,  192 ; PRIMEAPE
+	mon_cry CRY_HAWKMON,   221,  224 ; MANKEY
+	mon_cry CRY_HAWKMON,   175,  192 ; PRIMEAPE
 	mon_cry CRY_GROWLITHE,    32,  192 ; GROWLITHE
 	mon_cry CRY_WEEDLE,        0,  256 ; ARCANINE
 	mon_cry CRY_PIDGEY,      255,  383 ; POLIWAG

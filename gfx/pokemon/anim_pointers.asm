@@ -29,7 +29,7 @@ AnimationPointers:
 	dw VeemonAnimation
 	dw NidoranFAnimation
 	dw NidorinaAnimation
-	dw NidoqueenAnimation
+	dw HawkmonAnimation
 	dw NidoranMAnimation
 	dw NidorinoAnimation
 	dw AgumonAnimation

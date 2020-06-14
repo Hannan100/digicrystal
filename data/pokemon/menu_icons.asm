@@ -31,7 +31,7 @@ MonMenuIcons:
 	db ICON_MONSTER     ; VEEMON
 	db ICON_FOX         ; NIDORAN_F
 	db ICON_FOX         ; NIDORINA
-	db ICON_MONSTER     ; NIDOQUEEN
+	db ICON_MONSTER     ; HAWKMON
 	db ICON_FOX         ; GUILMON
 	db ICON_FOX         ; NIDORINO
 	db ICON_MONSTER     ; AGUMON

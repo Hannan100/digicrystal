@@ -49,7 +49,7 @@
 	const VEEMON  ; 1c
 	const NIDORAN_F  ; 1d
 	const NIDORINA   ; 1e
-	const NIDOQUEEN  ; 1f
+	const HAWKMON  ; 1f
 	const GUILMON  ; 20
 	const NIDORINO   ; 21
 	const AGUMON   ; 22

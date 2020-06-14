@@ -30,7 +30,7 @@ PokedexDataPointerTable:
 	dw VeemonPokedexEntry
 	dw NidoranFPokedexEntry
 	dw NidorinaPokedexEntry
-	dw NidoqueenPokedexEntry
+	dw HawkmonPokedexEntry
 	dw NidoranMPokedexEntry
 	dw NidorinoPokedexEntry
 	dw AgumonPokedexEntry

@@ -97,7 +97,7 @@ NewPokedexOrder:
 	db FORRETRESS
 	db NIDORAN_F
 	db NIDORINA
-	db NIDOQUEEN
+	db HAWKMON
 	db GUILMON
 	db NIDORINO
 	db AGUMON

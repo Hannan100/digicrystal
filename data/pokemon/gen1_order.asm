@@ -14,7 +14,7 @@ Pokered_MonIndices:
 	db GRIMER
 	db GENGAR
 	db NIDORAN_F
-	db NIDOQUEEN
+	db HAWKMON
 	db CUBONE
 	db RHYHORN
 	db LAPRAS

@@ -31,7 +31,7 @@ EvosAttacksPointers::
 	dw VeemonEvosAttacks
 	dw NidoranFEvosAttacks
 	dw NidorinaEvosAttacks
-	dw NidoqueenEvosAttacks
+	dw HawkmonEvosAttacks
 	dw NidoranMEvosAttacks
 	dw NidorinoEvosAttacks
 	dw AgumonEvosAttacks

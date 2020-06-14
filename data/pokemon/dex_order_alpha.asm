@@ -141,7 +141,7 @@ AlphabeticalPokedexOrder:
 	db MURKROW
 	db NATU
 	db AGUMON
-	db NIDOQUEEN
+	db HAWKMON
 	db NIDORAN_F
 	db GUILMON
 	db NIDORINA

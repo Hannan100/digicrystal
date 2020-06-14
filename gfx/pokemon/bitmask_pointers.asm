@@ -29,7 +29,7 @@ BitmasksPointers:
 	dw VeemonBitmasks
 	dw NidoranFBitmasks
 	dw NidorinaBitmasks
-	dw NidoqueenBitmasks
+	dw HawkmonBitmasks
 	dw NidoranMBitmasks
 	dw NidorinoBitmasks
 	dw AgumonBitmasks

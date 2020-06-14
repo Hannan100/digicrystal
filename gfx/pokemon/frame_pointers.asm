@@ -29,7 +29,7 @@ FramesPointers:
 	dw VeemonFrames
 	dw NidoranFFrames
 	dw NidorinaFrames
-	dw NidoqueenFrames
+	dw HawkmonFrames
 	dw NidoranMFrames
 	dw NidorinoFrames
 	dw AgumonFrames

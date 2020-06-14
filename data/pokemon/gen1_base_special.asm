@@ -31,7 +31,7 @@ KantoMonSpecials:
 	db  55 ; VEEMON
 	db  40 ; NIDORAN_F
 	db  55 ; NIDORINA
-	db  75 ; NIDOQUEEN
+	db  75 ; HAWKMON
 	db  40 ; GUILMON
 	db  55 ; NIDORINO
 	db  75 ; AGUMON
