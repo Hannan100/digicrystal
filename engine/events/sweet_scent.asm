@@ -9,7 +9,7 @@ SweetScentFromMenu:
 	reloadmappart
 	special UpdateTimePals
 	callasm GetPartyNick
-	writetext UnknownText_0x50726
+	writetext UseSweetScentText
 	waitbutton
 	callasm SweetScentEncounter
 	iffalse SweetScentNothing
@@ -21,10 +21,10 @@ SweetScentFromMenu:
 	end
 
 .BugCatchingContest:
-	farjump BugCatchingContestBattleScript
+	farsjump BugCatchingContestBattleScript
 
 SweetScentNothing:
-	writetext UnknownText_0x5072b
+	writetext SweetScentNothingText
 	waitbutton
 	closetext
 	end
@@ -57,12 +57,10 @@ SweetScentEncounter:
 	ld [wBattleType], a
 	ret
 
-UnknownText_0x50726:
-	; used SWEET SCENT!
-	text_jump UnknownText_0x1c0b03
-	db "@"
+UseSweetScentText:
+	text_far _UseSweetScentText
+	text_end
 
-UnknownText_0x5072b:
-	; Looks like there's nothing here…
-	text_jump UnknownText_0x1c0b1a
-	db "@"
+SweetScentNothingText:
+	text_far _SweetScentNothingText
+	text_end

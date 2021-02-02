@@ -1,7 +1,7 @@
 BattleCommand_BatonPass:
 ; batonpass
 
-	ld a, [hBattleTurn]
+	ldh a, [hBattleTurn]
 	and a
 	jp nz, .Enemy
 
@@ -17,7 +17,7 @@ BattleCommand_BatonPass:
 
 ; Transition into switchmon menu
 	call LoadStandardMenuHeader
-	farcall SetUpBattlePartyMenu_NoLoop
+	farcall SetUpBattlePartyMenu
 
 	farcall ForcePickSwitchMonInBattle
 
@@ -68,8 +68,8 @@ BattleCommand_BatonPass:
 	call CallBattleCore
 	ld hl, ResetBattleParticipants
 	call CallBattleCore
-	ld a, 1
-	ld [wTypeMatchup], a
+	ld a, TRUE
+	ld [wApplyStatLevelMultipliersToEnemy], a
 	ld hl, ApplyStatLevelMultiplierOnAllStats
 	call CallBattleCore
 
@@ -83,7 +83,7 @@ BatonPass_LinkPlayerSwitch:
 	and a
 	ret z
 
-	ld a, 1
+	ld a, BATTLEPLAYERACTION_USEITEM
 	ld [wBattlePlayerAction], a
 
 	call LoadStandardMenuHeader
@@ -91,7 +91,7 @@ BatonPass_LinkPlayerSwitch:
 	call CallBattleCore
 	call CloseWindow
 
-	xor a
+	xor a ; BATTLEPLAYERACTION_USEMOVE
 	ld [wBattlePlayerAction], a
 	ret
 

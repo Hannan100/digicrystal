@@ -5,7 +5,7 @@
 StubbedTrainerRankings_HallOfFame2::
 	ret
 	ld a, BANK(sTrainerRankingGameTimeHOF)
-	call GetSRAMBank
+	call OpenSRAM
 
 	ld hl, wGameTimeHours
 	ld de, sTrainerRankingGameTimeHOF
@@ -36,8 +36,8 @@ StubbedTrainerRankings_HallOfFame2::
 StubbedTrainerRankings_MagikarpLength:
 	ret
 	ld a, BANK(sTrainerRankingLongestMagikarp)
-	call GetSRAMBank
-	ld de, wBuffer1
+	call OpenSRAM
+	ld de, wMagikarpLength
 	ld hl, sTrainerRankingLongestMagikarp
 
 	; Is this Magikarp the longest measured?
@@ -104,8 +104,8 @@ StubbedTrainerRankings_MagikarpLength:
 StubbedTrainerRankings_BugContestScore:
 	ret
 	ld a, BANK(sTrainerRankingBugContestScore)
-	call GetSRAMBank
-	ld a, [hProduct]
+	call OpenSRAM
+	ldh a, [hProduct]
 	ld hl, sTrainerRankingBugContestScore
 	cp [hl]
 	jr z, .isLowByteHigher
@@ -114,15 +114,15 @@ StubbedTrainerRankings_BugContestScore:
 
 .isLowByteHigher
 	inc hl
-	ld a, [hMultiplicand]
+	ldh a, [hMultiplicand]
 	cp [hl]
 	jr c, .done
 	dec hl
 
 .newHighScore
-	ld a, [hProduct]
+	ldh a, [hProduct]
 	ld [hli], a
-	ld a, [hMultiplicand]
+	ldh a, [hMultiplicand]
 	ld [hl], a
 
 .done
@@ -133,7 +133,7 @@ StubbedTrainerRankings_BugContestScore:
 StubbedTrainerRankings_AddToSlotsWinStreak:
 	ret
 	ld a, BANK(sTrainerRankingCurrentSlotsStreak)
-	call GetSRAMBank
+	call OpenSRAM
 
 	; Increment the current streak
 	ld hl, sTrainerRankingCurrentSlotsStreak + 1
@@ -173,7 +173,7 @@ StubbedTrainerRankings_AddToSlotsWinStreak:
 StubbedTrainerRankings_EndSlotsWinStreak:
 	ret
 	ld a, BANK(sTrainerRankingCurrentSlotsStreak)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sTrainerRankingCurrentSlotsStreak
 	xor a
 	ld [hli], a
@@ -185,7 +185,7 @@ StubbedTrainerRankings_EndSlotsWinStreak:
 StubbedTrainerRankings_AddToSlotsPayouts:
 	ret
 	ld a, BANK(sTrainerRankingTotalSlotsPayouts)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sTrainerRankingTotalSlotsPayouts + 3
 	ld a, e
 	add [hl]
@@ -213,7 +213,7 @@ StubbedTrainerRankings_AddToSlotsPayouts:
 StubbedTrainerRankings_AddToBattlePayouts:
 	ret
 	ld a, BANK(sTrainerRankingTotalBattlePayouts)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sTrainerRankingTotalBattlePayouts + 3
 	ld a, [bc]
 	dec bc
@@ -245,11 +245,11 @@ StubbedTrainerRankings_StepCount:
 	ld hl, sTrainerRankingStepCount
 	jp StubbedTrainerRankings_Increment4Byte
 
-Unreferenced_StubbedTrainerRankings_BattleTowerWins:
+StubbedTrainerRankings_BattleTowerWins: ; unreferenced
 	ret
-	ld a, $5
-	call GetSRAMBank
-	ld a, [$aa8d]
+	ld a, BANK(s5_aa8d)
+	call OpenSRAM
+	ld a, [s5_aa8d]
 	and a
 	call CloseSRAM
 	ret nz
@@ -282,7 +282,7 @@ StubbedTrainerRankings_TrainerBattles:
 	ld hl, sTrainerRankingTrainerBattles
 	jp StubbedTrainerRankings_Increment3Byte
 
-StubbedTrainerRankings_Unused1:
+StubbedTrainerRankings_Unused1: ; unreferenced
 	ret
 	ld hl, sTrainerRankingUnused1
 	jp StubbedTrainerRankings_Increment3Byte
@@ -362,7 +362,7 @@ StubbedTrainerRankings_PhoneCalls:
 	ld hl, sTrainerRankingPhoneCalls
 	jr StubbedTrainerRankings_Increment3Byte
 
-StubbedTrainerRankings_Unused2:
+StubbedTrainerRankings_Unused2: ; unreferenced
 	ret
 	ld hl, sTrainerRankingUnused2
 	jr StubbedTrainerRankings_Increment3Byte
@@ -375,7 +375,7 @@ StubbedTrainerRankings_LinkBattles:
 StubbedTrainerRankings_Splash:
 	ret
 	; Only counts if it’s the player’s turn
-	ld a, [hBattleTurn]
+	ldh a, [hBattleTurn]
 	and a
 	ret nz
 	ld hl, sTrainerRankingSplash
@@ -386,7 +386,7 @@ StubbedTrainerRankings_TreeEncounters:
 	ld hl, sTrainerRankingTreeEncounters
 	jr StubbedTrainerRankings_Increment3Byte
 
-StubbedTrainerRankings_Unused3:
+StubbedTrainerRankings_Unused3: ; unreferenced
 	ret
 	ld hl, sTrainerRankingUnused3
 	jr StubbedTrainerRankings_Increment3Byte
@@ -410,7 +410,7 @@ StubbedTrainerRankings_ColosseumDraws: ; draw
 StubbedTrainerRankings_Selfdestruct:
 	ret
 	; Only counts if it’s the player’s turn
-	ld a, [hBattleTurn]
+	ldh a, [hBattleTurn]
 	and a
 	ret nz
 	ld hl, sTrainerRankingSelfdestruct
@@ -431,15 +431,14 @@ StubbedTrainerRankings_Increment2Byte:
 	ld bc, 1
 	jr StubbedTrainerRankings_Increment
 
-; unused
-StubbedTrainerRankings_Increment1Byte:
+StubbedTrainerRankings_Increment1Byte: ; unreferenced
 	push bc
 	ld bc, 0
 
 ; Increments a big-endian value of bc + 1 bytes at hl
 StubbedTrainerRankings_Increment:
 	ld a, BANK(sTrainerRankings)
-	call GetSRAMBank
+	call OpenSRAM
 	push hl
 	push de
 	ld e, c
@@ -476,7 +475,7 @@ StubbedTrainerRankings_Increment:
 UpdateTrainerRankingsChecksum2:
 	ret
 	ld a, BANK(sTrainerRankings)
-	call GetSRAMBank
+	call OpenSRAM
 	call UpdateTrainerRankingsChecksum
 	call CloseSRAM
 	ret
@@ -515,11 +514,11 @@ CalculateTrainerRankingsChecksum:
 
 BackupMobileEventIndex:
 	ld a, BANK(sMobileEventIndex)
-	call GetSRAMBank
+	call OpenSRAM
 	ld a, [sMobileEventIndex]
 	push af
 	ld a, BANK(sMobileEventIndexBackup)
-	call GetSRAMBank
+	call OpenSRAM
 	pop af
 	ld [sMobileEventIndexBackup], a
 	call CloseSRAM
@@ -527,17 +526,17 @@ BackupMobileEventIndex:
 
 RestoreMobileEventIndex:
 	ld a, BANK(sMobileEventIndexBackup)
-	call GetSRAMBank
+	call OpenSRAM
 	ld a, [sMobileEventIndexBackup]
 	push af
 	ld a, BANK(sMobileEventIndex)
-	call GetSRAMBank
+	call OpenSRAM
 	pop af
 	ld [sMobileEventIndex], a
 	call CloseSRAM
 	ret
 
-Unreferenced_VerifyTrainerRankingsChecksum:
+VerifyTrainerRankingsChecksum: ; unreferenced
 	call CalculateTrainerRankingsChecksum
 	ld hl, sTrainerRankingsChecksum
 	ld a, d
@@ -550,15 +549,14 @@ Unreferenced_VerifyTrainerRankingsChecksum:
 
 DeleteMobileEventIndex:
 	ld a, BANK(sMobileEventIndex)
-	call GetSRAMBank
+	call OpenSRAM
 	xor a
 	ld [sMobileEventIndex], a
 	call CloseSRAM
 	ret
 
-; Used in the Japanese version to initialize Trainer Rankings data
-; for a new save file. Unreferenced in the English version.
-InitializeTrainerRankings:
+InitializeTrainerRankings: ; unreferenced
+; Initializes Trainer Rankings data for a new save file in JP Crystal.
 	ld hl, sTrainerRankings
 	ld bc, sTrainerRankingsEnd - sTrainerRankings
 	xor a
@@ -586,9 +584,9 @@ _MobilePrintNum::
 ; hl: where to print the converted string
 	push bc
 	xor a
-	ld [hPrintNum1], a
-	ld [hPrintNum2], a
-	ld [hPrintNum3], a
+	ldh [hPrintNumBuffer + 0], a
+	ldh [hPrintNumBuffer + 1], a
+	ldh [hPrintNumBuffer + 2], a
 	ld a, b
 	and $f
 	cp $1
@@ -599,29 +597,29 @@ _MobilePrintNum::
 	jr z, .three_bytes
 ; four bytes
 	ld a, [de]
-	ld [hPrintNum1], a
+	ldh [hPrintNumBuffer + 0], a
 	inc de
 
 .three_bytes
 	ld a, [de]
-	ld [hPrintNum2], a
+	ldh [hPrintNumBuffer + 1], a
 	inc de
 
 .two_bytes
 	ld a, [de]
-	ld [hPrintNum3], a
+	ldh [hPrintNumBuffer + 2], a
 	inc de
 
 .one_byte
 	ld a, [de]
-	ld [hPrintNum4], a
+	ldh [hPrintNumBuffer + 3], a
 	inc de
 
 	push de
 	xor a
-	ld [hPrintNum9], a
+	ldh [hPrintNumBuffer + 8], a
 	ld a, b
-	ld [hPrintNum10], a
+	ldh [hPrintNumBuffer + 9], a
 	ld a, c
 	cp 2
 	jr z, .two_digits
@@ -668,7 +666,7 @@ endr
 
 .two_digits
 	ld c, 0
-	ld a, [hPrintNum4]
+	ldh a, [hPrintNumBuffer + 3]
 .mod_ten_loop
 	cp 10
 	jr c, .simple_divide_done
@@ -678,9 +676,9 @@ endr
 
 .simple_divide_done
 	ld b, a
-	ld a, [hPrintNum9]
+	ldh a, [hPrintNumBuffer + 8]
 	or c
-	ld [hPrintNum9], a
+	ldh [hPrintNumBuffer + 8], a
 	jr nz, .create_digit
 	call .LoadMinusTenIfNegative
 	jr .done
@@ -714,53 +712,53 @@ endr
 	ld a, [de]
 	dec de
 	ld b, a
-	ld a, [hPrintNum4]
+	ldh a, [hPrintNumBuffer + 3]
 	sub b
-	ld [hPrintNum8], a
+	ldh [hPrintNumBuffer + 7], a
 	ld a, [de]
 	dec de
 	ld b, a
-	ld a, [hPrintNum3]
+	ldh a, [hPrintNumBuffer + 2]
 	sbc b
-	ld [hPrintNum7], a
+	ldh [hPrintNumBuffer + 6], a
 	ld a, [de]
 	dec de
 	ld b, a
-	ld a, [hPrintNum2]
+	ldh a, [hPrintNumBuffer + 1]
 	sbc b
-	ld [hPrintNum6], a
+	ldh [hPrintNumBuffer + 5], a
 	ld a, [de]
 	inc de
 	inc de
 	inc de
 	ld b, a
-	ld a, [hPrintNum1]
+	ldh a, [hPrintNumBuffer + 0]
 	sbc b
-	ld [hPrintNum5], a
+	ldh [hPrintNumBuffer + 4], a
 	jr c, .asm_1062eb
-	ld a, [hPrintNum5]
-	ld [hPrintNum1], a
-	ld a, [hPrintNum6]
-	ld [hPrintNum2], a
-	ld a, [hPrintNum7]
-	ld [hPrintNum3], a
-	ld a, [hPrintNum8]
-	ld [hPrintNum4], a
+	ldh a, [hPrintNumBuffer + 4]
+	ldh [hPrintNumBuffer + 0], a
+	ldh a, [hPrintNumBuffer + 5]
+	ldh [hPrintNumBuffer + 1], a
+	ldh a, [hPrintNumBuffer + 6]
+	ldh [hPrintNumBuffer + 2], a
+	ldh a, [hPrintNumBuffer + 7]
+	ldh [hPrintNumBuffer + 3], a
 	inc c
 	jr .asm_1062b4
 
 .asm_1062eb
-	ld a, [hPrintNum9]
+	ldh a, [hPrintNumBuffer + 8]
 	or c
 	jr z, .LoadMinusTenIfNegative
 	ld a, -10
 	add c
 	ld [hl], a
-	ld [hPrintNum9], a
+	ldh [hPrintNumBuffer + 8], a
 	ret
 
 .LoadMinusTenIfNegative:
-	ld a, [hPrintNum10]
+	ldh a, [hPrintNumBuffer + 9]
 	bit 7, a
 	ret z
 
@@ -768,12 +766,12 @@ endr
 	ret
 
 .Function1062ff:
-	ld a, [hPrintNum10]
+	ldh a, [hPrintNumBuffer + 9]
 	bit 7, a
 	jr nz, .asm_10630d
 	bit 6, a
 	jr z, .asm_10630d
-	ld a, [hPrintNum9]
+	ldh a, [hPrintNumBuffer + 8]
 	and a
 	ret z
 
@@ -790,16 +788,16 @@ Mobile_DummyReturnFalse:
 
 Stubbed_Function106314:
 	ret
-	ld a, $4
-	call GetSRAMBank
+	ld a, BANK(s4_b000)
+	call OpenSRAM
 	ld a, c
 	cpl
-	ld [$b000], a
+	ld [s4_b000], a
 	call CloseSRAM
-	ld a, $7
-	call GetSRAMBank
+	ld a, BANK(s7_a800)
+	call OpenSRAM
 	ld a, c
-	ld [$a800], a
+	ld [s7_a800], a
 	call CloseSRAM
 	ret
 
@@ -807,29 +805,29 @@ Mobile_AlwaysReturnNotCarry:
 	or a
 	ret
 
-Function106331:
-; called by Mobile_DummyReturnFalse in Crystal-J
-	; check ~[4:b000] == [7:a800]
-	ld a, $4
-	call GetSRAMBank
-	ld a, [$b000]
+Function106331: ; unreferenced
+; called by Mobile_DummyReturnFalse in JP Crystal
+	; check ~[s4_b000] == [s7_a800]
+	ld a, BANK(s4_b000)
+	call OpenSRAM
+	ld a, [s4_b000]
 	cpl
 	ld b, a
 	call CloseSRAM
-	ld a, $7
-	call GetSRAMBank
-	ld a, [$a800]
+	ld a, BANK(s7_a800)
+	call OpenSRAM
+	ld a, [s7_a800]
 	ld c, a
 	call CloseSRAM
 	ld a, c
 	cp b
 	jr nz, .nope
 
-	; check [7:a800] != 0
+	; check [s7_a800] != 0
 	and a
 	jr z, .nope
 
-	; check !([7:a800] & %01110000)
+	; check !([s7_a800] & %01110000)
 	and %10001111
 	cp c
 	jr nz, .nope
@@ -988,8 +986,8 @@ Function106442:
 	ld a, $36
 	call Function3e32
 	xor a
-	ld [hMobile], a
-	ld [hMobileReceive], a
+	ldh [hMobile], a
+	ldh [hMobileReceive], a
 	ld a, [wMobileCommsJumptableIndex]
 	inc a
 	ld [wMobileCommsJumptableIndex], a
@@ -1016,20 +1014,20 @@ Function106464::
 	ld hl, vTiles2 tile "▲" ; $61
 	lb bc, BANK(FontsExtra2_UpArrowGFX), 1
 	call Get2bpp
-	ld de, GFX_106514
+	ld de, MobileDialingFrameGFX
 	ld hl, vTiles2 tile "☎" ; $62
 	ld c, 9
-	ld b, BANK(GFX_106514)
+	ld b, BANK(MobileDialingFrameGFX)
 	call Get2bpp
 	ld de, $40b0
 	ld hl, vTiles2 tile $6b
-	ld b, $f ; XXX no graphics at 0f:40b0
+	ld b, $0f ; no graphics at 0f:40b0; JP leftover???
 	call Get2bpp
 	farcall LoadFrame
 	ret
 
-Function10649b:
-	ld a, [wTextBoxFrame]
+Function10649b: ; unreferenced
+	ld a, [wTextboxFrame]
 	maskbits NUM_FRAMES
 	ld bc, 6 * LEN_1BPP_TILE
 	ld hl, Frames
@@ -1041,17 +1039,17 @@ Function10649b:
 	ld b, BANK(Frames)
 	call Function1064c3
 	ld hl, vTiles2 tile " " ; $7f
-	ld de, TextBoxSpaceGFX
+	ld de, TextboxSpaceGFX
 	ld c, 1
-	ld b, BANK(TextBoxSpaceGFX)
+	ld b, BANK(TextboxSpaceGFX)
 	call Function1064c3
 	ret
 
 Function1064c3:
-	ld a, [rSVBK]
+	ldh a, [rSVBK]
 	push af
 	ld a, $6
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	push bc
 	push hl
 	ld hl, Function3f88
@@ -1060,14 +1058,14 @@ Function1064c3:
 	pop hl
 	pop bc
 	pop af
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	jr asm_1064ed
 
-Function1064d8:
-	ld a, [rSVBK]
+Function1064d8: ; unreferenced
+	ldh a, [rSVBK]
 	push af
 	ld a, $6
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	push bc
 	push hl
 	ld hl, Function3f9f
@@ -1076,32 +1074,32 @@ Function1064d8:
 	pop hl
 	pop bc
 	pop af
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	jr asm_1064ed
 
-asm_1064ed
+asm_1064ed:
 	ld de, wDecompressScratch
 	ld b, $0
-	ld a, [rSVBK]
+	ldh a, [rSVBK]
 	push af
 	ld a, $6
-	ld [rSVBK], a
-	ld a, [rVBK]
+	ldh [rSVBK], a
+	ldh a, [rVBK]
 	push af
 	ld a, $1
-	ld [rVBK], a
+	ldh [rVBK], a
 	call Get2bpp
 	pop af
-	ld [rVBK], a
+	ldh [rVBK], a
 	pop af
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	ret
 
-Function10650a:
+Function10650a: ; unreferenced
 	ld de, MobilePhoneTilesGFX
 	lb bc, BANK(MobilePhoneTilesGFX), 17
 	call Get2bpp
 	ret
 
-GFX_106514:
-INCBIN "gfx/unknown/106514.2bpp"
+MobileDialingFrameGFX:
+INCBIN "gfx/mobile/dialing_frame.2bpp"

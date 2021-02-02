@@ -197,11 +197,11 @@ NoTreeMon:
 
 GetTreeScore:
 	call .CoordScore
-	ld [wBuffer1], a
+	ld [wTreeMonCoordScore], a
 	call .OTIDScore
-	ld [wBuffer2], a
+	ld [wTreeMonOTIDScore], a
 	ld c, a
-	ld a, [wBuffer1]
+	ld a, [wTreeMonCoordScore]
 	sub c
 	jr z, .rare
 	jr nc, .ok
@@ -210,7 +210,7 @@ GetTreeScore:
 	cp 5
 	jr c, .good
 
-.bad
+; bad
 	xor a ; TREEMON_SCORE_BAD
 	ret
 
@@ -242,34 +242,34 @@ GetTreeScore:
 	add hl, bc
 
 	ld a, h
-	ld [hDividend], a
+	ldh [hDividend], a
 	ld a, l
-	ld [hDividend + 1], a
+	ldh [hDividend + 1], a
 	ld a, 5
-	ld [hDivisor], a
+	ldh [hDivisor], a
 	ld b, 2
 	call Divide
 
-	ld a, [hQuotient + 1]
-	ld [hDividend], a
-	ld a, [hQuotient + 2]
-	ld [hDividend + 1], a
+	ldh a, [hQuotient + 2]
+	ldh [hDividend], a
+	ldh a, [hQuotient + 3]
+	ldh [hDividend + 1], a
 	ld a, 10
-	ld [hDivisor], a
+	ldh [hDivisor], a
 	ld b, 2
 	call Divide
 
-	ld a, [hQuotient + 3]
+	ldh a, [hRemainder]
 	ret
 
 .OTIDScore:
 	ld a, [wPlayerID]
-	ld [hDividend], a
+	ldh [hDividend], a
 	ld a, [wPlayerID + 1]
-	ld [hDividend + 1], a
+	ldh [hDividend + 1], a
 	ld a, 10
-	ld [hDivisor], a
+	ldh [hDivisor], a
 	ld b, 2
 	call Divide
-	ld a, [hQuotient + 3]
+	ldh a, [hRemainder]
 	ret

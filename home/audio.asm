@@ -1,21 +1,21 @@
 ; Audio interfaces.
 
-MapSetup_Sound_Off::
+InitSound::
 	push hl
 	push de
 	push bc
 	push af
 
-	ld a, [hROMBank]
+	ldh a, [hROMBank]
 	push af
-	ld a, BANK(_MapSetup_Sound_Off)
-	ld [hROMBank], a
+	ld a, BANK(_InitSound)
+	ldh [hROMBank], a
 	ld [MBC3RomBank], a
 
-	call _MapSetup_Sound_Off
+	call _InitSound
 
 	pop af
-	ld [hROMBank], a
+	ldh [hROMBank], a
 	ld [MBC3RomBank], a
 
 	pop af
@@ -30,16 +30,16 @@ UpdateSound::
 	push bc
 	push af
 
-	ld a, [hROMBank]
+	ldh a, [hROMBank]
 	push af
 	ld a, BANK(_UpdateSound)
-	ld [hROMBank], a
+	ldh [hROMBank], a
 	ld [MBC3RomBank], a
 
 	call _UpdateSound
 
 	pop af
-	ld [hROMBank], a
+	ldh [hROMBank], a
 	ld [MBC3RomBank], a
 
 	pop af
@@ -49,15 +49,15 @@ UpdateSound::
 	ret
 
 _LoadMusicByte::
-; wCurMusicByte = [a:de]
-	ld [hROMBank], a
+; [wCurMusicByte] = [a:de]
+	ldh [hROMBank], a
 	ld [MBC3RomBank], a
 
 	ld a, [de]
 	ld [wCurMusicByte], a
 	ld a, BANK(LoadMusicByte)
 
-	ld [hROMBank], a
+	ldh [hROMBank], a
 	ld [MBC3RomBank], a
 	ret
 
@@ -69,10 +69,10 @@ PlayMusic::
 	push bc
 	push af
 
-	ld a, [hROMBank]
+	ldh a, [hROMBank]
 	push af
-	ld a, BANK(_PlayMusic) ; and BANK(_MapSetup_Sound_Off)
-	ld [hROMBank], a
+	ld a, BANK(_PlayMusic) ; aka BANK(_InitSound)
+	ldh [hROMBank], a
 	ld [MBC3RomBank], a
 
 	ld a, e
@@ -83,11 +83,11 @@ PlayMusic::
 	jr .end
 
 .nomusic
-	call _MapSetup_Sound_Off
+	call _InitSound
 
 .end
 	pop af
-	ld [hROMBank], a
+	ldh [hROMBank], a
 	ld [MBC3RomBank], a
 	pop af
 	pop bc
@@ -103,10 +103,10 @@ PlayMusic2::
 	push bc
 	push af
 
-	ld a, [hROMBank]
+	ldh a, [hROMBank]
 	push af
 	ld a, BANK(_PlayMusic)
-	ld [hROMBank], a
+	ldh [hROMBank], a
 	ld [MBC3RomBank], a
 
 	push de
@@ -117,7 +117,7 @@ PlayMusic2::
 	call _PlayMusic
 
 	pop af
-	ld [hROMBank], a
+	ldh [hROMBank], a
 	ld [MBC3RomBank], a
 
 	pop af
@@ -134,12 +134,12 @@ PlayCry::
 	push bc
 	push af
 
-	ld a, [hROMBank]
+	ldh a, [hROMBank]
 	push af
 
 	; Cries are stuck in one bank.
 	ld a, BANK(PokemonCries)
-	ld [hROMBank], a
+	ldh [hROMBank], a
 	ld [MBC3RomBank], a
 
 	ld hl, PokemonCries
@@ -162,13 +162,13 @@ endr
 	ld [wCryLength + 1], a
 
 	ld a, BANK(_PlayCry)
-	ld [hROMBank], a
+	ldh [hROMBank], a
 	ld [MBC3RomBank], a
 
 	call _PlayCry
 
 	pop af
-	ld [hROMBank], a
+	ldh [hROMBank], a
 	ld [MBC3RomBank], a
 
 	pop af
@@ -196,10 +196,10 @@ PlaySFX::
 	jr c, .done
 
 .play
-	ld a, [hROMBank]
+	ldh a, [hROMBank]
 	push af
 	ld a, BANK(_PlaySFX)
-	ld [hROMBank], a
+	ldh [hROMBank], a
 	ld [MBC3RomBank], a
 
 	ld a, e
@@ -207,7 +207,7 @@ PlaySFX::
 	call _PlaySFX
 
 	pop af
-	ld [hROMBank], a
+	ldh [hROMBank], a
 	ld [MBC3RomBank], a
 
 .done
@@ -277,21 +277,21 @@ MaxVolume::
 	ret
 
 LowVolume::
-	ld a, $33 ; 40%
+	ld a, $33 ; 50%
 	ld [wVolume], a
 	ret
 
-VolumeOff::
+MinVolume::
 	xor a
 	ld [wVolume], a
 	ret
 
-Unused_FadeOutMusic::
+FadeOutToMusic:: ; unreferenced
 	ld a, 4
 	ld [wMusicFade], a
 	ret
 
-FadeInMusic::
+FadeInToMusic::
 	ld a, 4 | (1 << MUSIC_FADE_IN_F)
 	ld [wMusicFade], a
 	ret
@@ -359,7 +359,8 @@ PlayMapMusic::
 	pop hl
 	ret
 
-EnterMapMusic::
+PlayMapMusicBike::
+; If the player's on a bike, play the bike music instead of the map music
 	push hl
 	push de
 	push bc
@@ -435,7 +436,7 @@ SpecialMapMusic::
 	and a
 	ret
 
-.bike
+.bike ; unreferenced
 	ld de, MUSIC_BICYCLE
 	scf
 	ret
@@ -466,9 +467,8 @@ GetMapMusic_MaybeSpecial::
 	call GetMapMusic
 	ret
 
-Unreferenced_Function3d9f::
-; Places a BCD number at the
-; upper center of the screen.
+PlaceBCDNumberSprite:: ; unreferenced
+; Places a BCD number at the upper center of the screen.
 	ld a, 4 * TILE_WIDTH
 	ld [wVirtualOAMSprite38YCoord], a
 	ld [wVirtualOAMSprite39YCoord], a
@@ -479,7 +479,7 @@ Unreferenced_Function3d9f::
 	xor a
 	ld [wVirtualOAMSprite38Attributes], a
 	ld [wVirtualOAMSprite39Attributes], a
-	ld a, [wc296]
+	ld a, [wUnusedBCDNumber]
 	cp 100
 	jr nc, .max
 	add 1
@@ -524,12 +524,12 @@ CheckSFX::
 TerminateExpBarSound::
 	xor a
 	ld [wChannel5Flags1], a
-	ld [wSoundInput], a
-	ld [rNR10], a
-	ld [rNR11], a
-	ld [rNR12], a
-	ld [rNR13], a
-	ld [rNR14], a
+	ld [wPitchSweep], a
+	ldh [rNR10], a
+	ldh [rNR11], a
+	ldh [rNR12], a
+	ldh [rNR13], a
+	ldh [rNR14], a
 	ret
 
 ChannelsOff::
@@ -539,7 +539,7 @@ ChannelsOff::
 	ld [wChannel2Flags1], a
 	ld [wChannel3Flags1], a
 	ld [wChannel4Flags1], a
-	ld [wSoundInput], a
+	ld [wPitchSweep], a
 	ret
 
 SFXChannelsOff::
@@ -549,5 +549,5 @@ SFXChannelsOff::
 	ld [wChannel6Flags1], a
 	ld [wChannel7Flags1], a
 	ld [wChannel8Flags1], a
-	ld [wSoundInput], a
+	ld [wPitchSweep], a
 	ret

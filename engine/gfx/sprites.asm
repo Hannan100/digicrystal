@@ -1,8 +1,8 @@
 ClearSpriteAnims:
-	ld hl, wSpriteAnimDict
-	ld bc, wSpriteAnimsEnd - wSpriteAnimDict
+	ld hl, wSpriteAnimData
+	ld bc, wSpriteAnimDataEnd - wSpriteAnimData
 .loop
-	ld [hl], $0
+	ld [hl], 0
 	inc hl
 	dec bc
 	ld a, c
@@ -22,7 +22,7 @@ PlaySpriteAnimations:
 	push af
 
 	ld a, LOW(wVirtualOAM)
-	ld [wCurrSpriteOAMAddr], a
+	ld [wCurSpriteOAMAddr], a
 	call DoNextFrameForAllSprites
 
 	pop af
@@ -55,11 +55,11 @@ DoNextFrameForAllSprites:
 	dec e
 	jr nz, .loop
 
-	ld a, [wCurrSpriteOAMAddr]
+	ld a, [wCurSpriteOAMAddr]
 	ld l, a
 	ld h, HIGH(wVirtualOAM)
 
-.loop2 ; Clear (wVirtualOAM + [wCurrSpriteOAMAddr] --> wVirtualOAMEnd)
+.loop2 ; Clear (wVirtualOAM + [wCurSpriteOAMAddr] --> wVirtualOAMEnd)
 	ld a, l
 	cp LOW(wVirtualOAMEnd)
 	jr nc, .done
@@ -94,11 +94,11 @@ DoNextFrameForFirst16Sprites:
 	dec e
 	jr nz, .loop
 
-	ld a, [wCurrSpriteOAMAddr]
+	ld a, [wCurSpriteOAMAddr]
 	ld l, a
 	ld h, HIGH(wVirtualOAMSprite16)
 
-.loop2 ; Clear (wVirtualOAM + [wCurrSpriteOAMAddr] --> Sprites + $40)
+.loop2 ; Clear (wVirtualOAM + [wCurSpriteOAMAddr] --> Sprites + $40)
 	ld a, l
 	cp LOW(wVirtualOAMSprite16)
 	jr nc, .done
@@ -109,7 +109,7 @@ DoNextFrameForFirst16Sprites:
 .done
 	ret
 
-InitSpriteAnimStruct::
+_InitSpriteAnimStruct::
 ; Initialize animation a at pixel x=e, y=d
 ; Find if there's any room in the wSpriteAnimationStructs array, which is 10x16
 	push de
@@ -135,16 +135,16 @@ InitSpriteAnimStruct::
 ; Back up the structure address to bc.
 	ld c, l
 	ld b, h
-; Value [wSpriteAnimCount] is initially set to -1. Set it to
-; the number of objects loaded into this array.
+
+; Increment [wSpriteAnimCount], skipping a 0 value.
 	ld hl, wSpriteAnimCount
 	inc [hl]
 	ld a, [hl]
 	and a
-	jr nz, .initialized
+	jr nz, .nonzero
 	inc [hl]
+.nonzero
 
-.initialized
 ; Get row a of SpriteAnimSeqData, copy the pointer into de
 	pop af
 	ld e, a
@@ -160,44 +160,45 @@ InitSpriteAnimStruct::
 	add hl, bc
 ; Load the index.
 	ld a, [wSpriteAnimCount]
-	ld [hli], a
+	ld [hli], a ; SPRITEANIMSTRUCT_INDEX
 ; Copy the table entry to the next two fields.
 	ld a, [de]
-	ld [hli], a
+	ld [hli], a ; SPRITEANIMSTRUCT_FRAMESET_ID
 	inc de
 	ld a, [de]
-	ld [hli], a
+	ld [hli], a ; SPRITEANIMSTRUCT_ANIM_SEQ_ID
 	inc de
-; Look up the third field from the table in the wSpriteAnimDict array (10x2).
-; Take the value and load it in
+; Look up the third field in the wSpriteAnimDict mapping.
+; Take the mapped value and load it in.
 	ld a, [de]
 	call GetSpriteAnimVTile
-	ld [hli], a
+	ld [hli], a ; SPRITEANIMSTRUCT_TILE_ID
 	pop de
 ; Set hl to field 4 (X coordinate).  Kinda pointless, because we're presumably already here.
 	ld hl, SPRITEANIMSTRUCT_XCOORD
 	add hl, bc
 ; Load the original value of de into here.
 	ld a, e
-	ld [hli], a
+	ld [hli], a ; SPRITEANIMSTRUCT_XCOORD
 	ld a, d
-	ld [hli], a
+	ld [hli], a ; SPRITEANIMSTRUCT_YCOORD
 ; load 0 into the next four fields
 	xor a
-	ld [hli], a
-	ld [hli], a
+	ld [hli], a ; SPRITEANIMSTRUCT_XOFFSET
+	ld [hli], a ; SPRITEANIMSTRUCT_YOFFSET
 	xor a
-	ld [hli], a
-	ld [hli], a
+	ld [hli], a ; SPRITEANIMSTRUCT_DURATION
+	ld [hli], a ; SPRITEANIMSTRUCT_DURATIONOFFSET
 ; load -1 into the next field
 	dec a
-	ld [hli], a
+	ld [hli], a ; SPRITEANIMSTRUCT_FRAME
 ; load 0 into the last five fields
 	xor a
-rept 4
-	ld [hli], a
-endr
-	ld [hl], a
+	ld [hli], a ; SPRITEANIMSTRUCT_JUMPTABLE_INDEX
+	ld [hli], a ; SPRITEANIMSTRUCT_VAR1
+	ld [hli], a ; SPRITEANIMSTRUCT_VAR2
+	ld [hli], a ; SPRITEANIMSTRUCT_VAR3
+	ld [hl], a  ; SPRITEANIMSTRUCT_VAR4
 ; back up the address of the first field to wSpriteAnimAddrBackup
 	ld a, c
 	ld [wSpriteAnimAddrBackup], a
@@ -209,7 +210,7 @@ DeinitializeSprite:
 ; Clear the index field of the struct in bc.
 	ld hl, SPRITEANIMSTRUCT_INDEX
 	add hl, bc
-	ld [hl], $0
+	ld [hl], 0
 	ret
 
 DeinitializeAllSprites:
@@ -228,32 +229,32 @@ DeinitializeAllSprites:
 UpdateAnimFrame:
 	call InitSpriteAnimBuffer ; init WRAM
 	call GetSpriteAnimFrame ; read from a memory array
-	cp -3
+	cp dowait_command
 	jr z, .done
-	cp -4
+	cp delanim_command
 	jr z, .delete
 	call GetFrameOAMPointer
-	; add byte to [wCurrAnimVTile]
-	ld a, [wCurrAnimVTile]
+	; add byte to [wCurAnimVTile]
+	ld a, [wCurAnimVTile]
 	add [hl]
-	ld [wCurrAnimVTile], a
+	ld [wCurAnimVTile], a
 	inc hl
 	; load pointer into hl
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
 	push bc
-	ld a, [wCurrSpriteOAMAddr]
+	ld a, [wCurSpriteOAMAddr]
 	ld e, a
 	ld d, HIGH(wVirtualOAM)
 	ld a, [hli]
 	ld c, a ; number of objects
 .loop
 	; first byte: y (px)
-	; [de] = [wCurrAnimYCoord] + [wCurrAnimYOffset] + [wGlobalAnimYOffset] + AddOrSubtractY([hl])
-	ld a, [wCurrAnimYCoord]
+	; [de] = [wCurAnimYCoord] + [wCurAnimYOffset] + [wGlobalAnimYOffset] + AddOrSubtractY([hl])
+	ld a, [wCurAnimYCoord]
 	ld b, a
-	ld a, [wCurrAnimYOffset]
+	ld a, [wCurAnimYOffset]
 	add b
 	ld b, a
 	ld a, [wGlobalAnimYOffset]
@@ -265,10 +266,10 @@ UpdateAnimFrame:
 	inc hl
 	inc de
 	; second byte: x (px)
-	; [de] = [wCurrAnimXCoord] + [wCurrAnimXOffset] + [wGlobalAnimXOffset] + AddOrSubtractX([hl])
-	ld a, [wCurrAnimXCoord]
+	; [de] = [wCurAnimXCoord] + [wCurAnimXOffset] + [wGlobalAnimXOffset] + AddOrSubtractX([hl])
+	ld a, [wCurAnimXCoord]
 	ld b, a
-	ld a, [wCurrAnimXOffset]
+	ld a, [wCurAnimXOffset]
 	add b
 	ld b, a
 	ld a, [wGlobalAnimXOffset]
@@ -280,8 +281,8 @@ UpdateAnimFrame:
 	inc hl
 	inc de
 	; third byte: vtile
-	; [de] = [wCurrAnimVTile] + [hl]
-	ld a, [wCurrAnimVTile]
+	; [de] = [wCurAnimVTile] + [hl]
+	ld a, [wCurAnimVTile]
 	add [hl]
 	ld [de], a
 	inc hl
@@ -293,7 +294,7 @@ UpdateAnimFrame:
 	inc hl
 	inc de
 	ld a, e
-	ld [wCurrSpriteOAMAddr], a
+	ld [wCurSpriteOAMAddr], a
 	cp LOW(wVirtualOAMEnd)
 	jr nc, .reached_the_end
 	dec c
@@ -315,11 +316,11 @@ UpdateAnimFrame:
 AddOrSubtractY:
 	push hl
 	ld a, [hl]
-	ld hl, wCurrSpriteAddSubFlags
-	bit 6, [hl]
+	ld hl, wCurSpriteOAMFlags
+	bit OAM_Y_FLIP, [hl]
 	jr z, .ok
-	; 8 - a
-	add $8
+	; -8 - a
+	add 8
 	xor $ff
 	inc a
 
@@ -330,11 +331,11 @@ AddOrSubtractY:
 AddOrSubtractX:
 	push hl
 	ld a, [hl]
-	ld hl, wCurrSpriteAddSubFlags
-	bit 5, [hl] ; x flip
+	ld hl, wCurSpriteOAMFlags
+	bit OAM_X_FLIP, [hl]
 	jr z, .ok
-	; 8 - a
-	add $8
+	; -8 - a
+	add 8
 	xor $ff
 	inc a
 
@@ -343,42 +344,41 @@ AddOrSubtractX:
 	ret
 
 GetSpriteOAMAttr:
-	ld a, [wCurrSpriteAddSubFlags]
+	ld a, [wCurSpriteOAMFlags]
 	ld b, a
 	ld a, [hl]
 	xor b
-	and $e0
+	and PRIORITY | Y_FLIP | X_FLIP
 	ld b, a
 	ld a, [hl]
-	and $1f
+	and $ff ^ (PRIORITY | Y_FLIP | X_FLIP)
 	or b
 	ret
 
 InitSpriteAnimBuffer:
 	xor a
-	ld [wCurrSpriteAddSubFlags], a
+	ld [wCurSpriteOAMFlags], a
 	ld hl, SPRITEANIMSTRUCT_TILE_ID
 	add hl, bc
 	ld a, [hli]
-	ld [wCurrAnimVTile], a
+	ld [wCurAnimVTile], a
 	ld a, [hli]
-	ld [wCurrAnimXCoord], a
+	ld [wCurAnimXCoord], a
 	ld a, [hli]
-	ld [wCurrAnimYCoord], a
+	ld [wCurAnimYCoord], a
 	ld a, [hli]
-	ld [wCurrAnimXOffset], a
+	ld [wCurAnimXOffset], a
 	ld a, [hli]
-	ld [wCurrAnimYOffset], a
+	ld [wCurAnimYOffset], a
 	ret
 
 GetSpriteAnimVTile:
-; a = wSpriteAnimDict[a] if a in wSpriteAnimDict else 0
-; vTiles offset
+; a = wSpriteAnimDict[a] if a in wSpriteAnimDict else vtile offset $00
 	push hl
 	push bc
 	ld hl, wSpriteAnimDict
 	ld b, a
-	ld c, NUM_SPRITE_ANIM_STRUCTS
+	ld c, NUM_SPRITEANIMDICT_ENTRIES
 .loop
 	ld a, [hli]
 	cp b
@@ -415,9 +415,9 @@ GetSpriteAnimFrame:
 	add hl, bc
 	ld a, [hl]
 	and a
-	jr z, .next_frame ; finished the current sequence
+	jr z, .next_frame
 	dec [hl]
-	call .GetPointer ; load pointer from SpriteAnimFrameData
+	call .GetPointer
 	ld a, [hli]
 	push af
 	jr .okay
@@ -426,7 +426,7 @@ GetSpriteAnimFrame:
 	ld hl, SPRITEANIMSTRUCT_FRAME
 	add hl, bc
 	inc [hl]
-	call .GetPointer ; load pointer from SpriteAnimFrameData
+	call .GetPointer
 	ld a, [hli]
 	cp dorestart_command
 	jr z, .restart
@@ -436,7 +436,7 @@ GetSpriteAnimFrame:
 	push af
 	ld a, [hl]
 	push hl
-	and $3f
+	and $ff ^ (Y_FLIP << 1 | X_FLIP << 1)
 	ld hl, SPRITEANIMSTRUCT_DURATIONOFFSET
 	add hl, bc
 	add [hl]
@@ -446,9 +446,9 @@ GetSpriteAnimFrame:
 	pop hl
 .okay
 	ld a, [hl]
-	and $c0
+	and Y_FLIP << 1 | X_FLIP << 1 ; The << 1 is compensated in the "frame" macro
 	srl a
-	ld [wCurrSpriteAddSubFlags], a
+	ld [wCurSpriteOAMFlags], a
 	pop af
 	ret
 
@@ -477,9 +477,6 @@ GetSpriteAnimFrame:
 	jr .loop
 
 .GetPointer:
-	; Get the data for the current frame for the current animation sequence
-
-	; SpriteAnimFrameData[SpriteAnim[SPRITEANIMSTRUCT_FRAMESET_ID]][SpriteAnim[SPRITEANIMSTRUCT_FRAME]]
 	ld hl, SPRITEANIMSTRUCT_FRAMESET_ID
 	add hl, bc
 	ld e, [hl]
@@ -499,7 +496,6 @@ GetSpriteAnimFrame:
 	ret
 
 GetFrameOAMPointer:
-; Load OAM data pointer
 	ld e, a
 	ld d, 0
 	ld hl, SpriteAnimOAMData
@@ -508,13 +504,13 @@ GetFrameOAMPointer:
 	add hl, de
 	ret
 
-Unreferenced_BrokenGetStdGraphics:
+UnusedLoadSpriteAnimGFX: ; unreferenced
 	push hl
 	ld l, a
 	ld h, 0
 	add hl, hl
 	add hl, hl
-	ld de, BrokenStdGFXPointers ; broken 2bpp pointers
+	ld de, UnusedSpriteAnimGFX
 	add hl, de
 	ld c, [hl]
 	inc hl
@@ -537,20 +533,7 @@ INCLUDE "data/sprite_anims/framesets.asm"
 
 INCLUDE "data/sprite_anims/oam.asm"
 
-BrokenStdGFXPointers:
-	; tile count, bank, pointer
-	; (all pointers were dummied out to .deleted)
-	dbbw 128, $01, .deleted
-	dbbw 128, $01, .deleted
-	dbbw 128, $01, .deleted
-	dbbw 128, $01, .deleted
-	dbbw 16, $37, .deleted
-	dbbw 16, $11, .deleted
-	dbbw 16, $39, .deleted
-	dbbw 16, $24, .deleted
-	dbbw 16, $21, .deleted
-
-.deleted
+INCLUDE "data/sprite_anims/unused_gfx.asm"
 
 Sprites_Cosine:
 ; a = d * cos(a * pi/32)
@@ -561,7 +544,7 @@ Sprites_Sine:
 	calc_sine_wave
 
 AnimateEndOfExpBar:
-	ld a, [hSGB]
+	ldh a, [hSGB]
 	ld de, EndOfExpBarGFX
 	and a
 	jr z, .load
@@ -633,8 +616,8 @@ ClearSpriteAnims2:
 	push de
 	push bc
 	push af
-	ld hl, wSpriteAnimDict
-	ld bc, wSpriteAnimsEnd - wSpriteAnimDict
+	ld hl, wSpriteAnimData
+	ld bc, wSpriteAnimDataEnd - wSpriteAnimData
 .loop
 	ld [hl], 0
 	inc hl

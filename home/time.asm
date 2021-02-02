@@ -1,11 +1,11 @@
 ; Functions relating to the timer interrupt and the real-time-clock.
 
-AskTimer::
+Timer:: ; unreferenced
 	push af
-	ld a, [hMobile]
+	ldh a, [hMobile]
 	and a
 	jr z, .not_mobile
-	call Timer
+	call MobileTimer
 
 .not_mobile
 	pop af
@@ -42,25 +42,25 @@ GetClock::
 	ld [hl], RTC_S
 	ld a, [de]
 	maskbits 60
-	ld [hRTCSeconds], a
+	ldh [hRTCSeconds], a
 
 	ld [hl], RTC_M
 	ld a, [de]
 	maskbits 60
-	ld [hRTCMinutes], a
+	ldh [hRTCMinutes], a
 
 	ld [hl], RTC_H
 	ld a, [de]
 	maskbits 24
-	ld [hRTCHours], a
+	ldh [hRTCHours], a
 
 	ld [hl], RTC_DL
 	ld a, [de]
-	ld [hRTCDayLo], a
+	ldh [hRTCDayLo], a
 
 	ld [hl], RTC_DH
 	ld a, [de]
-	ld [hRTCDayHi], a
+	ldh [hRTCDayHi], a
 
 ; unlatch clock / disable clock r/w
 	call CloseSRAM
@@ -71,16 +71,16 @@ FixDays::
 ; mod by 140
 
 ; check if day count > 255 (bit 8 set)
-	ld a, [hRTCDayHi] ; DH
+	ldh a, [hRTCDayHi] ; DH
 	bit 0, a
 	jr z, .daylo
 ; reset dh (bit 8)
 	res 0, a
-	ld [hRTCDayHi], a ; DH
+	ldh [hRTCDayHi], a
 
 ; mod 140
 ; mod twice since bit 8 (DH) was set
-	ld a, [hRTCDayLo] ; DL
+	ldh a, [hRTCDayLo]
 .modh
 	sub 140
 	jr nc, .modh
@@ -90,7 +90,7 @@ FixDays::
 	add 140
 
 ; update dl
-	ld [hRTCDayLo], a ; DL
+	ldh [hRTCDayLo], a
 
 ; flag for sRTCStatusFlags
 	ld a, %01000000
@@ -98,7 +98,7 @@ FixDays::
 
 .daylo
 ; quit if fewer than 140 days have passed
-	ld a, [hRTCDayLo] ; DL
+	ldh a, [hRTCDayLo]
 	cp 140
 	jr c, .quit
 
@@ -109,7 +109,7 @@ FixDays::
 	add 140
 
 ; update dl
-	ld [hRTCDayLo], a ; DL
+	ldh [hRTCDayLo], a
 
 ; flag for sRTCStatusFlags
 	ld a, %00100000
@@ -128,11 +128,10 @@ FixDays::
 
 FixTime::
 ; add ingame time (set at newgame) to current time
-;				  day     hr    min    sec
 ; store time in wCurDay, hHours, hMinutes, hSeconds
 
 ; second
-	ld a, [hRTCSeconds] ; S
+	ldh a, [hRTCSeconds]
 	ld c, a
 	ld a, [wStartSecond]
 	add c
@@ -140,11 +139,11 @@ FixTime::
 	jr nc, .updatesec
 	add 60
 .updatesec
-	ld [hSeconds], a
+	ldh [hSeconds], a
 
 ; minute
 	ccf ; carry is set, so turn it off
-	ld a, [hRTCMinutes] ; M
+	ldh a, [hRTCMinutes]
 	ld c, a
 	ld a, [wStartMinute]
 	adc c
@@ -152,11 +151,11 @@ FixTime::
 	jr nc, .updatemin
 	add 60
 .updatemin
-	ld [hMinutes], a
+	ldh [hMinutes], a
 
 ; hour
 	ccf ; carry is set, so turn it off
-	ld a, [hRTCHours] ; H
+	ldh a, [hRTCHours]
 	ld c, a
 	ld a, [wStartHour]
 	adc c
@@ -164,11 +163,11 @@ FixTime::
 	jr nc, .updatehr
 	add 24
 .updatehr
-	ld [hHours], a
+	ldh [hHours], a
 
 ; day
 	ccf ; carry is set, so turn it off
-	ld a, [hRTCDayLo] ; DL
+	ldh a, [hRTCDayLo]
 	ld c, a
 	ld a, [wStartDay]
 	adc c
@@ -178,17 +177,17 @@ FixTime::
 InitTimeOfDay::
 	xor a
 	ld [wStringBuffer2], a
-	ld a, $0 ; useless
+	ld a, 0 ; useless
 	ld [wStringBuffer2 + 3], a
 	jr InitTime
 
 InitDayOfWeek::
 	call UpdateTime
-	ld a, [hHours]
+	ldh a, [hHours]
 	ld [wStringBuffer2 + 1], a
-	ld a, [hMinutes]
+	ldh a, [hMinutes]
 	ld [wStringBuffer2 + 2], a
-	ld a, [hSeconds]
+	ldh a, [hSeconds]
 	ld [wStringBuffer2 + 3], a
 	jr InitTime ; useless
 
@@ -196,18 +195,18 @@ InitTime::
 	farcall _InitTime
 	ret
 
-PanicResetClock::
+ClearClock::
 	call .ClearhRTC
 	call SetClock
 	ret
 
 .ClearhRTC:
 	xor a
-	ld [hRTCSeconds], a
-	ld [hRTCMinutes], a
-	ld [hRTCHours], a
-	ld [hRTCDayLo], a
-	ld [hRTCDayHi], a
+	ldh [hRTCSeconds], a
+	ldh [hRTCMinutes], a
+	ldh [hRTCHours], a
+	ldh [hRTCDayLo], a
+	ldh [hRTCDayHi], a
 	ret
 
 SetClock::
@@ -233,23 +232,23 @@ SetClock::
 
 ; seconds
 	ld [hl], RTC_S
-	ld a, [hRTCSeconds]
+	ldh a, [hRTCSeconds]
 	ld [de], a
 ; minutes
 	ld [hl], RTC_M
-	ld a, [hRTCMinutes]
+	ldh a, [hRTCMinutes]
 	ld [de], a
 ; hours
 	ld [hl], RTC_H
-	ld a, [hRTCHours]
+	ldh a, [hRTCHours]
 	ld [de], a
 ; day lo
 	ld [hl], RTC_DL
-	ld a, [hRTCDayLo]
+	ldh a, [hRTCDayLo]
 	ld [de], a
 ; day hi
 	ld [hl], RTC_DH
-	ld a, [hRTCDayHi]
+	ldh a, [hRTCDayHi]
 	res 6, a ; make sure timer is active
 	ld [de], a
 
@@ -257,12 +256,12 @@ SetClock::
 	call CloseSRAM ; unlatch clock, disable clock r/w
 	ret
 
-ClearRTCStatus::
+ClearRTCStatus:: ; unreferenced
 ; clear sRTCStatusFlags
 	xor a
 	push af
 	ld a, BANK(sRTCStatusFlags)
-	call GetSRAMBank
+	call OpenSRAM
 	pop af
 	ld [sRTCStatusFlags], a
 	call CloseSRAM
@@ -273,7 +272,7 @@ RecordRTCStatus::
 	ld hl, sRTCStatusFlags
 	push af
 	ld a, BANK(sRTCStatusFlags)
-	call GetSRAMBank
+	call OpenSRAM
 	pop af
 	or [hl]
 	ld [hl], a
@@ -283,7 +282,7 @@ RecordRTCStatus::
 CheckRTCStatus::
 ; check sRTCStatusFlags
 	ld a, BANK(sRTCStatusFlags)
-	call GetSRAMBank
+	call OpenSRAM
 	ld a, [sRTCStatusFlags]
 	call CloseSRAM
 	ret

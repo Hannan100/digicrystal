@@ -34,15 +34,16 @@ LoadMenuMonIcon:
 	jp hl
 
 .Jumptable:
-	dw PartyMenu_InitAnimatedMonIcon ; party menu
-	dw NamingScreen_InitAnimatedMonIcon ; naming screen
-	dw MoveList_InitAnimatedMonIcon ; moves (?)
-	dw Trade_LoadMonIconGFX ; trade
-	dw Mobile_InitAnimatedMonIcon ; mobile
-	dw Mobile_InitPartyMenuBGPal71 ; mobile
-	dw .GetPartyMenuMonIcon ; unused
+; entries correspond to MONICON_* constants
+	dw PartyMenu_InitAnimatedMonIcon    ; MONICON_PARTYMENU
+	dw NamingScreen_InitAnimatedMonIcon ; MONICON_NAMINGSCREEN
+	dw MoveList_InitAnimatedMonIcon     ; MONICON_MOVES
+	dw Trade_LoadMonIconGFX             ; MONICON_TRADE
+	dw Mobile_InitAnimatedMonIcon       ; MONICON_MOBILE1
+	dw Mobile_InitPartyMenuBGPal71      ; MONICON_MOBILE2
+	dw Unused_GetPartyMenuMonIcon       ; MONICON_UNUSED
 
-.GetPartyMenuMonIcon:
+Unused_GetPartyMenuMonIcon:
 	call InitPartyMenuIcon
 	call .GetPartyMonItemGFX
 	call SetPartyMonIconAnimSpeed
@@ -50,7 +51,7 @@ LoadMenuMonIcon:
 
 .GetPartyMonItemGFX:
 	push bc
-	ld a, [hObjectStructIndexBuffer]
+	ldh a, [hObjectStructIndex]
 	ld hl, wPartyMon1Item
 	ld bc, PARTYMON_STRUCT_LENGTH
 	call AddNTimes
@@ -65,14 +66,14 @@ LoadMenuMonIcon:
 	pop bc
 	pop hl
 	jr c, .not_mail
-	ld a, $6
+	ld a, $06
 	jr .got_tile
 .not_mail
-	ld a, $5
-	; jr .got_tile
+	ld a, $05
+	; fallthrough
 
 .no_item
-	ld a, $4
+	ld a, $04
 .got_tile
 	ld hl, SPRITEANIMSTRUCT_FRAMESET_ID
 	add hl, bc
@@ -124,7 +125,7 @@ PartyMenu_InitAnimatedMonIcon:
 
 .SpawnItemIcon:
 	push bc
-	ld a, [hObjectStructIndexBuffer]
+	ldh a, [hObjectStructIndex]
 	ld hl, wPartyMon1Item
 	ld bc, PARTYMON_STRUCT_LENGTH
 	call AddNTimes
@@ -153,16 +154,16 @@ PartyMenu_InitAnimatedMonIcon:
 InitPartyMenuIcon:
 	ld a, [wCurIconTile]
 	push af
-	ld a, [hObjectStructIndexBuffer]
+	ldh a, [hObjectStructIndex]
 	ld hl, wPartySpecies
 	ld e, a
-	ld d, $0
+	ld d, 0
 	add hl, de
 	ld a, [hl]
 	call ReadMonMenuIcon
 	ld [wCurIcon], a
 	call GetMemIconGFX
-	ld a, [hObjectStructIndexBuffer]
+	ldh a, [hObjectStructIndex]
 ; y coord
 	add a
 	add a
@@ -174,7 +175,7 @@ InitPartyMenuIcon:
 	ld e, $10
 ; type is partymon icon
 	ld a, SPRITE_ANIM_INDEX_PARTY_MON
-	call InitSpriteAnimStruct
+	call _InitSpriteAnimStruct
 	pop af
 	ld hl, SPRITEANIMSTRUCT_TILE_ID
 	add hl, bc
@@ -183,7 +184,7 @@ InitPartyMenuIcon:
 
 SetPartyMonIconAnimSpeed:
 	push bc
-	ld a, [hObjectStructIndexBuffer]
+	ldh a, [hObjectStructIndex]
 	ld b, a
 	call .getspeed
 	ld a, b
@@ -193,7 +194,7 @@ SetPartyMonIconAnimSpeed:
 	ld [hl], a
 	rlca
 	rlca
-	ld hl, SPRITEANIMSTRUCT_0D
+	ld hl, SPRITEANIMSTRUCT_VAR2
 	add hl, bc
 	ld [hl], a
 	ret
@@ -214,21 +215,21 @@ SetPartyMonIconAnimSpeed:
 	db $80 ; HP_RED
 
 NamingScreen_InitAnimatedMonIcon:
-	ld a, [wd265]
+	ld a, [wTempIconSpecies]
 	call ReadMonMenuIcon
 	ld [wCurIcon], a
 	xor a
 	call GetIconGFX
 	depixel 4, 4, 4, 0
 	ld a, SPRITE_ANIM_INDEX_PARTY_MON
-	call InitSpriteAnimStruct
+	call _InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_ANIM_SEQ_ID
 	add hl, bc
 	ld [hl], SPRITE_ANIM_SEQ_NULL
 	ret
 
 MoveList_InitAnimatedMonIcon:
-	ld a, [wd265]
+	ld a, [wTempIconSpecies]
 	call ReadMonMenuIcon
 	ld [wCurIcon], a
 	xor a
@@ -236,14 +237,14 @@ MoveList_InitAnimatedMonIcon:
 	ld d, 3 * 8 + 2 ; depixel 3, 4, 2, 4
 	ld e, 4 * 8 + 4
 	ld a, SPRITE_ANIM_INDEX_PARTY_MON
-	call InitSpriteAnimStruct
+	call _InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_ANIM_SEQ_ID
 	add hl, bc
 	ld [hl], SPRITE_ANIM_SEQ_NULL
 	ret
 
 Trade_LoadMonIconGFX:
-	ld a, [wd265]
+	ld a, [wTempIconSpecies]
 	call ReadMonMenuIcon
 	ld [wCurIcon], a
 	ld a, $62
@@ -254,7 +255,7 @@ Trade_LoadMonIconGFX:
 GetSpeciesIcon:
 ; Load species icon into VRAM at tile a
 	push de
-	ld a, [wd265]
+	ld a, [wTempIconSpecies]
 	call ReadMonMenuIcon
 	ld [wCurIcon], a
 	pop de
@@ -264,7 +265,7 @@ GetSpeciesIcon:
 
 FlyFunction_GetMonIcon:
 	push de
-	ld a, [wd265]
+	ld a, [wTempIconSpecies]
 	call ReadMonMenuIcon
 	ld [wCurIcon], a
 	pop de
@@ -272,9 +273,9 @@ FlyFunction_GetMonIcon:
 	call GetIcon_a
 	ret
 
-Unreferenced_GetMonIcon2:
+GetMonIconDE: ; unreferenced
 	push de
-	ld a, [wd265]
+	ld a, [wTempIconSpecies]
 	call ReadMonMenuIcon
 	ld [wCurIcon], a
 	pop de
@@ -346,7 +347,7 @@ GetGFXUnlessMobile:
 	ld a, [wLinkMode]
 	cp LINK_MOBILE
 	jp nz, Request2bpp
-	jp Get2bpp_2
+	jp Get2bppViaHDMA
 
 FreezeMonIcons:
 	ld hl, wSpriteAnimationStructs

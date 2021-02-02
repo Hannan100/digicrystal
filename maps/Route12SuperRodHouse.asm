@@ -1,42 +1,41 @@
-	const_def 2 ; object constants
+	object_const_def
 	const ROUTE12SUPERRODHOUSE_FISHING_GURU
 
 Route12SuperRodHouse_MapScripts:
-	db 0 ; scene scripts
+	def_scene_scripts
 
-	db 0 ; callbacks
+	def_callbacks
 
 Route12SuperRodHouseFishingGuruScript:
 	faceplayer
 	opentext
 	checkevent EVENT_GOT_SUPER_ROD
 	iftrue .GotSuperRod
-	writetext UnknownText_0x7f4af
+	writetext OfferSuperRodText
 	yesorno
 	iffalse .Refused
-	writetext UnknownText_0x7f52f
-	buttonsound
+	writetext GiveSuperRodText
+	promptbutton
 	verbosegiveitem SUPER_ROD
 	iffalse .NoRoom
 	setevent EVENT_GOT_SUPER_ROD
 .GotSuperRod:
-	writetext UnknownText_0x7f57c
+	writetext GaveSuperRodText
 	waitbutton
 	closetext
 	end
 
 .Refused:
-	writetext UnknownText_0x7f5ec
+	writetext DontWantSuperRodText
 	waitbutton
 .NoRoom:
 	closetext
 	end
 
-SuperRodHouseBookshelf:
-; unused
-	jumpstd picturebookshelf
+SuperRodHouseBookshelf: ; unreferenced
+	jumpstd PictureBookshelfScript
 
-UnknownText_0x7f4af:
+OfferSuperRodText:
 	text "I'm the FISHING"
 	line "GURU's younger"
 	cont "brother."
@@ -51,7 +50,7 @@ UnknownText_0x7f4af:
 	line "right."
 	done
 
-UnknownText_0x7f52f:
+GiveSuperRodText:
 	text "Yes, yes. Just as"
 	line "I thought!"
 
@@ -60,7 +59,7 @@ UnknownText_0x7f52f:
 	cont "SUPER ROD."
 	done
 
-UnknownText_0x7f57c:
+GaveSuperRodText:
 	text "Try your hand at"
 	line "fishing wherever"
 	cont "there is water."
@@ -72,7 +71,7 @@ UnknownText_0x7f57c:
 	line "different RODS."
 	done
 
-UnknownText_0x7f5ec:
+DontWantSuperRodText:
 	text "Huh? My own eyes"
 	line "deceived me?"
 	done
@@ -80,13 +79,13 @@ UnknownText_0x7f5ec:
 Route12SuperRodHouse_MapEvents:
 	db 0, 0 ; filler
 
-	db 2 ; warp events
+	def_warp_events
 	warp_event  2,  7, ROUTE_12, 1
 	warp_event  3,  7, ROUTE_12, 1
 
-	db 0 ; coord events
+	def_coord_events
 
-	db 0 ; bg events
+	def_bg_events
 
-	db 1 ; object events
+	def_object_events
 	object_event  5,  3, SPRITE_FISHING_GURU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route12SuperRodHouseFishingGuruScript, -1

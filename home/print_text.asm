@@ -6,15 +6,15 @@ PrintLetterDelay::
 ; 	mid:  3 frames
 ; 	slow: 5 frames
 
-; wTextBoxFlags[!0] and A or B override text speed with a one-frame delay.
-; wOptions[4] and wTextBoxFlags[!1] disable the delay.
+; wTextboxFlags[!0] and A or B override text speed with a one-frame delay.
+; wOptions[4] and wTextboxFlags[!1] disable the delay.
 
 	ld a, [wOptions]
 	bit NO_TEXT_SCROLL, a
 	ret nz
 
 ; non-scrolling text?
-	ld a, [wTextBoxFlags]
+	ld a, [wTextboxFlags]
 	bit NO_TEXT_DELAY_F, a
 	ret z
 
@@ -31,7 +31,7 @@ PrintLetterDelay::
 	ld [hl], a
 
 ; force fast scroll?
-	ld a, [wTextBoxFlags]
+	ld a, [wTextboxFlags]
 	bit FAST_TEXT_DELAY_F, a
 	jr z, .fast
 
@@ -55,7 +55,7 @@ PrintLetterDelay::
 	jr nz, .wait
 
 ; Wait one frame if holding A or B.
-	ld a, [hJoyDown]
+	ldh a, [hJoyDown]
 	bit A_BUTTON_F, a
 	jr z, .checkb
 	jr .delay
@@ -74,7 +74,7 @@ PrintLetterDelay::
 
 .end
 	pop af
-	ld [hOAMUpdate], a
+	ldh [hOAMUpdate], a
 	pop bc
 	pop de
 	pop hl
@@ -107,14 +107,31 @@ MobilePrintNum::
 	ret
 
 FarPrintText::
-	ld [hBuffer], a
-	ld a, [hROMBank]
+	ldh [hTempBank], a
+	ldh a, [hROMBank]
 	push af
-	ld a, [hBuffer]
+	ldh a, [hTempBank]
 	rst Bankswitch
 
 	call PrintText
 
 	pop af
+	rst Bankswitch
+	ret
+
+CallPointerAt::
+	ldh a, [hROMBank]
+	push af
+	ld a, [hli]
+	rst Bankswitch
+
+	ld a, [hli]
+	ld h, [hl]
+	ld l, a
+
+	call _hl_
+
+	pop hl
+	ld a, h
 	rst Bankswitch
 	ret

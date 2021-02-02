@@ -44,7 +44,7 @@ RedCredits::
 	farcall FadeOutPalettes
 	xor a
 	ld [wVramState], a
-	ld [hMapAnims], a
+	ldh [hMapAnims], a
 	farcall InitDisplayForRedCredits
 	ld c, 8
 	call DelayFrames
@@ -66,7 +66,7 @@ HallOfFame_FadeOutMusic:
 	farcall FadeOutPalettes
 	xor a
 	ld [wVramState], a
-	ld [hMapAnims], a
+	ldh [hMapAnims], a
 	farcall InitDisplayForHallOfFame
 	ld c, 100
 	jp DelayFrames
@@ -124,7 +124,7 @@ AnimateHallOfFame:
 	call PlaceString
 	call WaitBGMap
 	decoord 6, 5
-	ld c, $6
+	ld c, ANIM_MON_HOF
 	predef HOF_AnimateFrontpic
 	ld c, 60
 	call DelayFrames
@@ -243,17 +243,17 @@ AnimateHOFMonEntrance:
 	ld de, vTiles2 tile $31
 	predef GetMonBackpic
 	ld a, $31
-	ld [hGraphicStartTile], a
+	ldh [hGraphicStartTile], a
 	hlcoord 6, 6
 	lb bc, 6, 6
 	predef PlaceGraphic
 	ld a, $d0
-	ld [hSCY], a
+	ldh [hSCY], a
 	ld a, $90
-	ld [hSCX], a
+	ldh [hSCX], a
 	call WaitBGMap
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	ld b, SCGB_PLAYER_OR_MON_FRONTPIC_PALS
 	call GetSGBLayout
 	call SetPalettes
@@ -268,29 +268,29 @@ AnimateHOFMonEntrance:
 	call _PrepMonFrontpic
 	call WaitBGMap
 	xor a
-	ld [hBGMapMode], a
-	ld [hSCY], a
+	ldh [hBGMapMode], a
+	ldh [hSCY], a
 	call HOF_SlideFrontpic
 	ret
 
 HOF_SlideBackpic:
 .backpicloop
-	ld a, [hSCX]
+	ldh a, [hSCX]
 	cp $70
 	ret z
-	add $4
-	ld [hSCX], a
+	add 4
+	ldh [hSCX], a
 	call DelayFrame
 	jr .backpicloop
 
 HOF_SlideFrontpic:
 .frontpicloop
-	ld a, [hSCX]
+	ldh a, [hSCX]
 	and a
 	ret z
 	dec a
 	dec a
-	ld [hSCX], a
+	ldh [hSCX], a
 	call DelayFrame
 	jr .frontpicloop
 
@@ -390,7 +390,7 @@ _HallOfFamePC:
 	call GetSGBLayout
 	call SetPalettes
 	decoord 6, 5
-	ld c, $6
+	ld c, ANIM_MON_HOF
 	predef HOF_AnimateFrontpic
 	and a
 	ret
@@ -412,7 +412,7 @@ LoadHOFTeam:
 	ld bc, wHallOfFameTempEnd - wHallOfFameTemp + 1
 	call AddNTimes
 	ld a, BANK(sHallOfFame)
-	call GetSRAMBank
+	call OpenSRAM
 	ld a, [hl]
 	and a
 	jr z, .absent
@@ -432,7 +432,7 @@ LoadHOFTeam:
 
 DisplayHOFMon:
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	ld a, [hli]
 	ld [wTempMonSpecies], a
 	ld a, [hli]
@@ -449,20 +449,20 @@ DisplayHOFMon:
 	ld bc, MON_NAME_LENGTH - 1
 	call CopyBytes
 	ld a, "@"
-	ld [wStringBuffer2 + 10], a
+	ld [wStringBuffer2 + MON_NAME_LENGTH - 1], a
 	hlcoord 0, 0
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
 	ld a, " "
 	call ByteFill
 	hlcoord 0, 0
 	lb bc, 3, SCREEN_WIDTH - 2
-	call TextBox
+	call Textbox
 	hlcoord 0, 12
 	lb bc, 4, SCREEN_WIDTH - 2
-	call TextBox
+	call Textbox
 	ld a, [wTempMonSpecies]
 	ld [wCurPartySpecies], a
-	ld [wd265], a
+	ld [wTextDecimalByte], a
 	ld hl, wTempMonDVs
 	predef GetUnownLetter
 	xor a
@@ -477,7 +477,7 @@ DisplayHOFMon:
 	ld [hli], a
 	ld [hl], "<DOT>"
 	hlcoord 3, 13
-	ld de, wd265
+	ld de, wTextDecimalByte
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 3
 	call PrintNum
 	call GetBasePokemonName
@@ -528,17 +528,17 @@ HOF_AnimatePlayerPic:
 	call ByteFill
 	farcall GetPlayerBackpic
 	ld a, $31
-	ld [hGraphicStartTile], a
+	ldh [hGraphicStartTile], a
 	hlcoord 6, 6
 	lb bc, 6, 6
 	predef PlaceGraphic
 	ld a, $d0
-	ld [hSCY], a
+	ldh [hSCY], a
 	ld a, $90
-	ld [hSCX], a
+	ldh [hSCX], a
 	call WaitBGMap
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	ld [wCurPartySpecies], a
 	ld b, SCGB_PLAYER_OR_MON_FRONTPIC_PALS
 	call GetSGBLayout
@@ -552,25 +552,25 @@ HOF_AnimatePlayerPic:
 	call ByteFill
 	farcall HOF_LoadTrainerFrontpic
 	xor a
-	ld [hGraphicStartTile], a
+	ldh [hGraphicStartTile], a
 	hlcoord 12, 5
 	lb bc, 7, 7
 	predef PlaceGraphic
 	ld a, $c0
-	ld [hSCX], a
+	ldh [hSCX], a
 	call WaitBGMap
 	xor a
-	ld [hBGMapMode], a
-	ld [hSCY], a
+	ldh [hBGMapMode], a
+	ldh [hSCY], a
 	call HOF_SlideFrontpic
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	hlcoord 0, 2
 	lb bc, 8, 9
-	call TextBox
+	call Textbox
 	hlcoord 0, 12
 	lb bc, 4, 18
-	call TextBox
+	call Textbox
 	hlcoord 2, 4
 	ld de, wPlayerName
 	call PlaceString

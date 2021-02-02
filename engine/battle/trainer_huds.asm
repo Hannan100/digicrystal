@@ -1,6 +1,6 @@
 BattleStart_TrainerHuds:
 	ld a, $e4
-	ld [rOBP0], a
+	ldh [rOBP0], a
 	call LoadBallIconGFX
 	call ShowPlayerMonsRemaining
 	ld a, [wBattleMode]
@@ -10,7 +10,7 @@ BattleStart_TrainerHuds:
 
 EnemySwitch_TrainerHud:
 	ld a, $e4
-	ld [rOBP0], a
+	ldh [rOBP0], a
 	call LoadBallIconGFX
 	jp ShowOTTrainerMonsRemaining
 
@@ -47,7 +47,7 @@ ShowOTTrainerMonsRemaining:
 StageBallTilesData:
 	ld a, [de]
 	push af
-	ld de, wBuffer1
+	ld de, wBattleHUDTiles
 	ld c, PARTY_LENGTH
 	ld a, $34 ; empty slot
 .loop1
@@ -56,7 +56,8 @@ StageBallTilesData:
 	dec c
 	jr nz, .loop1
 	pop af
-	ld de, wBuffer1
+
+	ld de, wBattleHUDTiles
 .loop2
 	push af
 	call .GetHUDTile
@@ -101,7 +102,7 @@ StageBallTilesData:
 DrawPlayerHUDBorder:
 	ld hl, .tiles
 	ld de, wTrainerHUDTiles
-	ld bc, 4
+	ld bc, .tiles_end - .tiles
 	call CopyBytes
 	hlcoord 18, 10
 	ld de, -1 ; start on right
@@ -112,11 +113,12 @@ DrawPlayerHUDBorder:
 	db $77 ; bottom right
 	db $6f ; bottom left
 	db $76 ; bottom side
+.tiles_end
 
 DrawPlayerPartyIconHUDBorder:
 	ld hl, .tiles
 	ld de, wTrainerHUDTiles
-	ld bc, 4
+	ld bc, .tiles_end - .tiles
 	call CopyBytes
 	hlcoord 18, 10
 	ld de, -1 ; start on right
@@ -127,11 +129,12 @@ DrawPlayerPartyIconHUDBorder:
 	db $5c ; bottom right
 	db $6f ; bottom left
 	db $76 ; bottom side
+.tiles_end
 
 DrawEnemyHUDBorder:
 	ld hl, .tiles
 	ld de, wTrainerHUDTiles
-	ld bc, 4
+	ld bc, .tiles_end - .tiles
 	call CopyBytes
 	hlcoord 1, 2
 	ld de, 1 ; start on left
@@ -152,23 +155,24 @@ DrawEnemyHUDBorder:
 	db $74 ; bottom left
 	db $78 ; bottom right
 	db $76 ; bottom side
+.tiles_end
 
 PlaceHUDBorderTiles:
-	ld a, [wTrainerHUDTiles]
+	ld a, [wTrainerHUDTiles + 0]
 	ld [hl], a
 	ld bc, SCREEN_WIDTH
 	add hl, bc
-	ld a, [wStartFlypoint]
+	ld a, [wTrainerHUDTiles + 1]
 	ld [hl], a
-	ld b, $8
+	ld b, 8
 .loop
 	add hl, de
-	ld a, [wMovementBuffer]
+	ld a, [wTrainerHUDTiles + 3]
 	ld [hl], a
 	dec b
 	jr nz, .loop
 	add hl, de
-	ld a, [wEndFlypoint]
+	ld a, [wTrainerHUDTiles + 2]
 	ld [hl], a
 	ret
 
@@ -181,7 +185,7 @@ LinkBattle_TrainerHuds:
 	ld a, 10 * 8
 	ld [hli], a
 	ld [hl], 8 * 8
-	ld a, $8
+	ld a, 8
 	ld [wPlaceBallsDirection], a
 	ld hl, wVirtualOAMSprite00
 	call LoadTrainerHudOAM
@@ -197,7 +201,7 @@ LinkBattle_TrainerHuds:
 	jp LoadTrainerHudOAM
 
 LoadTrainerHudOAM:
-	ld de, wBuffer1
+	ld de, wBattleHUDTiles
 	ld c, PARTY_LENGTH
 .loop
 	ld a, [wPlaceBallsY]
@@ -222,7 +226,7 @@ LoadBallIconGFX:
 	ld de, .gfx
 	ld hl, vTiles0 tile $31
 	lb bc, BANK(LoadBallIconGFX), 4
-	call Get2bpp_2
+	call Get2bppViaHDMA
 	ret
 
 .gfx
@@ -234,7 +238,7 @@ _ShowLinkBattleParticipants:
 	hlcoord 2, 3
 	ld b, 9
 	ld c, 14
-	call TextBox
+	call Textbox
 	hlcoord 4, 5
 	ld de, wPlayerName
 	call PlaceString
@@ -250,5 +254,5 @@ _ShowLinkBattleParticipants:
 	call GetSGBLayout
 	call SetPalettes
 	ld a, $e4
-	ld [rOBP0], a
+	ldh [rOBP0], a
 	ret

@@ -1,10 +1,10 @@
 SaveMenu:
 	call LoadStandardMenuHeader
 	farcall DisplaySaveInfoOnSave
-	call SpeechTextBox
+	call SpeechTextbox
 	call UpdateSprites
 	farcall SaveMenu_CopyTilemapAtOnce
-	ld hl, Text_WouldYouLikeToSaveTheGame
+	ld hl, WouldYouLikeToSaveTheGameText
 	call SaveTheGame_yesorno
 	jr nz, .refused
 	call AskOverwriteSaveFile
@@ -18,7 +18,7 @@ SaveMenu:
 
 .refused
 	call ExitMenu
-	call ret_d90
+	call GSReloadPalettes
 	farcall SaveMenu_CopyTilemapAtOnce
 	scf
 	ret
@@ -38,8 +38,8 @@ SaveAfterLinkTrade:
 
 ChangeBoxSaveGame:
 	push de
-	ld hl, Text_SaveOnBoxSwitch
-	call MenuTextBox
+	ld hl, ChangeBoxSaveText
+	call MenuTextbox
 	call YesNoBox
 	call ExitMenu
 	jr c, .refused
@@ -115,8 +115,8 @@ MoveMonWOMail_InsertMon_SaveGame:
 	ret
 
 StartMoveMonWOMail_SaveGame:
-	ld hl, Text_SaveOnMoveMonWOMail
-	call MenuTextBox
+	ld hl, MoveMonWOMailSaveText
+	call MenuTextbox
 	call YesNoBox
 	call ExitMenu
 	jr c, .refused
@@ -133,18 +133,18 @@ StartMoveMonWOMail_SaveGame:
 	ret
 
 PauseGameLogic:
-	ld a, $1
+	ld a, TRUE
 	ld [wGameLogicPaused], a
 	ret
 
 ResumeGameLogic:
-	xor a
+	xor a ; FALSE
 	ld [wGameLogicPaused], a
 	ret
 
 AddHallOfFameEntry:
 	ld a, BANK(sHallOfFame)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sHallOfFame + HOF_LENGTH * (NUM_HOF_TEAMS - 1) - 1
 	ld de, sHallOfFame + HOF_LENGTH * NUM_HOF_TEAMS - 1
 	ld bc, HOF_LENGTH * (NUM_HOF_TEAMS - 1)
@@ -164,7 +164,7 @@ AddHallOfFameEntry:
 	ret
 
 SaveGameData:
-	call SaveGameData_
+	call _SaveGameData
 	ret
 
 AskOverwriteSaveFile:
@@ -173,13 +173,13 @@ AskOverwriteSaveFile:
 	jr z, .erase
 	call CompareLoadedAndSavedPlayerID
 	jr z, .yoursavefile
-	ld hl, Text_AnotherSaveFile
+	ld hl, AnotherSaveFileText
 	call SaveTheGame_yesorno
 	jr nz, .refused
 	jr .erase
 
 .yoursavefile
-	ld hl, Text_AlreadyASaveFile
+	ld hl, AlreadyASaveFileText
 	call SaveTheGame_yesorno
 	jr nz, .refused
 	jr .ok
@@ -196,23 +196,23 @@ AskOverwriteSaveFile:
 	ret
 
 SaveTheGame_yesorno:
-	ld b, BANK(Text_WouldYouLikeToSaveTheGame)
+	ld b, BANK(WouldYouLikeToSaveTheGameText)
 	call MapTextbox
-	call LoadMenuTextBox
+	call LoadMenuTextbox
 	lb bc, 0, 7
 	call PlaceYesNoBox
 	ld a, [wMenuCursorY]
 	dec a
 	call CloseWindow
 	push af
-	call ret_d90
+	call GSReloadPalettes
 	pop af
 	and a
 	ret
 
 CompareLoadedAndSavedPlayerID:
 	ld a, BANK(sPlayerData)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sPlayerData + (wPlayerID - wPlayerData)
 	ld a, [hli]
 	ld c, [hl]
@@ -228,18 +228,18 @@ CompareLoadedAndSavedPlayerID:
 _SavingDontTurnOffThePower:
 	call SavingDontTurnOffThePower
 SavedTheGame:
-	call SaveGameData_
+	call _SaveGameData
 	; wait 32 frames
-	ld c, $20
+	ld c, 32
 	call DelayFrames
 	; copy the original text speed setting to the stack
 	ld a, [wOptions]
 	push af
-	; set text speed super slow
-	ld a, 3
+	; set text speed to medium
+	ld a, TEXT_DELAY_MED
 	ld [wOptions], a
 	; <PLAYER> saved the game!
-	ld hl, Text_PlayerSavedTheGame
+	ld hl, SavedTheGameText
 	call PrintText
 	; restore the original text speed setting
 	pop af
@@ -248,11 +248,11 @@ SavedTheGame:
 	call WaitPlaySFX
 	call WaitSFX
 	; wait 30 frames
-	ld c, $1e
+	ld c, 30
 	call DelayFrames
 	ret
 
-SaveGameData_:
+_SaveGameData:
 	ld a, TRUE
 	ld [wSaveFileExists], a
 	farcall StageRTCTimeForSave
@@ -273,7 +273,7 @@ SaveGameData_:
 	farcall BackupMobileEventIndex
 	farcall SaveRTC
 	ld a, BANK(sBattleTowerChallengeState)
-	call GetSRAMBank
+	call OpenSRAM
 	ld a, [sBattleTowerChallengeState]
 	cp BATTLETOWER_RECEIVED_REWARD
 	jr nz, .ok
@@ -288,7 +288,7 @@ UpdateStackTop:
 ; It could have been used to debug stack overflow during saving.
 	call FindStackTop
 	ld a, BANK(sStackTop)
-	call GetSRAMBank
+	call OpenSRAM
 	ld a, [sStackTop + 0]
 	ld e, a
 	ld a, [sStackTop + 1]
@@ -314,7 +314,7 @@ UpdateStackTop:
 FindStackTop:
 ; Find the furthest point that sp has traversed to.
 ; This is distinct from the current value of sp.
-	ld hl, wStack - $ff
+	ld hl, wStackBottom
 .loop
 	ld a, [hl]
 	or a
@@ -325,24 +325,24 @@ FindStackTop:
 SavingDontTurnOffThePower:
 	; Prevent joypad interrupts
 	xor a
-	ld [hJoypadReleased], a
-	ld [hJoypadPressed], a
-	ld [hJoypadSum], a
-	ld [hJoypadDown], a
+	ldh [hJoypadReleased], a
+	ldh [hJoypadPressed], a
+	ldh [hJoypadSum], a
+	ldh [hJoypadDown], a
 	; Save the text speed setting to the stack
 	ld a, [wOptions]
 	push af
-	; Set the text speed to super slow
-	ld a, $3
+	; Set the text speed to medium
+	ld a, TEXT_DELAY_MED
 	ld [wOptions], a
 	; SAVING... DON'T TURN OFF THE POWER.
-	ld hl, Text_SavingDontTurnOffThePower
+	ld hl, SavingDontTurnOffThePowerText
 	call PrintText
 	; Restore the text speed setting
 	pop af
 	ld [wOptions], a
 	; Wait for 16 frames
-	ld c, $10
+	ld c, 16
 	call DelayFrames
 	ret
 
@@ -354,7 +354,7 @@ ErasePreviousSave:
 	call SaveData
 	call EraseBattleTowerStatus
 	ld a, BANK(sStackTop)
-	call GetSRAMBank
+	call OpenSRAM
 	xor a
 	ld [sStackTop + 0], a
 	ld [sStackTop + 1], a
@@ -365,7 +365,7 @@ ErasePreviousSave:
 
 EraseLinkBattleStats:
 	ld a, BANK(sLinkBattleStats)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sLinkBattleStats
 	ld bc, sLinkBattleStatsEnd - sLinkBattleStats
 	xor a
@@ -374,7 +374,7 @@ EraseLinkBattleStats:
 
 EraseMysteryGift:
 	ld a, BANK(sBackupMysteryGiftItem)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sBackupMysteryGiftItem
 	ld bc, sBackupMysteryGiftItemEnd - sBackupMysteryGiftItem
 	xor a
@@ -383,37 +383,31 @@ EraseMysteryGift:
 
 EraseHallOfFame:
 	ld a, BANK(sHallOfFame)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sHallOfFame
 	ld bc, sHallOfFameEnd - sHallOfFame
 	xor a
 	call ByteFill
 	jp CloseSRAM
 
-Unreferenced_Function14d18:
-; copy .Data to SRA4:a007
-	ld a, 4 ; MBC30 bank used by JP Crystal; inaccessible by MBC3
-	call GetSRAMBank
+Function14d18: ; unreferenced
+	ld a, BANK(s4_a007) ; MBC30 bank used by JP Crystal; inaccessible by MBC3
+	call OpenSRAM
 	ld hl, .Data
-	ld de, $a007 ; address of MBC30 bank
-	ld bc, .DataEnd - .Data
+	ld de, s4_a007
+	ld bc, 4 * 12
 	call CopyBytes
 	jp CloseSRAM
 
 .Data:
-	db $0d, $02, $00, $05, $00, $00
-	db $22, $02, $01, $05, $00, $00
-	db $03, $04, $05, $08, $03, $05
-	db $0e, $06, $03, $02, $00, $00
-	db $39, $07, $07, $04, $00, $05
-	db $04, $07, $01, $05, $00, $00
-	db $0f, $05, $14, $07, $05, $05
-	db $11, $0c, $0c, $06, $06, $04
-.DataEnd
+	db $0d, $02, $00, $05, $00, $00, $22, $02, $01, $05, $00, $00
+	db $03, $04, $05, $08, $03, $05, $0e, $06, $03, $02, $00, $00
+	db $39, $07, $07, $04, $00, $05, $04, $07, $01, $05, $00, $00
+	db $0f, $05, $14, $07, $05, $05, $11, $0c, $0c, $06, $06, $04
 
 EraseBattleTowerStatus:
 	ld a, BANK(sBattleTowerChallengeState)
-	call GetSRAMBank
+	call OpenSRAM
 	xor a
 	ld [sBattleTowerChallengeState], a
 	jp CloseSRAM
@@ -422,10 +416,10 @@ SaveData:
 	call _SaveData
 	ret
 
-Unreferenced_Function14d6c:
-	ld a, 4 ; MBC30 bank used by JP Crystal; inaccessible by MBC3
-	call GetSRAMBank
-	ld a, [$a60b] ; address of MBC30 bank
+Function14d6c: ; unreferenced
+	ld a, BANK(s4_a60b) ; MBC30 bank used by JP Crystal; inaccessible by MBC3
+	call OpenSRAM
+	ld a, [s4_a60b] ; address of MBC30 bank
 	ld b, $0
 	and a
 	jr z, .ok
@@ -433,24 +427,24 @@ Unreferenced_Function14d6c:
 
 .ok
 	ld a, b
-	ld [$a60b], a ; address of MBC30 bank
+	ld [s4_a60b], a ; address of MBC30 bank
 	call CloseSRAM
 	ret
 
-Unreferenced_Function14d83:
-	ld a, 4 ; MBC30 bank used by JP Crystal; inaccessible by MBC3
-	call GetSRAMBank
+Function14d83: ; unreferenced
+	ld a, BANK(s4_a60c) ; aka BANK(s4_a60d) ; MBC30 bank used by JP Crystal; inaccessible by MBC3
+	call OpenSRAM
 	xor a
-	ld [$a60c], a ; address of MBC30 bank
-	ld [$a60d], a ; address of MBC30 bank
+	ld [s4_a60c], a ; address of MBC30 bank
+	ld [s4_a60d], a ; address of MBC30 bank
 	call CloseSRAM
 	ret
 
-Unreferenced_Function14d93:
-	ld a, 7 ; MBC30 bank used by JP Crystal; inaccessible by MBC3
-	call GetSRAMBank
+Function14d93: ; unreferenced
+	ld a, BANK(s7_a000) ; MBC30 bank used by JP Crystal; inaccessible by MBC3
+	call OpenSRAM
 	xor a
-	ld [$a000], a ; address of MBC30 bank
+	ld [s7_a000], a ; address of MBC30 bank
 	call CloseSRAM
 	ret
 
@@ -462,8 +456,8 @@ HallOfFame_InitSaveIfNeeded:
 	ret
 
 ValidateSave:
-	ld a, BANK(sCheckValue1) ; BANK(sCheckValue2)
-	call GetSRAMBank
+	ld a, BANK(sCheckValue1) ; aka BANK(sCheckValue2)
+	call OpenSRAM
 	ld a, SAVE_CHECK_VALUE_1
 	ld [sCheckValue1], a
 	ld a, SAVE_CHECK_VALUE_2
@@ -472,7 +466,7 @@ ValidateSave:
 
 SaveOptions:
 	ld a, BANK(sOptions)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, wOptions
 	ld de, sOptions
 	ld bc, wOptionsEnd - wOptions
@@ -484,20 +478,20 @@ SaveOptions:
 
 SavePlayerData:
 	ld a, BANK(sPlayerData)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, wPlayerData
 	ld de, sPlayerData
 	ld bc, wPlayerDataEnd - wPlayerData
 	call CopyBytes
-	ld hl, wCurrMapData
-	ld de, sCurrMapData
-	ld bc, wCurrMapDataEnd - wCurrMapData
+	ld hl, wCurMapData
+	ld de, sCurMapData
+	ld bc, wCurMapDataEnd - wCurMapData
 	call CopyBytes
 	jp CloseSRAM
 
 SavePokemonData:
 	ld a, BANK(sPokemonData)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, wPokemonData
 	ld de, sPokemonData
 	ld bc, wPokemonDataEnd - wPokemonData
@@ -514,7 +508,7 @@ SaveChecksum:
 	ld hl, sGameData
 	ld bc, sGameDataEnd - sGameData
 	ld a, BANK(sGameData)
-	call GetSRAMBank
+	call OpenSRAM
 	call Checksum
 	ld a, e
 	ld [sChecksum + 0], a
@@ -524,8 +518,8 @@ SaveChecksum:
 	ret
 
 ValidateBackupSave:
-	ld a, BANK(sBackupCheckValue1) ; BANK(sBackupCheckValue2)
-	call GetSRAMBank
+	ld a, BANK(sBackupCheckValue1) ; aka BANK(sBackupCheckValue2)
+	call OpenSRAM
 	ld a, SAVE_CHECK_VALUE_1
 	ld [sBackupCheckValue1], a
 	ld a, SAVE_CHECK_VALUE_2
@@ -535,7 +529,7 @@ ValidateBackupSave:
 
 SaveBackupOptions:
 	ld a, BANK(sBackupOptions)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, wOptions
 	ld de, sBackupOptions
 	ld bc, wOptionsEnd - wOptions
@@ -545,21 +539,21 @@ SaveBackupOptions:
 
 SaveBackupPlayerData:
 	ld a, BANK(sBackupPlayerData)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, wPlayerData
 	ld de, sBackupPlayerData
 	ld bc, wPlayerDataEnd - wPlayerData
 	call CopyBytes
-	ld hl, wCurrMapData
-	ld de, sBackupCurrMapData
-	ld bc, wCurrMapDataEnd - wCurrMapData
+	ld hl, wCurMapData
+	ld de, sBackupCurMapData
+	ld bc, wCurMapDataEnd - wCurMapData
 	call CopyBytes
 	call CloseSRAM
 	ret
 
 SaveBackupPokemonData:
 	ld a, BANK(sBackupPokemonData)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, wPokemonData
 	ld de, sBackupPokemonData
 	ld bc, wPokemonDataEnd - wPokemonData
@@ -571,7 +565,7 @@ SaveBackupChecksum:
 	ld hl, sBackupGameData
 	ld bc, sBackupGameDataEnd - sBackupGameData
 	ld a, BANK(sBackupGameData)
-	call GetSRAMBank
+	call OpenSRAM
 	call Checksum
 	ld a, e
 	ld [sBackupChecksum + 0], a
@@ -619,7 +613,7 @@ TryLoadSaveFile:
 	push af
 	set NO_TEXT_SCROLL, a
 	ld [wOptions], a
-	ld hl, Text_SaveFileCorrupted
+	ld hl, SaveFileCorruptedText
 	call PrintText
 	pop af
 	ld [wOptions], a
@@ -635,7 +629,7 @@ TryLoadSaveData:
 	jr z, .backup
 
 	ld a, BANK(sPlayerData)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sPlayerData + wStartDay - wPlayerData
 	ld de, wStartDay
 	ld bc, 8
@@ -654,7 +648,7 @@ TryLoadSaveData:
 	jr z, .corrupt
 
 	ld a, BANK(sBackupPlayerData)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sBackupPlayerData + wStartDay - wPlayerData
 	ld de, wStartDay
 	ld bc, 8
@@ -671,14 +665,14 @@ TryLoadSaveData:
 	ld de, wOptions
 	ld bc, wOptionsEnd - wOptions
 	call CopyBytes
-	call PanicResetClock
+	call ClearClock
 	ret
 
 INCLUDE "data/default_options.asm"
 
 CheckPrimarySaveFile:
-	ld a, BANK(sCheckValue1) ; BANK(sCheckValue2)
-	call GetSRAMBank
+	ld a, BANK(sCheckValue1) ; aka BANK(sCheckValue2)
+	call OpenSRAM
 	ld a, [sCheckValue1]
 	cp SAVE_CHECK_VALUE_1
 	jr nz, .nope
@@ -698,8 +692,8 @@ CheckPrimarySaveFile:
 	ret
 
 CheckBackupSaveFile:
-	ld a, BANK(sBackupCheckValue1) ; BANK(sBackupCheckValue2)
-	call GetSRAMBank
+	ld a, BANK(sBackupCheckValue1) ; aka BANK(sBackupCheckValue2)
+	call OpenSRAM
 	ld a, [sBackupCheckValue1]
 	cp SAVE_CHECK_VALUE_1
 	jr nz, .nope
@@ -719,18 +713,18 @@ CheckBackupSaveFile:
 
 LoadPlayerData:
 	ld a, BANK(sPlayerData)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sPlayerData
 	ld de, wPlayerData
 	ld bc, wPlayerDataEnd - wPlayerData
 	call CopyBytes
-	ld hl, sCurrMapData
-	ld de, wCurrMapData
-	ld bc, wCurrMapDataEnd - wCurrMapData
+	ld hl, sCurMapData
+	ld de, wCurMapData
+	ld bc, wCurMapDataEnd - wCurMapData
 	call CopyBytes
 	call CloseSRAM
 	ld a, BANK(sBattleTowerChallengeState)
-	call GetSRAMBank
+	call OpenSRAM
 	ld a, [sBattleTowerChallengeState]
 	cp BATTLETOWER_RECEIVED_REWARD
 	jr nz, .not_4
@@ -742,7 +736,7 @@ LoadPlayerData:
 
 LoadPokemonData:
 	ld a, BANK(sPokemonData)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sPokemonData
 	ld de, wPokemonData
 	ld bc, wPokemonDataEnd - wPokemonData
@@ -759,7 +753,7 @@ VerifyChecksum:
 	ld hl, sGameData
 	ld bc, sGameDataEnd - sGameData
 	ld a, BANK(sGameData)
-	call GetSRAMBank
+	call OpenSRAM
 	call Checksum
 	ld a, [sChecksum + 0]
 	cp e
@@ -774,21 +768,21 @@ VerifyChecksum:
 
 LoadBackupPlayerData:
 	ld a, BANK(sBackupPlayerData)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sBackupPlayerData
 	ld de, wPlayerData
 	ld bc, wPlayerDataEnd - wPlayerData
 	call CopyBytes
-	ld hl, sBackupCurrMapData
-	ld de, wCurrMapData
-	ld bc, wCurrMapDataEnd - wCurrMapData
+	ld hl, sBackupCurMapData
+	ld de, wCurMapData
+	ld bc, wCurMapDataEnd - wCurMapData
 	call CopyBytes
 	call CloseSRAM
 	ret
 
 LoadBackupPokemonData:
 	ld a, BANK(sBackupPokemonData)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sBackupPokemonData
 	ld de, wPokemonData
 	ld bc, wPokemonDataEnd - wPokemonData
@@ -800,7 +794,7 @@ VerifyBackupChecksum:
 	ld hl, sBackupGameData
 	ld bc, sBackupGameDataEnd - sBackupGameData
 	ld a, BANK(sBackupGameData)
-	call GetSRAMBank
+	call OpenSRAM
 	call Checksum
 	ld a, [sBackupChecksum + 0]
 	cp e
@@ -820,28 +814,28 @@ _SaveData:
 	; It is not part of a regular save.
 
 	ld a, BANK(sCrystalData)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, wCrystalData
 	ld de, sCrystalData
 	ld bc, wCrystalDataEnd - wCrystalData
 	call CopyBytes
 
 	; This block originally had some mobile functionality, but since we're still in
-	; BANK(sCrystalData), it instead overwrites the sixteen wEventFlags starting at 1:a603 with
+	; BANK(sCrystalData), it instead overwrites the sixteen wEventFlags starting at 1:s4_a60e with
 	; garbage from wd479. This isn't an issue, since ErasePreviousSave is followed by a regular
 	; save that unwrites the garbage.
 
 	ld hl, wd479
 	ld a, [hli]
-	ld [$a60e + 0], a
+	ld [s4_a60e + 0], a
 	ld a, [hli]
-	ld [$a60e + 1], a
+	ld [s4_a60e + 1], a
 
 	jp CloseSRAM
 
 _LoadData:
 	ld a, BANK(sCrystalData)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sCrystalData
 	ld de, wCrystalData
 	ld bc, wCrystalDataEnd - wCrystalData
@@ -851,9 +845,9 @@ _LoadData:
 	; (harmlessly) writes the aforementioned wEventFlags to the unused wd479.
 
 	ld hl, wd479
-	ld a, [$a60e + 0]
+	ld a, [s4_a60e + 0]
 	ld [hli], a
-	ld a, [$a60e + 1]
+	ld a, [s4_a60e + 1]
 	ld [hli], a
 
 	jp CloseSRAM
@@ -893,7 +887,7 @@ SaveBoxAddress:
 	push af
 	push de
 	ld a, BANK(sBox)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sBox
 	ld de, wBoxPartialData
 	ld bc, (wBoxPartialDataEnd - wBoxPartialData)
@@ -904,7 +898,7 @@ SaveBoxAddress:
 ; Save it to the target box.
 	push af
 	push de
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, wBoxPartialData
 	ld bc, (wBoxPartialDataEnd - wBoxPartialData)
 	call CopyBytes
@@ -912,7 +906,7 @@ SaveBoxAddress:
 
 ; Load the second part of the active box.
 	ld a, BANK(sBox)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sBox + (wBoxPartialDataEnd - wBoxPartialData)
 	ld de, wBoxPartialData
 	ld bc, (wBoxPartialDataEnd - wBoxPartialData)
@@ -928,7 +922,7 @@ SaveBoxAddress:
 ; Save it to the next part of the target box.
 	push af
 	push de
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, wBoxPartialData
 	ld bc, (wBoxPartialDataEnd - wBoxPartialData)
 	call CopyBytes
@@ -936,7 +930,7 @@ SaveBoxAddress:
 
 ; Load the third and final part of the active box.
 	ld a, BANK(sBox)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sBox + (wBoxPartialDataEnd - wBoxPartialData) * 2
 	ld de, wBoxPartialData
 	ld bc, sBoxEnd - (sBox + (wBoxPartialDataEnd - wBoxPartialData) * 2) ; $8e
@@ -950,7 +944,7 @@ SaveBoxAddress:
 	ld e, l
 	ld d, h
 ; Save it to the final part of the target box.
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, wBoxPartialData
 	ld bc, sBoxEnd - (sBox + (wBoxPartialDataEnd - wBoxPartialData) * 2) ; $8e
 	call CopyBytes
@@ -969,13 +963,13 @@ LoadBoxAddress:
 ; Load part 1
 	push af
 	push hl
-	call GetSRAMBank
+	call OpenSRAM
 	ld de, wBoxPartialData
 	ld bc, (wBoxPartialDataEnd - wBoxPartialData)
 	call CopyBytes
 	call CloseSRAM
 	ld a, BANK(sBox)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, wBoxPartialData
 	ld de, sBox
 	ld bc, (wBoxPartialDataEnd - wBoxPartialData)
@@ -989,13 +983,13 @@ LoadBoxAddress:
 ; Load part 2
 	push af
 	push hl
-	call GetSRAMBank
+	call OpenSRAM
 	ld de, wBoxPartialData
 	ld bc, (wBoxPartialDataEnd - wBoxPartialData)
 	call CopyBytes
 	call CloseSRAM
 	ld a, BANK(sBox)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, wBoxPartialData
 	ld de, sBox + (wBoxPartialDataEnd - wBoxPartialData)
 	ld bc, (wBoxPartialDataEnd - wBoxPartialData)
@@ -1006,13 +1000,13 @@ LoadBoxAddress:
 ; Load part 3
 	ld de, (wBoxPartialDataEnd - wBoxPartialData)
 	add hl, de
-	call GetSRAMBank
+	call OpenSRAM
 	ld de, wBoxPartialData
 	ld bc, sBoxEnd - (sBox + (wBoxPartialDataEnd - wBoxPartialData) * 2) ; $8e
 	call CopyBytes
 	call CloseSRAM
 	ld a, BANK(sBox)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, wBoxPartialData
 	ld de, sBox + (wBoxPartialDataEnd - wBoxPartialData) * 2
 	ld bc, sBoxEnd - (sBox + (wBoxPartialDataEnd - wBoxPartialData) * 2) ; $8e
@@ -1028,7 +1022,7 @@ EraseBoxes:
 .next
 	push bc
 	ld a, [hli]
-	call GetSRAMBank
+	call OpenSRAM
 	ld a, [hli]
 	ld e, a
 	ld a, [hli]
@@ -1095,42 +1089,34 @@ Checksum:
 	jr nz, .loop
 	ret
 
-Text_WouldYouLikeToSaveTheGame:
-	; Would you like to save the game?
-	text_jump UnknownText_0x1c454b
-	db "@"
+WouldYouLikeToSaveTheGameText:
+	text_far _WouldYouLikeToSaveTheGameText
+	text_end
 
-Text_SavingDontTurnOffThePower:
-	; SAVING… DON'T TURN OFF THE POWER.
-	text_jump UnknownText_0x1c456d
-	db "@"
+SavingDontTurnOffThePowerText:
+	text_far _SavingDontTurnOffThePowerText
+	text_end
 
-Text_PlayerSavedTheGame:
-	; saved the game.
-	text_jump UnknownText_0x1c4590
-	db "@"
+SavedTheGameText:
+	text_far _SavedTheGameText
+	text_end
 
-Text_AlreadyASaveFile:
-	; There is already a save file. Is it OK to overwrite?
-	text_jump UnknownText_0x1c45a3
-	db "@"
+AlreadyASaveFileText:
+	text_far _AlreadyASaveFileText
+	text_end
 
-Text_AnotherSaveFile:
-	; There is another save file. Is it OK to overwrite?
-	text_jump UnknownText_0x1c45d9
-	db "@"
+AnotherSaveFileText:
+	text_far _AnotherSaveFileText
+	text_end
 
-Text_SaveFileCorrupted:
-	; The save file is corrupted!
-	text_jump UnknownText_0x1c460d
-	db "@"
+SaveFileCorruptedText:
+	text_far _SaveFileCorruptedText
+	text_end
 
-Text_SaveOnBoxSwitch:
-	; When you change a #MON BOX, data will be saved. OK?
-	text_jump UnknownText_0x1c462a
-	db "@"
+ChangeBoxSaveText:
+	text_far _ChangeBoxSaveText
+	text_end
 
-Text_SaveOnMoveMonWOMail:
-	; Each time you move a #MON, data will be saved. OK?
-	text_jump UnknownText_0x1c465f
-	db "@"
+MoveMonWOMailSaveText:
+	text_far _MoveMonWOMailSaveText
+	text_end

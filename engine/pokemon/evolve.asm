@@ -99,7 +99,7 @@ EvolveAfterBattle_MasterLoop:
 	ld de, wTempMonAttack
 	ld hl, wTempMonDefense
 	ld c, 2
-	call StringCmp
+	call CompareBytes
 	ld a, ATK_EQ_DEF
 	jr z, .got_tyrogue_evo
 	ld a, ATK_LT_DEF
@@ -204,20 +204,20 @@ EvolveAfterBattle_MasterLoop:
 	ld hl, wPartyMonNicknames
 	call GetNick
 	call CopyName1
-	ld hl, Text_WhatEvolving
+	ld hl, EvolvingText
 	call PrintText
 
 	ld c, 50
 	call DelayFrames
 
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	hlcoord 0, 0
 	lb bc, 12, 20
 	call ClearBox
 
 	ld a, $1
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	call ClearSprites
 
 	farcall EvolutionAnimation
@@ -227,7 +227,7 @@ EvolveAfterBattle_MasterLoop:
 	pop af
 	jp c, CancelEvolution
 
-	ld hl, Text_CongratulationsYourPokemon
+	ld hl, CongratulationsYourPokemonText
 	call PrintText
 
 	pop hl
@@ -236,12 +236,12 @@ EvolveAfterBattle_MasterLoop:
 	ld [wCurSpecies], a
 	ld [wTempMonSpecies], a
 	ld [wEvolutionNewSpecies], a
-	ld [wd265], a
+	ld [wNamedObjectIndex], a
 	call GetPokemonName
 
 	push hl
-	ld hl, Text_EvolvedIntoPKMN
-	call PrintTextBoxText
+	ld hl, EvolvedIntoText
+	call PrintTextboxText
 	farcall StubbedTrainerRankings_MonsEvolved
 
 	ld de, MUSIC_NONE
@@ -253,7 +253,7 @@ EvolveAfterBattle_MasterLoop:
 	ld c, 40
 	call DelayFrames
 
-	call ClearTileMap
+	call ClearTilemap
 	call UpdateSpeciesNameIfNotNicknamed
 	call GetBaseData
 
@@ -293,15 +293,15 @@ EvolveAfterBattle_MasterLoop:
 	call CopyBytes
 
 	ld a, [wCurSpecies]
-	ld [wd265], a
+	ld [wTempSpecies], a
 	xor a
 	ld [wMonType], a
 	call LearnLevelMoves
-	ld a, [wd265]
+	ld a, [wTempSpecies]
 	dec a
 	call SetSeenAndCaughtMon
 
-	ld a, [wd265]
+	ld a, [wTempSpecies]
 	cp UNOWN
 	jr nz, .skip_unown
 
@@ -327,7 +327,7 @@ EvolveAfterBattle_MasterLoop:
 	inc hl
 	jp .loop
 
-; unused
+.UnusedReturnToMap: ; unreferenced
 	pop hl
 .ReturnToMap:
 	pop de
@@ -348,7 +348,7 @@ UpdateSpeciesNameIfNotNicknamed:
 	ld a, [wCurSpecies]
 	push af
 	ld a, [wBaseDexNo]
-	ld [wd265], a
+	ld [wNamedObjectIndex], a
 	call GetPokemonName
 	pop af
 	ld [wCurSpecies], a
@@ -369,7 +369,7 @@ UpdateSpeciesNameIfNotNicknamed:
 	call AddNTimes
 	push hl
 	ld a, [wCurSpecies]
-	ld [wd265], a
+	ld [wNamedObjectIndex], a
 	call GetPokemonName
 	ld hl, wStringBuffer1
 	pop de
@@ -377,9 +377,9 @@ UpdateSpeciesNameIfNotNicknamed:
 	jp CopyBytes
 
 CancelEvolution:
-	ld hl, Text_StoppedEvolving
+	ld hl, StoppedEvolvingText
 	call PrintText
-	call ClearTileMap
+	call ClearTilemap
 	pop hl
 	jp EvolveAfterBattle_MasterLoop
 
@@ -394,28 +394,24 @@ IsMonHoldingEverstone:
 	pop hl
 	ret
 
-Text_CongratulationsYourPokemon:
-	; Congratulations! Your @ @
-	text_jump UnknownText_0x1c4b92
-	db "@"
+CongratulationsYourPokemonText:
+	text_far _CongratulationsYourPokemonText
+	text_end
 
-Text_EvolvedIntoPKMN:
-	; evolved into @ !
-	text_jump UnknownText_0x1c4baf
-	db "@"
+EvolvedIntoText:
+	text_far _EvolvedIntoText
+	text_end
 
-Text_StoppedEvolving:
-	; Huh? @ stopped evolving!
-	text_jump UnknownText_0x1c4bc5
-	db "@"
+StoppedEvolvingText:
+	text_far _StoppedEvolvingText
+	text_end
 
-Text_WhatEvolving:
-	; What? @ is evolving!
-	text_jump UnknownText_0x1c4be3
-	db "@"
+EvolvingText:
+	text_far _EvolvingText
+	text_end
 
 LearnLevelMoves:
-	ld a, [wd265]
+	ld a, [wTempSpecies]
 	ld [wCurPartySpecies], a
 	dec a
 	ld b, 0
@@ -466,7 +462,7 @@ LearnLevelMoves:
 .learn
 	ld a, d
 	ld [wPutativeTMHMMove], a
-	ld [wd265], a
+	ld [wNamedObjectIndex], a
 	call GetMoveName
 	call CopyName1
 	predef LearnMove
@@ -475,7 +471,7 @@ LearnLevelMoves:
 
 .done
 	ld a, [wCurPartySpecies]
-	ld [wd265], a
+	ld [wTempSpecies], a
 	ret
 
 FillMoves:
@@ -513,10 +509,10 @@ FillMoves:
 	ld a, [wCurPartyLevel]
 	cp b
 	jp c, .done
-	ld a, [wEvolutionOldSpecies]
+	ld a, [wSkipMovesBeforeLevelUp]
 	and a
 	jr z, .CheckMove
-	ld a, [wd002]
+	ld a, [wPrevPartyLevel]
 	cp b
 	jr nc, .GetMove
 

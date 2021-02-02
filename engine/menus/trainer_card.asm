@@ -24,7 +24,7 @@ TrainerCard:
 	ld a, [wJumptableIndex]
 	bit 7, a
 	jr nz, .quit
-	ld a, [hJoyLast]
+	ldh a, [hJoyLast]
 	and B_BUTTON
 	jr nz, .quit
 	call .RunJumptable
@@ -41,7 +41,7 @@ TrainerCard:
 .InitRAM:
 	call ClearBGPalettes
 	call ClearSprites
-	call ClearTileMap
+	call ClearTilemap
 	call DisableLCD
 
 	farcall GetCardPic
@@ -128,7 +128,7 @@ TrainerCard_Page1_Joypad:
 	ld [wJumptableIndex], a
 	ret
 
-.Unreferenced_KantoCheck:
+.KantoBadgeCheck: ; unreferenced
 	ld a, [wKantoBadges]
 	and a
 	ret z
@@ -171,7 +171,7 @@ TrainerCard_Page2_Joypad:
 	ld [wJumptableIndex], a
 	ret
 
-.Unreferenced_KantoCheck:
+.KantoBadgeCheck: ; unreferenced
 	ld a, [wKantoBadges]
 	and a
 	ret z
@@ -251,7 +251,7 @@ TrainerCard_PrintTopHalfOfCard:
 	hlcoord 14, 1
 	lb bc, 5, 7
 	xor a
-	ld [hGraphicStartTile], a
+	ldh [hGraphicStartTile], a
 	predef PlaceGraphic
 	ret
 
@@ -276,7 +276,7 @@ TrainerCard_Page1_PrintDexCaught_GameTime:
 	ld hl, wPokedexCaught
 	ld b, wEndPokedexCaught - wPokedexCaught
 	call CountSetBits
-	ld de, wd265
+	ld de, wNumSetBits
 	hlcoord 15, 10
 	lb bc, 1, 3
 	call PrintNum
@@ -294,7 +294,10 @@ TrainerCard_Page1_PrintDexCaught_GameTime:
 
 .Dex_PlayTime:
 	db   "#DEX"
-	next "PLAY TIME@@"
+	next "PLAY TIME@"
+
+.Unused: ; unreferenced
+	db "@"
 
 .Badges:
 	db "  BADGES▶@"
@@ -354,7 +357,8 @@ TrainerCard_InitBorder:
 
 	ld a, $23
 	ld [hli], a
-	ld e, SCREEN_HEIGHT - 1
+
+	ld e, SCREEN_WIDTH - 3
 	ld a, " "
 .loop2
 	ld [hli], a
@@ -365,11 +369,12 @@ TrainerCard_InitBorder:
 	ld [hli], a
 	ld a, $23
 	ld [hli], a
+
 .loop3
 	ld a, $23
 	ld [hli], a
 
-	ld e, SCREEN_HEIGHT
+	ld e, SCREEN_WIDTH - 2
 	ld a, " "
 .loop4
 	ld [hli], a
@@ -378,6 +383,7 @@ TrainerCard_InitBorder:
 
 	ld a, $23
 	ld [hli], a
+
 	dec d
 	jr nz, .loop3
 
@@ -386,14 +392,16 @@ TrainerCard_InitBorder:
 	ld a, $24
 	ld [hli], a
 
-	ld e, SCREEN_HEIGHT - 1
+	ld e, SCREEN_WIDTH - 3
 	ld a, " "
 .loop5
 	ld [hli], a
 	dec e
 	jr nz, .loop5
+
 	ld a, $23
 	ld [hli], a
+
 	ld e, SCREEN_WIDTH
 .loop6
 	ld a, $23
@@ -442,7 +450,7 @@ TrainerCard_Page1_PrintGameTime:
 	ld de, wGameTimeMinutes
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
 	call PrintNum
-	ld a, [hVBlankCounter]
+	ldh a, [hVBlankCounter]
 	and $1f
 	ret nz
 	hlcoord 15, 12
@@ -452,7 +460,7 @@ TrainerCard_Page1_PrintGameTime:
 	ret
 
 TrainerCard_Page2_3_AnimateBadges:
-	ld a, [hVBlankCounter]
+	ldh a, [hVBlankCounter]
 	and %111
 	ret nz
 	ld a, [wTrainerCardBadgeFrameCounter]
@@ -538,17 +546,17 @@ TrainerCard_Page2_3_OAMUpdate:
 	jr .loop2
 
 .facing1
-	dsprite  0,  0,  0,  0, $00, 0
-	dsprite  0,  0,  1,  0, $01, 0
-	dsprite  1,  0,  0,  0, $02, 0
-	dsprite  1,  0,  1,  0, $03, 0
+	dbsprite  0,  0,  0,  0, $00, 0
+	dbsprite  1,  0,  0,  0, $01, 0
+	dbsprite  0,  1,  0,  0, $02, 0
+	dbsprite  1,  1,  0,  0, $03, 0
 	db -1
 
 .facing2
-	dsprite  0,  0,  0,  0, $01, 0 | X_FLIP
-	dsprite  0,  0,  1,  0, $00, 0 | X_FLIP
-	dsprite  1,  0,  0,  0, $03, 0 | X_FLIP
-	dsprite  1,  0,  1,  0, $02, 0 | X_FLIP
+	dbsprite  0,  0,  0,  0, $01, 0 | X_FLIP
+	dbsprite  1,  0,  0,  0, $00, 0 | X_FLIP
+	dbsprite  0,  1,  0,  0, $03, 0 | X_FLIP
+	dbsprite  1,  1,  0,  0, $02, 0 | X_FLIP
 	db -1
 
 TrainerCard_JohtoBadgesOAM:

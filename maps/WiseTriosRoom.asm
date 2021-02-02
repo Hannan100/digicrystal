@@ -1,4 +1,4 @@
-	const_def 2 ; object constants
+	object_const_def
 	const WISETRIOSROOM_SAGE1
 	const WISETRIOSROOM_SAGE2
 	const WISETRIOSROOM_SAGE3
@@ -7,11 +7,11 @@
 	const WISETRIOSROOM_SAGE6
 
 WiseTriosRoom_MapScripts:
-	db 2 ; scene scripts
+	def_scene_scripts
 	scene_script .DummyScene0 ; SCENE_DEFAULT
 	scene_script .DummyScene1 ; SCENE_FINISHED
 
-	db 1 ; callbacks
+	def_callbacks
 	callback MAPCALLBACK_OBJECTS, .WiseTrioCallback
 
 .DummyScene0:
@@ -29,17 +29,17 @@ WiseTriosRoom_MapScripts:
 	iftrue .WiseTrio2
 	clearevent EVENT_WISE_TRIOS_ROOM_WISE_TRIO_1
 	setevent EVENT_WISE_TRIOS_ROOM_WISE_TRIO_2
-	return
+	endcallback
 
 .WiseTrio2:
 	setevent EVENT_WISE_TRIOS_ROOM_WISE_TRIO_1
 	clearevent EVENT_WISE_TRIOS_ROOM_WISE_TRIO_2
-	return
+	endcallback
 
 .NoWiseTrio:
 	setevent EVENT_WISE_TRIOS_ROOM_WISE_TRIO_1
 	setevent EVENT_WISE_TRIOS_ROOM_WISE_TRIO_2
-	return
+	endcallback
 
 WiseTriosRoomSage1Script:
 	jumptextfaceplayer WiseTriosRoomSage1Text
@@ -59,7 +59,7 @@ WiseTriosRoom_CannotEnterTinTowerScript:
 	stopfollow
 	turnobject PLAYER, RIGHT
 	opentext
-	writetext UnknownText_0x98712
+	writetext WiseTriosRoomSage3BlocksExitText
 	waitbutton
 	closetext
 	applymovement WISETRIOSROOM_SAGE3, MovementData_0x98625
@@ -71,7 +71,7 @@ TrainerSageGaku:
 
 .Script:
 	opentext
-	writetext UnknownText_0x98938
+	writetext SageGakuAfterBattleText
 	waitbutton
 	closetext
 	end
@@ -81,7 +81,7 @@ TrainerSageMasa:
 
 .Script:
 	opentext
-	writetext UnknownText_0x98a35
+	writetext SageMasaAfterBattleText
 	waitbutton
 	closetext
 	end
@@ -95,9 +95,9 @@ TrainerSageKoji:
 	pause 10
 	showemote EMOTE_SHOCK, WISETRIOSROOM_SAGE6, 20
 	opentext
-	writetext UnknownText_0x98c6c
-	buttonsound
-	writetext UnknownText_0x98cac
+	writetext SageKojiAfterBattleQuestionText
+	promptbutton
+	writetext SageKojiAfterBattleSpeechText
 	waitbutton
 	closetext
 	applymovement WISETRIOSROOM_SAGE6, MovementData_0x98628
@@ -108,7 +108,7 @@ TrainerSageKoji:
 
 .KojiAllowsPassage:
 	opentext
-	writetext UnknownText_0x98db5
+	writetext SageKojiAfterBattleFinalText
 	waitbutton
 	closetext
 	end
@@ -153,7 +153,7 @@ WiseTriosRoomSage2Text:
 	line "by someone."
 	done
 
-UnknownText_0x98712:
+WiseTriosRoomSage3BlocksExitText:
 	text "TIN TOWER may be"
 	line "entered by those"
 
@@ -213,7 +213,7 @@ SageGakuBeatenText:
 	line "thought? Perhaps…"
 	done
 
-UnknownText_0x98938:
+SageGakuAfterBattleText:
 	text "Ah, so it is you"
 	line "who claim to have"
 
@@ -241,7 +241,7 @@ SageMasaBeatenText:
 	line "the truth…"
 	done
 
-UnknownText_0x98a35:
+SageMasaAfterBattleText:
 	text "In the past, there"
 	line "were two nine-tier"
 	cont "towers here."
@@ -301,7 +301,7 @@ SageKojiBeatenText:
 	line "Why?"
 	done
 
-UnknownText_0x98c6c:
+SageKojiAfterBattleQuestionText:
 	text "You… Are you the"
 	line "trainer who is"
 
@@ -309,7 +309,7 @@ UnknownText_0x98c6c:
 	line "legendary #MON?"
 	done
 
-UnknownText_0x98cac:
+SageKojiAfterBattleSpeechText:
 	text "I see…"
 
 	para "We, the WISE TRIO,"
@@ -335,7 +335,7 @@ UnknownText_0x98cac:
 	line "you to the test."
 	done
 
-UnknownText_0x98db5:
+SageKojiAfterBattleFinalText:
 	text "Please, do go on."
 
 	para "SUICUNE will put"
@@ -345,17 +345,17 @@ UnknownText_0x98db5:
 WiseTriosRoom_MapEvents:
 	db 0, 0 ; filler
 
-	db 3 ; warp events
+	def_warp_events
 	warp_event  7,  4, ECRUTEAK_CITY, 4
 	warp_event  7,  5, ECRUTEAK_CITY, 5
 	warp_event  1,  4, ECRUTEAK_TIN_TOWER_ENTRANCE, 5
 
-	db 1 ; coord events
+	def_coord_events
 	coord_event  7,  4, SCENE_DEFAULT, WiseTriosRoom_CannotEnterTinTowerScript
 
-	db 0 ; bg events
+	def_bg_events
 
-	db 6 ; object events
+	def_object_events
 	object_event  6,  2, SPRITE_SAGE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, WiseTriosRoomSage1Script, EVENT_WISE_TRIOS_ROOM_WISE_TRIO_1
 	object_event  6,  7, SPRITE_SAGE, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, WiseTriosRoomSage2Script, EVENT_WISE_TRIOS_ROOM_WISE_TRIO_1
 	object_event  7,  5, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, WiseTriosRoomSage3Script, EVENT_WISE_TRIOS_ROOM_WISE_TRIO_1

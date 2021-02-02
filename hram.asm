@@ -1,132 +1,178 @@
-; HRAM uses constants instead of labels so that
-; "ld a, [hAddress]" and "ld [hAddress], a" will
-; use the more efficient "ldh" instruction.
+SECTION "HRAM", HRAM
 
-hTransferVirtualOAM           EQU $ff80 ; 10 bytes
+hROMBankBackup:: db
+hFarByte::
+hTempBank:: db
+hSRAMBank:: db
 
-hROMBankBackup     EQU $ff8a
-hBuffer            EQU $ff8b
-hFF8C              EQU $ff8c
-hRTCDayHi          EQU $ff8d
-hRTCDayLo          EQU $ff8e
-hRTCHours          EQU $ff8f
-hRTCMinutes        EQU $ff90
-hRTCSeconds        EQU $ff91
+hRTCDayHi::   db
+hRTCDayLo::   db
+hRTCHours::   db
+hRTCMinutes:: db
+hRTCSeconds:: db
 
-hHours             EQU $ff94
+	ds 2
 
-hMinutes           EQU $ff96
+hHours:: db
+	ds 1
+hMinutes:: db
+	ds 1
+hSeconds:: db
+	ds 1
 
-hSeconds           EQU $ff98
+	ds 1
 
-hVBlankCounter     EQU $ff9b
+hVBlankCounter:: db
 
-hROMBank           EQU $ff9d
-hVBlank            EQU $ff9e
-hMapEntryMethod    EQU $ff9f
-hMenuReturn        EQU $ffa0
+	ds 1
 
-hJoypadReleased    EQU $ffa2
-hJoypadPressed     EQU $ffa3
-hJoypadDown        EQU $ffa4
-hJoypadSum         EQU $ffa5
-hJoyReleased       EQU $ffa6
-hJoyPressed        EQU $ffa7
-hJoyDown           EQU $ffa8
-hJoyLast           EQU $ffa9
-hInMenu            EQU $ffaa
+hROMBank:: db
+hVBlank:: db
+hMapEntryMethod:: db
 
-hPrinter           EQU $ffac
-hGraphicStartTile  EQU $ffad
-hMoveMon           EQU $ffae
+hMenuReturn:: db
+hUnusedByte:: db
 
-hMapObjectIndexBuffer    EQU $ffaf
-hObjectStructIndexBuffer EQU $ffb0
+hJoypadReleased:: db
+hJoypadPressed::  db
+hJoypadDown::     db
+hJoypadSum::      db
+hJoyReleased::    db
+hJoyPressed::     db
+hJoyDown::        db
+hJoyLast::        db
 
-hConnectionStripLength EQU $ffaf
-hConnectedMapWidth EQU $ffb0
+hInMenu:: db
 
-hPastLeadingZeroes EQU $ffb3
+	ds 1
 
-hStringCmpString1  EQU $ffb1
-hStringCmpString2  EQU $ffb5
+hPrinter:: db
+hGraphicStartTile:: db
+hMoveMon:: db
 
-hDividend          EQU $ffb3 ; length in b register, before 'call Divide' (max 4 bytes)
-hDivisor           EQU $ffb7 ; 1 byte long
-hQuotient          EQU $ffb4 ; result (3 bytes long)
-hRemainder         EQU $ffb7
+UNION
+hMapObjectIndex:: db
+hObjectStructIndex:: db
+NEXTU
+hConnectionStripLength:: db
+hConnectedMapWidth:: db
+ENDU
 
-hMultiplicand      EQU $ffb4 ; 3 bytes long
-hMultiplier        EQU $ffb7 ; 1 byte long
-hProduct           EQU $ffb3 ; result (4 bytes long)
+hEnemyMonSpeed:: dw
 
-hMathBuffer        EQU $ffb8
+UNION
+; math-related values
 
-hPrintNum1         EQU $ffb3
-hPrintNum2         EQU $ffb4
-hPrintNum3         EQU $ffb5
-hPrintNum4         EQU $ffb6
-hPrintNum5         EQU $ffb7
-hPrintNum6         EQU $ffb8
-hPrintNum7         EQU $ffb9
-hPrintNum8         EQU $ffba
-hPrintNum9         EQU $ffbb
-hPrintNum10        EQU $ffbc
+UNION
+; inputs to Multiply
+	ds 1
+hMultiplicand:: ds 3
+hMultiplier::   db
+NEXTU
+; result of Multiply
+hProduct::      ds 4
+NEXTU
+; inputs to Divide
+hDividend::     ds 4
+hDivisor::      db
+NEXTU
+; results of Divide
+hQuotient::     ds 4
+hRemainder::    db
+ENDU
 
-hMGStatusFlags     EQU $ffbc
+hMathBuffer:: ds 5
 
-hUsedSpriteIndex   EQU $ffbd
-hUsedSpriteTile    EQU $ffbe
-hFFBF              EQU $ffbf
-hFFC0              EQU $ffc0
-hFFC1              EQU $ffc1
-hFFC2              EQU $ffc2
-hMoneyTemp         EQU $ffc3
+NEXTU
+; PrintNum scratch space
+hPrintNumBuffer:: ds 10
 
-hMGJoypadPressed   EQU $ffc3
-hMGJoypadReleased  EQU $ffc4
+NEXTU
+; Mystery Gift
+hMGExchangedByte:: db
+hMGExchangedWord:: dw
+hMGNumBits:: db
+hMGChecksum:: dw
+	ds 1
+hMGUnusedMsgLength:: db
+hMGRole:: db
+hMGStatusFlags:: db
+ENDU
 
-hLCDCPointer       EQU $ffc6
-hLYOverrideStart   EQU $ffc7
-hLYOverrideEnd     EQU $ffc8
+UNION
+hUsedSpriteIndex:: db
+hUsedSpriteTile::  db
+NEXTU
+hCurSpriteXCoord::   db
+hCurSpriteYCoord::   db
+hCurSpriteXPixel::   db
+hCurSpriteYPixel::   db
+hCurSpriteTile::     db
+hCurSpriteOAMFlags:: db
+ENDU
 
-hMobileReceive             EQU $ffc9
-hSerialReceivedNewData     EQU $ffca
-hSerialConnectionStatus    EQU $ffcb
-hSerialIgnoringInitialData EQU $ffcc
-hSerialSend                EQU $ffcd
-hSerialReceive             EQU $ffce
+UNION
+hMoneyTemp:: ds 3
+NEXTU
+hMGJoypadPressed::  db
+hMGJoypadReleased:: db
+hMGPrevTIMA::       db
+ENDU
 
-hSCX               EQU $ffcf
-hSCY               EQU $ffd0
-hWX                EQU $ffd1
-hWY                EQU $ffd2
-hTilesPerCycle     EQU $ffd3
-hBGMapMode         EQU $ffd4
-hBGMapThird        EQU $ffd5
-hBGMapAddress      EQU $ffd6
+hLCDCPointer::     db
+hLYOverrideStart:: db
+hLYOverrideEnd::   db
 
-hOAMUpdate         EQU $ffd8
-hSPBuffer          EQU $ffd9
+hMobileReceive::             db
+hSerialReceivedNewData::     db
+hSerialConnectionStatus::    db
+hSerialIgnoringInitialData:: db
+hSerialSend::                db
+hSerialReceive::             db
 
-hBGMapUpdate       EQU $ffdb
-hBGMapTileCount    EQU $ffdc
+hSCX::           db
+hSCY::           db
+hWX::            db
+hWY::            db
+hTilesPerCycle:: db
+hBGMapMode::     db
+hBGMapThird::    db
+hBGMapAddress::  dw
 
-hMapAnims          EQU $ffde
-hTileAnimFrame     EQU $ffdf
+hOAMUpdate:: db
 
-hLastTalked        EQU $ffe0
+hSPBuffer::  dw
 
-hRandom            EQU $ffe1
-hRandomAdd         EQU $ffe1
-hRandomSub         EQU $ffe2
-hSecondsBackup     EQU $ffe3
-hBattleTurn        EQU $ffe4 ; Which trainers turn is it? 0: Player, 1: Opponent Trainer
-hCGBPalUpdate      EQU $ffe5
-hCGB               EQU $ffe6
-hSGB               EQU $ffe7
-hDMATransfer       EQU $ffe8
-hMobile            EQU $ffe9
-hSystemBooted      EQU $ffea
-hClockResetTrigger EQU $ffeb
-hFFEC              EQU $ffec
+hBGMapUpdate::    db
+hBGMapTileCount:: db
+
+	ds 1
+
+hMapAnims::      db
+hTileAnimFrame:: db
+
+hLastTalked:: db
+
+hRandomAdd:: db
+hRandomSub:: db
+
+hUnusedBackup:: db
+
+hBattleTurn::
+; Which trainer's turn is it? 0: player, 1: opponent trainer
+	db
+
+hCGBPalUpdate:: db
+hCGB::          db
+hSGB::          db
+
+hDMATransfer:: db
+hMobile:: db
+hSystemBooted:: db
+
+if DEF(_DEBUG)
+hDebugRoomMenuPage::
+endc
+hClockResetTrigger:: db
+
+	ds 19

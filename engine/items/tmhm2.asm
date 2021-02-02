@@ -14,11 +14,11 @@ CanLearnTMHMMove:
 	and a
 	jr z, .end
 	cp b
-	jr z, .asm_11659
+	jr z, .found
 	inc c
 	jr .loop
 
-.asm_11659
+.found
 	pop hl
 	ld b, CHECK_FLAG
 	push de
@@ -33,14 +33,14 @@ CanLearnTMHMMove:
 	ret
 
 GetTMHMMove:
-	ld a, [wd265]
+	ld a, [wTempTMHM]
 	dec a
 	ld hl, TMHMMoves
 	ld b, 0
 	ld c, a
 	add hl, bc
 	ld a, [hl]
-	ld [wd265], a
+	ld [wTempTMHM], a
 	ret
 
 INCLUDE "data/moves/tmhm_moves.asm"

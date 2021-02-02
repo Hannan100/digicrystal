@@ -4,7 +4,7 @@ BattleCommand_Substitute:
 	call BattleCommand_MoveDelay
 	ld hl, wBattleMonMaxHP
 	ld de, wPlayerSubstituteHP
-	ld a, [hBattleTurn]
+	ldh a, [hBattleTurn]
 	and a
 	jr z, .got_hp
 	ld hl, wEnemyMonMaxHP
@@ -46,7 +46,7 @@ BattleCommand_Substitute:
 
 	ld hl, wPlayerWrapCount
 	ld de, wPlayerTrappingMove
-	ld a, [hBattleTurn]
+	ldh a, [hBattleTurn]
 	and a
 	jr z, .player
 	ld hl, wEnemyWrapCount
@@ -62,7 +62,7 @@ BattleCommand_Substitute:
 	xor a
 	ld [wNumHits], a
 	ld [wFXAnimID + 1], a
-	ld [wKickCounter], a
+	ld [wBattleAnimParam], a
 	ld a, SUBSTITUTE
 	call LoadAnim
 	jr .finish
@@ -71,7 +71,7 @@ BattleCommand_Substitute:
 	call BattleCommand_RaiseSubNoAnim
 .finish
 	ld hl, MadeSubstituteText
-	call StdBattleTextBox
+	call StdBattleTextbox
 	jp RefreshBattleHuds
 
 .already_has_sub
@@ -85,4 +85,4 @@ BattleCommand_Substitute:
 	call nz, BattleCommand_RaiseSub
 	ld hl, TooWeakSubText
 .jp_stdbattletextbox
-	jp StdBattleTextBox
+	jp StdBattleTextbox

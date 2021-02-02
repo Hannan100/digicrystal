@@ -1,12 +1,12 @@
-TIMESET_UP_ARROW   EQUS "\"♂\"" ; $ef
-TIMESET_DOWN_ARROW EQUS "\"♀\"" ; $f5
+TIMESET_UP_ARROW   EQU "♂" ; $ef
+TIMESET_DOWN_ARROW EQU "♀" ; $f5
 
 InitClock:
 ; Ask the player to set the time.
-	ld a, [hInMenu]
+	ldh a, [hInMenu]
 	push af
 	ld a, $1
-	ld [hInMenu], a
+	ldh [hInMenu], a
 
 	ld a, $0
 	ld [wSpriteUpdatesEnabled], a
@@ -19,12 +19,12 @@ InitClock:
 	ld c, 8
 	call DelayFrames
 	call RotateFourPalettesLeft
-	call ClearTileMap
+	call ClearTilemap
 	call ClearSprites
 	ld b, SCGB_DIPLOMA
 	call GetSGBLayout
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	call LoadStandardFont
 	ld de, TimeSetBackgroundGFX
 	ld hl, vTiles2 tile $00
@@ -41,22 +41,22 @@ InitClock:
 	call .ClearScreen
 	call WaitBGMap
 	call RotateFourPalettesRight
-	ld hl, Text_WokeUpOak
+	ld hl, OakTimeWokeUpText
 	call PrintText
 	ld hl, wTimeSetBuffer
-	ld bc, 50
+	ld bc, wTimeSetBufferEnd - wTimeSetBuffer
 	xor a
 	call ByteFill
 	ld a, 10 ; default hour = 10 AM
 	ld [wInitHourBuffer], a
 
 .loop
-	ld hl, Text_WhatTimeIsIt
+	ld hl, OakTimeWhatTimeIsItText
 	call PrintText
 	hlcoord 3, 7
 	ld b, 2
 	ld c, 15
-	call TextBox
+	call Textbox
 	hlcoord 11, 7
 	ld [hl], $1
 	hlcoord 11, 10
@@ -74,7 +74,7 @@ InitClock:
 	ld a, [wInitHourBuffer]
 	ld [wStringBuffer2 + 1], a
 	call .ClearScreen
-	ld hl, Text_WhatHrs
+	ld hl, OakTimeWhatHoursText
 	call PrintText
 	call YesNoBox
 	jr nc, .HourIsSet
@@ -82,11 +82,11 @@ InitClock:
 	jr .loop
 
 .HourIsSet:
-	ld hl, Text_HowManyMinutes
+	ld hl, OakTimeHowManyMinutesText
 	call PrintText
 	hlcoord 11, 7
 	lb bc, 2, 7
-	call TextBox
+	call Textbox
 	hlcoord 15, 7
 	ld [hl], $1
 	hlcoord 15, 10
@@ -104,7 +104,7 @@ InitClock:
 	ld a, [wInitMinuteBuffer]
 	ld [wStringBuffer2 + 2], a
 	call .ClearScreen
-	ld hl, Text_WhoaMins
+	ld hl, OakTimeWhoaMinutesText
 	call PrintText
 	call YesNoBox
 	jr nc, .MinutesAreSet
@@ -117,22 +117,22 @@ InitClock:
 	call PrintText
 	call WaitPressAorB_BlinkCursor
 	pop af
-	ld [hInMenu], a
+	ldh [hInMenu], a
 	ret
 
 .ClearScreen:
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	hlcoord 0, 0
 	ld bc, SCREEN_HEIGHT * SCREEN_WIDTH
 	xor a
 	call ByteFill
 	ld a, $1
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	ret
 
 SetHour:
-	ld a, [hJoyPressed]
+	ldh a, [hJoyPressed]
 	and A_BUTTON
 	jr nz, .Confirm
 
@@ -196,7 +196,7 @@ DisplayHourOClock:
 	pop hl
 	ret
 
-UnreferencedFunction907f1:
+DisplayHoursMinutesWithMinString: ; unreferenced
 	ld h, d
 	ld l, e
 	push hl
@@ -223,7 +223,7 @@ UnreferencedFunction907f1:
 	ret
 
 SetMinutes:
-	ld a, [hJoyPressed]
+	ldh a, [hJoyPressed]
 	and A_BUTTON
 	jr nz, .a_button
 	ld hl, hJoyLast
@@ -273,73 +273,68 @@ SetMinutes:
 
 DisplayMinutesWithMinString:
 	ld de, wInitMinuteBuffer
-	call PrintTwoDigitNumberRightAlign
+	call PrintTwoDigitNumberLeftAlign
 	inc hl
 	ld de, String_min
 	call PlaceString
 	ret
 
-PrintTwoDigitNumberRightAlign:
+PrintTwoDigitNumberLeftAlign:
 	push hl
 	ld a, " "
 	ld [hli], a
 	ld [hl], a
 	pop hl
-	lb bc, PRINTNUM_RIGHTALIGN | 1, 2
+	lb bc, PRINTNUM_LEFTALIGN | 1, 2
 	call PrintNum
 	ret
 
-Text_WokeUpOak:
-	; Zzz… Hm? Wha…? You woke me up! Will you check the clock for me?
-	text_jump UnknownText_0x1bc29c
-	db "@"
+OakTimeWokeUpText:
+	text_far _OakTimeWokeUpText
+	text_end
 
-Text_WhatTimeIsIt:
-	; What time is it?
-	text_jump UnknownText_0x1bc2eb
-	db "@"
+OakTimeWhatTimeIsItText:
+	text_far _OakTimeWhatTimeIsItText
+	text_end
 
 String_oclock:
 	db "o'clock@"
 
-Text_WhatHrs:
+OakTimeWhatHoursText:
 	; What?@ @
-	text_jump UnknownText_0x1bc2fd
-	start_asm
+	text_far _OakTimeWhatHoursText
+	text_asm
 	hlcoord 1, 16
 	call DisplayHourOClock
-	ld hl, .QuestionMark
+	ld hl, .OakTimeHoursQuestionMarkText
 	ret
 
-.QuestionMark:
-	; ?
-	text_jump UnknownText_0x1bc305
-	db "@"
+.OakTimeHoursQuestionMarkText:
+	text_far _OakTimeHoursQuestionMarkText
+	text_end
 
-Text_HowManyMinutes:
-	; How many minutes?
-	text_jump UnknownText_0x1bc308
-	db "@"
+OakTimeHowManyMinutesText:
+	text_far _OakTimeHowManyMinutesText
+	text_end
 
 String_min:
 	db "min.@"
 
-Text_WhoaMins:
+OakTimeWhoaMinutesText:
 	; Whoa!@ @
-	text_jump UnknownText_0x1bc31b
-	start_asm
+	text_far _OakTimeWhoaMinutesText
+	text_asm
 	hlcoord 7, 14
 	call DisplayMinutesWithMinString
-	ld hl, .QuestionMark
+	ld hl, .OakTimeMinutesQuestionMarkText
 	ret
 
-.QuestionMark:
-	; ?
-	text_jump UnknownText_0x1bc323
-	db "@"
+.OakTimeMinutesQuestionMarkText:
+	text_far _OakTimeMinutesQuestionMarkText
+	text_end
 
 OakText_ResponseToSetTime:
-	start_asm
+	text_asm
 	decoord 1, 14
 	ld a, [wInitHourBuffer]
 	ld c, a
@@ -358,30 +353,27 @@ OakText_ResponseToSetTime:
 	jr c, .morn
 	cp NITE_HOUR
 	jr c, .day
-.nite:
-	ld hl, .sodark
+.nite
+	ld hl, .OakTimeSoDarkText
 	ret
-.morn:
-	ld hl, .overslept
+.morn
+	ld hl, .OakTimeOversleptText
 	ret
-.day:
-	ld hl, .yikes
+.day
+	ld hl, .OakTimeYikesText
 	ret
 
-.overslept
-	; ! I overslept!
-	text_jump UnknownText_0x1bc326
-	db "@"
+.OakTimeOversleptText:
+	text_far _OakTimeOversleptText
+	text_end
 
-.yikes
-	; ! Yikes! I over- slept!
-	text_jump UnknownText_0x1bc336
-	db "@"
+.OakTimeYikesText:
+	text_far _OakTimeYikesText
+	text_end
 
-.sodark
-	; ! No wonder it's so dark!
-	text_jump UnknownText_0x1bc34f
-	db "@"
+.OakTimeSoDarkText:
+	text_far _OakTimeSoDarkText
+	text_end
 
 TimeSetBackgroundGFX:
 INCBIN "gfx/new_game/timeset_bg.1bpp"
@@ -391,10 +383,10 @@ TimeSetDownArrowGFX:
 INCBIN "gfx/new_game/down_arrow.1bpp"
 
 SetDayOfWeek:
-	ld a, [hInMenu]
+	ldh a, [hInMenu]
 	push af
 	ld a, $1
-	ld [hInMenu], a
+	ldh [hInMenu], a
 	ld de, TimeSetUpArrowGFX
 	ld hl, vTiles0 tile TIMESET_UP_ARROW
 	lb bc, BANK(TimeSetUpArrowGFX), 1
@@ -408,14 +400,14 @@ SetDayOfWeek:
 .loop
 	hlcoord 0, 12
 	lb bc, 4, 18
-	call TextBox
+	call Textbox
 	call LoadStandardMenuHeader
-	ld hl, .WhatDayIsItText
+	ld hl, .OakTimeWhatDayIsItText
 	call PrintText
 	hlcoord 9, 3
 	ld b, 2
 	ld c, 9
-	call TextBox
+	call Textbox
 	hlcoord 14, 3
 	ld [hl], TIMESET_UP_ARROW
 	hlcoord 14, 6
@@ -440,11 +432,11 @@ SetDayOfWeek:
 	call InitDayOfWeek
 	call LoadStandardFont
 	pop af
-	ld [hInMenu], a
+	ldh [hInMenu], a
 	ret
 
 .GetJoypadAction:
-	ld a, [hJoyPressed]
+	ldh a, [hJoyPressed]
 	and A_BUTTON
 	jr z, .not_A
 	scf
@@ -487,7 +479,7 @@ SetDayOfWeek:
 
 .finish_dpad
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	hlcoord 10, 4
 	ld b, 2
 	ld c, 9
@@ -532,22 +524,20 @@ SetDayOfWeek:
 .Friday:    db " FRIDAY@"
 .Saturday:  db "SATURDAY@"
 
-.WhatDayIsItText:
-	; What day is it?
-	text_jump UnknownText_0x1bc369
-	db "@"
+.OakTimeWhatDayIsItText:
+	text_far _OakTimeWhatDayIsItText
+	text_end
 
 .ConfirmWeekdayText:
-	start_asm
+	text_asm
 	hlcoord 1, 14
 	call .PlaceWeekdayString
-	ld hl, .IsIt
+	ld hl, .OakTimeIsItText
 	ret
 
-.IsIt:
-	; , is it?
-	text_jump UnknownText_0x1bc37a
-	db "@"
+.OakTimeIsItText:
+	text_far _OakTimeIsItText
+	text_end
 
 InitialSetDSTFlag:
 	ld a, [wDST]
@@ -561,21 +551,20 @@ InitialSetDSTFlag:
 	ret
 
 .Text:
-	start_asm
+	text_asm
 	call UpdateTime
-	ld a, [hHours]
+	ldh a, [hHours]
 	ld b, a
-	ld a, [hMinutes]
+	ldh a, [hMinutes]
 	ld c, a
 	decoord 1, 14
 	farcall PrintHoursMins
-	ld hl, .DSTIsThatOK
+	ld hl, .DSTIsThatOKText
 	ret
 
-.DSTIsThatOK:
-	; DST, is that OK?
-	text_jump Text_DSTIsThatOK
-	db "@"
+.DSTIsThatOKText:
+	text_far _DSTIsThatOKText
+	text_end
 
 InitialClearDSTFlag:
 	ld a, [wDST]
@@ -589,23 +578,22 @@ InitialClearDSTFlag:
 	ret
 
 .Text:
-	start_asm
+	text_asm
 	call UpdateTime
-	ld a, [hHours]
+	ldh a, [hHours]
 	ld b, a
-	ld a, [hMinutes]
+	ldh a, [hMinutes]
 	ld c, a
 	decoord 1, 14
 	farcall PrintHoursMins
-	ld hl, .IsThatOK
+	ld hl, .TimeAskOkayText
 	ret
 
-.IsThatOK:
-	; , is that OK?
-	text_jump UnknownText_0x1c5ff1
-	db "@"
+.TimeAskOkayText:
+	text_far _TimeAskOkayText
+	text_end
 
-DebugDisplayTime:
+MrChrono: ; unreferenced
 	hlcoord 1, 14
 	lb bc, 3, SCREEN_WIDTH - 2
 	call ClearBox
@@ -614,7 +602,7 @@ DebugDisplayTime:
 	ret
 
 .Text:
-	start_asm
+	text_asm
 	call UpdateTime
 
 	hlcoord 1, 14
@@ -665,7 +653,8 @@ DebugDisplayTime:
 	ret
 
 .NowOnDebug:
-	text "<PARA>Now on DEBUG…"
+	text_start
+	para "Now on DEBUG…"
 	prompt
 
 .PrintTime:
@@ -694,9 +683,9 @@ PrintHour:
 	inc hl
 	pop bc
 	call AdjustHourForAMorPM
-	ld [wd265], a
-	ld de, wd265
-	call PrintTwoDigitNumberRightAlign
+	ld [wTextDecimalByte], a
+	ld de, wTextDecimalByte
+	call PrintTwoDigitNumberLeftAlign
 	ret
 
 GetTimeOfDayString:

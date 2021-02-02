@@ -51,13 +51,13 @@ _InterpretMobileMenu::
 	ld c, a
 	ld a, [w2DMenuNumRows]
 	call SimpleMultiply
-	ld [wMenuCursorBuffer], a
+	ld [wMenuCursorPosition], a
 	and a
 	ret
 
 Draw2DMenu:
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	call MenuBox
 	call Place2DMenuItemStrings
 	ret
@@ -91,7 +91,7 @@ Mobile_GetMenuSelection:
 	ld c, a
 	ld a, [wMenuCursorX]
 	add c
-	ld [wMenuCursorBuffer], a
+	ld [wMenuCursorPosition], a
 	and a
 	ret
 
@@ -172,7 +172,7 @@ Init2DMenuCursorPosition:
 	call .InitFlags_c
 	ld a, [w2DMenuNumCols]
 	ld e, a
-	ld a, [wMenuCursorBuffer]
+	ld a, [wMenuCursorPosition]
 	ld b, a
 	xor a
 	ld d, 0
@@ -249,17 +249,17 @@ _StaticMenuJoypad::
 _ScrollingMenuJoypad::
 	ld hl, w2DMenuFlags2
 	res 7, [hl]
-	ld a, [hBGMapMode]
+	ldh a, [hBGMapMode]
 	push af
 	call MenuJoypadLoop
 	pop af
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	ret
 
 MobileMenuJoypad:
 	ld hl, w2DMenuFlags2
 	res 7, [hl]
-	ld a, [hBGMapMode]
+	ldh a, [hBGMapMode]
 	push af
 	call Move2DMenuCursor
 	call Do2DMenuRTCJoypad
@@ -267,17 +267,16 @@ MobileMenuJoypad:
 	call _2DMenuInterpretJoypad
 .skip_joypad
 	pop af
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	call GetMenuJoypad
 	ld c, a
 	ret
 
-Unreferenced_Function241d5:
+Function241d5: ; unreferenced
 	call Place2DMenuCursor
 .loop
 	call Move2DMenuCursor
-	call HDMATransferTileMapToWRAMBank3 ; BUG: This function is in another bank.
-	                    ; Pointer in current bank (9) is bogus.
+	call HDMATransferTilemapToWRAMBank3 ; BUG: This function is in another bank.
 	call .loop2
 	jr nc, .done
 	call _2DMenuInterpretJoypad
@@ -300,7 +299,6 @@ Unreferenced_Function241d5:
 	ld c, 1
 	ld b, 3
 	call AdvanceMobileInactivityTimerAndCheckExpired ; BUG: This function is in another bank.
-	                    ; Pointer in current bank (9) is bogus.
 	ret c
 	farcall Function100337
 	ret c
@@ -331,20 +329,20 @@ MenuJoypadLoop:
 	ret
 
 .BGMap_OAM:
-	ld a, [hOAMUpdate]
+	ldh a, [hOAMUpdate]
 	push af
 	ld a, $1
-	ld [hOAMUpdate], a
+	ldh [hOAMUpdate], a
 	call WaitBGMap
 	pop af
-	ld [hOAMUpdate], a
+	ldh [hOAMUpdate], a
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	ret
 
 Do2DMenuRTCJoypad:
 .loopRTC
-	call RTC
+	call UpdateTimeAndPals
 	call Menu_WasButtonPressed
 	ret c
 	ld a, [w2DMenuFlags1]
@@ -555,10 +553,10 @@ Place2DMenuCursor:
 	ret
 
 _PushWindow::
-	ld a, [rSVBK]
+	ldh a, [rSVBK]
 	push af
 	ld a, BANK(wWindowStack)
-	ld [rSVBK], a
+	ldh [rSVBK], a
 
 	ld hl, wWindowStackPointer
 	ld e, [hl]
@@ -566,8 +564,8 @@ _PushWindow::
 	ld d, [hl]
 	push de
 
-	ld b, $10
-	ld hl, wMenuFlags
+	ld b, wMenuHeaderEnd - wMenuHeader
+	ld hl, wMenuHeader
 .loop
 	ld a, [hli]
 	ld [de], a
@@ -619,7 +617,7 @@ _PushWindow::
 	ld [hl], d
 
 	pop af
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	ld hl, wWindowStackSize
 	inc [hl]
 	ret
@@ -655,12 +653,12 @@ _PushWindow::
 
 _ExitMenu::
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 
-	ld a, [rSVBK]
+	ldh a, [rSVBK]
 	push af
 	ld a, BANK(wWindowStack)
-	ld [rSVBK], a
+	ldh [rSVBK], a
 
 	call GetWindowStackTop
 	ld a, l
@@ -687,17 +685,17 @@ _ExitMenu::
 
 .done
 	pop af
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	ld hl, wWindowStackSize
 	dec [hl]
 	ret
 
-Unreferenced_Function24423:
+RestoreOverworldMapTiles: ; unreferenced
 	ld a, [wVramState]
 	bit 0, a
 	ret z
 	xor a ; sScratch
-	call GetSRAMBank
+	call OpenSRAM
 	hlcoord 0, 0
 	ld de, sScratch
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
@@ -705,7 +703,7 @@ Unreferenced_Function24423:
 	call CloseSRAM
 	call OverworldTextModeSwitch
 	xor a ; sScratch
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sScratch
 	decoord 0, 0
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
@@ -725,15 +723,15 @@ Unreferenced_Function24423:
 	ret
 
 Error_Cant_ExitMenu:
-	ld hl, .Text_NoWindowsAvailableForPopping
+	ld hl, .WindowPoppingErrorText
 	call PrintText
 	call WaitBGMap
-.InfiniteLoop:
-	jr .InfiniteLoop
+.infinite_loop
+	jr .infinite_loop
 
-.Text_NoWindowsAvailableForPopping:
-	text_jump UnknownText_0x1c46b7
-	db "@"
+.WindowPoppingErrorText:
+	text_far _WindowPoppingErrorText
+	text_end
 
 _InitVerticalMenuCursor::
 	ld a, [wMenuDataFlags]
@@ -782,7 +780,7 @@ _InitVerticalMenuCursor::
 .skip_bit_1
 	ld [hli], a
 ; wMenuCursorY
-	ld a, [wMenuCursorBuffer]
+	ld a, [wMenuCursorPosition]
 	and a
 	jr z, .load_at_the_top
 	ld c, a

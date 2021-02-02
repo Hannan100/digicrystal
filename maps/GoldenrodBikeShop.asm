@@ -1,12 +1,12 @@
-	const_def 2 ; object constants
+	object_const_def
 	const GOLDENRODBIKESHOP_CLERK
 
 GoldenrodBikeShop_MapScripts:
-	db 0 ; scene scripts
+	def_scene_scripts
 
-	db 0 ; callbacks
+	def_callbacks
 
-.UnreferencedDummyScene:
+.DummyScene: ; unreferenced
 	end
 
 GoldenrodBikeShopClerkScript:
@@ -14,39 +14,38 @@ GoldenrodBikeShopClerkScript:
 	opentext
 	checkevent EVENT_GOT_BICYCLE
 	iftrue .GotBicycle
-	writetext UnknownText_0x54787
+	writetext GoldenrodBikeShopClerkIntroText
 	yesorno
 	iffalse .Refused
-	writetext UnknownText_0x547f8
-	buttonsound
+	writetext GoldenrodBikeShopClerkAgreedText
+	promptbutton
 	waitsfx
 	giveitem BICYCLE
-	writetext UnknownText_0x54848
+	writetext BorrowedABicycleText
 	playsound SFX_KEY_ITEM
 	waitsfx
 	itemnotify
 	setflag ENGINE_BIKE_SHOP_CALL_ENABLED
 	setevent EVENT_GOT_BICYCLE
 .GotBicycle:
-	writetext UnknownText_0x5485f
+	writetext GoldenrodBikeShopClerkFirstRateBikesText
 	waitbutton
 	closetext
 	end
 
 .Refused:
-	writetext UnknownText_0x54898
+	writetext GoldenrodBikeShopClerkRefusedText
 	waitbutton
 	closetext
 	end
 
-GoldenrodBikeShopJustReleasedCompactBike:
-; unused
+GoldenrodBikeShopJustReleasedCompactBike: ; unreferenced
 	jumptext GoldenrodBikeShopJustReleasedCompactBikeText
 
 GoldenrodBikeShopBicycle:
 	jumptext GoldenrodBikeShopBicycleText
 
-UnknownText_0x54787:
+GoldenrodBikeShopClerkIntroText:
 	text "…sigh… I moved"
 	line "here, but I can't"
 
@@ -58,7 +57,7 @@ UnknownText_0x54787:
 	cont "tise for me?"
 	done
 
-UnknownText_0x547f8:
+GoldenrodBikeShopClerkAgreedText:
 	text "Really? Great!"
 
 	para "Give me your name"
@@ -68,12 +67,12 @@ UnknownText_0x547f8:
 	line "a BICYCLE."
 	done
 
-UnknownText_0x54848:
+BorrowedABicycleText:
 	text "<PLAYER> borrowed a"
 	line "BICYCLE."
 	done
 
-UnknownText_0x5485f:
+GoldenrodBikeShopClerkFirstRateBikesText:
 	text "My BICYCLES are"
 	line "first-rate! You"
 
@@ -81,13 +80,12 @@ UnknownText_0x5485f:
 	line "anywhere."
 	done
 
-UnknownText_0x54898:
+GoldenrodBikeShopClerkRefusedText:
 	text "…sigh… Oh, for"
 	line "the kindness of"
 	cont "people…"
 	done
 
-; possibly unused
 GoldenrodBikeShopJustReleasedCompactBikeText:
 	text "Just released!"
 
@@ -103,13 +101,13 @@ GoldenrodBikeShopBicycleText:
 GoldenrodBikeShop_MapEvents:
 	db 0, 0 ; filler
 
-	db 2 ; warp events
+	def_warp_events
 	warp_event  2,  7, GOLDENROD_CITY, 2
 	warp_event  3,  7, GOLDENROD_CITY, 2
 
-	db 0 ; coord events
+	def_coord_events
 
-	db 9 ; bg events
+	def_bg_events
 	bg_event  1,  2, BGEVENT_READ, GoldenrodBikeShopBicycle
 	bg_event  0,  3, BGEVENT_READ, GoldenrodBikeShopBicycle
 	bg_event  1,  3, BGEVENT_READ, GoldenrodBikeShopBicycle
@@ -120,5 +118,5 @@ GoldenrodBikeShop_MapEvents:
 	bg_event  6,  6, BGEVENT_READ, GoldenrodBikeShopBicycle
 	bg_event  7,  6, BGEVENT_READ, GoldenrodBikeShopBicycle
 
-	db 1 ; object events
+	def_object_events
 	object_event  7,  2, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodBikeShopClerkScript, -1

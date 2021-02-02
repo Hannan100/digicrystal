@@ -7,7 +7,7 @@ BattleCommand_StoreEnergy:
 	ret z
 
 	ld hl, wPlayerRolloutCount
-	ld a, [hBattleTurn]
+	ldh a, [hBattleTurn]
 	and a
 	jr z, .check_still_storing_energy
 	ld hl, wEnemyRolloutCount
@@ -20,7 +20,7 @@ BattleCommand_StoreEnergy:
 	res SUBSTATUS_BIDE, [hl]
 
 	ld hl, UnleashedEnergyText
-	call StdBattleTextBox
+	call StdBattleTextbox
 
 	ld a, BATTLE_VARS_MOVE_POWER
 	call GetBattleVarAddr
@@ -28,7 +28,7 @@ BattleCommand_StoreEnergy:
 	ld [hl], a
 	ld hl, wPlayerDamageTaken + 1
 	ld de, wPlayerCharging ; player
-	ld a, [hBattleTurn]
+	ldh a, [hBattleTurn]
 	and a
 	jr z, .player
 	ld hl, wEnemyDamageTaken + 1
@@ -66,7 +66,7 @@ BattleCommand_StoreEnergy:
 
 .still_storing
 	ld hl, StoringEnergyText
-	call StdBattleTextBox
+	call StdBattleTextbox
 	jp EndMoveEffect
 
 BattleCommand_UnleashEnergy:
@@ -74,7 +74,7 @@ BattleCommand_UnleashEnergy:
 
 	ld de, wPlayerDamageTaken
 	ld bc, wPlayerRolloutCount
-	ld a, [hBattleTurn]
+	ldh a, [hBattleTurn]
 	and a
 	jr z, .got_damage
 	ld de, wEnemyDamageTaken
@@ -95,6 +95,6 @@ BattleCommand_UnleashEnergy:
 	inc a
 	ld [bc], a
 	ld a, 1
-	ld [wKickCounter], a
+	ld [wBattleAnimParam], a
 	call AnimateCurrentMove
 	jp EndMoveEffect

@@ -1,7 +1,7 @@
 BattleCommand_Thief:
 ; thief
 
-	ld a, [hBattleTurn]
+	ldh a, [hBattleTurn]
 	and a
 	jr nz, .enemy
 
@@ -21,7 +21,7 @@ BattleCommand_Thief:
 
 ; Can't steal mail.
 
-	ld [wd265], a
+	ld [wNamedObjectIndex], a
 	ld d, a
 	farcall ItemIsMail
 	ret c
@@ -45,7 +45,7 @@ BattleCommand_Thief:
 	ld [de], a
 
 	call .playeritem
-	ld a, [wd265]
+	ld a, [wNamedObjectIndex]
 	ld [hl], a
 	ld [de], a
 	jr .stole
@@ -68,7 +68,7 @@ BattleCommand_Thief:
 
 ; Can't steal mail!
 
-	ld [wd265], a
+	ld [wNamedObjectIndex], a
 	ld d, a
 	farcall ItemIsMail
 	ret c
@@ -86,14 +86,14 @@ BattleCommand_Thief:
 	ld [de], a
 
 	call .enemyitem
-	ld a, [wd265]
+	ld a, [wNamedObjectIndex]
 	ld [hl], a
 	ld [de], a
 
 .stole
 	call GetItemName
 	ld hl, StoleText
-	jp StdBattleTextBox
+	jp StdBattleTextbox
 
 .playeritem
 	ld a, 1

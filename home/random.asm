@@ -13,17 +13,17 @@ Random::
 
 	push bc
 
-	ld a, [rDIV]
+	ldh a, [rDIV]
 	ld b, a
-	ld a, [hRandomAdd]
+	ldh a, [hRandomAdd]
 	adc b
-	ld [hRandomAdd], a
+	ldh [hRandomAdd], a
 
-	ld a, [rDIV]
+	ldh a, [rDIV]
 	ld b, a
-	ld a, [hRandomSub]
+	ldh a, [hRandomSub]
 	sbc b
-	ld [hRandomSub], a
+	ldh [hRandomSub], a
 
 	pop bc
 	ret
@@ -34,17 +34,17 @@ BattleRandom::
 ; It handles all RNG calls in the battle engine, allowing
 ; link battles to remain in sync using a shared PRNG.
 
-	ld a, [hROMBank]
+	ldh a, [hROMBank]
 	push af
 	ld a, BANK(_BattleRandom)
 	rst Bankswitch
 
 	call _BattleRandom
 
-	ld [wPredefTemp + 1], a
+	ld [wPredefHL + 1], a
 	pop af
 	rst Bankswitch
-	ld a, [wPredefTemp + 1]
+	ld a, [wPredefHL + 1]
 	ret
 
 RandomRange::
@@ -67,7 +67,7 @@ RandomRange::
 	push bc
 .loop
 	call Random
-	ld a, [hRandomAdd]
+	ldh a, [hRandomAdd]
 	ld c, a
 	add b
 	jr c, .loop

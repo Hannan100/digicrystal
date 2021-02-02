@@ -1,39 +1,39 @@
-	const_def 2 ; object constants
+	object_const_def
 	const PEWTERGYM_BROCK
 	const PEWTERGYM_YOUNGSTER
-	const PEWTERGYM_GYM_GUY
+	const PEWTERGYM_GYM_GUIDE
 
 PewterGym_MapScripts:
-	db 0 ; scene scripts
+	def_scene_scripts
 
-	db 0 ; callbacks
+	def_callbacks
 
 PewterGymBrockScript:
 	faceplayer
 	opentext
 	checkflag ENGINE_BOULDERBADGE
 	iftrue .FightDone
-	writetext UnknownText_0x1a28d0
+	writetext BrockIntroText
 	waitbutton
 	closetext
-	winlosstext UnknownText_0x1a29bb, 0
+	winlosstext BrockWinLossText, 0
 	loadtrainer BROCK, BROCK1
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_BROCK
 	setevent EVENT_BEAT_CAMPER_JERRY
 	opentext
-	writetext UnknownText_0x1a2a3d
+	writetext ReceivedBoulderBadgeText
 	playsound SFX_GET_BADGE
 	waitsfx
 	setflag ENGINE_BOULDERBADGE
-	writetext UnknownText_0x1a2a57
+	writetext BrockBoulderBadgeText
 	waitbutton
 	closetext
 	end
 
 .FightDone:
-	writetext UnknownText_0x1a2ada
+	writetext BrockFightDoneText
 	waitbutton
 	closetext
 	end
@@ -49,18 +49,18 @@ TrainerCamperJerry:
 	closetext
 	end
 
-PewterGymGuyScript:
+PewterGymGuideScript:
 	faceplayer
 	opentext
 	checkevent EVENT_BEAT_BROCK
-	iftrue .PewterGymGuyWinScript
-	writetext PewterGymGuyText
+	iftrue .PewterGymGuideWinScript
+	writetext PewterGymGuideText
 	waitbutton
 	closetext
 	end
 
-.PewterGymGuyWinScript:
-	writetext PewterGymGuyWinText
+.PewterGymGuideWinScript:
+	writetext PewterGymGuideWinText
 	waitbutton
 	closetext
 	end
@@ -68,12 +68,12 @@ PewterGymGuyScript:
 PewterGymStatue:
 	checkflag ENGINE_BOULDERBADGE
 	iftrue .Beaten
-	jumpstd gymstatue1
+	jumpstd GymStatue1Script
 .Beaten:
-	trainertotext BROCK, BROCK1, MEM_BUFFER_1
-	jumpstd gymstatue2
+	gettrainername STRING_BUFFER_4, BROCK, BROCK1
+	jumpstd GymStatue2Script
 
-UnknownText_0x1a28d0:
+BrockIntroText:
 	text "BROCK: Wow, it's"
 	line "not often that we"
 
@@ -98,7 +98,7 @@ UnknownText_0x1a28d0:
 	para "Come on!"
 	done
 
-UnknownText_0x1a29bb:
+BrockWinLossText:
 	text "BROCK: Your #-"
 	line "MON's powerful at-"
 	cont "tacks overcame my"
@@ -111,12 +111,12 @@ UnknownText_0x1a29bb:
 	line "this BADGE."
 	done
 
-UnknownText_0x1a2a3d:
+ReceivedBoulderBadgeText:
 	text "<PLAYER> received"
 	line "BOULDERBADGE."
 	done
 
-UnknownText_0x1a2a57:
+BrockBoulderBadgeText:
 	text "BROCK: <PLAY_G>,"
 	line "thanks. I enjoyed"
 
@@ -131,7 +131,7 @@ UnknownText_0x1a2a57:
 	line "powerful."
 	done
 
-UnknownText_0x1a2ada:
+BrockFightDoneText:
 	text "BROCK: The world"
 	line "is huge. There are"
 
@@ -175,7 +175,7 @@ CamperJerryAfterBattleText:
 	line "seriously."
 	done
 
-PewterGymGuyText:
+PewterGymGuideText:
 	text "Yo! CHAMP in"
 	line "making! You're"
 
@@ -192,7 +192,7 @@ PewterGymGuyText:
 	line "GYM LEADERS."
 	done
 
-PewterGymGuyWinText:
+PewterGymGuideWinText:
 	text "Yo! CHAMP in"
 	line "making! That GYM"
 
@@ -209,17 +209,17 @@ PewterGymGuyWinText:
 PewterGym_MapEvents:
 	db 0, 0 ; filler
 
-	db 2 ; warp events
+	def_warp_events
 	warp_event  4, 13, PEWTER_CITY, 2
 	warp_event  5, 13, PEWTER_CITY, 2
 
-	db 0 ; coord events
+	def_coord_events
 
-	db 2 ; bg events
+	def_bg_events
 	bg_event  2, 11, BGEVENT_READ, PewterGymStatue
 	bg_event  7, 11, BGEVENT_READ, PewterGymStatue
 
-	db 3 ; object events
+	def_object_events
 	object_event  5,  1, SPRITE_BROCK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, PewterGymBrockScript, -1
 	object_event  2,  5, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerCamperJerry, -1
-	object_event  6, 11, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 1, PewterGymGuyScript, -1
+	object_event  6, 11, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 1, PewterGymGuideScript, -1

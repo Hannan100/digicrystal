@@ -5,73 +5,71 @@ _BugContestJudging:
 	ld a, [wBugContestThirdPlaceWinnerID]
 	call LoadContestantName
 	ld a, [wBugContestThirdPlaceMon]
-	ld [wNamedObjectIndexBuffer], a
+	ld [wNamedObjectIndex], a
 	call GetPokemonName
-	ld hl, BugContest_ThirdPlaceText
+	ld hl, ContestJudging_ThirdPlaceText
 	call PrintText
 	ld a, [wBugContestSecondPlaceWinnerID]
 	call LoadContestantName
 	ld a, [wBugContestSecondPlaceMon]
-	ld [wNamedObjectIndexBuffer], a
+	ld [wNamedObjectIndex], a
 	call GetPokemonName
-	ld hl, BugContest_SecondPlaceText
+	ld hl, ContestJudging_SecondPlaceText
 	call PrintText
 	ld a, [wBugContestFirstPlaceWinnerID]
 	call LoadContestantName
 	ld a, [wBugContestFirstPlaceMon]
-	ld [wNamedObjectIndexBuffer], a
+	ld [wNamedObjectIndex], a
 	call GetPokemonName
-	ld hl, BugContest_FirstPlaceText
+	ld hl, ContestJudging_FirstPlaceText
 	call PrintText
 	jp BugContest_GetPlayersResult
 
-BugContest_FirstPlaceText:
-	text_jump ContestJudging_FirstPlaceText
-	start_asm
+ContestJudging_FirstPlaceText:
+	text_far _ContestJudging_FirstPlaceText
+	text_asm
 	ld de, SFX_1ST_PLACE
 	call PlaySFX
 	call WaitSFX
-	ld hl, BugContest_FirstPlaceScoreText
+	ld hl, ContestJudging_FirstPlaceScoreText
 	ret
 
-BugContest_FirstPlaceScoreText:
-	; The winning score was @  points!
-	text_jump ContestJudging_FirstPlaceScoreText
-	db "@"
+ContestJudging_FirstPlaceScoreText:
+	text_far _ContestJudging_FirstPlaceScoreText
+	text_end
 
-BugContest_SecondPlaceText:
+ContestJudging_SecondPlaceText:
 	; Placing second was @ , who caught a @ !@ @
-	text_jump ContestJudging_SecondPlaceText
-	start_asm
+	text_far _ContestJudging_SecondPlaceText
+	text_asm
 	ld de, SFX_2ND_PLACE
 	call PlaySFX
 	call WaitSFX
-	ld hl, BugContest_SecondPlaceScoreText
+	ld hl, ContestJudging_SecondPlaceScoreText
 	ret
 
-BugContest_SecondPlaceScoreText:
-	; The score was @  points!
-	text_jump ContestJudging_SecondPlaceScoreText
-	db "@"
+ContestJudging_SecondPlaceScoreText:
+	text_far _ContestJudging_SecondPlaceScoreText
+	text_end
 
-BugContest_ThirdPlaceText:
+ContestJudging_ThirdPlaceText:
 	; Placing third was @ , who caught a @ !@ @
-	text_jump ContestJudging_ThirdPlaceText
-	start_asm
+	text_far _ContestJudging_ThirdPlaceText
+	text_asm
 	ld de, SFX_3RD_PLACE
 	call PlaySFX
 	call WaitSFX
-	ld hl, BugContest_ThirdPlaceScoreText
+	ld hl, ContestJudging_ThirdPlaceScoreText
 	ret
 
-BugContest_ThirdPlaceScoreText:
-	; The score was @  points!
-	text_jump ContestJudging_ThirdPlaceScoreText
-	db "@"
+ContestJudging_ThirdPlaceScoreText:
+	text_far _ContestJudging_ThirdPlaceScoreText
+	text_end
 
 LoadContestantName:
 ; If a = 1, get your name.
-	dec a ; BUG_CONTEST_PLAYER
+	assert BUG_CONTEST_PLAYER == 1
+	dec a
 	jr z, .player
 ; Find the pointer for the trainer class of the Bug Catching Contestant whose ID is in a.
 	ld c, a
@@ -129,7 +127,7 @@ INCLUDE "data/events/bug_contest_winners.asm"
 
 BugContest_GetPlayersResult:
 	ld hl, wBugContestThirdPlaceWinnerID
-	ld de, - BUG_CONTESTANT_SIZE
+	ld de, -BUG_CONTESTANT_SIZE
 	ld b, 3 ; 3rd, 2nd, or 1st
 .loop
 	ld a, [hl]
@@ -150,9 +148,9 @@ BugContest_JudgeContestants:
 	ld [hli], a
 	ld a, [wContestMon]
 	ld [hli], a
-	ld a, [hProduct]
+	ldh a, [hProduct]
 	ld [hli], a
-	ld a, [hProduct + 1]
+	ldh a, [hProduct + 1]
 	ld [hl], a
 	call DetermineContestWinners
 	ret
@@ -171,7 +169,7 @@ DetermineContestWinners:
 	ld de, wBugContestTempScore
 	ld hl, wBugContestFirstPlaceScore
 	ld c, 2
-	call StringCmp
+	call CompareBytes
 	jr c, .not_first_place
 	ld hl, wBugContestSecondPlaceWinnerID
 	ld de, wBugContestThirdPlaceWinnerID
@@ -189,7 +187,7 @@ DetermineContestWinners:
 	ld de, wBugContestTempScore
 	ld hl, wBugContestSecondPlaceScore
 	ld c, 2
-	call StringCmp
+	call CompareBytes
 	jr c, .not_second_place
 	ld hl, wBugContestSecondPlaceWinnerID
 	ld de, wBugContestThirdPlaceWinnerID
@@ -203,7 +201,7 @@ DetermineContestWinners:
 	ld de, wBugContestTempScore
 	ld hl, wBugContestThirdPlaceScore
 	ld c, 2
-	call StringCmp
+	call CompareBytes
 	jr c, .done
 	ld hl, wBugContestThirdPlaceWinnerID
 	call CopyTempContestant
@@ -214,7 +212,7 @@ DetermineContestWinners:
 CopyTempContestant:
 ; Could've just called CopyBytes.
 	ld de, wBugContestTempWinnerID
-rept BUG_CONTESTANT_SIZE + -1
+rept BUG_CONTESTANT_SIZE - 1
 	ld a, [de]
 	inc de
 	ld [hli], a
@@ -287,8 +285,8 @@ ContestScore:
 ; Determine the player's score in the Bug Catching Contest.
 
 	xor a
-	ld [hProduct], a
-	ld [hMultiplicand], a
+	ldh [hProduct], a
+	ldh [hMultiplicand], a
 
 	ld a, [wContestMonSpecies] ; Species
 	and a

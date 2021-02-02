@@ -13,9 +13,9 @@ Special::
 	rst FarCall
 	ret
 
-INCLUDE "data/special_pointers.asm"
+INCLUDE "data/events/special_pointers.asm"
 
-DummySpecial_c224:
+UnusedDummySpecial:
 	ret
 
 SetPlayerPalette:
@@ -34,7 +34,7 @@ GameCornerPrizeMonCheckDex:
 	call SetSeenAndCaughtMon
 	call FadeToMenu
 	ld a, [wScriptVar]
-	ld [wd265], a
+	ld [wNamedObjectIndex], a
 	farcall NewPokedexEntry
 	call ExitAllMenus
 	ret
@@ -84,16 +84,15 @@ FoundNone:
 	ret
 
 NameRival:
-	ld b, $2 ; rival
+	ld b, NAME_RIVAL
 	ld de, wRivalName
 	farcall _NamingScreen
-	; default to "SILVER"
 	ld hl, wRivalName
-	ld de, .default
+	ld de, .DefaultName
 	call InitName
 	ret
 
-.default
+.DefaultName:
 	db "SILVER@"
 
 NameRater:
@@ -128,7 +127,7 @@ PlayersHousePC:
 
 CheckMysteryGift:
 	ld a, BANK(sMysteryGiftItem)
-	call GetSRAMBank
+	call OpenSRAM
 	ld a, [sMysteryGiftItem]
 	and a
 	jr z, .no
@@ -141,11 +140,11 @@ CheckMysteryGift:
 
 GetMysteryGiftItem:
 	ld a, BANK(sMysteryGiftItem)
-	call GetSRAMBank
+	call OpenSRAM
 	ld a, [sMysteryGiftItem]
 	ld [wCurItem], a
 	ld a, 1
-	ld [wItemQuantityChangeBuffer], a
+	ld [wItemQuantityChange], a
 	ld hl, wNumItems
 	call ReceiveItem
 	jr nc, .no_room
@@ -153,7 +152,7 @@ GetMysteryGiftItem:
 	ld [sMysteryGiftItem], a
 	call CloseSRAM
 	ld a, [wCurItem]
-	ld [wd265], a
+	ld [wNamedObjectIndex], a
 	call GetItemName
 	ld hl, .ReceiveItemText
 	call PrintText
@@ -168,9 +167,8 @@ GetMysteryGiftItem:
 	ret
 
 .ReceiveItemText:
-	; received item
-	text_jump UnknownText_0x1bd3be
-	db "@"
+	text_far _ReceiveItemText
+	text_end
 
 BugContestJudging:
 	farcall _BugContestJudging
@@ -208,11 +206,11 @@ CardFlip:
 	call StartGameCornerGame
 	ret
 
-DummyNonfunctionalGameCornerGame:
+UnusedMemoryGame:
 	call CheckCoinsAndCoinCase
 	ret c
-	ld a, BANK(_DummyGame)
-	ld hl, _DummyGame
+	ld a, BANK(_MemoryGame)
+	ld hl, _MemoryGame
 	call StartGameCornerGame
 	ret
 
@@ -256,14 +254,12 @@ CheckCoinsAndCoinCase:
 	ret
 
 .NoCoinsText:
-	; You have no coins.
-	text_jump UnknownText_0x1bd3d7
-	db "@"
+	text_far _NoCoinsText
+	text_end
 
 .NoCoinCaseText:
-	; You don't have a COIN CASE.
-	text_jump UnknownText_0x1bd3eb
-	db "@"
+	text_far _NoCoinCaseText
+	text_end
 
 ClearBGPalettesBufferScreen:
 	call ClearBGPalettes
@@ -380,20 +376,20 @@ PlayCurMonCry:
 	jp PlayMonCry
 
 GameboyCheck:
-	ld a, [hCGB]
+	ldh a, [hCGB]
 	and a
 	jr nz, .cgb
-
-	ld a, [hSGB]
+	ldh a, [hSGB]
 	and a
 	jr nz, .sgb
-
-.gb
+; gb
 	xor a ; GBCHECK_GB
 	jr .done
+
 .sgb
 	ld a, GBCHECK_SGB
 	jr .done
+
 .cgb
 	ld a, GBCHECK_CGB
 .done
@@ -423,7 +419,7 @@ PrintDiploma:
 
 TrainerHouse:
 	ld a, BANK(sMysteryGiftTrainerHouseFlag)
-	call GetSRAMBank
+	call OpenSRAM
 	ld a, [sMysteryGiftTrainerHouseFlag]
 	ld [wScriptVar], a
 	jp CloseSRAM

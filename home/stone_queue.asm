@@ -1,5 +1,5 @@
 HandleStoneQueue::
-	ld a, [hROMBank]
+	ldh a, [hROMBank]
 	push af
 
 	call SwitchToMapScriptsBank
@@ -56,11 +56,11 @@ HandleStoneQueue::
 	ret
 
 .check_on_warp
-	ld hl, wCurrMapWarpsPointer
+	ld hl, wCurMapWarpsPointer
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
-	ld a, [wCurrMapWarpCount]
+	ld a, [wCurMapWarpCount]
 	and a
 	jr z, .nope2
 
@@ -76,7 +76,7 @@ HandleStoneQueue::
 	jr .found_warp
 
 .not_on_warp
-	ld a, 5
+	ld a, WARP_EVENT_SIZE
 	add l
 	ld l, a
 	jr nc, .no_carry
@@ -94,7 +94,7 @@ HandleStoneQueue::
 .found_warp
 	pop af
 	ld d, a
-	ld a, [wCurrMapWarpCount]
+	ld a, [wCurMapWarpCount]
 	sub d
 	inc a
 	scf

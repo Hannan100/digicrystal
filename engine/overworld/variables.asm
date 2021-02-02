@@ -61,7 +61,7 @@ _GetVarAction::
 	dwb wSpecialPhoneCallID,            RETVAR_STRBUF2
 	dwb wNrOfBeatenBattleTowerTrainers, RETVAR_STRBUF2
 	dwb wKurtApricornQuantity,          RETVAR_STRBUF2
-	dwb wCurrentCaller,                 RETVAR_ADDR_DE
+	dwb wCurCaller,                     RETVAR_ADDR_DE
 	dwb wBlueCardBalance,               RETVAR_ADDR_DE
 	dwb wBuenasPassword,                RETVAR_ADDR_DE
 	dwb wKenjiBreakTimer,               RETVAR_STRBUF2
@@ -72,7 +72,7 @@ _GetVarAction::
 	ld hl, wPokedexCaught
 	ld b, wEndPokedexCaught - wPokedexCaught
 	call CountSetBits
-	ld a, [wd265]
+	ld a, [wNumSetBits]
 	jp .loadstringbuffer2
 
 .CountSeenMons:
@@ -80,7 +80,7 @@ _GetVarAction::
 	ld hl, wPokedexSeen
 	ld b, wEndPokedexSeen - wPokedexSeen
 	call CountSetBits
-	ld a, [wd265]
+	ld a, [wNumSetBits]
 	jp .loadstringbuffer2
 
 .CountBadges:
@@ -88,7 +88,7 @@ _GetVarAction::
 	ld hl, wBadges
 	ld b, 2
 	call CountSetBits
-	ld a, [wd265]
+	ld a, [wNumSetBits]
 	jp .loadstringbuffer2
 
 .PlayerFacing:
@@ -106,11 +106,11 @@ _GetVarAction::
 
 .UnownCaught:
 ; Number of unique Unown caught.
-	call .count
+	call .count_unown
 	ld a, b
 	jp .loadstringbuffer2
 
-.count
+.count_unown
 	ld hl, wUnownDex
 	ld b, 0
 .loop
@@ -126,7 +126,7 @@ _GetVarAction::
 .BoxFreeSpace:
 ; Remaining slots in the current box.
 	ld a, BANK(sBoxCount)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sBoxCount
 	ld a, MONS_PER_BOX
 	sub [hl]

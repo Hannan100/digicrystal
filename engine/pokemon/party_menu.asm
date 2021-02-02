@@ -36,7 +36,7 @@ InitPartyMenuLayout:
 
 LoadPartyMenuGFX:
 	call LoadFontsBattleExtra
-	callfar InitPartyMenuPalettes ; engine/color.asm
+	callfar InitPartyMenuPalettes
 	callfar ClearSpriteAnims2
 	ret
 
@@ -46,7 +46,7 @@ WritePartyMenuTilemap:
 	push af
 	set NO_TEXT_SCROLL, [hl]
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	hlcoord 0, 0
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
 	ld a, " "
@@ -84,7 +84,7 @@ PlacePartyNicknames:
 	and a
 	jr z, .end
 	ld c, a
-	ld b, $0
+	ld b, 0
 .loop
 	push bc
 	push hl
@@ -105,11 +105,11 @@ PlacePartyNicknames:
 .end
 	dec hl
 	dec hl
-	ld de, .CANCEL
+	ld de, .CancelString
 	call PlaceString
 	ret
 
-.CANCEL:
+.CancelString:
 	db "CANCEL@"
 
 PlacePartyHPBar:
@@ -119,7 +119,7 @@ PlacePartyHPBar:
 	and a
 	ret z
 	ld c, a
-	ld b, $0
+	ld b, 0
 	hlcoord 11, 2
 .loop
 	push bc
@@ -135,10 +135,10 @@ PlacePartyHPBar:
 	ld hl, wHPPals
 	ld a, [wSGBPals]
 	ld c, a
-	ld b, $0
+	ld b, 0
 	add hl, bc
 	call SetHPPal
-	ld b, SCGB_PARTY_MENU_HP_PALS
+	ld b, SCGB_PARTY_MENU_HP_BARS
 	call GetSGBLayout
 .skip
 	ld hl, wSGBPals
@@ -185,7 +185,7 @@ PlacePartyMenuHPDigits:
 	and a
 	ret z
 	ld c, a
-	ld b, $0
+	ld b, 0
 	hlcoord 13, 1
 .loop
 	push bc
@@ -246,10 +246,10 @@ PlacePartyMonLevel:
 	jr nc, .ThreeDigits
 	ld a, "<LV>"
 	ld [hli], a
-	lb bc, PRINTNUM_RIGHTALIGN | 1, 2
+	lb bc, PRINTNUM_LEFTALIGN | 1, 2
 	; jr .okay
 .ThreeDigits:
-	lb bc, PRINTNUM_RIGHTALIGN | 1, 3
+	lb bc, PRINTNUM_LEFTALIGN | 1, 3
 ; .okay
 	call PrintNum
 
@@ -590,17 +590,17 @@ InitPartyMenuGFX:
 	ret z
 	ld c, a
 	xor a
-	ld [hObjectStructIndexBuffer], a
+	ldh [hObjectStructIndex], a
 .loop
 	push bc
 	push hl
 	ld hl, LoadMenuMonIcon
 	ld a, BANK(LoadMenuMonIcon)
-	ld e, $0
+	ld e, MONICON_PARTYMENU
 	rst FarCall
-	ld a, [hObjectStructIndexBuffer]
+	ldh a, [hObjectStructIndex]
 	inc a
-	ld [hObjectStructIndexBuffer], a
+	ldh [hObjectStructIndex], a
 	pop hl
 	pop bc
 	dec c
@@ -612,8 +612,8 @@ InitPartyMenuWithCancel:
 ; with cancel
 	xor a
 	ld [wSwitchMon], a
-	ld de, PartyMenuAttributes
-	call SetMenuAttributes
+	ld de, PartyMenu2DMenuData
+	call Load2DMenuData
 	ld a, [wPartyCount]
 	inc a
 	ld [w2DMenuNumRows], a ; list length
@@ -637,8 +637,8 @@ InitPartyMenuWithCancel:
 
 InitPartyMenuNoCancel:
 ; no cancel
-	ld de, PartyMenuAttributes
-	call SetMenuAttributes
+	ld de, PartyMenu2DMenuData
+	call Load2DMenuData
 	ld a, [wPartyCount]
 	ld [w2DMenuNumRows], a ; list length
 	ld b, a
@@ -656,20 +656,12 @@ InitPartyMenuNoCancel:
 	ld [wMenuJoypadFilter], a
 	ret
 
-PartyMenuAttributes:
-; cursor y
-; cursor x
-; num rows
-; num cols
-; bit 6: animate sprites  bit 5: wrap around
-; ?
-; distance between items (hi: y, lo: x)
-; allowed buttons (mask)
-	db 1, 0
-	db 0, 1
-	db $60, $00
-	dn 2, 0
-	db 0
+PartyMenu2DMenuData:
+	db 1, 0 ; cursor start y, x
+	db 0, 1 ; rows, columns
+	db $60, $00 ; flags
+	dn 2, 0 ; cursor offset
+	db 0 ; accepted buttons
 
 PartyMenuSelect:
 ; sets carry if exitted menu.
@@ -682,7 +674,7 @@ PartyMenuSelect:
 	cp b
 	jr z, .exitmenu ; CANCEL
 	ld [wPartyMenuCursor], a
-	ld a, [hJoyLast]
+	ldh a, [hJoyLast]
 	ld b, a
 	bit B_BUTTON_F, b
 	jr nz, .exitmenu ; B button
@@ -690,7 +682,7 @@ PartyMenuSelect:
 	dec a
 	ld [wCurPartyMon], a
 	ld c, a
-	ld b, $0
+	ld b, 0
 	ld hl, wPartySpecies
 	add hl, bc
 	ld a, [hl]
@@ -712,7 +704,7 @@ PartyMenuSelect:
 PrintPartyMenuText:
 	hlcoord 0, 14
 	lb bc, 2, 18
-	call TextBox
+	call Textbox
 	ld a, [wPartyCount]
 	and a
 	jr nz, .haspokemon
@@ -723,7 +715,7 @@ PrintPartyMenuText:
 	and $f ; drop high nibble
 	ld hl, PartyMenuStrings
 	ld e, a
-	ld d, $0
+	ld d, 0
 	add hl, de
 	add hl, de
 	ld a, [hli]
@@ -766,12 +758,10 @@ TeachWhichPKMNString:
 MoveToWhereString:
 	db "Move to where?@"
 
-ChooseAFemalePKMNString:
-; unused
+ChooseAFemalePKMNString: ; unreferenced
 	db "Choose a ♀<PK><MN>.@"
 
-ChooseAMalePKMNString:
-; unused
+ChooseAMalePKMNString: ; unreferenced
 	db "Choose a ♂<PK><MN>.@"
 
 ToWhichPKMNString:
@@ -792,66 +782,56 @@ PrintPartyMenuActionText:
 
 .MenuActionTexts:
 ; entries correspond to PARTYMENUTEXT_* constants
-	dw .Text_CuredOfPoison
-	dw .Text_BurnWasHealed
-	dw .Text_Defrosted
-	dw .Text_WokeUp
-	dw .Text_RidOfParalysis
-	dw .Text_RecoveredSomeHP
-	dw .Text_HealthReturned
-	dw .Text_Revitalized
-	dw .Text_GrewToLevel
-	dw .Text_CameToItsSenses
+	dw .CuredOfPoisonText
+	dw .BurnWasHealedText
+	dw .WasDefrostedText
+	dw .WokeUpText
+	dw .RidOfParalysisText
+	dw .RecoveredSomeHPText
+	dw .HealthReturnedText
+	dw .RevitalizedText
+	dw .GrewToLevelText
+	dw .CameToItsSensesText
 
-.Text_RecoveredSomeHP:
-	; recovered @ HP!
-	text_jump UnknownText_0x1bc0a2
-	db "@"
+.RecoveredSomeHPText:
+	text_far _RecoveredSomeHPText
+	text_end
 
-.Text_CuredOfPoison:
-	; 's cured of poison.
-	text_jump UnknownText_0x1bc0bb
-	db "@"
+.CuredOfPoisonText:
+	text_far _CuredOfPoisonText
+	text_end
 
-.Text_RidOfParalysis:
-	; 's rid of paralysis.
-	text_jump UnknownText_0x1bc0d2
-	db "@"
+.RidOfParalysisText:
+	text_far _RidOfParalysisText
+	text_end
 
-.Text_BurnWasHealed:
-	; 's burn was healed.
-	text_jump UnknownText_0x1bc0ea
-	db "@"
+.BurnWasHealedText:
+	text_far _BurnWasHealedText
+	text_end
 
-.Text_Defrosted:
-	; was defrosted.
-	text_jump UnknownText_0x1bc101
-	db "@"
+.WasDefrostedText:
+	text_far _WasDefrostedText
+	text_end
 
-.Text_WokeUp:
-	; woke up.
-	text_jump UnknownText_0x1bc115
-	db "@"
+.WokeUpText:
+	text_far _WokeUpText
+	text_end
 
-.Text_HealthReturned:
-	; 's health returned.
-	text_jump UnknownText_0x1bc123
-	db "@"
+.HealthReturnedText:
+	text_far _HealthReturnedText
+	text_end
 
-.Text_Revitalized:
-	; is revitalized.
-	text_jump UnknownText_0x1bc13a
-	db "@"
+.RevitalizedText:
+	text_far _RevitalizedText
+	text_end
 
-.Text_GrewToLevel:
-	; grew to level @ !@ @
-	text_jump UnknownText_0x1bc14f
-	db "@"
+.GrewToLevelText:
+	text_far _GrewToLevelText
+	text_end
 
-.Text_CameToItsSenses:
-	; came to its senses.
-	text_jump UnknownText_0x1bc16e
-	db "@"
+.CameToItsSensesText:
+	text_far _CameToItsSensesText
+	text_end
 
 .PrintText:
 	ld e, a

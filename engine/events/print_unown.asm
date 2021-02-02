@@ -1,25 +1,25 @@
-UNOWNSTAMP_BOLD_A EQUS "\"♂\"" ; $ef
-UNOWNSTAMP_BOLD_B EQUS "\"♀\"" ; $f5
+UNOWNSTAMP_BOLD_A EQU "♂" ; $ef
+UNOWNSTAMP_BOLD_B EQU "♀" ; $f5
 
 _UnownPrinter:
 	ld a, [wUnownDex]
 	and a
 	ret z
 
-	ld a, [hInMenu]
+	ldh a, [hInMenu]
 	push af
 	ld a, $1
-	ld [hInMenu], a
+	ldh [hInMenu], a
 	ld a, [wOptions]
 	push af
 	set NO_TEXT_SCROLL, a
 	ld [wOptions], a
 	call ClearBGPalettes
-	call ClearTileMap
+	call ClearTilemap
 
 	ld de, UnownDexATile
 	ld hl, vTiles0 tile UNOWNSTAMP_BOLD_A
-	lb bc, BANK(UnownDexBTile), 1
+	lb bc, BANK(UnownDexATile), 1
 	call Request1bpp
 
 	ld de, UnownDexBTile
@@ -29,15 +29,15 @@ _UnownPrinter:
 
 	hlcoord 0, 0
 	lb bc, 3, 18
-	call TextBox
+	call Textbox
 
 	hlcoord 0, 5
 	lb bc, 7, 7
-	call TextBox
+	call Textbox
 
 	hlcoord 0, 14
 	lb bc, 2, 18
-	call TextBox
+	call Textbox
 
 	hlcoord 1, 2
 	ld de, AlphRuinsStampString
@@ -69,11 +69,11 @@ _UnownPrinter:
 .joy_loop
 	call JoyTextDelay
 
-	ld a, [hJoyPressed]
+	ldh a, [hJoyPressed]
 	and B_BUTTON
 	jr nz, .pressed_b
 
-	ld a, [hJoyPressed]
+	ldh a, [hJoyPressed]
 	and A_BUTTON
 	jr nz, .pressed_a
 
@@ -94,15 +94,15 @@ _UnownPrinter:
 	pop af
 	ld [wOptions], a
 	pop af
-	ld [hInMenu], a
+	ldh [hInMenu], a
 	call ReturnToMapFromSubmenu
 	ret
 
 .LeftRight:
-	ld a, [hJoyLast]
+	ldh a, [hJoyLast]
 	and D_RIGHT
 	jr nz, .press_right
-	ld a, [hJoyLast]
+	ldh a, [hJoyLast]
 	and D_LEFT
 	jr nz, .press_left
 	ret
@@ -112,7 +112,7 @@ _UnownPrinter:
 	ld a, [hl]
 	and a
 	jr nz, .wrap_around_left
-	ld [hl], 26 + 1
+	ld [hl], NUM_UNOWN + 1
 .wrap_around_left
 	dec [hl]
 	jr .return
@@ -120,7 +120,7 @@ _UnownPrinter:
 .press_right
 	ld hl, wJumptableIndex
 	ld a, [hl]
-	cp 26
+	cp NUM_UNOWN
 	jr c, .wrap_around_right
 	ld [hl], -1
 .wrap_around_right
@@ -132,7 +132,7 @@ _UnownPrinter:
 
 .UpdateUnownFrontpic:
 	ld a, [wJumptableIndex]
-	cp 26
+	cp NUM_UNOWN
 	jr z, .vacant
 	inc a
 	ld [wUnownLetter], a
@@ -145,7 +145,7 @@ _UnownPrinter:
 	call .Load2bppToSRAM
 	hlcoord 1, 6
 	xor a
-	ld [hGraphicStartTile], a
+	ldh [hGraphicStartTile], a
 	lb bc, 7, 7
 	predef PlaceGraphic
 	ld de, vTiles2 tile $31
@@ -153,23 +153,23 @@ _UnownPrinter:
 	ret
 
 .Load2bppToSRAM:
-	ld a, [rSVBK]
+	ldh a, [rSVBK]
 	push af
 	ld a, BANK(wDecompressScratch)
-	ld [rSVBK], a
+	ldh [rSVBK], a
 
 	ld a, BANK(sScratch)
-	call GetSRAMBank
+	call OpenSRAM
 	ld de, wDecompressScratch
 	ld hl, sScratch
-	ld a, [hROMBank]
+	ldh a, [hROMBank]
 	ld b, a
 	ld c, $31
 	call Get2bpp
 	call CloseSRAM
 
 	pop af
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	ret
 
 .vacant
@@ -180,7 +180,7 @@ _UnownPrinter:
 	ld de, UnownDexVacantString
 	call PlaceString
 	xor a ; sScratch
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sScratch
 	ld bc, $31 tiles
 	xor a
@@ -188,7 +188,7 @@ _UnownPrinter:
 	ld hl, vTiles2 tile $31
 	ld de, sScratch
 	ld c, $31
-	ld a, [hROMBank]
+	ldh a, [hROMBank]
 	ld b, a
 	call Get2bpp
 	call CloseSRAM
@@ -224,7 +224,7 @@ PlaceUnownPrinterFrontpic:
 	call ByteFill
 	hlcoord 7, 11
 	ld a, $31
-	ld [hGraphicStartTile], a
+	ldh [hGraphicStartTile], a
 	lb bc, 7, 7
 	predef PlaceGraphic
 	ret

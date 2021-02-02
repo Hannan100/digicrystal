@@ -4,7 +4,7 @@ _InitializeStartDay:
 
 ClearDailyTimers:
 	xor a
-	ld [wLuckyNumberDayBuffer], a
+	ld [wLuckyNumberDayTimer], a
 	ld [wUnusedTwoDayTimer], a
 	ld [wDailyResetTimer], a
 	ret
@@ -25,6 +25,20 @@ NextCallReceiveDelay:
 	ld hl, .ReceiveCallDelays
 	add hl, de
 	ld a, [hl]
+if DEF(_DEBUG)
+	ld h, a
+	ld a, BANK(sDebugTimeCyclesSinceLastCall)
+	call OpenSRAM
+	ld a, [sDebugTimeCyclesSinceLastCall]
+	call CloseSRAM
+	dec a
+	cp 2
+	jr nc, .debug_ok
+	xor 1
+	ld h, a
+.debug_ok
+	ld a, h
+endc
 	jp RestartReceiveCallDelay
 
 .ReceiveCallDelays:
@@ -91,9 +105,9 @@ CheckDailyResetTimer::
 	call CheckDayDependentEventHL
 	ret nc
 	xor a
-	ld hl, wDailyFlags
-	ld [hli], a ; wDailyFlags
-	ld [hli], a ; wWeeklyFlags
+	ld hl, wDailyFlags1
+	ld [hli], a ; wDailyFlags1
+	ld [hli], a ; wDailyFlags2
 	ld [hli], a ; wSwarmFlags
 	ld [hl], a  ; wSwarmFlags + 1
 	ld hl, wDailyRematchFlags
@@ -189,7 +203,7 @@ CheckPokerusTick::
 	xor a
 	ret
 
-SetUnusedTwoDayTimer:
+SetUnusedTwoDayTimer: ; unreferenced
 	ld a, 2
 	ld hl, wUnusedTwoDayTimer
 	ld [hl], a
@@ -206,22 +220,22 @@ CheckUnusedTwoDayTimer:
 	call UpdateTimeRemaining
 	ret
 
-; unused
-	ld hl, wDailyFlags
-	set DAILYFLAGS_FISH_SWARM_F, [hl]
+UnusedSetSwarmFlag: ; unreferenced
+	ld hl, wDailyFlags1
+	set DAILYFLAGS1_FISH_SWARM_F, [hl]
 	ret
 
-; unused
+UnusedCheckSwarmFlag: ; unreferenced
 	and a
-	ld hl, wDailyFlags
-	bit DAILYFLAGS_FISH_SWARM_F, [hl]
+	ld hl, wDailyFlags1
+	bit DAILYFLAGS1_FISH_SWARM_F, [hl]
 	ret nz
 	scf
 	ret
 
 RestartLuckyNumberCountdown:
 	call .GetDaysUntilNextFriday
-	ld hl, wLuckyNumberDayBuffer
+	ld hl, wLuckyNumberDayTimer
 	jp InitNDaysCountdown
 
 .GetDaysUntilNextFriday:
@@ -239,31 +253,31 @@ RestartLuckyNumberCountdown:
 	ret
 
 _CheckLuckyNumberShowFlag:
-	ld hl, wLuckyNumberDayBuffer
+	ld hl, wLuckyNumberDayTimer
 	jp CheckDayDependentEventHL
 
 DoMysteryGiftIfDayHasPassed:
 	ld a, BANK(sMysteryGiftTimer)
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, sMysteryGiftTimer
 	ld a, [hli]
-	ld [wBuffer1], a
+	ld [wTempMysteryGiftTimer], a
 	ld a, [hl]
-	ld [wBuffer2], a
+	ld [wTempMysteryGiftTimer + 1], a
 	call CloseSRAM
 
-	ld hl, wBuffer1
+	ld hl, wTempMysteryGiftTimer
 	call CheckDayDependentEventHL
 	jr nc, .not_timed_out
-	ld hl, wBuffer1
+	ld hl, wTempMysteryGiftTimer
 	call InitOneDayCountdown
 	call CloseSRAM
-	farcall Function1050c8
+	farcall ResetDailyMysteryGiftLimitIfUnlocked
 
 .not_timed_out
 	ld a, BANK(sMysteryGiftTimer)
-	call GetSRAMBank
-	ld hl, wBuffer1
+	call OpenSRAM
+	ld hl, wTempMysteryGiftTimer
 	ld a, [hli]
 	ld [sMysteryGiftTimer], a
 	ld a, [hl]
@@ -294,7 +308,7 @@ UpdateTimeRemaining:
 	scf
 	ret
 
-GetSecondsSinceIfLessThan60:
+GetSecondsSinceIfLessThan60: ; unreferenced
 	ld a, [wDaysSince]
 	and a
 	jr nz, GetTimeElapsed_ExceedsUnitLimit
@@ -316,7 +330,7 @@ GetMinutesSinceIfLessThan60:
 	ld a, [wMinutesSince]
 	ret
 
-GetHoursSinceIfLessThan24:
+GetHoursSinceIfLessThan24: ; unreferenced
 	ld a, [wDaysSince]
 	and a
 	jr nz, GetTimeElapsed_ExceedsUnitLimit
@@ -335,7 +349,7 @@ CalcDaysSince:
 	xor a
 	jr _CalcDaysSince
 
-CalcHoursDaysSince:
+CalcHoursDaysSince: ; unreferenced
 	inc hl
 	xor a
 	jr _CalcHoursDaysSince
@@ -350,7 +364,7 @@ CalcSecsMinsHoursDaysSince:
 	inc hl
 	inc hl
 	inc hl
-	ld a, [hSeconds]
+	ldh a, [hSeconds]
 	ld c, a
 	sub [hl]
 	jr nc, .skip
@@ -361,7 +375,7 @@ CalcSecsMinsHoursDaysSince:
 	ld [wSecondsSince], a ; seconds since
 
 _CalcMinsHoursDaysSince:
-	ld a, [hMinutes]
+	ldh a, [hMinutes]
 	ld c, a
 	sbc [hl]
 	jr nc, .skip
@@ -372,7 +386,7 @@ _CalcMinsHoursDaysSince:
 	ld [wMinutesSince], a ; minutes since
 
 _CalcHoursDaysSince:
-	ld a, [hHours]
+	ldh a, [hHours]
 	ld c, a
 	sbc [hl]
 	jr nc, .skip
@@ -396,11 +410,11 @@ _CalcDaysSince:
 CopyDayHourMinSecToHL:
 	ld a, [wCurDay]
 	ld [hli], a
-	ld a, [hHours]
+	ldh a, [hHours]
 	ld [hli], a
-	ld a, [hMinutes]
+	ldh a, [hMinutes]
 	ld [hli], a
-	ld a, [hSeconds]
+	ldh a, [hSeconds]
 	ld [hli], a
 	ret
 
@@ -409,18 +423,18 @@ CopyDayToHL:
 	ld [hl], a
 	ret
 
-CopyDayHourToHL:
+CopyDayHourToHL: ; unreferenced
 	ld a, [wCurDay]
 	ld [hli], a
-	ld a, [hHours]
+	ldh a, [hHours]
 	ld [hli], a
 	ret
 
 CopyDayHourMinToHL:
 	ld a, [wCurDay]
 	ld [hli], a
-	ld a, [hHours]
+	ldh a, [hHours]
 	ld [hli], a
-	ld a, [hMinutes]
+	ldh a, [hMinutes]
 	ld [hli], a
 	ret

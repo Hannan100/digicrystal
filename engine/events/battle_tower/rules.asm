@@ -16,14 +16,13 @@ CheckForMobileBattleRules:
 	dw BattleTower_CheckPartyHasThreeMonsThatAreNotEggs
 
 .TextPointers:
-	dw .ExcuseMeText
-	dw JumpText_NeedAtLeastThreeMon
-	dw JumpText_EggDoesNotQualify
+	dw .BTExcuseMeText
+	dw NeedAtLeastThreeMonText
+	dw EggDoesNotQualifyText
 
-.ExcuseMeText:
-	; Excuse me!
-	text_jump UnknownText_0x1c5937
-	db "@"
+.BTExcuseMeText:
+	text_far _BTExcuseMeText
+	text_end
 
 _CheckForBattleTowerRules:
 	ld hl, wStringBuffer2
@@ -43,62 +42,54 @@ _CheckForBattleTowerRules:
 	dw .TextPointers
 
 .Functions:
-	dw Function_PartyCountEq3
-	dw Function_PartySpeciesAreUnique
-	dw Function_PartyItemsAreUnique
-	dw Function_HasPartyAnEgg
+	dw CheckBTRule_PartyCountEq3
+	dw CheckBTRule_PartySpeciesAreUnique
+	dw CheckBTRule_PartyItemsAreUnique
+	dw CheckBTRule_HasPartyAnEgg
 
 .TextPointers:
-	dw JumpText_ExcuseMeYoureNotReady
-	dw JumpText_OnlyThreeMonMayBeEntered
-	dw JumpText_TheMonMustAllBeDifferentKinds
-	dw JumpText_TheMonMustNotHoldTheSameItems
-	dw JumpText_YouCantTakeAnEgg
+	dw ExcuseMeYoureNotReadyText
+	dw OnlyThreeMonMayBeEnteredText
+	dw TheMonMustAllBeDifferentKindsText
+	dw TheMonMustNotHoldTheSameItemsText
+	dw YouCantTakeAnEggText
 
-JumpText_ExcuseMeYoureNotReady:
-	; Excuse me. You're not ready.
-	text_jump Text_ExcuseMeYoureNotReady
-	db "@"
+ExcuseMeYoureNotReadyText:
+	text_far _ExcuseMeYoureNotReadyText
+	text_end
 
 BattleTower_PleaseReturnWhenReady:
-	ld hl, .PleaseReturnWhenReady
+	ld hl, .BattleTowerReturnWhenReadyText
 	call PrintText
 	ret
 
-.PleaseReturnWhenReady:
-	; Please return when you're ready.
-	text_jump UnknownText_0x1c5962
-	db "@"
+.BattleTowerReturnWhenReadyText:
+	text_far _BattleTowerReturnWhenReadyText
+	text_end
 
-JumpText_NeedAtLeastThreeMon:
-	; You need at least three #MON.
-	text_jump UnknownText_0x1c5983
-	db "@"
+NeedAtLeastThreeMonText:
+	text_far _NeedAtLeastThreeMonText
+	text_end
 
-JumpText_EggDoesNotQualify:
-	; Sorry, an EGG doesn't qualify.
-	text_jump UnknownText_0x1c59a3
-	db "@"
+EggDoesNotQualifyText:
+	text_far _EggDoesNotQualifyText
+	text_end
 
-JumpText_OnlyThreeMonMayBeEntered:
-	; Only three #MON may be entered.
-	text_jump Text_OnlyThreeMonMayBeEntered
-	db "@"
+OnlyThreeMonMayBeEnteredText:
+	text_far _OnlyThreeMonMayBeEnteredText
+	text_end
 
-JumpText_TheMonMustAllBeDifferentKinds:
-	; The @  #MON must all be different kinds.
-	text_jump Text_TheMonMustAllBeDifferentKinds
-	db "@"
+TheMonMustAllBeDifferentKindsText:
+	text_far _TheMonMustAllBeDifferentKindsText
+	text_end
 
-JumpText_TheMonMustNotHoldTheSameItems:
-	; The @  #MON must not hold the same items.
-	text_jump Text_TheMonMustNotHoldTheSameItems
-	db "@"
+TheMonMustNotHoldTheSameItemsText:
+	text_far _TheMonMustNotHoldTheSameItemsText
+	text_end
 
-JumpText_YouCantTakeAnEgg:
-	; You can't take an EGG!
-	text_jump Text_YouCantTakeAnEgg
-	db "@"
+YouCantTakeAnEggText:
+	text_far _YouCantTakeAnEggText
+	text_end
 
 BattleTower_ExecuteJumptable:
 	ld bc, 0
@@ -161,7 +152,7 @@ BattleTower_ExecuteJumptable:
 	call z, .PrintFirstText
 	pop bc
 	call .PrintNthText
-	ld b, $1
+	ld b, 1
 	pop de
 	ret
 
@@ -178,7 +169,7 @@ BattleTower_ExecuteJumptable:
 	call .GetTextPointers
 	inc hl
 	inc hl
-	ld b, $0
+	ld b, 0
 	add hl, bc
 	add hl, bc
 	call .LoadTextPointer
@@ -194,7 +185,7 @@ BattleTower_CheckPartyLengthIs3:
 BattleTower_CheckPartyHasThreeMonsThatAreNotEggs:
 	ld hl, wPartyCount
 	ld a, [hli]
-	ld b, $0
+	ld b, 0
 	ld c, a
 .loop
 	ld a, [hli]
@@ -212,19 +203,19 @@ BattleTower_CheckPartyHasThreeMonsThatAreNotEggs:
 	cp BATTLETOWER_PARTY_LENGTH
 	ret
 
-Function_PartyCountEq3:
+CheckBTRule_PartyCountEq3:
 	ld a, [wPartyCount]
 	cp BATTLETOWER_PARTY_LENGTH
 	ret z
 	scf
 	ret
 
-Function_PartySpeciesAreUnique:
+CheckBTRule_PartySpeciesAreUnique:
 	ld hl, wPartyMon1Species
-	call VerifyUniqueness
+	call CheckPartyValueIsUnique
 	ret
 
-VerifyUniqueness:
+CheckPartyValueIsUnique:
 	ld de, wPartyCount
 	ld a, [de]
 	inc de
@@ -285,12 +276,12 @@ VerifyUniqueness:
 	pop bc
 	ret
 
-Function_PartyItemsAreUnique:
+CheckBTRule_PartyItemsAreUnique:
 	ld hl, wPartyMon1Item
-	call VerifyUniqueness
+	call CheckPartyValueIsUnique
 	ret
 
-Function_HasPartyAnEgg:
+CheckBTRule_HasPartyAnEgg:
 	ld hl, wPartyCount
 	ld a, [hli]
 	ld c, a

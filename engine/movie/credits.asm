@@ -11,18 +11,21 @@ Credits::
 .okay
 	ld [wJumptableIndex], a
 
-	ld a, [rSVBK]
+	ldh a, [rSVBK]
 	push af
 	ld a, BANK(wGBCPalettes)
-	ld [rSVBK], a
+	ldh [rSVBK], a
 
 	call ClearBGPalettes
-	call ClearTileMap
+	call ClearTilemap
 	call ClearSprites
 
-	ld hl, wCreditsFaux2bpp
-	ld c, $80
-	ld de, $ff00
+	ld hl, wCreditsBlankFrame2bpp
+	ld c, (wCreditsBlankFrame2bppEnd - wCreditsBlankFrame2bpp) / 2
+	ld de, `22222222 ; eight pixels, each color #2 (dark)
+
+; Fill wCreditsBlankFrame2bpp with 4x4=16 tiles, all solid dark color
+; (the same color used for the four border frame mons' backgrounds)
 
 .load_loop
 	ld a, e
@@ -68,21 +71,21 @@ Credits::
 	xor a
 	call ByteFill
 
-	ld a, rSCX - $ff00
-	ld [hLCDCPointer], a
+	ld a, LOW(rSCX)
+	ldh [hLCDCPointer], a
 
 	call GetCreditsPalette
 	call SetPalettes
-	ld a, [hVBlank]
+	ldh a, [hVBlank]
 	push af
 	ld a, $5
-	ld [hVBlank], a
-	ld a, $1
-	ld [hInMenu], a
+	ldh [hVBlank], a
+	ld a, TRUE
+	ldh [hInMenu], a
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	ld [wCreditsPos], a
-	ld [wCreditsUnusedCD21], a
+	ld [wCreditsPos + 1], a
 	ld [wCreditsTimer], a
 
 .execution_loop
@@ -97,16 +100,16 @@ Credits::
 .exit_credits
 	call ClearBGPalettes
 	xor a
-	ld [hLCDCPointer], a
-	ld [hBGMapAddress], a
+	ldh [hLCDCPointer], a
+	ldh [hBGMapAddress], a
 	pop af
-	ld [hVBlank], a
+	ldh [hVBlank], a
 	pop af
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	ret
 
 Credits_HandleAButton:
-	ld a, [hJoypadDown]
+	ldh a, [hJoypadDown]
 	and A_BUTTON
 	ret z
 	ld a, [wJumptableIndex]
@@ -114,7 +117,7 @@ Credits_HandleAButton:
 	ret
 
 Credits_HandleBButton:
-	ld a, [hJoypadDown]
+	ldh a, [hJoypadDown]
 	and B_BUTTON
 	ret z
 	ld a, [wJumptableIndex]
@@ -177,7 +180,7 @@ Credits_LoopBack:
 
 Credits_PrepBGMapUpdate:
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	jp Credits_Next
 
 Credits_UpdateGFXRequestPath:
@@ -194,13 +197,13 @@ Credits_UpdateGFXRequestPath:
 
 Credits_RequestGFX:
 	xor a
-	ld [hBGMapMode], a
-	ld a, $8
-	ld [wRequested2bpp], a
+	ldh [hBGMapMode], a
+	ld a, 8
+	ld [wRequested2bppSize], a
 	jp Credits_Next
 
 Credits_LYOverride:
-	ld a, [rLY]
+	ldh a, [rLY]
 	cp $30
 	jr c, Credits_LYOverride
 	ld a, [wCreditsLYOverride]
@@ -240,9 +243,9 @@ ParseCredits:
 ; First, let's clear the current text display,
 ; starting from line 5.
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	hlcoord 0, 5
-	ld bc, 20 * 12
+	ld bc, SCREEN_WIDTH * 12
 	ld a, " "
 	call ByteFill
 
@@ -272,7 +275,7 @@ ParseCredits:
 	push af
 	ld e, a
 	ld d, 0
-	ld hl, CreditsStrings
+	ld hl, CreditsStringsPointers
 	add hl, de
 	add hl, de
 	ld a, [hli]
@@ -303,7 +306,7 @@ ParseCredits:
 .print
 ; Print strings spaced every two lines.
 	call .get
-	ld bc, 20 * 2
+	ld bc, SCREEN_WIDTH * 2
 	call AddNTimes
 	call PlaceString
 	jr .loop
@@ -352,9 +355,9 @@ ParseCredits:
 	ld [wCreditsTimer], a
 
 	xor a
-	ld [hBGMapThird], a
+	ldh [hBGMapThird], a
 	ld a, 1
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 
 .done
 	jp Credits_Next
@@ -377,7 +380,7 @@ ParseCredits:
 	push de
 	ld a, [wCreditsPos]
 	ld e, a
-	ld a, [wCreditsPos+1]
+	ld a, [wCreditsPos + 1]
 	ld d, a
 	ld hl, CreditsScript
 	add hl, de
@@ -386,7 +389,7 @@ ParseCredits:
 	ld a, e
 	ld [wCreditsPos], a
 	ld a, d
-	ld [wCreditsPos+1], a
+	ld [wCreditsPos + 1], a
 	ld a, [hl]
 	pop de
 	pop hl
@@ -394,9 +397,9 @@ ParseCredits:
 
 ConstructCreditsTilemap:
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	ld a, $c
-	ld [hBGMapAddress], a
+	ldh [hBGMapAddress], a
 
 	ld a, $28
 	hlcoord 0, 0
@@ -416,30 +419,30 @@ ConstructCreditsTilemap:
 	ld a, $20
 	call DrawCreditsBorder
 
-	hlcoord 0, 0, wAttrMap
+	hlcoord 0, 0, wAttrmap
 	ld bc, 4 * SCREEN_WIDTH
 	xor a
 	call ByteFill
 
-	hlcoord 0, 4, wAttrMap
+	hlcoord 0, 4, wAttrmap
 	ld bc, SCREEN_WIDTH
 	ld a, $1
 	call ByteFill
 
-	hlcoord 0, 5, wAttrMap
+	hlcoord 0, 5, wAttrmap
 	ld bc, 12 * SCREEN_WIDTH
 	ld a, $2
 	call ByteFill
 
-	hlcoord 0, 17, wAttrMap
+	hlcoord 0, 17, wAttrmap
 	ld bc, SCREEN_WIDTH
 	ld a, $1
 	call ByteFill
 
 	call WaitBGMap2
 	xor a
-	ld [hBGMapMode], a
-	ld [hBGMapAddress], a
+	ldh [hBGMapMode], a
+	ldh [hBGMapAddress], a
 	hlcoord 0, 0
 	call .InitTopPortion
 	call WaitBGMap2
@@ -561,7 +564,7 @@ Credits_LoadBorderGFX:
 	ret
 
 .init
-	ld hl, wCreditsFaux2bpp
+	ld hl, wCreditsBlankFrame2bpp
 	ret
 
 .Frames:
@@ -569,14 +572,17 @@ Credits_LoadBorderGFX:
 	dw CreditsPichuGFX     + 16 tiles
 	dw CreditsPichuGFX     + 32 tiles
 	dw CreditsPichuGFX     + 48 tiles
+
 	dw CreditsSmoochumGFX
 	dw CreditsSmoochumGFX  + 16 tiles
 	dw CreditsSmoochumGFX  + 32 tiles
 	dw CreditsSmoochumGFX  + 48 tiles
+
 	dw CreditsDittoGFX
 	dw CreditsDittoGFX     + 16 tiles
 	dw CreditsDittoGFX     + 32 tiles
 	dw CreditsDittoGFX     + 48 tiles
+
 	dw CreditsIgglybuffGFX
 	dw CreditsIgglybuffGFX + 16 tiles
 	dw CreditsIgglybuffGFX + 32 tiles

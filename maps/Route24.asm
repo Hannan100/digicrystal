@@ -1,29 +1,29 @@
-	const_def 2 ; object constants
+	object_const_def
 	const ROUTE24_ROCKET
 
 Route24_MapScripts:
-	db 0 ; scene scripts
+	def_scene_scripts
 
-	db 0 ; callbacks
+	def_callbacks
 
 Route24RocketScript:
 	faceplayer
 	playmusic MUSIC_ROCKET_ENCOUNTER
 	opentext
-	writetext UnknownText_0x1adc2e
+	writetext Route24RocketSeenText
 	waitbutton
 	closetext
-	winlosstext UnknownText_0x1add67, -1
+	winlosstext Route24RocketBeatenText, -1
 	loadtrainer GRUNTM, GRUNTM_31
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	playmusic MUSIC_ROCKET_ENCOUNTER
 	opentext
-	writetext UnknownText_0x1addc0
-	buttonsound
+	writetext Route24RocketAfterBattleText
+	promptbutton
 	special FadeOutMusic
-	writetext UnknownText_0x1adee1
+	writetext Route24RocketDisappearsText
 	waitbutton
 	closetext
 	special FadeBlackQuickly
@@ -34,7 +34,7 @@ Route24RocketScript:
 	playmapmusic
 	end
 
-UnknownText_0x1adc2e:
+Route24RocketSeenText:
 	text "Hey, kid! Me am a"
 	line "TEAM ROCKET member"
 	cont "kind of guy!"
@@ -63,7 +63,7 @@ UnknownText_0x1adc2e:
 	line "begin we do!"
 	done
 
-UnknownText_0x1add67:
+Route24RocketBeatenText:
 	text "Ayieeeh! No, no,"
 	line "no, believe it I"
 	cont "can't!"
@@ -73,7 +73,7 @@ UnknownText_0x1add67:
 	cont "not to you!"
 	done
 
-UnknownText_0x1addc0:
+Route24RocketAfterBattleText:
 	text "OK. Tell you mine"
 	line "secret will I."
 
@@ -102,7 +102,7 @@ UnknownText_0x1addc0:
 	line "revenge they are."
 	done
 
-UnknownText_0x1adee1:
+Route24RocketDisappearsText:
 	text "…"
 
 	para "You say what? TEAM"
@@ -119,11 +119,11 @@ UnknownText_0x1adee1:
 Route24_MapEvents:
 	db 0, 0 ; filler
 
-	db 0 ; warp events
+	def_warp_events
 
-	db 0 ; coord events
+	def_coord_events
 
-	db 0 ; bg events
+	def_bg_events
 
-	db 1 ; object events
+	def_object_events
 	object_event  8,  7, SPRITE_ROCKET, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route24RocketScript, EVENT_ROUTE_24_ROCKET

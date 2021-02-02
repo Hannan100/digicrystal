@@ -29,14 +29,14 @@ CheckMagikarpLength:
 	call CalcMagikarpLength
 	call PrintMagikarpLength
 	farcall StubbedTrainerRankings_MagikarpLength
-	ld hl, .MeasureItText
+	ld hl, .MagikarpGuruMeasureText
 	call PrintText
 
 	; Did we beat the record?
 	ld hl, wMagikarpLength
 	ld de, wBestMagikarpLengthFeet
 	ld c, 2
-	call StringCmp
+	call CompareBytes
 	jr nc, .not_long_enough
 
 	; NEW RECORD!!! Let's save that.
@@ -71,10 +71,9 @@ CheckMagikarpLength:
 	ld [wScriptVar], a
 	ret
 
-.MeasureItText:
-	; Let me measure that MAGIKARP. …Hm, it measures @ .
-	text_jump UnknownText_0x1c1203
-	db "@"
+.MagikarpGuruMeasureText:
+	text_far _MagikarpGuruMeasureText
+	text_end
 
 Magikarp_LoadFeetInchesChars:
 	ld hl, vTiles2 tile "′" ; $6e
@@ -90,12 +89,12 @@ PrintMagikarpLength:
 	call Magikarp_LoadFeetInchesChars
 	ld hl, wStringBuffer1
 	ld de, wMagikarpLength
-	lb bc, PRINTNUM_RIGHTALIGN | 1, 2
+	lb bc, PRINTNUM_LEFTALIGN | 1, 2
 	call PrintNum
 	ld [hl], "′"
 	inc hl
 	ld de, wMagikarpLength + 1
-	lb bc, PRINTNUM_RIGHTALIGN | 1, 2
+	lb bc, PRINTNUM_LEFTALIGN | 1, 2
 	call PrintNum
 	ld [hl], "″"
 	inc hl
@@ -185,7 +184,7 @@ CalcMagikarpLength:
 
 	ld hl, MagikarpLengths
 	ld a, 2
-	ld [wd265], a
+	ld [wTempByteValue], a
 
 .read
 	ld a, [hli]
@@ -198,39 +197,39 @@ CalcMagikarpLength:
 	; c = (bc - de) / [hl]
 	call .BCMinusDE
 	ld a, b
-	ld [hDividend + 0], a
+	ldh [hDividend + 0], a
 	ld a, c
-	ld [hDividend + 1], a
+	ldh [hDividend + 1], a
 	ld a, [hl]
-	ld [hDivisor], a
+	ldh [hDivisor], a
 	ld b, 2
 	call Divide
-	ld a, [hQuotient + 2]
+	ldh a, [hQuotient + 3]
 	ld c, a
 
 	; de = c + 100 × (2 + i)
 	xor a
-	ld [hMultiplicand + 0], a
-	ld [hMultiplicand + 1], a
+	ldh [hMultiplicand + 0], a
+	ldh [hMultiplicand + 1], a
 	ld a, 100
-	ld [hMultiplicand + 2], a
-	ld a, [wd265]
-	ld [hMultiplier], a
+	ldh [hMultiplicand + 2], a
+	ld a, [wTempByteValue]
+	ldh [hMultiplier], a
 	call Multiply
 	ld b, 0
-	ld a, [hProduct + 3]
+	ldh a, [hProduct + 3]
 	add c
 	ld e, a
-	ld a, [hProduct + 2]
+	ldh a, [hProduct + 2]
 	adc b
 	ld d, a
 	jr .done
 
 .next
 	inc hl ; align to next triplet
-	ld a, [wd265]
+	ld a, [wTempByteValue]
 	inc a
-	ld [wd265], a
+	ld [wTempByteValue], a
 	cp 16
 	jr c, .read
 
@@ -307,11 +306,10 @@ MagikarpHouseSign:
 	ld a, [wBestMagikarpLengthInches]
 	ld [wMagikarpLength + 1], a
 	call PrintMagikarpLength
-	ld hl, .CurrentRecordtext
+	ld hl, .KarpGuruRecordText
 	call PrintText
 	ret
 
-.CurrentRecordtext:
-	; "CURRENT RECORD"
-	text_jump UnknownText_0x1c123a
-	db "@"
+.KarpGuruRecordText:
+	text_far _KarpGuruRecordText
+	text_end

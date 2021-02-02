@@ -7,7 +7,7 @@ BattleCommand_LeechSeed:
 	jr nz, .evaded
 
 	ld de, wEnemyMonType1
-	ld a, [hBattleTurn]
+	ldh a, [hBattleTurn]
 	and a
 	jr z, .ok
 	ld de, wBattleMonType1
@@ -28,7 +28,7 @@ BattleCommand_LeechSeed:
 	set SUBSTATUS_LEECH_SEED, [hl]
 	call AnimateCurrentMove
 	ld hl, WasSeededText
-	jp StdBattleTextBox
+	jp StdBattleTextbox
 
 .grass
 	call AnimateFailedMove
@@ -37,4 +37,4 @@ BattleCommand_LeechSeed:
 .evaded
 	call AnimateFailedMove
 	ld hl, EvadedText
-	jp StdBattleTextBox
+	jp StdBattleTextbox

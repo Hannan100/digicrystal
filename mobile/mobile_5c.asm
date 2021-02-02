@@ -37,7 +37,7 @@ Function170000:
 
 Function17005a:
 	ld a, $5
-	call GetSRAMBank
+	call OpenSRAM
 	ld a, [$a824]
 	ld [wOTTrademonSpecies], a
 	ld hl, $a827
@@ -75,7 +75,7 @@ INCLUDE "engine/events/battle_tower/battle_tower.asm"
 
 Function170be4:
 	ld a, $5
-	call GetSRAMBank
+	call OpenSRAM
 	xor a
 	ld hl, $a894
 	ld bc, $0008
@@ -85,7 +85,7 @@ Function170be4:
 
 Clears5_a89a:
 	ld a, $5
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, $a89a
 	xor a
 	ld [hli], a
@@ -93,9 +93,9 @@ Clears5_a89a:
 	call CloseSRAM
 	ret
 
-Function170c06:
+Function170c06: ; unreferenced
 	ld a, $5
-	call GetSRAMBank
+	call OpenSRAM
 	ld hl, $a894
 	ld a, [wBattleResult]
 	and a ; WIN?
@@ -121,10 +121,10 @@ Function170c06:
 	push hl
 	ld de, 0
 	xor a
-	ld [wd265], a
+	ld [wTempByteValue], a
 .asm_170c30
 	ld hl, wPartyMon1HP
-	ld a, [wd265]
+	ld a, [wTempByteValue]
 	call GetPartyLocation
 	ld a, [hli]
 	ld b, a
@@ -143,9 +143,9 @@ Function170c06:
 	push hl
 	pop de
 	jr c, .asm_170c58
-	ld a, [wd265]
+	ld a, [wTempByteValue]
 	inc a
-	ld [wd265], a
+	ld [wTempByteValue], a
 	cp $3
 	jr c, .asm_170c30
 	jr .asm_170c5b
@@ -242,28 +242,28 @@ CheckBTMonMovesForErrors:
 
 .done
 	pop hl
-	ld de, PARTYMON_STRUCT_LENGTH + MON_NAME_LENGTH
+	ld de, NICKNAMED_MON_STRUCT_LENGTH
 	add hl, de
 	dec c
 	jr nz, .loop
 	ret
 
 Function170cc6:
-	ld a, [rSVBK]
+	ldh a, [rSVBK]
 	push af
 	ld a, BANK(wDecompressScratch)
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	ld hl, PichuAnimatedMobileGFX
 	ld de, wDecompressScratch
 	call Decompress
 	ld a, 1
-	ld [rVBK], a
+	ldh [rVBK], a
 	ld de, wDecompressScratch
 	ld hl, vTiles0
 	lb bc, BANK(wDecompressScratch), 193
 	call Get2bpp
 	xor a
-	ld [rVBK], a
+	ldh [rVBK], a
 	ld hl, ElectroBallMobileGFX
 	ld de, wDecompressScratch
 	call Decompress
@@ -272,18 +272,18 @@ Function170cc6:
 	lb bc, BANK(wDecompressScratch), 83
 	call Get2bpp
 	pop af
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	ret
 
 Function170d02:
 	ld a, $1
-	ld [rVBK], a
-	ld de, GFX_171848
+	ldh [rVBK], a
+	ld de, PichuBorderMobileGFX
 	ld hl, vTiles0 tile $c1
-	lb bc, BANK(GFX_171848), 24
+	lb bc, BANK(PichuBorderMobileGFX), 24
 	call Get2bpp
 	xor a
-	ld [rVBK], a
+	ldh [rVBK], a
 	ret
 
 PichuAnimatedMobileGFX:
@@ -292,29 +292,29 @@ INCBIN "gfx/mobile/pichu_animated.2bpp.lz"
 ElectroBallMobileGFX:
 INCBIN "gfx/mobile/electro_ball.2bpp.lz"
 
-GFX_171848:
-INCBIN "gfx/unknown/171848.2bpp"
+PichuBorderMobileGFX:
+INCBIN "gfx/mobile/pichu_border.2bpp"
 
 Function1719c8:
-	ld a, [hInMenu]
+	ldh a, [hInMenu]
 	push af
 	ld a, $1
-	ld [hInMenu], a
+	ldh [hInMenu], a
 	call Function1719d6
 	pop af
-	ld [hInMenu], a
+	ldh [hInMenu], a
 	ret
 
 Function1719d6:
 	farcall BattleTowerRoomMenu_InitRAM
 	call Function1719ed
-	ld a, [rSVBK]
+	ldh a, [rSVBK]
 	push af
 	ld a, $5
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	call Function171a11
 	pop af
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	ret
 
 Function1719ed:
@@ -346,16 +346,7 @@ Function171a11:
 	ret
 
 Function171a36:
-	ld a, [wcd49]
-	ld e, a
-	ld d, 0
-	ld hl, Jumptable_171a45
-	add hl, de
-	add hl, de
-	ld a, [hli]
-	ld h, [hl]
-	ld l, a
-	jp hl
+	jumptable Jumptable_171a45, wcd49
 
 Jumptable_171a45:
 	dw Function171a95
@@ -382,20 +373,20 @@ Function171a5d:
 .asm_171a6a
 	ld a, $0
 	call Function3e32
-	ld [wc300], a
+	ld [wMobileErrorCodeBuffer], a
 	ld a, l
-	ld [wc301], a
+	ld [wMobileErrorCodeBuffer + 1], a
 	ld a, h
-	ld [wc302], a
+	ld [wMobileErrorCodeBuffer + 2], a
 	ld a, $a
 	call Function3e32
-	ld a, [rSVBK]
+	ldh a, [rSVBK]
 	push af
 	ld a, $1
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	farcall BattleTowerRoomMenu_Cleanup
 	pop af
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	ld a, $a
 	ld [wcd49], a
 	ret
@@ -431,13 +422,13 @@ Function171ad7:
 	jp Function171c66
 
 Function171aec:
-	ld a, [rSVBK]
+	ldh a, [rSVBK]
 	push af
 	ld a, $1
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	farcall BattleTowerRoomMenu_Cleanup
 	pop af
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	hlcoord 2, 6
 	ld a, $8
 .asm_171b01
@@ -493,24 +484,24 @@ Function171b42:
 Function171b4b:
 	depixel 8, 2
 	ld a, SPRITE_ANIM_INDEX_EZCHAT_CURSOR
-	call _InitSpriteAnimStruct
-	ld hl, SPRITEANIMSTRUCT_0C
+	call InitSpriteAnimStruct
+	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	ld a, $8
 	ld [hl], a
 
 	depixel 8, 19
 	ld a, SPRITE_ANIM_INDEX_EZCHAT_CURSOR
-	call _InitSpriteAnimStruct
-	ld hl, SPRITEANIMSTRUCT_0C
+	call InitSpriteAnimStruct
+	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	ld a, $9
 	ld [hl], a
 
 	depixel 17, 14, 2, 0
 	ld a, SPRITE_ANIM_INDEX_EZCHAT_CURSOR
-	call _InitSpriteAnimStruct
-	ld hl, SPRITEANIMSTRUCT_0C
+	call InitSpriteAnimStruct
+	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	ld a, $a
 	ld [hl], a
@@ -522,7 +513,7 @@ Function171b4b:
 	jp Function171c66
 
 Function171b85:
-	ld hl, hJoyPressed ; $ffa7
+	ld hl, hJoyPressed
 	ld a, [hl]
 	and $2
 	jp nz, Function171b9f
@@ -569,7 +560,7 @@ Function171bbd:
 	jp Function171c66
 
 Function171bcc:
-	ld hl, hJoyPressed ; $ffa7
+	ld hl, hJoyPressed
 	ld a, [hl]
 	and $2
 	jp nz, Function171bdc
@@ -589,7 +580,7 @@ Function171bdc:
 
 Function171beb:
 	ld a, $5
-	call GetSRAMBank
+	call OpenSRAM
 	ld a, [wcd4a]
 	ld [$aa4a], a
 	call CloseSRAM
@@ -659,20 +650,20 @@ String_171c73:
 
 Function171c87:
 	call DisableLCD
-	ld hl, GFX_171db1
+	ld hl, AsciiFontGFX
 	ld de, vTiles2 tile $00
 	ld bc, $6e0
 	call CopyBytes
-	ld hl, LZ_172abd
+	ld hl, PasswordSlowpokeLZ
 	ld de, vTiles0 tile $00
 	call Decompress
 	call EnableLCD
-	ld hl, Tilemap_172491
+	ld hl, PasswordTopTilemap
 	decoord 0, 0
 	ld bc, $168
 	call CopyBytes
-	ld hl, Attrmap_1727ed
-	decoord 0, 0, wAttrMap
+	ld hl, MobilePasswordAttrmap
+	decoord 0, 0, wAttrmap
 	ld bc, $168
 	call CopyBytes
 	hlcoord 3, 2
@@ -684,22 +675,22 @@ Function171c87:
 	ret
 
 Function171ccd:
-	ld a, [rSVBK]
+	ldh a, [rSVBK]
 	push af
 	ld a, $5
-	ld [rSVBK], a
-	ld hl, Palette_171d71
+	ldh [rSVBK], a
+	ld hl, MobilePasswordPalettes
 	ld de, wBGPals1
 	ld bc, 8 palettes
 	call CopyBytes
-	ld hl, wEngineBuffer5
-	ld a, $ff
+	ld hl, wOBPals1 palette 0 color 1
+	ld a, LOW(PALRGB_WHITE)
 	ld [hli], a
-	ld a, $7f
+	ld a, HIGH(PALRGB_WHITE)
 	ld [hl], a
 	call SetPalettes
 	pop af
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	ret
 
 Function171cf0:
@@ -711,8 +702,8 @@ Function171cf0:
 	xor $1
 	ld [wcd4b], a
 	and a
-	jr nz, .asm_171d16
-	ld hl, Tilemap_17251d
+	jr nz, .shifted
+	ld hl, PasswordBottomTilemap
 	decoord 0, 7
 	ld bc, $8c
 	call CopyBytes
@@ -720,8 +711,8 @@ Function171cf0:
 	ld de, String_172e3f
 	jp PlaceString
 
-.asm_171d16
-	ld hl, Tilemap_1725f9
+.shifted
+	ld hl, PasswordShiftTilemap
 	decoord 0, 7
 	ld bc, $8c
 	call CopyBytes
@@ -731,20 +722,20 @@ Function171cf0:
 
 Function171d2b:
 	call DisableLCD
-	ld hl, GFX_171db1
+	ld hl, AsciiFontGFX
 	ld de, vTiles2 tile $00
 	ld bc, $6e0
 	call CopyBytes
-	ld hl, LZ_172abd
+	ld hl, PasswordSlowpokeLZ
 	ld de, vTiles0 tile $00
 	call Decompress
 	call EnableLCD
-	ld hl, Tilemap_172685
+	ld hl, ChooseMobileCenterTilemap
 	decoord 0, 0
 	ld bc, $168
 	call CopyBytes
-	ld hl, Attrmap_172955
-	decoord 0, 0, wAttrMap
+	ld hl, ChooseMobileCenterAttrmap
+	decoord 0, 0, wAttrmap
 	ld bc, $168
 	call CopyBytes
 	hlcoord 2, 2
@@ -755,57 +746,31 @@ Function171d2b:
 	call PlaceString
 	ret
 
-Palette_171d71:
-	RGB  0,  0,  0
-	RGB  3,  0,  0
-	RGB  5,  0,  0
-	RGB 31, 31, 29
-	RGB  0,  2, 10
-	RGB  2, 10, 21
-	RGB  0,  0,  0
-	RGB 10, 26, 31
-	RGB  0,  0,  0
-	RGB  0,  7,  8
-	RGB 31,  8,  0
-	RGB  1, 17, 15
-	RGB 31, 16,  0
-	RGB 31, 22,  0
-	RGB 31, 27,  0
-	RGB 31, 31,  0
-	RGB 31, 18,  6
-	RGB  0,  3,  0
-	RGB  0,  9,  0
-	RGB  0, 12,  0
-	RGB  0, 16,  0
-	RGB  0, 22,  0
-	RGB  0, 25,  0
-	RGB  0, 27,  0
-	RGB  5,  5, 16
-	RGB  8, 19, 28
-	RGB  0,  0,  0
-	RGB 31, 31, 31
-	RGB 31, 31, 29
-	RGB 21, 21, 20
-	RGB 11, 11, 10
-	RGB  0,  0,  0
+MobilePasswordPalettes:
+INCLUDE "gfx/mobile/mobile_password.pal"
 
-GFX_171db1:
+AsciiFontGFX:
 INCBIN "gfx/mobile/ascii_font.2bpp"
 
-Tilemap_172491:
-INCBIN "gfx/unknown/172491.tilemap"
-Tilemap_17251d:
-INCBIN "gfx/unknown/17251d.tilemap"
-Tilemap_1725f9:
-INCBIN "gfx/unknown/1725f9.tilemap"
-Tilemap_172685:
-INCBIN "gfx/unknown/172685.tilemap"
-Attrmap_1727ed:
-INCBIN "gfx/unknown/1727ed.attrmap"
-Attrmap_172955:
-INCBIN "gfx/unknown/172955.attrmap"
+PasswordTopTilemap:
+INCBIN "gfx/mobile/password_top.tilemap"
 
-LZ_172abd:
+PasswordBottomTilemap:
+INCBIN "gfx/mobile/password_bottom.tilemap"
+
+PasswordShiftTilemap:
+INCBIN "gfx/mobile/password_shift.tilemap"
+
+ChooseMobileCenterTilemap:
+INCBIN "gfx/mobile/mobile_center.tilemap"
+
+MobilePasswordAttrmap:
+INCBIN "gfx/mobile/password.attrmap"
+
+ChooseMobileCenterAttrmap:
+INCBIN "gfx/mobile/mobile_center.attrmap"
+
+PasswordSlowpokeLZ:
 INCBIN "gfx/pokedex/slowpoke.2bpp.lz"
 
 String_172e31:
@@ -826,30 +791,30 @@ Function172e78:
 	ld bc, $168
 	call ByteFill
 	ld a, $7
-	hlcoord 0, 0, wAttrMap
+	hlcoord 0, 0, wAttrmap
 	ld bc, $168
 	call ByteFill
 	call DisableLCD
-	ld hl, GameBoyN64GFX
+	ld hl, Stadium2N64GFX
 	ld de, vTiles2 tile $00
 	ld bc, $610
 	call CopyBytes
 	call EnableLCD
-	ld hl, Tilemap_1733af
+	ld hl, Stadium2N64Tilemap
 	decoord 0, 0
 	ld bc, $168
 	call CopyBytes
-	ld hl, Attrmap_173517
-	decoord 0, 0, wAttrMap
+	ld hl, Stadium2N64Attrmap
+	decoord 0, 0, wAttrmap
 	ld bc, $168
 	call CopyBytes
 	ret
 
 Function172eb9:
-	ld a, [rSVBK]
+	ldh a, [rSVBK]
 	push af
 	ld a, $5
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	ld hl, Palette_172edf
 	ld de, wBGPals1
 	ld bc, 8 palettes
@@ -860,7 +825,7 @@ Function172eb9:
 	call CopyBytes
 	call SetPalettes
 	pop af
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	ret
 
 Palette_172edf:
@@ -897,15 +862,17 @@ Palette_172edf:
 	RGB  0,  0,  0
 	RGB  0,  0,  0
 
-GameBoyN64GFX:
-INCBIN "gfx/trade/game_boy_n64.2bpp"
+Stadium2N64GFX:
+INCBIN "gfx/mobile/stadium2_n64.2bpp"
 
-Tilemap_1733af:
+Stadium2N64Tilemap:
 if DEF(_CRYSTAL11)
-INCBIN "gfx/unknown/1733af_corrupt.tilemap"
+; Crystal 1.1 corrupted this tilemap by treating $0a bytes as Unix newlines,
+; and converting them to $0d $0a Windows newlines.
+INCBIN "gfx/mobile/stadium2_n64_corrupt.tilemap"
 else
-INCBIN "gfx/unknown/1733af.tilemap"
+INCBIN "gfx/mobile/stadium2_n64.tilemap"
 endc
 
-Attrmap_173517:
-INCBIN "gfx/unknown/173517.attrmap"
+Stadium2N64Attrmap:
+INCBIN "gfx/mobile/stadium2_n64.attrmap"

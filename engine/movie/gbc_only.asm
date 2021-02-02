@@ -1,22 +1,22 @@
 GBCOnlyScreen:
-	ld a, [hCGB]
+	ldh a, [hCGB]
 	and a
 	ret nz
 
 	ld de, MUSIC_NONE
 	call PlayMusic
 
-	call ClearTileMap
+	call ClearTilemap
 
 	ld hl, GBCOnlyGFX
 	ld de, wGBCOnlyDecompressBuffer
-	ld a, [rSVBK]
+	ldh a, [rSVBK]
 	push af
 	ld a, 0 ; this has the same effect as selecting bank 1
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	call Decompress
 	pop af
-	ld [rSVBK], a
+	ldh [rSVBK], a
 
 	ld de, wGBCOnlyDecompressBuffer
 	ld hl, vTiles2

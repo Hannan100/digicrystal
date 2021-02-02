@@ -27,14 +27,14 @@ BattleCommand_Sketch:
 	ld e, l
 ; Get the battle move structs.
 	ld hl, wBattleMonMoves
-	ld a, [hBattleTurn]
+	ldh a, [hBattleTurn]
 	and a
 	jr z, .get_last_move
 	ld hl, wEnemyMonMoves
 .get_last_move
 	ld a, BATTLE_VARS_LAST_COUNTER_MOVE_OPP
 	call GetBattleVar
-	ld [wTypeMatchup], a
+	ld [wNamedObjectIndex], a
 	ld b, a
 ; Fail if move is invalid or is Struggle.
 	and a
@@ -74,7 +74,7 @@ BattleCommand_Sketch:
 	ld [hl], a
 	pop bc
 
-	ld a, [hBattleTurn]
+	ldh a, [hBattleTurn]
 	and a
 	jr z, .user_trainer
 	ld a, [wBattleMode]
@@ -110,7 +110,7 @@ BattleCommand_Sketch:
 	call AnimateCurrentMove
 
 	ld hl, SketchedText
-	jp StdBattleTextBox
+	jp StdBattleTextbox
 
 .fail
 	call AnimateFailedMove

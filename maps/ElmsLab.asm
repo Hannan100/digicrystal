@@ -1,4 +1,4 @@
-	const_def 2 ; object constants
+	object_const_def
 	const ELMSLAB_ELM
 	const ELMSLAB_ELMS_AIDE
 	const ELMSLAB_POKE_BALL1
@@ -7,7 +7,7 @@
 	const ELMSLAB_OFFICER
 
 ElmsLab_MapScripts:
-	db 6 ; scene scripts
+	def_scene_scripts
 	scene_script .MeetElm ; SCENE_DEFAULT
 	scene_script .DummyScene1 ; SCENE_ELMSLAB_CANT_LEAVE
 	scene_script .DummyScene2 ; SCENE_ELMSLAB_NOTHING
@@ -15,11 +15,11 @@ ElmsLab_MapScripts:
 	scene_script .DummyScene4 ; SCENE_ELMSLAB_UNUSED
 	scene_script .DummyScene5 ; SCENE_ELMSLAB_AIDE_GIVES_POTION
 
-	db 1 ; callbacks
+	def_callbacks
 	callback MAPCALLBACK_OBJECTS, .MoveElmCallback
 
 .MeetElm:
-	priorityjump .WalkUpToElm
+	prioritysjump .WalkUpToElm
 	end
 
 .DummyScene1:
@@ -42,7 +42,7 @@ ElmsLab_MapScripts:
 	iftrue .Skip ; not SCENE_DEFAULT
 	moveobject ELMSLAB_ELM, 3, 4
 .Skip:
-	return
+	endcallback
 
 .WalkUpToElm:
 	applymovement PLAYER, ElmsLab_WalkUpToElmMovement
@@ -54,11 +54,11 @@ ElmsLab_MapScripts:
 	yesorno
 	iftrue .ElmGetsEmail
 	writetext ElmText_Refused
-	jump .MustSayYes
+	sjump .MustSayYes
 
 .ElmGetsEmail:
 	writetext ElmText_Accepted
-	buttonsound
+	promptbutton
 	writetext ElmText_ResearchAmbitions
 	waitbutton
 	closetext
@@ -103,6 +103,7 @@ ElmCheckEverstone:
 	iftrue ElmScript_CallYou
 	checkevent EVENT_SHOWED_DEMIVEEMON_TO_ELM
 	iftrue ElmGiveEverstoneScript
+<<<<<<< HEAD
 	checkevent EVENT_TOLD_ELM_ABOUT_DEMIVEEMON_OVER_THE_PHONE
 	iffalse ElmCheckDemiveemonEgg
 	writebyte DEMIVEEMON
@@ -112,11 +113,23 @@ ElmCheckEverstone:
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmDemiveemonScript
 	writetext UnknownText_0x79a40
+=======
+	checkevent EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE
+	iffalse ElmCheckTogepiEgg
+	setval TOGEPI
+	special FindPartyMonThatSpeciesYourTrainerID
+	iftrue ShowElmTogepiScript
+	setval TOGETIC
+	special FindPartyMonThatSpeciesYourTrainerID
+	iftrue ShowElmTogepiScript
+	writetext ElmThoughtEggHatchedText
+>>>>>>> pret/master
 	waitbutton
 	closetext
 	end
 
 ElmEggHatchedScript:
+<<<<<<< HEAD
 	writebyte DEMIVEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmDemiveemonScript
@@ -124,6 +137,15 @@ ElmEggHatchedScript:
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmDemiveemonScript
 	jump ElmCheckGotEggAgain
+=======
+	setval TOGEPI
+	special FindPartyMonThatSpeciesYourTrainerID
+	iftrue ShowElmTogepiScript
+	setval TOGETIC
+	special FindPartyMonThatSpeciesYourTrainerID
+	iftrue ShowElmTogepiScript
+	sjump ElmCheckGotEggAgain
+>>>>>>> pret/master
 
 ElmCheckDemiveemonEgg:
 	checkevent EVENT_GOT_DEMIVEEMON_EGG_FROM_ELMS_AIDE
@@ -171,19 +193,33 @@ KoromonPokeBallScript:
 	disappear ELMSLAB_POKE_BALL1
 	setevent EVENT_GOT_KOROMON_FROM_ELM
 	writetext ChoseStarterText
-	buttonsound
+	promptbutton
 	waitsfx
+<<<<<<< HEAD
 	pokenamemem KOROMON, MEM_BUFFER_0
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
 	givepoke KOROMON, 5, BERRY
+=======
+	getmonname STRING_BUFFER_3, CYNDAQUIL
+	writetext ReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke CYNDAQUIL, 5, BERRY
+>>>>>>> pret/master
 	closetext
-	checkcode VAR_FACING
+	readvar VAR_FACING
 	ifequal RIGHT, ElmDirectionsScript
+<<<<<<< HEAD
 	applymovement PLAYER, AfterKoromonMovement
 	jump ElmDirectionsScript
+=======
+	applymovement PLAYER, AfterCyndaquilMovement
+	sjump ElmDirectionsScript
+>>>>>>> pret/master
 
 BukamonPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
@@ -201,8 +237,9 @@ BukamonPokeBallScript:
 	disappear ELMSLAB_POKE_BALL2
 	setevent EVENT_GOT_BUKAMON_FROM_ELM
 	writetext ChoseStarterText
-	buttonsound
+	promptbutton
 	waitsfx
+<<<<<<< HEAD
 	pokenamemem BUKAMON, MEM_BUFFER_0
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
@@ -212,6 +249,17 @@ BukamonPokeBallScript:
 	closetext
 	applymovement PLAYER, AfterBukamonMovement
 	jump ElmDirectionsScript
+=======
+	getmonname STRING_BUFFER_3, TOTODILE
+	writetext ReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke TOTODILE, 5, BERRY
+	closetext
+	applymovement PLAYER, AfterTotodileMovement
+	sjump ElmDirectionsScript
+>>>>>>> pret/master
 
 TanemonPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
@@ -229,8 +277,9 @@ TanemonPokeBallScript:
 	disappear ELMSLAB_POKE_BALL3
 	setevent EVENT_GOT_TANEMON_FROM_ELM
 	writetext ChoseStarterText
-	buttonsound
+	promptbutton
 	waitsfx
+<<<<<<< HEAD
 	pokenamemem TANEMON, MEM_BUFFER_0
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
@@ -240,6 +289,17 @@ TanemonPokeBallScript:
 	closetext
 	applymovement PLAYER, AfterTanemonMovement
 	jump ElmDirectionsScript
+=======
+	getmonname STRING_BUFFER_3, CHIKORITA
+	writetext ReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke CHIKORITA, 5, BERRY
+	closetext
+	applymovement PLAYER, AfterChikoritaMovement
+	sjump ElmDirectionsScript
+>>>>>>> pret/master
 
 DidntChooseStarterScript:
 	writetext DidntChooseStarterText
@@ -309,7 +369,7 @@ ElmsLabHealingMachine_HealParty:
 	special StubbedTrainerRankings_Healings
 	special HealParty
 	playmusic MUSIC_NONE
-	writebyte HEALMACHINE_ELMS_LAB
+	setval HEALMACHINE_ELMS_LAB
 	special HealMachineAnim
 	pause 30
 	special RestartMapMusic
@@ -325,7 +385,7 @@ ElmAfterTheftScript:
 	writetext ElmAfterTheftText1
 	checkitem MYSTERY_EGG
 	iffalse ElmAfterTheftDoneScript
-	buttonsound
+	promptbutton
 	writetext ElmAfterTheftText2
 	waitbutton
 	takeitem MYSTERY_EGG
@@ -334,9 +394,9 @@ ElmAfterTheftScript:
 	waitbutton
 	scall ElmJumpBackScript2
 	writetext ElmAfterTheftText4
-	buttonsound
+	promptbutton
 	writetext ElmAfterTheftText5
-	buttonsound
+	promptbutton
 	setevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	setflag ENGINE_MAIN_MENU_MOBILE_CHOICES
 	setmapscene ROUTE_29, SCENE_ROUTE29_CATCH_TUTORIAL
@@ -373,13 +433,20 @@ ShowElmDemiveemonScript:
 	showemote EMOTE_SHOCK, ELMSLAB_ELM, 15
 	setevent EVENT_SHOWED_DEMIVEEMON_TO_ELM
 	opentext
+<<<<<<< HEAD
 	writetext ShowElmDemiveemonText2
 	buttonsound
 	writetext ShowElmDemiveemonText3
 	buttonsound
+=======
+	writetext ShowElmTogepiText2
+	promptbutton
+	writetext ShowElmTogepiText3
+	promptbutton
+>>>>>>> pret/master
 ElmGiveEverstoneScript:
 	writetext ElmGiveEverstoneText1
-	buttonsound
+	promptbutton
 	verbosegiveitem EVERSTONE
 	iffalse ElmScript_NoRoomForEverstone
 	writetext ElmGiveEverstoneText2
@@ -397,7 +464,7 @@ ElmScript_NoRoomForEverstone:
 
 ElmGiveMasterBallScript:
 	writetext ElmGiveMasterBallText1
-	buttonsound
+	promptbutton
 	verbosegiveitem MASTER_BALL
 	iffalse .notdone
 	setevent EVENT_GOT_MASTER_BALL_FROM_ELM
@@ -409,7 +476,7 @@ ElmGiveMasterBallScript:
 
 ElmGiveTicketScript:
 	writetext ElmGiveTicketText1
-	buttonsound
+	promptbutton
 	verbosegiveitem S_S_TICKET
 	setevent EVENT_GOT_SS_TICKET_FROM_ELM
 	writetext ElmGiveTicketText2
@@ -419,7 +486,7 @@ ElmGiveTicketScript:
 
 ElmJumpBackScript1:
 	closetext
-	checkcode VAR_FACING
+	readvar VAR_FACING
 	ifequal DOWN, ElmJumpDownScript
 	ifequal UP, ElmJumpUpScript
 	ifequal LEFT, ElmJumpLeftScript
@@ -428,7 +495,7 @@ ElmJumpBackScript1:
 
 ElmJumpBackScript2:
 	closetext
-	checkcode VAR_FACING
+	readvar VAR_FACING
 	ifequal DOWN, ElmJumpUpScript
 	ifequal UP, ElmJumpDownScript
 	ifequal LEFT, ElmJumpRightScript
@@ -472,7 +539,7 @@ AideScript_WalkPotion2:
 AideScript_GivePotion:
 	opentext
 	writetext AideText_GiveYouPotion
-	buttonsound
+	promptbutton
 	verbosegiveitem POTION
 	writetext AideText_AlwaysBusy
 	waitbutton
@@ -497,19 +564,19 @@ AideScript_WalkBalls2:
 AideScript_GiveYouBalls:
 	opentext
 	writetext AideText_GiveYouBalls
-	buttonsound
-	itemtotext POKE_BALL, MEM_BUFFER_1
+	promptbutton
+	getitemname STRING_BUFFER_4, POKE_BALL
 	scall AideScript_ReceiveTheBalls
 	giveitem POKE_BALL, 5
 	writetext AideText_ExplainBalls
-	buttonsound
+	promptbutton
 	itemnotify
 	closetext
 	setscene SCENE_ELMSLAB_NOTHING
 	end
 
 AideScript_ReceiveTheBalls:
-	jumpstd receiveitem
+	jumpstd ReceiveItemScript
 	end
 
 ElmsAideScript:
@@ -553,7 +620,7 @@ CopScript:
 	turnobject ELMSLAB_OFFICER, LEFT
 	opentext
 	writetext ElmsLabOfficerText1
-	buttonsound
+	promptbutton
 	special NameRival
 	writetext ElmsLabOfficerText2
 	waitbutton
@@ -569,7 +636,7 @@ ElmsLabWindow:
 	iftrue .Normal
 	checkevent EVENT_ELM_CALLED_ABOUT_STOLEN_POKEMON
 	iftrue .BreakIn
-	jump .Normal
+	sjump .Normal
 
 .BreakIn:
 	writetext ElmsLabWindowText2
@@ -601,12 +668,11 @@ ElmsLabTrashcan:
 ElmsLabPC:
 	jumptext ElmsLabPCText
 
-ElmsLabTrashcan2:
-; unused
-	jumpstd trashcan
+ElmsLabTrashcan2: ; unreferenced
+	jumpstd TrashCanScript
 
 ElmsLabBookshelf:
-	jumpstd difficultbookshelf
+	jumpstd DifficultBookshelfScript
 
 ElmsLab_WalkUpToElmMovement:
 	step UP
@@ -891,7 +957,7 @@ ChoseStarterText:
 ReceivedStarterText:
 	text "<PLAYER> received"
 	line "@"
-	text_from_ram wStringBuffer3
+	text_ram wStringBuffer3
 	text "!"
 	done
 
@@ -1064,7 +1130,7 @@ ElmWaitingEggHatchText:
 	line "EGG changed any?"
 	done
 
-UnknownText_0x79a40:
+ElmThoughtEggHatchedText:
 	text "<PLAY_G>? I thought"
 	line "the EGG hatched."
 
@@ -1209,7 +1275,7 @@ ElmGiveTicketText2:
 	line "PROF.OAK in KANTO!"
 	done
 
-ElmsLabSignpostText_Egg:
+ElmsLabMonEggText: ; unreferenced
 	text "It's the #MON"
 	line "EGG being studied"
 	cont "by PROF.ELM."
@@ -1371,11 +1437,11 @@ ElmsLabPCText:
 ElmsLab_MapEvents:
 	db 0, 0 ; filler
 
-	db 2 ; warp events
+	def_warp_events
 	warp_event  4, 11, NEW_BARK_TOWN, 1
 	warp_event  5, 11, NEW_BARK_TOWN, 1
 
-	db 8 ; coord events
+	def_coord_events
 	coord_event  4,  6, SCENE_ELMSLAB_CANT_LEAVE, LabTryToLeaveScript
 	coord_event  5,  6, SCENE_ELMSLAB_CANT_LEAVE, LabTryToLeaveScript
 	coord_event  4,  5, SCENE_ELMSLAB_MEET_OFFICER, MeetCopScript
@@ -1385,7 +1451,7 @@ ElmsLab_MapEvents:
 	coord_event  4,  8, SCENE_ELMSLAB_AIDE_GIVES_POKE_BALLS, AideScript_WalkBalls1
 	coord_event  5,  8, SCENE_ELMSLAB_AIDE_GIVES_POKE_BALLS, AideScript_WalkBalls2
 
-	db 16 ; bg events
+	def_bg_events
 	bg_event  2,  1, BGEVENT_READ, ElmsLabHealingMachine
 	bg_event  6,  1, BGEVENT_READ, ElmsLabBookshelf
 	bg_event  7,  1, BGEVENT_READ, ElmsLabBookshelf
@@ -1403,7 +1469,7 @@ ElmsLab_MapEvents:
 	bg_event  5,  0, BGEVENT_READ, ElmsLabWindow
 	bg_event  3,  5, BGEVENT_DOWN, ElmsLabPC
 
-	db 6 ; object events
+	def_object_events
 	object_event  5,  2, SPRITE_ELM, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfElmScript, -1
 	object_event  2,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ElmsAideScript, EVENT_ELMS_AIDE_IN_LAB
 	object_event  6,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, KoromonPokeBallScript, EVENT_KOROMON_POKEBALL_IN_ELMS_LAB

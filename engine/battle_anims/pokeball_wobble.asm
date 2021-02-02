@@ -4,16 +4,16 @@ GetPokeBallWobble:
 
 	push de
 
-	ld a, [rSVBK]
+	ldh a, [rSVBK]
 	ld d, a
 	push de
 
-	ld a, BANK(wBuffer2)
-	ld [rSVBK], a
+	ld a, BANK(wThrownBallWobbleCount) ; aka BANK(wFinalCatchRate)
+	ldh [rSVBK], a
 
-	ld a, [wBuffer2]
+	ld a, [wThrownBallWobbleCount]
 	inc a
-	ld [wBuffer2], a
+	ld [wThrownBallWobbleCount], a
 
 ; Wobble up to 3 times.
 	cp 3 + 1
@@ -25,7 +25,7 @@ GetPokeBallWobble:
 	jr nz, .done
 
 	ld hl, WobbleProbabilities
-	ld a, [wBuffer1]
+	ld a, [wFinalCatchRate]
 	ld b, a
 .loop
 	ld a, [hli]
@@ -54,7 +54,7 @@ GetPokeBallWobble:
 	pop de
 	ld e, a
 	ld a, d
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	ld a, e
 	pop de
 	ret

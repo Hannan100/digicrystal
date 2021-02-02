@@ -45,8 +45,8 @@ InitMobileProfile:
 	ld [wMusicFadeID + 1], a
 	ld c, 20
 	call DelayFrames
-	ld b, $1
-	call GetMysteryGift_MobileAdapterLayout
+	ld b, CRYSTAL_CGB_MOBILE_1
+	call GetCrystalCGBLayout
 	call ClearBGPalettes
 	hlcoord 0, 0
 	ld b,  2
@@ -107,7 +107,7 @@ InitMobileProfile:
 	hlcoord 0, 14
 	ld b, $2
 	ld c, $12
-	call TextBox
+	call Textbox
 	hlcoord 1, 16
 	ld de, MobileString_PersonalInfo
 	call PlaceString
@@ -144,7 +144,7 @@ asm_4815f:
 	call ClearBGPalettes
 	call Function48d30
 	pop bc
-	call ClearTileMap
+	call ClearTilemap
 	ld a, $ff
 	ret
 
@@ -254,7 +254,7 @@ Function4820d:
 	call ClearBGPalettes
 	call Function48d30
 	pop bc
-	call ClearTileMap
+	call ClearTilemap
 	ld b, SCGB_DIPLOMA
 	call GetSGBLayout
 	ld hl, wd479
@@ -295,7 +295,7 @@ asm_4828d:
 	call WaitBGMap
 	ld a, [wPlayerGender]
 	inc a
-	ld [wMenuCursorBuffer], a
+	ld [wMenuCursorPosition], a
 	call StaticMenuJoypad
 	call PlayClickSFX
 	call ExitMenu
@@ -339,7 +339,7 @@ Function48304:
 	ld b, $c
 	ld c, $8
 	call Function48cdc
-	ld a, [wMenuCursorBuffer]
+	ld a, [wMenuCursorPosition]
 	ld b, a
 	ld a, [wMenuScrollPosition]
 	ld c, a
@@ -350,11 +350,11 @@ Function48304:
 	jr c, .asm_4833f
 	sub $29
 	inc a
-	ld [wMenuCursorBuffer], a
+	ld [wMenuCursorPosition], a
 	ld a, $29
 .asm_4833f
 	ld [wMenuScrollPosition], a
-	farcall Mobile_OpenAndCloseMenu_HDMATransferTileMapAndAttrMap
+	farcall Mobile_OpenAndCloseMenu_HDMATransferTilemapAndAttrmap
 .asm_48348
 	call ScrollingMenu
 	ld de, $629
@@ -363,7 +363,7 @@ Function48304:
 	ld d, a
 	pop bc
 	ld a, b
-	ld [wMenuCursorBuffer], a
+	ld [wMenuCursorPosition], a
 	ld a, c
 	ld [wMenuScrollPosition], a
 	ld a, d
@@ -371,7 +371,7 @@ Function48304:
 	call ExitMenu
 	call ExitMenu
 	pop af
-	ld a, [hJoyPressed]
+	ldh a, [hJoyPressed]
 	bit 0, a
 	jr z, .asm_48377
 	call Function483bb
@@ -380,7 +380,7 @@ Function48304:
 	ld [wd003], a
 .asm_48377
 	call Function48187
-	farcall Mobile_OpenAndCloseMenu_HDMATransferTileMapAndAttrMap
+	farcall Mobile_OpenAndCloseMenu_HDMATransferTilemapAndAttrmap
 	jp Function4840c
 
 Function48383:
@@ -412,7 +412,7 @@ Function48383:
 .asm_483af
 	ld hl, wMenuCursorY
 	ld a, [hl]
-	ld [wMenuCursorBuffer], a
+	ld [wMenuCursorPosition], a
 	scf
 .asm_483b7
 	pop bc
@@ -584,13 +584,21 @@ MenuHeader_0x48513:
 
 MenuData_0x4851b:
 	db SCROLLINGMENU_DISPLAY_ARROWS | SCROLLINGMENU_ENABLE_RIGHT | SCROLLINGMENU_ENABLE_LEFT | SCROLLINGMENU_CALL_FUNCTION1_CANCEL ; flags
-	db 6 ; items
+	db 6, 0 ; rows, columns
+	db SCROLLINGMENU_ITEMS_NORMAL ; item format
+	dba .Items
+	dba Function483e8
+	dba NULL
+	dba NULL
 
-Unknown_4851d:
-	db $00, $01, $12, $2b, $45, $12, $e8, $43, $00, $00, $00, $00, $00, $00, $2e, $00, $01, $02, $03, $04
-	db $05, $06, $07, $08, $09, $0a, $0b, $0c, $0d, $0e, $0f, $10, $11, $12, $13, $14, $15, $16, $17, $18
-	db $19, $1a, $1b, $1c, $1d, $1e, $1f, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $2a, $2b, $2c
-	db $2d, $ff
+.Items:
+	db 46
+x = 0
+rept 46
+	db x
+x = x + 1
+endr
+	db -1
 
 Prefectures:
 Aichi:     db "あいちけん@"   ; Aichi
@@ -644,8 +652,8 @@ Wakayama:  db "わかやまけん@" ; Wakayama
 Function48689:
 	ld c, 7
 	call DelayFrames
-	ld b, $1
-	call GetMysteryGift_MobileAdapterLayout
+	ld b, CRYSTAL_CGB_MOBILE_1
+	call GetCrystalCGBLayout
 	call ClearBGPalettes
 	hlcoord 0, 0
 	ld b, 4
@@ -812,10 +820,10 @@ Function4876f:
 	call PlaceString
 	ld hl, MenuHeader_0x48509
 	call LoadMenuHeader
-	ld a, [hInMenu]
+	ldh a, [hInMenu]
 	push af
 	ld a, $1
-	ld [hInMenu], a
+	ldh [hInMenu], a
 	hlcoord 10, 5
 	ld b, $1
 	ld c, $8
@@ -861,7 +869,7 @@ Function4876f:
 	hlcoord 11, 6
 	call Function487ec
 	pop af
-	ld [hInMenu], a
+	ldh [hInMenu], a
 	jp Function4840c
 
 Function487ec:
@@ -891,10 +899,10 @@ String_4880d:
 	db "@"
 
 Function4880e:
-	ld a, [hJoyPressed]
+	ldh a, [hJoyPressed]
 	and A_BUTTON
 	jp nz, Function488b9
-	ld a, [hJoyPressed]
+	ldh a, [hJoyPressed]
 	and B_BUTTON
 	jp nz, Function488b4
 	ld hl, hJoyLast
@@ -998,10 +1006,10 @@ Function488b9:
 	ret
 
 MobileUpArrowGFX:
-INCBIN "gfx/mobile/up_arrow.2bpp"
+INCBIN "gfx/mobile/up_arrow.1bpp"
 
 MobileDownArrowGFX:
-INCBIN "gfx/mobile/down_arrow.2bpp"
+INCBIN "gfx/mobile/down_arrow.1bpp"
 
 Function488d3:
 	call Function48283
@@ -1012,10 +1020,10 @@ Function488d3:
 	jp c, Function4840c
 	ld hl, MenuHeader_0x4850e
 	call LoadMenuHeader
-	ld a, [hInMenu]
+	ldh a, [hInMenu]
 	push af
 	ld a, $1
-	ld [hInMenu], a
+	ldh [hInMenu], a
 	hlcoord 10, 9
 	ld b, $1
 	ld c, $8
@@ -1042,7 +1050,7 @@ Function488d3:
 asm_48922:
 	push bc
 	call JoyTextDelay
-	ld a, [hJoyDown]
+	ldh a, [hJoyDown]
 	and a
 	jp z, Function4896e
 	bit 0, a
@@ -1072,8 +1080,8 @@ asm_48922:
 	call DelayFrames
 	jr asm_48972
 
-Function4895a:
-	ld a, [hJoyPressed]
+Function4895a: ; unreferenced
+	ldh a, [hJoyPressed]
 	and a
 	jr z, .asm_48965
 	pop bc
@@ -1082,7 +1090,7 @@ Function4895a:
 	jr asm_48972
 
 .asm_48965
-	ld a, [hJoyLast]
+	ldh a, [hJoyLast]
 	and a
 	jr z, asm_48972
 
@@ -1159,7 +1167,7 @@ asm_48972:
 	lb bc, 1, 8
 	call ClearBox
 	pop af
-	ld [hInMenu], a
+	ldh [hInMenu], a
 	jp Function4840c
 
 Function489ea:
@@ -1258,10 +1266,10 @@ String_48aa1:
 	next "Tell Later@"
 
 Function48ab5:
-	ld a, [hJoyPressed]
+	ldh a, [hJoyPressed]
 	and A_BUTTON
 	jp nz, Function48c0f
-	ld a, [hJoyPressed]
+	ldh a, [hJoyPressed]
 	and B_BUTTON
 	jp nz, Function48c0d
 	ld a, d
@@ -1590,7 +1598,7 @@ Function48c63:
 	scf
 	ret
 
-Unreferenced_Function48c8e:
+Function48c8e: ; unreferenced
 	ld hl, wd019 + $11
 	ld d, h
 	ld e, l
@@ -1600,7 +1608,7 @@ Unreferenced_Function48c8e:
 	call WaitBGMap
 	ret
 
-Function48ca3:
+Function48ca3: ; unreferenced
 	push af
 	push bc
 	push de
@@ -1654,7 +1662,7 @@ Function48cdc:
 	call Function48cfd
 	pop hl
 	pop bc
-	ld de, wAttrMap - wTileMap
+	ld de, wAttrmap - wTilemap
 	add hl, de
 	inc b
 	inc b
@@ -1746,8 +1754,8 @@ Function48d4a:
 	add c
 	ld [hld], a
 	xor a
-	ld [hMultiplicand + 0], a
-	ld [hMultiplicand + 1], a
+	ldh [hMultiplicand + 0], a
+	ldh [hMultiplicand + 1], a
 	ld a, [hl]
 	srl a
 	srl a
@@ -1759,13 +1767,13 @@ Function48d4a:
 	ld a, [hli]
 	and $f
 	add b
-	ld [hMultiplicand + 2], a
+	ldh [hMultiplicand + 2], a
 	ld a, 100
-	ld [hMultiplier], a
+	ldh [hMultiplier], a
 	call Multiply
-	ld a, [hProduct + 2]
+	ldh a, [hProduct + 2]
 	ld b, a
-	ld a, [hProduct + 3]
+	ldh a, [hProduct + 3]
 	ld c, a
 	ld e, [hl]
 	add e
@@ -1780,17 +1788,17 @@ Function48d4a:
 
 Function48d94:
 	xor a
-	ld [hDividend + 0], a
-	ld [hDividend + 1], a
+	ldh [hDividend + 0], a
+	ldh [hDividend + 1], a
 	ld a, [hli]
-	ld [hDividend + 0], a
+	ldh [hDividend + 0], a
 	ld a, [hl]
-	ld [hDividend + 1], a
+	ldh [hDividend + 1], a
 	ld a, 100
-	ld [hDivisor], a
+	ldh [hDivisor], a
 	ld b, 2
 	call Divide
-	ld a, [hRemainder]
+	ldh a, [hRemainder]
 	ld c, 10
 	call SimpleDivide
 	sla b
@@ -1799,7 +1807,7 @@ Function48d94:
 	sla b
 	or b
 	ld [hld], a
-	ld a, [hQuotient + 2]
+	ldh a, [hQuotient + 3]
 	ld c, 10
 	call SimpleDivide
 	sla b

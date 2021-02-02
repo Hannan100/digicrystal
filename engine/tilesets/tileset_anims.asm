@@ -2,17 +2,17 @@ _AnimateTileset::
 ; Iterate over a given pointer array of
 ; animation functions (one per frame).
 
-; Typically in wra1, vra0
+; Typically in WRAM bank 1, VRAM bank 0.
 
 	ld a, [wTilesetAnim]
 	ld e, a
 	ld a, [wTilesetAnim + 1]
 	ld d, a
 
-	ld a, [hTileAnimFrame]
+	ldh a, [hTileAnimFrame]
 	ld l, a
 	inc a
-	ld [hTileAnimFrame], a
+	ldh [hTileAnimFrame], a
 
 	ld h, 0
 	add hl, hl
@@ -90,7 +90,8 @@ TilesetJohtoAnim:
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
-UnusedTilesetAnim_fc0d7:
+UnusedTilesetAnim1: ; unreferenced
+; Scrolls tile $03 like water, but also has the standard $03 flower tile.
 	dw vTiles2 tile $03, WriteTileToBuffer
 	dw wTileAnimBuffer, ScrollTileRightLeft
 	dw vTiles2 tile $03, WriteTileFromBuffer
@@ -103,7 +104,8 @@ UnusedTilesetAnim_fc0d7:
 	dw NULL,  WaitTileAnimation
 	dw NULL,  DoneTileAnimation
 
-UnusedTilesetAnim_fc103:
+UnusedTilesetAnim2: ; unreferenced
+; Scrolls tile $14 like cave water.
 	dw vTiles2 tile $14, WriteTileToBuffer
 	dw wTileAnimBuffer, ScrollTileRightLeft
 	dw vTiles2 tile $14, WriteTileFromBuffer
@@ -140,7 +142,8 @@ TilesetEliteFourRoomAnim:
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
-UnusedTilesetAnim_fc17f:
+UnusedTilesetAnim3: ; unreferenced
+; Scrolls tile $53 like a waterfall; scrolls tile $03 like cave water.
 	dw vTiles2 tile $53, WriteTileToBuffer
 	dw wTileAnimBuffer, ScrollTileDown
 	dw wTileAnimBuffer, ScrollTileDown
@@ -154,7 +157,8 @@ UnusedTilesetAnim_fc17f:
 	dw vTiles2 tile $53, WriteTileFromBuffer
 	dw NULL,  DoneTileAnimation
 
-UnusedTilesetAnim_fc1af:
+UnusedTilesetAnim4: ; unreferenced
+; Scrolls tile $54 like a waterfall; scrolls tile $03 like cave water.
 	dw vTiles2 tile $54, WriteTileToBuffer
 	dw wTileAnimBuffer, ScrollTileDown
 	dw wTileAnimBuffer, ScrollTileDown
@@ -214,16 +218,16 @@ TilesetIcePathAnim:
 	dw NULL,  DoneTileAnimation
 
 TilesetTowerAnim:
-	dw TowerPillarTilePointer9,  AnimateTowerPillarTile
+	dw TowerPillarTilePointer9, AnimateTowerPillarTile
 	dw TowerPillarTilePointer10, AnimateTowerPillarTile
-	dw TowerPillarTilePointer7,  AnimateTowerPillarTile
-	dw TowerPillarTilePointer8,  AnimateTowerPillarTile
-	dw TowerPillarTilePointer5,  AnimateTowerPillarTile
-	dw TowerPillarTilePointer6,  AnimateTowerPillarTile
-	dw TowerPillarTilePointer3,  AnimateTowerPillarTile
-	dw TowerPillarTilePointer4,  AnimateTowerPillarTile
-	dw TowerPillarTilePointer1,  AnimateTowerPillarTile
-	dw TowerPillarTilePointer2,  AnimateTowerPillarTile
+	dw TowerPillarTilePointer7, AnimateTowerPillarTile
+	dw TowerPillarTilePointer8, AnimateTowerPillarTile
+	dw TowerPillarTilePointer5, AnimateTowerPillarTile
+	dw TowerPillarTilePointer6, AnimateTowerPillarTile
+	dw TowerPillarTilePointer3, AnimateTowerPillarTile
+	dw TowerPillarTilePointer4, AnimateTowerPillarTile
+	dw TowerPillarTilePointer1, AnimateTowerPillarTile
+	dw TowerPillarTilePointer2, AnimateTowerPillarTile
 	dw NULL,  StandingTileFrame
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
@@ -231,7 +235,8 @@ TilesetTowerAnim:
 	dw NULL,  WaitTileAnimation
 	dw NULL,  DoneTileAnimation
 
-UnusedTilesetAnim_fc2bf:
+UnusedTilesetAnim5: ; unreferenced
+; Scrolls tile $4f like cave water.
 	dw vTiles2 tile $4f, WriteTileToBuffer
 	dw wTileAnimBuffer, ScrollTileRightLeft
 	dw vTiles2 tile $4f, WriteTileFromBuffer
@@ -259,7 +264,7 @@ TilesetChampionsRoomAnim:
 TilesetLighthouseAnim:
 TilesetPlayersRoomAnim:
 TilesetPokeComCenterAnim:
-TilesetBattleTowerAnim:
+TilesetBattleTowerInsideAnim:
 TilesetRuinsOfAlphAnim:
 TilesetRadioTowerAnim:
 TilesetUndergroundAnim:
@@ -277,7 +282,7 @@ TilesetAerodactylWordRoomAnim:
 DoneTileAnimation:
 ; Reset the animation command loop.
 	xor a
-	ld [hTileAnimFrame], a
+	ldh [hTileAnimFrame], a
 
 WaitTileAnimation:
 ; Do nothing this frame.
@@ -300,7 +305,7 @@ ScrollTileRightLeft:
 	jr nz, ScrollTileLeft
 	jr ScrollTileRight
 
-ScrollTileUpDown:
+ScrollTileUpDown: ; unreferenced
 ; Scroll up for 4 ticks, then down for 4 ticks.
 	ld a, [wTileAnimationTimer]
 	inc a
@@ -633,13 +638,13 @@ AnimateFlowerTile:
 ; Alternate tile graphic every other frame
 	ld a, [wTileAnimationTimer]
 	and %10
-	ld e, a
 
 ; CGB has different color mappings for flowers.
-	ld a, [hCGB]
+	ld e, a
+	ldh a, [hCGB]
 	and 1
-
 	add e
+
 	swap a
 	ld e, a
 	ld d, 0
@@ -658,7 +663,6 @@ FlowerTileFrames:
 	INCBIN "gfx/tilesets/flower/cgb_2.2bpp"
 
 LavaBubbleAnim1:
-; Splash in the bottom-right corner of the fountain.
 	ld hl, sp+0
 	ld b, h
 	ld c, l
@@ -678,7 +682,6 @@ LavaBubbleAnim1:
 	jp WriteTile
 
 LavaBubbleAnim2:
-; Splash in the top-left corner of the fountain.
 	ld hl, sp+0
 	ld b, h
 	ld c, l
@@ -856,12 +859,12 @@ AnimateWaterPalette:
 ; Transition between color values 0-2 for color 0 in palette 3.
 
 ; No palette changes on DMG.
-	ld a, [hCGB]
+	ldh a, [hCGB]
 	and a
 	ret z
 
 ; We don't want to mess with non-standard palettes.
-	ld a, [rBGP] ; BGP
+	ldh a, [rBGP] ; BGP
 	cp %11100100
 	ret nz
 
@@ -874,12 +877,12 @@ AnimateWaterPalette:
 ; Ready for BGPD input...
 
 	ld a, (1 << rBGPI_AUTO_INCREMENT) palette PAL_BG_WATER
-	ld [rBGPI], a
+	ldh [rBGPI], a
 
-	ld a, [rSVBK]
+	ldh a, [rSVBK]
 	push af
 	ld a, BANK(wBGPals1)
-	ld [rSVBK], a
+	ldh [rSVBK], a
 
 ; Update color 0 in order 0 1 2 1
 	ld a, l
@@ -888,56 +891,56 @@ AnimateWaterPalette:
 	cp %100 ; frame 4
 	jr z, .color2
 
-.color1
+; color1
 	ld hl, wBGPals1 palette PAL_BG_WATER color 1
 	ld a, [hli]
-	ld [rBGPD], a
+	ldh [rBGPD], a
 	ld a, [hli]
-	ld [rBGPD], a
+	ldh [rBGPD], a
 	jr .end
 
 .color0
 	ld hl, wBGPals1 palette PAL_BG_WATER color 0
 	ld a, [hli]
-	ld [rBGPD], a
+	ldh [rBGPD], a
 	ld a, [hli]
-	ld [rBGPD], a
+	ldh [rBGPD], a
 	jr .end
 
 .color2
 	ld hl, wBGPals1 palette PAL_BG_WATER color 2
 	ld a, [hli]
-	ld [rBGPD], a
+	ldh [rBGPD], a
 	ld a, [hli]
-	ld [rBGPD], a
+	ldh [rBGPD], a
 
 .end
 	pop af
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	ret
 
 FlickeringCaveEntrancePalette:
 ; No palette changes on DMG.
-	ld a, [hCGB]
+	ldh a, [hCGB]
 	and a
 	ret z
 ; We don't want to mess with non-standard palettes.
-	ld a, [rBGP]
+	ldh a, [rBGP]
 	cp %11100100
 	ret nz
 ; We only want to be here if we're in a dark cave.
 	ld a, [wTimeOfDayPalset]
-	cp %11111111 ; 3,3,3,3
+	cp DARKNESS_PALSET
 	ret nz
 
-	ld a, [rSVBK]
+	ldh a, [rSVBK]
 	push af
 	ld a, BANK(wBGPals1)
-	ld [rSVBK], a
+	ldh [rSVBK], a
 ; Ready for BGPD input...
 	ld a, (1 << rBGPI_AUTO_INCREMENT) palette PAL_BG_YELLOW
-	ld [rBGPI], a
-	ld a, [hVBlankCounter]
+	ldh [rBGPI], a
+	ldh a, [hVBlankCounter]
 	and %10
 	jr nz, .bit1set
 	ld hl, wBGPals1 palette PAL_BG_YELLOW
@@ -948,12 +951,12 @@ FlickeringCaveEntrancePalette:
 
 .okay
 	ld a, [hli]
-	ld [rBGPD], a
+	ldh [rBGPD], a
 	ld a, [hli]
-	ld [rBGPD], a
+	ldh [rBGPD], a
 
 	pop af
-	ld [rSVBK], a
+	ldh [rSVBK], a
 	ret
 
 TowerPillarTilePointer1:  dw vTiles2 tile $2d, TowerPillarTile1

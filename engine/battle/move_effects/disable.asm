@@ -7,7 +7,7 @@ BattleCommand_Disable:
 
 	ld de, wEnemyDisableCount
 	ld hl, wEnemyMonMoves
-	ld a, [hBattleTurn]
+	ldh a, [hBattleTurn]
 	and a
 	jr z, .got_moves
 	ld de, wPlayerDisableCount
@@ -33,7 +33,7 @@ BattleCommand_Disable:
 	cp b
 	jr nz, .loop
 
-	ld a, [hBattleTurn]
+	ldh a, [hBattleTurn]
 	and a
 	ld hl, wEnemyMonPP
 	jr z, .got_pp
@@ -55,7 +55,7 @@ BattleCommand_Disable:
 	ld [de], a
 	call AnimateCurrentMove
 	ld hl, wDisabledMove
-	ld a, [hBattleTurn]
+	ldh a, [hBattleTurn]
 	and a
 	jr nz, .got_disabled_move_pointer
 	inc hl
@@ -63,10 +63,10 @@ BattleCommand_Disable:
 	ld a, BATTLE_VARS_LAST_COUNTER_MOVE_OPP
 	call GetBattleVar
 	ld [hl], a
-	ld [wNamedObjectIndexBuffer], a
+	ld [wNamedObjectIndex], a
 	call GetMoveName
 	ld hl, WasDisabledText
-	jp StdBattleTextBox
+	jp StdBattleTextbox
 
 .failed
 	jp FailMove

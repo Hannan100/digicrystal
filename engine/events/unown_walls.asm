@@ -115,7 +115,7 @@ DisplayUnownWords:
 .load
 	call LoadMenuHeader
 	xor a
-	ld [hBGMapMode], a
+	ldh [hBGMapMode], a
 	call MenuBox
 	call UpdateSprites
 	call ApplyTilemap
@@ -139,7 +139,7 @@ DisplayUnownWords:
 	jr nz, .loop2
 .copy
 	call _DisplayUnownWords_CopyWord
-	ld bc, wAttrMap - wTileMap
+	ld bc, wAttrmap - wTilemap
 	add hl, bc
 	call _DisplayUnownWords_FillAttr
 	call WaitBGMap2

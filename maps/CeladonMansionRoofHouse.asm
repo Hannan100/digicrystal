@@ -1,44 +1,44 @@
-	const_def 2 ; object constants
+	object_const_def
 	const CELADONMANSIONROOFHOUSE_PHARMACIST
 
 CeladonMansionRoofHouse_MapScripts:
-	db 0 ; scene scripts
+	def_scene_scripts
 
-	db 0 ; callbacks
+	def_callbacks
 
 CeladonMansionRoofHousePharmacistScript:
 	faceplayer
 	opentext
 	checkevent EVENT_GOT_TM03_CURSE
 	iftrue .GotCurse
-	writetext UnknownText_0x71b27
-	buttonsound
+	writetext CeladonMansionRoofHousePharmacistIntroText
+	promptbutton
 	checktime NITE
 	iftrue .Night
-	writetext UnknownText_0x71b4a
+	writetext CeladonMansionRoofHousePharmacistNotNightText
 	waitbutton
 	closetext
 	end
 
 .Night:
-	writetext UnknownText_0x71ba3
-	buttonsound
+	writetext CeladonMansionRoofHousePharmacistStoryText
+	promptbutton
 	verbosegiveitem TM_CURSE
 	iffalse .NoRoom
 	setevent EVENT_GOT_TM03_CURSE
 .GotCurse:
-	writetext UnknownText_0x71db3
+	writetext CeladonMansionRoofHousePharmacistCurseText
 	waitbutton
 .NoRoom:
 	closetext
 	end
 
-UnknownText_0x71b27:
+CeladonMansionRoofHousePharmacistIntroText:
 	text "Let me recount a"
 	line "terrifying tale…"
 	done
 
-UnknownText_0x71b4a:
+CeladonMansionRoofHousePharmacistNotNightText:
 	text "Then again, it's"
 	line "not as scary while"
 
@@ -49,7 +49,7 @@ UnknownText_0x71b4a:
 	line "sunset, OK?"
 	done
 
-UnknownText_0x71ba3:
+CeladonMansionRoofHousePharmacistStoryText:
 	text "Once upon a time,"
 	line "there was a little"
 
@@ -104,7 +104,7 @@ UnknownText_0x71ba3:
 	cont "take this--TM03!"
 	done
 
-UnknownText_0x71db3:
+CeladonMansionRoofHousePharmacistCurseText:
 	text "TM03 is CURSE."
 
 	para "It's a terrifying"
@@ -117,13 +117,13 @@ UnknownText_0x71db3:
 CeladonMansionRoofHouse_MapEvents:
 	db 0, 0 ; filler
 
-	db 2 ; warp events
+	def_warp_events
 	warp_event  2,  7, CELADON_MANSION_ROOF, 3
 	warp_event  3,  7, CELADON_MANSION_ROOF, 3
 
-	db 0 ; coord events
+	def_coord_events
 
-	db 0 ; bg events
+	def_bg_events
 
-	db 1 ; object events
+	def_object_events
 	object_event  3,  2, SPRITE_PHARMACIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CeladonMansionRoofHousePharmacistScript, -1

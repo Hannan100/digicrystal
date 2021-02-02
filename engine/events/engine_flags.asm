@@ -11,17 +11,17 @@ EngineFlagAction::
 ; to know that the infrastructure is there.
 
 	ld a, d
-	cp 0
+	cp HIGH(NUM_ENGINE_FLAGS)
 	jr z, .ceiling
 	jr c, .read ; cp 0 can't set carry!
 	jr .invalid
 
-; There are only $a2 engine flags, so
+; There are only NUM_ENGINE_FLAGS engine flags, so
 ; anything beyond that is invalid too.
 
 .ceiling
 	ld a, e
-	cp NUM_ENGINE_FLAGS
+	cp LOW(NUM_ENGINE_FLAGS)
 	jr c, .read
 
 ; Invalid flags are treated as flag 00.
@@ -57,7 +57,7 @@ EngineFlagAction::
 	jr z, .set   ; b = 1
 
 ; Return the given flag in c.
-.check
+; check
 	ld a, [de]
 	and c
 	ld c, a
@@ -80,4 +80,4 @@ EngineFlagAction::
 	ld [de], a
 	ret
 
-INCLUDE "data/engine_flags.asm"
+INCLUDE "data/events/engine_flags.asm"
