@@ -59,7 +59,7 @@
 	const NINETALES  ; 26
 	const JIGGLYPUFF ; 27
 	const WIGGLYTUFF ; 28
-	const ZUBAT      ; 29
+	const PAGUMON      ; 29
 	const GOLBAT     ; 2a
 	const ODDISH     ; 2b
 	const GLOOM      ; 2c

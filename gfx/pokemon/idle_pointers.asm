@@ -39,7 +39,7 @@ AnimationIdlePointers:
 	dw NinetalesAnimationIdle
 	dw JigglypuffAnimationIdle
 	dw WigglytuffAnimationIdle
-	dw ZubatAnimationIdle
+	dw PagumonAnimationIdle
 	dw GolbatAnimationIdle
 	dw OddishAnimationIdle
 	dw GloomAnimationIdle

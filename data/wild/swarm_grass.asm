@@ -8,7 +8,7 @@ SwarmGrassWildMons:
 	; morn
 	db 3, GEODUDE
 	db 3, DUNSPARCE
-	db 2, ZUBAT
+	db 2, PAGUMON
 	db 2, GEODUDE
 	db 2, DUNSPARCE
 	db 4, DUNSPARCE
@@ -16,7 +16,7 @@ SwarmGrassWildMons:
 	; day
 	db 3, GEODUDE
 	db 3, DUNSPARCE
-	db 2, ZUBAT
+	db 2, PAGUMON
 	db 2, GEODUDE
 	db 2, DUNSPARCE
 	db 4, DUNSPARCE
@@ -24,7 +24,7 @@ SwarmGrassWildMons:
 	; nite
 	db 3, GEODUDE
 	db 3, DUNSPARCE
-	db 2, ZUBAT
+	db 2, PAGUMON
 	db 2, GEODUDE
 	db 2, DUNSPARCE
 	db 4, DUNSPARCE

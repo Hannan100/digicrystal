@@ -39,7 +39,7 @@ FramesPointers:
 	dw NinetalesFrames
 	dw JigglypuffFrames
 	dw WigglytuffFrames
-	dw ZubatFrames
+	dw PagumonFrames
 	dw GolbatFrames
 	dw OddishFrames
 	dw GloomFrames

@@ -251,4 +251,4 @@ AlphabeticalPokedexOrder:
 	db EXVEEMON
 	db YANMA
 	db ZAPDOS
-	db ZUBAT
+	db PAGUMON

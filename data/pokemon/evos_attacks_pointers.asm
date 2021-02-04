@@ -41,7 +41,7 @@ EvosAttacksPointers::
 	dw NinetalesEvosAttacks
 	dw JigglypuffEvosAttacks
 	dw WigglytuffEvosAttacks
-	dw ZubatEvosAttacks
+	dw PagumonEvosAttacks
 	dw GolbatEvosAttacks
 	dw OddishEvosAttacks
 	dw GloomEvosAttacks

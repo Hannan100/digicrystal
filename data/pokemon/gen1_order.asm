@@ -105,7 +105,7 @@ Pokered_MonIndices:
 	db JOLTEON
 	db VAPOREON
 	db MACHOP
-	db ZUBAT
+	db PAGUMON
 	db EKANS
 	db PARAS
 	db POLIWHIRL

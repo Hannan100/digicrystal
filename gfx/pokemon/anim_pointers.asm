@@ -39,7 +39,7 @@ AnimationPointers:
 	dw NinetalesAnimation
 	dw JigglypuffAnimation
 	dw WigglytuffAnimation
-	dw ZubatAnimation
+	dw PagumonAnimation
 	dw GolbatAnimation
 	dw OddishAnimation
 	dw GloomAnimation

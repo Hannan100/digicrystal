@@ -32,7 +32,7 @@ KantoGrassWildMons:
 	map_id MOUNT_MOON
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 6, ZUBAT
+	db 6, PAGUMON
 	db 8, GEODUDE
 	db 8, SANDSHREW
 	db 12, PARAS
@@ -40,7 +40,7 @@ KantoGrassWildMons:
 	db 8, CLEFAIRY
 	db 8, CLEFAIRY
 	; day
-	db 6, ZUBAT
+	db 6, PAGUMON
 	db 8, GEODUDE
 	db 8, SANDSHREW
 	db 12, PARAS
@@ -48,7 +48,7 @@ KantoGrassWildMons:
 	db 8, CLEFAIRY
 	db 8, CLEFAIRY
 	; nite
-	db 6, ZUBAT
+	db 6, PAGUMON
 	db 8, GEODUDE
 	db 8, CLEFAIRY
 	db 12, PARAS
@@ -62,7 +62,7 @@ KantoGrassWildMons:
 	db 10, CUBONE
 	db 11, GEODUDE
 	db 12, MACHOP
-	db 12, ZUBAT
+	db 12, PAGUMON
 	db 15, MACHOKE
 	db 12, MAROWAK
 	db 12, MAROWAK
@@ -70,18 +70,18 @@ KantoGrassWildMons:
 	db 10, CUBONE
 	db 11, GEODUDE
 	db 12, MACHOP
-	db 12, ZUBAT
+	db 12, PAGUMON
 	db 15, MACHOKE
 	db 12, MAROWAK
 	db 12, MAROWAK
 	; nite
-	db 12, ZUBAT
+	db 12, PAGUMON
 	db 11, GEODUDE
 	db 12, GEODUDE
 	db 17, HAUNTER
-	db 15, ZUBAT
-	db 15, ZUBAT
-	db 15, ZUBAT
+	db 15, PAGUMON
+	db 15, PAGUMON
+	db 15, PAGUMON
 
 	map_id ROCK_TUNNEL_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -89,7 +89,7 @@ KantoGrassWildMons:
 	db 12, CUBONE
 	db 14, GEODUDE
 	db 16, ONIX
-	db 12, ZUBAT
+	db 12, PAGUMON
 	db 15, MAROWAK
 	db 15, KANGASKHAN
 	db 15, KANGASKHAN
@@ -97,15 +97,15 @@ KantoGrassWildMons:
 	db 12, CUBONE
 	db 14, GEODUDE
 	db 16, ONIX
-	db 12, ZUBAT
+	db 12, PAGUMON
 	db 15, MAROWAK
 	db 15, KANGASKHAN
 	db 15, KANGASKHAN
 	; nite
-	db 12, ZUBAT
+	db 12, PAGUMON
 	db 14, GEODUDE
 	db 16, ONIX
-	db 15, ZUBAT
+	db 15, PAGUMON
 	db 15, HAUNTER
 	db 15, GOLBAT
 	db 15, GOLBAT
@@ -140,7 +140,7 @@ KantoGrassWildMons:
 	map_id TOHJO_FALLS
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, ZUBAT
+	db 22, PAGUMON
 	db 22, RATICATE
 	db 24, GOLBAT
 	db 21, SLOWPOKE
@@ -148,7 +148,7 @@ KantoGrassWildMons:
 	db 23, SLOWPOKE
 	db 23, SLOWPOKE
 	; day
-	db 22, ZUBAT
+	db 22, PAGUMON
 	db 22, RATICATE
 	db 24, GOLBAT
 	db 21, SLOWPOKE
@@ -156,7 +156,7 @@ KantoGrassWildMons:
 	db 23, SLOWPOKE
 	db 23, SLOWPOKE
 	; nite
-	db 22, ZUBAT
+	db 22, PAGUMON
 	db 22, RATICATE
 	db 24, GOLBAT
 	db 21, SLOWPOKE
@@ -240,7 +240,7 @@ KantoGrassWildMons:
 	db 5, RATTATA
 	db 10, RATTATA
 	db 10, RATICATE
-	db 6, ZUBAT
+	db 6, PAGUMON
 	db 5, RATTATA
 	db 6, CLEFAIRY
 	db 6, CLEFAIRY
@@ -267,7 +267,7 @@ KantoGrassWildMons:
 	db 5, RATTATA
 	db 10, RATTATA
 	db 10, RATICATE
-	db 6, ZUBAT
+	db 6, PAGUMON
 	db 5, RATTATA
 	db 6, CLEFAIRY
 	db 6, CLEFAIRY
@@ -403,7 +403,7 @@ KantoGrassWildMons:
 	db 15, VENONAT
 	db 15, RATICATE
 	db 15, VENOMOTH
-	db 15, ZUBAT
+	db 15, PAGUMON
 	db 18, RATICATE
 	db 18, RATICATE
 
@@ -430,7 +430,7 @@ KantoGrassWildMons:
 	db 17, VOLTORB
 	db 15, RATICATE
 	db 15, VENOMOTH
-	db 15, ZUBAT
+	db 15, PAGUMON
 	db 16, ELECTABUZZ
 	db 16, ELECTABUZZ
 

@@ -7,7 +7,7 @@ SpriteMons:
 	db SHELLDER
 	db ODDISH
 	db GENGAR
-	db ZUBAT
+	db PAGUMON
 	db MAGIKARP
 	db SQUIRTLE
 	db DEMIVEEMON
