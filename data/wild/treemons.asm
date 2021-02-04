@@ -116,7 +116,7 @@ TreeMonSet_Forest:
 	db -1
 ; rare
 	db 50, POROMON,   10
-	db 15, WORMMON,   10
+	db 15, MINOMON,   10
 	db 15, WEEDLE,     10
 	db 10, POROMON,   10
 	db  5, METAPOD,    10

@@ -765,7 +765,7 @@ BugCatchingContestant8BText:
 BugCatchingContestant8BStillCompetingText:
 	text "JOSH: I heard that"
 	line "somebody won with"
-	cont "a WORMMON!"
+	cont "a MINOMON!"
 	done
 
 BugCatchingContestant9BText:

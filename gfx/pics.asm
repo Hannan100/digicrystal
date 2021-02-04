@@ -549,7 +549,7 @@ SeelBackpic:         INCBIN "gfx/pokemon/seel/back.2bpp.lz"
 QuagsireBackpic:     INCBIN "gfx/pokemon/quagsire/back.2bpp.lz"
 WhitneyPic:          INCBIN "gfx/trainers/whitney.2bpp.lz"
 JolteonBackpic:      INCBIN "gfx/pokemon/jolteon/back.2bpp.lz"
-WormmonFrontpic:    INCBIN "gfx/pokemon/wormmon/front.animated.2bpp.lz"
+MinomonFrontpic:    INCBIN "gfx/pokemon/minomon/front.animated.2bpp.lz"
 HoppipBackpic:       INCBIN "gfx/pokemon/hoppip/back.2bpp.lz"
 BluePic:             INCBIN "gfx/trainers/blue.2bpp.lz"
 GranbullBackpic:     INCBIN "gfx/pokemon/granbull/back.2bpp.lz"
@@ -781,7 +781,7 @@ DemiveemonFrontpic:  INCBIN "gfx/pokemon/demiveemon/front.animated.2bpp.lz"
 DemiveemonBackpic:   INCBIN "gfx/pokemon/demiveemon/back.2bpp.lz"
 VeedramonBackpic:    INCBIN "gfx/pokemon/veedramon/back.2bpp.lz"
 RaidramonBackpic:    INCBIN "gfx/pokemon/raidramon/back.2bpp.lz"
-WormmonBackpic:      INCBIN "gfx/pokemon/wormmon/back.2bpp.lz"
+MinomonBackpic:      INCBIN "gfx/pokemon/minomon/back.2bpp.lz"
 
 SECTION "Pics 21", ROMX
 

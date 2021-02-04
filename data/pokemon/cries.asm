@@ -15,9 +15,9 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,    $060,  $0c0 ; SQUIRTLE
 	mon_cry CRY_SQUIRTLE,    $020,  $0c0 ; WARTORTLE
 	mon_cry CRY_BLASTOISE,   $000,  $100 ; BLASTOISE
-	mon_cry CRY_WORMMON,    $080,  $0a0 ; WORMMON
+	mon_cry CRY_MINOMON,    $080,  $0a0 ; MINOMON
 	mon_cry CRY_METAPOD,     $0cc,  $081 ; METAPOD
-	mon_cry CRY_WORMMON,    $077,  $0c0 ; BUTTERFREE
+	mon_cry CRY_MINOMON,    $077,  $0c0 ; BUTTERFREE
 	mon_cry CRY_WEEDLE,      $0ee,  $081 ; WEEDLE
 	mon_cry CRY_BLASTOISE,   $0ff,  $081 ; KAKUNA
 	mon_cry CRY_BLASTOISE,   $060,  $100 ; BEEDRILL
@@ -123,12 +123,12 @@ PokemonCries::
 	mon_cry CRY_KANGASKHAN,  $000,  $100 ; KANGASKHAN
 	mon_cry CRY_CLEFAIRY,    $099,  $090 ; HORSEA
 	mon_cry CRY_CLEFAIRY,    $03c,  $081 ; SEADRA
-	mon_cry CRY_WORMMON,    $080,  $0c0 ; GOLDEEN
-	mon_cry CRY_WORMMON,    $010,  $17f ; SEAKING
+	mon_cry CRY_MINOMON,    $080,  $0c0 ; GOLDEEN
+	mon_cry CRY_MINOMON,    $010,  $17f ; SEAKING
 	mon_cry CRY_PARAS,       $002,  $0a0 ; STARYU
 	mon_cry CRY_PARAS,       $000,  $100 ; STARMIE
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; MR__MIME
-	mon_cry CRY_WORMMON,    $000,  $100 ; SCYTHER
+	mon_cry CRY_MINOMON,    $000,  $100 ; SCYTHER
 	mon_cry CRY_DROWZEE,     $0ff,  $17f ; JYNX
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; ELECTABUZZ
 	mon_cry CRY_CHARMANDER,  $0ff,  $0b0 ; MAGMAR
@@ -145,7 +145,7 @@ PokemonCries::
 	mon_cry CRY_WEEPINBELL,  $0aa,  $17f ; PORYGON
 	mon_cry CRY_GROWLITHE,   $0f0,  $081 ; OMANYTE
 	mon_cry CRY_GROWLITHE,   $0ff,  $0c0 ; OMASTAR
-	mon_cry CRY_WORMMON,    $0bb,  $0c0 ; KABUTO
+	mon_cry CRY_MINOMON,    $0bb,  $0c0 ; KABUTO
 	mon_cry CRY_FEAROW,      $0ee,  $081 ; KABUTOPS
 	mon_cry CRY_VILEPLUME,   $020,  $170 ; AERODACTYL
 	mon_cry CRY_GRIMER,      $055,  $081 ; SNORLAX
@@ -271,9 +271,9 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,     96,  192 ; SQUIRTLE
 	mon_cry CRY_SQUIRTLE,     32,  192 ; WARTORTLE
 	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
-	mon_cry CRY_CATERPIE,    128,  160 ; CATERPIE
+	mon_cry CRY_MINOMON,    128,  160 ; MINOMON
 	mon_cry CRY_METAPOD,     204,  129 ; METAPOD
-	mon_cry CRY_CATERPIE,    119,  192 ; BUTTERFREE
+	mon_cry CRY_MINOMON,    119,  192 ; BUTTERFREE
 	mon_cry CRY_WEEDLE,      238,  129 ; WEEDLE
 	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
 	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL
@@ -379,12 +379,12 @@ PokemonCries::
 	mon_cry CRY_KANGASKHAN,    0,  256 ; KANGASKHAN
 	mon_cry CRY_CLEFAIRY,    153,  144 ; HORSEA
 	mon_cry CRY_CLEFAIRY,     60,  129 ; SEADRA
-	mon_cry CRY_CATERPIE,    128,  192 ; GOLDEEN
-	mon_cry CRY_CATERPIE,     16,  383 ; SEAKING
+	mon_cry CRY_MINOMON,    128,  192 ; GOLDEEN
+	mon_cry CRY_MINOMON,     16,  383 ; SEAKING
 	mon_cry CRY_PARAS,         2,  160 ; STARYU
 	mon_cry CRY_PARAS,         0,  256 ; STARMIE
 	mon_cry CRY_KRABBY,        8,  192 ; MR__MIME
-	mon_cry CRY_CATERPIE,      0,  256 ; SCYTHER
+	mon_cry CRY_MINOMON,      0,  256 ; SCYTHER
 	mon_cry CRY_DROWZEE,     255,  383 ; JYNX
 	mon_cry CRY_VOLTORB,     143,  383 ; ELECTABUZZ
 	mon_cry CRY_CHARMANDER,  255,  176 ; MAGMAR
@@ -401,7 +401,7 @@ PokemonCries::
 	mon_cry CRY_WEEPINBELL,  170,  383 ; PORYGON
 	mon_cry CRY_GROWLITHE,   240,  129 ; OMANYTE
 	mon_cry CRY_GROWLITHE,   255,  192 ; OMASTAR
-	mon_cry CRY_CATERPIE,    187,  192 ; KABUTO
+	mon_cry CRY_MINOMON,    187,  192 ; KABUTO
 	mon_cry CRY_FEAROW,      238,  129 ; KABUTOPS
 	mon_cry CRY_VILEPLUME,    32,  368 ; AERODACTYL
 	mon_cry CRY_GRIMER,       85,  129 ; SNORLAX

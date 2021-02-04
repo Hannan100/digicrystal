@@ -28,7 +28,7 @@
 	const SQUIRTLE   ; 07
 	const WARTORTLE  ; 08
 	const BLASTOISE  ; 09
-	const WORMMON   ; 0a
+	const MINOMON   ; 0a
 	const METAPOD    ; 0b
 	const BUTTERFREE ; 0c
 	const WEEDLE     ; 0d

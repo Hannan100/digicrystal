@@ -24,7 +24,7 @@ NewPokedexOrder:
 	db PICHU
 	db PIKACHU
 	db RAICHU
-	db WORMMON
+	db MINOMON
 	db METAPOD
 	db BUTTERFREE
 	db WEEDLE

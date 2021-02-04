@@ -8,7 +8,7 @@ AnimationPointers:
 	dw SquirtleAnimation
 	dw WartortleAnimation
 	dw BlastoiseAnimation
-	dw WormmonAnimation
+	dw MinomonAnimation
 	dw MetapodAnimation
 	dw ButterfreeAnimation
 	dw WeedleAnimation

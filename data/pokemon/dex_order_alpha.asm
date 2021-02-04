@@ -19,7 +19,7 @@ AlphabeticalPokedexOrder:
 	db BLISSEY
 	db NYOKOMON
 	db BUTTERFREE
-	db WORMMON
+	db MINOMON
 	db CELEBI
 	db CHANSEY
 	db CHARIZARD

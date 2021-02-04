@@ -1,7 +1,7 @@
 ; Used by CheckSleepingTreeMon
 
 AsleepTreeMonsNite:
-	db WORMMON
+	db MINOMON
 	db METAPOD
 	db BUTTERFREE
 	db WEEDLE

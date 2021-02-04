@@ -10,7 +10,7 @@ EvosAttacksPointers::
 	dw SquirtleEvosAttacks
 	dw WartortleEvosAttacks
 	dw BlastoiseEvosAttacks
-	dw WormmonEvosAttacks
+	dw MinomonEvosAttacks
 	dw MetapodEvosAttacks
 	dw ButterfreeEvosAttacks
 	dw WeedleEvosAttacks

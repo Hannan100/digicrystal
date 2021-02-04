@@ -1199,16 +1199,16 @@ Cry_Weedle:
 	channel 8, Cry_Weedle_Ch8
 
 <<<<<<< HEAD
-Cry_Wormmon:
-	musicheader 3, 5, Cry_Wormmon_Ch5
-	musicheader 1, 6, Cry_Wormmon_Ch6
-	musicheader 1, 8, Cry_Wormmon_Ch8
+Cry_Minomon:
+	musicheader 3, 5, Cry_Minomon_Ch5
+	musicheader 1, 6, Cry_Minomon_Ch6
+	musicheader 1, 8, Cry_Minomon_Ch8
 =======
-Cry_Caterpie:
+Cry_Minomon:
 	channel_count 3
-	channel 5, Cry_Caterpie_Ch5
-	channel 6, Cry_Caterpie_Ch6
-	channel 8, Cry_Caterpie_Ch8
+	channel 5, Cry_Minomon_Ch5
+	channel 6, Cry_Minomon_Ch6
+	channel 8, Cry_Minomon_Ch8
 >>>>>>> pret/master
 
 Cry_Ekans:
@@ -1909,41 +1909,41 @@ Cry_Clefairy_Ch8:
 	sound_ret
 
 <<<<<<< HEAD
-Cry_Wormmon_Ch5:
+Cry_Minomon_Ch5:
 	sound_duty 0, 0, 3, 3
 	sound __, 16, $d7, $0780
 	sound __,  5, $e6, $07a0
 	sound __, 16, $d2, $0740
 	endchannel
 
-Cry_Wormmon_Ch6:
+Cry_Minomon_Ch6:
 	sound_duty 2, 2, 1, 1
 	sound __, 16, $c7, $0753
 	sound __,  6, $b6, $0772
 	sound __, 16, $c2, $0711
 	endchannel
 
-Cry_Wormmon_Ch8:
+Cry_Minomon_Ch8:
 	noise __, 14, $f6, $4c
 	noise __,  5, $e6, $3c
 	noise __, 16, $f2, $4c
 	endchannel
 =======
-Cry_Caterpie_Ch5:
+Cry_Minomon_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
 	square_note 15, 13, 7, 1920
 	square_note 4, 14, 6, 1952
 	square_note 15, 13, 2, 1856
 	sound_ret
 
-Cry_Caterpie_Ch6:
+Cry_Minomon_Ch6:
 	duty_cycle_pattern 1, 1, 2, 2
 	square_note 15, 12, 7, 1875
 	square_note 5, 11, 6, 1906
 	square_note 15, 12, 2, 1809
 	sound_ret
 
-Cry_Caterpie_Ch8:
+Cry_Minomon_Ch8:
 	noise_note 13, 15, 6, 76
 	noise_note 4, 14, 6, 60
 	noise_note 15, 15, 2, 76

@@ -8,7 +8,7 @@ PokemonNames::
 	db "SQUIRTLE@@"
 	db "WARTORTLE@"
 	db "BLASTOISE@"
-	db "WORMMON@@@" ; Caterpie
+	db "MINOMON@@@" ; Minomon
 	db "METAPOD@@@" ; !Stingmon
 	db "BUTTERFREE" ; !Armor evo
 	db "WEEDLE@@@@" ; !Armor evo
