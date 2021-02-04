@@ -173,7 +173,7 @@ PokemonNames::
 	db "PICHU@@@@@"
 	db "CLEFFA@@@@"
 	db "IGGLYBUFF@"
-	db "DEMIVEEMON" ; Togepi
+	db "DEMIVEEMON" ; Demiveemon
 	db "VEEMON@@@@" ; Togetic
 	db "VEEDRAMON@" ; Natu
 	db "EX-VEEMON@" ; Xatu

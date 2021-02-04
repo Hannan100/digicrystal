@@ -13,10 +13,10 @@ Cry_Veemon:
 	musicheader 2, 5, Cry_Veemon_Ch5
 	musicheader 1, 6, Cry_Veemon_Ch6
 =======
-Cry_Togepi:
+Cry_Demiveemon:
 	channel_count 2
-	channel 5, Cry_Togepi_Ch5
-	channel 6, Cry_Togepi_Ch6
+	channel 5, Cry_Demiveemon_Ch5
+	channel 6, Cry_Demiveemon_Ch6
 
 Cry_Togetic:
 	channel_count 2
@@ -413,9 +413,9 @@ Cry_Veemon_Ch6:
 	sound __,  9, $f2, $07c2
 	endchannel
 =======
-Cry_Togepi_Ch5:
+Cry_Demiveemon_Ch5:
 	pitch_offset 2
-Cry_Togepi_Ch6:
+Cry_Demiveemon_Ch6:
 	duty_cycle_pattern 1, 1, 0, 2
 	square_note 4, 15, 1, 1942
 	square_note 4, 15, 1, 1837
@@ -426,7 +426,7 @@ Cry_Togepi_Ch6:
 Cry_Togetic_Ch5:
 	pitch_offset 2
 Cry_Togetic_Ch6:
-	sound_call Cry_Togepi_Ch6
+	sound_call Cry_Demiveemon_Ch6
 	sound_loop 2, Cry_Togetic_Ch6
 	square_note 14, 0, 0, 0
 	square_note 8, 15, 2, 1986

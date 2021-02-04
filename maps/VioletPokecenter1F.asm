@@ -28,7 +28,7 @@ VioletPokecenter1F_ElmsAideScript:
 	giveegg DEMIVEEMON, 5
 	stringtotext .eggname, MEM_BUFFER_1
 =======
-	giveegg TOGEPI, EGG_LEVEL
+	giveegg DEMIVEEMON, EGG_LEVEL
 	getstring STRING_BUFFER_4, .eggname
 >>>>>>> pret/master
 	scall .AideGivesEgg
@@ -64,7 +64,7 @@ VioletPokecenter1F_ElmsAideScript:
 <<<<<<< HEAD
 	jumpstd receivedemiveemonegg
 =======
-	jumpstd ReceiveTogepiEggScript
+	jumpstd ReceiveDemiveemonEggScript
 >>>>>>> pret/master
 	end
 

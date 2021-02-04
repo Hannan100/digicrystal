@@ -114,14 +114,14 @@ ElmCheckEverstone:
 	iftrue ShowElmDemiveemonScript
 	writetext UnknownText_0x79a40
 =======
-	checkevent EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE
-	iffalse ElmCheckTogepiEgg
-	setval TOGEPI
+	checkevent EVENT_TOLD_ELM_ABOUT_DEMIVEEMON_OVER_THE_PHONE
+	iffalse ElmCheckDemiveemonEgg
+	setval DEMIVEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
+	iftrue ShowElmDemiveemonScript
 	setval TOGETIC
 	special FindPartyMonThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
+	iftrue ShowElmDemiveemonScript
 	writetext ElmThoughtEggHatchedText
 >>>>>>> pret/master
 	waitbutton
@@ -138,12 +138,12 @@ ElmEggHatchedScript:
 	iftrue ShowElmDemiveemonScript
 	jump ElmCheckGotEggAgain
 =======
-	setval TOGEPI
+	setval DEMIVEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
+	iftrue ShowElmDemiveemonScript
 	setval TOGETIC
 	special FindPartyMonThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
+	iftrue ShowElmDemiveemonScript
 	sjump ElmCheckGotEggAgain
 >>>>>>> pret/master
 
@@ -439,9 +439,9 @@ ShowElmDemiveemonScript:
 	writetext ShowElmDemiveemonText3
 	buttonsound
 =======
-	writetext ShowElmTogepiText2
+	writetext ShowElmDemiveemonText2
 	promptbutton
-	writetext ShowElmTogepiText3
+	writetext ShowElmDemiveemonText3
 	promptbutton
 >>>>>>> pret/master
 ElmGiveEverstoneScript:
