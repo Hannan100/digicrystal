@@ -45,7 +45,7 @@ Cries:
 	dba Cry_Flamedrmon
 	dba Cry_Veemon
 	dba Cry_Poromon
-	dba Cry_Sentret
+	dba Cry_Nyaromon
 	dba Cry_Slowking
 	dba Cry_Koromon
 	dba Cry_Tanemon

@@ -166,8 +166,8 @@ PokemonCries::
 	mon_cry CRY_BUKAMON,    $46c,  $0e8 ; BUKAMON
 	mon_cry CRY_BUKAMON,    $440,  $110 ; GOMAMON
 	mon_cry CRY_BUKAMON,    $3fc,  $180 ; FERALIGATR
-	mon_cry CRY_SENTRET,     $08a,  $0b8 ; SENTRET
-	mon_cry CRY_SENTRET,     $06b,  $102 ; FURRET
+	mon_cry CRY_NYAROMON,     $08a,  $0b8 ; NYAROMON
+	mon_cry CRY_NYAROMON,     $06b,  $102 ; FURRET
 	mon_cry CRY_POROMON,    $091,  $0d8 ; POROMON
 	mon_cry CRY_POROMON,    $000,  $1a0 ; NOCTOWL
 	mon_cry CRY_LEDYBA,      $000,  $0de ; LEDYBA
@@ -236,7 +236,7 @@ PokemonCries::
 	mon_cry CRY_KOROMON,   $039,  $140 ; HOUNDOUR
 	mon_cry CRY_BUKAMON,   -$10a,  $100 ; HOUNDOOM
 	mon_cry CRY_SLUGMA,      $2fb,  $100 ; KINGDRA
-	mon_cry CRY_SENTRET,     $048,  $230 ; PHANPY
+	mon_cry CRY_NYAROMON,     $048,  $230 ; PHANPY
 	mon_cry CRY_DONPHAN,     $000,  $1a0 ; DONPHAN
 	mon_cry CRY_GIRAFARIG,   $073,  $240 ; PORYGON2
 	mon_cry CRY_AIPOM,      -$160,  $180 ; STANTLER
@@ -422,8 +422,8 @@ PokemonCries::
 	mon_cry CRY_TOTODILE,   1132,  232 ; TOTODILE
 	mon_cry CRY_TOTODILE,   1088,  272 ; CROCONAW
 	mon_cry CRY_TOTODILE,   1020,  384 ; FERALIGATR
-	mon_cry CRY_SENTRET,     138,  184 ; SENTRET
-	mon_cry CRY_SENTRET,     107,  258 ; FURRET
+	mon_cry CRY_NYAROMON,     138,  184 ; NYAROMON
+	mon_cry CRY_NYAROMON,     107,  258 ; FURRET
 	mon_cry CRY_POROMON,    145,  216 ; POROMON
 	mon_cry CRY_POROMON,      0,  416 ; NOCTOWL
 	mon_cry CRY_LEDYBA,        0,  222 ; LEDYBA
@@ -492,7 +492,7 @@ PokemonCries::
 	mon_cry CRY_KOROMON,    57,  320 ; HOUNDOUR
 	mon_cry CRY_TOTODILE,   -266,  256 ; HOUNDOOM
 	mon_cry CRY_SLUGMA,      763,  256 ; KINGDRA
-	mon_cry CRY_SENTRET,      72,  560 ; PHANPY
+	mon_cry CRY_NYAROMON,      72,  560 ; PHANPY
 	mon_cry CRY_DONPHAN,       0,  416 ; DONPHAN
 	mon_cry CRY_GIRAFARIG,   115,  576 ; PORYGON2
 	mon_cry CRY_AIPOM,      -352,  384 ; STANTLER

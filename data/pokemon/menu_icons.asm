@@ -161,7 +161,7 @@ MonMenuIcons:
 	db ICON_MONSTER     ; BUKAMON
 	db ICON_MONSTER     ; GOMAMON
 	db ICON_MONSTER     ; FERALIGATR
-	db ICON_FOX         ; SENTRET
+	db ICON_FOX         ; NYAROMON
 	db ICON_FOX         ; FURRET
 	db ICON_BIRD        ; POROMON
 	db ICON_BIRD        ; NOCTOWL

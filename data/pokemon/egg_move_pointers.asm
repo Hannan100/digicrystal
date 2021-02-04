@@ -159,7 +159,7 @@ EggMovePointers::
 	dw BukamonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw SentretEggMoves
+	dw NyaromonEggMoves
 	dw NoEggMoves
 	dw PoromonEggMoves
 	dw NoEggMoves

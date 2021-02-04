@@ -160,7 +160,7 @@ PokedexDataPointerTable:
 	dw BukamonPokedexEntry
 	dw GomamonPokedexEntry
 	dw FeraligatrPokedexEntry
-	dw SentretPokedexEntry
+	dw NyaromonPokedexEntry
 	dw FurretPokedexEntry
 	dw PoromonPokedexEntry
 	dw NoctowlPokedexEntry

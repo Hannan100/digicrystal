@@ -161,7 +161,7 @@ EvosAttacksPointers::
 	dw BukamonEvosAttacks
 	dw GomamonEvosAttacks
 	dw FeraligatrEvosAttacks
-	dw SentretEvosAttacks
+	dw NyaromonEvosAttacks
 	dw FurretEvosAttacks
 	dw PoromonEvosAttacks
 	dw NoctowlEvosAttacks

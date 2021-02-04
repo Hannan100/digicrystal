@@ -19,7 +19,7 @@ NewPokedexOrder:
 	db NOCTOWL
 	db TSUNOMON
 	db RATICATE
-	db SENTRET
+	db NYAROMON
 	db FURRET
 	db PICHU
 	db PIKACHU

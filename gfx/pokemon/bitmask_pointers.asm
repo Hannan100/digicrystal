@@ -159,7 +159,7 @@ BitmasksPointers:
 	dw BukamonBitmasks
 	dw GomamonBitmasks
 	dw FeraligatrBitmasks
-	dw SentretBitmasks
+	dw NyaromonBitmasks
 	dw FurretBitmasks
 	dw PoromonBitmasks
 	dw NoctowlBitmasks

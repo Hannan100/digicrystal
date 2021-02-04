@@ -50,7 +50,7 @@
 	const CRY_FLAMEDRMON
 	const CRY_VEEMON
 	const CRY_POROMON
-	const CRY_SENTRET
+	const CRY_NYAROMON
 	const CRY_SLOWKING
 	const CRY_KOROMON
 	const CRY_TANEMON

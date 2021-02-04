@@ -159,7 +159,7 @@ AnimationIdlePointers:
 	dw BukamonAnimationIdle
 	dw GomamonAnimationIdle
 	dw FeraligatrAnimationIdle
-	dw SentretAnimationIdle
+	dw NyaromonAnimationIdle
 	dw FurretAnimationIdle
 	dw PoromonAnimationIdle
 	dw NoctowlAnimationIdle

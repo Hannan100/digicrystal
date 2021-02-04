@@ -199,7 +199,7 @@ Pokered_MonIndices:
 	db BUKAMON
 	db GOMAMON
 	db FERALIGATR
-	db SENTRET
+	db NYAROMON
 	db FURRET
 	db POROMON
 	db NOCTOWL

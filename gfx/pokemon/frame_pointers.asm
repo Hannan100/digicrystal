@@ -159,7 +159,7 @@ FramesPointers:
 	dw BukamonFrames
 	dw GomamonFrames
 	dw FeraligatrFrames
-	dw SentretFrames
+	dw NyaromonFrames
 	dw FurretFrames
 	dw PoromonFrames
 	dw NoctowlFrames

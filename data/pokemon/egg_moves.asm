@@ -470,7 +470,7 @@ BukamonEggMoves:
 	db ROCK_SLIDE
 	db -1 ; end
 
-SentretEggMoves:
+NyaromonEggMoves:
 	db DOUBLE_EDGE
 	db PURSUIT
 	db SLASH

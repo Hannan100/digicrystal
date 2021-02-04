@@ -193,7 +193,7 @@ AlphabeticalPokedexOrder:
 	db SEADRA
 	db SEAKING
 	db SEEL
-	db SENTRET
+	db NYAROMON
 	db SHELLDER
 	db SHUCKLE
 	db SKARMORY

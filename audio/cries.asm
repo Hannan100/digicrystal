@@ -49,10 +49,10 @@ Cry_Poromon:
 	channel 8, Cry_Poromon_Ch8
 >>>>>>> pret/master
 
-Cry_Sentret:
+Cry_Nyaromon:
 	channel_count 2
-	channel 5, Cry_Sentret_Ch5
-	channel 6, Cry_Sentret_Ch6
+	channel 5, Cry_Nyaromon_Ch5
+	channel 6, Cry_Nyaromon_Ch6
 
 Cry_Slowking:
 	channel_count 3
@@ -554,19 +554,19 @@ Cry_Poromon_Ch8:
 	sound_ret
 >>>>>>> pret/master
 
-Cry_Sentret_Ch5:
+Cry_Nyaromon_Ch5:
 	pitch_offset 32
 	duty_cycle 0
-	sound_jump Cry_Sentret_Ch6.body
+	sound_jump Cry_Nyaromon_Ch6.body
 
-Cry_Sentret_Ch6:
+Cry_Nyaromon_Ch6:
 	duty_cycle_pattern 0, 1, 2, 3
 .body:
 	square_note 8, 3, -1, 1837
 	square_note 8, 15, 1, 1824
 	sound_ret
 
-Cry_Sentret_Ch8: ; unreferenced
+Cry_Nyaromon_Ch8: ; unreferenced
 	noise_note 8, 3, -3, 0
 	noise_note 8, 9, 2, 0
 	sound_ret

@@ -1194,17 +1194,17 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 2, PIDGEY
-	db 2, SENTRET
+	db 2, NYAROMON
 	db 3, PIDGEY
-	db 3, SENTRET
+	db 3, NYAROMON
 	db 2, TSUNOMON
 	db 3, YOKOMON
 	db 3, YOKOMON
 	; day
 	db 2, PIDGEY
-	db 2, SENTRET
+	db 2, NYAROMON
 	db 3, PIDGEY
-	db 3, SENTRET
+	db 3, NYAROMON
 	db 2, TSUNOMON
 	db 3, YOKOMON
 	db 3, YOKOMON
@@ -1517,7 +1517,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_43
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, SENTRET
+	db 15, NYAROMON
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
 	db 15, FURRET
@@ -1525,7 +1525,7 @@ JohtoGrassWildMons:
 	db 17, FURRET
 	db 17, FURRET
 	; day
-	db 15, SENTRET
+	db 15, NYAROMON
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
 	db 15, FURRET
