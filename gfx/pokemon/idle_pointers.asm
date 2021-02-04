@@ -1,5 +1,5 @@
 AnimationIdlePointers:
-	dw BulbasaurAnimationIdle
+	dw NyokomonAnimationIdle
 	dw IvysaurAnimationIdle
 	dw VenusaurAnimationIdle
 	dw CharmanderAnimationIdle

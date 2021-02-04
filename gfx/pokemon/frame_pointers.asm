@@ -1,5 +1,5 @@
 FramesPointers:
-	dw BulbasaurFrames
+	dw NyokomonFrames
 	dw IvysaurFrames
 	dw VenusaurFrames
 	dw CharmanderFrames

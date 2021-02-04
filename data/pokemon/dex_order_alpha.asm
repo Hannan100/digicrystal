@@ -17,7 +17,7 @@ AlphabeticalPokedexOrder:
 	db BELLSPROUT
 	db BLASTOISE
 	db BLISSEY
-	db BULBASAUR
+	db NYOKOMON
 	db BUTTERFREE
 	db WORMMON
 	db CELEBI

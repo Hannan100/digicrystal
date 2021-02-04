@@ -1,7 +1,7 @@
 ; The original base Special stat for each Pokémon from Red/Blue
 
 KantoMonSpecials:
-	db  65 ; BULBASAUR
+	db  65 ; NYOKOMON
 	db  80 ; IVYSAUR
 	db 100 ; VENUSAUR
 	db  50 ; CHARMANDER

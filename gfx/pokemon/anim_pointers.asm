@@ -1,5 +1,5 @@
 AnimationPointers:
-	dw BulbasaurAnimation
+	dw NyokomonAnimation
 	dw IvysaurAnimation
 	dw VenusaurAnimation
 	dw CharmanderAnimation

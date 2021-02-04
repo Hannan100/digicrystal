@@ -64,7 +64,7 @@ PokefanmCarterBeatenText:
 
 PokefanmCarterAfterBattleText:
 	text "SQUIRTLE, CHARMAN-"
-	line "DER and BULBASAUR…"
+	line "DER and NYOKOMON…"
 
 	para "I think that's a"
 	line "well-balanced mix."

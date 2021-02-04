@@ -6,9 +6,9 @@ ENDM
 PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
 <<<<<<< HEAD
-	mon_cry CRY_BULBASAUR,   $080,  $081 ; BULBASAUR
-	mon_cry CRY_BULBASAUR,   $020,  $100 ; IVYSAUR
-	mon_cry CRY_BULBASAUR,   $000,  $140 ; VENUSAUR
+	mon_cry CRY_NYOKOMON,   $080,  $081 ; NYOKOMON
+	mon_cry CRY_NYOKOMON,   $020,  $100 ; IVYSAUR
+	mon_cry CRY_NYOKOMON,   $000,  $140 ; VENUSAUR
 	mon_cry CRY_CHARMANDER,  $060,  $0c0 ; CHARMANDER
 	mon_cry CRY_CHARMANDER,  $020,  $0c0 ; CHARMELEON
 	mon_cry CRY_CHARMANDER,  $000,  $100 ; CHARIZARD
@@ -30,7 +30,7 @@ PokemonCries::
 	mon_cry CRY_FEAROW,      $040,  $120 ; FEAROW
 	mon_cry CRY_EKANS,       $012,  $0c0 ; EKANS
 	mon_cry CRY_EKANS,       $0e0,  $090 ; ARBOK
-	mon_cry CRY_BULBASAUR,   $0ee,  $081 ; PIKACHU
+	mon_cry CRY_NYOKOMON,   $0ee,  $081 ; PIKACHU
 	mon_cry CRY_RAICHU,      $0ee,  $088 ; RAICHU
 	mon_cry CRY_NIDORAN_M,   $020,  $0c0 ; SANDSHREW
 	mon_cry CRY_NIDORAN_M,   $0ff,  $17f ; SANDSLASH
@@ -152,9 +152,9 @@ PokemonCries::
 	mon_cry CRY_RAICHU,      $080,  $0c0 ; ARTICUNO
 	mon_cry CRY_FEAROW,      $0ff,  $100 ; ZAPDOS
 	mon_cry CRY_RAICHU,      $0f8,  $0c0 ; MOLTRES
-	mon_cry CRY_BULBASAUR,   $060,  $0c0 ; DRATINI
-	mon_cry CRY_BULBASAUR,   $040,  $100 ; DRAGONAIR
-	mon_cry CRY_BULBASAUR,   $03c,  $140 ; DRAGONITE
+	mon_cry CRY_NYOKOMON,   $060,  $0c0 ; DRATINI
+	mon_cry CRY_NYOKOMON,   $040,  $100 ; DRAGONAIR
+	mon_cry CRY_NYOKOMON,   $03c,  $140 ; DRAGONITE
 	mon_cry CRY_PARAS,       $099,  $17f ; MEWTWO
 	mon_cry CRY_PARAS,       $0ee,  $17f ; MEW
 	mon_cry CRY_TANEMON,    -$010,  $0b0 ; TANEMON
@@ -262,9 +262,9 @@ PokemonCries::
 	mon_cry CRY_NIDORAN_M,      0,     0 ; 254
 	mon_cry CRY_NIDORAN_M,      0,     0 ; 255
 =======
-	mon_cry CRY_BULBASAUR,   128,  129 ; BULBASAUR
-	mon_cry CRY_BULBASAUR,    32,  256 ; IVYSAUR
-	mon_cry CRY_BULBASAUR,     0,  320 ; VENUSAUR
+	mon_cry CRY_NYOKOMON,   128,  129 ; NYOKOMON
+	mon_cry CRY_NYOKOMON,    32,  256 ; IVYSAUR
+	mon_cry CRY_NYOKOMON,     0,  320 ; VENUSAUR
 	mon_cry CRY_CHARMANDER,   96,  192 ; CHARMANDER
 	mon_cry CRY_CHARMANDER,   32,  192 ; CHARMELEON
 	mon_cry CRY_CHARMANDER,    0,  256 ; CHARIZARD
@@ -286,7 +286,7 @@ PokemonCries::
 	mon_cry CRY_FEAROW,       64,  288 ; FEAROW
 	mon_cry CRY_EKANS,        18,  192 ; EKANS
 	mon_cry CRY_EKANS,       224,  144 ; ARBOK
-	mon_cry CRY_BULBASAUR,   238,  129 ; PIKACHU
+	mon_cry CRY_NYOKOMON,   238,  129 ; PIKACHU
 	mon_cry CRY_RAICHU,      238,  136 ; RAICHU
 	mon_cry CRY_NIDORAN_M,    32,  192 ; SANDSHREW
 	mon_cry CRY_NIDORAN_M,   255,  383 ; SANDSLASH
@@ -408,9 +408,9 @@ PokemonCries::
 	mon_cry CRY_RAICHU,      128,  192 ; ARTICUNO
 	mon_cry CRY_FEAROW,      255,  256 ; ZAPDOS
 	mon_cry CRY_RAICHU,      248,  192 ; MOLTRES
-	mon_cry CRY_BULBASAUR,    96,  192 ; DRATINI
-	mon_cry CRY_BULBASAUR,    64,  256 ; DRAGONAIR
-	mon_cry CRY_BULBASAUR,    60,  320 ; DRAGONITE
+	mon_cry CRY_NYOKOMON,    96,  192 ; DRATINI
+	mon_cry CRY_NYOKOMON,    64,  256 ; DRAGONAIR
+	mon_cry CRY_NYOKOMON,    60,  320 ; DRAGONITE
 	mon_cry CRY_PARAS,       153,  383 ; MEWTWO
 	mon_cry CRY_PARAS,       238,  383 ; MEW
 	mon_cry CRY_CHIKORITA,   -16,  176 ; CHIKORITA

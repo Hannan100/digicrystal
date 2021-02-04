@@ -1,5 +1,5 @@
 EggMovePointers::
-	dw BulbasaurEggMoves
+	dw NyokomonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw CharmanderEggMoves

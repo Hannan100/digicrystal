@@ -1,5 +1,5 @@
 PokemonNames::
-	db "BULBASAUR@"
+	db "NYOKOMON@"
 	db "IVYSAUR@@@"
 	db "VENUSAUR@@"
 	db "CHARMANDER"

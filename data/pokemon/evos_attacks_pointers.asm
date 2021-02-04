@@ -1,7 +1,7 @@
 ; Evolutions and attacks are grouped together since they're both checked at level-up.
 
 EvosAttacksPointers::
-	dw BulbasaurEvosAttacks
+	dw NyokomonEvosAttacks
 	dw IvysaurEvosAttacks
 	dw VenusaurEvosAttacks
 	dw CharmanderEvosAttacks
