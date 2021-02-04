@@ -82,8 +82,8 @@ for filename in FILES_TO_UPDATE:
     with open(filename, "r") as file:
         print("Updating " + filename)
         filedata = file.read()
-    filedata.replace(OLD_NAME.upper(), NEW_NAME.upper())
-    filedata.replace(OLD_NAME.lower(), NEW_NAME.lower())
+    filedata = filedata.replace(OLD_NAME.upper(), NEW_NAME.upper())
+    filedata = filedata.replace(OLD_NAME.lower(), NEW_NAME.lower())
     with open(filename, "w") as file:
         file.write(filedata)
     
