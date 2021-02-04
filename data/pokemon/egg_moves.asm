@@ -570,7 +570,7 @@ SudowoodoEggMoves:
 	db SELFDESTRUCT
 	db -1 ; end
 
-HoppipEggMoves:
+YokomonEggMoves:
 	db CONFUSION
 	db GROWL
 	db ENCORE

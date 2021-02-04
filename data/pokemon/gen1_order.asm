@@ -225,7 +225,7 @@ Pokered_MonIndices:
 	db AZUMARILL
 	db SUDOWOODO
 	db POLITOED
-	db HOPPIP
+	db YOKOMON
 	db SKIPLOOM
 	db JUMPLUFF
 	db AIPOM

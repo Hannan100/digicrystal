@@ -437,21 +437,21 @@ KantoGrassWildMons:
 	map_id ROUTE_11
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 14, HOPPIP
+	db 14, YOKOMON
 	db 13, RATICATE
 	db 15, MAGNEMITE
 	db 16, PIDGEOTTO
 	db 16, RATTATA
-	db 16, HOPPIP
-	db 16, HOPPIP
+	db 16, YOKOMON
+	db 16, YOKOMON
 	; day
-	db 14, HOPPIP
+	db 14, YOKOMON
 	db 13, RATICATE
 	db 15, MAGNEMITE
 	db 16, PIDGEOTTO
 	db 16, RATTATA
-	db 16, HOPPIP
-	db 16, HOPPIP
+	db 16, YOKOMON
+	db 16, YOKOMON
 	; nite
 	db 14, DROWZEE
 	db 13, MEOWTH
@@ -467,17 +467,17 @@ KantoGrassWildMons:
 	db 23, NIDORINO
 	db 23, NIDORINA
 	db 25, PIDGEOTTO
-	db 25, HOPPIP
-	db 27, HOPPIP
-	db 27, HOPPIP
+	db 25, YOKOMON
+	db 27, YOKOMON
+	db 27, YOKOMON
 	db 25, CHANSEY
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
 	db 25, PIDGEOTTO
-	db 25, HOPPIP
-	db 27, HOPPIP
-	db 27, HOPPIP
+	db 25, YOKOMON
+	db 27, YOKOMON
+	db 27, YOKOMON
 	db 25, CHANSEY
 	; nite
 	db 23, VENONAT
@@ -494,7 +494,7 @@ KantoGrassWildMons:
 	db 26, NIDORINO
 	db 26, NIDORINA
 	db 28, PIDGEOTTO
-	db 28, HOPPIP
+	db 28, YOKOMON
 	db 30, SKIPLOOM
 	db 30, SKIPLOOM
 	db 28, CHANSEY
@@ -502,7 +502,7 @@ KantoGrassWildMons:
 	db 26, NIDORINO
 	db 26, NIDORINA
 	db 28, PIDGEOTTO
-	db 28, HOPPIP
+	db 28, YOKOMON
 	db 30, SKIPLOOM
 	db 30, SKIPLOOM
 	db 28, CHANSEY
@@ -521,17 +521,17 @@ KantoGrassWildMons:
 	db 23, NIDORINO
 	db 23, NIDORINA
 	db 25, PIDGEOTTO
-	db 25, HOPPIP
-	db 27, HOPPIP
-	db 27, HOPPIP
+	db 25, YOKOMON
+	db 27, YOKOMON
+	db 27, YOKOMON
 	db 25, CHANSEY
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
 	db 25, PIDGEOTTO
-	db 25, HOPPIP
-	db 27, HOPPIP
-	db 27, HOPPIP
+	db 25, YOKOMON
+	db 27, YOKOMON
+	db 27, YOKOMON
 	db 25, CHANSEY
 	; nite
 	db 23, VENONAT

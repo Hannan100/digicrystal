@@ -192,7 +192,7 @@ PokemonCries::
 	mon_cry CRY_MARILL,      $0b6,  $180 ; AZUMARILL
 	mon_cry CRY_CLEFFA,      $f40,  $180 ; SUDOWOODO
 	mon_cry CRY_CLEFFA,     -$2a3,  $1c8 ; POLITOED
-	mon_cry CRY_CLEFFA,      $03b,  $0c8 ; HOPPIP
+	mon_cry CRY_CLEFFA,      $03b,  $0c8 ; YOKOMON
 	mon_cry CRY_CLEFFA,      $027,  $138 ; SKIPLOOM
 	mon_cry CRY_CLEFFA,      $000,  $180 ; JUMPLUFF
 	mon_cry CRY_AIPOM,      -$051,  $0e8 ; AIPOM
@@ -448,7 +448,7 @@ PokemonCries::
 	mon_cry CRY_MARILL,      182,  384 ; AZUMARILL
 	mon_cry CRY_CLEFFA,     3904,  384 ; SUDOWOODO
 	mon_cry CRY_CLEFFA,     -675,  456 ; POLITOED
-	mon_cry CRY_CLEFFA,       59,  200 ; HOPPIP
+	mon_cry CRY_CLEFFA,       59,  200 ; YOKOMON
 	mon_cry CRY_CLEFFA,       39,  312 ; SKIPLOOM
 	mon_cry CRY_CLEFFA,        0,  384 ; JUMPLUFF
 	mon_cry CRY_AIPOM,       -81,  232 ; AIPOM

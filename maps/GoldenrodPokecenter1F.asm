@@ -584,7 +584,7 @@ UnknownText_0x61e5c: ; unreferenced
 	text "Some girl I don't"
 	line "know sent me her"
 
-	para "HOPPIP."
+	para "YOKOMON."
 	line "You should trade"
 
 	para "for a #MON that"
@@ -593,7 +593,7 @@ UnknownText_0x61e5c: ; unreferenced
 
 UnknownText_0x61eb2: ; unreferenced
 	text "I received a"
-	line "female HOPPIP, but"
+	line "female YOKOMON, but"
 	cont "its named STANLEY!"
 
 	para "That's my dad's"

@@ -1198,16 +1198,16 @@ JohtoGrassWildMons:
 	db 3, PIDGEY
 	db 3, SENTRET
 	db 2, RATTATA
-	db 3, HOPPIP
-	db 3, HOPPIP
+	db 3, YOKOMON
+	db 3, YOKOMON
 	; day
 	db 2, PIDGEY
 	db 2, SENTRET
 	db 3, PIDGEY
 	db 3, SENTRET
 	db 2, RATTATA
-	db 3, HOPPIP
-	db 3, HOPPIP
+	db 3, YOKOMON
+	db 3, YOKOMON
 	; nite
 	db 2,POROMON
 	db 2, RATTATA
@@ -1225,16 +1225,16 @@ JohtoGrassWildMons:
 	db 4, MINOMON
 	db 4, PIDGEY
 	db 3, WEEDLE
-	db 4, HOPPIP
-	db 4, HOPPIP
+	db 4, YOKOMON
+	db 4, YOKOMON
 	; day
 	db 3, PIDGEY
 	db 3, MINOMON
 	db 4, MINOMON
 	db 4, PIDGEY
 	db 3, WEEDLE
-	db 4, HOPPIP
-	db 4, HOPPIP
+	db 4, YOKOMON
+	db 4, YOKOMON
 	; nite
 	db 3, SPINARAK
 	db 3,POROMON
@@ -1252,16 +1252,16 @@ JohtoGrassWildMons:
 	db 5, BELLSPROUT
 	db 5, PIDGEY
 	db 4, WEEDLE
-	db 5, HOPPIP
-	db 5, HOPPIP
+	db 5, YOKOMON
+	db 5, YOKOMON
 	; day
 	db 4, PIDGEY
 	db 4, MINOMON
 	db 5, BELLSPROUT
 	db 5, PIDGEY
 	db 4, WEEDLE
-	db 5, HOPPIP
-	db 5, HOPPIP
+	db 5, YOKOMON
+	db 5, YOKOMON
 	; nite
 	db 4, SPINARAK
 	db 4, POLIWAG
@@ -1277,18 +1277,18 @@ JohtoGrassWildMons:
 	db 4, EKANS
 	db 5, RATTATA
 	db 7, BELLSPROUT
-	db 6, HOPPIP
+	db 6, YOKOMON
 	db 7, PIDGEY
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, YOKOMON
+	db 7, YOKOMON
 	; day
 	db 4, EKANS
 	db 5, RATTATA
 	db 7, BELLSPROUT
-	db 6, HOPPIP
+	db 6, YOKOMON
 	db 7, PIDGEY
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, YOKOMON
+	db 7, YOKOMON
 	; nite
 	db 4, WOOPER
 	db 5, RATTATA
@@ -1304,18 +1304,18 @@ JohtoGrassWildMons:
 	db 6, RATTATA
 	db 6, SPEAROW
 	db 6, GEODUDE
-	db 6, HOPPIP
+	db 6, YOKOMON
 	db 7, EKANS
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, YOKOMON
+	db 7, YOKOMON
 	; day
 	db 6, RATTATA
 	db 6, SPEAROW
 	db 6, GEODUDE
-	db 6, HOPPIP
+	db 6, YOKOMON
 	db 7, EKANS
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, YOKOMON
+	db 7, YOKOMON
 	; nite
 	db 6, RATTATA
 	db 6, PAGUMON
