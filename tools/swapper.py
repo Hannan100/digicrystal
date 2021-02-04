@@ -78,10 +78,15 @@ FILES_TO_UPDATE = [
     "engine/overworld/decorations.asm",
     "engine/pokemon/evolve.asm",
     "engine/debug/debug_room.asm",
-    "data/pokemon/base_stats/" + OLD_NAME + ".asm",
-    "data/pokemon/dex_entries/" + OLD_NAME + ".asm"
+    "engine/events/std_scripts.asm",
+    "engine/phone/scripts/elm.asm",
+    "macros/legacy.asm"
 ]
 FILES_TO_UPDATE.extend(["maps/" + map for map in os.listdir("maps") if ".asm" in map])
+    .extend([
+        "data/pokemon/base_stats/" + OLD_NAME + ".asm",
+        "data/pokemon/dex_entries/" + OLD_NAME + ".asm"
+    ])
 
 FILES_TO_MOVE = [
     "data/pokemon/base_stats/" + OLD_NAME + ".asm",
