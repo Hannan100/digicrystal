@@ -1,6 +1,6 @@
 NyokomonAnimationIdle:  INCLUDE "gfx/pokemon/nyokomon/anim_idle.asm"
 PunimonAnimationIdle:    INCLUDE "gfx/pokemon/punimon/anim_idle.asm"
-VenusaurAnimationIdle:   INCLUDE "gfx/pokemon/venusaur/anim_idle.asm"
+BotamonAnimationIdle:   INCLUDE "gfx/pokemon/botamon/anim_idle.asm"
 CharmanderAnimationIdle: INCLUDE "gfx/pokemon/charmander/anim_idle.asm"
 CharmeleonAnimationIdle: INCLUDE "gfx/pokemon/charmeleon/anim_idle.asm"
 CharizardAnimationIdle:  INCLUDE "gfx/pokemon/charizard/anim_idle.asm"

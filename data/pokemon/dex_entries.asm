@@ -5,7 +5,7 @@ SECTION "Pokedex Entries 001-064", ROMX
 
 NyokomonPokedexEntry::  INCLUDE "data/pokemon/dex_entries/nyokomon.asm"
 PunimonPokedexEntry::    INCLUDE "data/pokemon/dex_entries/punimon.asm"
-VenusaurPokedexEntry::   INCLUDE "data/pokemon/dex_entries/venusaur.asm"
+BotamonPokedexEntry::   INCLUDE "data/pokemon/dex_entries/botamon.asm"
 CharmanderPokedexEntry:: INCLUDE "data/pokemon/dex_entries/charmander.asm"
 CharmeleonPokedexEntry:: INCLUDE "data/pokemon/dex_entries/charmeleon.asm"
 CharizardPokedexEntry::  INCLUDE "data/pokemon/dex_entries/charizard.asm"

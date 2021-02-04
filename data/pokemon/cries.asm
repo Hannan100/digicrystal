@@ -8,7 +8,7 @@ PokemonCries::
 <<<<<<< HEAD
 	mon_cry CRY_NYOKOMON,   $080,  $081 ; NYOKOMON
 	mon_cry CRY_NYOKOMON,   $020,  $100 ; PUNIMON
-	mon_cry CRY_NYOKOMON,   $000,  $140 ; VENUSAUR
+	mon_cry CRY_NYOKOMON,   $000,  $140 ; BOTAMON
 	mon_cry CRY_CHARMANDER,  $060,  $0c0 ; CHARMANDER
 	mon_cry CRY_CHARMANDER,  $020,  $0c0 ; CHARMELEON
 	mon_cry CRY_CHARMANDER,  $000,  $100 ; CHARIZARD
@@ -264,7 +264,7 @@ PokemonCries::
 =======
 	mon_cry CRY_NYOKOMON,   128,  129 ; NYOKOMON
 	mon_cry CRY_NYOKOMON,    32,  256 ; PUNIMON
-	mon_cry CRY_NYOKOMON,     0,  320 ; VENUSAUR
+	mon_cry CRY_NYOKOMON,     0,  320 ; BOTAMON
 	mon_cry CRY_CHARMANDER,   96,  192 ; CHARMANDER
 	mon_cry CRY_CHARMANDER,   32,  192 ; CHARMELEON
 	mon_cry CRY_CHARMANDER,    0,  256 ; CHARIZARD

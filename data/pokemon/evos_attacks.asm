@@ -34,7 +34,7 @@ NyokomonEvosAttacks:
 	db 0 ; no more level-up moves
 
 PunimonEvosAttacks:
-	db EVOLVE_LEVEL, 32, VENUSAUR
+	db EVOLVE_LEVEL, 32, BOTAMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -51,7 +51,7 @@ PunimonEvosAttacks:
 	db 56, SOLARBEAM
 	db 0 ; no more level-up moves
 
-VenusaurEvosAttacks:
+BotamonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL

@@ -1,7 +1,7 @@
 PokemonNames::
 	db "NYOKOMON@"
 	db "PUNIMON@@@"
-	db "VENUSAUR@@"
+	db "BOTAMON@@"
 	db "CHARMANDER"
 	db "CHARMELEON"
 	db "CHARIZARD@"

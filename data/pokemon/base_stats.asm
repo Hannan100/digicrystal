@@ -34,7 +34,7 @@ ENDM
 BaseData::
 INCLUDE "data/pokemon/base_stats/nyokomon.asm"
 INCLUDE "data/pokemon/base_stats/punimon.asm"
-INCLUDE "data/pokemon/base_stats/venusaur.asm"
+INCLUDE "data/pokemon/base_stats/botamon.asm"
 INCLUDE "data/pokemon/base_stats/charmander.asm"
 INCLUDE "data/pokemon/base_stats/charmeleon.asm"
 INCLUDE "data/pokemon/base_stats/charizard.asm"

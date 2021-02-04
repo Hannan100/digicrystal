@@ -1,7 +1,7 @@
 AnimationPointers:
 	dw NyokomonAnimation
 	dw PunimonAnimation
-	dw VenusaurAnimation
+	dw BotamonAnimation
 	dw CharmanderAnimation
 	dw CharmeleonAnimation
 	dw CharizardAnimation
