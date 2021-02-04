@@ -1,6 +1,6 @@
 AnimationIdlePointers:
 	dw NyokomonAnimationIdle
-	dw IvysaurAnimationIdle
+	dw PunimonAnimationIdle
 	dw VenusaurAnimationIdle
 	dw CharmanderAnimationIdle
 	dw CharmeleonAnimationIdle

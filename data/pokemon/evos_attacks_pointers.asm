@@ -2,7 +2,7 @@
 
 EvosAttacksPointers::
 	dw NyokomonEvosAttacks
-	dw IvysaurEvosAttacks
+	dw PunimonEvosAttacks
 	dw VenusaurEvosAttacks
 	dw CharmanderEvosAttacks
 	dw CharmeleonEvosAttacks

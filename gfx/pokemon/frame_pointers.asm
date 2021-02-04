@@ -1,6 +1,6 @@
 FramesPointers:
 	dw NyokomonFrames
-	dw IvysaurFrames
+	dw PunimonFrames
 	dw VenusaurFrames
 	dw CharmanderFrames
 	dw CharmeleonFrames

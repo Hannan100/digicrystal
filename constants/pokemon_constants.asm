@@ -20,7 +20,7 @@
 ; - EZChat_SortedPokemon (see data/pokemon/ezchat_order.asm)
 	const_def 1
 	const NYOKOMON  ; 01
-	const IVYSAUR    ; 02
+	const PUNIMON    ; 02
 	const VENUSAUR   ; 03
 	const CHARMANDER ; 04
 	const CHARMELEON ; 05

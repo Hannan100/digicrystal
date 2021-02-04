@@ -1,6 +1,6 @@
 BitmasksPointers:
 	dw NyokomonBitmasks
-	dw IvysaurBitmasks
+	dw PunimonBitmasks
 	dw VenusaurBitmasks
 	dw CharmanderBitmasks
 	dw CharmeleonBitmasks

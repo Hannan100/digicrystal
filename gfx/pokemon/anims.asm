@@ -1,5 +1,5 @@
 NyokomonAnimation:  INCLUDE "gfx/pokemon/nyokomon/anim.asm"
-IvysaurAnimation:    INCLUDE "gfx/pokemon/ivysaur/anim.asm"
+PunimonAnimation:    INCLUDE "gfx/pokemon/punimon/anim.asm"
 VenusaurAnimation:   INCLUDE "gfx/pokemon/venusaur/anim.asm"
 CharmanderAnimation: INCLUDE "gfx/pokemon/charmander/anim.asm"
 CharmeleonAnimation: INCLUDE "gfx/pokemon/charmeleon/anim.asm"

@@ -2,7 +2,7 @@
 
 KantoMonSpecials:
 	db  65 ; NYOKOMON
-	db  80 ; IVYSAUR
+	db  80 ; PUNIMON
 	db 100 ; VENUSAUR
 	db  50 ; CHARMANDER
 	db  65 ; CHARMELEON

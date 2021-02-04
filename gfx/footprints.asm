@@ -11,7 +11,7 @@ footprint_bottom EQUS "2 * LEN_1BPP_TILE, 2 * LEN_1BPP_TILE"
 
 ; 001-008 top halves
 INCBIN "gfx/footprints/nyokomon.1bpp",  footprint_top
-INCBIN "gfx/footprints/ivysaur.1bpp",    footprint_top
+INCBIN "gfx/footprints/punimon.1bpp",    footprint_top
 INCBIN "gfx/footprints/venusaur.1bpp",   footprint_top
 INCBIN "gfx/footprints/charmander.1bpp", footprint_top
 INCBIN "gfx/footprints/charmeleon.1bpp", footprint_top
@@ -20,7 +20,7 @@ INCBIN "gfx/footprints/squirtle.1bpp",   footprint_top
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_top
 ; 001-008 bottom halves
 INCBIN "gfx/footprints/nyokomon.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/ivysaur.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/punimon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/venusaur.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/charmander.1bpp", footprint_bottom
 INCBIN "gfx/footprints/charmeleon.1bpp", footprint_bottom

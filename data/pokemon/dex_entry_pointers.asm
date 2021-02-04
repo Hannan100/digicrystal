@@ -1,7 +1,7 @@
 PokedexDataPointerTable:
 ; entries correspond to constants/pokemon_constants.asm
 	dw NyokomonPokedexEntry
-	dw IvysaurPokedexEntry
+	dw PunimonPokedexEntry
 	dw VenusaurPokedexEntry
 	dw CharmanderPokedexEntry
 	dw CharmeleonPokedexEntry

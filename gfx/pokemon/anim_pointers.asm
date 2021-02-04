@@ -1,6 +1,6 @@
 AnimationPointers:
 	dw NyokomonAnimation
-	dw IvysaurAnimation
+	dw PunimonAnimation
 	dw VenusaurAnimation
 	dw CharmanderAnimation
 	dw CharmeleonAnimation

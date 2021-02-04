@@ -7,7 +7,7 @@ PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
 <<<<<<< HEAD
 	mon_cry CRY_NYOKOMON,   $080,  $081 ; NYOKOMON
-	mon_cry CRY_NYOKOMON,   $020,  $100 ; IVYSAUR
+	mon_cry CRY_NYOKOMON,   $020,  $100 ; PUNIMON
 	mon_cry CRY_NYOKOMON,   $000,  $140 ; VENUSAUR
 	mon_cry CRY_CHARMANDER,  $060,  $0c0 ; CHARMANDER
 	mon_cry CRY_CHARMANDER,  $020,  $0c0 ; CHARMELEON
@@ -263,7 +263,7 @@ PokemonCries::
 	mon_cry CRY_NIDORAN_M,      0,     0 ; 255
 =======
 	mon_cry CRY_NYOKOMON,   128,  129 ; NYOKOMON
-	mon_cry CRY_NYOKOMON,    32,  256 ; IVYSAUR
+	mon_cry CRY_NYOKOMON,    32,  256 ; PUNIMON
 	mon_cry CRY_NYOKOMON,     0,  320 ; VENUSAUR
 	mon_cry CRY_CHARMANDER,   96,  192 ; CHARMANDER
 	mon_cry CRY_CHARMANDER,   32,  192 ; CHARMELEON

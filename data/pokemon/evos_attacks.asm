@@ -18,7 +18,7 @@ SECTION "Evolutions and Attacks", ROMX
 INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 
 NyokomonEvosAttacks:
-	db EVOLVE_LEVEL, 16, IVYSAUR
+	db EVOLVE_LEVEL, 16, PUNIMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, GROWL
@@ -33,7 +33,7 @@ NyokomonEvosAttacks:
 	db 46, SOLARBEAM
 	db 0 ; no more level-up moves
 
-IvysaurEvosAttacks:
+PunimonEvosAttacks:
 	db EVOLVE_LEVEL, 32, VENUSAUR
 	db 0 ; no more evolutions
 	db 1, TACKLE
