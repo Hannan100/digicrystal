@@ -416,8 +416,8 @@ PokemonCries::
 	mon_cry CRY_CHIKORITA,   -16,  176 ; CHIKORITA
 	mon_cry CRY_CHIKORITA,   -34,  288 ; BAYLEEF
 	mon_cry CRY_CHIKORITA,  -183,  512 ; MEGANIUM
-	mon_cry CRY_CYNDAQUIL,   839,  128 ; CYNDAQUIL
-	mon_cry CRY_CYNDAQUIL,   801,  288 ; QUILAVA
+	mon_cry CRY_KOROMON,   839,  128 ; KOROMON
+	mon_cry CRY_KOROMON,   801,  288 ; QUILAVA
 	mon_cry CRY_TYPHLOSION, 3840,  212 ; TYPHLOSION
 	mon_cry CRY_TOTODILE,   1132,  232 ; TOTODILE
 	mon_cry CRY_TOTODILE,   1088,  272 ; CROCONAW
@@ -431,8 +431,8 @@ PokemonCries::
 	mon_cry CRY_SPINARAK,     17,  512 ; SPINARAK
 	mon_cry CRY_SPINARAK,   -174,  482 ; ARIADOS
 	mon_cry CRY_SQUIRTLE,    -16,  320 ; CROBAT
-	mon_cry CRY_CYNDAQUIL,   969,  320 ; CHINCHOU
-	mon_cry CRY_CYNDAQUIL,   720,  272 ; LANTURN
+	mon_cry CRY_KOROMON,   969,  320 ; CHINCHOU
+	mon_cry CRY_KOROMON,   720,  272 ; LANTURN
 	mon_cry CRY_PICHU,         0,  320 ; PICHU
 	mon_cry CRY_CLEFFA,       97,  145 ; CLEFFA
 	mon_cry CRY_CHIKORITA,   232,  232 ; IGGLYBUFF
@@ -481,7 +481,7 @@ PokemonCries::
 	mon_cry CRY_TEDDIURSA,  1600,  216 ; URSARING
 	mon_cry CRY_SLUGMA,     -472,  320 ; SLUGMA
 	mon_cry CRY_MAGCARGO,   -525,  448 ; MAGCARGO
-	mon_cry CRY_CYNDAQUIL,   510,  320 ; SWINUB
+	mon_cry CRY_KOROMON,   510,  320 ; SWINUB
 	mon_cry CRY_MAGCARGO,   -265,  256 ; PILOSWINE
 	mon_cry CRY_MAGCARGO,    161,  232 ; CORSOLA
 	mon_cry CRY_SUNFLORA,     13,  256 ; REMORAID
@@ -489,7 +489,7 @@ PokemonCries::
 	mon_cry CRY_TEDDIURSA,     2,  106 ; DELIBIRD
 	mon_cry CRY_MANTINE,    -190,  240 ; MANTINE
 	mon_cry CRY_AMPHAROS,   2217,  384 ; SKARMORY
-	mon_cry CRY_CYNDAQUIL,    57,  320 ; HOUNDOUR
+	mon_cry CRY_KOROMON,    57,  320 ; HOUNDOUR
 	mon_cry CRY_TOTODILE,   -266,  256 ; HOUNDOOM
 	mon_cry CRY_SLUGMA,      763,  256 ; KINGDRA
 	mon_cry CRY_SENTRET,      72,  560 ; PHANPY

@@ -203,12 +203,12 @@ KoromonPokeBallScript:
 	buttonsound
 	givepoke KOROMON, 5, BERRY
 =======
-	getmonname STRING_BUFFER_3, CYNDAQUIL
+	getmonname STRING_BUFFER_3, KOROMON
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke CYNDAQUIL, 5, BERRY
+	givepoke KOROMON, 5, BERRY
 >>>>>>> pret/master
 	closetext
 	readvar VAR_FACING
@@ -217,7 +217,7 @@ KoromonPokeBallScript:
 	applymovement PLAYER, AfterKoromonMovement
 	jump ElmDirectionsScript
 =======
-	applymovement PLAYER, AfterCyndaquilMovement
+	applymovement PLAYER, AfterKoromonMovement
 	sjump ElmDirectionsScript
 >>>>>>> pret/master
 
