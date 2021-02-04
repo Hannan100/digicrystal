@@ -2,6 +2,7 @@
 import argparse
 import os
 import shutil
+import itertools
 
 # Args: 'mon to replace, new name, new front sprite (opt), new back sprite (opt)
 parser = argparse.ArgumentParser(description="Replace Pokémon")
@@ -31,9 +32,9 @@ FILES_TO_UPDATE = [
     "constants/pokemon_constants.asm",
     "constants/sprite_anim_constants.asm",
     "constants/trainer_constants.asm",
-    "data/icon_pointers",
-    "data/decorations/attributes",
-    "data/decorations/decorations",
+    "data/icon_pointers.asm",
+    "data/decorations/attributes.asm",
+    "data/decorations/decorations.asm",
     "data/decorations/mystery_gift_decos.asm",
     "data/pokemon/base_stats.asm",
     "data/pokemon/cries.asm",
@@ -53,7 +54,7 @@ FILES_TO_UPDATE = [
     "data/pokemon/palettes.asm",
     "data/pokemon/pic_pointers.asm",
     "data/radio/buenas_passwords.asm",
-    "data/sprites/sprite_mons.asm"
+    "data/sprites/sprite_mons.asm",
     "data/sprite_anims/oam.asm",
     "data/trainers/parties.asm",
     "data/wild/johto_grass.asm",
@@ -76,8 +77,8 @@ FILES_TO_UPDATE = [
     "engine/overworld/decorations.asm",
     "data/pokemon/base_stats/" + OLD_NAME + ".asm",
     "data/pokemon/dex_entries/" + OLD_NAME + ".asm"
-    # maps/*.asm
 ]
+FILES_TO_UPDATE.extend(["maps/" + map for map in os.listdir("maps") if ".asm" in map])
 
 FILES_TO_MOVE = [
     "data/pokemon/base_stats/" + OLD_NAME + ".asm",
