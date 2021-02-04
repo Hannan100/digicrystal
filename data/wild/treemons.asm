@@ -54,7 +54,7 @@ TreeMonSet_Town:
 TreeMonSet_Route:
 ; common
 	db 50, POROMON,   10
-	db 15, SPINARAK,   10
+	db 15, KOKOMON,   10
 	db 15, GUMMYMON,     10
 	db 10, EXEGGCUTE,  10
 	db  5, EXEGGCUTE,  10

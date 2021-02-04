@@ -18,7 +18,7 @@ AsleepTreeMonsDay:
 	db VENONAT
 	db POROMON
 	db NOCTOWL
-	db SPINARAK
+	db KOKOMON
 	db HERACROSS
 	db -1 ; end
 
@@ -26,6 +26,6 @@ AsleepTreeMonsMorn:
 	db VENONAT
 	db POROMON
 	db NOCTOWL
-	db SPINARAK
+	db KOKOMON
 	db HERACROSS
 	db -1 ; end

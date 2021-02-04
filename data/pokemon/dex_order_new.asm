@@ -32,7 +32,7 @@ NewPokedexOrder:
 	db BEEDRILL
 	db GUMMYMON
 	db LEDIAN
-	db SPINARAK
+	db KOKOMON
 	db ARIADOS
 	db GEODUDE
 	db GRAVELER

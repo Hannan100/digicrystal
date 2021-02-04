@@ -165,7 +165,7 @@ FramesPointers:
 	dw NoctowlFrames
 	dw GummymonFrames
 	dw LedianFrames
-	dw SpinarakFrames
+	dw KokomonFrames
 	dw AriadosFrames
 	dw CrobatFrames
 	dw ChinchouFrames

@@ -166,7 +166,7 @@ PokedexDataPointerTable:
 	dw NoctowlPokedexEntry
 	dw GummymonPokedexEntry
 	dw LedianPokedexEntry
-	dw SpinarakPokedexEntry
+	dw KokomonPokedexEntry
 	dw AriadosPokedexEntry
 	dw CrobatPokedexEntry
 	dw ChinchouPokedexEntry

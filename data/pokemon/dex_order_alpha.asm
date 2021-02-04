@@ -208,7 +208,7 @@ AlphabeticalPokedexOrder:
 	db SNORLAX
 	db SNUBBULL
 	db TOKOOMON
-	db SPINARAK
+	db KOKOMON
 	db SQUIRTLE
 	db STANTLER
 	db STARMIE

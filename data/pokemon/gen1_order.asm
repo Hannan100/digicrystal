@@ -205,7 +205,7 @@ Pokered_MonIndices:
 	db NOCTOWL
 	db GUMMYMON
 	db LEDIAN
-	db SPINARAK
+	db KOKOMON
 	db ARIADOS
 	db CROBAT
 	db CHINCHOU

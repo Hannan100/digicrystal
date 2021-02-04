@@ -334,8 +334,8 @@ PokemonPicPointers::
 	dba_pic GummymonBackpic
 	dba_pic LedianFrontpic
 	dba_pic LedianBackpic
-	dba_pic SpinarakFrontpic
-	dba_pic SpinarakBackpic
+	dba_pic KokomonFrontpic
+	dba_pic KokomonBackpic
 	dba_pic AriadosFrontpic
 	dba_pic AriadosBackpic
 	dba_pic CrobatFrontpic

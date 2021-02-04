@@ -172,8 +172,8 @@ PokemonCries::
 	mon_cry CRY_POROMON,    $000,  $1a0 ; NOCTOWL
 	mon_cry CRY_GUMMYMON,      $000,  $0de ; GUMMYMON
 	mon_cry CRY_GUMMYMON,     -$096,  $138 ; LEDIAN
-	mon_cry CRY_SPINARAK,    $011,  $200 ; SPINARAK
-	mon_cry CRY_SPINARAK,   -$0ae,  $1e2 ; ARIADOS
+	mon_cry CRY_KOKOMON,    $011,  $200 ; KOKOMON
+	mon_cry CRY_KOKOMON,   -$0ae,  $1e2 ; ARIADOS
 	mon_cry CRY_SQUIRTLE,   -$010,  $140 ; CROBAT
 	mon_cry CRY_KOROMON,   $3c9,  $140 ; CHINCHOU
 	mon_cry CRY_KOROMON,   $2d0,  $110 ; LANTURN
@@ -252,7 +252,7 @@ PokemonCries::
 	mon_cry CRY_ENTEI,       $000,  $1a0 ; ENTEI
 	mon_cry CRY_MAGCARGO,    $000,  $180 ; SUICUNE
 	mon_cry CRY_RAIKOU,      $05f,  $0d0 ; LARVITAR
-	mon_cry CRY_SPINARAK,   -$1db,  $150 ; PUPITAR
+	mon_cry CRY_KOKOMON,   -$1db,  $150 ; PUPITAR
 	mon_cry CRY_RAIKOU,     -$100,  $180 ; TYRANITAR
 	mon_cry CRY_TYPHLOSION,  $000,  $100 ; LUGIA
 	mon_cry CRY_AIPOM,       $000,  $180 ; HO_OH
@@ -428,8 +428,8 @@ PokemonCries::
 	mon_cry CRY_POROMON,      0,  416 ; NOCTOWL
 	mon_cry CRY_GUMMYMON,        0,  222 ; GUMMYMON
 	mon_cry CRY_GUMMYMON,     -150,  312 ; LEDIAN
-	mon_cry CRY_SPINARAK,     17,  512 ; SPINARAK
-	mon_cry CRY_SPINARAK,   -174,  482 ; ARIADOS
+	mon_cry CRY_KOKOMON,     17,  512 ; KOKOMON
+	mon_cry CRY_KOKOMON,   -174,  482 ; ARIADOS
 	mon_cry CRY_SQUIRTLE,    -16,  320 ; CROBAT
 	mon_cry CRY_KOROMON,   969,  320 ; CHINCHOU
 	mon_cry CRY_KOROMON,   720,  272 ; LANTURN
@@ -508,7 +508,7 @@ PokemonCries::
 	mon_cry CRY_ENTEI,         0,  416 ; ENTEI
 	mon_cry CRY_MAGCARGO,      0,  384 ; SUICUNE
 	mon_cry CRY_RAIKOU,       95,  208 ; LARVITAR
-	mon_cry CRY_SPINARAK,   -475,  336 ; PUPITAR
+	mon_cry CRY_KOKOMON,   -475,  336 ; PUPITAR
 	mon_cry CRY_RAIKOU,     -256,  384 ; TYRANITAR
 	mon_cry CRY_TYPHLOSION,    0,  256 ; LUGIA
 	mon_cry CRY_AIPOM,         0,  384 ; HO_OH

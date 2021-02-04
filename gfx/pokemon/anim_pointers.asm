@@ -165,7 +165,7 @@ AnimationPointers:
 	dw NoctowlAnimation
 	dw GummymonAnimation
 	dw LedianAnimation
-	dw SpinarakAnimation
+	dw KokomonAnimation
 	dw AriadosAnimation
 	dw CrobatAnimation
 	dw ChinchouAnimation

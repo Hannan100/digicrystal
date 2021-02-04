@@ -38,7 +38,7 @@ Cries:
 	dba Cry_Vulpix
 	dba Cry_Weepinbell
 	dba Cry_Marill
-	dba Cry_Spinarak
+	dba Cry_Kokomon
 	dba Cry_Demiveemon
 	dba Cry_Girafarig
 	dba Cry_Raikou

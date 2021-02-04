@@ -493,7 +493,7 @@ GummymonEggMoves:
 	db LIGHT_SCREEN
 	db -1 ; end
 
-SpinarakEggMoves:
+KokomonEggMoves:
 	db PSYBEAM
 	db DISABLE
 	db SONICBOOM

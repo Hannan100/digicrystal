@@ -165,7 +165,7 @@ PokemonNames::
 	db "NOCTOWL@@@" ; !Hawkmon
 	db "GUMMYMON@@@@" ; !Puroromon
 	db "LEDIAN@@@@" ; !Fanbeemon
-	db "SPINARAK@@" ; !Tentomon
+	db "KOKOMON@@" ; !Tentomon
 	db "ARIADOS@@@" ; !Kbuterimon
 	db "CROBAT@@@@"
 	db "CHINCHOU@@"

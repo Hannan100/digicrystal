@@ -347,7 +347,7 @@ JohtoGrassWildMons:
 	; nite
 	db 12, PSYDUCK
 	db 13,POROMON
-	db 14, SPINARAK
+	db 14, KOKOMON
 	db 15,POROMON
 	db 10, VENONAT
 	db 12, VENONAT
@@ -1236,7 +1236,7 @@ JohtoGrassWildMons:
 	db 4, YOKOMON
 	db 4, YOKOMON
 	; nite
-	db 3, SPINARAK
+	db 3, KOKOMON
 	db 3,POROMON
 	db 4, POLIWAG
 	db 4,POROMON
@@ -1263,7 +1263,7 @@ JohtoGrassWildMons:
 	db 5, YOKOMON
 	db 5, YOKOMON
 	; nite
-	db 4, SPINARAK
+	db 4, KOKOMON
 	db 4, POLIWAG
 	db 5, BELLSPROUT
 	db 5,POROMON
@@ -1398,7 +1398,7 @@ JohtoGrassWildMons:
 	db 6, PIDGEY
 	db 6, PIDGEY
 	; nite
-	db 4, SPINARAK
+	db 4, KOKOMON
 	db 4,POROMON
 	db 5, BELLSPROUT
 	db 5,POROMON
@@ -1425,7 +1425,7 @@ JohtoGrassWildMons:
 	db 15, PIDGEY
 	db 15, PIDGEY
 	; nite
-	db 13, SPINARAK
+	db 13, KOKOMON
 	db 14, STANTLER
 	db 15,POROMON
 	db 16, STANTLER

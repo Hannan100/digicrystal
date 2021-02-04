@@ -167,7 +167,7 @@ EvosAttacksPointers::
 	dw NoctowlEvosAttacks
 	dw GummymonEvosAttacks
 	dw LedianEvosAttacks
-	dw SpinarakEvosAttacks
+	dw KokomonEvosAttacks
 	dw AriadosEvosAttacks
 	dw CrobatEvosAttacks
 	dw ChinchouEvosAttacks

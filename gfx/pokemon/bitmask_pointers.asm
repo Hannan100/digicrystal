@@ -165,7 +165,7 @@ BitmasksPointers:
 	dw NoctowlBitmasks
 	dw GummymonBitmasks
 	dw LedianBitmasks
-	dw SpinarakBitmasks
+	dw KokomonBitmasks
 	dw AriadosBitmasks
 	dw CrobatBitmasks
 	dw ChinchouBitmasks

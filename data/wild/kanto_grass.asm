@@ -211,7 +211,7 @@ KantoGrassWildMons:
 	db 4, PIKACHU
 	; nite
 	db 3,POROMON
-	db 3, SPINARAK
+	db 3, KOKOMON
 	db 5, POROMON
 	db 7, NOCTOWL
 	db 7, ARIADOS
