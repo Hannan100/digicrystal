@@ -36,7 +36,7 @@
 	const CRY_GROWLITHE
 	const CRY_KRABBY
 	const CRY_PSYDUCK
-	const CRY_RATTATA
+	const CRY_TSUNOMON
 	const CRY_VILEPLUME
 	const CRY_VULPIX
 	const CRY_WEEPINBELL

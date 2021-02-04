@@ -338,18 +338,18 @@ ErikaGroup:
 YoungsterGroup:
 	; YOUNGSTER (1)
 	db "JOEY@", TRAINERTYPE_NORMAL
-	db  4, RATTATA
+	db  4, TSUNOMON
 	db -1 ; end
 
 	; YOUNGSTER (2)
 	db "MIKEY@", TRAINERTYPE_NORMAL
 	db  2, PIDGEY
-	db  4, RATTATA
+	db  4, TSUNOMON
 	db -1 ; end
 
 	; YOUNGSTER (3)
 	db "ALBERT@", TRAINERTYPE_NORMAL
-	db  6, RATTATA
+	db  6, TSUNOMON
 	db  8, PAGUMON
 	db -1 ; end
 
@@ -360,7 +360,7 @@ YoungsterGroup:
 
 	; YOUNGSTER (5)
 	db "SAMUEL@", TRAINERTYPE_NORMAL
-	db  7, RATTATA
+	db  7, TSUNOMON
 	db 10, SANDSHREW
 	db  8, SPEAROW
 	db  8, SPEAROW
@@ -374,7 +374,7 @@ YoungsterGroup:
 
 	; YOUNGSTER (7)
 	db "JOEY@", TRAINERTYPE_NORMAL
-	db 15, RATTATA
+	db 15, TSUNOMON
 	db -1 ; end
 
 	; YOUNGSTER (8)
@@ -1246,7 +1246,7 @@ GruntMGroup:
 
 	; GRUNTM (2)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db  7, RATTATA
+	db  7, TSUNOMON
 	db  9, PAGUMON
 	db  9, PAGUMON
 	db -1 ; end
@@ -1266,11 +1266,11 @@ GruntMGroup:
 
 	; GRUNTM (5)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 21, RATTATA
-	db 21, RATTATA
-	db 23, RATTATA
-	db 23, RATTATA
-	db 23, RATTATA
+	db 21, TSUNOMON
+	db 21, TSUNOMON
+	db 23, TSUNOMON
+	db 23, TSUNOMON
+	db 23, TSUNOMON
 	db -1 ; end
 
 	; GRUNTM (6)
@@ -1284,7 +1284,7 @@ GruntMGroup:
 	db 23, KOFFING
 	db 23, GRIMER
 	db 23, PAGUMON
-	db 23, RATTATA
+	db 23, TSUNOMON
 	db -1 ; end
 
 	; GRUNTM (8)
@@ -1309,7 +1309,7 @@ GruntMGroup:
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 23, MUK
 	db 23, KOFFING
-	db 25, RATTATA
+	db 25, TSUNOMON
 	db -1 ; end
 
 	; GRUNTM (12)
@@ -1319,7 +1319,7 @@ GruntMGroup:
 
 	; GRUNTM (13)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 27, RATTATA
+	db 27, TSUNOMON
 	db -1 ; end
 
 	; GRUNTM (14)
@@ -1336,10 +1336,10 @@ GruntMGroup:
 
 	; GRUNTM (16)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 16, RATTATA
-	db 16, RATTATA
-	db 16, RATTATA
-	db 16, RATTATA
+	db 16, TSUNOMON
+	db 16, TSUNOMON
+	db 16, TSUNOMON
+	db 16, TSUNOMON
 	db -1 ; end
 
 	; GRUNTM (17)
@@ -1349,9 +1349,9 @@ GruntMGroup:
 
 	; GRUNTM (18)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 17, RATTATA
+	db 17, TSUNOMON
 	db 17, PAGUMON
-	db 17, RATTATA
+	db 17, TSUNOMON
 	db -1 ; end
 
 	; GRUNTM (19)
@@ -1370,7 +1370,7 @@ GruntMGroup:
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 16, PAGUMON
 	db 17, GRIMER
-	db 18, RATTATA
+	db 18, TSUNOMON
 	db -1 ; end
 
 	; GRUNTM (22)
@@ -1397,8 +1397,8 @@ GruntMGroup:
 
 	; GRUNTM (26)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 15, RATTATA
-	db 15, RATTATA
+	db 15, TSUNOMON
+	db 15, TSUNOMON
 	db -1 ; end
 
 	; GRUNTM (27)
@@ -1413,8 +1413,8 @@ GruntMGroup:
 
 	; GRUNTM (29)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db  9, RATTATA
-	db  9, RATTATA
+	db  9, TSUNOMON
+	db  9, TSUNOMON
 	db -1 ; end
 
 	; GRUNTM (30)
