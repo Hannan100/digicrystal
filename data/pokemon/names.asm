@@ -163,7 +163,7 @@ PokemonNames::
 	db "FURRET@@@@" ; !Terriermon
 	db "POROMON@@" ; !Poromon
 	db "NOCTOWL@@@" ; !Hawkmon
-	db "LEDYBA@@@@" ; !Puroromon
+	db "GUMMYMON@@@@" ; !Puroromon
 	db "LEDIAN@@@@" ; !Fanbeemon
 	db "SPINARAK@@" ; !Tentomon
 	db "ARIADOS@@@" ; !Kbuterimon

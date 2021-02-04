@@ -2245,7 +2245,7 @@ NoctowlEvosAttacks:
 	db 57, DREAM_EATER
 	db 0 ; no more level-up moves
 
-LedybaEvosAttacks:
+GummymonEvosAttacks:
 	db EVOLVE_LEVEL, 18, LEDIAN
 	db 0 ; no more evolutions
 	db 1, TACKLE

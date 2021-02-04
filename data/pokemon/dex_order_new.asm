@@ -30,7 +30,7 @@ NewPokedexOrder:
 	db MOTIMON
 	db KAKUNA
 	db BEEDRILL
-	db LEDYBA
+	db GUMMYMON
 	db LEDIAN
 	db SPINARAK
 	db ARIADOS

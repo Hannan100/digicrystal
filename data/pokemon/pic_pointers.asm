@@ -330,8 +330,8 @@ PokemonPicPointers::
 	dba_pic PoromonBackpic
 	dba_pic NoctowlFrontpic
 	dba_pic NoctowlBackpic
-	dba_pic LedybaFrontpic
-	dba_pic LedybaBackpic
+	dba_pic GummymonFrontpic
+	dba_pic GummymonBackpic
 	dba_pic LedianFrontpic
 	dba_pic LedianBackpic
 	dba_pic SpinarakFrontpic

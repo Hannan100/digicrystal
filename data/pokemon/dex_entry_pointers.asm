@@ -164,7 +164,7 @@ PokedexDataPointerTable:
 	dw FurretPokedexEntry
 	dw PoromonPokedexEntry
 	dw NoctowlPokedexEntry
-	dw LedybaPokedexEntry
+	dw GummymonPokedexEntry
 	dw LedianPokedexEntry
 	dw SpinarakPokedexEntry
 	dw AriadosPokedexEntry

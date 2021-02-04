@@ -165,7 +165,7 @@ EvosAttacksPointers::
 	dw FurretEvosAttacks
 	dw PoromonEvosAttacks
 	dw NoctowlEvosAttacks
-	dw LedybaEvosAttacks
+	dw GummymonEvosAttacks
 	dw LedianEvosAttacks
 	dw SpinarakEvosAttacks
 	dw AriadosEvosAttacks

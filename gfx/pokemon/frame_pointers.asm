@@ -163,7 +163,7 @@ FramesPointers:
 	dw FurretFrames
 	dw PoromonFrames
 	dw NoctowlFrames
-	dw LedybaFrames
+	dw GummymonFrames
 	dw LedianFrames
 	dw SpinarakFrames
 	dw AriadosFrames

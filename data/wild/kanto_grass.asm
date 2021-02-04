@@ -195,7 +195,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, MINOMON
-	db 3, LEDYBA
+	db 3, GUMMYMON
 	db 5, PIDGEY
 	db 7, BUTTERFREE
 	db 7, LEDIAN

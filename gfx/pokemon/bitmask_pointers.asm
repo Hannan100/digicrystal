@@ -163,7 +163,7 @@ BitmasksPointers:
 	dw FurretBitmasks
 	dw PoromonBitmasks
 	dw NoctowlBitmasks
-	dw LedybaBitmasks
+	dw GummymonBitmasks
 	dw LedianBitmasks
 	dw SpinarakBitmasks
 	dw AriadosBitmasks

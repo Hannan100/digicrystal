@@ -163,7 +163,7 @@ AnimationPointers:
 	dw FurretAnimation
 	dw PoromonAnimation
 	dw NoctowlAnimation
-	dw LedybaAnimation
+	dw GummymonAnimation
 	dw LedianAnimation
 	dw SpinarakAnimation
 	dw AriadosAnimation

@@ -203,7 +203,7 @@ Pokered_MonIndices:
 	db FURRET
 	db POROMON
 	db NOCTOWL
-	db LEDYBA
+	db GUMMYMON
 	db LEDIAN
 	db SPINARAK
 	db ARIADOS

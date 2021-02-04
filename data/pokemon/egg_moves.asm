@@ -487,7 +487,7 @@ PoromonEggMoves:
 	db SKY_ATTACK
 	db -1 ; end
 
-LedybaEggMoves:
+GummymonEggMoves:
 	db PSYBEAM
 	db BIDE
 	db LIGHT_SCREEN

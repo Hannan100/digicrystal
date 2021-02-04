@@ -170,8 +170,8 @@ PokemonCries::
 	mon_cry CRY_NYAROMON,     $06b,  $102 ; FURRET
 	mon_cry CRY_POROMON,    $091,  $0d8 ; POROMON
 	mon_cry CRY_POROMON,    $000,  $1a0 ; NOCTOWL
-	mon_cry CRY_LEDYBA,      $000,  $0de ; LEDYBA
-	mon_cry CRY_LEDYBA,     -$096,  $138 ; LEDIAN
+	mon_cry CRY_GUMMYMON,      $000,  $0de ; GUMMYMON
+	mon_cry CRY_GUMMYMON,     -$096,  $138 ; LEDIAN
 	mon_cry CRY_SPINARAK,    $011,  $200 ; SPINARAK
 	mon_cry CRY_SPINARAK,   -$0ae,  $1e2 ; ARIADOS
 	mon_cry CRY_SQUIRTLE,   -$010,  $140 ; CROBAT
@@ -426,8 +426,8 @@ PokemonCries::
 	mon_cry CRY_NYAROMON,     107,  258 ; FURRET
 	mon_cry CRY_POROMON,    145,  216 ; POROMON
 	mon_cry CRY_POROMON,      0,  416 ; NOCTOWL
-	mon_cry CRY_LEDYBA,        0,  222 ; LEDYBA
-	mon_cry CRY_LEDYBA,     -150,  312 ; LEDIAN
+	mon_cry CRY_GUMMYMON,        0,  222 ; GUMMYMON
+	mon_cry CRY_GUMMYMON,     -150,  312 ; LEDIAN
 	mon_cry CRY_SPINARAK,     17,  512 ; SPINARAK
 	mon_cry CRY_SPINARAK,   -174,  482 ; ARIADOS
 	mon_cry CRY_SQUIRTLE,    -16,  320 ; CROBAT

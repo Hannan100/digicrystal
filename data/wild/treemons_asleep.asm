@@ -10,7 +10,7 @@ AsleepTreeMonsNite:
 	db TOKOOMON
 	db EKANS
 	db EXEGGCUTE
-	db LEDYBA
+	db GUMMYMON
 	db AIPOM
 	db -1 ; end
 

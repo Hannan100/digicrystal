@@ -111,7 +111,7 @@ AlphabeticalPokedexOrder:
 	db LAPRAS
 	db LARVITAR
 	db LEDIAN
-	db LEDYBA
+	db GUMMYMON
 	db LICKITUNG
 	db LUGIA
 	db MACHAMP

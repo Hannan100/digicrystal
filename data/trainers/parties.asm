@@ -1609,7 +1609,7 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (19)
 	db "WAYNE@", TRAINERTYPE_NORMAL
-	db  8, LEDYBA
+	db  8, GUMMYMON
 	db 10, PARAS
 	db -1 ; end
 
@@ -3330,7 +3330,7 @@ TwinsGroup:
 	; TWINS (1)
 	db "AMY & MAY@", TRAINERTYPE_NORMAL
 	db 10, SPINARAK
-	db 10, LEDYBA
+	db 10, GUMMYMON
 	db -1 ; end
 
 	; TWINS (2)
@@ -3347,7 +3347,7 @@ TwinsGroup:
 
 	; TWINS (4)
 	db "AMY & MAY@", TRAINERTYPE_NORMAL
-	db 10, LEDYBA
+	db 10, GUMMYMON
 	db 10, SPINARAK
 	db -1 ; end
 

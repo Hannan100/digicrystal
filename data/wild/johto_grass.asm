@@ -331,7 +331,7 @@ JohtoGrassWildMons:
 	; morn
 	db 12, NIDORAN_M
 	db 12, NIDORAN_F
-	db 14, LEDYBA
+	db 14, GUMMYMON
 	db 13, PIDGEY
 	db 10, MINOMON
 	db 10, MOTIMON
@@ -1220,7 +1220,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, LEDYBA
+	db 3, GUMMYMON
 	db 3, MINOMON
 	db 4, MINOMON
 	db 4, PIDGEY
@@ -1247,7 +1247,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_31
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, LEDYBA
+	db 4, GUMMYMON
 	db 4, MINOMON
 	db 5, BELLSPROUT
 	db 5, PIDGEY
@@ -1382,7 +1382,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_36
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, LEDYBA
+	db 4, GUMMYMON
 	db 4, PIDGEY
 	db 5, BELLSPROUT
 	db 5, GROWLITHE
@@ -1409,7 +1409,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_37
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, LEDYBA
+	db 13, GUMMYMON
 	db 14, GROWLITHE
 	db 15, PIDGEY
 	db 16, GROWLITHE
