@@ -4,17 +4,17 @@ import shutil
 
 # Args: 'mon to replace, new name, new front sprite (opt), new back sprite (opt)
 parser = argparse.ArgumentParser(description="Replace Pokémon")
-parser.add_argument("old", metavar="o", required=True)
-parser.add_argument("new", metavar="n", required=True)
-parser.add_argument("front", metavar="f", required=False)
-parser.add_argument("back", metavar="b", required=False)
+parser.add_argument("--o", required=True)
+parser.add_argument("--n", required=True)
+parser.add_argument("--f", required=False)
+parser.add_argument("--b", required=False)
 
 args = parser.parse_args()
 
-OLD_NAME = vars(args).get(o)
-NEW_NAME = vars(args).get(n)
-NEW_FRONT_SPRITE = vars(args).get(f)
-NEW_BACK_SPRITE = vars(args).get(b)
+OLD_NAME = vars(args).get("o")
+NEW_NAME = vars(args).get("n")
+NEW_FRONT_SPRITE = vars(args).get("f")
+NEW_BACK_SPRITE = vars(args).get("b")
 
 FRONT_SPRITE_PATH = "gfx/pokemon/" + OLD_NAME + "/front.png"
 BACK_SPRITE_PATH = "gfx/pokemon/" + OLD_NAME + "/back.png"
@@ -112,9 +112,14 @@ shutil.copyfile(NEW_FRONT_SPRITE, FRONT_SPRITE_PATH)
 shutil.copyfile(NEW_BACK_SPRITE, BACK_SPRITE_PATH)
 
 for filename in FILES_TO_UPDATE:
-    with open(filename, "w") as file:
+    with open(filename, "r") as file:
+        print("Updating " + filename)
         filedata = file.read()
-    filedata.replace(OLD_NAME, NEW_NAME)
+    filedata.replace(OLD_NAME.upper(), NEW_NAME.upper())
+    filedata.replace(OLD_NAME.lower(), NEW_NAME.lower())
+    with open(filename, "w") as file:
+        file.write(filedata)
+    
 
 for filename in FILES_TO_MOVE:
     shutil.move(filename, filename.replace(OLD_NAME, NEW_NAME))
