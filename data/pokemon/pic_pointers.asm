@@ -475,8 +475,8 @@ PokemonPicPointers::
 	dba_pic StantlerBackpic
 	dba_pic SmeargleFrontpic
 	dba_pic SmeargleBackpic
-	dba_pic TyrogueFrontpic
-	dba_pic TyrogueBackpic
+	dba_pic KuramonFrontpic
+	dba_pic KuramonBackpic
 	dba_pic HitmontopFrontpic
 	dba_pic HitmontopBackpic
 	dba_pic SmoochumFrontpic

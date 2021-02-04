@@ -767,7 +767,7 @@ StantlerEggMoves:
 	db BITE
 	db -1 ; end
 
-TyrogueEggMoves:
+KuramonEggMoves:
 	db RAPID_SPIN
 	db HI_JUMP_KICK
 	db MACH_PUNCH

@@ -241,7 +241,7 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,   $073,  $240 ; PORYGON2
 	mon_cry CRY_AIPOM,      -$160,  $180 ; STANTLER
 	mon_cry CRY_PICHU,      -$21a,  $1f0 ; SMEARGLE
-	mon_cry CRY_AIPOM,       $02c,  $108 ; TYROGUE
+	mon_cry CRY_AIPOM,       $02c,  $108 ; KURAMON
 	mon_cry CRY_SLUGMA,      $000,  $100 ; HITMONTOP
 	mon_cry CRY_MARILL,      $068,  $100 ; SMOOCHUM
 	mon_cry CRY_SUNFLORA,   -$2d8,  $0b4 ; ELEKID
@@ -497,7 +497,7 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,   115,  576 ; PORYGON2
 	mon_cry CRY_AIPOM,      -352,  384 ; STANTLER
 	mon_cry CRY_PICHU,      -538,  496 ; SMEARGLE
-	mon_cry CRY_AIPOM,        44,  264 ; TYROGUE
+	mon_cry CRY_AIPOM,        44,  264 ; KURAMON
 	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP
 	mon_cry CRY_MARILL,      104,  256 ; SMOOCHUM
 	mon_cry CRY_SUNFLORA,   -728,  180 ; ELEKID

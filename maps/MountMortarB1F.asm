@@ -15,8 +15,8 @@ MountMortarB1F_MapScripts:
 MountMortarB1FKiyoScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_TYROGUE_FROM_KIYO
-	iftrue .GotTyrogue
+	checkevent EVENT_GOT_KURAMON_FROM_KIYO
+	iftrue .GotKuramon
 	checkevent EVENT_BEAT_BLACKBELT_KIYO
 	iftrue .BeatKiyo
 	writetext MountMortarB1FKiyoIntroText
@@ -29,7 +29,7 @@ MountMortarB1FKiyoScript:
 	setevent EVENT_BEAT_BLACKBELT_KIYO
 	opentext
 .BeatKiyo:
-	writetext MountMortarB1FTyrogueRewardText
+	writetext MountMortarB1FKuramonRewardText
 	promptbutton
 	waitsfx
 	readvar VAR_PARTYCOUNT
@@ -37,10 +37,10 @@ MountMortarB1FKiyoScript:
 	writetext MountMortarB1FReceiveMonText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke TYROGUE, 10
-	setevent EVENT_GOT_TYROGUE_FROM_KIYO
-.GotTyrogue:
-	writetext MountMortarB1FKiyoGotTyrogueText
+	givepoke KURAMON, 10
+	setevent EVENT_GOT_KURAMON_FROM_KIYO
+.GotKuramon:
+	writetext MountMortarB1FKiyoGotKuramonText
 	waitbutton
 	closetext
 	end
@@ -92,7 +92,7 @@ MountMortarB1FKiyoWinText:
 	line "I'm beaten!"
 	done
 
-MountMortarB1FTyrogueRewardText:
+MountMortarB1FKuramonRewardText:
 	text "I… I'm crushed…"
 
 	para "My training is"
@@ -110,11 +110,11 @@ MountMortarB1FTyrogueRewardText:
 
 MountMortarB1FReceiveMonText:
 	text "<PLAYER> received"
-	line "TYROGUE."
+	line "KURAMON."
 	done
 
-MountMortarB1FKiyoGotTyrogueText:
-	text "TYROGUE is a"
+MountMortarB1FKiyoGotKuramonText:
+	text "KURAMON is a"
 	line "fighting-type."
 
 	para "It evolves into a"

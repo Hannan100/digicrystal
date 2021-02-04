@@ -143,7 +143,7 @@ NewPokedexOrder:
 	db MACHOP
 	db MACHOKE
 	db MACHAMP
-	db TYROGUE
+	db KURAMON
 	db HITMONLEE
 	db HITMONCHAN
 	db HITMONTOP

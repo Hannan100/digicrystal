@@ -229,7 +229,7 @@ AlphabeticalPokedexOrder:
 	db BUKAMON
 	db TYPHLOSION
 	db TYRANITAR
-	db TYROGUE
+	db KURAMON
 	db UMBREON
 	db UNOWN
 	db URSARING

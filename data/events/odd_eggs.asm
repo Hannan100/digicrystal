@@ -23,7 +23,7 @@ prob_total = 0
 ; Elekid
 	prob 12
 	prob 2
-; Tyrogue
+; Kuramon
 	prob 10
 	prob 1
 
@@ -341,7 +341,7 @@ OddEggs:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 
-	db TYROGUE
+	db KURAMON
 	db NO_ITEM
 	db TACKLE, DIZZY_PUNCH, 0, 0
 	dw 02560 ; OT ID
@@ -367,7 +367,7 @@ OddEggs:
 	bigdw 8 ; SDef
 	db "EGG@@@@@@@@"
 
-	db TYROGUE
+	db KURAMON
 	db NO_ITEM
 	db TACKLE, DIZZY_PUNCH, 0, 0
 	dw 00256 ; OT ID

@@ -234,7 +234,7 @@ PokemonNames::
 	db "PORYGON2@@"
 	db "STANTLER@@"
 	db "SMEARGLE@@"
-	db "TYROGUE@@@"
+	db "KURAMON@@@"
 	db "HITMONTOP@"
 	db "SMOOCHUM@@"
 	db "ELEKID@@@@"

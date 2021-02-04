@@ -101,11 +101,11 @@ EvolveAfterBattle_MasterLoop:
 	ld c, 2
 	call CompareBytes
 	ld a, ATK_EQ_DEF
-	jr z, .got_tyrogue_evo
+	jr z, .got_kuramon_evo
 	ld a, ATK_LT_DEF
-	jr c, .got_tyrogue_evo
+	jr c, .got_kuramon_evo
 	ld a, ATK_GT_DEF
-.got_tyrogue_evo
+.got_kuramon_evo
 	pop hl
 
 	inc hl
@@ -621,10 +621,10 @@ GetPreEvolution:
 	and a
 	jr z, .no_evolve ; If we jump, this Pokemon does not evolve into wCurPartySpecies.
 	cp EVOLVE_STAT ; This evolution type has the extra parameter of stat comparison.
-	jr nz, .not_tyrogue
+	jr nz, .not_kuramon
 	inc hl
 
-.not_tyrogue
+.not_kuramon
 	inc hl
 	ld a, [wCurPartySpecies]
 	cp [hl]

@@ -234,7 +234,7 @@ AnimationIdlePointers:
 	dw Porygon2AnimationIdle
 	dw StantlerAnimationIdle
 	dw SmeargleAnimationIdle
-	dw TyrogueAnimationIdle
+	dw KuramonAnimationIdle
 	dw HitmontopAnimationIdle
 	dw SmoochumAnimationIdle
 	dw ElekidAnimationIdle
