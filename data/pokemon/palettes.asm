@@ -325,8 +325,8 @@ INCLUDE "gfx/pokemon/tanemon/normal.pal"
 INCLUDE "gfx/pokemon/tanemon/shiny.pal"
 INCLUDE "gfx/pokemon/bayleef/normal.pal"
 =======
-INCBIN "gfx/pokemon/chikorita/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/chikorita/shiny.pal"
+INCBIN "gfx/pokemon/tanemon/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/tanemon/shiny.pal"
 INCBIN "gfx/pokemon/bayleef/front.gbcpal", middle_colors
 >>>>>>> pret/master
 INCLUDE "gfx/pokemon/bayleef/shiny.pal"

@@ -86,11 +86,11 @@ Cry_Koromon:
 	channel 6, Cry_Koromon_Ch6
 	channel 8, Cry_Koromon_Ch8
 
-Cry_Chikorita:
+Cry_Tanemon:
 	channel_count 3
-	channel 5, Cry_Chikorita_Ch5
-	channel 6, Cry_Chikorita_Ch6
-	channel 8, Cry_Chikorita_Ch8
+	channel 5, Cry_Tanemon_Ch5
+	channel 6, Cry_Tanemon_Ch6
+	channel 8, Cry_Tanemon_Ch8
 >>>>>>> pret/master
 
 Cry_Gligar:
@@ -657,9 +657,9 @@ Cry_Tanemon_Ch8:
 	noise __,  9, $94, $3
 	endchannel
 =======
-Cry_Chikorita_Ch5:
+Cry_Tanemon_Ch5:
 	pitch_offset 32
-Cry_Chikorita_Ch6:
+Cry_Tanemon_Ch6:
 	duty_cycle_pattern 0, 2, 0, 1
 	square_note 2, 12, 8, 1601
 	square_note 2, 4, 8, 1601
@@ -668,7 +668,7 @@ Cry_Chikorita_Ch6:
 	square_note 4, 15, 1, 1931
 	sound_ret
 
-Cry_Chikorita_Ch8:
+Cry_Tanemon_Ch8:
 	noise_note 4, 9, 1, 16
 	noise_note 8, 9, 4, 3
 	sound_ret

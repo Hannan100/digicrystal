@@ -139,7 +139,7 @@ CherrygroveSilverSceneNorth:
 	loadtrainer RIVAL1, RIVAL1_1_TANEMON
 	writecode VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 =======
-	loadtrainer RIVAL1, RIVAL1_1_CHIKORITA
+	loadtrainer RIVAL1, RIVAL1_1_TANEMON
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 >>>>>>> pret/master
 	startbattle

@@ -290,14 +290,14 @@ TanemonPokeBallScript:
 	applymovement PLAYER, AfterTanemonMovement
 	jump ElmDirectionsScript
 =======
-	getmonname STRING_BUFFER_3, CHIKORITA
+	getmonname STRING_BUFFER_3, TANEMON
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke CHIKORITA, 5, BERRY
+	givepoke TANEMON, 5, BERRY
 	closetext
-	applymovement PLAYER, AfterChikoritaMovement
+	applymovement PLAYER, AfterTanemonMovement
 	sjump ElmDirectionsScript
 >>>>>>> pret/master
 

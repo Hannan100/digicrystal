@@ -150,7 +150,7 @@ PokemonNames::
 	db "DRAGONITE@"
 	db "MEWTWO@@@@"
 	db "MEW@@@@@@@"
-	db "TANEMON@@@" ; Chikorita
+	db "TANEMON@@@" ; Tanemon
 	db "BAYLEEF@@@" ; !Palmon
 	db "MEGANIUM@@" ; !Togemon
 	db "KOROMON@@@" ; Koromon
