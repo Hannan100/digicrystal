@@ -75,6 +75,7 @@ FILES_TO_UPDATE = [
     "gfx/pokemon/idles.asm",
     "gfx/pokemon/johto_frames.asm",
     "engine/overworld/decorations.asm",
+    "engine/debug/debug_room.asm",
     "data/pokemon/base_stats/" + OLD_NAME + ".asm",
     "data/pokemon/dex_entries/" + OLD_NAME + ".asm"
 ]
