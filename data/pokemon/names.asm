@@ -11,7 +11,7 @@ PokemonNames::
 	db "MINOMON@@@" ; Minomon
 	db "METAPOD@@@" ; !Stingmon
 	db "BUTTERFREE" ; !Armor evo
-	db "WEEDLE@@@@" ; !Armor evo
+	db "MOTIMON@@@@" ; !Armor evo
 	db "KAKUNA@@@@"
 	db "BEEDRILL@@"
 	db "PIDGEY@@@@" ; !Biyomon

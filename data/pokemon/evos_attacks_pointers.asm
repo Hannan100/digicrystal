@@ -13,7 +13,7 @@ EvosAttacksPointers::
 	dw MinomonEvosAttacks
 	dw MetapodEvosAttacks
 	dw ButterfreeEvosAttacks
-	dw WeedleEvosAttacks
+	dw MotimonEvosAttacks
 	dw KakunaEvosAttacks
 	dw BeedrillEvosAttacks
 	dw PidgeyEvosAttacks

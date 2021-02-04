@@ -11,7 +11,7 @@ FramesPointers:
 	dw MinomonFrames
 	dw MetapodFrames
 	dw ButterfreeFrames
-	dw WeedleFrames
+	dw MotimonFrames
 	dw KakunaFrames
 	dw BeedrillFrames
 	dw PidgeyFrames

@@ -12,7 +12,7 @@ PokedexDataPointerTable:
 	dw MinomonPokedexEntry
 	dw MetapodPokedexEntry
 	dw ButterfreePokedexEntry
-	dw WeedlePokedexEntry
+	dw MotimonPokedexEntry
 	dw KakunaPokedexEntry
 	dw BeedrillPokedexEntry
 	dw PidgeyPokedexEntry

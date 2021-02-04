@@ -11,7 +11,7 @@ AnimationPointers:
 	dw MinomonAnimation
 	dw MetapodAnimation
 	dw ButterfreeAnimation
-	dw WeedleAnimation
+	dw MotimonAnimation
 	dw KakunaAnimation
 	dw BeedrillAnimation
 	dw PidgeyAnimation

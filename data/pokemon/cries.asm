@@ -18,7 +18,7 @@ PokemonCries::
 	mon_cry CRY_MINOMON,    $080,  $0a0 ; MINOMON
 	mon_cry CRY_METAPOD,     $0cc,  $081 ; METAPOD
 	mon_cry CRY_MINOMON,    $077,  $0c0 ; BUTTERFREE
-	mon_cry CRY_WEEDLE,      $0ee,  $081 ; WEEDLE
+	mon_cry CRY_MOTIMON,      $0ee,  $081 ; MOTIMON
 	mon_cry CRY_BLASTOISE,   $0ff,  $081 ; KAKUNA
 	mon_cry CRY_BLASTOISE,   $060,  $100 ; BEEDRILL
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; PIDGEY
@@ -64,7 +64,7 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,   $0dd,  $0e0 ; MANKEY
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; PRIMEAPE
 	mon_cry CRY_GROWLITHE,   $020,  $0c0 ; GROWLITHE
-	mon_cry CRY_WEEDLE,      $000,  $100 ; ARCANINE
+	mon_cry CRY_MOTIMON,      $000,  $100 ; ARCANINE
 	mon_cry CRY_PIDGEY,      $0ff,  $17f ; POLIWAG
 	mon_cry CRY_PIDGEY,      $077,  $0e0 ; POLIWHIRL
 	mon_cry CRY_PIDGEY,      $000,  $17f ; POLIWRATH
@@ -274,7 +274,7 @@ PokemonCries::
 	mon_cry CRY_MINOMON,    128,  160 ; MINOMON
 	mon_cry CRY_METAPOD,     204,  129 ; METAPOD
 	mon_cry CRY_MINOMON,    119,  192 ; BUTTERFREE
-	mon_cry CRY_WEEDLE,      238,  129 ; WEEDLE
+	mon_cry CRY_MOTIMON,      238,  129 ; MOTIMON
 	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
 	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL
 	mon_cry CRY_PIDGEY,      223,  132 ; PIDGEY
@@ -320,7 +320,7 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,   221,  224 ; MANKEY
 	mon_cry CRY_NIDOQUEEN,   175,  192 ; PRIMEAPE
 	mon_cry CRY_GROWLITHE,    32,  192 ; GROWLITHE
-	mon_cry CRY_WEEDLE,        0,  256 ; ARCANINE
+	mon_cry CRY_MOTIMON,        0,  256 ; ARCANINE
 	mon_cry CRY_PIDGEY,      255,  383 ; POLIWAG
 	mon_cry CRY_PIDGEY,      119,  224 ; POLIWHIRL
 	mon_cry CRY_PIDGEY,        0,  383 ; POLIWRATH

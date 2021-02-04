@@ -1517,13 +1517,13 @@ BugCatcherGroup:
 	db "WADE@", TRAINERTYPE_NORMAL
 	db  2, MINOMON
 	db  2, MINOMON
-	db  3, WEEDLE
+	db  3, MOTIMON
 	db  2, MINOMON
 	db -1 ; end
 
 	; BUG_CATCHER (5)
 	db "BENNY@", TRAINERTYPE_NORMAL
-	db  7, WEEDLE
+	db  7, MOTIMON
 	db  9, KAKUNA
 	db 12, BEEDRILL
 	db -1 ; end
@@ -1531,7 +1531,7 @@ BugCatcherGroup:
 	; BUG_CATCHER (6)
 	db "AL@", TRAINERTYPE_NORMAL
 	db 12, MINOMON
-	db 12, WEEDLE
+	db 12, MOTIMON
 	db -1 ; end
 
 	; BUG_CATCHER (7)

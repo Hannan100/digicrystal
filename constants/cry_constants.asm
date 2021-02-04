@@ -23,7 +23,7 @@
 	const CRY_GOLEM
 	const CRY_BLASTOISE
 	const CRY_PIDGEOTTO
-	const CRY_WEEDLE
+	const CRY_MOTIMON
 	const CRY_MINOMON
 	const CRY_EKANS
 	const CRY_FEAROW

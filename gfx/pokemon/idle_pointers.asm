@@ -11,7 +11,7 @@ AnimationIdlePointers:
 	dw MinomonAnimationIdle
 	dw MetapodAnimationIdle
 	dw ButterfreeAnimationIdle
-	dw WeedleAnimationIdle
+	dw MotimonAnimationIdle
 	dw KakunaAnimationIdle
 	dw BeedrillAnimationIdle
 	dw PidgeyAnimationIdle

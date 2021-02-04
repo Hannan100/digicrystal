@@ -4,7 +4,7 @@ AsleepTreeMonsNite:
 	db MINOMON
 	db METAPOD
 	db BUTTERFREE
-	db WEEDLE
+	db MOTIMON
 	db KAKUNA
 	db BEEDRILL
 	db SPEAROW

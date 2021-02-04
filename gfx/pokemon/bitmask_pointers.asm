@@ -11,7 +11,7 @@ BitmasksPointers:
 	dw MinomonBitmasks
 	dw MetapodBitmasks
 	dw ButterfreeBitmasks
-	dw WeedleBitmasks
+	dw MotimonBitmasks
 	dw KakunaBitmasks
 	dw BeedrillBitmasks
 	dw PidgeyBitmasks

@@ -26,8 +26,8 @@ PokemonPicPointers::
 	dba_pic MetapodBackpic
 	dba_pic ButterfreeFrontpic
 	dba_pic ButterfreeBackpic
-	dba_pic WeedleFrontpic
-	dba_pic WeedleBackpic
+	dba_pic MotimonFrontpic
+	dba_pic MotimonBackpic
 	dba_pic KakunaFrontpic
 	dba_pic KakunaBackpic
 	dba_pic BeedrillFrontpic

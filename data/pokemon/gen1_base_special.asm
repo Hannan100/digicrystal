@@ -13,7 +13,7 @@ KantoMonSpecials:
 	db  20 ; MINOMON
 	db  25 ; METAPOD
 	db  80 ; BUTTERFREE
-	db  20 ; WEEDLE
+	db  20 ; MOTIMON
 	db  25 ; KAKUNA
 	db  45 ; BEEDRILL
 	db  35 ; PIDGEY

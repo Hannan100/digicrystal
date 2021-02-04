@@ -32,7 +32,7 @@ INCBIN "gfx/footprints/blastoise.1bpp",  footprint_top
 INCBIN "gfx/footprints/minomon.1bpp",   footprint_top
 INCBIN "gfx/footprints/metapod.1bpp",    footprint_top
 INCBIN "gfx/footprints/butterfree.1bpp", footprint_top
-INCBIN "gfx/footprints/weedle.1bpp",     footprint_top
+INCBIN "gfx/footprints/motimon.1bpp",     footprint_top
 INCBIN "gfx/footprints/kakuna.1bpp",     footprint_top
 INCBIN "gfx/footprints/beedrill.1bpp",   footprint_top
 INCBIN "gfx/footprints/pidgey.1bpp",     footprint_top
@@ -41,7 +41,7 @@ INCBIN "gfx/footprints/blastoise.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/minomon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/metapod.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/butterfree.1bpp", footprint_bottom
-INCBIN "gfx/footprints/weedle.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/motimon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/kakuna.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/beedrill.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/pidgey.1bpp",     footprint_bottom

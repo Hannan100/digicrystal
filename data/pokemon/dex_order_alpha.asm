@@ -242,7 +242,7 @@ AlphabeticalPokedexOrder:
 	db VOLTORB
 	db VULPIX
 	db WARTORTLE
-	db WEEDLE
+	db MOTIMON
 	db WEEPINBELL
 	db WEEZING
 	db WIGGLYTUFF

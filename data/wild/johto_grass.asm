@@ -334,16 +334,16 @@ JohtoGrassWildMons:
 	db 14, LEDYBA
 	db 13, PIDGEY
 	db 10, MINOMON
-	db 10, WEEDLE
-	db 10, WEEDLE
+	db 10, MOTIMON
+	db 10, MOTIMON
 	; day
 	db 12, NIDORAN_F
 	db 12, NIDORAN_M
 	db 14, SUNKERN
 	db 13, PIDGEY
 	db 10, MINOMON
-	db 10, WEEDLE
-	db 10, WEEDLE
+	db 10, MOTIMON
+	db 10, MOTIMON
 	; nite
 	db 12, PSYDUCK
 	db 13,POROMON
@@ -546,7 +546,7 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 5, MINOMON
-	db 5, WEEDLE
+	db 5, MOTIMON
 	db 7, METAPOD
 	db 7, KAKUNA
 	db 7, PIDGEY
@@ -554,7 +554,7 @@ JohtoGrassWildMons:
 	db 6, PARAS
 	; day
 	db 5, MINOMON
-	db 5, WEEDLE
+	db 5, MOTIMON
 	db 7, METAPOD
 	db 7, KAKUNA
 	db 7, PIDGEY
@@ -1224,7 +1224,7 @@ JohtoGrassWildMons:
 	db 3, MINOMON
 	db 4, MINOMON
 	db 4, PIDGEY
-	db 3, WEEDLE
+	db 3, MOTIMON
 	db 4, YOKOMON
 	db 4, YOKOMON
 	; day
@@ -1232,7 +1232,7 @@ JohtoGrassWildMons:
 	db 3, MINOMON
 	db 4, MINOMON
 	db 4, PIDGEY
-	db 3, WEEDLE
+	db 3, MOTIMON
 	db 4, YOKOMON
 	db 4, YOKOMON
 	; nite
@@ -1251,7 +1251,7 @@ JohtoGrassWildMons:
 	db 4, MINOMON
 	db 5, BELLSPROUT
 	db 5, PIDGEY
-	db 4, WEEDLE
+	db 4, MOTIMON
 	db 5, YOKOMON
 	db 5, YOKOMON
 	; day
@@ -1259,7 +1259,7 @@ JohtoGrassWildMons:
 	db 4, MINOMON
 	db 5, BELLSPROUT
 	db 5, PIDGEY
-	db 4, WEEDLE
+	db 4, MOTIMON
 	db 5, YOKOMON
 	db 5, YOKOMON
 	; nite
