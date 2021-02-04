@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import os
 import shutil
 
 # Args: 'mon to replace, new name, new front sprite (opt), new back sprite (opt)
@@ -59,7 +60,6 @@ FILES_TO_UPDATE = [
     "gfx/pokemon/idle_pointers.asm",
     "gfx/pokemon/idles.asm",
     "gfx/pokemon/johto_frames.asm",
-    "gfx/footprints/" + OLD_NAME + ".asm",
     "data/pokemon/base_stats/" + OLD_NAME + ".asm",
     "data/pokemon/dex_entries/" + OLD_NAME + ".asm"
     # maps/*.asm
@@ -68,7 +68,7 @@ FILES_TO_UPDATE = [
 FILES_TO_MOVE = [
     "data/pokemon/base_stats/" + OLD_NAME + ".asm",
     "data/pokemon/dex_entries/" + OLD_NAME + ".asm",
-    "gfx/pokemon/" + OLD_NAME,
+    "gfx/footprints/" + OLD_NAME + ".png",
     "gfx/pokemon/" + OLD_NAME + "/anim.asm",
     "gfx/pokemon/" + OLD_NAME + "/anim_idle.asm",
     "gfx/pokemon/" + OLD_NAME + "/back.png",
@@ -89,4 +89,5 @@ for filename in FILES_TO_UPDATE:
     
 
 for filename in FILES_TO_MOVE:
-    shutil.move(filename, filename.replace(OLD_NAME, NEW_NAME))
+    print("Moving " + filename)
+    os.replace(filename, filename.replace(OLD_NAME, NEW_NAME))
