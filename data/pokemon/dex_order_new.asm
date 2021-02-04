@@ -13,7 +13,7 @@ NewPokedexOrder:
 	db PIDGEY
 	db PIDGEOTTO
 	db PIDGEOT
-	db SPEAROW
+	db TOKOOMON
 	db FEAROW
 	db POROMON
 	db NOCTOWL

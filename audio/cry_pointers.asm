@@ -15,7 +15,7 @@ Cries:
 	dba Cry_Drowzee
 	dba Cry_Pidgey
 	dba Cry_Nyokomon
-	dba Cry_Spearow
+	dba Cry_Tokoomon
 	dba Cry_Rhydon
 	dba Cry_Golem
 	dba Cry_Blastoise

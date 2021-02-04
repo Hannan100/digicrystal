@@ -42,8 +42,8 @@ PokemonPicPointers::
 	dba_pic TsunomonBackpic
 	dba_pic RaticateFrontpic
 	dba_pic RaticateBackpic
-	dba_pic SpearowFrontpic
-	dba_pic SpearowBackpic
+	dba_pic TokoomonFrontpic
+	dba_pic TokoomonBackpic
 	dba_pic FearowFrontpic
 	dba_pic FearowBackpic
 	dba_pic EkansFrontpic

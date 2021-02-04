@@ -7,7 +7,7 @@ AsleepTreeMonsNite:
 	db MOTIMON
 	db KAKUNA
 	db BEEDRILL
-	db SPEAROW
+	db TOKOOMON
 	db EKANS
 	db EXEGGCUTE
 	db LEDYBA

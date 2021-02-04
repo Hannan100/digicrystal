@@ -54,7 +54,7 @@ TsunomonEggMoves:
 	db REVERSAL
 	db -1 ; end
 
-SpearowEggMoves:
+TokoomonEggMoves:
 	db FAINT_ATTACK
 	db FALSE_SWIPE
 	db SCARY_FACE

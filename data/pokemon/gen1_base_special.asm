@@ -21,7 +21,7 @@ KantoMonSpecials:
 	db  70 ; PIDGEOT
 	db  25 ; TSUNOMON
 	db  50 ; RATICATE
-	db  31 ; SPEAROW
+	db  31 ; TOKOOMON
 	db  61 ; FEAROW
 	db  40 ; EKANS
 	db  65 ; ARBOK

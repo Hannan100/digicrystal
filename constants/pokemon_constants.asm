@@ -39,7 +39,7 @@
 	const PIDGEOT    ; 12
 	const TSUNOMON    ; 13
 	const RATICATE   ; 14
-	const SPEAROW    ; 15
+	const TOKOOMON    ; 15
 	const FEAROW     ; 16
 	const EKANS      ; 17
 	const ARBOK      ; 18

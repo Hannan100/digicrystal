@@ -19,7 +19,7 @@ AnimationIdlePointers:
 	dw PidgeotAnimationIdle
 	dw TsunomonAnimationIdle
 	dw RaticateAnimationIdle
-	dw SpearowAnimationIdle
+	dw TokoomonAnimationIdle
 	dw FearowAnimationIdle
 	dw EkansAnimationIdle
 	dw ArbokAnimationIdle

@@ -21,7 +21,7 @@ EvosAttacksPointers::
 	dw PidgeotEvosAttacks
 	dw TsunomonEvosAttacks
 	dw RaticateEvosAttacks
-	dw SpearowEvosAttacks
+	dw TokoomonEvosAttacks
 	dw FearowEvosAttacks
 	dw EkansEvosAttacks
 	dw ArbokEvosAttacks

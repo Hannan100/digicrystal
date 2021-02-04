@@ -19,7 +19,7 @@ FramesPointers:
 	dw PidgeotFrames
 	dw TsunomonFrames
 	dw RaticateFrames
-	dw SpearowFrames
+	dw TokoomonFrames
 	dw FearowFrames
 	dw EkansFrames
 	dw ArbokFrames

@@ -19,7 +19,7 @@ AnimationPointers:
 	dw PidgeotAnimation
 	dw TsunomonAnimation
 	dw RaticateAnimation
-	dw SpearowAnimation
+	dw TokoomonAnimation
 	dw FearowAnimation
 	dw EkansAnimation
 	dw ArbokAnimation

@@ -1302,7 +1302,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 6, TSUNOMON
-	db 6, SPEAROW
+	db 6, TOKOOMON
 	db 6, GEODUDE
 	db 6, YOKOMON
 	db 7, EKANS
@@ -1310,7 +1310,7 @@ JohtoGrassWildMons:
 	db 7, YOKOMON
 	; day
 	db 6, TSUNOMON
-	db 6, SPEAROW
+	db 6, TOKOOMON
 	db 6, GEODUDE
 	db 6, YOKOMON
 	db 7, EKANS
@@ -1491,7 +1491,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 13, EKANS
-	db 14, SPEAROW
+	db 14, TOKOOMON
 	db 15, TSUNOMON
 	db 16, RATICATE
 	db 15, ARBOK
@@ -1499,7 +1499,7 @@ JohtoGrassWildMons:
 	db 16, FEAROW
 	; day
 	db 13, EKANS
-	db 14, SPEAROW
+	db 14, TOKOOMON
 	db 15, TSUNOMON
 	db 16, RATICATE
 	db 15, ARBOK
@@ -1599,7 +1599,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 2, GEODUDE
-	db 2, SPEAROW
+	db 2, TOKOOMON
 	db 3, GEODUDE
 	db 3, TSUNOMON
 	db 2, PHANPY
@@ -1607,7 +1607,7 @@ JohtoGrassWildMons:
 	db 2, TSUNOMON
 	; day
 	db 2, GEODUDE
-	db 2, SPEAROW
+	db 2, TOKOOMON
 	db 3, GEODUDE
 	db 3, TSUNOMON
 	db 2, TSUNOMON

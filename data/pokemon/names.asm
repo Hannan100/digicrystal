@@ -19,7 +19,7 @@ PokemonNames::
 	db "PIDGEOT@@@"
 	db "TSUNOMON@@@"
 	db "RATICATE@@"
-	db "SPEAROW@@@"
+	db "TOKOOMON@@@"
 	db "FEAROW@@@@"
 	db "EKANS@@@@@"
 	db "ARBOK@@@@@"
