@@ -184,8 +184,8 @@ PokemonPicPointers::
 	dba_pic ShellderBackpic
 	dba_pic CloysterFrontpic
 	dba_pic CloysterBackpic
-	dba_pic GastlyFrontpic
-	dba_pic GastlyBackpic
+	dba_pic TsumemonFrontpic
+	dba_pic TsumemonBackpic
 	dba_pic HaunterFrontpic
 	dba_pic HaunterBackpic
 	dba_pic GengarFrontpic

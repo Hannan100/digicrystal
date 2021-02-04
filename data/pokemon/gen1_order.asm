@@ -23,7 +23,7 @@ Pokered_MonIndices:
 	db GYARADOS
 	db SHELLDER
 	db TENTACOOL
-	db GASTLY
+	db TSUMEMON
 	db SCYTHER
 	db STARYU
 	db BLASTOISE

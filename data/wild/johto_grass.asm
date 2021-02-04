@@ -21,11 +21,11 @@ JohtoGrassWildMons:
 	db 5, RATTATA
 	db 5, RATTATA
 	; nite
-	db 3, GASTLY
-	db 4, GASTLY
-	db 5, GASTLY
+	db 3, TSUMEMON
+	db 4, TSUMEMON
+	db 5, TSUMEMON
 	db 3, RATTATA
-	db 6, GASTLY
+	db 6, TSUMEMON
 	db 5, RATTATA
 	db 5, RATTATA
 
@@ -48,11 +48,11 @@ JohtoGrassWildMons:
 	db 5, RATTATA
 	db 5, RATTATA
 	; nite
-	db 3, GASTLY
-	db 4, GASTLY
-	db 5, GASTLY
+	db 3, TSUMEMON
+	db 4, TSUMEMON
+	db 5, TSUMEMON
 	db 3, RATTATA
-	db 6, GASTLY
+	db 6, TSUMEMON
 	db 5, RATTATA
 	db 5, RATTATA
 
@@ -75,9 +75,9 @@ JohtoGrassWildMons:
 	db 24, RATTATA
 	db 24, RATTATA
 	; nite
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
+	db 20, TSUMEMON
+	db 21, TSUMEMON
+	db 22, TSUMEMON
 	db 22, RATTATA
 	db 23, RATTATA
 	db 24, RATTATA
@@ -102,9 +102,9 @@ JohtoGrassWildMons:
 	db 24, RATTATA
 	db 24, RATTATA
 	; nite
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
+	db 20, TSUMEMON
+	db 21, TSUMEMON
+	db 22, TSUMEMON
 	db 22, RATTATA
 	db 23, RATTATA
 	db 24, RATTATA
@@ -129,9 +129,9 @@ JohtoGrassWildMons:
 	db 24, RATTATA
 	db 24, RATTATA
 	; nite
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
+	db 20, TSUMEMON
+	db 21, TSUMEMON
+	db 22, TSUMEMON
 	db 22, RATTATA
 	db 23, RATTATA
 	db 24, RATTATA
@@ -156,9 +156,9 @@ JohtoGrassWildMons:
 	db 24, RATTATA
 	db 24, RATTATA
 	; nite
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
+	db 20, TSUMEMON
+	db 21, TSUMEMON
+	db 22, TSUMEMON
 	db 22, RATTATA
 	db 23, RATTATA
 	db 24, RATTATA
@@ -183,9 +183,9 @@ JohtoGrassWildMons:
 	db 24, RATTATA
 	db 24, RATTATA
 	; nite
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
+	db 20, TSUMEMON
+	db 21, TSUMEMON
+	db 22, TSUMEMON
 	db 22, RATTATA
 	db 23, RATTATA
 	db 24, RATTATA
@@ -210,9 +210,9 @@ JohtoGrassWildMons:
 	db 24, RATTATA
 	db 24, RATTATA
 	; nite
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
+	db 20, TSUMEMON
+	db 21, TSUMEMON
+	db 22, TSUMEMON
 	db 22, RATTATA
 	db 23, RATTATA
 	db 24, RATTATA
@@ -237,9 +237,9 @@ JohtoGrassWildMons:
 	db 24, RATTATA
 	db 24, RATTATA
 	; nite
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
+	db 20, TSUMEMON
+	db 21, TSUMEMON
+	db 22, TSUMEMON
 	db 22, RATTATA
 	db 23, RATTATA
 	db 24, RATTATA
@@ -264,9 +264,9 @@ JohtoGrassWildMons:
 	db 24, RATTATA
 	db 24, RATTATA
 	; nite
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
+	db 20, TSUMEMON
+	db 21, TSUMEMON
+	db 22, TSUMEMON
 	db 22, RATTATA
 	db 23, RATTATA
 	db 24, RATTATA
@@ -1268,8 +1268,8 @@ JohtoGrassWildMons:
 	db 5, BELLSPROUT
 	db 5,POROMON
 	db 4, PAGUMON
-	db 5, GASTLY
-	db 5, GASTLY
+	db 5, TSUMEMON
+	db 5, TSUMEMON
 
 	map_id ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1295,8 +1295,8 @@ JohtoGrassWildMons:
 	db 7, BELLSPROUT
 	db 6, PAGUMON
 	db 7,POROMON
-	db 7, GASTLY
-	db 7, GASTLY
+	db 7, TSUMEMON
+	db 7, TSUMEMON
 
 	map_id ROUTE_33
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1403,8 +1403,8 @@ JohtoGrassWildMons:
 	db 5, BELLSPROUT
 	db 5,POROMON
 	db 5,POROMON
-	db 5, GASTLY
-	db 5, GASTLY
+	db 5, TSUMEMON
+	db 5, TSUMEMON
 
 	map_id ROUTE_37
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
