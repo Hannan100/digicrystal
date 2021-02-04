@@ -42,11 +42,11 @@ Cry_Poromon:
 	musicheader 1, 6, Cry_Poromon_Ch6
 	musicheader 1, 8, Cry_Poromon_Ch8
 =======
-Cry_Hoothoot:
+Cry_Poromon:
 	channel_count 3
-	channel 5, Cry_Hoothoot_Ch5
-	channel 6, Cry_Hoothoot_Ch6
-	channel 8, Cry_Hoothoot_Ch8
+	channel 5, Cry_Poromon_Ch5
+	channel 6, Cry_Poromon_Ch6
+	channel 8, Cry_Poromon_Ch8
 >>>>>>> pret/master
 
 Cry_Sentret:
@@ -522,7 +522,7 @@ Cry_Poromon_Ch8:
 	noise C_,  1, $a7, $6e
 	endchannel
 =======
-Cry_Hoothoot_Ch5:
+Cry_Poromon_Ch5:
 	duty_cycle_pattern 1, 2, 1, 2
 	square_note 4, 7, 8, 1616
 	square_note 4, 15, 8, 1632
@@ -534,7 +534,7 @@ Cry_Hoothoot_Ch5:
 	square_note 4, 15, 1, 1652
 	sound_ret
 
-Cry_Hoothoot_Ch6:
+Cry_Poromon_Ch6:
 	duty_cycle_pattern 0, 2, 0, 2
 .loop1:
 	square_note 2, 10, 1, 1536
@@ -546,7 +546,7 @@ Cry_Hoothoot_Ch6:
 	square_note 4, 9, 1, 1592
 	sound_ret
 
-Cry_Hoothoot_Ch8:
+Cry_Poromon_Ch8:
 	noise_note 1, 6, 8, 54
 	noise_note 16, 8, 8, 106
 	noise_note 1, 9, 8, 94

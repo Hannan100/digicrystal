@@ -49,7 +49,7 @@
 	const CRY_RAIKOU
 	const CRY_FLAMEDRMON
 	const CRY_VEEMON
-	const CRY_HOOTHOOT
+	const CRY_POROMON
 	const CRY_SENTRET
 	const CRY_SLOWKING
 	const CRY_KOROMON

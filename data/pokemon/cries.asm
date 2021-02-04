@@ -168,8 +168,8 @@ PokemonCries::
 	mon_cry CRY_BUKAMON,    $3fc,  $180 ; FERALIGATR
 	mon_cry CRY_SENTRET,     $08a,  $0b8 ; SENTRET
 	mon_cry CRY_SENTRET,     $06b,  $102 ; FURRET
-	mon_cry CRY_HOOTHOOT,    $091,  $0d8 ; POROMON
-	mon_cry CRY_HOOTHOOT,    $000,  $1a0 ; NOCTOWL
+	mon_cry CRY_POROMON,    $091,  $0d8 ; POROMON
+	mon_cry CRY_POROMON,    $000,  $1a0 ; NOCTOWL
 	mon_cry CRY_LEDYBA,      $000,  $0de ; LEDYBA
 	mon_cry CRY_LEDYBA,     -$096,  $138 ; LEDIAN
 	mon_cry CRY_SPINARAK,    $011,  $200 ; SPINARAK
@@ -205,8 +205,8 @@ PokemonCries::
 	mon_cry CRY_VENONAT,    -$0e9,  $0f0 ; UMBREON
 	mon_cry CRY_MARILL,     -$01f,  $180 ; MURKROW
 	mon_cry CRY_SLOWKING,    $104,  $200 ; SLOWKING
-	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISDREAVUS
-	mon_cry CRY_HOOTHOOT,    $162,  $100 ; UNOWN
+	mon_cry CRY_POROMON,    $130,  $0e8 ; MISDREAVUS
+	mon_cry CRY_POROMON,    $162,  $100 ; UNOWN
 	mon_cry CRY_AMPHAROS,    $27b,  $144 ; WOBBUFFET
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; GIRAFARIG
 	mon_cry CRY_SLOWKING,    $080,  $100 ; PINECO
@@ -424,8 +424,8 @@ PokemonCries::
 	mon_cry CRY_TOTODILE,   1020,  384 ; FERALIGATR
 	mon_cry CRY_SENTRET,     138,  184 ; SENTRET
 	mon_cry CRY_SENTRET,     107,  258 ; FURRET
-	mon_cry CRY_HOOTHOOT,    145,  216 ; HOOTHOOT
-	mon_cry CRY_HOOTHOOT,      0,  416 ; NOCTOWL
+	mon_cry CRY_POROMON,    145,  216 ; POROMON
+	mon_cry CRY_POROMON,      0,  416 ; NOCTOWL
 	mon_cry CRY_LEDYBA,        0,  222 ; LEDYBA
 	mon_cry CRY_LEDYBA,     -150,  312 ; LEDIAN
 	mon_cry CRY_SPINARAK,     17,  512 ; SPINARAK
@@ -461,8 +461,8 @@ PokemonCries::
 	mon_cry CRY_VENONAT,    -233,  240 ; UMBREON
 	mon_cry CRY_MARILL,      -31,  384 ; MURKROW
 	mon_cry CRY_SLOWKING,    260,  512 ; SLOWKING
-	mon_cry CRY_HOOTHOOT,    304,  232 ; MISDREAVUS
-	mon_cry CRY_HOOTHOOT,    354,  256 ; UNOWN
+	mon_cry CRY_POROMON,    304,  232 ; MISDREAVUS
+	mon_cry CRY_POROMON,    354,  256 ; UNOWN
 	mon_cry CRY_AMPHAROS,    635,  324 ; WOBBUFFET
 	mon_cry CRY_GIRAFARIG,    65,  512 ; GIRAFARIG
 	mon_cry CRY_SLOWKING,    128,  256 ; PINECO

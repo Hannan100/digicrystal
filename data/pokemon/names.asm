@@ -161,7 +161,7 @@ PokemonNames::
 	db "FERALIGATR" ; !Ikakumon
 	db "SENTRET@@@" ; !Gummymon
 	db "FURRET@@@@" ; !Terriermon
-	db "HOOTHOOT@@" ; !Poromon
+	db "POROMON@@" ; !Poromon
 	db "NOCTOWL@@@" ; !Hawkmon
 	db "LEDYBA@@@@" ; !Puroromon
 	db "LEDIAN@@@@" ; !Fanbeemon
