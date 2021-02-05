@@ -50,7 +50,7 @@ AlphabeticalPokedexOrder:
 	db DUGTRIO
 	db DUNSPARCE
 	db EEVEE
-	db EKANS
+	db GAZIMON
 	db ELECTABUZZ
 	db ELECTRODE
 	db ELEKID

@@ -22,7 +22,7 @@ Cries:
 	dba Cry_Pidgeotto
 	dba Cry_Motimon
 	dba Cry_Minomon
-	dba Cry_Ekans
+	dba Cry_Gazimon
 	dba Cry_Fearow
 	dba Cry_Clefairy
 	dba Cry_Kunemon

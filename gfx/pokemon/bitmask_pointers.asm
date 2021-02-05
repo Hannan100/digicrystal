@@ -21,7 +21,7 @@ BitmasksPointers:
 	dw RaticateBitmasks
 	dw TokoomonBitmasks
 	dw FearowBitmasks
-	dw EkansBitmasks
+	dw GazimonBitmasks
 	dw ArbokBitmasks
 	dw PikachuBitmasks
 	dw RaichuBitmasks

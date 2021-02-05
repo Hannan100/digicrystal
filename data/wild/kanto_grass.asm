@@ -223,7 +223,7 @@ KantoGrassWildMons:
 	; morn
 	db 5, TOKOOMON
 	db 5, TSUNOMON
-	db 8, EKANS
+	db 8, GAZIMON
 	db 10, RATICATE
 	db 10, ARBOK
 	db 10, SANDSHREW
@@ -231,7 +231,7 @@ KantoGrassWildMons:
 	; day
 	db 5, TOKOOMON
 	db 5, TSUNOMON
-	db 8, EKANS
+	db 8, GAZIMON
 	db 10, RATICATE
 	db 10, ARBOK
 	db 10, SANDSHREW
@@ -250,7 +250,7 @@ KantoGrassWildMons:
 	; morn
 	db 5, TOKOOMON
 	db 5, TSUNOMON
-	db 8, EKANS
+	db 8, GAZIMON
 	db 10, RATICATE
 	db 10, ARBOK
 	db 10, SANDSHREW
@@ -258,7 +258,7 @@ KantoGrassWildMons:
 	; day
 	db 5, TOKOOMON
 	db 5, TSUNOMON
-	db 8, EKANS
+	db 8, GAZIMON
 	db 10, RATICATE
 	db 10, ARBOK
 	db 10, SANDSHREW

@@ -317,7 +317,7 @@ FearowEvosAttacks:
 	db 47, AGILITY
 	db 0 ; no more level-up moves
 
-EkansEvosAttacks:
+GazimonEvosAttacks:
 	db EVOLVE_LEVEL, 22, ARBOK
 	db 0 ; no more evolutions
 	db 1, WRAP

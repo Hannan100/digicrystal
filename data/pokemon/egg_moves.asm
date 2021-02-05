@@ -62,7 +62,7 @@ TokoomonEggMoves:
 	db TRI_ATTACK
 	db -1 ; end
 
-EkansEggMoves:
+GazimonEggMoves:
 	db PURSUIT
 	db SLAM
 	db SPITE

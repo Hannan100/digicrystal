@@ -3460,7 +3460,7 @@ GruntFGroup:
 	; GRUNTF (1)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db  9, PAGUMON
-	db 11, EKANS
+	db 11, GAZIMON
 	db -1 ; end
 
 	; GRUNTF (2)
@@ -3476,15 +3476,15 @@ GruntFGroup:
 
 	; GRUNTF (4)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 21, EKANS
+	db 21, GAZIMON
 	db 23, ODDISH
-	db 21, EKANS
+	db 21, GAZIMON
 	db 24, GLOOM
 	db -1 ; end
 
 	; GRUNTF (5)
 	db "GRUNT@", TRAINERTYPE_MOVES
-	db 18, EKANS,      WRAP, LEER, POISON_STING, BITE
+	db 18, GAZIMON,      WRAP, LEER, POISON_STING, BITE
 	db 18, GLOOM,      ABSORB, SWEET_SCENT, STUN_SPORE, SLEEP_POWDER
 	db -1 ; end
 

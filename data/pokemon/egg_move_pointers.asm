@@ -21,7 +21,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw TokoomonEggMoves
 	dw NoEggMoves
-	dw EkansEggMoves
+	dw GazimonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

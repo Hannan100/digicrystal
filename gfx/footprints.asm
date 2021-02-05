@@ -52,7 +52,7 @@ INCBIN "gfx/footprints/tsunomon.1bpp",    footprint_top
 INCBIN "gfx/footprints/raticate.1bpp",   footprint_top
 INCBIN "gfx/footprints/tokoomon.1bpp",    footprint_top
 INCBIN "gfx/footprints/fearow.1bpp",     footprint_top
-INCBIN "gfx/footprints/ekans.1bpp",      footprint_top
+INCBIN "gfx/footprints/gazimon.1bpp",      footprint_top
 INCBIN "gfx/footprints/arbok.1bpp",      footprint_top
 ; 017-024 bottom halves
 INCBIN "gfx/footprints/pidgeotto.1bpp",  footprint_bottom
@@ -61,7 +61,7 @@ INCBIN "gfx/footprints/tsunomon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/raticate.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/tokoomon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/fearow.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/ekans.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/gazimon.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/arbok.1bpp",      footprint_bottom
 ; 025-032 top halves
 INCBIN "gfx/footprints/pikachu.1bpp",    footprint_top

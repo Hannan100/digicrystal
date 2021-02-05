@@ -50,7 +50,7 @@ NewPokedexOrder:
 	db VEEMON
 	db SANDSHREW
 	db SANDSLASH
-	db EKANS
+	db GAZIMON
 	db ARBOK
 	db DUNSPARCE
 	db FLAMEDRMON

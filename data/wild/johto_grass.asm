@@ -1274,7 +1274,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, EKANS
+	db 4, GAZIMON
 	db 5, TSUNOMON
 	db 7, BELLSPROUT
 	db 6, YOKOMON
@@ -1282,7 +1282,7 @@ JohtoGrassWildMons:
 	db 7, YOKOMON
 	db 7, YOKOMON
 	; day
-	db 4, EKANS
+	db 4, GAZIMON
 	db 5, TSUNOMON
 	db 7, BELLSPROUT
 	db 6, YOKOMON
@@ -1305,7 +1305,7 @@ JohtoGrassWildMons:
 	db 6, TOKOOMON
 	db 6, GEODUDE
 	db 6, YOKOMON
-	db 7, EKANS
+	db 7, GAZIMON
 	db 7, YOKOMON
 	db 7, YOKOMON
 	; day
@@ -1313,7 +1313,7 @@ JohtoGrassWildMons:
 	db 6, TOKOOMON
 	db 6, GEODUDE
 	db 6, YOKOMON
-	db 7, EKANS
+	db 7, GAZIMON
 	db 7, YOKOMON
 	db 7, YOKOMON
 	; nite
@@ -1490,7 +1490,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_42
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, EKANS
+	db 13, GAZIMON
 	db 14, TOKOOMON
 	db 15, TSUNOMON
 	db 16, RATICATE
@@ -1498,7 +1498,7 @@ JohtoGrassWildMons:
 	db 16, FEAROW
 	db 16, FEAROW
 	; day
-	db 13, EKANS
+	db 13, GAZIMON
 	db 14, TOKOOMON
 	db 15, TSUNOMON
 	db 16, RATICATE

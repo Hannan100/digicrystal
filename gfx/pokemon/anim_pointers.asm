@@ -21,7 +21,7 @@ AnimationPointers:
 	dw RaticateAnimation
 	dw TokoomonAnimation
 	dw FearowAnimation
-	dw EkansAnimation
+	dw GazimonAnimation
 	dw ArbokAnimation
 	dw PikachuAnimation
 	dw RaichuAnimation

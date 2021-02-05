@@ -28,8 +28,8 @@ PokemonCries::
 	mon_cry CRY_TSUNOMON,     $020,  $17f ; RATICATE
 	mon_cry CRY_TOKOOMON,     $000,  $100 ; TOKOOMON
 	mon_cry CRY_FEAROW,      $040,  $120 ; FEAROW
-	mon_cry CRY_EKANS,       $012,  $0c0 ; EKANS
-	mon_cry CRY_EKANS,       $0e0,  $090 ; ARBOK
+	mon_cry CRY_GAZIMON,       $012,  $0c0 ; GAZIMON
+	mon_cry CRY_GAZIMON,       $0e0,  $090 ; ARBOK
 	mon_cry CRY_NYOKOMON,   $0ee,  $081 ; PIKACHU
 	mon_cry CRY_RAICHU,      $0ee,  $088 ; RAICHU
 	mon_cry CRY_NIDORAN_M,   $020,  $0c0 ; SANDSHREW
@@ -100,7 +100,7 @@ PokemonCries::
 	mon_cry CRY_WORMMON,     $000,  $100 ; TSUMEMON
 	mon_cry CRY_WORMMON,     $030,  $0c0 ; HAUNTER
 	mon_cry CRY_MUK,         $000,  $17f ; GENGAR
-	mon_cry CRY_EKANS,       $0ff,  $140 ; ONIX
+	mon_cry CRY_GAZIMON,       $0ff,  $140 ; ONIX
 	mon_cry CRY_DROWZEE,     $088,  $0a0 ; DROWZEE
 	mon_cry CRY_DROWZEE,     $0ee,  $0c0 ; HYPNO
 	mon_cry CRY_KRABBY,      $020,  $160 ; KRABBY
@@ -134,8 +134,8 @@ PokemonCries::
 	mon_cry CRY_CHARMANDER,  $0ff,  $0b0 ; MAGMAR
 	mon_cry CRY_PIDGEOTTO,   $000,  $100 ; PINSIR
 	mon_cry CRY_SQUIRTLE,    $011,  $0c0 ; TAUROS
-	mon_cry CRY_EKANS,       $080,  $080 ; MAGIKARP
-	mon_cry CRY_EKANS,       $000,  $100 ; GYARADOS
+	mon_cry CRY_GAZIMON,       $080,  $080 ; MAGIKARP
+	mon_cry CRY_GAZIMON,       $000,  $100 ; GYARADOS
 	mon_cry CRY_LAPRAS,      $000,  $100 ; LAPRAS
 	mon_cry CRY_PIDGEY,      $0ff,  $17f ; DITTO
 	mon_cry CRY_KUNEMON,     $088,  $0e0 ; EEVEE
@@ -284,8 +284,8 @@ PokemonCries::
 	mon_cry CRY_TSUNOMON,      32,  383 ; RATICATE
 	mon_cry CRY_TOKOOMON,       0,  256 ; TOKOOMON
 	mon_cry CRY_FEAROW,       64,  288 ; FEAROW
-	mon_cry CRY_EKANS,        18,  192 ; EKANS
-	mon_cry CRY_EKANS,       224,  144 ; ARBOK
+	mon_cry CRY_GAZIMON,        18,  192 ; GAZIMON
+	mon_cry CRY_GAZIMON,       224,  144 ; ARBOK
 	mon_cry CRY_NYOKOMON,   238,  129 ; PIKACHU
 	mon_cry CRY_RAICHU,      238,  136 ; RAICHU
 	mon_cry CRY_NIDORAN_M,    32,  192 ; SANDSHREW
@@ -356,7 +356,7 @@ PokemonCries::
 	mon_cry CRY_WORMMON,       0,  256 ; TSUMEMON
 	mon_cry CRY_WORMMON,      48,  192 ; HAUNTER
 	mon_cry CRY_MUK,           0,  383 ; GENGAR
-	mon_cry CRY_EKANS,       255,  320 ; ONIX
+	mon_cry CRY_GAZIMON,       255,  320 ; ONIX
 	mon_cry CRY_DROWZEE,     136,  160 ; DROWZEE
 	mon_cry CRY_DROWZEE,     238,  192 ; HYPNO
 	mon_cry CRY_KRABBY,       32,  352 ; KRABBY
@@ -390,8 +390,8 @@ PokemonCries::
 	mon_cry CRY_CHARMANDER,  255,  176 ; MAGMAR
 	mon_cry CRY_PIDGEOTTO,     0,  256 ; PINSIR
 	mon_cry CRY_SQUIRTLE,     17,  192 ; TAUROS
-	mon_cry CRY_EKANS,       128,  128 ; MAGIKARP
-	mon_cry CRY_EKANS,         0,  256 ; GYARADOS
+	mon_cry CRY_GAZIMON,       128,  128 ; MAGIKARP
+	mon_cry CRY_GAZIMON,         0,  256 ; GYARADOS
 	mon_cry CRY_LAPRAS,        0,  256 ; LAPRAS
 	mon_cry CRY_PIDGEY,      255,  383 ; DITTO
 	mon_cry CRY_KUNEMON,     136,  224 ; EEVEE

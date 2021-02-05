@@ -21,7 +21,7 @@ AnimationIdlePointers:
 	dw RaticateAnimationIdle
 	dw TokoomonAnimationIdle
 	dw FearowAnimationIdle
-	dw EkansAnimationIdle
+	dw GazimonAnimationIdle
 	dw ArbokAnimationIdle
 	dw PikachuAnimationIdle
 	dw RaichuAnimationIdle

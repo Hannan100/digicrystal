@@ -8,7 +8,7 @@ AsleepTreeMonsNite:
 	db TENTOMON
 	db BEEDRILL
 	db TOKOOMON
-	db EKANS
+	db GAZIMON
 	db EXEGGCUTE
 	db GUMMYMON
 	db AIPOM

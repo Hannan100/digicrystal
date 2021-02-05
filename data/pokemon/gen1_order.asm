@@ -106,7 +106,7 @@ Pokered_MonIndices:
 	db VAPOREON
 	db MACHOP
 	db PAGUMON
-	db EKANS
+	db GAZIMON
 	db MUSHROOMON
 	db POLIWHIRL
 	db POLIWRATH

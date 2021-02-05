@@ -23,7 +23,7 @@ MonMenuIcons:
 	db ICON_FOX         ; RATICATE
 	db ICON_BIRD        ; TOKOOMON
 	db ICON_BIRD        ; FEAROW
-	db ICON_SERPENT     ; EKANS
+	db ICON_SERPENT     ; GAZIMON
 	db ICON_SERPENT     ; ARBOK
 	db ICON_PIKACHU     ; PIKACHU
 	db ICON_PIKACHU     ; RAICHU

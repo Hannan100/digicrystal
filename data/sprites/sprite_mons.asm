@@ -22,7 +22,7 @@ SpriteMons:
 	db NYOKOMON
 	db JIGGLYPUFF
 	db GRIMER
-	db EKANS
+	db GAZIMON
 	db MUSHROOMON
 	db TENTACOOL
 	db TAUROS

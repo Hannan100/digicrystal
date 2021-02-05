@@ -21,7 +21,7 @@ PokemonNames::
 	db "RATICATE@@"
 	db "TOKOOMON@@@"
 	db "FEAROW@@@@"
-	db "EKANS@@@@@"
+	db "GAZIMON@@@@@"
 	db "ARBOK@@@@@"
 	db "PIKACHU@@@"
 	db "RAICHU@@@@"

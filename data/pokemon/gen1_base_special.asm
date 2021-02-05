@@ -23,7 +23,7 @@ KantoMonSpecials:
 	db  50 ; RATICATE
 	db  31 ; TOKOOMON
 	db  61 ; FEAROW
-	db  40 ; EKANS
+	db  40 ; GAZIMON
 	db  65 ; ARBOK
 	db  50 ; PIKACHU
 	db  90 ; RAICHU

@@ -21,7 +21,7 @@ FramesPointers:
 	dw RaticateFrames
 	dw TokoomonFrames
 	dw FearowFrames
-	dw EkansFrames
+	dw GazimonFrames
 	dw ArbokFrames
 	dw PikachuFrames
 	dw RaichuFrames
