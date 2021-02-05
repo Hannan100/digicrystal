@@ -16,7 +16,7 @@ NewPokedexOrder:
 	db TOKOOMON
 	db FEAROW
 	db POROMON
-	db NOCTOWL
+	db HAWKMON
 	db TSUNOMON
 	db RATICATE
 	db NYAROMON

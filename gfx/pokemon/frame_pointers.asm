@@ -162,7 +162,7 @@ FramesPointers:
 	dw NyaromonFrames
 	dw FurretFrames
 	dw PoromonFrames
-	dw NoctowlFrames
+	dw HawkmonFrames
 	dw GummymonFrames
 	dw LedianFrames
 	dw KokomonFrames

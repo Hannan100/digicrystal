@@ -164,7 +164,7 @@ MonMenuIcons:
 	db ICON_FOX         ; NYAROMON
 	db ICON_FOX         ; FURRET
 	db ICON_BIRD        ; POROMON
-	db ICON_BIRD        ; NOCTOWL
+	db ICON_BIRD        ; HAWKMON
 	db ICON_BUG         ; GUMMYMON
 	db ICON_BUG         ; LEDIAN
 	db ICON_BUG         ; KOKOMON

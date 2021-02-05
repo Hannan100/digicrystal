@@ -164,7 +164,7 @@ EvosAttacksPointers::
 	dw NyaromonEvosAttacks
 	dw FurretEvosAttacks
 	dw PoromonEvosAttacks
-	dw NoctowlEvosAttacks
+	dw HawkmonEvosAttacks
 	dw GummymonEvosAttacks
 	dw LedianEvosAttacks
 	dw KokomonEvosAttacks

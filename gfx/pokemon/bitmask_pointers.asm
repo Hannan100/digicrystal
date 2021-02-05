@@ -162,7 +162,7 @@ BitmasksPointers:
 	dw NyaromonBitmasks
 	dw FurretBitmasks
 	dw PoromonBitmasks
-	dw NoctowlBitmasks
+	dw HawkmonBitmasks
 	dw GummymonBitmasks
 	dw LedianBitmasks
 	dw KokomonBitmasks

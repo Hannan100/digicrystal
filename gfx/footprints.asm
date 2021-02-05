@@ -373,7 +373,7 @@ INCBIN "gfx/footprints/feraligatr.1bpp", footprint_bottom
 INCBIN "gfx/footprints/nyaromon.1bpp",    footprint_top
 INCBIN "gfx/footprints/furret.1bpp",     footprint_top
 INCBIN "gfx/footprints/poromon.1bpp",   footprint_top
-INCBIN "gfx/footprints/noctowl.1bpp",    footprint_top
+INCBIN "gfx/footprints/hawkmon.1bpp",    footprint_top
 INCBIN "gfx/footprints/gummymon.1bpp",     footprint_top
 INCBIN "gfx/footprints/ledian.1bpp",     footprint_top
 INCBIN "gfx/footprints/kokomon.1bpp",   footprint_top
@@ -382,7 +382,7 @@ INCBIN "gfx/footprints/ariados.1bpp",    footprint_top
 INCBIN "gfx/footprints/nyaromon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/furret.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/poromon.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/noctowl.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/hawkmon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/gummymon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/ledian.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/kokomon.1bpp",   footprint_bottom

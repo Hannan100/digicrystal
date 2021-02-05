@@ -162,7 +162,7 @@ AnimationIdlePointers:
 	dw NyaromonAnimationIdle
 	dw FurretAnimationIdle
 	dw PoromonAnimationIdle
-	dw NoctowlAnimationIdle
+	dw HawkmonAnimationIdle
 	dw GummymonAnimationIdle
 	dw LedianAnimationIdle
 	dw KokomonAnimationIdle

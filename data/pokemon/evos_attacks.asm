@@ -2217,7 +2217,7 @@ FurretEvosAttacks:
 	db 0 ; no more level-up moves
 
 PoromonEvosAttacks:
-	db EVOLVE_LEVEL, 20, NOCTOWL
+	db EVOLVE_LEVEL, 20, HAWKMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2230,7 +2230,7 @@ PoromonEvosAttacks:
 	db 48, DREAM_EATER
 	db 0 ; no more level-up moves
 
-NoctowlEvosAttacks:
+HawkmonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL

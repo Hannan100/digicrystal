@@ -183,7 +183,7 @@ JOHTO_POKEMON EQU const_value
 	const NYAROMON    ; a1
 	const FURRET     ; a2
 	const POROMON   ; a3
-	const NOCTOWL    ; a4
+	const HAWKMON    ; a4
 	const GUMMYMON     ; a5
 	const LEDIAN     ; a6
 	const KOKOMON   ; a7

@@ -213,10 +213,10 @@ KantoGrassWildMons:
 	db 3,POROMON
 	db 3, KOKOMON
 	db 5, POROMON
-	db 7, NOCTOWL
+	db 7, HAWKMON
 	db 7, ARIADOS
-	db 4, NOCTOWL
-	db 4, NOCTOWL
+	db 4, HAWKMON
+	db 4, HAWKMON
 
 	map_id ROUTE_3
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -293,7 +293,7 @@ KantoGrassWildMons:
 	; nite
 	db 13, POROMON
 	db 13, MEOWTH
-	db 15, NOCTOWL
+	db 15, HAWKMON
 	db 12, ABRA
 	db 14, JIGGLYPUFF
 	db 14, ABRA
@@ -373,7 +373,7 @@ KantoGrassWildMons:
 	db 18, KADABRA
 	; nite
 	db 17, MEOWTH
-	db 20, NOCTOWL
+	db 20, HAWKMON
 	db 16, ABRA
 	db 17, HAUNTER
 	db 16, JIGGLYPUFF
@@ -456,7 +456,7 @@ KantoGrassWildMons:
 	db 14, DROWZEE
 	db 13, MEOWTH
 	db 15, HAGURUMON
-	db 16, NOCTOWL
+	db 16, HAWKMON
 	db 16, RATICATE
 	db 16, HYPNO
 	db 16, HYPNO
@@ -482,7 +482,7 @@ KantoGrassWildMons:
 	; nite
 	db 23, KUNEMON
 	db 23, QUAGSIRE
-	db 25, NOCTOWL
+	db 25, HAWKMON
 	db 25, VENOMOTH
 	db 25, QUAGSIRE
 	db 25, QUAGSIRE
@@ -509,7 +509,7 @@ KantoGrassWildMons:
 	; nite
 	db 26, KUNEMON
 	db 26, QUAGSIRE
-	db 28, NOCTOWL
+	db 28, HAWKMON
 	db 28, VENOMOTH
 	db 28, QUAGSIRE
 	db 28, QUAGSIRE
@@ -536,7 +536,7 @@ KantoGrassWildMons:
 	; nite
 	db 23, KUNEMON
 	db 23, QUAGSIRE
-	db 25, NOCTOWL
+	db 25, HAWKMON
 	db 25, VENOMOTH
 	db 25, QUAGSIRE
 	db 25, QUAGSIRE
@@ -726,10 +726,10 @@ KantoGrassWildMons:
 	db 10, ODDISH
 	db 10, POROMON
 	db 10, KUNEMON
-	db 12, NOCTOWL
+	db 12, HAWKMON
 	db 10, BELLSPROUT
-	db 14, NOCTOWL
-	db 14, NOCTOWL
+	db 14, HAWKMON
+	db 14, HAWKMON
 
 	map_id ROUTE_26
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -750,9 +750,9 @@ KantoGrassWildMons:
 	db 30, ARBOK
 	db 30, ARBOK
 	; nite
-	db 28, NOCTOWL
+	db 28, HAWKMON
 	db 28, RATICATE
-	db 32, NOCTOWL
+	db 32, HAWKMON
 	db 30, RATICATE
 	db 30, QUAGSIRE
 	db 30, QUAGSIRE
@@ -778,12 +778,12 @@ KantoGrassWildMons:
 	db 30, DODRIO
 	; nite
 	db 28, QUAGSIRE
-	db 28, NOCTOWL
+	db 28, HAWKMON
 	db 30, RATICATE
 	db 30, QUAGSIRE
-	db 32, NOCTOWL
-	db 32, NOCTOWL
-	db 32, NOCTOWL
+	db 32, HAWKMON
+	db 32, HAWKMON
+	db 32, HAWKMON
 
 	map_id ROUTE_28
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

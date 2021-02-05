@@ -638,7 +638,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (11)
 	db "BOB@", TRAINERTYPE_NORMAL
-	db 34, NOCTOWL
+	db 34, HAWKMON
 	db -1 ; end
 
 	; BIRD_KEEPER (12)
@@ -1454,7 +1454,7 @@ GentlemanGroup:
 
 	; GENTLEMAN (5)
 	db "ALFRED@", TRAINERTYPE_NORMAL
-	db 20, NOCTOWL
+	db 20, HAWKMON
 	db -1 ; end
 
 SkierGroup:
@@ -3133,19 +3133,19 @@ SageGroup:
 
 	; SAGE (10)
 	db "GAKU@", TRAINERTYPE_NORMAL
-	db 32, NOCTOWL
+	db 32, HAWKMON
 	db 32, FLAREON
 	db -1 ; end
 
 	; SAGE (11)
 	db "MASA@", TRAINERTYPE_NORMAL
-	db 32, NOCTOWL
+	db 32, HAWKMON
 	db 32, JOLTEON
 	db -1 ; end
 
 	; SAGE (12)
 	db "KOJI@", TRAINERTYPE_NORMAL
-	db 32, NOCTOWL
+	db 32, HAWKMON
 	db 32, VAPOREON
 	db -1 ; end
 

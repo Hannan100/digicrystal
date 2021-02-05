@@ -169,7 +169,7 @@ PokemonCries::
 	mon_cry CRY_NYAROMON,     $08a,  $0b8 ; NYAROMON
 	mon_cry CRY_NYAROMON,     $06b,  $102 ; FURRET
 	mon_cry CRY_POROMON,    $091,  $0d8 ; POROMON
-	mon_cry CRY_POROMON,    $000,  $1a0 ; NOCTOWL
+	mon_cry CRY_POROMON,    $000,  $1a0 ; HAWKMON
 	mon_cry CRY_GUMMYMON,      $000,  $0de ; GUMMYMON
 	mon_cry CRY_GUMMYMON,     -$096,  $138 ; LEDIAN
 	mon_cry CRY_KOKOMON,    $011,  $200 ; KOKOMON
@@ -425,7 +425,7 @@ PokemonCries::
 	mon_cry CRY_NYAROMON,     138,  184 ; NYAROMON
 	mon_cry CRY_NYAROMON,     107,  258 ; FURRET
 	mon_cry CRY_POROMON,    145,  216 ; POROMON
-	mon_cry CRY_POROMON,      0,  416 ; NOCTOWL
+	mon_cry CRY_POROMON,      0,  416 ; HAWKMON
 	mon_cry CRY_GUMMYMON,        0,  222 ; GUMMYMON
 	mon_cry CRY_GUMMYMON,     -150,  312 ; LEDIAN
 	mon_cry CRY_KOKOMON,     17,  512 ; KOKOMON

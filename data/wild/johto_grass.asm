@@ -1429,7 +1429,7 @@ JohtoGrassWildMons:
 	db 14, STANTLER
 	db 15,POROMON
 	db 16, STANTLER
-	db 15, NOCTOWL
+	db 15, HAWKMON
 	db 15, ARIADOS
 	db 15, ARIADOS
 
@@ -1455,7 +1455,7 @@ JohtoGrassWildMons:
 	db 16, MEOWTH
 	db 16, RATICATE
 	db 16, HAGURUMON
-	db 16, NOCTOWL
+	db 16, HAWKMON
 	db 16, MEOWTH
 	db 16, MEOWTH
 	db 16, MEOWTH
@@ -1482,7 +1482,7 @@ JohtoGrassWildMons:
 	db 16, MEOWTH
 	db 16, RATICATE
 	db 16, HAGURUMON
-	db 16, NOCTOWL
+	db 16, HAWKMON
 	db 18, MEOWTH
 	db 18, MEOWTH
 	db 18, MEOWTH
@@ -1534,7 +1534,7 @@ JohtoGrassWildMons:
 	db 17, FURRET
 	; nite
 	db 15, KUNEMON
-	db 16, NOCTOWL
+	db 16, HAWKMON
 	db 16, RATICATE
 	db 17, KUNEMON
 	db 17, RATICATE

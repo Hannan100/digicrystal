@@ -147,7 +147,7 @@ AlphabeticalPokedexOrder:
 	db NIDORINA
 	db NIDORINO
 	db NINETALES
-	db NOCTOWL
+	db HAWKMON
 	db OCTILLERY
 	db ODDISH
 	db OMANYTE

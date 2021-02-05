@@ -328,8 +328,8 @@ PokemonPicPointers::
 	dba_pic FurretBackpic
 	dba_pic PoromonFrontpic
 	dba_pic PoromonBackpic
-	dba_pic NoctowlFrontpic
-	dba_pic NoctowlBackpic
+	dba_pic HawkmonFrontpic
+	dba_pic HawkmonBackpic
 	dba_pic GummymonFrontpic
 	dba_pic GummymonBackpic
 	dba_pic LedianFrontpic

@@ -17,7 +17,7 @@ AsleepTreeMonsNite:
 AsleepTreeMonsDay:
 	db KUNEMON
 	db POROMON
-	db NOCTOWL
+	db HAWKMON
 	db KOKOMON
 	db HERACROSS
 	db -1 ; end
@@ -25,7 +25,7 @@ AsleepTreeMonsDay:
 AsleepTreeMonsMorn:
 	db KUNEMON
 	db POROMON
-	db NOCTOWL
+	db HAWKMON
 	db KOKOMON
 	db HERACROSS
 	db -1 ; end

@@ -162,7 +162,7 @@ PokemonNames::
 	db "NYAROMON@@@" ; !Gummymon
 	db "FURRET@@@@" ; !Terriermon
 	db "POROMON@@" ; !Poromon
-	db "NOCTOWL@@@" ; !Hawkmon
+	db "HAWKMON@@@" ; !Hawkmon
 	db "GUMMYMON@@@@" ; !Puroromon
 	db "LEDIAN@@@@" ; !Fanbeemon
 	db "KOKOMON@@" ; !Tentomon

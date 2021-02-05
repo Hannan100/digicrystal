@@ -202,7 +202,7 @@ Pokered_MonIndices:
 	db NYAROMON
 	db FURRET
 	db POROMON
-	db NOCTOWL
+	db HAWKMON
 	db GUMMYMON
 	db LEDIAN
 	db KOKOMON

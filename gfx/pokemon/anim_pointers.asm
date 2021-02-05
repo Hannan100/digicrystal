@@ -162,7 +162,7 @@ AnimationPointers:
 	dw NyaromonAnimation
 	dw FurretAnimation
 	dw PoromonAnimation
-	dw NoctowlAnimation
+	dw HawkmonAnimation
 	dw GummymonAnimation
 	dw LedianAnimation
 	dw KokomonAnimation
