@@ -60,7 +60,7 @@
 	const JIGGLYPUFF ; 27
 	const WIGGLYTUFF ; 28
 	const PAGUMON      ; 29
-	const GOLBAT     ; 2a
+	const DEMDEVIMON     ; 2a
 	const ODDISH     ; 2b
 	const GLOOM      ; 2c
 	const VILEPLUME  ; 2d

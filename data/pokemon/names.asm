@@ -40,7 +40,7 @@ PokemonNames::
 	db "JIGGLYPUFF"
 	db "WIGGLYTUFF"
 	db "PAGUMON@@@@@"
-	db "GOLBAT@@@@"
+	db "DEMDEVIMON@@@@"
 	db "ODDISH@@@@"
 	db "GLOOM@@@@@"
 	db "VILEPLUME@"

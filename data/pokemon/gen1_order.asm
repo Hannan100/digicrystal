@@ -128,7 +128,7 @@ Pokered_MonIndices:
 	db DONPHAN ; MISSINGNO.
 	db GOLDUCK
 	db HYPNO
-	db GOLBAT
+	db DEMDEVIMON
 	db MEWTWO
 	db SNORLAX
 	db MAGIKARP

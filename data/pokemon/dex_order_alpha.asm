@@ -71,7 +71,7 @@ AlphabeticalPokedexOrder:
 	db GIRAFARIG
 	db GLIGAR
 	db GLOOM
-	db GOLBAT
+	db DEMDEVIMON
 	db GOLDEEN
 	db GOLDUCK
 	db GOLEM

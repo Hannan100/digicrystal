@@ -101,7 +101,7 @@ INCBIN "gfx/footprints/jigglypuff.1bpp", footprint_bottom
 INCBIN "gfx/footprints/wigglytuff.1bpp", footprint_bottom
 ; 041-048 top halves
 INCBIN "gfx/footprints/pagumon.1bpp",      footprint_top
-INCBIN "gfx/footprints/golbat.1bpp",     footprint_top
+INCBIN "gfx/footprints/demdevimon.1bpp",     footprint_top
 INCBIN "gfx/footprints/oddish.1bpp",     footprint_top
 INCBIN "gfx/footprints/gloom.1bpp",      footprint_top
 INCBIN "gfx/footprints/vileplume.1bpp",  footprint_top
@@ -110,7 +110,7 @@ INCBIN "gfx/footprints/mushroomonect.1bpp",   footprint_top
 INCBIN "gfx/footprints/kunemon.1bpp",    footprint_top
 ; 041-048 bottom halves
 INCBIN "gfx/footprints/pagumon.1bpp",      footprint_bottom
-INCBIN "gfx/footprints/golbat.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/demdevimon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/oddish.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/gloom.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/vileplume.1bpp",  footprint_bottom

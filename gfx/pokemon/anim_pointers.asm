@@ -40,7 +40,7 @@ AnimationPointers:
 	dw JigglypuffAnimation
 	dw WigglytuffAnimation
 	dw PagumonAnimation
-	dw GolbatAnimation
+	dw DemdevimonAnimation
 	dw OddishAnimation
 	dw GloomAnimation
 	dw VileplumeAnimation

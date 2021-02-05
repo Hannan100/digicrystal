@@ -107,8 +107,8 @@ KantoGrassWildMons:
 	db 16, ONIX
 	db 15, PAGUMON
 	db 15, HAUNTER
-	db 15, GOLBAT
-	db 15, GOLBAT
+	db 15, DEMDEVIMON
+	db 15, DEMDEVIMON
 
 	map_id VICTORY_ROAD
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -116,7 +116,7 @@ KantoGrassWildMons:
 	db 34, GRAVELER
 	db 32, RHYHORN
 	db 33, ONIX
-	db 34, GOLBAT
+	db 34, DEMDEVIMON
 	db 35, SANDSLASH
 	db 35, RHYDON
 	db 35, RHYDON
@@ -124,12 +124,12 @@ KantoGrassWildMons:
 	db 34, GRAVELER
 	db 32, RHYHORN
 	db 33, ONIX
-	db 34, GOLBAT
+	db 34, DEMDEVIMON
 	db 35, SANDSLASH
 	db 35, RHYDON
 	db 35, RHYDON
 	; nite
-	db 34, GOLBAT
+	db 34, DEMDEVIMON
 	db 34, GRAVELER
 	db 32, ONIX
 	db 36, GRAVELER
@@ -142,7 +142,7 @@ KantoGrassWildMons:
 	; morn
 	db 22, PAGUMON
 	db 22, RATICATE
-	db 24, GOLBAT
+	db 24, DEMDEVIMON
 	db 21, SLOWPOKE
 	db 20, TSUNOMON
 	db 23, SLOWPOKE
@@ -150,7 +150,7 @@ KantoGrassWildMons:
 	; day
 	db 22, PAGUMON
 	db 22, RATICATE
-	db 24, GOLBAT
+	db 24, DEMDEVIMON
 	db 21, SLOWPOKE
 	db 20, TSUNOMON
 	db 23, SLOWPOKE
@@ -158,7 +158,7 @@ KantoGrassWildMons:
 	; nite
 	db 22, PAGUMON
 	db 22, RATICATE
-	db 24, GOLBAT
+	db 24, DEMDEVIMON
 	db 21, SLOWPOKE
 	db 20, TSUNOMON
 	db 23, SLOWPOKE
@@ -806,10 +806,10 @@ KantoGrassWildMons:
 	; nite
 	db 39, TANGELA
 	db 40, POLIWHIRL
-	db 40, GOLBAT
+	db 40, DEMDEVIMON
 	db 40, POLIWHIRL
-	db 42, GOLBAT
-	db 42, GOLBAT
-	db 42, GOLBAT
+	db 42, DEMDEVIMON
+	db 42, DEMDEVIMON
+	db 42, DEMDEVIMON
 
 	db -1 ; end

@@ -84,8 +84,8 @@ PokemonPicPointers::
 	dba_pic WigglytuffBackpic
 	dba_pic PagumonFrontpic
 	dba_pic PagumonBackpic
-	dba_pic GolbatFrontpic
-	dba_pic GolbatBackpic
+	dba_pic DemdevimonFrontpic
+	dba_pic DemdevimonBackpic
 	dba_pic OddishFrontpic
 	dba_pic OddishBackpic
 	dba_pic GloomFrontpic

@@ -533,7 +533,7 @@ WigglytuffEvosAttacks:
 	db 0 ; no more level-up moves
 
 PagumonEvosAttacks:
-	db EVOLVE_LEVEL, 22, GOLBAT
+	db EVOLVE_LEVEL, 22, DEMDEVIMON
 	db 0 ; no more evolutions
 	db 1, LEECH_LIFE
 	db 6, SUPERSONIC
@@ -544,7 +544,7 @@ PagumonEvosAttacks:
 	db 46, HAZE
 	db 0 ; no more level-up moves
 
-GolbatEvosAttacks:
+DemdevimonEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, CROBAT
 	db 0 ; no more evolutions
 	db 1, SCREECH

@@ -465,7 +465,7 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 22, PAGUMON
-	db 22, GOLBAT
+	db 22, DEMDEVIMON
 	db 22, PAGUMON
 	db 21, RATICATE
 	db 20, GEODUDE
@@ -473,7 +473,7 @@ JohtoGrassWildMons:
 	db 23, ONIX
 	; day
 	db 22, PAGUMON
-	db 22, GOLBAT
+	db 22, DEMDEVIMON
 	db 22, PAGUMON
 	db 21, RATICATE
 	db 20, GEODUDE
@@ -481,7 +481,7 @@ JohtoGrassWildMons:
 	db 23, ONIX
 	; nite
 	db 22, PAGUMON
-	db 22, GOLBAT
+	db 22, DEMDEVIMON
 	db 22, QUAGSIRE
 	db 21, RATICATE
 	db 20, GEODUDE
@@ -522,7 +522,7 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 19, PAGUMON
 	db 21, SLOWPOKE
-	db 23, GOLBAT
+	db 23, DEMDEVIMON
 	db 23, SLOWPOKE
 	db 23, SLOWPOKE
 	; day
@@ -530,7 +530,7 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 19, PAGUMON
 	db 21, SLOWPOKE
-	db 23, GOLBAT
+	db 23, DEMDEVIMON
 	db 23, SLOWPOKE
 	db 23, SLOWPOKE
 	; nite
@@ -538,7 +538,7 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 19, PAGUMON
 	db 21, SLOWPOKE
-	db 23, GOLBAT
+	db 23, DEMDEVIMON
 	db 23, SLOWPOKE
 	db 23, SLOWPOKE
 
@@ -575,7 +575,7 @@ JohtoGrassWildMons:
 	db 14, TSUNOMON
 	db 13, PAGUMON
 	db 14, MACHOP
-	db 13, GOLBAT
+	db 13, DEMDEVIMON
 	db 14, GEODUDE
 	db 16, RATICATE
 	db 16, RATICATE
@@ -583,7 +583,7 @@ JohtoGrassWildMons:
 	db 14, TSUNOMON
 	db 13, PAGUMON
 	db 14, MACHOP
-	db 13, GOLBAT
+	db 13, DEMDEVIMON
 	db 14, GEODUDE
 	db 16, RATICATE
 	db 16, RATICATE
@@ -591,7 +591,7 @@ JohtoGrassWildMons:
 	db 14, TSUNOMON
 	db 13, PAGUMON
 	db 14, MARILL
-	db 13, GOLBAT
+	db 13, DEMDEVIMON
 	db 14, GEODUDE
 	db 16, RATICATE
 	db 16, RATICATE
@@ -604,24 +604,24 @@ JohtoGrassWildMons:
 	db 15, MACHOP
 	db 14, RATICATE
 	db 15, PAGUMON
-	db 15, GOLBAT
-	db 15, GOLBAT
+	db 15, DEMDEVIMON
+	db 15, DEMDEVIMON
 	; day
 	db 13, GEODUDE
 	db 14, TSUNOMON
 	db 15, MACHOP
 	db 14, RATICATE
 	db 15, PAGUMON
-	db 15, GOLBAT
-	db 15, GOLBAT
+	db 15, DEMDEVIMON
+	db 15, DEMDEVIMON
 	; nite
 	db 13, GEODUDE
 	db 14, TSUNOMON
 	db 15, RATICATE
 	db 14, PAGUMON
 	db 15, MARILL
-	db 15, GOLBAT
-	db 15, GOLBAT
+	db 15, DEMDEVIMON
+	db 15, DEMDEVIMON
 
 	map_id MOUNT_MORTAR_2F_INSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -631,31 +631,31 @@ JohtoGrassWildMons:
 	db 31, GEODUDE
 	db 30, RATICATE
 	db 28, MACHOP
-	db 30, GOLBAT
-	db 30, GOLBAT
+	db 30, DEMDEVIMON
+	db 30, DEMDEVIMON
 	; day
 	db 31, GRAVELER
 	db 32, MACHOKE
 	db 31, GEODUDE
 	db 30, RATICATE
 	db 28, MACHOP
-	db 30, GOLBAT
-	db 30, GOLBAT
+	db 30, DEMDEVIMON
+	db 30, DEMDEVIMON
 	; nite
 	db 31, GRAVELER
 	db 31, GEODUDE
 	db 30, RATICATE
-	db 30, GOLBAT
+	db 30, DEMDEVIMON
 	db 28, MARILL
-	db 32, GOLBAT
-	db 32, GOLBAT
+	db 32, DEMDEVIMON
+	db 32, DEMDEVIMON
 
 	map_id MOUNT_MORTAR_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 15, PAGUMON
 	db 17, PAGUMON
-	db 17, GOLBAT
+	db 17, DEMDEVIMON
 	db 16, MACHOP
 	db 16, GEODUDE
 	db 18, RATICATE
@@ -663,7 +663,7 @@ JohtoGrassWildMons:
 	; day
 	db 15, PAGUMON
 	db 17, PAGUMON
-	db 17, GOLBAT
+	db 17, DEMDEVIMON
 	db 16, MACHOP
 	db 16, GEODUDE
 	db 18, RATICATE
@@ -671,7 +671,7 @@ JohtoGrassWildMons:
 	; nite
 	db 15, PAGUMON
 	db 17, PAGUMON
-	db 17, GOLBAT
+	db 17, DEMDEVIMON
 	db 16, MARILL
 	db 16, GEODUDE
 	db 18, RATICATE
@@ -682,53 +682,53 @@ JohtoGrassWildMons:
 	; morn
 	db 21, SWINUB
 	db 22, PAGUMON
-	db 22, GOLBAT
+	db 22, DEMDEVIMON
 	db 23, SWINUB
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	db 24, DEMDEVIMON
+	db 22, DEMDEVIMON
+	db 22, DEMDEVIMON
 	; day
 	db 21, SWINUB
 	db 22, PAGUMON
-	db 22, GOLBAT
+	db 22, DEMDEVIMON
 	db 23, SWINUB
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	db 24, DEMDEVIMON
+	db 22, DEMDEVIMON
+	db 22, DEMDEVIMON
 	; nite
 	db 21, DELIBIRD
 	db 22, PAGUMON
-	db 22, GOLBAT
+	db 22, DEMDEVIMON
 	db 23, DELIBIRD
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	db 24, DEMDEVIMON
+	db 22, DEMDEVIMON
+	db 22, DEMDEVIMON
 
 	map_id ICE_PATH_B1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	db 22, SWINUB
 	db 23, PAGUMON
-	db 23, GOLBAT
+	db 23, DEMDEVIMON
 	db 24, SWINUB
-	db 25, GOLBAT
-	db 23, GOLBAT
+	db 25, DEMDEVIMON
+	db 23, DEMDEVIMON
 	db 22, JYNX
 	; day
 	db 22, SWINUB
 	db 23, PAGUMON
-	db 23, GOLBAT
+	db 23, DEMDEVIMON
 	db 24, SWINUB
-	db 25, GOLBAT
-	db 23, GOLBAT
+	db 25, DEMDEVIMON
+	db 23, DEMDEVIMON
 	db 22, JYNX
 	; nite
 	db 22, DELIBIRD
 	db 23, PAGUMON
-	db 23, GOLBAT
+	db 23, DEMDEVIMON
 	db 24, DELIBIRD
-	db 25, GOLBAT
-	db 23, GOLBAT
+	db 25, DEMDEVIMON
+	db 23, DEMDEVIMON
 	db 22, SNEASEL
 
 	map_id ICE_PATH_B2F_MAHOGANY_SIDE
@@ -736,25 +736,25 @@ JohtoGrassWildMons:
 	; morn
 	db 23, SWINUB
 	db 24, PAGUMON
-	db 24, GOLBAT
+	db 24, DEMDEVIMON
 	db 25, SWINUB
-	db 26, GOLBAT
+	db 26, DEMDEVIMON
 	db 22, JYNX
 	db 24, JYNX
 	; day
 	db 23, SWINUB
 	db 24, PAGUMON
-	db 24, GOLBAT
+	db 24, DEMDEVIMON
 	db 25, SWINUB
-	db 26, GOLBAT
+	db 26, DEMDEVIMON
 	db 22, JYNX
 	db 24, JYNX
 	; nite
 	db 23, DELIBIRD
 	db 24, PAGUMON
-	db 24, GOLBAT
+	db 24, DEMDEVIMON
 	db 25, DELIBIRD
-	db 26, GOLBAT
+	db 26, DEMDEVIMON
 	db 22, SNEASEL
 	db 24, SNEASEL
 
@@ -763,25 +763,25 @@ JohtoGrassWildMons:
 	; morn
 	db 23, SWINUB
 	db 24, PAGUMON
-	db 24, GOLBAT
+	db 24, DEMDEVIMON
 	db 25, SWINUB
-	db 26, GOLBAT
+	db 26, DEMDEVIMON
 	db 22, JYNX
 	db 24, JYNX
 	; day
 	db 23, SWINUB
 	db 24, PAGUMON
-	db 24, GOLBAT
+	db 24, DEMDEVIMON
 	db 25, SWINUB
-	db 26, GOLBAT
+	db 26, DEMDEVIMON
 	db 22, JYNX
 	db 24, JYNX
 	; nite
 	db 23, DELIBIRD
 	db 24, PAGUMON
-	db 24, GOLBAT
+	db 24, DEMDEVIMON
 	db 25, DELIBIRD
-	db 26, GOLBAT
+	db 26, DEMDEVIMON
 	db 22, SNEASEL
 	db 24, SNEASEL
 
@@ -790,7 +790,7 @@ JohtoGrassWildMons:
 	; morn
 	db 24, SWINUB
 	db 25, PAGUMON
-	db 25, GOLBAT
+	db 25, DEMDEVIMON
 	db 26, SWINUB
 	db 22, JYNX
 	db 24, JYNX
@@ -798,7 +798,7 @@ JohtoGrassWildMons:
 	; day
 	db 24, SWINUB
 	db 25, PAGUMON
-	db 25, GOLBAT
+	db 25, DEMDEVIMON
 	db 26, SWINUB
 	db 22, JYNX
 	db 24, JYNX
@@ -806,7 +806,7 @@ JohtoGrassWildMons:
 	; nite
 	db 24, DELIBIRD
 	db 25, PAGUMON
-	db 25, GOLBAT
+	db 25, DEMDEVIMON
 	db 26, DELIBIRD
 	db 22, SNEASEL
 	db 24, SNEASEL
@@ -819,7 +819,7 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; day
@@ -827,7 +827,7 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; nite
@@ -835,9 +835,9 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 22, KRABBY
 	db 24, KRABBY
-	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	db 25, DEMDEVIMON
+	db 24, DEMDEVIMON
+	db 24, DEMDEVIMON
 
 	map_id WHIRL_ISLAND_NE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -846,7 +846,7 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; day
@@ -854,7 +854,7 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; nite
@@ -862,9 +862,9 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 22, KRABBY
 	db 24, KRABBY
-	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	db 25, DEMDEVIMON
+	db 24, DEMDEVIMON
+	db 24, DEMDEVIMON
 
 	map_id WHIRL_ISLAND_SW
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -873,7 +873,7 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; day
@@ -881,7 +881,7 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; nite
@@ -889,9 +889,9 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 22, KRABBY
 	db 24, KRABBY
-	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	db 25, DEMDEVIMON
+	db 24, DEMDEVIMON
+	db 24, DEMDEVIMON
 
 	map_id WHIRL_ISLAND_CAVE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -900,7 +900,7 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; day
@@ -908,7 +908,7 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; nite
@@ -916,9 +916,9 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 22, KRABBY
 	db 24, KRABBY
-	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	db 25, DEMDEVIMON
+	db 24, DEMDEVIMON
+	db 24, DEMDEVIMON
 
 	map_id WHIRL_ISLAND_SE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -927,7 +927,7 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; day
@@ -935,7 +935,7 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; nite
@@ -943,9 +943,9 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 22, KRABBY
 	db 24, KRABBY
-	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	db 25, DEMDEVIMON
+	db 24, DEMDEVIMON
+	db 24, DEMDEVIMON
 
 	map_id WHIRL_ISLAND_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -954,7 +954,7 @@ JohtoGrassWildMons:
 	db 24, PAGUMON
 	db 23, SEEL
 	db 25, KRABBY
-	db 26, GOLBAT
+	db 26, DEMDEVIMON
 	db 25, SEEL
 	db 25, SEEL
 	; day
@@ -962,7 +962,7 @@ JohtoGrassWildMons:
 	db 24, PAGUMON
 	db 23, SEEL
 	db 25, KRABBY
-	db 26, GOLBAT
+	db 26, DEMDEVIMON
 	db 25, SEEL
 	db 25, SEEL
 	; nite
@@ -970,9 +970,9 @@ JohtoGrassWildMons:
 	db 24, PAGUMON
 	db 23, KRABBY
 	db 25, KRABBY
-	db 26, GOLBAT
-	db 25, GOLBAT
-	db 25, GOLBAT
+	db 26, DEMDEVIMON
+	db 25, DEMDEVIMON
+	db 25, DEMDEVIMON
 
 	map_id WHIRL_ISLAND_B2F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -981,7 +981,7 @@ JohtoGrassWildMons:
 	db 25, PAGUMON
 	db 24, SEEL
 	db 26, KRABBY
-	db 27, GOLBAT
+	db 27, DEMDEVIMON
 	db 26, SEEL
 	db 26, SEEL
 	; day
@@ -989,7 +989,7 @@ JohtoGrassWildMons:
 	db 25, PAGUMON
 	db 24, SEEL
 	db 26, KRABBY
-	db 27, GOLBAT
+	db 27, DEMDEVIMON
 	db 26, SEEL
 	db 26, SEEL
 	; nite
@@ -997,9 +997,9 @@ JohtoGrassWildMons:
 	db 25, PAGUMON
 	db 24, KRABBY
 	db 26, KRABBY
-	db 27, GOLBAT
-	db 26, GOLBAT
-	db 26, GOLBAT
+	db 27, DEMDEVIMON
+	db 26, DEMDEVIMON
+	db 26, DEMDEVIMON
 
 	map_id WHIRL_ISLAND_LUGIA_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1008,7 +1008,7 @@ JohtoGrassWildMons:
 	db 26, PAGUMON
 	db 25, SEEL
 	db 27, KRABBY
-	db 28, GOLBAT
+	db 28, DEMDEVIMON
 	db 27, SEEL
 	db 27, SEEL
 	; day
@@ -1016,7 +1016,7 @@ JohtoGrassWildMons:
 	db 26, PAGUMON
 	db 25, SEEL
 	db 27, KRABBY
-	db 28, GOLBAT
+	db 28, DEMDEVIMON
 	db 27, SEEL
 	db 27, SEEL
 	; nite
@@ -1024,9 +1024,9 @@ JohtoGrassWildMons:
 	db 26, PAGUMON
 	db 25, KRABBY
 	db 27, KRABBY
-	db 28, GOLBAT
-	db 27, GOLBAT
-	db 27, GOLBAT
+	db 28, DEMDEVIMON
+	db 27, DEMDEVIMON
+	db 27, DEMDEVIMON
 
 	map_id SILVER_CAVE_ROOM_1
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1035,7 +1035,7 @@ JohtoGrassWildMons:
 	db 44, URSARING
 	db 42, ONIX
 	db 45, MAGMAR
-	db 45, GOLBAT
+	db 45, DEMDEVIMON
 	db 20, LARVITAR
 	db 15, LARVITAR
 	; day
@@ -1043,22 +1043,22 @@ JohtoGrassWildMons:
 	db 44, URSARING
 	db 42, ONIX
 	db 45, MAGMAR
-	db 45, GOLBAT
+	db 45, DEMDEVIMON
 	db 20, LARVITAR
 	db 15, LARVITAR
 	; nite
 	db 43, GRAVELER
-	db 44, GOLBAT
+	db 44, DEMDEVIMON
 	db 42, ONIX
-	db 42, GOLBAT
+	db 42, DEMDEVIMON
 	db 45, GOLDUCK
-	db 46, GOLBAT
-	db 46, GOLBAT
+	db 46, DEMDEVIMON
+	db 46, DEMDEVIMON
 
 	map_id SILVER_CAVE_ROOM_2
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 48, GOLBAT
+	db 48, DEMDEVIMON
 	db 48, MACHOKE
 	db 47, URSARING
 	db 46, MUSHROOMONECT
@@ -1066,7 +1066,7 @@ JohtoGrassWildMons:
 	db 15, LARVITAR
 	db 20, LARVITAR
 	; day
-	db 48, GOLBAT
+	db 48, DEMDEVIMON
 	db 48, MACHOKE
 	db 47, URSARING
 	db 46, MUSHROOMONECT
@@ -1074,9 +1074,9 @@ JohtoGrassWildMons:
 	db 15, LARVITAR
 	db 20, LARVITAR
 	; nite
-	db 48, GOLBAT
+	db 48, DEMDEVIMON
 	db 48, GOLDUCK
-	db 46, GOLBAT
+	db 46, DEMDEVIMON
 	db 46, MUSHROOMONECT
 	db 48, MUSHROOMONECT
 	db 45, MISDREAVUS
@@ -1085,7 +1085,7 @@ JohtoGrassWildMons:
 	map_id SILVER_CAVE_ROOM_3
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 51, GOLBAT
+	db 51, DEMDEVIMON
 	db 48, ONIX
 	db 48, GRAVELER
 	db 50, URSARING
@@ -1093,7 +1093,7 @@ JohtoGrassWildMons:
 	db 15, LARVITAR
 	db 20, PUPITAR
 	; day
-	db 51, GOLBAT
+	db 51, DEMDEVIMON
 	db 48, ONIX
 	db 48, GRAVELER
 	db 50, URSARING
@@ -1101,36 +1101,36 @@ JohtoGrassWildMons:
 	db 15, LARVITAR
 	db 20, PUPITAR
 	; nite
-	db 51, GOLBAT
+	db 51, DEMDEVIMON
 	db 48, ONIX
 	db 48, GRAVELER
-	db 49, GOLBAT
+	db 49, DEMDEVIMON
 	db 45, GOLDUCK
-	db 53, GOLBAT
-	db 53, GOLBAT
+	db 53, DEMDEVIMON
+	db 53, DEMDEVIMON
 
 	map_id SILVER_CAVE_ITEM_ROOMS
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 48, GOLBAT
-	db 46, GOLBAT
-	db 50, GOLBAT
+	db 48, DEMDEVIMON
+	db 46, DEMDEVIMON
+	db 50, DEMDEVIMON
 	db 46, MUSHROOMONECT
 	db 48, MUSHROOMONECT
 	db 50, MUSHROOMONECT
 	db 52, MUSHROOMONECT
 	; day
-	db 48, GOLBAT
-	db 46, GOLBAT
-	db 50, GOLBAT
+	db 48, DEMDEVIMON
+	db 46, DEMDEVIMON
+	db 50, DEMDEVIMON
 	db 46, MUSHROOMONECT
 	db 48, MUSHROOMONECT
 	db 50, MUSHROOMONECT
 	db 52, MUSHROOMONECT
 	; nite
 	db 45, MISDREAVUS
-	db 48, GOLBAT
-	db 50, GOLBAT
+	db 48, DEMDEVIMON
+	db 50, DEMDEVIMON
 	db 46, MUSHROOMONECT
 	db 48, MUSHROOMONECT
 	db 50, MUSHROOMONECT
@@ -1171,24 +1171,24 @@ JohtoGrassWildMons:
 	db 25, GRAVELER
 	db 25, URSARING
 	db 20, TEDDIURSA
-	db 23, GOLBAT
-	db 23, GOLBAT
+	db 23, DEMDEVIMON
+	db 23, DEMDEVIMON
 	; day
 	db 23, GEODUDE
 	db 23, PAGUMON
 	db 25, GRAVELER
 	db 25, URSARING
 	db 30, URSARING
-	db 23, GOLBAT
-	db 23, GOLBAT
+	db 23, DEMDEVIMON
+	db 23, DEMDEVIMON
 	; nite
 	db 23, GEODUDE
 	db 23, PAGUMON
 	db 25, GRAVELER
 	db 20, WOBBUFFET
 	db 25, WOBBUFFET
-	db 23, GOLBAT
-	db 23, GOLBAT
+	db 23, DEMDEVIMON
+	db 23, DEMDEVIMON
 
 	map_id ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1509,10 +1509,10 @@ JohtoGrassWildMons:
 	db 13, TSUNOMON
 	db 14, PAGUMON
 	db 15, RATICATE
-	db 16, GOLBAT
+	db 16, DEMDEVIMON
 	db 15, MARILL
-	db 16, GOLBAT
-	db 16, GOLBAT
+	db 16, DEMDEVIMON
+	db 16, DEMDEVIMON
 
 	map_id ROUTE_43
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1643,10 +1643,10 @@ JohtoGrassWildMons:
 	; nite
 	db 41, TANGELA
 	db 42, POLIWHIRL
-	db 42, GOLBAT
+	db 42, DEMDEVIMON
 	db 44, POLIWHIRL
-	db 40, GOLBAT
-	db 44, GOLBAT
-	db 44, GOLBAT
+	db 40, DEMDEVIMON
+	db 44, DEMDEVIMON
+	db 44, DEMDEVIMON
 
 	db -1 ; end
