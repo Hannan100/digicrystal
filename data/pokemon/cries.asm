@@ -221,8 +221,8 @@ PokemonCries::
 	mon_cry CRY_DUNSPARCE,   $290,  $0a8 ; SHUCKLE
 	mon_cry CRY_AMPHAROS,    $035,  $0e0 ; HERACROSS
 	mon_cry CRY_WOOPER,      $053,  $0af ; SNEASEL
-	mon_cry CRY_TEDDIURSA,   $7a2,  $06e ; TEDDIURSA
-	mon_cry CRY_TEDDIURSA,   $640,  $0d8 ; URSARING
+	mon_cry CRY_IMPMON,   $7a2,  $06e ; IMPMON
+	mon_cry CRY_IMPMON,   $640,  $0d8 ; URSARING
 	mon_cry CRY_SLUGMA,     -$1d8,  $140 ; SLUGMA
 	mon_cry CRY_MAGCARGO,   -$20d,  $1c0 ; MAGCARGO
 	mon_cry CRY_KOROMON,   $1fe,  $140 ; SWINUB
@@ -230,7 +230,7 @@ PokemonCries::
 	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; CORSOLA
 	mon_cry CRY_SUNFLORA,    $00d,  $100 ; REMORAID
 	mon_cry CRY_BUKAMON,    $000,  $180 ; OCTILLERY
-	mon_cry CRY_TEDDIURSA,   $002,  $06a ; DELIBIRD
+	mon_cry CRY_IMPMON,   $002,  $06a ; DELIBIRD
 	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; MANTINE
 	mon_cry CRY_AMPHAROS,    $8a9,  $180 ; SKARMORY
 	mon_cry CRY_KOROMON,   $039,  $140 ; HOUNDOUR
@@ -245,7 +245,7 @@ PokemonCries::
 	mon_cry CRY_SLUGMA,      $000,  $100 ; HITMONTOP
 	mon_cry CRY_MARILL,      $068,  $100 ; SMOOCHUM
 	mon_cry CRY_SUNFLORA,   -$2d8,  $0b4 ; ELEKID
-	mon_cry CRY_TEDDIURSA,   $176,  $03a ; MAGBY
+	mon_cry CRY_IMPMON,   $176,  $03a ; MAGBY
 	mon_cry CRY_GLIGAR,     -$1cd,  $1a0 ; MILTANK
 	mon_cry CRY_SLOWKING,    $293,  $140 ; BLISSEY
 	mon_cry CRY_RAIKOU,      $22e,  $120 ; RAIKOU
@@ -477,8 +477,8 @@ PokemonCries::
 	mon_cry CRY_DUNSPARCE,   656,  168 ; SHUCKLE
 	mon_cry CRY_AMPHAROS,     53,  224 ; HERACROSS
 	mon_cry CRY_WOOPER,       83,  175 ; SNEASEL
-	mon_cry CRY_TEDDIURSA,  1954,  110 ; TEDDIURSA
-	mon_cry CRY_TEDDIURSA,  1600,  216 ; URSARING
+	mon_cry CRY_IMPMON,  1954,  110 ; IMPMON
+	mon_cry CRY_IMPMON,  1600,  216 ; URSARING
 	mon_cry CRY_SLUGMA,     -472,  320 ; SLUGMA
 	mon_cry CRY_MAGCARGO,   -525,  448 ; MAGCARGO
 	mon_cry CRY_KOROMON,   510,  320 ; SWINUB
@@ -486,7 +486,7 @@ PokemonCries::
 	mon_cry CRY_MAGCARGO,    161,  232 ; CORSOLA
 	mon_cry CRY_SUNFLORA,     13,  256 ; REMORAID
 	mon_cry CRY_BUKAMON,      0,  384 ; OCTILLERY
-	mon_cry CRY_TEDDIURSA,     2,  106 ; DELIBIRD
+	mon_cry CRY_IMPMON,     2,  106 ; DELIBIRD
 	mon_cry CRY_MANTINE,    -190,  240 ; MANTINE
 	mon_cry CRY_AMPHAROS,   2217,  384 ; SKARMORY
 	mon_cry CRY_KOROMON,    57,  320 ; HOUNDOUR
@@ -501,7 +501,7 @@ PokemonCries::
 	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP
 	mon_cry CRY_MARILL,      104,  256 ; SMOOCHUM
 	mon_cry CRY_SUNFLORA,   -728,  180 ; ELEKID
-	mon_cry CRY_TEDDIURSA,   374,   58 ; MAGBY
+	mon_cry CRY_IMPMON,   374,   58 ; MAGBY
 	mon_cry CRY_GLIGAR,     -461,  416 ; MILTANK
 	mon_cry CRY_SLOWKING,    659,  320 ; BLISSEY
 	mon_cry CRY_RAIKOU,      558,  288 ; RAIKOU

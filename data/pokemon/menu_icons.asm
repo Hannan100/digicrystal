@@ -216,7 +216,7 @@ MonMenuIcons:
 	db ICON_BUG         ; SHUCKLE
 	db ICON_BUG         ; HERACROSS
 	db ICON_FOX         ; SNEASEL
-	db ICON_MONSTER     ; TEDDIURSA
+	db ICON_MONSTER     ; IMPMON
 	db ICON_MONSTER     ; URSARING
 	db ICON_BLOB        ; SLUGMA
 	db ICON_BLOB        ; MAGCARGO

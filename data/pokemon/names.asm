@@ -214,7 +214,7 @@ PokemonNames::
 	db "SHUCKLE@@@"
 	db "HERACROSS@"
 	db "SNEASEL@@@"
-	db "TEDDIURSA@"
+	db "IMPMON@"
 	db "URSARING@@"
 	db "SLUGMA@@@@"
 	db "MAGCARGO@@"

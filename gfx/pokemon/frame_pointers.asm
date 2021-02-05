@@ -214,7 +214,7 @@ FramesPointers:
 	dw ShuckleFrames
 	dw HeracrossFrames
 	dw SneaselFrames
-	dw TeddiursaFrames
+	dw ImpmonFrames
 	dw UrsaringFrames
 	dw SlugmaFrames
 	dw MagcargoFrames

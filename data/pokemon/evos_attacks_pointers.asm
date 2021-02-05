@@ -216,7 +216,7 @@ EvosAttacksPointers::
 	dw ShuckleEvosAttacks
 	dw HeracrossEvosAttacks
 	dw SneaselEvosAttacks
-	dw TeddiursaEvosAttacks
+	dw ImpmonEvosAttacks
 	dw UrsaringEvosAttacks
 	dw SlugmaEvosAttacks
 	dw MagcargoEvosAttacks

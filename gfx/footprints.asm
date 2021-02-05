@@ -485,7 +485,7 @@ INCBIN "gfx/footprints/scizor.1bpp",     footprint_top
 INCBIN "gfx/footprints/shuckle.1bpp",    footprint_top
 INCBIN "gfx/footprints/heracross.1bpp",  footprint_top
 INCBIN "gfx/footprints/sneasel.1bpp",    footprint_top
-INCBIN "gfx/footprints/teddiursa.1bpp",  footprint_top
+INCBIN "gfx/footprints/impmon.1bpp",  footprint_top
 ; 209-216 bottom halves
 INCBIN "gfx/footprints/snubbull.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/granbull.1bpp",   footprint_bottom
@@ -494,7 +494,7 @@ INCBIN "gfx/footprints/scizor.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/shuckle.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/heracross.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/sneasel.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/teddiursa.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/impmon.1bpp",  footprint_bottom
 ; 217-224 top halves
 INCBIN "gfx/footprints/ursaring.1bpp",   footprint_top
 INCBIN "gfx/footprints/slugma.1bpp",     footprint_top

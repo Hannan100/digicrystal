@@ -214,7 +214,7 @@ AnimationIdlePointers:
 	dw ShuckleAnimationIdle
 	dw HeracrossAnimationIdle
 	dw SneaselAnimationIdle
-	dw TeddiursaAnimationIdle
+	dw ImpmonAnimationIdle
 	dw UrsaringAnimationIdle
 	dw SlugmaAnimationIdle
 	dw MagcargoAnimationIdle

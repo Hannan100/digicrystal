@@ -221,7 +221,7 @@ AlphabeticalPokedexOrder:
 	db SWINUB
 	db TANGELA
 	db TAUROS
-	db TEDDIURSA
+	db IMPMON
 	db TENTACOOL
 	db TENTACRUEL
 	db DEMIVEEMON

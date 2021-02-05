@@ -214,7 +214,7 @@ AnimationPointers:
 	dw ShuckleAnimation
 	dw HeracrossAnimation
 	dw SneaselAnimation
-	dw TeddiursaAnimation
+	dw ImpmonAnimation
 	dw UrsaringAnimation
 	dw SlugmaAnimation
 	dw MagcargoAnimation

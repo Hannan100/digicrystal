@@ -2890,7 +2890,7 @@ SneaselEvosAttacks:
 	db 65, METAL_CLAW
 	db 0 ; no more level-up moves
 
-TeddiursaEvosAttacks:
+ImpmonEvosAttacks:
 	db EVOLVE_LEVEL, 30, URSARING
 	db 0 ; no more evolutions
 	db 1, SCRATCH

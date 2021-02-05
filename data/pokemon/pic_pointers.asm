@@ -435,8 +435,8 @@ PokemonPicPointers::
 	dba_pic HeracrossBackpic
 	dba_pic SneaselFrontpic
 	dba_pic SneaselBackpic
-	dba_pic TeddiursaFrontpic
-	dba_pic TeddiursaBackpic
+	dba_pic ImpmonFrontpic
+	dba_pic ImpmonBackpic
 	dba_pic UrsaringFrontpic
 	dba_pic UrsaringBackpic
 	dba_pic SlugmaFrontpic

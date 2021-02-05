@@ -193,7 +193,7 @@ NewPokedexOrder:
 	db DELIBIRD
 	db SWINUB
 	db PILOSWINE
-	db TEDDIURSA
+	db IMPMON
 	db URSARING
 	db PHANPY
 	db DONPHAN

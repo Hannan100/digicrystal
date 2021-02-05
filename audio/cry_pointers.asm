@@ -59,7 +59,7 @@ Cries:
 	dba Cry_Mantine
 	dba Cry_Typhlosion
 	dba Cry_Veedramon
-	dba Cry_Teddiursa
+	dba Cry_Impmon
 	dba Cry_Sunflora
 	dba Cry_Ampharos
 	dba Cry_Magcargo

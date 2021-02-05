@@ -71,18 +71,18 @@ PokefanmRexAfterBattleText:
 	done
 
 PokefanmAllanSeenText:
-	text "My TEDDIURSA is"
+	text "My IMPMON is"
 	line "the cutest in the"
 	cont "world."
 	done
 
 PokefanmAllanBeatenText:
-	text "My TEDDIURSA!"
+	text "My IMPMON!"
 	done
 
 PokefanmAllanAfterBattleText:
 	text "Look how adorable"
-	line "my TEDDIURSA acts!"
+	line "my IMPMON acts!"
 
 	para "Isn't it cute"
 	line "enough to make"

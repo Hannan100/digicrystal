@@ -1143,7 +1143,7 @@ JohtoGrassWildMons:
 	db 2, PAGUMON
 	db 2, GEODUDE
 	db 4, GEODUDE
-	db 2, TEDDIURSA
+	db 2, IMPMON
 	db 4, PAGUMON
 	db 4, DUNSPARCE
 	; day
@@ -1170,7 +1170,7 @@ JohtoGrassWildMons:
 	db 23, PAGUMON
 	db 25, GRAVELER
 	db 25, URSARING
-	db 20, TEDDIURSA
+	db 20, IMPMON
 	db 23, DEMDEVIMON
 	db 23, DEMDEVIMON
 	; day

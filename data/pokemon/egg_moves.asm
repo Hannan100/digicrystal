@@ -683,7 +683,7 @@ SneaselEggMoves:
 	db BITE
 	db -1 ; end
 
-TeddiursaEggMoves:
+ImpmonEggMoves:
 	db CRUNCH
 	db TAKE_DOWN
 	db SEISMIC_TOSS

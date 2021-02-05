@@ -3290,7 +3290,7 @@ PokefanMGroup:
 
 	; POKEFANM (14)
 	db "ALLAN@", TRAINERTYPE_ITEM
-	db 35, TEDDIURSA,  BERRY
+	db 35, IMPMON,  BERRY
 	db -1 ; end
 
 KimonoGirlGroup:
@@ -3365,14 +3365,14 @@ TwinsGroup:
 
 	; TWINS (7)
 	db "MEG & PEG@", TRAINERTYPE_NORMAL
-	db 31, TEDDIURSA
+	db 31, IMPMON
 	db 31, PHANPY
 	db -1 ; end
 
 	; TWINS (8)
 	db "MEG & PEG@", TRAINERTYPE_NORMAL
 	db 31, PHANPY
-	db 31, TEDDIURSA
+	db 31, IMPMON
 	db -1 ; end
 
 	; TWINS (9)

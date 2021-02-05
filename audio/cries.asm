@@ -146,11 +146,11 @@ Cry_Natu:
 	channel 8, Cry_Natu_Ch8
 >>>>>>> pret/master
 
-Cry_Teddiursa:
+Cry_Impmon:
 	channel_count 3
-	channel 5, Cry_Teddiursa_Ch5
-	channel 6, Cry_Teddiursa_Ch6
-	channel 8, Cry_Teddiursa_Ch8
+	channel 5, Cry_Impmon_Ch5
+	channel 6, Cry_Impmon_Ch6
+	channel 8, Cry_Impmon_Ch8
 
 Cry_Sunflora:
 	channel_count 3
@@ -780,7 +780,7 @@ Cry_Donphan_Ch8:
 	noise_note 16, 9, 2, 108
 	sound_ret
 
-Cry_Teddiursa_Ch5:
+Cry_Impmon_Ch5:
 Cry_Typhlosion_Ch5:
 	duty_cycle_pattern 0, 1, 0, 2
 .loop1:
@@ -803,7 +803,7 @@ Cry_Typhlosion_Ch5:
 	sound_loop 4, .loop5
 	sound_ret
 
-Cry_Teddiursa_Ch6:
+Cry_Impmon_Ch6:
 Cry_Typhlosion_Ch6:
 	duty_cycle_pattern 1, 3, 2, 0
 	square_note 8, 9, -1, 1856
@@ -890,7 +890,7 @@ Cry_Sunflora_Ch8:
 	noise_note 4, 8, 7, 4
 	sound_ret
 
-Cry_Teddiursa_Ch8:
+Cry_Impmon_Ch8:
 	noise_note 8, 10, 6, 58
 	noise_note 8, 10, 1, 90
 	sound_ret
