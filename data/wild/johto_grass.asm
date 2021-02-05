@@ -561,9 +561,9 @@ JohtoGrassWildMons:
 	db 6, MUSHROOMON
 	db 6, MUSHROOMON
 	; nite
-	db 5, ODDISH
+	db 5, GOBLIMON
 	db 5, KUNEMON
-	db 7, ODDISH
+	db 7, GOBLIMON
 	db 7, PSYDUCK
 	db 7,POROMON
 	db 6, MUSHROOMON

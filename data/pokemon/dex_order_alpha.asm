@@ -149,7 +149,7 @@ AlphabeticalPokedexOrder:
 	db NINETALES
 	db HAWKMON
 	db OCTILLERY
-	db ODDISH
+	db GOBLIMON
 	db OMANYTE
 	db OMASTAR
 	db ONIX

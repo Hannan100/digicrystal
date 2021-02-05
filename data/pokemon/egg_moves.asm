@@ -114,7 +114,7 @@ PagumonEggMoves:
 	db WHIRLWIND
 	db -1 ; end
 
-OddishEggMoves:
+GoblimonEggMoves:
 	db SWORDS_DANCE
 	db RAZOR_LEAF
 	db FLAIL

@@ -41,7 +41,7 @@ BitmasksPointers:
 	dw WigglytuffBitmasks
 	dw PagumonBitmasks
 	dw DemdevimonBitmasks
-	dw OddishBitmasks
+	dw GoblimonBitmasks
 	dw GloomBitmasks
 	dw VileplumeBitmasks
 	dw MushroomonBitmasks

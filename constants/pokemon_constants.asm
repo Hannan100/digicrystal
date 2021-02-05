@@ -61,7 +61,7 @@
 	const WIGGLYTUFF ; 28
 	const PAGUMON      ; 29
 	const DEMDEVIMON     ; 2a
-	const ODDISH     ; 2b
+	const GOBLIMON     ; 2b
 	const GLOOM      ; 2c
 	const VILEPLUME  ; 2d
 	const MUSHROOMON      ; 2e

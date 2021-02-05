@@ -83,7 +83,7 @@ NewPokedexOrder:
 	db SLOWPOKE
 	db SLOWBRO
 	db SLOWKING
-	db ODDISH
+	db GOBLIMON
 	db GLOOM
 	db VILEPLUME
 	db BELLOSSOM

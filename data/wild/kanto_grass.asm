@@ -697,8 +697,8 @@ KantoGrassWildMons:
 	db 14, BUTTERFREE
 	; nite
 	db 10, KUNEMON
-	db 10, ODDISH
-	db 12, ODDISH
+	db 10, GOBLIMON
+	db 12, GOBLIMON
 	db 12, ABRA
 	db 10, BELLSPROUT
 	db 14, GLOOM
@@ -723,7 +723,7 @@ KantoGrassWildMons:
 	db 14, BUTTERFREE
 	db 14, BUTTERFREE
 	; nite
-	db 10, ODDISH
+	db 10, GOBLIMON
 	db 10, POROMON
 	db 10, KUNEMON
 	db 12, HAWKMON

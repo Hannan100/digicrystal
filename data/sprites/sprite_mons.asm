@@ -5,7 +5,7 @@ SpriteMons:
 	db GROWLITHE
 	db MOTIMON
 	db SHELLDER
-	db ODDISH
+	db GOBLIMON
 	db GENGAR
 	db PAGUMON
 	db MAGIKARP

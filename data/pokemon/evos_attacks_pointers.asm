@@ -43,7 +43,7 @@ EvosAttacksPointers::
 	dw WigglytuffEvosAttacks
 	dw PagumonEvosAttacks
 	dw DemdevimonEvosAttacks
-	dw OddishEvosAttacks
+	dw GoblimonEvosAttacks
 	dw GloomEvosAttacks
 	dw VileplumeEvosAttacks
 	dw MushroomonEvosAttacks

@@ -43,7 +43,7 @@ KantoMonSpecials:
 	db  50 ; WIGGLYTUFF
 	db  40 ; PAGUMON
 	db  75 ; DEMDEVIMON
-	db  75 ; ODDISH
+	db  75 ; GOBLIMON
 	db  85 ; GLOOM
 	db 100 ; VILEPLUME
 	db  55 ; MUSHROOMON

@@ -10,7 +10,7 @@
 	const CRY_GRIMER
 	const CRY_VOLTORB
 	const CRY_MUK
-	const CRY_ODDISH
+	const CRY_GOBLIMON
 	const CRY_RAICHU
 	const CRY_NIDOQUEEN
 	const CRY_DIGLETT

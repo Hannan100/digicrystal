@@ -41,7 +41,7 @@ FramesPointers:
 	dw WigglytuffFrames
 	dw PagumonFrames
 	dw DemdevimonFrames
-	dw OddishFrames
+	dw GoblimonFrames
 	dw GloomFrames
 	dw VileplumeFrames
 	dw MushroomonFrames

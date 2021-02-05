@@ -10,7 +10,7 @@ IconPointers:
 	dw BirdIcon
 	dw MonsterIcon
 	dw ClefairyIcon
-	dw OddishIcon
+	dw GoblimonIcon
 	dw BugIcon
 	dw GhostIcon
 	dw LaprasIcon

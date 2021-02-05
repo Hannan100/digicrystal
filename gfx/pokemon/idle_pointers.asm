@@ -41,7 +41,7 @@ AnimationIdlePointers:
 	dw WigglytuffAnimationIdle
 	dw PagumonAnimationIdle
 	dw DemdevimonAnimationIdle
-	dw OddishAnimationIdle
+	dw GoblimonAnimationIdle
 	dw GloomAnimationIdle
 	dw VileplumeAnimationIdle
 	dw MushroomonAnimationIdle

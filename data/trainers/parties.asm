@@ -417,7 +417,7 @@ YoungsterGroup:
 SchoolboyGroup:
 	; SCHOOLBOY (1)
 	db "JACK@", TRAINERTYPE_NORMAL
-	db 12, ODDISH
+	db 12, GOBLIMON
 	db 15, VOLTORB
 	db -1 ; end
 
@@ -456,7 +456,7 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (7)
 	db "DUDLEY@", TRAINERTYPE_NORMAL
-	db 35, ODDISH
+	db 35, GOBLIMON
 	db -1 ; end
 
 	; SCHOOLBOY (8)
@@ -492,7 +492,7 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (13)
 	db "JACK@", TRAINERTYPE_NORMAL
-	db 14, ODDISH
+	db 14, GOBLIMON
 	db 17, VOLTORB
 	db -1 ; end
 
@@ -708,7 +708,7 @@ LassGroup:
 
 	; LASS (4)
 	db "KRISE@", TRAINERTYPE_NORMAL
-	db 12, ODDISH
+	db 12, GOBLIMON
 	db 15, CUBONE
 	db -1 ; end
 
@@ -3477,7 +3477,7 @@ GruntFGroup:
 	; GRUNTF (4)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 21, GAZIMON
-	db 23, ODDISH
+	db 23, GOBLIMON
 	db 21, GAZIMON
 	db 24, GLOOM
 	db -1 ; end

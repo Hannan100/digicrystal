@@ -1114,11 +1114,11 @@ Cry_Muk:
 	channel 6, Cry_Muk_Ch6
 	channel 8, Cry_Muk_Ch8
 
-Cry_Oddish:
+Cry_Goblimon:
 	channel_count 3
-	channel 5, Cry_Oddish_Ch5
-	channel 6, Cry_Oddish_Ch6
-	channel 8, Cry_Oddish_Ch8
+	channel 5, Cry_Goblimon_Ch5
+	channel 6, Cry_Goblimon_Ch6
+	channel 8, Cry_Goblimon_Ch8
 
 Cry_Raichu:
 	channel_count 3
@@ -1839,7 +1839,7 @@ Cry_Nidoqueen_Ch8:
 	noise_note 8, 9, 1, 60
 	sound_ret
 
-Cry_Oddish_Ch5:
+Cry_Goblimon_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
 	square_note 15, 15, 6, 1381
 	square_note 10, 14, 4, 1404
@@ -1847,7 +1847,7 @@ Cry_Oddish_Ch5:
 	square_note 15, 11, 2, 1340
 	sound_ret
 
-Cry_Oddish_Ch6:
+Cry_Goblimon_Ch6:
 	duty_cycle_pattern 1, 1, 2, 2
 	square_note 14, 13, 6, 1283
 	square_note 9, 11, 4, 1307
@@ -1855,7 +1855,7 @@ Cry_Oddish_Ch6:
 	square_note 15, 10, 2, 1243
 	sound_ret
 
-Cry_Oddish_Ch8:
+Cry_Goblimon_Ch8:
 	noise_note 12, 14, 6, 76
 	noise_note 11, 13, 7, 92
 	noise_note 15, 12, 2, 76

@@ -41,7 +41,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw PagumonEggMoves
 	dw NoEggMoves
-	dw OddishEggMoves
+	dw GoblimonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw MushroomonEggMoves
