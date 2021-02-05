@@ -64,8 +64,8 @@
 	const ODDISH     ; 2b
 	const GLOOM      ; 2c
 	const VILEPLUME  ; 2d
-	const PARAS      ; 2e
-	const PARASECT   ; 2f
+	const MUSHROOMON      ; 2e
+	const MUSHROOMONECT   ; 2f
 	const VENONAT    ; 30
 	const VENOMOTH   ; 31
 	const DIGLETT    ; 32

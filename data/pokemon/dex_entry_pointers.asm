@@ -45,8 +45,8 @@ PokedexDataPointerTable:
 	dw OddishPokedexEntry
 	dw GloomPokedexEntry
 	dw VileplumePokedexEntry
-	dw ParasPokedexEntry
-	dw ParasectPokedexEntry
+	dw MushroomonPokedexEntry
+	dw MushroomonectPokedexEntry
 	dw VenonatPokedexEntry
 	dw VenomothPokedexEntry
 	dw DiglettPokedexEntry

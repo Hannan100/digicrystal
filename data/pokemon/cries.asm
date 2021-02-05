@@ -51,8 +51,8 @@ PokemonCries::
 	mon_cry CRY_ODDISH,      $0dd,  $081 ; ODDISH
 	mon_cry CRY_ODDISH,      $0aa,  $0c0 ; GLOOM
 	mon_cry CRY_VILEPLUME,   $022,  $17f ; VILEPLUME
-	mon_cry CRY_PARAS,       $020,  $160 ; PARAS
-	mon_cry CRY_PARAS,       $042,  $17f ; PARASECT
+	mon_cry CRY_MUSHROOMON,       $020,  $160 ; MUSHROOMON
+	mon_cry CRY_MUSHROOMON,       $042,  $17f ; MUSHROOMONECT
 	mon_cry CRY_VENONAT,     $044,  $0c0 ; VENONAT
 	mon_cry CRY_VENONAT,     $029,  $100 ; VENOMOTH
 	mon_cry CRY_DIGLETT,     $0aa,  $081 ; DIGLETT
@@ -125,8 +125,8 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,    $03c,  $081 ; SEADRA
 	mon_cry CRY_MINOMON,    $080,  $0c0 ; GOLDEEN
 	mon_cry CRY_MINOMON,    $010,  $17f ; SEAKING
-	mon_cry CRY_PARAS,       $002,  $0a0 ; STARYU
-	mon_cry CRY_PARAS,       $000,  $100 ; STARMIE
+	mon_cry CRY_MUSHROOMON,       $002,  $0a0 ; STARYU
+	mon_cry CRY_MUSHROOMON,       $000,  $100 ; STARMIE
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; MR__MIME
 	mon_cry CRY_MINOMON,    $000,  $100 ; SCYTHER
 	mon_cry CRY_DROWZEE,     $0ff,  $17f ; JYNX
@@ -155,8 +155,8 @@ PokemonCries::
 	mon_cry CRY_NYOKOMON,   $060,  $0c0 ; DRATINI
 	mon_cry CRY_NYOKOMON,   $040,  $100 ; DRAGONAIR
 	mon_cry CRY_NYOKOMON,   $03c,  $140 ; DRAGONITE
-	mon_cry CRY_PARAS,       $099,  $17f ; MEWTWO
-	mon_cry CRY_PARAS,       $0ee,  $17f ; MEW
+	mon_cry CRY_MUSHROOMON,       $099,  $17f ; MEWTWO
+	mon_cry CRY_MUSHROOMON,       $0ee,  $17f ; MEW
 	mon_cry CRY_TANEMON,    -$010,  $0b0 ; TANEMON
 	mon_cry CRY_TANEMON,    -$022,  $120 ; PALMON
 	mon_cry CRY_TANEMON,    -$0b7,  $200 ; TOGEMON
@@ -307,8 +307,8 @@ PokemonCries::
 	mon_cry CRY_ODDISH,      221,  129 ; ODDISH
 	mon_cry CRY_ODDISH,      170,  192 ; GLOOM
 	mon_cry CRY_VILEPLUME,    34,  383 ; VILEPLUME
-	mon_cry CRY_PARAS,        32,  352 ; PARAS
-	mon_cry CRY_PARAS,        66,  383 ; PARASECT
+	mon_cry CRY_MUSHROOMON,        32,  352 ; MUSHROOMON
+	mon_cry CRY_MUSHROOMON,        66,  383 ; MUSHROOMONECT
 	mon_cry CRY_VENONAT,      68,  192 ; VENONAT
 	mon_cry CRY_VENONAT,      41,  256 ; VENOMOTH
 	mon_cry CRY_DIGLETT,     170,  129 ; DIGLETT
@@ -381,8 +381,8 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,     60,  129 ; SEADRA
 	mon_cry CRY_MINOMON,    128,  192 ; GOLDEEN
 	mon_cry CRY_MINOMON,     16,  383 ; SEAKING
-	mon_cry CRY_PARAS,         2,  160 ; STARYU
-	mon_cry CRY_PARAS,         0,  256 ; STARMIE
+	mon_cry CRY_MUSHROOMON,         2,  160 ; STARYU
+	mon_cry CRY_MUSHROOMON,         0,  256 ; STARMIE
 	mon_cry CRY_KRABBY,        8,  192 ; MR__MIME
 	mon_cry CRY_MINOMON,      0,  256 ; SCYTHER
 	mon_cry CRY_DROWZEE,     255,  383 ; JYNX
@@ -411,8 +411,8 @@ PokemonCries::
 	mon_cry CRY_NYOKOMON,    96,  192 ; DRATINI
 	mon_cry CRY_NYOKOMON,    64,  256 ; DRAGONAIR
 	mon_cry CRY_NYOKOMON,    60,  320 ; DRAGONITE
-	mon_cry CRY_PARAS,       153,  383 ; MEWTWO
-	mon_cry CRY_PARAS,       238,  383 ; MEW
+	mon_cry CRY_MUSHROOMON,       153,  383 ; MEWTWO
+	mon_cry CRY_MUSHROOMON,       238,  383 ; MEW
 	mon_cry CRY_TANEMON,   -16,  176 ; TANEMON
 	mon_cry CRY_TANEMON,   -34,  288 ; BAYLEEF
 	mon_cry CRY_TANEMON,  -183,  512 ; MEGANIUM

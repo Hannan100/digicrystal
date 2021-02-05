@@ -46,8 +46,8 @@ MonMenuIcons:
 	db ICON_ODDISH      ; ODDISH
 	db ICON_ODDISH      ; GLOOM
 	db ICON_ODDISH      ; VILEPLUME
-	db ICON_BUG         ; PARAS
-	db ICON_BUG         ; PARASECT
+	db ICON_BUG         ; MUSHROOMON
+	db ICON_BUG         ; MUSHROOMONECT
 	db ICON_CATERPILLAR ; VENONAT
 	db ICON_MOTH        ; VENOMOTH
 	db ICON_DIGLETT     ; DIGLETT

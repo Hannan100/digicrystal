@@ -467,8 +467,8 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (9)
 	db "BILLY@", TRAINERTYPE_NORMAL
-	db 27, PARAS
-	db 27, PARAS
+	db 27, MUSHROOMON
+	db 27, MUSHROOMON
 	db 27, POLIWHIRL
 	db 35, DITTO
 	db -1 ; end
@@ -733,9 +733,9 @@ LassGroup:
 
 	; LASS (8)
 	db "SHANNON@", TRAINERTYPE_NORMAL
-	db 29, PARAS
-	db 29, PARAS
-	db 32, PARASECT
+	db 29, MUSHROOMON
+	db 29, MUSHROOMON
+	db 32, MUSHROOMONECT
 	db -1 ; end
 
 	; LASS (9)
@@ -856,7 +856,7 @@ CooltrainerMGroup:
 
 	; COOLTRAINERM (9)
 	db "JAKE@", TRAINERTYPE_MOVES
-	db 33, PARASECT,   LEECH_LIFE, SPORE, SLASH, SWORDS_DANCE
+	db 33, MUSHROOMONECT,   LEECH_LIFE, SPORE, SLASH, SWORDS_DANCE
 	db 35, GOLDUCK,    CONFUSION, SCREECH, PSYCH_UP, FURY_SWIPES
 	db -1 ; end
 
@@ -1136,9 +1136,9 @@ BeautyGroup:
 
 	; BEAUTY (14)
 	db "JULIA@", TRAINERTYPE_NORMAL
-	db 32, PARAS
+	db 32, MUSHROOMON
 	db 32, EXEGGCUTE
-	db 35, PARASECT
+	db 35, MUSHROOMONECT
 	db -1 ; end
 
 	; BEAUTY (15)
@@ -1536,7 +1536,7 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (7)
 	db "JOSH@", TRAINERTYPE_NORMAL
-	db 13, PARAS
+	db 13, MUSHROOMON
 	db -1 ; end
 
 	; BUG_CATCHER (8)
@@ -1610,7 +1610,7 @@ BugCatcherGroup:
 	; BUG_CATCHER (19)
 	db "WAYNE@", TRAINERTYPE_NORMAL
 	db  8, GUMMYMON
-	db 10, PARAS
+	db 10, MUSHROOMON
 	db -1 ; end
 
 FisherGroup:

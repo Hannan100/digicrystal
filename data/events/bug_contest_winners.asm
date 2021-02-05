@@ -75,5 +75,5 @@ BugContestant_YoungsterSamuel:
 BugContestant_SchoolboyKipp:
 	db SCHOOLBOY, KIPP
 	dbw VENONAT,    267
-	dbw PARAS,      254
+	dbw MUSHROOMON,      254
 	dbw TENTOMON,     259

@@ -44,8 +44,8 @@ FramesPointers:
 	dw OddishFrames
 	dw GloomFrames
 	dw VileplumeFrames
-	dw ParasFrames
-	dw ParasectFrames
+	dw MushroomonFrames
+	dw MushroomonectFrames
 	dw VenonatFrames
 	dw VenomothFrames
 	dw DiglettFrames

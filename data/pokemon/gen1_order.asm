@@ -44,7 +44,7 @@ Pokered_MonIndices:
 	db HITMONLEE
 	db HITMONCHAN
 	db ARBOK
-	db PARASECT
+	db MUSHROOMONECT
 	db PSYDUCK
 	db DROWZEE
 	db GOLEM
@@ -107,7 +107,7 @@ Pokered_MonIndices:
 	db MACHOP
 	db PAGUMON
 	db EKANS
-	db PARAS
+	db MUSHROOMON
 	db POLIWHIRL
 	db POLIWRATH
 	db MOTIMON

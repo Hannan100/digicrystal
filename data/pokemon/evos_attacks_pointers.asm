@@ -46,8 +46,8 @@ EvosAttacksPointers::
 	dw OddishEvosAttacks
 	dw GloomEvosAttacks
 	dw VileplumeEvosAttacks
-	dw ParasEvosAttacks
-	dw ParasectEvosAttacks
+	dw MushroomonEvosAttacks
+	dw MushroomonectEvosAttacks
 	dw VenonatEvosAttacks
 	dw VenomothEvosAttacks
 	dw DiglettEvosAttacks

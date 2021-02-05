@@ -550,24 +550,24 @@ JohtoGrassWildMons:
 	db 7, WORMMON
 	db 7, TENTOMON
 	db 7, PIDGEY
-	db 6, PARAS
-	db 6, PARAS
+	db 6, MUSHROOMON
+	db 6, MUSHROOMON
 	; day
 	db 5, MINOMON
 	db 5, MOTIMON
 	db 7, WORMMON
 	db 7, TENTOMON
 	db 7, PIDGEY
-	db 6, PARAS
-	db 6, PARAS
+	db 6, MUSHROOMON
+	db 6, MUSHROOMON
 	; nite
 	db 5, ODDISH
 	db 5, VENONAT
 	db 7, ODDISH
 	db 7, PSYDUCK
 	db 7,POROMON
-	db 6, PARAS
-	db 6, PARAS
+	db 6, MUSHROOMON
+	db 6, MUSHROOMON
 
 	map_id MOUNT_MORTAR_1F_OUTSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1061,24 +1061,24 @@ JohtoGrassWildMons:
 	db 48, GOLBAT
 	db 48, MACHOKE
 	db 47, URSARING
-	db 46, PARASECT
-	db 48, PARASECT
+	db 46, MUSHROOMONECT
+	db 48, MUSHROOMONECT
 	db 15, LARVITAR
 	db 20, LARVITAR
 	; day
 	db 48, GOLBAT
 	db 48, MACHOKE
 	db 47, URSARING
-	db 46, PARASECT
-	db 48, PARASECT
+	db 46, MUSHROOMONECT
+	db 48, MUSHROOMONECT
 	db 15, LARVITAR
 	db 20, LARVITAR
 	; nite
 	db 48, GOLBAT
 	db 48, GOLDUCK
 	db 46, GOLBAT
-	db 46, PARASECT
-	db 48, PARASECT
+	db 46, MUSHROOMONECT
+	db 48, MUSHROOMONECT
 	db 45, MISDREAVUS
 	db 45, MISDREAVUS
 
@@ -1115,26 +1115,26 @@ JohtoGrassWildMons:
 	db 48, GOLBAT
 	db 46, GOLBAT
 	db 50, GOLBAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 50, PARASECT
-	db 52, PARASECT
+	db 46, MUSHROOMONECT
+	db 48, MUSHROOMONECT
+	db 50, MUSHROOMONECT
+	db 52, MUSHROOMONECT
 	; day
 	db 48, GOLBAT
 	db 46, GOLBAT
 	db 50, GOLBAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 50, PARASECT
-	db 52, PARASECT
+	db 46, MUSHROOMONECT
+	db 48, MUSHROOMONECT
+	db 50, MUSHROOMONECT
+	db 52, MUSHROOMONECT
 	; nite
 	db 45, MISDREAVUS
 	db 48, GOLBAT
 	db 50, GOLBAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 50, PARASECT
-	db 52, PARASECT
+	db 46, MUSHROOMONECT
+	db 48, MUSHROOMONECT
+	db 50, MUSHROOMONECT
+	db 52, MUSHROOMONECT
 
 	map_id DARK_CAVE_VIOLET_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite

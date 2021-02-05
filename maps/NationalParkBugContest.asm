@@ -122,7 +122,7 @@ BugCatchingContestant1AText:
 	done
 
 BugCatchingContestant2AText:
-	text "ED: My PARASECT"
+	text "ED: My MUSHROOMONECT"
 	line "puts #MON to"
 	cont "sleep with SPORE."
 	done

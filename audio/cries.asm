@@ -1253,11 +1253,11 @@ Cry_Squirtle:
 	channel 6, Cry_Squirtle_Ch6
 	channel 8, Cry_Squirtle_Ch8
 
-Cry_Paras:
+Cry_Mushroomon:
 	channel_count 3
-	channel 5, Cry_Paras_Ch5
-	channel 6, Cry_Paras_Ch6
-	channel 8, Cry_Paras_Ch8
+	channel 5, Cry_Mushroomon_Ch5
+	channel 6, Cry_Mushroomon_Ch6
+	channel 8, Cry_Mushroomon_Ch8
 
 Cry_Growlithe:
 	channel_count 3
@@ -2047,7 +2047,7 @@ Cry_Pidgeotto_Ch8:
 	noise_note 8, 13, 1, 44
 	sound_ret
 
-Cry_Paras_Ch5:
+Cry_Mushroomon_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
 	square_note 6, 15, 2, 1536
 	square_note 6, 14, 2, 1600
@@ -2059,7 +2059,7 @@ Cry_Paras_Ch5:
 	square_note 8, 10, 1, 1984
 	sound_ret
 
-Cry_Paras_Ch6:
+Cry_Mushroomon_Ch6:
 	duty_cycle_pattern 0, 1, 0, 1
 	square_note 3, 0, 8, 1
 	square_note 6, 12, 2, 1473
@@ -2072,7 +2072,7 @@ Cry_Paras_Ch6:
 	square_note 8, 8, 1, 1921
 	sound_ret
 
-Cry_Paras_Ch8:
+Cry_Mushroomon_Ch8:
 	noise_note 6, 0, 8, 1
 	noise_note 5, 14, 2, 92
 	noise_note 5, 12, 2, 76

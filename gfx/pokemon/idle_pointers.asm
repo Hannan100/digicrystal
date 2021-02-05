@@ -44,8 +44,8 @@ AnimationIdlePointers:
 	dw OddishAnimationIdle
 	dw GloomAnimationIdle
 	dw VileplumeAnimationIdle
-	dw ParasAnimationIdle
-	dw ParasectAnimationIdle
+	dw MushroomonAnimationIdle
+	dw MushroomonectAnimationIdle
 	dw VenonatAnimationIdle
 	dw VenomothAnimationIdle
 	dw DiglettAnimationIdle

@@ -29,7 +29,7 @@ Cries:
 	dba Cry_Lapras
 	dba Cry_Wormmon
 	dba Cry_Squirtle
-	dba Cry_Paras
+	dba Cry_Mushroomon
 	dba Cry_Growlithe
 	dba Cry_Krabby
 	dba Cry_Psyduck

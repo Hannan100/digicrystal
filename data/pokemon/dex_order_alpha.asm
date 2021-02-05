@@ -153,8 +153,8 @@ AlphabeticalPokedexOrder:
 	db OMANYTE
 	db OMASTAR
 	db ONIX
-	db PARAS
-	db PARASECT
+	db MUSHROOMON
+	db MUSHROOMONECT
 	db PERSIAN
 	db PHANPY
 	db PICHU
