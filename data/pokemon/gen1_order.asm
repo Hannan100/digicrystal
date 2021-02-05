@@ -226,7 +226,7 @@ Pokered_MonIndices:
 	db SUDOWOODO
 	db POLITOED
 	db YOKOMON
-	db SKIPLOOM
+	db BIYOMON
 	db JUMPLUFF
 	db AIPOM
 	db SUNKERN

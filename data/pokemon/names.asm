@@ -186,7 +186,7 @@ PokemonNames::
 	db "SUDOWOODO@" ; !Woodmon
 	db "POLITOED@@" ; !Cherrymon
 	db "YOKOMON@@@@" ; !Puppetmon
-	db "SKIPLOOM@@"
+	db "BIYOMON@@"
 	db "JUMPLUFF@@"
 	db "AIPOM@@@@@" ; !Sethmon
 	db "SUNKERN@@@" ; !Yasyamon

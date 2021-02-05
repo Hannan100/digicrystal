@@ -197,7 +197,7 @@ AlphabeticalPokedexOrder:
 	db SHELLDER
 	db SHUCKLE
 	db SKARMORY
-	db SKIPLOOM
+	db BIYOMON
 	db SLOWBRO
 	db SLOWKING
 	db SLOWPOKE

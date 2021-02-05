@@ -186,7 +186,7 @@ AnimationIdlePointers:
 	dw SudowoodoAnimationIdle
 	dw PolitoedAnimationIdle
 	dw YokomonAnimationIdle
-	dw SkiploomAnimationIdle
+	dw BiyomonAnimationIdle
 	dw JumpluffAnimationIdle
 	dw AipomAnimationIdle
 	dw SunkernAnimationIdle

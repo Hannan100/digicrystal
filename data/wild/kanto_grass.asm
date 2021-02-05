@@ -495,16 +495,16 @@ KantoGrassWildMons:
 	db 26, NIDORINA
 	db 28, PIDGEOTTO
 	db 28, YOKOMON
-	db 30, SKIPLOOM
-	db 30, SKIPLOOM
+	db 30, BIYOMON
+	db 30, BIYOMON
 	db 28, CHANSEY
 	; day
 	db 26, NIDORINO
 	db 26, NIDORINA
 	db 28, PIDGEOTTO
 	db 28, YOKOMON
-	db 30, SKIPLOOM
-	db 30, SKIPLOOM
+	db 30, BIYOMON
+	db 30, BIYOMON
 	db 28, CHANSEY
 	; nite
 	db 26, KUNEMON

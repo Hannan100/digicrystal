@@ -188,7 +188,7 @@ EvosAttacksPointers::
 	dw SudowoodoEvosAttacks
 	dw PolitoedEvosAttacks
 	dw YokomonEvosAttacks
-	dw SkiploomEvosAttacks
+	dw BiyomonEvosAttacks
 	dw JumpluffEvosAttacks
 	dw AipomEvosAttacks
 	dw SunkernEvosAttacks

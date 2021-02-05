@@ -2523,7 +2523,7 @@ PolitoedEvosAttacks:
 	db 0 ; no more level-up moves
 
 YokomonEvosAttacks:
-	db EVOLVE_LEVEL, 18, SKIPLOOM
+	db EVOLVE_LEVEL, 18, BIYOMON
 	db 0 ; no more evolutions
 	db 1, SPLASH
 	db 5, SYNTHESIS
@@ -2537,7 +2537,7 @@ YokomonEvosAttacks:
 	db 30, MEGA_DRAIN
 	db 0 ; no more level-up moves
 
-SkiploomEvosAttacks:
+BiyomonEvosAttacks:
 	db EVOLVE_LEVEL, 27, JUMPLUFF
 	db 0 ; no more evolutions
 	db 1, SPLASH
