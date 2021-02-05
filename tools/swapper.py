@@ -100,8 +100,13 @@ FILES_TO_MOVE = [
     "gfx/pokemon/" + OLD_NAME + "/front.png"
 ]
 
-shutil.copyfile(NEW_FRONT_SPRITE, FRONT_SPRITE_PATH)
-shutil.copyfile(NEW_BACK_SPRITE, BACK_SPRITE_PATH)
+if NEW_FRONT_SPRITE is not None:
+    shutil.copyfile(NEW_FRONT_SPRITE, FRONT_SPRITE_PATH)
+    if NEW_BACK_SPRITE is not None:
+        shutil.copyfile(NEW_BACK_SPRITE, BACK_SPRITE_PATH)
+    else:
+        shutil.copyfile(NEW_FRONT_SPRITE, BACK_SPRITE_PATH)
+
 
 for filename in FILES_TO_UPDATE:
     with open(filename, "r") as file:
