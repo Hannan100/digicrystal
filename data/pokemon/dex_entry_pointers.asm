@@ -3,7 +3,7 @@ PokedexDataPointerTable:
 	dw NyokomonPokedexEntry
 	dw PunimonPokedexEntry
 	dw BotamonPokedexEntry
-	dw CharmanderPokedexEntry
+	dw GuilmonPokedexEntry
 	dw CharmeleonPokedexEntry
 	dw CharizardPokedexEntry
 	dw SquirtlePokedexEntry

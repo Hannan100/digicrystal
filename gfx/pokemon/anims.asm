@@ -1,7 +1,7 @@
 NyokomonAnimation:  INCLUDE "gfx/pokemon/nyokomon/anim.asm"
 PunimonAnimation:    INCLUDE "gfx/pokemon/punimon/anim.asm"
 BotamonAnimation:   INCLUDE "gfx/pokemon/botamon/anim.asm"
-CharmanderAnimation: INCLUDE "gfx/pokemon/charmander/anim.asm"
+GuilmonAnimation: INCLUDE "gfx/pokemon/guilmon/anim.asm"
 CharmeleonAnimation: INCLUDE "gfx/pokemon/charmeleon/anim.asm"
 CharizardAnimation:  INCLUDE "gfx/pokemon/charizard/anim.asm"
 SquirtleAnimation:   INCLUDE "gfx/pokemon/squirtle/anim.asm"

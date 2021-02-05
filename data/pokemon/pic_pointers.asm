@@ -8,8 +8,8 @@ PokemonPicPointers::
 	dba_pic PunimonBackpic
 	dba_pic BotamonFrontpic
 	dba_pic BotamonBackpic
-	dba_pic CharmanderFrontpic
-	dba_pic CharmanderBackpic
+	dba_pic GuilmonFrontpic
+	dba_pic GuilmonBackpic
 	dba_pic CharmeleonFrontpic
 	dba_pic CharmeleonBackpic
 	dba_pic CharizardFrontpic

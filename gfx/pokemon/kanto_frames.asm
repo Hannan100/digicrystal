@@ -3,7 +3,7 @@ KantoFrames: ; used only for BANK(KantoFrames)
 NyokomonFrames:  INCLUDE "gfx/pokemon/nyokomon/frames.asm"
 PunimonFrames:    INCLUDE "gfx/pokemon/punimon/frames.asm"
 BotamonFrames:   INCLUDE "gfx/pokemon/botamon/frames.asm"
-CharmanderFrames: INCLUDE "gfx/pokemon/charmander/frames.asm"
+GuilmonFrames: INCLUDE "gfx/pokemon/guilmon/frames.asm"
 CharmeleonFrames: INCLUDE "gfx/pokemon/charmeleon/frames.asm"
 CharizardFrames:  INCLUDE "gfx/pokemon/charizard/frames.asm"
 SquirtleFrames:   INCLUDE "gfx/pokemon/squirtle/frames.asm"

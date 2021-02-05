@@ -1090,11 +1090,11 @@ Cry_Kangaskhan:
 	channel 6, Cry_Kangaskhan_Ch6
 	channel 8, Cry_Kangaskhan_Ch8
 
-Cry_Charmander:
+Cry_Guilmon:
 	channel_count 3
-	channel 5, Cry_Charmander_Ch5
-	channel 6, Cry_Charmander_Ch6
-	channel 8, Cry_Charmander_Ch8
+	channel 5, Cry_Guilmon_Ch5
+	channel 6, Cry_Guilmon_Ch6
+	channel 8, Cry_Guilmon_Ch8
 
 Cry_Grimer:
 	channel_count 3
@@ -1861,7 +1861,7 @@ Cry_Oddish_Ch8:
 	noise_note 15, 12, 2, 76
 	sound_ret
 
-Cry_Charmander_Ch5:
+Cry_Guilmon_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
 	square_note 4, 15, 7, 1696
 	square_note 8, 14, 6, 1700
@@ -1872,7 +1872,7 @@ Cry_Charmander_Ch5:
 	square_note 8, 11, 1, 1552
 	sound_ret
 
-Cry_Charmander_Ch6:
+Cry_Guilmon_Ch6:
 	duty_cycle_pattern 1, 1, 2, 2
 	square_note 4, 14, 7, 1537
 	square_note 8, 13, 6, 1539
@@ -1883,7 +1883,7 @@ Cry_Charmander_Ch6:
 	square_note 8, 10, 1, 1393
 	sound_ret
 
-Cry_Charmander_Ch8:
+Cry_Guilmon_Ch8:
 	noise_note 7, 13, 6, 92
 	noise_note 8, 14, 6, 76
 	noise_note 4, 13, 4, 92

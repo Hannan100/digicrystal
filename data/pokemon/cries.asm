@@ -9,9 +9,9 @@ PokemonCries::
 	mon_cry CRY_NYOKOMON,   $080,  $081 ; NYOKOMON
 	mon_cry CRY_NYOKOMON,   $020,  $100 ; PUNIMON
 	mon_cry CRY_NYOKOMON,   $000,  $140 ; BOTAMON
-	mon_cry CRY_CHARMANDER,  $060,  $0c0 ; CHARMANDER
-	mon_cry CRY_CHARMANDER,  $020,  $0c0 ; CHARMELEON
-	mon_cry CRY_CHARMANDER,  $000,  $100 ; CHARIZARD
+	mon_cry CRY_GUILMON,  $060,  $0c0 ; GUILMON
+	mon_cry CRY_GUILMON,  $020,  $0c0 ; CHARMELEON
+	mon_cry CRY_GUILMON,  $000,  $100 ; CHARIZARD
 	mon_cry CRY_SQUIRTLE,    $060,  $0c0 ; SQUIRTLE
 	mon_cry CRY_SQUIRTLE,    $020,  $0c0 ; WARTORTLE
 	mon_cry CRY_BLASTOISE,   $000,  $100 ; BLASTOISE
@@ -116,7 +116,7 @@ PokemonCries::
 	mon_cry CRY_SEEL,        $000,  $100 ; LICKITUNG
 	mon_cry CRY_GOLEM,       $0e6,  $15d ; KOFFING
 	mon_cry CRY_GOLEM,       $0ff,  $17f ; WEEZING
-	mon_cry CRY_CHARMANDER,  $000,  $100 ; RHYHORN
+	mon_cry CRY_GUILMON,  $000,  $100 ; RHYHORN
 	mon_cry CRY_RHYDON,      $000,  $100 ; RHYDON
 	mon_cry CRY_PIDGEOTTO,   $00a,  $140 ; CHANSEY
 	mon_cry CRY_GOLEM,       $000,  $100 ; TANGELA
@@ -131,7 +131,7 @@ PokemonCries::
 	mon_cry CRY_MINOMON,    $000,  $100 ; SCYTHER
 	mon_cry CRY_DROWZEE,     $0ff,  $17f ; JYNX
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; ELECTABUZZ
-	mon_cry CRY_CHARMANDER,  $0ff,  $0b0 ; MAGMAR
+	mon_cry CRY_GUILMON,  $0ff,  $0b0 ; MAGMAR
 	mon_cry CRY_PIDGEOTTO,   $000,  $100 ; PINSIR
 	mon_cry CRY_SQUIRTLE,    $011,  $0c0 ; TAUROS
 	mon_cry CRY_GAZIMON,       $080,  $080 ; MAGIKARP
@@ -265,9 +265,9 @@ PokemonCries::
 	mon_cry CRY_NYOKOMON,   128,  129 ; NYOKOMON
 	mon_cry CRY_NYOKOMON,    32,  256 ; PUNIMON
 	mon_cry CRY_NYOKOMON,     0,  320 ; BOTAMON
-	mon_cry CRY_CHARMANDER,   96,  192 ; CHARMANDER
-	mon_cry CRY_CHARMANDER,   32,  192 ; CHARMELEON
-	mon_cry CRY_CHARMANDER,    0,  256 ; CHARIZARD
+	mon_cry CRY_GUILMON,   96,  192 ; GUILMON
+	mon_cry CRY_GUILMON,   32,  192 ; CHARMELEON
+	mon_cry CRY_GUILMON,    0,  256 ; CHARIZARD
 	mon_cry CRY_SQUIRTLE,     96,  192 ; SQUIRTLE
 	mon_cry CRY_SQUIRTLE,     32,  192 ; WARTORTLE
 	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
@@ -372,7 +372,7 @@ PokemonCries::
 	mon_cry CRY_SEEL,          0,  256 ; LICKITUNG
 	mon_cry CRY_GOLEM,       230,  349 ; KOFFING
 	mon_cry CRY_GOLEM,       255,  383 ; WEEZING
-	mon_cry CRY_CHARMANDER,    0,  256 ; RHYHORN
+	mon_cry CRY_GUILMON,    0,  256 ; RHYHORN
 	mon_cry CRY_RHYDON,        0,  256 ; RHYDON
 	mon_cry CRY_PIDGEOTTO,    10,  320 ; CHANSEY
 	mon_cry CRY_GOLEM,         0,  256 ; TANGELA
@@ -387,7 +387,7 @@ PokemonCries::
 	mon_cry CRY_MINOMON,      0,  256 ; SCYTHER
 	mon_cry CRY_DROWZEE,     255,  383 ; JYNX
 	mon_cry CRY_VOLTORB,     143,  383 ; ELECTABUZZ
-	mon_cry CRY_CHARMANDER,  255,  176 ; MAGMAR
+	mon_cry CRY_GUILMON,  255,  176 ; MAGMAR
 	mon_cry CRY_PIDGEOTTO,     0,  256 ; PINSIR
 	mon_cry CRY_SQUIRTLE,     17,  192 ; TAUROS
 	mon_cry CRY_GAZIMON,       128,  128 ; MAGIKARP

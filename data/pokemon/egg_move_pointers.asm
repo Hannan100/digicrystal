@@ -2,7 +2,7 @@ EggMovePointers::
 	dw NyokomonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw CharmanderEggMoves
+	dw GuilmonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw SquirtleEggMoves

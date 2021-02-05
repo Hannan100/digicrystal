@@ -2,7 +2,7 @@ AnimationPointers:
 	dw NyokomonAnimation
 	dw PunimonAnimation
 	dw BotamonAnimation
-	dw CharmanderAnimation
+	dw GuilmonAnimation
 	dw CharmeleonAnimation
 	dw CharizardAnimation
 	dw SquirtleAnimation

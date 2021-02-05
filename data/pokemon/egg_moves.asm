@@ -21,7 +21,7 @@ NyokomonEggMoves:
 	db PETAL_DANCE
 	db -1 ; end
 
-CharmanderEggMoves:
+GuilmonEggMoves:
 	db BELLY_DRUM
 	db ANCIENTPOWER
 	db ROCK_SLIDE

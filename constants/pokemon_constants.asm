@@ -22,7 +22,7 @@
 	const NYOKOMON  ; 01
 	const PUNIMON    ; 02
 	const BOTAMON   ; 03
-	const CHARMANDER ; 04
+	const GUILMON ; 04
 	const CHARMELEON ; 05
 	const CHARIZARD  ; 06
 	const SQUIRTLE   ; 07

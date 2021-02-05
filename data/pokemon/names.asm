@@ -2,7 +2,7 @@ PokemonNames::
 	db "NYOKOMON@"
 	db "PUNIMON@@@"
 	db "BOTAMON@@"
-	db "CHARMANDER"
+	db "GUILMON"
 	db "CHARMELEON"
 	db "CHARIZARD@"
 	db "SQUIRTLE@@"

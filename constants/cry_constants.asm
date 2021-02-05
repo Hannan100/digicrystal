@@ -6,7 +6,7 @@
 	const CRY_NIDORAN_F
 	const CRY_SLOWPOKE
 	const CRY_KANGASKHAN
-	const CRY_CHARMANDER
+	const CRY_GUILMON
 	const CRY_GRIMER
 	const CRY_VOLTORB
 	const CRY_MUK

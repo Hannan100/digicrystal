@@ -23,7 +23,7 @@ AlphabeticalPokedexOrder:
 	db CELEBI
 	db CHANSEY
 	db CHARIZARD
-	db CHARMANDER
+	db GUILMON
 	db CHARMELEON
 	db TANEMON
 	db CHINCHOU

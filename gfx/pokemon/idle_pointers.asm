@@ -2,7 +2,7 @@ AnimationIdlePointers:
 	dw NyokomonAnimationIdle
 	dw PunimonAnimationIdle
 	dw BotamonAnimationIdle
-	dw CharmanderAnimationIdle
+	dw GuilmonAnimationIdle
 	dw CharmeleonAnimationIdle
 	dw CharizardAnimationIdle
 	dw SquirtleAnimationIdle

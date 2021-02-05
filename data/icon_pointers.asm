@@ -23,7 +23,7 @@ IconPointers:
 	dw VoltorbIcon
 	dw SquirtleIcon
 	dw NyokomonIcon
-	dw CharmanderIcon
+	dw GuilmonIcon
 	dw CaterpillarIcon
 	dw UnownIcon
 	dw GeodudeIcon

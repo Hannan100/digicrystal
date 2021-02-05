@@ -2,7 +2,7 @@ FramesPointers:
 	dw NyokomonFrames
 	dw PunimonFrames
 	dw BotamonFrames
-	dw CharmanderFrames
+	dw GuilmonFrames
 	dw CharmeleonFrames
 	dw CharizardFrames
 	dw SquirtleFrames

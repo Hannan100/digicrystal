@@ -4,7 +4,7 @@ EvosAttacksPointers::
 	dw NyokomonEvosAttacks
 	dw PunimonEvosAttacks
 	dw BotamonEvosAttacks
-	dw CharmanderEvosAttacks
+	dw GuilmonEvosAttacks
 	dw CharmeleonEvosAttacks
 	dw CharizardEvosAttacks
 	dw SquirtleEvosAttacks

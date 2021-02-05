@@ -1,7 +1,7 @@
 NyokomonBitmasks:  INCLUDE "gfx/pokemon/nyokomon/bitmask.asm"
 PunimonBitmasks:    INCLUDE "gfx/pokemon/punimon/bitmask.asm"
 BotamonBitmasks:   INCLUDE "gfx/pokemon/botamon/bitmask.asm"
-CharmanderBitmasks: INCLUDE "gfx/pokemon/charmander/bitmask.asm"
+GuilmonBitmasks: INCLUDE "gfx/pokemon/guilmon/bitmask.asm"
 CharmeleonBitmasks: INCLUDE "gfx/pokemon/charmeleon/bitmask.asm"
 CharizardBitmasks:  INCLUDE "gfx/pokemon/charizard/bitmask.asm"
 SquirtleBitmasks:   INCLUDE "gfx/pokemon/squirtle/bitmask.asm"
