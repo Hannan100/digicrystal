@@ -81,7 +81,7 @@ KantoMonSpecials:
 	db  80 ; RAPIDASH
 	db  40 ; SLOWPOKE
 	db  80 ; SLOWBRO
-	db  95 ; MAGNEMITE
+	db  95 ; HAGURUMON
 	db 120 ; MAGNETON
 	db  58 ; FARFETCH_D
 	db  35 ; DODUO

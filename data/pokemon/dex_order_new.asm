@@ -118,7 +118,7 @@ NewPokedexOrder:
 	db WEEZING
 	db GRIMER
 	db MUK
-	db MAGNEMITE
+	db HAGURUMON
 	db MAGNETON
 	db VOLTORB
 	db ELECTRODE

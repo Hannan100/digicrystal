@@ -61,10 +61,13 @@ FILES_TO_UPDATE = [
     "data/trainers/parties.asm",
     "data/wild/bug_contest_mons.asm",
     "data/wild/johto_grass.asm",
+    "data/wild/johto_water.asm",
     "data/wild/kanto_grass.asm",
+    "data/wild/kanto_water.asm",
     "data/wild/swarm_grass.asm",
     "data/wild/treemons.asm",
     "data/wild/treemons_asleep.asm",
+    "data/wild/flee_mons.asm",
     "gfx/icons.asm",
     "gfx/footprints.asm",
     "gfx/pics.asm",
@@ -77,10 +80,12 @@ FILES_TO_UPDATE = [
     "gfx/pokemon/idle_pointers.asm",
     "gfx/pokemon/idles.asm",
     "gfx/pokemon/johto_frames.asm",
+    "engine/debug/debug_room.asm",
+    "engine/events/std_scripts.asm",#
+    "engine/link/link.asm",
+    "engine/link/time_capsule.asm",
     "engine/overworld/decorations.asm",
     "engine/pokemon/evolve.asm",
-    "engine/debug/debug_room.asm",
-    "engine/events/std_scripts.asm",
     "engine/phone/scripts/elm.asm",
     "macros/legacy.asm"
 ]

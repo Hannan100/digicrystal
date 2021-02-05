@@ -121,7 +121,7 @@ AlphabeticalPokedexOrder:
 	db MAGCARGO
 	db MAGIKARP
 	db MAGMAR
-	db MAGNEMITE
+	db HAGURUMON
 	db MAGNETON
 	db MANKEY
 	db MANTINE

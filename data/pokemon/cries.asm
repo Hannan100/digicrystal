@@ -86,7 +86,7 @@ PokemonCries::
 	mon_cry CRY_WEEPINBELL,  $020,  $140 ; RAPIDASH
 	mon_cry CRY_SLOWPOKE,    $000,  $100 ; SLOWPOKE
 	mon_cry CRY_GROWLITHE,   $000,  $100 ; SLOWBRO
-	mon_cry CRY_WORMMON,     $080,  $0e0 ; MAGNEMITE
+	mon_cry CRY_WORMMON,     $080,  $0e0 ; HAGURUMON
 	mon_cry CRY_WORMMON,     $020,  $140 ; MAGNETON
 	mon_cry CRY_TOKOOMON,     $0dd,  $081 ; FARFETCH_D
 	mon_cry CRY_DIGLETT,     $0bb,  $081 ; DODUO
@@ -342,7 +342,7 @@ PokemonCries::
 	mon_cry CRY_WEEPINBELL,   32,  320 ; RAPIDASH
 	mon_cry CRY_SLOWPOKE,      0,  256 ; SLOWPOKE
 	mon_cry CRY_GROWLITHE,     0,  256 ; SLOWBRO
-	mon_cry CRY_WORMMON,     128,  224 ; MAGNEMITE
+	mon_cry CRY_WORMMON,     128,  224 ; HAGURUMON
 	mon_cry CRY_WORMMON,      32,  320 ; MAGNETON
 	mon_cry CRY_TOKOOMON,     221,  129 ; FARFETCH_D
 	mon_cry CRY_DIGLETT,     187,  129 ; DODUO

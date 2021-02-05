@@ -304,7 +304,7 @@ KantoGrassWildMons:
 	; morn
 	db 13, TSUNOMON
 	db 13, SNUBBULL
-	db 14, MAGNEMITE
+	db 14, HAGURUMON
 	db 15, RATICATE
 	db 12, JIGGLYPUFF
 	db 15, GRANBULL
@@ -312,7 +312,7 @@ KantoGrassWildMons:
 	; day
 	db 13, TSUNOMON
 	db 13, SNUBBULL
-	db 14, MAGNEMITE
+	db 14, HAGURUMON
 	db 15, RATICATE
 	db 12, JIGGLYPUFF
 	db 15, GRANBULL
@@ -320,7 +320,7 @@ KantoGrassWildMons:
 	; nite
 	db 13, MEOWTH
 	db 13, DROWZEE
-	db 14, MAGNEMITE
+	db 14, HAGURUMON
 	db 15, PSYDUCK
 	db 12, JIGGLYPUFF
 	db 15, RATICATE
@@ -439,7 +439,7 @@ KantoGrassWildMons:
 	; morn
 	db 14, YOKOMON
 	db 13, RATICATE
-	db 15, MAGNEMITE
+	db 15, HAGURUMON
 	db 16, PIDGEOTTO
 	db 16, TSUNOMON
 	db 16, YOKOMON
@@ -447,7 +447,7 @@ KantoGrassWildMons:
 	; day
 	db 14, YOKOMON
 	db 13, RATICATE
-	db 15, MAGNEMITE
+	db 15, HAGURUMON
 	db 16, PIDGEOTTO
 	db 16, TSUNOMON
 	db 16, YOKOMON
@@ -455,7 +455,7 @@ KantoGrassWildMons:
 	; nite
 	db 14, DROWZEE
 	db 13, MEOWTH
-	db 15, MAGNEMITE
+	db 15, HAGURUMON
 	db 16, NOCTOWL
 	db 16, RATICATE
 	db 16, HYPNO

@@ -1438,7 +1438,7 @@ JohtoGrassWildMons:
 	; morn
 	db 16, TSUNOMON
 	db 16, RATICATE
-	db 16, MAGNEMITE
+	db 16, HAGURUMON
 	db 16, PIDGEOTTO
 	db 13, TAUROS
 	db 13, MILTANK
@@ -1446,7 +1446,7 @@ JohtoGrassWildMons:
 	; day
 	db 16, TSUNOMON
 	db 16, RATICATE
-	db 16, MAGNEMITE
+	db 16, HAGURUMON
 	db 16, PIDGEOTTO
 	db 13, TAUROS
 	db 13, MILTANK
@@ -1454,7 +1454,7 @@ JohtoGrassWildMons:
 	; nite
 	db 16, MEOWTH
 	db 16, RATICATE
-	db 16, MAGNEMITE
+	db 16, HAGURUMON
 	db 16, NOCTOWL
 	db 16, MEOWTH
 	db 16, MEOWTH
@@ -1465,7 +1465,7 @@ JohtoGrassWildMons:
 	; morn
 	db 16, TSUNOMON
 	db 16, RATICATE
-	db 16, MAGNEMITE
+	db 16, HAGURUMON
 	db 16, PIDGEOTTO
 	db 15, MILTANK
 	db 15, TAUROS
@@ -1473,7 +1473,7 @@ JohtoGrassWildMons:
 	; day
 	db 16, TSUNOMON
 	db 16, RATICATE
-	db 16, MAGNEMITE
+	db 16, HAGURUMON
 	db 16, PIDGEOTTO
 	db 15, MILTANK
 	db 15, TAUROS
@@ -1481,7 +1481,7 @@ JohtoGrassWildMons:
 	; nite
 	db 16, MEOWTH
 	db 16, RATICATE
-	db 16, MAGNEMITE
+	db 16, HAGURUMON
 	db 16, NOCTOWL
 	db 18, MEOWTH
 	db 18, MEOWTH

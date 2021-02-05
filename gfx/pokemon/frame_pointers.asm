@@ -79,7 +79,7 @@ FramesPointers:
 	dw RapidashFrames
 	dw SlowpokeFrames
 	dw SlowbroFrames
-	dw MagnemiteFrames
+	dw HagurumonFrames
 	dw MagnetonFrames
 	dw FarfetchDFrames
 	dw DoduoFrames

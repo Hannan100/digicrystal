@@ -79,7 +79,7 @@ AnimationPointers:
 	dw RapidashAnimation
 	dw SlowpokeAnimation
 	dw SlowbroAnimation
-	dw MagnemiteAnimation
+	dw HagurumonAnimation
 	dw MagnetonAnimation
 	dw FarfetchDAnimation
 	dw DoduoAnimation

@@ -79,7 +79,7 @@ PokemonNames::
 	db "RAPIDASH@@"
 	db "SLOWPOKE@@"
 	db "SLOWBRO@@@"
-	db "MAGNEMITE@" ; !Hagurumon
+	db "HAGURUMON@" ; !Hagurumon
 	db "MAGNETON@@"
 	db "FARFETCH'D"
 	db "DODUO@@@@@"
