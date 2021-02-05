@@ -154,7 +154,7 @@ AnimationIdlePointers:
 	dw BayleefAnimationIdle
 	dw MeganiumAnimationIdle
 	dw KoromonAnimationIdle
-	dw QuilavaAnimationIdle
+	dw AgumonAnimationIdle
 	dw TyphlosionAnimationIdle
 	dw BukamonAnimationIdle
 	dw GomamonAnimationIdle

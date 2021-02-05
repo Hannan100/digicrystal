@@ -312,8 +312,8 @@ PokemonPicPointers::
 	dba_pic MeganiumBackpic
 	dba_pic KoromonFrontpic
 	dba_pic KoromonBackpic
-	dba_pic QuilavaFrontpic
-	dba_pic QuilavaBackpic
+	dba_pic AgumonFrontpic
+	dba_pic AgumonBackpic
 	dba_pic TyphlosionFrontpic
 	dba_pic TyphlosionBackpic
 	dba_pic BukamonFrontpic

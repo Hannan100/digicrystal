@@ -154,7 +154,7 @@ PokemonNames::
 	db "BAYLEEF@@@" ; !Palmon
 	db "MEGANIUM@@" ; !Togemon
 	db "KOROMON@@@" ; Koromon
-	db "QUILAVA@@@" ; !Agumon
+	db "AGUMON@@@" ; !Agumon
 	db "TYPHLOSION" ; !Greymon
 	db "BUKAMON@@@" ; Bukamon
 	db "GOMAMON@@@" ; Gomamon

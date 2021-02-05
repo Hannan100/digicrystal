@@ -2107,7 +2107,7 @@ MeganiumEvosAttacks:
 	db 0 ; no more level-up moves
 
 KoromonEvosAttacks:
-	db EVOLVE_LEVEL, 14, QUILAVA
+	db EVOLVE_LEVEL, 14, AGUMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
@@ -2119,7 +2119,7 @@ KoromonEvosAttacks:
 	db 46, FLAMETHROWER
 	db 0 ; no more level-up moves
 
-QuilavaEvosAttacks:
+AgumonEvosAttacks:
 	db EVOLVE_LEVEL, 36, TYPHLOSION
 	db 0 ; no more evolutions
 	db 1, TACKLE

@@ -5,7 +5,7 @@ NewPokedexOrder:
 	db BAYLEEF
 	db MEGANIUM
 	db KOROMON
-	db QUILAVA
+	db AGUMON
 	db TYPHLOSION
 	db BUKAMON
 	db GOMAMON

@@ -154,7 +154,7 @@ FramesPointers:
 	dw BayleefFrames
 	dw MeganiumFrames
 	dw KoromonFrames
-	dw QuilavaFrames
+	dw AgumonFrames
 	dw TyphlosionFrames
 	dw BukamonFrames
 	dw GomamonFrames

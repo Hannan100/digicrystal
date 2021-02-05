@@ -161,7 +161,7 @@ PokemonCries::
 	mon_cry CRY_TANEMON,    -$022,  $120 ; PALMON
 	mon_cry CRY_TANEMON,    -$0b7,  $200 ; TOGEMON
 	mon_cry CRY_KOROMON,   $347,  $080 ; KOROMON
-	mon_cry CRY_KOROMON,   $321,  $120 ; QUILAVA
+	mon_cry CRY_KOROMON,   $321,  $120 ; AGUMON
 	mon_cry CRY_TYPHLOSION,  $f00,  $0d4 ; TYPHLOSION
 	mon_cry CRY_BUKAMON,    $46c,  $0e8 ; BUKAMON
 	mon_cry CRY_BUKAMON,    $440,  $110 ; GOMAMON
@@ -417,7 +417,7 @@ PokemonCries::
 	mon_cry CRY_TANEMON,   -34,  288 ; BAYLEEF
 	mon_cry CRY_TANEMON,  -183,  512 ; MEGANIUM
 	mon_cry CRY_KOROMON,   839,  128 ; KOROMON
-	mon_cry CRY_KOROMON,   801,  288 ; QUILAVA
+	mon_cry CRY_KOROMON,   801,  288 ; AGUMON
 	mon_cry CRY_TYPHLOSION, 3840,  212 ; TYPHLOSION
 	mon_cry CRY_BUKAMON,   1132,  232 ; BUKAMON
 	mon_cry CRY_BUKAMON,   1088,  272 ; CROCONAW

@@ -175,7 +175,7 @@ JOHTO_POKEMON EQU const_value
 	const BAYLEEF    ; 99
 	const MEGANIUM   ; 9a
 	const KOROMON  ; 9b
-	const QUILAVA    ; 9c
+	const AGUMON    ; 9c
 	const TYPHLOSION ; 9d
 	const BUKAMON   ; 9e
 	const GOMAMON   ; 9f

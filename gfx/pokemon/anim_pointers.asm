@@ -154,7 +154,7 @@ AnimationPointers:
 	dw BayleefAnimation
 	dw MeganiumAnimation
 	dw KoromonAnimation
-	dw QuilavaAnimation
+	dw AgumonAnimation
 	dw TyphlosionAnimation
 	dw BukamonAnimation
 	dw GomamonAnimation

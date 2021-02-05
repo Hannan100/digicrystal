@@ -154,7 +154,7 @@ BitmasksPointers:
 	dw BayleefBitmasks
 	dw MeganiumBitmasks
 	dw KoromonBitmasks
-	dw QuilavaBitmasks
+	dw AgumonBitmasks
 	dw TyphlosionBitmasks
 	dw BukamonBitmasks
 	dw GomamonBitmasks

@@ -54,7 +54,7 @@ ArbokFrontpic:       INCBIN "gfx/pokemon/arbok/front.animated.2bpp.lz"
 MewtwoFrontpic:      INCBIN "gfx/pokemon/mewtwo/front.animated.2bpp.lz"
 FearowFrontpic:      INCBIN "gfx/pokemon/fearow/front.animated.2bpp.lz"
 CharizardFrontpic:   INCBIN "gfx/pokemon/charizard/front.animated.2bpp.lz"
-QuilavaFrontpic:     INCBIN "gfx/pokemon/quilava/front.animated.2bpp.lz"
+AgumonFrontpic:     INCBIN "gfx/pokemon/agumon/front.animated.2bpp.lz"
 
 
 SECTION "Pics 3", ROMX
@@ -355,7 +355,7 @@ YokomonFrontpic:      INCBIN "gfx/pokemon/yokomon/front.animated.2bpp.lz"
 MankeyBackpic:       INCBIN "gfx/pokemon/mankey/back.2bpp.lz"
 MagmarBackpic:       INCBIN "gfx/pokemon/magmar/back.2bpp.lz"
 HypnoBackpic:        INCBIN "gfx/pokemon/hypno/back.2bpp.lz"
-QuilavaBackpic:      INCBIN "gfx/pokemon/quilava/back.2bpp.lz"
+AgumonBackpic:      INCBIN "gfx/pokemon/agumon/back.2bpp.lz"
 GomamonBackpic:     INCBIN "gfx/pokemon/gomamon/back.2bpp.lz"
 SandshrewBackpic:    INCBIN "gfx/pokemon/sandshrew/back.2bpp.lz"
 SailorPic:           INCBIN "gfx/trainers/sailor.2bpp.lz"
