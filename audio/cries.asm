@@ -18,10 +18,10 @@ Cry_Demiveemon:
 	channel 5, Cry_Demiveemon_Ch5
 	channel 6, Cry_Demiveemon_Ch6
 
-Cry_Togetic:
+Cry_Veemon:
 	channel_count 2
-	channel 5, Cry_Togetic_Ch5
-	channel 6, Cry_Togetic_Ch6
+	channel 5, Cry_Veemon_Ch5
+	channel 6, Cry_Veemon_Ch6
 >>>>>>> pret/master
 
 Cry_Kokomon:
@@ -423,11 +423,11 @@ Cry_Demiveemon_Ch6:
 	square_note 16, 15, 1, 1959
 	sound_ret
 
-Cry_Togetic_Ch5:
+Cry_Veemon_Ch5:
 	pitch_offset 2
-Cry_Togetic_Ch6:
+Cry_Veemon_Ch6:
 	sound_call Cry_Demiveemon_Ch6
-	sound_loop 2, Cry_Togetic_Ch6
+	sound_loop 2, Cry_Veemon_Ch6
 	square_note 14, 0, 0, 0
 	square_note 8, 15, 2, 1986
 	sound_ret

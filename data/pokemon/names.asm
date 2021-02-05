@@ -174,7 +174,7 @@ PokemonNames::
 	db "CLEFFA@@@@"
 	db "IGGLYBUFF@"
 	db "DEMIVEEMON" ; Demiveemon
-	db "VEEMON@@@@" ; Togetic
+	db "VEEMON@@@@" ; Veemon
 	db "VEEDRAMON@" ; Natu
 	db "EX-VEEMON@" ; Xatu
 	db "FLAMEDRMON" ; Mareep

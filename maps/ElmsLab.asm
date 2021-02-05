@@ -119,7 +119,7 @@ ElmCheckEverstone:
 	setval DEMIVEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmDemiveemonScript
-	setval TOGETIC
+	setval VEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmDemiveemonScript
 	writetext ElmThoughtEggHatchedText
@@ -141,7 +141,7 @@ ElmEggHatchedScript:
 	setval DEMIVEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmDemiveemonScript
-	setval TOGETIC
+	setval VEEMON
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmDemiveemonScript
 	sjump ElmCheckGotEggAgain

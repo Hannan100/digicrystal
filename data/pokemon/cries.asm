@@ -437,7 +437,7 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,       97,  145 ; CLEFFA
 	mon_cry CRY_TANEMON,   232,  232 ; IGGLYBUFF
 	mon_cry CRY_DEMIVEEMON,       16,  256 ; DEMIVEEMON
-	mon_cry CRY_TOGETIC,      59,   56 ; TOGETIC
+	mon_cry CRY_VEEMON,      59,   56 ; VEEMON
 	mon_cry CRY_NATU,       -103,  256 ; NATU
 	mon_cry CRY_NATU,       -167,  360 ; XATU
 	mon_cry CRY_MAREEP,       34,  216 ; MAREEP
