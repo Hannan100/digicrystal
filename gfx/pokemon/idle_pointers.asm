@@ -46,7 +46,7 @@ AnimationIdlePointers:
 	dw VileplumeAnimationIdle
 	dw MushroomonAnimationIdle
 	dw MushroomonectAnimationIdle
-	dw VenonatAnimationIdle
+	dw KunemonAnimationIdle
 	dw VenomothAnimationIdle
 	dw DiglettAnimationIdle
 	dw DugtrioAnimationIdle

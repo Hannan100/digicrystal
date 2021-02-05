@@ -46,7 +46,7 @@ PokemonNames::
 	db "VILEPLUME@"
 	db "MUSHROOMON@@@@@"
 	db "MUSHROOMONECT@@"
-	db "VENONAT@@@"
+	db "KUNEMON@@@"
 	db "VENOMOTH@@"
 	db "DIGLETT@@@"
 	db "DUGTRIO@@@"

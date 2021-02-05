@@ -66,7 +66,7 @@
 	const VILEPLUME  ; 2d
 	const MUSHROOMON      ; 2e
 	const MUSHROOMONECT   ; 2f
-	const VENONAT    ; 30
+	const KUNEMON    ; 30
 	const VENOMOTH   ; 31
 	const DIGLETT    ; 32
 	const DUGTRIO    ; 33

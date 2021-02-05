@@ -96,8 +96,8 @@ PokemonPicPointers::
 	dba_pic MushroomonBackpic
 	dba_pic MushroomonectFrontpic
 	dba_pic MushroomonectBackpic
-	dba_pic VenonatFrontpic
-	dba_pic VenonatBackpic
+	dba_pic KunemonFrontpic
+	dba_pic KunemonBackpic
 	dba_pic VenomothFrontpic
 	dba_pic VenomothBackpic
 	dba_pic DiglettFrontpic

@@ -28,7 +28,7 @@
 	const CRY_EKANS
 	const CRY_FEAROW
 	const CRY_CLEFAIRY
-	const CRY_VENONAT
+	const CRY_KUNEMON
 	const CRY_LAPRAS
 	const CRY_WORMMON
 	const CRY_SQUIRTLE

@@ -46,7 +46,7 @@ AnimationPointers:
 	dw VileplumeAnimation
 	dw MushroomonAnimation
 	dw MushroomonectAnimation
-	dw VenonatAnimation
+	dw KunemonAnimation
 	dw VenomothAnimation
 	dw DiglettAnimation
 	dw DugtrioAnimation

@@ -108,7 +108,7 @@ NewPokedexOrder:
 	db EXEGGUTOR
 	db SUDOWOODO
 	db WOBBUFFET
-	db VENONAT
+	db KUNEMON
 	db VENOMOTH
 	db SCYTHER
 	db SCIZOR

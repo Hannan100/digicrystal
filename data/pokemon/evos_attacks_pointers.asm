@@ -48,7 +48,7 @@ EvosAttacksPointers::
 	dw VileplumeEvosAttacks
 	dw MushroomonEvosAttacks
 	dw MushroomonectEvosAttacks
-	dw VenonatEvosAttacks
+	dw KunemonEvosAttacks
 	dw VenomothEvosAttacks
 	dw DiglettEvosAttacks
 	dw DugtrioEvosAttacks

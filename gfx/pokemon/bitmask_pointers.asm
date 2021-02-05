@@ -46,7 +46,7 @@ BitmasksPointers:
 	dw VileplumeBitmasks
 	dw MushroomonBitmasks
 	dw MushroomonectBitmasks
-	dw VenonatBitmasks
+	dw KunemonBitmasks
 	dw VenomothBitmasks
 	dw DiglettBitmasks
 	dw DugtrioBitmasks

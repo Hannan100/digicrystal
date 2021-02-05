@@ -1229,11 +1229,11 @@ Cry_Clefairy:
 	channel 6, Cry_Clefairy_Ch6
 	channel 8, Cry_Clefairy_Ch8
 
-Cry_Venonat:
+Cry_Kunemon:
 	channel_count 3
-	channel 5, Cry_Venonat_Ch5
-	channel 6, Cry_Venonat_Ch6
-	channel 8, Cry_Venonat_Ch8
+	channel 5, Cry_Kunemon_Ch5
+	channel 6, Cry_Kunemon_Ch6
+	channel 8, Cry_Kunemon_Ch8
 
 Cry_Lapras:
 	channel_count 3
@@ -2166,7 +2166,7 @@ Cry_Wormmon_Ch8:
 	noise_note 15, 11, 3, 92
 	sound_ret
 
-Cry_Venonat_Ch5:
+Cry_Kunemon_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
 	square_note 6, 15, 7, 1856
 	square_note 12, 14, 6, 1860
@@ -2176,7 +2176,7 @@ Cry_Venonat_Ch5:
 	square_note 8, 13, 1, 1952
 	sound_ret
 
-Cry_Venonat_Ch6:
+Cry_Kunemon_Ch6:
 	duty_cycle_pattern 0, 0, 2, 2
 	square_note 6, 12, 7, 1793
 	square_note 11, 11, 6, 1794
@@ -2186,7 +2186,7 @@ Cry_Venonat_Ch6:
 	square_note 8, 9, 1, 1890
 	sound_ret
 
-Cry_Venonat_Ch8:
+Cry_Kunemon_Ch8:
 	noise_note 3, 14, 2, 60
 	noise_note 8, 13, 6, 76
 	noise_note 5, 13, 4, 60

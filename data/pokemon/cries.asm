@@ -53,8 +53,8 @@ PokemonCries::
 	mon_cry CRY_VILEPLUME,   $022,  $17f ; VILEPLUME
 	mon_cry CRY_MUSHROOMON,       $020,  $160 ; MUSHROOMON
 	mon_cry CRY_MUSHROOMON,       $042,  $17f ; MUSHROOMONECT
-	mon_cry CRY_VENONAT,     $044,  $0c0 ; VENONAT
-	mon_cry CRY_VENONAT,     $029,  $100 ; VENOMOTH
+	mon_cry CRY_KUNEMON,     $044,  $0c0 ; KUNEMON
+	mon_cry CRY_KUNEMON,     $029,  $100 ; VENOMOTH
 	mon_cry CRY_DIGLETT,     $0aa,  $081 ; DIGLETT
 	mon_cry CRY_DIGLETT,     $02a,  $090 ; DUGTRIO
 	mon_cry CRY_CLEFAIRY,    $077,  $090 ; MEOWTH
@@ -77,8 +77,8 @@ PokemonCries::
 	mon_cry CRY_PSYDUCK,     $055,  $081 ; BELLSPROUT
 	mon_cry CRY_WEEPINBELL,  $044,  $0a0 ; WEEPINBELL
 	mon_cry CRY_WEEPINBELL,  $066,  $14c ; VICTREEBEL
-	mon_cry CRY_VENONAT,     $000,  $100 ; TENTACOOL
-	mon_cry CRY_VENONAT,     $0ee,  $17f ; TENTACRUEL
+	mon_cry CRY_KUNEMON,     $000,  $100 ; TENTACOOL
+	mon_cry CRY_KUNEMON,     $0ee,  $17f ; TENTACRUEL
 	mon_cry CRY_VULPIX,      $0f0,  $090 ; GEODUDE
 	mon_cry CRY_VULPIX,      $000,  $100 ; GRAVELER
 	mon_cry CRY_GOLEM,       $0e0,  $0c0 ; GOLEM
@@ -138,10 +138,10 @@ PokemonCries::
 	mon_cry CRY_EKANS,       $000,  $100 ; GYARADOS
 	mon_cry CRY_LAPRAS,      $000,  $100 ; LAPRAS
 	mon_cry CRY_PIDGEY,      $0ff,  $17f ; DITTO
-	mon_cry CRY_VENONAT,     $088,  $0e0 ; EEVEE
-	mon_cry CRY_VENONAT,     $0aa,  $17f ; VAPOREON
-	mon_cry CRY_VENONAT,     $03d,  $100 ; JOLTEON
-	mon_cry CRY_VENONAT,     $010,  $0a0 ; FLAREON
+	mon_cry CRY_KUNEMON,     $088,  $0e0 ; EEVEE
+	mon_cry CRY_KUNEMON,     $0aa,  $17f ; VAPOREON
+	mon_cry CRY_KUNEMON,     $03d,  $100 ; JOLTEON
+	mon_cry CRY_KUNEMON,     $010,  $0a0 ; FLAREON
 	mon_cry CRY_WEEPINBELL,  $0aa,  $17f ; PORYGON
 	mon_cry CRY_GROWLITHE,   $0f0,  $081 ; OMANYTE
 	mon_cry CRY_GROWLITHE,   $0ff,  $0c0 ; OMASTAR
@@ -202,7 +202,7 @@ PokemonCries::
 	mon_cry CRY_WOOPER,      $093,  $0af ; WOOPER
 	mon_cry CRY_WOOPER,     -$0c6,  $140 ; QUAGSIRE
 	mon_cry CRY_AIPOM,       $0a2,  $140 ; ESPEON
-	mon_cry CRY_VENONAT,    -$0e9,  $0f0 ; UMBREON
+	mon_cry CRY_KUNEMON,    -$0e9,  $0f0 ; UMBREON
 	mon_cry CRY_MARILL,     -$01f,  $180 ; MURKROW
 	mon_cry CRY_SLOWKING,    $104,  $200 ; SLOWKING
 	mon_cry CRY_POROMON,    $130,  $0e8 ; MISDREAVUS
@@ -309,8 +309,8 @@ PokemonCries::
 	mon_cry CRY_VILEPLUME,    34,  383 ; VILEPLUME
 	mon_cry CRY_MUSHROOMON,        32,  352 ; MUSHROOMON
 	mon_cry CRY_MUSHROOMON,        66,  383 ; MUSHROOMONECT
-	mon_cry CRY_VENONAT,      68,  192 ; VENONAT
-	mon_cry CRY_VENONAT,      41,  256 ; VENOMOTH
+	mon_cry CRY_KUNEMON,      68,  192 ; KUNEMON
+	mon_cry CRY_KUNEMON,      41,  256 ; VENOMOTH
 	mon_cry CRY_DIGLETT,     170,  129 ; DIGLETT
 	mon_cry CRY_DIGLETT,      42,  144 ; DUGTRIO
 	mon_cry CRY_CLEFAIRY,    119,  144 ; MEOWTH
@@ -333,8 +333,8 @@ PokemonCries::
 	mon_cry CRY_PSYDUCK,      85,  129 ; BELLSPROUT
 	mon_cry CRY_WEEPINBELL,   68,  160 ; WEEPINBELL
 	mon_cry CRY_WEEPINBELL,  102,  332 ; VICTREEBEL
-	mon_cry CRY_VENONAT,       0,  256 ; TENTACOOL
-	mon_cry CRY_VENONAT,     238,  383 ; TENTACRUEL
+	mon_cry CRY_KUNEMON,       0,  256 ; TENTACOOL
+	mon_cry CRY_KUNEMON,     238,  383 ; TENTACRUEL
 	mon_cry CRY_VULPIX,      240,  144 ; GEODUDE
 	mon_cry CRY_VULPIX,        0,  256 ; GRAVELER
 	mon_cry CRY_GOLEM,       224,  192 ; GOLEM
@@ -394,10 +394,10 @@ PokemonCries::
 	mon_cry CRY_EKANS,         0,  256 ; GYARADOS
 	mon_cry CRY_LAPRAS,        0,  256 ; LAPRAS
 	mon_cry CRY_PIDGEY,      255,  383 ; DITTO
-	mon_cry CRY_VENONAT,     136,  224 ; EEVEE
-	mon_cry CRY_VENONAT,     170,  383 ; VAPOREON
-	mon_cry CRY_VENONAT,      61,  256 ; JOLTEON
-	mon_cry CRY_VENONAT,      16,  160 ; FLAREON
+	mon_cry CRY_KUNEMON,     136,  224 ; EEVEE
+	mon_cry CRY_KUNEMON,     170,  383 ; VAPOREON
+	mon_cry CRY_KUNEMON,      61,  256 ; JOLTEON
+	mon_cry CRY_KUNEMON,      16,  160 ; FLAREON
 	mon_cry CRY_WEEPINBELL,  170,  383 ; PORYGON
 	mon_cry CRY_GROWLITHE,   240,  129 ; OMANYTE
 	mon_cry CRY_GROWLITHE,   255,  192 ; OMASTAR
@@ -458,7 +458,7 @@ PokemonCries::
 	mon_cry CRY_WOOPER,      147,  175 ; WOOPER
 	mon_cry CRY_WOOPER,     -198,  320 ; QUAGSIRE
 	mon_cry CRY_AIPOM,       162,  320 ; ESPEON
-	mon_cry CRY_VENONAT,    -233,  240 ; UMBREON
+	mon_cry CRY_KUNEMON,    -233,  240 ; UMBREON
 	mon_cry CRY_MARILL,      -31,  384 ; MURKROW
 	mon_cry CRY_SLOWKING,    260,  512 ; SLOWKING
 	mon_cry CRY_POROMON,    304,  232 ; MISDREAVUS

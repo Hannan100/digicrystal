@@ -15,7 +15,7 @@ AsleepTreeMonsNite:
 	db -1 ; end
 
 AsleepTreeMonsDay:
-	db VENONAT
+	db KUNEMON
 	db POROMON
 	db NOCTOWL
 	db KOKOMON
@@ -23,7 +23,7 @@ AsleepTreeMonsDay:
 	db -1 ; end
 
 AsleepTreeMonsMorn:
-	db VENONAT
+	db KUNEMON
 	db POROMON
 	db NOCTOWL
 	db KOKOMON

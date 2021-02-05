@@ -349,9 +349,9 @@ JohtoGrassWildMons:
 	db 13,POROMON
 	db 14, KOKOMON
 	db 15,POROMON
-	db 10, VENONAT
-	db 12, VENONAT
-	db 12, VENONAT
+	db 10, KUNEMON
+	db 12, KUNEMON
+	db 12, KUNEMON
 
 	map_id RUINS_OF_ALPH_OUTSIDE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -562,7 +562,7 @@ JohtoGrassWildMons:
 	db 6, MUSHROOMON
 	; nite
 	db 5, ODDISH
-	db 5, VENONAT
+	db 5, KUNEMON
 	db 7, ODDISH
 	db 7, PSYDUCK
 	db 7,POROMON
@@ -1533,10 +1533,10 @@ JohtoGrassWildMons:
 	db 17, FURRET
 	db 17, FURRET
 	; nite
-	db 15, VENONAT
+	db 15, KUNEMON
 	db 16, NOCTOWL
 	db 16, RATICATE
-	db 17, VENONAT
+	db 17, KUNEMON
 	db 17, RATICATE
 	db 17, VENOMOTH
 	db 17, VENOMOTH

@@ -47,7 +47,7 @@ PokedexDataPointerTable:
 	dw VileplumePokedexEntry
 	dw MushroomonPokedexEntry
 	dw MushroomonectPokedexEntry
-	dw VenonatPokedexEntry
+	dw KunemonPokedexEntry
 	dw VenomothPokedexEntry
 	dw DiglettPokedexEntry
 	dw DugtrioPokedexEntry

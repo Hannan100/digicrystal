@@ -400,7 +400,7 @@ KantoGrassWildMons:
 	db 18, MAROWAK
 	; nite
 	db 15, TSUNOMON
-	db 15, VENONAT
+	db 15, KUNEMON
 	db 15, RATICATE
 	db 15, VENOMOTH
 	db 15, PAGUMON
@@ -426,7 +426,7 @@ KantoGrassWildMons:
 	db 18, ELECTABUZZ
 	db 18, ELECTABUZZ
 	; nite
-	db 15, VENONAT
+	db 15, KUNEMON
 	db 17, VOLTORB
 	db 15, RATICATE
 	db 15, VENOMOTH
@@ -480,7 +480,7 @@ KantoGrassWildMons:
 	db 27, YOKOMON
 	db 25, CHANSEY
 	; nite
-	db 23, VENONAT
+	db 23, KUNEMON
 	db 23, QUAGSIRE
 	db 25, NOCTOWL
 	db 25, VENOMOTH
@@ -507,7 +507,7 @@ KantoGrassWildMons:
 	db 30, SKIPLOOM
 	db 28, CHANSEY
 	; nite
-	db 26, VENONAT
+	db 26, KUNEMON
 	db 26, QUAGSIRE
 	db 28, NOCTOWL
 	db 28, VENOMOTH
@@ -534,7 +534,7 @@ KantoGrassWildMons:
 	db 27, YOKOMON
 	db 25, CHANSEY
 	; nite
-	db 23, VENONAT
+	db 23, KUNEMON
 	db 23, QUAGSIRE
 	db 25, NOCTOWL
 	db 25, VENOMOTH
@@ -696,7 +696,7 @@ KantoGrassWildMons:
 	db 14, BUTTERFREE
 	db 14, BUTTERFREE
 	; nite
-	db 10, VENONAT
+	db 10, KUNEMON
 	db 10, ODDISH
 	db 12, ODDISH
 	db 12, ABRA
@@ -725,7 +725,7 @@ KantoGrassWildMons:
 	; nite
 	db 10, ODDISH
 	db 10, POROMON
-	db 10, VENONAT
+	db 10, KUNEMON
 	db 12, NOCTOWL
 	db 10, BELLSPROUT
 	db 14, NOCTOWL

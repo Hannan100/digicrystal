@@ -90,7 +90,7 @@ TreeMonSet_Kanto:
 TreeMonSet_Lake:
 ; common
 	db 50, POROMON,   10
-	db 15, VENONAT,    10
+	db 15, KUNEMON,    10
 	db 15, POROMON,   10
 	db 10, EXEGGCUTE,  10
 	db  5, EXEGGCUTE,  10

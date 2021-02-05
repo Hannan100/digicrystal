@@ -46,7 +46,7 @@ FramesPointers:
 	dw VileplumeFrames
 	dw MushroomonFrames
 	dw MushroomonectFrames
-	dw VenonatFrames
+	dw KunemonFrames
 	dw VenomothFrames
 	dw DiglettFrames
 	dw DugtrioFrames

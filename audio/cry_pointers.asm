@@ -25,7 +25,7 @@ Cries:
 	dba Cry_Ekans
 	dba Cry_Fearow
 	dba Cry_Clefairy
-	dba Cry_Venonat
+	dba Cry_Kunemon
 	dba Cry_Lapras
 	dba Cry_Wormmon
 	dba Cry_Squirtle

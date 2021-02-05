@@ -131,7 +131,7 @@ MushroomonEggMoves:
 	db PURSUIT
 	db -1 ; end
 
-VenonatEggMoves:
+KunemonEggMoves:
 	db BATON_PASS
 	db SCREECH
 	db GIGA_DRAIN
