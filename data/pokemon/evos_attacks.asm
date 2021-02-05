@@ -510,7 +510,7 @@ NinetalesEvosAttacks:
 	db 43, FIRE_SPIN
 	db 0 ; no more level-up moves
 
-JigglypuffEvosAttacks:
+CandlemonEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, WIGGLYTUFF
 	db 0 ; no more evolutions
 	db 1, SING
@@ -2368,7 +2368,7 @@ CleffaEvosAttacks:
 	db 0 ; no more level-up moves
 
 IgglybuffEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, JIGGLYPUFF
+	db EVOLVE_HAPPINESS, TR_ANYTIME, CANDLEMON
 	db 0 ; no more evolutions
 	db 1, SING
 	db 1, CHARM

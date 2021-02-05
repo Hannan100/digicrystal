@@ -44,7 +44,7 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,    $0aa,  $0a0 ; CLEFABLE
 	mon_cry CRY_VULPIX,      $04f,  $090 ; VULPIX
 	mon_cry CRY_VULPIX,      $088,  $0e0 ; NINETALES
-	mon_cry CRY_PIDGEY,      $0ff,  $0b5 ; JIGGLYPUFF
+	mon_cry CRY_PIDGEY,      $0ff,  $0b5 ; CANDLEMON
 	mon_cry CRY_PIDGEY,      $068,  $0e0 ; WIGGLYTUFF
 	mon_cry CRY_SQUIRTLE,    $0e0,  $100 ; PAGUMON
 	mon_cry CRY_SQUIRTLE,    $0fa,  $100 ; DEMDEVIMON
@@ -300,7 +300,7 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,    170,  160 ; CLEFABLE
 	mon_cry CRY_VULPIX,       79,  144 ; VULPIX
 	mon_cry CRY_VULPIX,      136,  224 ; NINETALES
-	mon_cry CRY_PIDGEY,      255,  181 ; JIGGLYPUFF
+	mon_cry CRY_PIDGEY,      255,  181 ; CANDLEMON
 	mon_cry CRY_PIDGEY,      104,  224 ; WIGGLYTUFF
 	mon_cry CRY_SQUIRTLE,    224,  256 ; PAGUMON
 	mon_cry CRY_SQUIRTLE,    250,  256 ; DEMDEVIMON

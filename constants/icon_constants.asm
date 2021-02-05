@@ -2,7 +2,7 @@
 	const_def
 	const ICON_NULL
 	const ICON_POLIWAG
-	const ICON_JIGGLYPUFF
+	const ICON_CANDLEMON
 	const ICON_DIGLETT
 	const ICON_PIKACHU
 	const ICON_STARYU

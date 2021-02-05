@@ -39,7 +39,7 @@ EvosAttacksPointers::
 	dw ClefableEvosAttacks
 	dw VulpixEvosAttacks
 	dw NinetalesEvosAttacks
-	dw JigglypuffEvosAttacks
+	dw CandlemonEvosAttacks
 	dw WigglytuffEvosAttacks
 	dw PagumonEvosAttacks
 	dw DemdevimonEvosAttacks

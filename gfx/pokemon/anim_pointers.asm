@@ -37,7 +37,7 @@ AnimationPointers:
 	dw ClefableAnimation
 	dw VulpixAnimation
 	dw NinetalesAnimation
-	dw JigglypuffAnimation
+	dw CandlemonAnimation
 	dw WigglytuffAnimation
 	dw PagumonAnimation
 	dw DemdevimonAnimation

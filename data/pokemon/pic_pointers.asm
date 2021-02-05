@@ -78,8 +78,8 @@ PokemonPicPointers::
 	dba_pic VulpixBackpic
 	dba_pic NinetalesFrontpic
 	dba_pic NinetalesBackpic
-	dba_pic JigglypuffFrontpic
-	dba_pic JigglypuffBackpic
+	dba_pic CandlemonFrontpic
+	dba_pic CandlemonBackpic
 	dba_pic WigglytuffFrontpic
 	dba_pic WigglytuffBackpic
 	dba_pic PagumonFrontpic

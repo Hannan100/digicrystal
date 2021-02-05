@@ -279,7 +279,7 @@ KantoGrassWildMons:
 	db 13, ELECMON
 	db 15, PIDGEOTTO
 	db 12, ABRA
-	db 14, JIGGLYPUFF
+	db 14, CANDLEMON
 	db 14, ABRA
 	db 14, ABRA
 	; day
@@ -287,7 +287,7 @@ KantoGrassWildMons:
 	db 13, ELECMON
 	db 15, PIDGEOTTO
 	db 12, ABRA
-	db 14, JIGGLYPUFF
+	db 14, CANDLEMON
 	db 14, ABRA
 	db 14, ABRA
 	; nite
@@ -295,7 +295,7 @@ KantoGrassWildMons:
 	db 13, MEOWTH
 	db 15, HAWKMON
 	db 12, ABRA
-	db 14, JIGGLYPUFF
+	db 14, CANDLEMON
 	db 14, ABRA
 	db 14, ABRA
 
@@ -306,7 +306,7 @@ KantoGrassWildMons:
 	db 13, ELECMON
 	db 14, HAGURUMON
 	db 15, RATICATE
-	db 12, JIGGLYPUFF
+	db 12, CANDLEMON
 	db 15, GRANBULL
 	db 15, GRANBULL
 	; day
@@ -314,7 +314,7 @@ KantoGrassWildMons:
 	db 13, ELECMON
 	db 14, HAGURUMON
 	db 15, RATICATE
-	db 12, JIGGLYPUFF
+	db 12, CANDLEMON
 	db 15, GRANBULL
 	db 15, GRANBULL
 	; nite
@@ -322,7 +322,7 @@ KantoGrassWildMons:
 	db 13, DROWZEE
 	db 14, HAGURUMON
 	db 15, PSYDUCK
-	db 12, JIGGLYPUFF
+	db 12, CANDLEMON
 	db 15, RATICATE
 	db 15, RATICATE
 
@@ -333,7 +333,7 @@ KantoGrassWildMons:
 	db 17, TOKOOMON
 	db 18, ELECMON
 	db 18, RATICATE
-	db 18, JIGGLYPUFF
+	db 18, CANDLEMON
 	db 16, ABRA
 	db 16, ABRA
 	; day
@@ -341,7 +341,7 @@ KantoGrassWildMons:
 	db 17, TOKOOMON
 	db 18, ELECMON
 	db 18, RATICATE
-	db 18, JIGGLYPUFF
+	db 18, CANDLEMON
 	db 16, ABRA
 	db 16, ABRA
 	; nite
@@ -349,7 +349,7 @@ KantoGrassWildMons:
 	db 17, MURKROW
 	db 18, HOUNDOUR
 	db 18, PERSIAN
-	db 18, JIGGLYPUFF
+	db 18, CANDLEMON
 	db 16, ABRA
 	db 16, ABRA
 
@@ -360,7 +360,7 @@ KantoGrassWildMons:
 	db 19, PIDGEOTTO
 	db 16, ABRA
 	db 17, GROWLITHE
-	db 16, JIGGLYPUFF
+	db 16, CANDLEMON
 	db 18, KADABRA
 	db 18, KADABRA
 	; day
@@ -368,7 +368,7 @@ KantoGrassWildMons:
 	db 19, PIDGEOTTO
 	db 16, ABRA
 	db 17, GROWLITHE
-	db 16, JIGGLYPUFF
+	db 16, CANDLEMON
 	db 18, KADABRA
 	db 18, KADABRA
 	; nite
@@ -376,7 +376,7 @@ KantoGrassWildMons:
 	db 20, HAWKMON
 	db 16, ABRA
 	db 17, HAUNTER
-	db 16, JIGGLYPUFF
+	db 16, CANDLEMON
 	db 18, KADABRA
 	db 18, KADABRA
 

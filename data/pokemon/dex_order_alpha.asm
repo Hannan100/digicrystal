@@ -94,7 +94,7 @@ AlphabeticalPokedexOrder:
 	db HYPNO
 	db IGGLYBUFF
 	db PUNIMON
-	db JIGGLYPUFF
+	db CANDLEMON
 	db JOLTEON
 	db JUMPLUFF
 	db JYNX

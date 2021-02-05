@@ -98,7 +98,7 @@ Pokered_MonIndices:
 	db SANDSLASH
 	db OMANYTE
 	db OMASTAR
-	db JIGGLYPUFF
+	db CANDLEMON
 	db WIGGLYTUFF
 	db EEVEE
 	db FLAREON

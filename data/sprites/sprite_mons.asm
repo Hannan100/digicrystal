@@ -20,7 +20,7 @@ SpriteMons:
 	db JYNX
 	db STARMIE
 	db NYOKOMON
-	db JIGGLYPUFF
+	db CANDLEMON
 	db GRIMER
 	db GAZIMON
 	db MUSHROOMON

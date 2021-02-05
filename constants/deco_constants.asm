@@ -88,7 +88,7 @@ ENDM
 	deco  TOWN_MAP
 	deco  PIKACHU_POSTER
 	deco  CLEFAIRY_POSTER
-	deco  JIGGLYPUFF_POSTER
+	deco  CANDLEMON_POSTER
 ; FindOwnedConsoles.consoles values (see engine/overworld/decorations.asm)
 	const CONSOLES
 	deco  FAMICOM
@@ -105,7 +105,7 @@ ENDM
 	deco  PIKACHU_DOLL
 	deco  SURF_PIKACHU_DOLL
 	deco  CLEFAIRY_DOLL
-	deco  JIGGLYPUFF_DOLL
+	deco  CANDLEMON_DOLL
 	deco  NYOKOMON_DOLL
 	deco  GUILMON_DOLL
 	deco  SQUIRTLE_DOLL

@@ -37,7 +37,7 @@ FramesPointers:
 	dw ClefableFrames
 	dw VulpixFrames
 	dw NinetalesFrames
-	dw JigglypuffFrames
+	dw CandlemonFrames
 	dw WigglytuffFrames
 	dw PagumonFrames
 	dw DemdevimonFrames

@@ -1332,7 +1332,7 @@ JohtoGrassWildMons:
 	db 11, TSUNOMON
 	db 12, PIDGEY
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, CANDLEMON
 	db 10, DITTO
 	db 10, DITTO
 	; day
@@ -1340,7 +1340,7 @@ JohtoGrassWildMons:
 	db 11, TSUNOMON
 	db 12, PIDGEY
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, CANDLEMON
 	db 10, DITTO
 	db 10, DITTO
 	; nite
@@ -1348,7 +1348,7 @@ JohtoGrassWildMons:
 	db 11, TSUNOMON
 	db 12,POROMON
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, CANDLEMON
 	db 10, DITTO
 	db 10, DITTO
 
@@ -1359,7 +1359,7 @@ JohtoGrassWildMons:
 	db 14, PIDGEY
 	db 13, GROWLITHE
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, CANDLEMON
 	db 10, DITTO
 	db 12, YANMA
 	; day
@@ -1367,7 +1367,7 @@ JohtoGrassWildMons:
 	db 14, PIDGEY
 	db 13, GROWLITHE
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, CANDLEMON
 	db 10, DITTO
 	db 12, YANMA
 	; nite
@@ -1375,7 +1375,7 @@ JohtoGrassWildMons:
 	db 14,POROMON
 	db 13, PSYDUCK
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, CANDLEMON
 	db 10, DITTO
 	db 12, YANMA
 

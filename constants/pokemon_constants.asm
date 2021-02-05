@@ -57,7 +57,7 @@
 	const CLEFABLE   ; 24
 	const VULPIX     ; 25
 	const NINETALES  ; 26
-	const JIGGLYPUFF ; 27
+	const CANDLEMON ; 27
 	const WIGGLYTUFF ; 28
 	const PAGUMON      ; 29
 	const DEMDEVIMON     ; 2a
