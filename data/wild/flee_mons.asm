@@ -13,7 +13,7 @@ SometimesFleeMons:
 	db VEEMON
 	db UMBREON
 	db UNOWN
-	db SNUBBULL
+	db ELECMON
 	db HERACROSS
 	db -1
 

@@ -209,7 +209,7 @@ EvosAttacksPointers::
 	dw DunsparceEvosAttacks
 	dw GligarEvosAttacks
 	dw SteelixEvosAttacks
-	dw SnubbullEvosAttacks
+	dw ElecmonEvosAttacks
 	dw GranbullEvosAttacks
 	dw QwilfishEvosAttacks
 	dw ScizorEvosAttacks

@@ -1328,7 +1328,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_34
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 10, SNUBBULL
+	db 10, ELECMON
 	db 11, TSUNOMON
 	db 12, PIDGEY
 	db 10, ABRA
@@ -1336,7 +1336,7 @@ JohtoGrassWildMons:
 	db 10, DITTO
 	db 10, DITTO
 	; day
-	db 10, SNUBBULL
+	db 10, ELECMON
 	db 11, TSUNOMON
 	db 12, PIDGEY
 	db 10, ABRA
@@ -1355,7 +1355,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, SNUBBULL
+	db 12, ELECMON
 	db 14, PIDGEY
 	db 13, GROWLITHE
 	db 10, ABRA
@@ -1363,7 +1363,7 @@ JohtoGrassWildMons:
 	db 10, DITTO
 	db 12, YANMA
 	; day
-	db 12, SNUBBULL
+	db 12, ELECMON
 	db 14, PIDGEY
 	db 13, GROWLITHE
 	db 10, ABRA

@@ -207,7 +207,7 @@ PokemonNames::
 	db "DUNSPARCE@" ; !Toucanmon
 	db "GLIGAR@@@@" ; !Peacockmon
 	db "STEELIX@@@"
-	db "SNUBBULL@@"
+	db "ELECMON@@"
 	db "GRANBULL@@"
 	db "QWILFISH@@"
 	db "SCIZOR@@@@"

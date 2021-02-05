@@ -206,7 +206,7 @@ AlphabeticalPokedexOrder:
 	db SMOOCHUM
 	db SNEASEL
 	db SNORLAX
-	db SNUBBULL
+	db ELECMON
 	db TOKOOMON
 	db KOKOMON
 	db SQUIRTLE

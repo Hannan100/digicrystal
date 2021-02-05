@@ -214,7 +214,7 @@ PokemonCries::
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; DUNSPARCE
 	mon_cry CRY_GLIGAR,     -$102,  $100 ; GLIGAR
 	mon_cry CRY_TYPHLOSION,  $0ef,  $0f7 ; STEELIX
-	mon_cry CRY_DUNSPARCE,   $112,  $0e8 ; SNUBBULL
+	mon_cry CRY_DUNSPARCE,   $112,  $0e8 ; ELECMON
 	mon_cry CRY_DUNSPARCE,   $000,  $180 ; GRANBULL
 	mon_cry CRY_SLOWKING,    $160,  $0e0 ; QWILFISH
 	mon_cry CRY_AMPHAROS,    $000,  $160 ; SCIZOR
@@ -470,7 +470,7 @@ PokemonCries::
 	mon_cry CRY_DUNSPARCE,   452,  256 ; DUNSPARCE
 	mon_cry CRY_GLIGAR,     -258,  256 ; GLIGAR
 	mon_cry CRY_TYPHLOSION,  239,  247 ; STEELIX
-	mon_cry CRY_DUNSPARCE,   274,  232 ; SNUBBULL
+	mon_cry CRY_DUNSPARCE,   274,  232 ; ELECMON
 	mon_cry CRY_DUNSPARCE,     0,  384 ; GRANBULL
 	mon_cry CRY_SLOWKING,    352,  224 ; QWILFISH
 	mon_cry CRY_AMPHAROS,      0,  352 ; SCIZOR

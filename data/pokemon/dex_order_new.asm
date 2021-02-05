@@ -123,7 +123,7 @@ NewPokedexOrder:
 	db VOLTORB
 	db ELECTRODE
 	db AIPOM
-	db SNUBBULL
+	db ELECMON
 	db GRANBULL
 	db VULPIX
 	db NINETALES

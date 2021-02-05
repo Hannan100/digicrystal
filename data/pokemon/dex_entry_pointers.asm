@@ -208,7 +208,7 @@ PokedexDataPointerTable:
 	dw DunsparcePokedexEntry
 	dw GligarPokedexEntry
 	dw SteelixPokedexEntry
-	dw SnubbullPokedexEntry
+	dw ElecmonPokedexEntry
 	dw GranbullPokedexEntry
 	dw QwilfishPokedexEntry
 	dw ScizorPokedexEntry

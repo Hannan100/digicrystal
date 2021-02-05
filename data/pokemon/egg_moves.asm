@@ -647,7 +647,7 @@ GligarEggMoves:
 	db COUNTER
 	db -1 ; end
 
-SnubbullEggMoves:
+ElecmonEggMoves:
 	db METRONOME
 	db FAINT_ATTACK
 	db REFLECT

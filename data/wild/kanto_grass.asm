@@ -276,7 +276,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 13, PIDGEY
-	db 13, SNUBBULL
+	db 13, ELECMON
 	db 15, PIDGEOTTO
 	db 12, ABRA
 	db 14, JIGGLYPUFF
@@ -284,7 +284,7 @@ KantoGrassWildMons:
 	db 14, ABRA
 	; day
 	db 13, PIDGEY
-	db 13, SNUBBULL
+	db 13, ELECMON
 	db 15, PIDGEOTTO
 	db 12, ABRA
 	db 14, JIGGLYPUFF
@@ -303,7 +303,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 13, TSUNOMON
-	db 13, SNUBBULL
+	db 13, ELECMON
 	db 14, HAGURUMON
 	db 15, RATICATE
 	db 12, JIGGLYPUFF
@@ -311,7 +311,7 @@ KantoGrassWildMons:
 	db 15, GRANBULL
 	; day
 	db 13, TSUNOMON
-	db 13, SNUBBULL
+	db 13, ELECMON
 	db 14, HAGURUMON
 	db 15, RATICATE
 	db 12, JIGGLYPUFF
@@ -331,7 +331,7 @@ KantoGrassWildMons:
 	; morn
 	db 17, TSUNOMON
 	db 17, TOKOOMON
-	db 18, SNUBBULL
+	db 18, ELECMON
 	db 18, RATICATE
 	db 18, JIGGLYPUFF
 	db 16, ABRA
@@ -339,7 +339,7 @@ KantoGrassWildMons:
 	; day
 	db 17, TSUNOMON
 	db 17, TOKOOMON
-	db 18, SNUBBULL
+	db 18, ELECMON
 	db 18, RATICATE
 	db 18, JIGGLYPUFF
 	db 16, ABRA
@@ -356,7 +356,7 @@ KantoGrassWildMons:
 	map_id ROUTE_8
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 17, SNUBBULL
+	db 17, ELECMON
 	db 19, PIDGEOTTO
 	db 16, ABRA
 	db 17, GROWLITHE
@@ -364,7 +364,7 @@ KantoGrassWildMons:
 	db 18, KADABRA
 	db 18, KADABRA
 	; day
-	db 17, SNUBBULL
+	db 17, ELECMON
 	db 19, PIDGEOTTO
 	db 16, ABRA
 	db 17, GROWLITHE
