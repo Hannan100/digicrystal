@@ -123,7 +123,7 @@ CherrygroveSilverSceneNorth:
 	loadtrainer RIVAL1, RIVAL1_1_BUKAMON
 	writecode VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 =======
-	loadtrainer RIVAL1, RIVAL1_1_TOTODILE
+	loadtrainer RIVAL1, RIVAL1_1_BUKAMON
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 >>>>>>> pret/master
 	startbattle

@@ -419,9 +419,9 @@ PokemonCries::
 	mon_cry CRY_KOROMON,   839,  128 ; KOROMON
 	mon_cry CRY_KOROMON,   801,  288 ; QUILAVA
 	mon_cry CRY_TYPHLOSION, 3840,  212 ; TYPHLOSION
-	mon_cry CRY_TOTODILE,   1132,  232 ; TOTODILE
-	mon_cry CRY_TOTODILE,   1088,  272 ; CROCONAW
-	mon_cry CRY_TOTODILE,   1020,  384 ; FERALIGATR
+	mon_cry CRY_BUKAMON,   1132,  232 ; BUKAMON
+	mon_cry CRY_BUKAMON,   1088,  272 ; CROCONAW
+	mon_cry CRY_BUKAMON,   1020,  384 ; FERALIGATR
 	mon_cry CRY_NYAROMON,     138,  184 ; NYAROMON
 	mon_cry CRY_NYAROMON,     107,  258 ; FURRET
 	mon_cry CRY_POROMON,    145,  216 ; POROMON
@@ -454,7 +454,7 @@ PokemonCries::
 	mon_cry CRY_AIPOM,       -81,  232 ; AIPOM
 	mon_cry CRY_MARILL,      299,  184 ; SUNKERN
 	mon_cry CRY_SUNFLORA,    -32,  384 ; SUNFLORA
-	mon_cry CRY_TOTODILE,     49,  200 ; YANMA
+	mon_cry CRY_BUKAMON,     49,  200 ; YANMA
 	mon_cry CRY_WOOPER,      147,  175 ; WOOPER
 	mon_cry CRY_WOOPER,     -198,  320 ; QUAGSIRE
 	mon_cry CRY_AIPOM,       162,  320 ; ESPEON
@@ -485,12 +485,12 @@ PokemonCries::
 	mon_cry CRY_MAGCARGO,   -265,  256 ; PILOSWINE
 	mon_cry CRY_MAGCARGO,    161,  232 ; CORSOLA
 	mon_cry CRY_SUNFLORA,     13,  256 ; REMORAID
-	mon_cry CRY_TOTODILE,      0,  384 ; OCTILLERY
+	mon_cry CRY_BUKAMON,      0,  384 ; OCTILLERY
 	mon_cry CRY_TEDDIURSA,     2,  106 ; DELIBIRD
 	mon_cry CRY_MANTINE,    -190,  240 ; MANTINE
 	mon_cry CRY_AMPHAROS,   2217,  384 ; SKARMORY
 	mon_cry CRY_KOROMON,    57,  320 ; HOUNDOUR
-	mon_cry CRY_TOTODILE,   -266,  256 ; HOUNDOOM
+	mon_cry CRY_BUKAMON,   -266,  256 ; HOUNDOOM
 	mon_cry CRY_SLUGMA,      763,  256 ; KINGDRA
 	mon_cry CRY_NYAROMON,      72,  560 ; PHANPY
 	mon_cry CRY_DONPHAN,       0,  416 ; DONPHAN

@@ -250,14 +250,14 @@ BukamonPokeBallScript:
 	applymovement PLAYER, AfterBukamonMovement
 	jump ElmDirectionsScript
 =======
-	getmonname STRING_BUFFER_3, TOTODILE
+	getmonname STRING_BUFFER_3, BUKAMON
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke TOTODILE, 5, BERRY
+	givepoke BUKAMON, 5, BERRY
 	closetext
-	applymovement PLAYER, AfterTotodileMovement
+	applymovement PLAYER, AfterBukamonMovement
 	sjump ElmDirectionsScript
 >>>>>>> pret/master
 

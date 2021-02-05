@@ -170,11 +170,11 @@ Cry_Bukamon:
 	musicheader 1, 6, Cry_Bukamon_Ch6
 	musicheader 1, 8, Cry_Bukamon_Ch8
 =======
-Cry_Totodile:
+Cry_Bukamon:
 	channel_count 3
-	channel 5, Cry_Totodile_Ch5
-	channel 6, Cry_Totodile_Ch6
-	channel 8, Cry_Totodile_Ch8
+	channel 5, Cry_Bukamon_Ch5
+	channel 6, Cry_Bukamon_Ch6
+	channel 8, Cry_Bukamon_Ch8
 >>>>>>> pret/master
 
 Cry_Cleffa:
@@ -971,7 +971,7 @@ Cry_Bukamon_Ch8:
 	noise C#,  9, $d3, $6e
 	endchannel
 =======
-Cry_Totodile_Ch5:
+Cry_Bukamon_Ch5:
 	duty_cycle_pattern 0, 3, 0, 2
 	square_note 8, 15, 8, 816
 	square_note 8, 15, 8, 832
@@ -980,7 +980,7 @@ Cry_Totodile_Ch5:
 	square_note 32, 11, 2, 1972
 	sound_ret
 
-Cry_Totodile_Ch6:
+Cry_Bukamon_Ch6:
 	duty_cycle_pattern 0, 1, 0, 2
 	square_note 8, 14, 8, 800
 	square_note 8, 14, 8, 808
@@ -989,7 +989,7 @@ Cry_Totodile_Ch6:
 	square_note 32, 7, 2, 1924
 	sound_ret
 
-Cry_Totodile_Ch8:
+Cry_Bukamon_Ch8:
 	noise_note 2, 11, -6, 73
 	noise_note 5, 11, -6, 58
 	noise_note 2, 11, -6, 41

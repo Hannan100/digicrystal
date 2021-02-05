@@ -351,8 +351,8 @@ INCLUDE "gfx/pokemon/gomamon/normal.pal"
 INCLUDE "gfx/pokemon/gomamon/shiny.pal"
 INCLUDE "gfx/pokemon/feraligatr/normal.pal"
 =======
-INCBIN "gfx/pokemon/totodile/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/totodile/shiny.pal"
+INCBIN "gfx/pokemon/bukamon/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/bukamon/shiny.pal"
 INCBIN "gfx/pokemon/croconaw/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/croconaw/shiny.pal"
 INCBIN "gfx/pokemon/feraligatr/front.gbcpal", middle_colors
