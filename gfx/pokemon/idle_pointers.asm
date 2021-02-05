@@ -91,7 +91,7 @@ AnimationIdlePointers:
 	dw ShellderAnimationIdle
 	dw CloysterAnimationIdle
 	dw TsumemonAnimationIdle
-	dw HaunterAnimationIdle
+	dw KeramonAnimationIdle
 	dw GengarAnimationIdle
 	dw OnixAnimationIdle
 	dw DrowzeeAnimationIdle

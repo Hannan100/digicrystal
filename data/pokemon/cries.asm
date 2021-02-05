@@ -98,7 +98,7 @@ PokemonCries::
 	mon_cry CRY_FEAROW,      $000,  $100 ; SHELLDER
 	mon_cry CRY_FEAROW,      $06f,  $160 ; CLOYSTER
 	mon_cry CRY_WORMMON,     $000,  $100 ; TSUMEMON
-	mon_cry CRY_WORMMON,     $030,  $0c0 ; HAUNTER
+	mon_cry CRY_WORMMON,     $030,  $0c0 ; KERAMON
 	mon_cry CRY_MUK,         $000,  $17f ; GENGAR
 	mon_cry CRY_GAZIMON,       $0ff,  $140 ; ONIX
 	mon_cry CRY_DROWZEE,     $088,  $0a0 ; DROWZEE
@@ -354,7 +354,7 @@ PokemonCries::
 	mon_cry CRY_FEAROW,        0,  256 ; SHELLDER
 	mon_cry CRY_FEAROW,      111,  352 ; CLOYSTER
 	mon_cry CRY_WORMMON,       0,  256 ; TSUMEMON
-	mon_cry CRY_WORMMON,      48,  192 ; HAUNTER
+	mon_cry CRY_WORMMON,      48,  192 ; KERAMON
 	mon_cry CRY_MUK,           0,  383 ; GENGAR
 	mon_cry CRY_GAZIMON,       255,  320 ; ONIX
 	mon_cry CRY_DROWZEE,     136,  160 ; DROWZEE

@@ -61,7 +61,7 @@ GoldenrodDeptStore4FGameboyKidText:
 	para "I know of four:"
 	line "MACHOKE, KADABRA,"
 
-	para "HAUNTER and, um,"
+	para "KERAMON and, um,"
 	line "GRAVELER."
 
 	para "I heard there are"

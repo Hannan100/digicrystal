@@ -212,7 +212,7 @@ INCBIN "gfx/footprints/muk.1bpp",        footprint_top
 INCBIN "gfx/footprints/shellder.1bpp",   footprint_top
 INCBIN "gfx/footprints/cloyster.1bpp",   footprint_top
 INCBIN "gfx/footprints/tsumemon.1bpp",     footprint_top
-INCBIN "gfx/footprints/haunter.1bpp",    footprint_top
+INCBIN "gfx/footprints/keramon.1bpp",    footprint_top
 INCBIN "gfx/footprints/gengar.1bpp",     footprint_top
 INCBIN "gfx/footprints/onix.1bpp",       footprint_top
 INCBIN "gfx/footprints/drowzee.1bpp",    footprint_top
@@ -221,7 +221,7 @@ INCBIN "gfx/footprints/muk.1bpp",        footprint_bottom
 INCBIN "gfx/footprints/shellder.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/cloyster.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/tsumemon.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/haunter.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/keramon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/gengar.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/onix.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/drowzee.1bpp",    footprint_bottom

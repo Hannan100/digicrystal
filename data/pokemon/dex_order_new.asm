@@ -59,7 +59,7 @@ NewPokedexOrder:
 	db WOOPER
 	db QUAGSIRE
 	db TSUMEMON
-	db HAUNTER
+	db KERAMON
 	db GENGAR
 	db UNOWN
 	db ONIX

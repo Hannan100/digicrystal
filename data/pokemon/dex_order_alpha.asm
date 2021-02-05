@@ -80,7 +80,7 @@ AlphabeticalPokedexOrder:
 	db GRIMER
 	db GROWLITHE
 	db GYARADOS
-	db HAUNTER
+	db KERAMON
 	db HERACROSS
 	db HITMONCHAN
 	db HITMONLEE

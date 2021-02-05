@@ -93,7 +93,7 @@ MonMenuIcons:
 	db ICON_SHELL       ; SHELLDER
 	db ICON_SHELL       ; CLOYSTER
 	db ICON_GHOST       ; TSUMEMON
-	db ICON_GHOST       ; HAUNTER
+	db ICON_GHOST       ; KERAMON
 	db ICON_GHOST       ; GENGAR
 	db ICON_SERPENT     ; ONIX
 	db ICON_HUMANSHAPE  ; DROWZEE

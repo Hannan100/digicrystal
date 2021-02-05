@@ -78,7 +78,7 @@ KantoGrassWildMons:
 	db 12, PAGUMON
 	db 11, GEODUDE
 	db 12, GEODUDE
-	db 17, HAUNTER
+	db 17, KERAMON
 	db 15, PAGUMON
 	db 15, PAGUMON
 	db 15, PAGUMON
@@ -106,7 +106,7 @@ KantoGrassWildMons:
 	db 14, GEODUDE
 	db 16, ONIX
 	db 15, PAGUMON
-	db 15, HAUNTER
+	db 15, KERAMON
 	db 15, DEMDEVIMON
 	db 15, DEMDEVIMON
 
@@ -375,7 +375,7 @@ KantoGrassWildMons:
 	db 17, MEOWTH
 	db 20, HAWKMON
 	db 16, ABRA
-	db 17, HAUNTER
+	db 17, KERAMON
 	db 16, CANDLEMON
 	db 18, KADABRA
 	db 18, KADABRA
