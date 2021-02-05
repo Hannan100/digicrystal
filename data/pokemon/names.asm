@@ -12,7 +12,7 @@ PokemonNames::
 	db "WORMMON@@@" ; !Stingmon
 	db "BUTTERFREE" ; !Armor evo
 	db "MOTIMON@@@@" ; !Armor evo
-	db "KAKUNA@@@@"
+	db "TENTOMON@@@@"
 	db "BEEDRILL@@"
 	db "PIDGEY@@@@" ; !Biyomon
 	db "PIDGEOTTO@" ; !Birdramon

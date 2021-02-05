@@ -19,7 +19,7 @@ PokemonCries::
 	mon_cry CRY_WORMMON,     $0cc,  $081 ; WORMMON
 	mon_cry CRY_MINOMON,    $077,  $0c0 ; BUTTERFREE
 	mon_cry CRY_MOTIMON,      $0ee,  $081 ; MOTIMON
-	mon_cry CRY_BLASTOISE,   $0ff,  $081 ; KAKUNA
+	mon_cry CRY_BLASTOISE,   $0ff,  $081 ; TENTOMON
 	mon_cry CRY_BLASTOISE,   $060,  $100 ; BEEDRILL
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; PIDGEY
 	mon_cry CRY_PIDGEOTTO,   $028,  $140 ; PIDGEOTTO
@@ -275,7 +275,7 @@ PokemonCries::
 	mon_cry CRY_WORMMON,     204,  129 ; WORMMON
 	mon_cry CRY_MINOMON,    119,  192 ; BUTTERFREE
 	mon_cry CRY_MOTIMON,      238,  129 ; MOTIMON
-	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
+	mon_cry CRY_BLASTOISE,   255,  129 ; TENTOMON
 	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL
 	mon_cry CRY_PIDGEY,      223,  132 ; PIDGEY
 	mon_cry CRY_PIDGEOTTO,    40,  320 ; PIDGEOTTO

@@ -14,7 +14,7 @@ KantoMonSpecials:
 	db  25 ; WORMMON
 	db  80 ; BUTTERFREE
 	db  20 ; MOTIMON
-	db  25 ; KAKUNA
+	db  25 ; TENTOMON
 	db  45 ; BEEDRILL
 	db  35 ; PIDGEY
 	db  50 ; PIDGEOTTO

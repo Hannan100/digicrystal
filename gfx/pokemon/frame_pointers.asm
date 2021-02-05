@@ -12,7 +12,7 @@ FramesPointers:
 	dw WormmonFrames
 	dw ButterfreeFrames
 	dw MotimonFrames
-	dw KakunaFrames
+	dw TentomonFrames
 	dw BeedrillFrames
 	dw PidgeyFrames
 	dw PidgeottoFrames

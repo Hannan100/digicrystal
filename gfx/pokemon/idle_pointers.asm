@@ -12,7 +12,7 @@ AnimationIdlePointers:
 	dw WormmonAnimationIdle
 	dw ButterfreeAnimationIdle
 	dw MotimonAnimationIdle
-	dw KakunaAnimationIdle
+	dw TentomonAnimationIdle
 	dw BeedrillAnimationIdle
 	dw PidgeyAnimationIdle
 	dw PidgeottoAnimationIdle

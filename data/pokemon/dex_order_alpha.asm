@@ -101,7 +101,7 @@ AlphabeticalPokedexOrder:
 	db KABUTO
 	db KABUTOPS
 	db KADABRA
-	db KAKUNA
+	db TENTOMON
 	db KANGASKHAN
 	db KINGDRA
 	db KINGLER

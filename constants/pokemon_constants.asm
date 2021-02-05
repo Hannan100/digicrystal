@@ -32,7 +32,7 @@
 	const WORMMON    ; 0b
 	const BUTTERFREE ; 0c
 	const MOTIMON     ; 0d
-	const KAKUNA     ; 0e
+	const TENTOMON     ; 0e
 	const BEEDRILL   ; 0f
 	const PIDGEY     ; 10
 	const PIDGEOTTO  ; 11

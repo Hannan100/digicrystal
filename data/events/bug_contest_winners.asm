@@ -20,7 +20,7 @@ BugContestantPointers:
 
 BugContestant_BugCatcherDon:
 	db BUG_CATCHER, DON
-	dbw KAKUNA,     300
+	dbw TENTOMON,     300
 	dbw WORMMON,    285
 	dbw WORMMON,   226
 
@@ -52,7 +52,7 @@ BugContestant_CamperBarry:
 	db CAMPER, BARRY
 	dbw PINSIR,     366
 	dbw VENONAT,    329
-	dbw KAKUNA,     314
+	dbw TENTOMON,     314
 
 BugContestant_PicnickerCindy:
 	db PICNICKER, CINDY
@@ -76,4 +76,4 @@ BugContestant_SchoolboyKipp:
 	db SCHOOLBOY, KIPP
 	dbw VENONAT,    267
 	dbw PARAS,      254
-	dbw KAKUNA,     259
+	dbw TENTOMON,     259

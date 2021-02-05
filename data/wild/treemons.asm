@@ -120,7 +120,7 @@ TreeMonSet_Forest:
 	db 15, MOTIMON,     10
 	db 10, POROMON,   10
 	db  5, WORMMON,    10
-	db  5, KAKUNA,     10
+	db  5, TENTOMON,     10
 	db -1
 
 TreeMonSet_Rock:

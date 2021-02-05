@@ -12,7 +12,7 @@ AnimationPointers:
 	dw WormmonAnimation
 	dw ButterfreeAnimation
 	dw MotimonAnimation
-	dw KakunaAnimation
+	dw TentomonAnimation
 	dw BeedrillAnimation
 	dw PidgeyAnimation
 	dw PidgeottoAnimation

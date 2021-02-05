@@ -28,7 +28,7 @@ NewPokedexOrder:
 	db WORMMON
 	db BUTTERFREE
 	db MOTIMON
-	db KAKUNA
+	db TENTOMON
 	db BEEDRILL
 	db GUMMYMON
 	db LEDIAN

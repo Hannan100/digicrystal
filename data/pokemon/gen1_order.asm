@@ -111,7 +111,7 @@ Pokered_MonIndices:
 	db POLIWHIRL
 	db POLIWRATH
 	db MOTIMON
-	db KAKUNA
+	db TENTOMON
 	db BEEDRILL
 	db HOUNDOOM ; MISSINGNO.
 	db DODRIO

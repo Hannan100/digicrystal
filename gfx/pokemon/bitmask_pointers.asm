@@ -12,7 +12,7 @@ BitmasksPointers:
 	dw WormmonBitmasks
 	dw ButterfreeBitmasks
 	dw MotimonBitmasks
-	dw KakunaBitmasks
+	dw TentomonBitmasks
 	dw BeedrillBitmasks
 	dw PidgeyBitmasks
 	dw PidgeottoBitmasks

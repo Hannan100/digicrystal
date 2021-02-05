@@ -14,7 +14,7 @@ EvosAttacksPointers::
 	dw WormmonEvosAttacks
 	dw ButterfreeEvosAttacks
 	dw MotimonEvosAttacks
-	dw KakunaEvosAttacks
+	dw TentomonEvosAttacks
 	dw BeedrillEvosAttacks
 	dw PidgeyEvosAttacks
 	dw PidgeottoEvosAttacks

@@ -13,7 +13,7 @@ PokedexDataPointerTable:
 	dw WormmonPokedexEntry
 	dw ButterfreePokedexEntry
 	dw MotimonPokedexEntry
-	dw KakunaPokedexEntry
+	dw TentomonPokedexEntry
 	dw BeedrillPokedexEntry
 	dw PidgeyPokedexEntry
 	dw PidgeottoPokedexEntry

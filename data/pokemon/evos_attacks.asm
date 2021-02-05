@@ -198,13 +198,13 @@ ButterfreeEvosAttacks:
 	db 0 ; no more level-up moves
 
 MotimonEvosAttacks:
-	db EVOLVE_LEVEL, 7, KAKUNA
+	db EVOLVE_LEVEL, 7, TENTOMON
 	db 0 ; no more evolutions
 	db 1, POISON_STING
 	db 1, STRING_SHOT
 	db 0 ; no more level-up moves
 
-KakunaEvosAttacks:
+TentomonEvosAttacks:
 	db EVOLVE_LEVEL, 10, BEEDRILL
 	db 0 ; no more evolutions
 	db 1, HARDEN
