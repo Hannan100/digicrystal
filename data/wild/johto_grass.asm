@@ -547,7 +547,7 @@ JohtoGrassWildMons:
 	; morn
 	db 5, MINOMON
 	db 5, MOTIMON
-	db 7, METAPOD
+	db 7, WORMMON
 	db 7, KAKUNA
 	db 7, PIDGEY
 	db 6, PARAS
@@ -555,7 +555,7 @@ JohtoGrassWildMons:
 	; day
 	db 5, MINOMON
 	db 5, MOTIMON
-	db 7, METAPOD
+	db 7, WORMMON
 	db 7, KAKUNA
 	db 7, PIDGEY
 	db 6, PARAS

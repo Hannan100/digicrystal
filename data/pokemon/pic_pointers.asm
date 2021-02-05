@@ -22,8 +22,8 @@ PokemonPicPointers::
 	dba_pic BlastoiseBackpic
 	dba_pic MinomonFrontpic
 	dba_pic MinomonBackpic
-	dba_pic MetapodFrontpic
-	dba_pic MetapodBackpic
+	dba_pic WormmonFrontpic
+	dba_pic WormmonBackpic
 	dba_pic ButterfreeFrontpic
 	dba_pic ButterfreeBackpic
 	dba_pic MotimonFrontpic

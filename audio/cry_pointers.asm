@@ -27,7 +27,7 @@ Cries:
 	dba Cry_Clefairy
 	dba Cry_Venonat
 	dba Cry_Lapras
-	dba Cry_Metapod
+	dba Cry_Wormmon
 	dba Cry_Squirtle
 	dba Cry_Paras
 	dba Cry_Growlithe

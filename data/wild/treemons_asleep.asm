@@ -2,7 +2,7 @@
 
 AsleepTreeMonsNite:
 	db MINOMON
-	db METAPOD
+	db WORMMON
 	db BUTTERFREE
 	db MOTIMON
 	db KAKUNA

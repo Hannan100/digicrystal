@@ -9,7 +9,7 @@ PokemonNames::
 	db "WARTORTLE@"
 	db "BLASTOISE@"
 	db "MINOMON@@@" ; Minomon
-	db "METAPOD@@@" ; !Stingmon
+	db "WORMMON@@@" ; !Stingmon
 	db "BUTTERFREE" ; !Armor evo
 	db "MOTIMON@@@@" ; !Armor evo
 	db "KAKUNA@@@@"

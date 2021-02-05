@@ -10,7 +10,7 @@ PokedexDataPointerTable:
 	dw WartortlePokedexEntry
 	dw BlastoisePokedexEntry
 	dw MinomonPokedexEntry
-	dw MetapodPokedexEntry
+	dw WormmonPokedexEntry
 	dw ButterfreePokedexEntry
 	dw MotimonPokedexEntry
 	dw KakunaPokedexEntry

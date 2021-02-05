@@ -16,7 +16,7 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,    $020,  $0c0 ; WARTORTLE
 	mon_cry CRY_BLASTOISE,   $000,  $100 ; BLASTOISE
 	mon_cry CRY_MINOMON,    $080,  $0a0 ; MINOMON
-	mon_cry CRY_METAPOD,     $0cc,  $081 ; METAPOD
+	mon_cry CRY_WORMMON,     $0cc,  $081 ; WORMMON
 	mon_cry CRY_MINOMON,    $077,  $0c0 ; BUTTERFREE
 	mon_cry CRY_MOTIMON,      $0ee,  $081 ; MOTIMON
 	mon_cry CRY_BLASTOISE,   $0ff,  $081 ; KAKUNA
@@ -68,9 +68,9 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      $0ff,  $17f ; POLIWAG
 	mon_cry CRY_PIDGEY,      $077,  $0e0 ; POLIWHIRL
 	mon_cry CRY_PIDGEY,      $000,  $17f ; POLIWRATH
-	mon_cry CRY_METAPOD,     $0c0,  $081 ; ABRA
-	mon_cry CRY_METAPOD,     $0a8,  $140 ; KADABRA
-	mon_cry CRY_METAPOD,     $098,  $17f ; ALAKAZAM
+	mon_cry CRY_WORMMON,     $0c0,  $081 ; ABRA
+	mon_cry CRY_WORMMON,     $0a8,  $140 ; KADABRA
+	mon_cry CRY_WORMMON,     $098,  $17f ; ALAKAZAM
 	mon_cry CRY_GROWLITHE,   $0ee,  $081 ; MACHOP
 	mon_cry CRY_GROWLITHE,   $048,  $0e0 ; MACHOKE
 	mon_cry CRY_GROWLITHE,   $008,  $140 ; MACHAMP
@@ -86,8 +86,8 @@ PokemonCries::
 	mon_cry CRY_WEEPINBELL,  $020,  $140 ; RAPIDASH
 	mon_cry CRY_SLOWPOKE,    $000,  $100 ; SLOWPOKE
 	mon_cry CRY_GROWLITHE,   $000,  $100 ; SLOWBRO
-	mon_cry CRY_METAPOD,     $080,  $0e0 ; MAGNEMITE
-	mon_cry CRY_METAPOD,     $020,  $140 ; MAGNETON
+	mon_cry CRY_WORMMON,     $080,  $0e0 ; MAGNEMITE
+	mon_cry CRY_WORMMON,     $020,  $140 ; MAGNETON
 	mon_cry CRY_TOKOOMON,     $0dd,  $081 ; FARFETCH_D
 	mon_cry CRY_DIGLETT,     $0bb,  $081 ; DODUO
 	mon_cry CRY_DIGLETT,     $099,  $0a0 ; DODRIO
@@ -97,8 +97,8 @@ PokemonCries::
 	mon_cry CRY_MUK,         $0ef,  $17f ; MUK
 	mon_cry CRY_FEAROW,      $000,  $100 ; SHELLDER
 	mon_cry CRY_FEAROW,      $06f,  $160 ; CLOYSTER
-	mon_cry CRY_METAPOD,     $000,  $100 ; TSUMEMON
-	mon_cry CRY_METAPOD,     $030,  $0c0 ; HAUNTER
+	mon_cry CRY_WORMMON,     $000,  $100 ; TSUMEMON
+	mon_cry CRY_WORMMON,     $030,  $0c0 ; HAUNTER
 	mon_cry CRY_MUK,         $000,  $17f ; GENGAR
 	mon_cry CRY_EKANS,       $0ff,  $140 ; ONIX
 	mon_cry CRY_DROWZEE,     $088,  $0a0 ; DROWZEE
@@ -272,7 +272,7 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,     32,  192 ; WARTORTLE
 	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
 	mon_cry CRY_MINOMON,    128,  160 ; MINOMON
-	mon_cry CRY_METAPOD,     204,  129 ; METAPOD
+	mon_cry CRY_WORMMON,     204,  129 ; WORMMON
 	mon_cry CRY_MINOMON,    119,  192 ; BUTTERFREE
 	mon_cry CRY_MOTIMON,      238,  129 ; MOTIMON
 	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
@@ -324,9 +324,9 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      255,  383 ; POLIWAG
 	mon_cry CRY_PIDGEY,      119,  224 ; POLIWHIRL
 	mon_cry CRY_PIDGEY,        0,  383 ; POLIWRATH
-	mon_cry CRY_METAPOD,     192,  129 ; ABRA
-	mon_cry CRY_METAPOD,     168,  320 ; KADABRA
-	mon_cry CRY_METAPOD,     152,  383 ; ALAKAZAM
+	mon_cry CRY_WORMMON,     192,  129 ; ABRA
+	mon_cry CRY_WORMMON,     168,  320 ; KADABRA
+	mon_cry CRY_WORMMON,     152,  383 ; ALAKAZAM
 	mon_cry CRY_GROWLITHE,   238,  129 ; MACHOP
 	mon_cry CRY_GROWLITHE,    72,  224 ; MACHOKE
 	mon_cry CRY_GROWLITHE,     8,  320 ; MACHAMP
@@ -342,8 +342,8 @@ PokemonCries::
 	mon_cry CRY_WEEPINBELL,   32,  320 ; RAPIDASH
 	mon_cry CRY_SLOWPOKE,      0,  256 ; SLOWPOKE
 	mon_cry CRY_GROWLITHE,     0,  256 ; SLOWBRO
-	mon_cry CRY_METAPOD,     128,  224 ; MAGNEMITE
-	mon_cry CRY_METAPOD,      32,  320 ; MAGNETON
+	mon_cry CRY_WORMMON,     128,  224 ; MAGNEMITE
+	mon_cry CRY_WORMMON,      32,  320 ; MAGNETON
 	mon_cry CRY_TOKOOMON,     221,  129 ; FARFETCH_D
 	mon_cry CRY_DIGLETT,     187,  129 ; DODUO
 	mon_cry CRY_DIGLETT,     153,  160 ; DODRIO
@@ -353,8 +353,8 @@ PokemonCries::
 	mon_cry CRY_MUK,         239,  383 ; MUK
 	mon_cry CRY_FEAROW,        0,  256 ; SHELLDER
 	mon_cry CRY_FEAROW,      111,  352 ; CLOYSTER
-	mon_cry CRY_METAPOD,       0,  256 ; TSUMEMON
-	mon_cry CRY_METAPOD,      48,  192 ; HAUNTER
+	mon_cry CRY_WORMMON,       0,  256 ; TSUMEMON
+	mon_cry CRY_WORMMON,      48,  192 ; HAUNTER
 	mon_cry CRY_MUK,           0,  383 ; GENGAR
 	mon_cry CRY_EKANS,       255,  320 ; ONIX
 	mon_cry CRY_DROWZEE,     136,  160 ; DROWZEE

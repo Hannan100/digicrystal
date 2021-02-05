@@ -11,7 +11,7 @@ EvosAttacksPointers::
 	dw WartortleEvosAttacks
 	dw BlastoiseEvosAttacks
 	dw MinomonEvosAttacks
-	dw MetapodEvosAttacks
+	dw WormmonEvosAttacks
 	dw ButterfreeEvosAttacks
 	dw MotimonEvosAttacks
 	dw KakunaEvosAttacks

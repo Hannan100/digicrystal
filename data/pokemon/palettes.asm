@@ -33,13 +33,13 @@ INCLUDE "gfx/pokemon/blastoise/shiny.pal"
 <<<<<<< HEAD
 INCLUDE "gfx/pokemon/minomon/normal.pal"
 INCLUDE "gfx/pokemon/minomon/shiny.pal"
-INCLUDE "gfx/pokemon/metapod/normal.pal"
+INCLUDE "gfx/pokemon/wormmon/normal.pal"
 =======
 INCBIN "gfx/pokemon/minomon/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/minomon/shiny.pal"
-INCBIN "gfx/pokemon/metapod/front.gbcpal", middle_colors
+INCBIN "gfx/pokemon/wormmon/front.gbcpal", middle_colors
 >>>>>>> pret/master
-INCLUDE "gfx/pokemon/metapod/shiny.pal"
+INCLUDE "gfx/pokemon/wormmon/shiny.pal"
 INCBIN "gfx/pokemon/butterfree/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/butterfree/shiny.pal"
 INCBIN "gfx/pokemon/motimon/front.gbcpal", middle_colors

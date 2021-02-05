@@ -30,7 +30,7 @@
 	const CRY_CLEFAIRY
 	const CRY_VENONAT
 	const CRY_LAPRAS
-	const CRY_METAPOD
+	const CRY_WORMMON
 	const CRY_SQUIRTLE
 	const CRY_PARAS
 	const CRY_GROWLITHE

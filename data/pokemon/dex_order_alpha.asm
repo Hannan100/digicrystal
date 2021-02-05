@@ -130,7 +130,7 @@ AlphabeticalPokedexOrder:
 	db MAROWAK
 	db MEGANIUM
 	db MEOWTH
-	db METAPOD
+	db WORMMON
 	db MEW
 	db MEWTWO
 	db MILTANK

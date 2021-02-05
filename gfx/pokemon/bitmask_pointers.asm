@@ -9,7 +9,7 @@ BitmasksPointers:
 	dw WartortleBitmasks
 	dw BlastoiseBitmasks
 	dw MinomonBitmasks
-	dw MetapodBitmasks
+	dw WormmonBitmasks
 	dw ButterfreeBitmasks
 	dw MotimonBitmasks
 	dw KakunaBitmasks

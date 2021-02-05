@@ -119,7 +119,7 @@ TreeMonSet_Forest:
 	db 15, MINOMON,   10
 	db 15, MOTIMON,     10
 	db 10, POROMON,   10
-	db  5, METAPOD,    10
+	db  5, WORMMON,    10
 	db  5, KAKUNA,     10
 	db -1
 

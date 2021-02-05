@@ -11,7 +11,7 @@ KantoMonSpecials:
 	db  65 ; WARTORTLE
 	db  85 ; BLASTOISE
 	db  20 ; MINOMON
-	db  25 ; METAPOD
+	db  25 ; WORMMON
 	db  80 ; BUTTERFREE
 	db  20 ; MOTIMON
 	db  25 ; KAKUNA

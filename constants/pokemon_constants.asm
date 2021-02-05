@@ -29,7 +29,7 @@
 	const WARTORTLE  ; 08
 	const BLASTOISE  ; 09
 	const MINOMON   ; 0a
-	const METAPOD    ; 0b
+	const WORMMON    ; 0b
 	const BUTTERFREE ; 0c
 	const MOTIMON     ; 0d
 	const KAKUNA     ; 0e

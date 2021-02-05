@@ -9,7 +9,7 @@ FramesPointers:
 	dw WartortleFrames
 	dw BlastoiseFrames
 	dw MinomonFrames
-	dw MetapodFrames
+	dw WormmonFrames
 	dw ButterfreeFrames
 	dw MotimonFrames
 	dw KakunaFrames

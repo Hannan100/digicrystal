@@ -25,7 +25,7 @@ NewPokedexOrder:
 	db PIKACHU
 	db RAICHU
 	db MINOMON
-	db METAPOD
+	db WORMMON
 	db BUTTERFREE
 	db MOTIMON
 	db KAKUNA
