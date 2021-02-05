@@ -202,7 +202,7 @@ AnimationIdlePointers:
 	dw UnownAnimationIdle
 	dw WobbuffetAnimationIdle
 	dw GirafarigAnimationIdle
-	dw PinecoAnimationIdle
+	dw FanbeemonAnimationIdle
 	dw ForretressAnimationIdle
 	dw DunsparceAnimationIdle
 	dw GligarAnimationIdle

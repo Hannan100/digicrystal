@@ -223,7 +223,7 @@ JOHTO_POKEMON EQU const_value
 	const UNOWN      ; c9
 	const WOBBUFFET  ; ca
 	const GIRAFARIG  ; cb
-	const PINECO     ; cc
+	const FANBEEMON     ; cc
 	const FORRETRESS ; cd
 	const DUNSPARCE  ; ce
 	const GLIGAR     ; cf

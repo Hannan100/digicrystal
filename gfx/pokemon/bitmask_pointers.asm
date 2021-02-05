@@ -202,7 +202,7 @@ BitmasksPointers:
 	dw UnownBitmasks
 	dw WobbuffetBitmasks
 	dw GirafarigBitmasks
-	dw PinecoBitmasks
+	dw FanbeemonBitmasks
 	dw ForretressBitmasks
 	dw DunsparceBitmasks
 	dw GligarBitmasks

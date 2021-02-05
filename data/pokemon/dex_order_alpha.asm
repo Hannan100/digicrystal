@@ -163,7 +163,7 @@ AlphabeticalPokedexOrder:
 	db PIDGEY
 	db PIKACHU
 	db PILOSWINE
-	db PINECO
+	db FANBEEMON
 	db PINSIR
 	db POLITOED
 	db POLIWAG

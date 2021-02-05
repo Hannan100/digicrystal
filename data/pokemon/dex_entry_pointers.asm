@@ -203,7 +203,7 @@ PokedexDataPointerTable:
 	dw UnownPokedexEntry
 	dw WobbuffetPokedexEntry
 	dw GirafarigPokedexEntry
-	dw PinecoPokedexEntry
+	dw FanbeemonPokedexEntry
 	dw ForretressPokedexEntry
 	dw DunsparcePokedexEntry
 	dw GligarPokedexEntry

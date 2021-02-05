@@ -202,7 +202,7 @@ AnimationPointers:
 	dw UnownAnimation
 	dw WobbuffetAnimation
 	dw GirafarigAnimation
-	dw PinecoAnimation
+	dw FanbeemonAnimation
 	dw ForretressAnimation
 	dw DunsparceAnimation
 	dw GligarAnimation

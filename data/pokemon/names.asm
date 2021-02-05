@@ -202,7 +202,7 @@ PokemonNames::
 	db "UNOWN@@@@@" ; !Shurimon
 	db "WOBBUFFET@" ; !Flybeemon
 	db "GIRAFARIG@" ; !Orcamon
-	db "PINECO@@@@" ; !Moosemon
+	db "FANBEEMON@@@@" ; !Moosemon
 	db "FORRETRESS" ; !Harpymon
 	db "DUNSPARCE@" ; !Toucanmon
 	db "GLIGAR@@@@" ; !Peacockmon

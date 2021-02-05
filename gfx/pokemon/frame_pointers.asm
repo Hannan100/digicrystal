@@ -202,7 +202,7 @@ FramesPointers:
 	dw UnownFrames
 	dw WobbuffetFrames
 	dw GirafarigFrames
-	dw PinecoFrames
+	dw FanbeemonFrames
 	dw ForretressFrames
 	dw DunsparceFrames
 	dw GligarFrames

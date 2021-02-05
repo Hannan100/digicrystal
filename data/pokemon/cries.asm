@@ -209,7 +209,7 @@ PokemonCries::
 	mon_cry CRY_POROMON,    $162,  $100 ; UNOWN
 	mon_cry CRY_AMPHAROS,    $27b,  $144 ; WOBBUFFET
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; GIRAFARIG
-	mon_cry CRY_SLOWKING,    $080,  $100 ; PINECO
+	mon_cry CRY_SLOWKING,    $080,  $100 ; FANBEEMON
 	mon_cry CRY_SLOWKING,    $000,  $180 ; FORRETRESS
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; DUNSPARCE
 	mon_cry CRY_GLIGAR,     -$102,  $100 ; GLIGAR
@@ -465,7 +465,7 @@ PokemonCries::
 	mon_cry CRY_POROMON,    354,  256 ; UNOWN
 	mon_cry CRY_AMPHAROS,    635,  324 ; WOBBUFFET
 	mon_cry CRY_GIRAFARIG,    65,  512 ; GIRAFARIG
-	mon_cry CRY_SLOWKING,    128,  256 ; PINECO
+	mon_cry CRY_SLOWKING,    128,  256 ; FANBEEMON
 	mon_cry CRY_SLOWKING,      0,  384 ; FORRETRESS
 	mon_cry CRY_DUNSPARCE,   452,  256 ; DUNSPARCE
 	mon_cry CRY_GLIGAR,     -258,  256 ; GLIGAR

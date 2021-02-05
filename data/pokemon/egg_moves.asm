@@ -625,7 +625,7 @@ GirafarigEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
-PinecoEggMoves:
+FanbeemonEggMoves:
 	db REFLECT
 	db PIN_MISSILE
 	db FLAIL
