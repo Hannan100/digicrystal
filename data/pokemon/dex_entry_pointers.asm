@@ -237,7 +237,7 @@ PokedexDataPointerTable:
 	dw SmearglePokedexEntry
 	dw KuramonPokedexEntry
 	dw HitmontopPokedexEntry
-	dw SmoochumPokedexEntry
+	dw FloramonPokedexEntry
 	dw ElekidPokedexEntry
 	dw MagbyPokedexEntry
 	dw MiltankPokedexEntry

@@ -238,7 +238,7 @@ EvosAttacksPointers::
 	dw SmeargleEvosAttacks
 	dw KuramonEvosAttacks
 	dw HitmontopEvosAttacks
-	dw SmoochumEvosAttacks
+	dw FloramonEvosAttacks
 	dw ElekidEvosAttacks
 	dw MagbyEvosAttacks
 	dw MiltankEvosAttacks

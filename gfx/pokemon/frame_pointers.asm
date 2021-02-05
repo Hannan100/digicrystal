@@ -236,7 +236,7 @@ FramesPointers:
 	dw SmeargleFrames
 	dw KuramonFrames
 	dw HitmontopFrames
-	dw SmoochumFrames
+	dw FloramonFrames
 	dw ElekidFrames
 	dw MagbyFrames
 	dw MiltankFrames

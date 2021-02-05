@@ -236,7 +236,7 @@ PokemonNames::
 	db "SMEARGLE@@"
 	db "KURAMON@@@"
 	db "HITMONTOP@"
-	db "SMOOCHUM@@"
+	db "FLORAMON@@"
 	db "ELEKID@@@@"
 	db "MAGBY@@@@@"
 	db "MILTANK@@@"

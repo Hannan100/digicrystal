@@ -236,7 +236,7 @@ AnimationPointers:
 	dw SmeargleAnimation
 	dw KuramonAnimation
 	dw HitmontopAnimation
-	dw SmoochumAnimation
+	dw FloramonAnimation
 	dw ElekidAnimation
 	dw MagbyAnimation
 	dw MiltankAnimation

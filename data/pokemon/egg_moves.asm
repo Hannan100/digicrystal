@@ -774,7 +774,7 @@ KuramonEggMoves:
 	db MIND_READER
 	db -1 ; end
 
-SmoochumEggMoves:
+FloramonEggMoves:
 	db MEDITATE
 	db -1 ; end
 

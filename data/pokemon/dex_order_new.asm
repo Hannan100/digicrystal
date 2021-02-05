@@ -152,7 +152,7 @@ NewPokedexOrder:
 	db MILTANK
 	db MAGBY
 	db MAGMAR
-	db SMOOCHUM
+	db FLORAMON
 	db JYNX
 	db ELEKID
 	db ELECTABUZZ

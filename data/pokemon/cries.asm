@@ -243,7 +243,7 @@ PokemonCries::
 	mon_cry CRY_PICHU,      -$21a,  $1f0 ; SMEARGLE
 	mon_cry CRY_AIPOM,       $02c,  $108 ; KURAMON
 	mon_cry CRY_SLUGMA,      $000,  $100 ; HITMONTOP
-	mon_cry CRY_MARILL,      $068,  $100 ; SMOOCHUM
+	mon_cry CRY_MARILL,      $068,  $100 ; FLORAMON
 	mon_cry CRY_SUNFLORA,   -$2d8,  $0b4 ; ELEKID
 	mon_cry CRY_IMPMON,   $176,  $03a ; MAGBY
 	mon_cry CRY_GLIGAR,     -$1cd,  $1a0 ; MILTANK
@@ -499,7 +499,7 @@ PokemonCries::
 	mon_cry CRY_PICHU,      -538,  496 ; SMEARGLE
 	mon_cry CRY_AIPOM,        44,  264 ; KURAMON
 	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP
-	mon_cry CRY_MARILL,      104,  256 ; SMOOCHUM
+	mon_cry CRY_MARILL,      104,  256 ; FLORAMON
 	mon_cry CRY_SUNFLORA,   -728,  180 ; ELEKID
 	mon_cry CRY_IMPMON,   374,   58 ; MAGBY
 	mon_cry CRY_GLIGAR,     -461,  416 ; MILTANK

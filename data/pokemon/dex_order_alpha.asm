@@ -203,7 +203,7 @@ AlphabeticalPokedexOrder:
 	db SLOWPOKE
 	db SLUGMA
 	db SMEARGLE
-	db SMOOCHUM
+	db FLORAMON
 	db SNEASEL
 	db SNORLAX
 	db ELECMON
