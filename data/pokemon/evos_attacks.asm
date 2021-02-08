@@ -511,7 +511,7 @@ NinetalesEvosAttacks:
 	db 0 ; no more level-up moves
 
 CandlemonEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, WIGGLYTUFF
+	db EVOLVE_ITEM, MOON_STONE, MERAMON
 	db 0 ; no more evolutions
 	db 1, SING
 	db 4, DEFENSE_CURL
@@ -524,7 +524,7 @@ CandlemonEvosAttacks:
 	db 39, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
-WigglytuffEvosAttacks:
+MeramonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SING
 	db 1, DISABLE

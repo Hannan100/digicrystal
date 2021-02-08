@@ -40,7 +40,7 @@ KantoMonSpecials:
 	db  65 ; VULPIX
 	db 100 ; NINETALES
 	db  25 ; CANDLEMON
-	db  50 ; WIGGLYTUFF
+	db  50 ; MERAMON
 	db  40 ; PAGUMON
 	db  75 ; DEMDEVIMON
 	db  75 ; GOBLIMON

@@ -38,7 +38,7 @@ BitmasksPointers:
 	dw VulpixBitmasks
 	dw NinetalesBitmasks
 	dw CandlemonBitmasks
-	dw WigglytuffBitmasks
+	dw MeramonBitmasks
 	dw PagumonBitmasks
 	dw DemdevimonBitmasks
 	dw GoblimonBitmasks

@@ -38,7 +38,7 @@ PokemonNames::
 	db "VULPIX@@@@"
 	db "NINETALES@"
 	db "CANDLEMON"
-	db "WIGGLYTUFF"
+	db "MERAMON"
 	db "PAGUMON@@@@@"
 	db "DEMDEVIMON@@@@"
 	db "GOBLIMON@@@@"

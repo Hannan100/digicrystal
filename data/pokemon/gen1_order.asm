@@ -99,7 +99,7 @@ Pokered_MonIndices:
 	db OMANYTE
 	db OMASTAR
 	db CANDLEMON
-	db WIGGLYTUFF
+	db MERAMON
 	db EEVEE
 	db FLAREON
 	db JOLTEON

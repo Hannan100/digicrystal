@@ -38,7 +38,7 @@ AnimationIdlePointers:
 	dw VulpixAnimationIdle
 	dw NinetalesAnimationIdle
 	dw CandlemonAnimationIdle
-	dw WigglytuffAnimationIdle
+	dw MeramonAnimationIdle
 	dw PagumonAnimationIdle
 	dw DemdevimonAnimationIdle
 	dw GoblimonAnimationIdle

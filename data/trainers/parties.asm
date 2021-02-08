@@ -753,7 +753,7 @@ LassGroup:
 
 	; LASS (11)
 	db "ELLEN@", TRAINERTYPE_NORMAL
-	db 30, WIGGLYTUFF
+	db 30, MERAMON
 	db 34, LEOMON
 	db -1 ; end
 

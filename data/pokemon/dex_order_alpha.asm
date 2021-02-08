@@ -245,7 +245,7 @@ AlphabeticalPokedexOrder:
 	db MOTIMON
 	db WEEPINBELL
 	db WEEZING
-	db WIGGLYTUFF
+	db MERAMON
 	db WOBBUFFET
 	db WOOPER
 	db EXVEEMON

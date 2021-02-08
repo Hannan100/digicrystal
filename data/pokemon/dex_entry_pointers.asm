@@ -39,7 +39,7 @@ PokedexDataPointerTable:
 	dw VulpixPokedexEntry
 	dw NinetalesPokedexEntry
 	dw CandlemonPokedexEntry
-	dw WigglytuffPokedexEntry
+	dw MeramonPokedexEntry
 	dw PagumonPokedexEntry
 	dw DemdevimonPokedexEntry
 	dw GoblimonPokedexEntry
