@@ -100,7 +100,7 @@
 	const OTAMAMON   ; 4f
 	const SLOWBRO    ; 50
 	const HAGURUMON  ; 51
-	const MAGNETON   ; 52
+	const GUARDROMON   ; 52
 	const FARFETCH_D ; 53
 	const DODUO      ; 54
 	const DODRIO     ; 55

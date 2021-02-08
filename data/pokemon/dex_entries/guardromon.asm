@@ -2,7 +2,7 @@
 	dw 303, 1320 ; height, weight
 
 	db   "When many"
-	next "MAGNETON gather"
+	next "GUARDROMON gather"
 	next "together, the"
 
 	page "resulting magnetic"

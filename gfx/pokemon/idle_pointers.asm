@@ -80,7 +80,7 @@ AnimationIdlePointers:
 	dw OtamamonAnimationIdle
 	dw SlowbroAnimationIdle
 	dw HagurumonAnimationIdle
-	dw MagnetonAnimationIdle
+	dw GuardromonAnimationIdle
 	dw FarfetchDAnimationIdle
 	dw DoduoAnimationIdle
 	dw DodrioAnimationIdle

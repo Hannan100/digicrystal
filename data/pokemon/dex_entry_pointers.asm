@@ -81,7 +81,7 @@ PokedexDataPointerTable:
 	dw OtamamonPokedexEntry
 	dw SlowbroPokedexEntry
 	dw HagurumonPokedexEntry
-	dw MagnetonPokedexEntry
+	dw GuardromonPokedexEntry
 	dw FarfetchDPokedexEntry
 	dw DoduoPokedexEntry
 	dw DodrioPokedexEntry

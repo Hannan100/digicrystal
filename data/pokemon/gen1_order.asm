@@ -52,7 +52,7 @@ Pokered_MonIndices:
 	db MAGMAR
 	db HO_OH ; MISSINGNO.
 	db ELECTABUZZ
-	db MAGNETON
+	db GUARDROMON
 	db KOFFING
 	db SNEASEL ; MISSINGNO.
 	db MANKEY

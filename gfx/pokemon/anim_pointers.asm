@@ -80,7 +80,7 @@ AnimationPointers:
 	dw OtamamonAnimation
 	dw SlowbroAnimation
 	dw HagurumonAnimation
-	dw MagnetonAnimation
+	dw GuardromonAnimation
 	dw FarfetchDAnimation
 	dw DoduoAnimation
 	dw DodrioAnimation

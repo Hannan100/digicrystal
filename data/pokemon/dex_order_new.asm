@@ -119,7 +119,7 @@ NewPokedexOrder:
 	db NUMEMON
 	db RAREMON
 	db HAGURUMON
-	db MAGNETON
+	db GUARDROMON
 	db VOLTORB
 	db ELECTRODE
 	db AIPOM

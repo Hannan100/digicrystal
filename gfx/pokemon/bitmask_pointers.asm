@@ -80,7 +80,7 @@ BitmasksPointers:
 	dw OtamamonBitmasks
 	dw SlowbroBitmasks
 	dw HagurumonBitmasks
-	dw MagnetonBitmasks
+	dw GuardromonBitmasks
 	dw FarfetchDBitmasks
 	dw DoduoBitmasks
 	dw DodrioBitmasks

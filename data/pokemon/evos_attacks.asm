@@ -1089,7 +1089,7 @@ SlowbroEvosAttacks:
 	db 0 ; no more level-up moves
 
 HagurumonEvosAttacks:
-	db EVOLVE_LEVEL, 30, MAGNETON
+	db EVOLVE_LEVEL, 30, GUARDROMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 6, THUNDERSHOCK
@@ -1102,7 +1102,7 @@ HagurumonEvosAttacks:
 	db 45, ZAP_CANNON
 	db 0 ; no more level-up moves
 
-MagnetonEvosAttacks:
+GuardromonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, THUNDERSHOCK

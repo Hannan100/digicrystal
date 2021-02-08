@@ -80,7 +80,7 @@ FramesPointers:
 	dw OtamamonFrames
 	dw SlowbroFrames
 	dw HagurumonFrames
-	dw MagnetonFrames
+	dw GuardromonFrames
 	dw FarfetchDFrames
 	dw DoduoFrames
 	dw DodrioFrames

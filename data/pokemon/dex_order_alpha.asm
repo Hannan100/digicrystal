@@ -122,7 +122,7 @@ AlphabeticalPokedexOrder:
 	db SWIMMON
 	db MAGMAR
 	db HAGURUMON
-	db MAGNETON
+	db GUARDROMON
 	db MANKEY
 	db MANTINE
 	db FLAMEDRMON

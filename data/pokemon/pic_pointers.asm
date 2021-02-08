@@ -164,8 +164,8 @@ PokemonPicPointers::
 	dba_pic SlowbroBackpic
 	dba_pic HagurumonFrontpic
 	dba_pic HagurumonBackpic
-	dba_pic MagnetonFrontpic
-	dba_pic MagnetonBackpic
+	dba_pic GuardromonFrontpic
+	dba_pic GuardromonBackpic
 	dba_pic FarfetchDFrontpic
 	dba_pic FarfetchDBackpic
 	dba_pic DoduoFrontpic

@@ -80,7 +80,7 @@ PokemonNames::
 	db "OTAMAMON@@"
 	db "SLOWBRO@@@"
 	db "HAGURUMON@" ; !Hagurumon
-	db "MAGNETON@@"
+	db "GUARDROMON@@"
 	db "FARFETCH'D"
 	db "DODUO@@@@@"
 	db "DODRIO@@@@"

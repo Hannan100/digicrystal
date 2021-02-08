@@ -82,7 +82,7 @@ EvosAttacksPointers::
 	dw OtamamonEvosAttacks
 	dw SlowbroEvosAttacks
 	dw HagurumonEvosAttacks
-	dw MagnetonEvosAttacks
+	dw GuardromonEvosAttacks
 	dw FarfetchDEvosAttacks
 	dw DoduoEvosAttacks
 	dw DodrioEvosAttacks

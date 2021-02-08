@@ -756,7 +756,7 @@ Link_PrepPartyData_Gen1:
 	ld a, [bc]
 	cp HAGURUMON
 	jr z, .steel_type
-	cp MAGNETON
+	cp GUARDROMON
 	jr nz, .skip_steel
 
 .steel_type

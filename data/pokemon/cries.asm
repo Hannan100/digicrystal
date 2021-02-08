@@ -87,7 +87,7 @@ PokemonCries::
 	mon_cry CRY_OTAMAMON,    $000,  $100 ; OTAMAMON
 	mon_cry CRY_RENAMON,   $000,  $100 ; SLOWBRO
 	mon_cry CRY_WORMMON,     $080,  $0e0 ; HAGURUMON
-	mon_cry CRY_WORMMON,     $020,  $140 ; MAGNETON
+	mon_cry CRY_WORMMON,     $020,  $140 ; GUARDROMON
 	mon_cry CRY_TOKOOMON,     $0dd,  $081 ; FARFETCH_D
 	mon_cry CRY_DIGLETT,     $0bb,  $081 ; DODUO
 	mon_cry CRY_DIGLETT,     $099,  $0a0 ; DODRIO
@@ -343,7 +343,7 @@ PokemonCries::
 	mon_cry CRY_OTAMAMON,      0,  256 ; OTAMAMON
 	mon_cry CRY_RENAMON,     0,  256 ; SLOWBRO
 	mon_cry CRY_WORMMON,     128,  224 ; HAGURUMON
-	mon_cry CRY_WORMMON,      32,  320 ; MAGNETON
+	mon_cry CRY_WORMMON,      32,  320 ; GUARDROMON
 	mon_cry CRY_TOKOOMON,     221,  129 ; FARFETCH_D
 	mon_cry CRY_DIGLETT,     187,  129 ; DODUO
 	mon_cry CRY_DIGLETT,     153,  160 ; DODRIO

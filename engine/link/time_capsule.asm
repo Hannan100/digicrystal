@@ -36,11 +36,11 @@ ValidateOTTrademon:
 	add hl, bc
 	ld a, [hl]
 
-	; Hagurumon and Magneton's types changed
+	; Hagurumon and Guardromon's types changed
 	; from Electric to Electric/Steel.
 	cp HAGURUMON
 	jr z, .normal
-	cp MAGNETON
+	cp GUARDROMON
 	jr z, .normal
 
 	ld [wCurSpecies], a

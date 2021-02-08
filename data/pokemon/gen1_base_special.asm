@@ -82,7 +82,7 @@ KantoMonSpecials:
 	db  40 ; OTAMAMON
 	db  80 ; SLOWBRO
 	db  95 ; HAGURUMON
-	db 120 ; MAGNETON
+	db 120 ; GUARDROMON
 	db  58 ; FARFETCH_D
 	db  35 ; DODUO
 	db  60 ; DODRIO
