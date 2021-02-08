@@ -1290,7 +1290,7 @@ ArmdilomonEvosAttacks:
 	db 40, SLAM
 	db 0 ; no more level-up moves
 
-DrowzeeEvosAttacks:
+TapirmonEvosAttacks:
 	db EVOLVE_LEVEL, 26, HYPNO
 	db 0 ; no more evolutions
 	db 1, POUND

@@ -94,7 +94,7 @@ PokemonNames::
 	db "KERAMON@@@"
 	db "GENGAR@@@@"
 	db "ARMDILOMON@@@@@@"
-	db "DROWZEE@@@"
+	db "TAPIRMON@@@"
 	db "HYPNO@@@@@"
 	db "KRABBY@@@@"
 	db "KINGLER@@@"

@@ -288,7 +288,7 @@ ArmdilomonEggMoves:
 	db FLAIL
 	db -1 ; end
 
-DrowzeeEggMoves:
+TapirmonEggMoves:
 	db LIGHT_SCREEN
 	db BARRIER
 	db -1 ; end

@@ -46,7 +46,7 @@ Pokered_MonIndices:
 	db ARBOK
 	db MUSHROOMONECT
 	db PSYDUCK
-	db DROWZEE
+	db TAPIRMON
 	db GOLEM
 	db HERACROSS ; MISSINGNO.
 	db MAGMAR

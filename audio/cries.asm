@@ -1144,11 +1144,11 @@ Cry_Seel:
 	channel 6, Cry_Seel_Ch6
 	channel 8, Cry_Seel_Ch8
 
-Cry_Drowzee:
+Cry_Tapirmon:
 	channel_count 3
-	channel 5, Cry_Drowzee_Ch5
-	channel 6, Cry_Drowzee_Ch6
-	channel 8, Cry_Drowzee_Ch8
+	channel 5, Cry_Tapirmon_Ch5
+	channel 6, Cry_Tapirmon_Ch6
+	channel 8, Cry_Tapirmon_Ch8
 
 Cry_Pidgey:
 	channel_count 3
@@ -1743,7 +1743,7 @@ Cry_Slowpoke_Ch6:
 Cry_Slowpoke_Ch8:
 	sound_ret
 
-Cry_Drowzee_Ch5:
+Cry_Tapirmon_Ch5:
 	duty_cycle_pattern 2, 0, 2, 0
 	square_note 5, 15, 2, 1616
 	square_note 9, 13, 1, 1632
@@ -1751,10 +1751,10 @@ Cry_Drowzee_Ch5:
 	square_note 9, 12, 1, 1570
 	square_note 5, 15, 2, 1552
 	square_note 6, 13, 1, 1568
-	sound_loop 2, Cry_Drowzee_Ch5
+	sound_loop 2, Cry_Tapirmon_Ch5
 	sound_ret
 
-Cry_Drowzee_Ch6:
+Cry_Tapirmon_Ch6:
 	duty_cycle_pattern 1, 0, 0, 0
 	square_note 4, 0, 8, 0
 	square_note 5, 15, 2, 1617
@@ -1769,7 +1769,7 @@ Cry_Drowzee_Ch6:
 	square_note 4, 13, 1, 1569
 	sound_ret
 
-Cry_Drowzee_Ch8:
+Cry_Tapirmon_Ch8:
 	noise_note 6, 13, 2, 28
 	noise_note 9, 11, 1, 44
 	noise_note 8, 12, 2, 44

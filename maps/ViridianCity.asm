@@ -151,7 +151,7 @@ ViridianCityDreamEaterFisherText:
 	line "off in the sun."
 
 	para "…I had this dream"
-	line "about a DROWZEE"
+	line "about a TAPIRMON"
 
 	para "eating my dream."
 	line "Weird, huh?"

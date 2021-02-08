@@ -94,7 +94,7 @@ AnimationPointers:
 	dw KeramonAnimation
 	dw GengarAnimation
 	dw ArmdilomonAnimation
-	dw DrowzeeAnimation
+	dw TapirmonAnimation
 	dw HypnoAnimation
 	dw KrabbyAnimation
 	dw KinglerAnimation

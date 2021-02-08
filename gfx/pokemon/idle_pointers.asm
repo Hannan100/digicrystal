@@ -94,7 +94,7 @@ AnimationIdlePointers:
 	dw KeramonAnimationIdle
 	dw GengarAnimationIdle
 	dw ArmdilomonAnimationIdle
-	dw DrowzeeAnimationIdle
+	dw TapirmonAnimationIdle
 	dw HypnoAnimationIdle
 	dw KrabbyAnimationIdle
 	dw KinglerAnimationIdle

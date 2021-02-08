@@ -319,7 +319,7 @@ KantoGrassWildMons:
 	db 15, GRANBULL
 	; nite
 	db 13, MEOWTH
-	db 13, DROWZEE
+	db 13, TAPIRMON
 	db 14, HAGURUMON
 	db 15, PSYDUCK
 	db 12, CANDLEMON
@@ -453,7 +453,7 @@ KantoGrassWildMons:
 	db 16, YOKOMON
 	db 16, YOKOMON
 	; nite
-	db 14, DROWZEE
+	db 14, TAPIRMON
 	db 13, MEOWTH
 	db 15, HAGURUMON
 	db 16, HAWKMON

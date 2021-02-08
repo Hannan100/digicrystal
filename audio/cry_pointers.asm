@@ -12,7 +12,7 @@ Cries:
 	dba Cry_Nidoqueen
 	dba Cry_Diglett
 	dba Cry_Seel
-	dba Cry_Drowzee
+	dba Cry_Tapirmon
 	dba Cry_Pidgey
 	dba Cry_Nyokomon
 	dba Cry_Tokoomon

@@ -101,14 +101,14 @@ PokemonCries::
 	mon_cry CRY_WORMMON,     $030,  $0c0 ; KERAMON
 	mon_cry CRY_MUK,         $000,  $17f ; GENGAR
 	mon_cry CRY_GAZIMON,       $0ff,  $140 ; ARMDILOMON
-	mon_cry CRY_DROWZEE,     $088,  $0a0 ; DROWZEE
-	mon_cry CRY_DROWZEE,     $0ee,  $0c0 ; HYPNO
+	mon_cry CRY_TAPIRMON,     $088,  $0a0 ; TAPIRMON
+	mon_cry CRY_TAPIRMON,     $0ee,  $0c0 ; HYPNO
 	mon_cry CRY_KRABBY,      $020,  $160 ; KRABBY
 	mon_cry CRY_KRABBY,      $0ee,  $160 ; KINGLER
 	mon_cry CRY_VOLTORB,     $0ed,  $100 ; VOLTORB
 	mon_cry CRY_VOLTORB,     $0a8,  $110 ; ELECTRODE
 	mon_cry CRY_DIGLETT,     $000,  $100 ; EXEGGCUTE
-	mon_cry CRY_DROWZEE,     $000,  $100 ; EXEGGUTOR
+	mon_cry CRY_TAPIRMON,     $000,  $100 ; EXEGGUTOR
 	mon_cry CRY_CLEFAIRY,    $000,  $100 ; CUBONE
 	mon_cry CRY_GOBLIMON,      $04f,  $0e0 ; MAROWAK
 	mon_cry CRY_GOLEM,       $080,  $140 ; HITMONLEE
@@ -129,7 +129,7 @@ PokemonCries::
 	mon_cry CRY_MUSHROOMON,       $000,  $100 ; STARMIE
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; MR__MIME
 	mon_cry CRY_MINOMON,    $000,  $100 ; SCYTHER
-	mon_cry CRY_DROWZEE,     $0ff,  $17f ; JYNX
+	mon_cry CRY_TAPIRMON,     $0ff,  $17f ; JYNX
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; ELECTABUZZ
 	mon_cry CRY_GUILMON,  $0ff,  $0b0 ; MAGMAR
 	mon_cry CRY_PIDGEOTTO,   $000,  $100 ; PINSIR
@@ -357,14 +357,14 @@ PokemonCries::
 	mon_cry CRY_WORMMON,      48,  192 ; KERAMON
 	mon_cry CRY_MUK,           0,  383 ; GENGAR
 	mon_cry CRY_GAZIMON,       255,  320 ; ARMDILOMON
-	mon_cry CRY_DROWZEE,     136,  160 ; DROWZEE
-	mon_cry CRY_DROWZEE,     238,  192 ; HYPNO
+	mon_cry CRY_TAPIRMON,     136,  160 ; TAPIRMON
+	mon_cry CRY_TAPIRMON,     238,  192 ; HYPNO
 	mon_cry CRY_KRABBY,       32,  352 ; KRABBY
 	mon_cry CRY_KRABBY,      238,  352 ; KINGLER
 	mon_cry CRY_VOLTORB,     237,  256 ; VOLTORB
 	mon_cry CRY_VOLTORB,     168,  272 ; ELECTRODE
 	mon_cry CRY_DIGLETT,       0,  256 ; EXEGGCUTE
-	mon_cry CRY_DROWZEE,       0,  256 ; EXEGGUTOR
+	mon_cry CRY_TAPIRMON,       0,  256 ; EXEGGUTOR
 	mon_cry CRY_CLEFAIRY,      0,  256 ; CUBONE
 	mon_cry CRY_GOBLIMON,       79,  224 ; MAROWAK
 	mon_cry CRY_GOLEM,       128,  320 ; HITMONLEE
@@ -385,7 +385,7 @@ PokemonCries::
 	mon_cry CRY_MUSHROOMON,         0,  256 ; STARMIE
 	mon_cry CRY_KRABBY,        8,  192 ; MR__MIME
 	mon_cry CRY_MINOMON,      0,  256 ; SCYTHER
-	mon_cry CRY_DROWZEE,     255,  383 ; JYNX
+	mon_cry CRY_TAPIRMON,     255,  383 ; JYNX
 	mon_cry CRY_VOLTORB,     143,  383 ; ELECTABUZZ
 	mon_cry CRY_GUILMON,  255,  176 ; MAGMAR
 	mon_cry CRY_PIDGEOTTO,     0,  256 ; PINSIR

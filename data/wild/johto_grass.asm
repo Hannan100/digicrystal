@@ -1344,7 +1344,7 @@ JohtoGrassWildMons:
 	db 10, DITTO
 	db 10, DITTO
 	; nite
-	db 12, DROWZEE
+	db 12, TAPIRMON
 	db 11, TSUNOMON
 	db 12,POROMON
 	db 10, ABRA
@@ -1371,7 +1371,7 @@ JohtoGrassWildMons:
 	db 10, DITTO
 	db 12, YANMA
 	; nite
-	db 12, DROWZEE
+	db 12, TAPIRMON
 	db 14,POROMON
 	db 13, PSYDUCK
 	db 10, ABRA

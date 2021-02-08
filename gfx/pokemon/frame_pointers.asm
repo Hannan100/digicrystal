@@ -94,7 +94,7 @@ FramesPointers:
 	dw KeramonFrames
 	dw GengarFrames
 	dw ArmdilomonFrames
-	dw DrowzeeFrames
+	dw TapirmonFrames
 	dw HypnoFrames
 	dw KrabbyFrames
 	dw KinglerFrames

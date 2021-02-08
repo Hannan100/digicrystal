@@ -94,7 +94,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw ArmdilomonEggMoves
-	dw DrowzeeEggMoves
+	dw TapirmonEggMoves
 	dw NoEggMoves
 	dw KrabbyEggMoves
 	dw NoEggMoves

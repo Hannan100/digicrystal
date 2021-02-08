@@ -95,7 +95,7 @@ PokedexDataPointerTable:
 	dw KeramonPokedexEntry
 	dw GengarPokedexEntry
 	dw ArmdilomonPokedexEntry
-	dw DrowzeePokedexEntry
+	dw TapirmonPokedexEntry
 	dw HypnoPokedexEntry
 	dw KrabbyPokedexEntry
 	dw KinglerPokedexEntry

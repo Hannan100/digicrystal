@@ -114,7 +114,7 @@
 	const KERAMON    ; 5d
 	const GENGAR     ; 5e
 	const ARMDILOMON       ; 5f
-	const DROWZEE    ; 60
+	const TAPIRMON    ; 60
 	const HYPNO      ; 61
 	const KRABBY     ; 62
 	const KINGLER    ; 63
