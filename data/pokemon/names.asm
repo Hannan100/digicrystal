@@ -177,7 +177,7 @@ PokemonNames::
 	db "VEEMON@@@@" ; Veemon
 	db "VEEDRAMON@" ; Veedramon
 	db "EX-VEEMON@" ; Exveemon
-	db "FLAMEDRMON" ; Mareep
+	db "FLAMEDRMON" ; Flamedrmon
 	db "RAIDRAMON@" ; Flaaffy
 	db "AMPHAROS@@" ; !Paildramon
 	db "BELLOSSOM@" ; !Dinobeemon

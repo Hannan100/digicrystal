@@ -75,10 +75,10 @@ Cry_Tanemon:
 	musicheader 1, 6, Cry_Tanemon_Ch6
 	musicheader 1, 8, Cry_Tanemon_Ch8
 =======
-Cry_Mareep:
+Cry_Flamedrmon:
 	channel_count 2
-	channel 5, Cry_Mareep_Ch5
-	channel 6, Cry_Mareep_Ch6
+	channel 5, Cry_Flamedrmon_Ch5
+	channel 6, Cry_Flamedrmon_Ch6
 
 Cry_Koromon:
 	channel_count 3
@@ -604,12 +604,12 @@ Cry_Koromon_Ch6:
 
 Cry_Koromon_Ch8:
 =======
-Cry_Mareep_Ch5:
+Cry_Flamedrmon_Ch5:
 	pitch_offset 32
 	duty_cycle 0
-	sound_jump Cry_Mareep_Ch6.body
+	sound_jump Cry_Flamedrmon_Ch6.body
 
-Cry_Mareep_Ch6:
+Cry_Flamedrmon_Ch6:
 	duty_cycle_pattern 0, 0, 0, 1
 .body:
 	square_note 4, 3, -2, 1853
@@ -676,7 +676,7 @@ Cry_Tanemon_Ch8:
 
 Cry_Gligar_Ch5:
 	duty_cycle_pattern 2, 2, 0, 2
-	sound_jump Cry_Mareep_Ch6.body
+	sound_jump Cry_Flamedrmon_Ch6.body
 
 Cry_Girafarig_Ch5:
 	duty_cycle 1

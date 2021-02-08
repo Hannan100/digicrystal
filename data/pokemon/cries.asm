@@ -440,8 +440,8 @@ PokemonCries::
 	mon_cry CRY_VEEMON,      59,   56 ; VEEMON
 	mon_cry CRY_VEEDRAMON,       -103,  256 ; VEEDRAMON
 	mon_cry CRY_VEEDRAMON,       -167,  360 ; EXVEEMON
-	mon_cry CRY_MAREEP,       34,  216 ; MAREEP
-	mon_cry CRY_MAREEP,       -7,  384 ; FLAAFFY
+	mon_cry CRY_FLAMEDRMON,       34,  216 ; FLAMEDRMON
+	mon_cry CRY_FLAMEDRMON,       -7,  384 ; FLAAFFY
 	mon_cry CRY_AMPHAROS,   -124,  232 ; AMPHAROS
 	mon_cry CRY_CLEFFA,      132,  336 ; BELLOSSOM
 	mon_cry CRY_MARILL,      283,  288 ; MARILL
