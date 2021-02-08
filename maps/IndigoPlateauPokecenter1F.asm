@@ -4,7 +4,7 @@
 	const INDIGOPLATEAUPOKECENTER1F_COOLTRAINER_M
 	const INDIGOPLATEAUPOKECENTER1F_SILVER
 	const INDIGOPLATEAUPOKECENTER1F_GRAMPS
-	const INDIGOPLATEAUPOKECENTER1F_ABRA
+	const INDIGOPLATEAUPOKECENTER1F_WIZARDMON
 
 IndigoPlateauPokecenter1F_MapScripts:
 	def_scene_scripts
@@ -167,10 +167,10 @@ TeleportGuyScript:
 	closetext
 	end
 
-AbraScript:
+WizardmonScript:
 	opentext
-	writetext AbraText
-	cry ABRA
+	writetext WizardmonText
+	cry WIZARDMON
 	waitbutton
 	closetext
 	end
@@ -275,7 +275,7 @@ TeleportGuyText1:
 	para "If you need to"
 	line "train some more,"
 
-	para "my ABRA can help"
+	para "my WIZARDMON can help"
 	line "you."
 
 	para "It can TELEPORT"
@@ -296,8 +296,8 @@ TeleportGuyNoText:
 	line "of luck to you!"
 	done
 
-AbraText:
-	text "ABRA: Aabra…"
+WizardmonText:
+	text "WIZARDMON: Awizardmon…"
 	done
 
 IndigoPlateauPokecenter1F_MapEvents:
@@ -321,4 +321,4 @@ IndigoPlateauPokecenter1F_MapEvents:
 	object_event 11, 11, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IndigoPlateauPokecenter1FCooltrainerMScript, -1
 	object_event 16,  9, SPRITE_SILVER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_INDIGO_PLATEAU_POKECENTER_RIVAL
 	object_event  1,  9, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, TeleportGuyScript, EVENT_TELEPORT_GUY
-	object_event  0,  9, SPRITE_JYNX, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, AbraScript, EVENT_TELEPORT_GUY
+	object_event  0,  9, SPRITE_JYNX, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, WizardmonScript, EVENT_TELEPORT_GUY

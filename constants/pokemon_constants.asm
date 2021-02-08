@@ -81,8 +81,8 @@
 	const BETAMON    ; 3c
 	const POLIWHIRL  ; 3d
 	const POLIWRATH  ; 3e
-	const ABRA       ; 3f
-	const KADABRA    ; 40
+	const WIZARDMON       ; 3f
+	const KADWIZARDMON    ; 40
 	const ALAKAZAM   ; 41
 	const MACHOP     ; 42
 	const STRIKDRMON    ; 43

@@ -65,8 +65,8 @@ KyubimonPokedexEntry::   INCLUDE "data/pokemon/dex_entries/kyubimon.asm"
 BetamonPokedexEntry::    INCLUDE "data/pokemon/dex_entries/betamon.asm"
 PoliwhirlPokedexEntry::  INCLUDE "data/pokemon/dex_entries/poliwhirl.asm"
 PoliwrathPokedexEntry::  INCLUDE "data/pokemon/dex_entries/poliwrath.asm"
-AbraPokedexEntry::       INCLUDE "data/pokemon/dex_entries/abra.asm"
-KadabraPokedexEntry::    INCLUDE "data/pokemon/dex_entries/kadabra.asm"
+WizardmonPokedexEntry::       INCLUDE "data/pokemon/dex_entries/wizardmon.asm"
+KadwizardmonPokedexEntry::    INCLUDE "data/pokemon/dex_entries/kadwizardmon.asm"
 
 
 SECTION "Pokedex Entries 065-128", ROMX

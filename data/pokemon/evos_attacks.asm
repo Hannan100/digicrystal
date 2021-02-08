@@ -830,13 +830,13 @@ PoliwrathEvosAttacks:
 	db 51, MIND_READER
 	db 0 ; no more level-up moves
 
-AbraEvosAttacks:
-	db EVOLVE_LEVEL, 16, KADABRA
+WizardmonEvosAttacks:
+	db EVOLVE_LEVEL, 16, KADWIZARDMON
 	db 0 ; no more evolutions
 	db 1, TELEPORT
 	db 0 ; no more level-up moves
 
-KadabraEvosAttacks:
+KadwizardmonEvosAttacks:
 	db EVOLVE_TRADE, -1, ALAKAZAM
 	db 0 ; no more evolutions
 	db 1, TELEPORT

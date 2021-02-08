@@ -278,26 +278,26 @@ KantoGrassWildMons:
 	db 13, PIDGEY
 	db 13, ELECMON
 	db 15, ANGEMON
-	db 12, ABRA
+	db 12, WIZARDMON
 	db 14, CANDLEMON
-	db 14, ABRA
-	db 14, ABRA
+	db 14, WIZARDMON
+	db 14, WIZARDMON
 	; day
 	db 13, PIDGEY
 	db 13, ELECMON
 	db 15, ANGEMON
-	db 12, ABRA
+	db 12, WIZARDMON
 	db 14, CANDLEMON
-	db 14, ABRA
-	db 14, ABRA
+	db 14, WIZARDMON
+	db 14, WIZARDMON
 	; nite
 	db 13, POROMON
 	db 13, MEOWTH
 	db 15, HAWKMON
-	db 12, ABRA
+	db 12, WIZARDMON
 	db 14, CANDLEMON
-	db 14, ABRA
-	db 14, ABRA
+	db 14, WIZARDMON
+	db 14, WIZARDMON
 
 	map_id ROUTE_6
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -334,51 +334,51 @@ KantoGrassWildMons:
 	db 18, ELECMON
 	db 18, GABUMON
 	db 18, CANDLEMON
-	db 16, ABRA
-	db 16, ABRA
+	db 16, WIZARDMON
+	db 16, WIZARDMON
 	; day
 	db 17, TSUNOMON
 	db 17, TOKOOMON
 	db 18, ELECMON
 	db 18, GABUMON
 	db 18, CANDLEMON
-	db 16, ABRA
-	db 16, ABRA
+	db 16, WIZARDMON
+	db 16, WIZARDMON
 	; nite
 	db 17, MEOWTH
 	db 17, MURKROW
 	db 18, HOUNDOUR
 	db 18, PERSIAN
 	db 18, CANDLEMON
-	db 16, ABRA
-	db 16, ABRA
+	db 16, WIZARDMON
+	db 16, WIZARDMON
 
 	map_id ROUTE_8
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 17, ELECMON
 	db 19, ANGEMON
-	db 16, ABRA
+	db 16, WIZARDMON
 	db 17, RENAMON
 	db 16, CANDLEMON
-	db 18, KADABRA
-	db 18, KADABRA
+	db 18, KADWIZARDMON
+	db 18, KADWIZARDMON
 	; day
 	db 17, ELECMON
 	db 19, ANGEMON
-	db 16, ABRA
+	db 16, WIZARDMON
 	db 17, RENAMON
 	db 16, CANDLEMON
-	db 18, KADABRA
-	db 18, KADABRA
+	db 18, KADWIZARDMON
+	db 18, KADWIZARDMON
 	; nite
 	db 17, MEOWTH
 	db 20, HAWKMON
-	db 16, ABRA
+	db 16, WIZARDMON
 	db 17, KERAMON
 	db 16, CANDLEMON
-	db 18, KADABRA
-	db 18, KADABRA
+	db 18, KADWIZARDMON
+	db 18, KADWIZARDMON
 
 	map_id ROUTE_9
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -683,7 +683,7 @@ KantoGrassWildMons:
 	db 8, MINOMON
 	db 10, MINOMON
 	db 12, WORMMON
-	db 12, ABRA
+	db 12, WIZARDMON
 	db 10, LALAMON
 	db 14, STINGMON
 	db 14, STINGMON
@@ -691,7 +691,7 @@ KantoGrassWildMons:
 	db 8, MINOMON
 	db 12, SUNKERN
 	db 10, MINOMON
-	db 12, ABRA
+	db 12, WIZARDMON
 	db 10, LALAMON
 	db 14, STINGMON
 	db 14, STINGMON
@@ -699,7 +699,7 @@ KantoGrassWildMons:
 	db 10, KUNEMON
 	db 10, GOBLIMON
 	db 12, GOBLIMON
-	db 12, ABRA
+	db 12, WIZARDMON
 	db 10, LALAMON
 	db 14, OGREMON
 	db 14, OGREMON

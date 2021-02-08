@@ -61,8 +61,8 @@ FramesPointers:
 	dw BetamonFrames
 	dw PoliwhirlFrames
 	dw PoliwrathFrames
-	dw AbraFrames
-	dw KadabraFrames
+	dw WizardmonFrames
+	dw KadwizardmonFrames
 	dw AlakazamFrames
 	dw MachopFrames
 	dw StrikdrmonFrames

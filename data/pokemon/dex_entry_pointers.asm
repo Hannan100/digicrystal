@@ -62,8 +62,8 @@ PokedexDataPointerTable:
 	dw BetamonPokedexEntry
 	dw PoliwhirlPokedexEntry
 	dw PoliwrathPokedexEntry
-	dw AbraPokedexEntry
-	dw KadabraPokedexEntry
+	dw WizardmonPokedexEntry
+	dw KadwizardmonPokedexEntry
 	dw AlakazamPokedexEntry
 	dw MachopPokedexEntry
 	dw StrikdrmonPokedexEntry

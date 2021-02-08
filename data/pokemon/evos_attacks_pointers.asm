@@ -63,8 +63,8 @@ EvosAttacksPointers::
 	dw BetamonEvosAttacks
 	dw PoliwhirlEvosAttacks
 	dw PoliwrathEvosAttacks
-	dw AbraEvosAttacks
-	dw KadabraEvosAttacks
+	dw WizardmonEvosAttacks
+	dw KadwizardmonEvosAttacks
 	dw AlakazamEvosAttacks
 	dw MachopEvosAttacks
 	dw StrikdrmonEvosAttacks

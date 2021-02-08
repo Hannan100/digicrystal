@@ -36,7 +36,7 @@ Pokered_MonIndices:
 	db PATAMON
 	db PIDGEY
 	db OTAMAMON
-	db KADABRA
+	db KADWIZARDMON
 	db GRAVELER
 	db CHANSEY
 	db STRIKDRMON
@@ -146,7 +146,7 @@ Pokered_MonIndices:
 	db MAROWAK
 	db HITMONTOP ; MISSINGNO.
 	db KERAMON
-	db ABRA
+	db WIZARDMON
 	db ALAKAZAM
 	db ANGEMON
 	db PEGASUSMON

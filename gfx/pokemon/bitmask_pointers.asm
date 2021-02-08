@@ -61,8 +61,8 @@ BitmasksPointers:
 	dw BetamonBitmasks
 	dw PoliwhirlBitmasks
 	dw PoliwrathBitmasks
-	dw AbraBitmasks
-	dw KadabraBitmasks
+	dw WizardmonBitmasks
+	dw KadwizardmonBitmasks
 	dw AlakazamBitmasks
 	dw MachopBitmasks
 	dw StrikdrmonBitmasks

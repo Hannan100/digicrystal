@@ -61,8 +61,8 @@ AnimationIdlePointers:
 	dw BetamonAnimationIdle
 	dw PoliwhirlAnimationIdle
 	dw PoliwrathAnimationIdle
-	dw AbraAnimationIdle
-	dw KadabraAnimationIdle
+	dw WizardmonAnimationIdle
+	dw KadwizardmonAnimationIdle
 	dw AlakazamAnimationIdle
 	dw MachopAnimationIdle
 	dw StrikdrmonAnimationIdle

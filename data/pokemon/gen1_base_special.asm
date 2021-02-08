@@ -63,8 +63,8 @@ KantoMonSpecials:
 	db  40 ; BETAMON
 	db  50 ; POLIWHIRL
 	db  70 ; POLIWRATH
-	db 105 ; ABRA
-	db 120 ; KADABRA
+	db 105 ; WIZARDMON
+	db 120 ; KADWIZARDMON
 	db 135 ; ALAKAZAM
 	db  35 ; MACHOP
 	db  50 ; STRIKDRMON

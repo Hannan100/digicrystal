@@ -1331,7 +1331,7 @@ JohtoGrassWildMons:
 	db 10, ELECMON
 	db 11, TSUNOMON
 	db 12, PIDGEY
-	db 10, ABRA
+	db 10, WIZARDMON
 	db 12, CANDLEMON
 	db 10, DITTO
 	db 10, DITTO
@@ -1339,7 +1339,7 @@ JohtoGrassWildMons:
 	db 10, ELECMON
 	db 11, TSUNOMON
 	db 12, PIDGEY
-	db 10, ABRA
+	db 10, WIZARDMON
 	db 12, CANDLEMON
 	db 10, DITTO
 	db 10, DITTO
@@ -1347,7 +1347,7 @@ JohtoGrassWildMons:
 	db 12, TAPIRMON
 	db 11, TSUNOMON
 	db 12,POROMON
-	db 10, ABRA
+	db 10, WIZARDMON
 	db 12, CANDLEMON
 	db 10, DITTO
 	db 10, DITTO
@@ -1358,7 +1358,7 @@ JohtoGrassWildMons:
 	db 12, ELECMON
 	db 14, PIDGEY
 	db 13, RENAMON
-	db 10, ABRA
+	db 10, WIZARDMON
 	db 12, CANDLEMON
 	db 10, DITTO
 	db 12, YANMA
@@ -1366,7 +1366,7 @@ JohtoGrassWildMons:
 	db 12, ELECMON
 	db 14, PIDGEY
 	db 13, RENAMON
-	db 10, ABRA
+	db 10, WIZARDMON
 	db 12, CANDLEMON
 	db 10, DITTO
 	db 12, YANMA
@@ -1374,7 +1374,7 @@ JohtoGrassWildMons:
 	db 12, TAPIRMON
 	db 14,POROMON
 	db 13, PSYDUCK
-	db 10, ABRA
+	db 10, WIZARDMON
 	db 12, CANDLEMON
 	db 10, DITTO
 	db 12, YANMA

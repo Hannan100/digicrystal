@@ -1,7 +1,7 @@
 ; Every Pokémon sorted alphabetically by name.
 
 AlphabeticalPokedexOrder:
-	db ABRA
+	db WIZARDMON
 	db AERODACTYL
 	db AIPOM
 	db ALAKAZAM
@@ -100,7 +100,7 @@ AlphabeticalPokedexOrder:
 	db JYNX
 	db KABUTO
 	db KABUTOPS
-	db KADABRA
+	db KADWIZARDMON
 	db TENTOMON
 	db KANGASKHAN
 	db KINGDRA

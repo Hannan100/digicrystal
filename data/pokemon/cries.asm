@@ -68,8 +68,8 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      $0ff,  $17f ; BETAMON
 	mon_cry CRY_PIDGEY,      $077,  $0e0 ; POLIWHIRL
 	mon_cry CRY_PIDGEY,      $000,  $17f ; POLIWRATH
-	mon_cry CRY_WORMMON,     $0c0,  $081 ; ABRA
-	mon_cry CRY_WORMMON,     $0a8,  $140 ; KADABRA
+	mon_cry CRY_WORMMON,     $0c0,  $081 ; WIZARDMON
+	mon_cry CRY_WORMMON,     $0a8,  $140 ; KADWIZARDMON
 	mon_cry CRY_WORMMON,     $098,  $17f ; ALAKAZAM
 	mon_cry CRY_RENAMON,   $0ee,  $081 ; MACHOP
 	mon_cry CRY_RENAMON,   $048,  $0e0 ; STRIKDRMON
@@ -324,8 +324,8 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      255,  383 ; BETAMON
 	mon_cry CRY_PIDGEY,      119,  224 ; POLIWHIRL
 	mon_cry CRY_PIDGEY,        0,  383 ; POLIWRATH
-	mon_cry CRY_WORMMON,     192,  129 ; ABRA
-	mon_cry CRY_WORMMON,     168,  320 ; KADABRA
+	mon_cry CRY_WORMMON,     192,  129 ; WIZARDMON
+	mon_cry CRY_WORMMON,     168,  320 ; KADWIZARDMON
 	mon_cry CRY_WORMMON,     152,  383 ; ALAKAZAM
 	mon_cry CRY_RENAMON,   238,  129 ; MACHOP
 	mon_cry CRY_RENAMON,    72,  224 ; STRIKDRMON

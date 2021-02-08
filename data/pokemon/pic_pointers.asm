@@ -126,10 +126,10 @@ PokemonPicPointers::
 	dba_pic PoliwhirlBackpic
 	dba_pic PoliwrathFrontpic
 	dba_pic PoliwrathBackpic
-	dba_pic AbraFrontpic
-	dba_pic AbraBackpic
-	dba_pic KadabraFrontpic
-	dba_pic KadabraBackpic
+	dba_pic WizardmonFrontpic
+	dba_pic WizardmonBackpic
+	dba_pic KadwizardmonFrontpic
+	dba_pic KadwizardmonBackpic
 	dba_pic AlakazamFrontpic
 	dba_pic AlakazamBackpic
 	dba_pic MachopFrontpic

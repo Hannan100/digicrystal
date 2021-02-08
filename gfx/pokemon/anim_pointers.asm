@@ -61,8 +61,8 @@ AnimationPointers:
 	dw BetamonAnimation
 	dw PoliwhirlAnimation
 	dw PoliwrathAnimation
-	dw AbraAnimation
-	dw KadabraAnimation
+	dw WizardmonAnimation
+	dw KadwizardmonAnimation
 	dw AlakazamAnimation
 	dw MachopAnimation
 	dw StrikdrmonAnimation
