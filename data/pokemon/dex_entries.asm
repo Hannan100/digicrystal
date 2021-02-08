@@ -73,7 +73,7 @@ SECTION "Pokedex Entries 065-128", ROMX
 
 AlakazamPokedexEntry::   INCLUDE "data/pokemon/dex_entries/alakazam.asm"
 MachopPokedexEntry::     INCLUDE "data/pokemon/dex_entries/machop.asm"
-MachokePokedexEntry::    INCLUDE "data/pokemon/dex_entries/machoke.asm"
+StrikdrmonPokedexEntry::    INCLUDE "data/pokemon/dex_entries/strikdrmon.asm"
 MachampPokedexEntry::    INCLUDE "data/pokemon/dex_entries/machamp.asm"
 LalamonPokedexEntry:: INCLUDE "data/pokemon/dex_entries/lalamon.asm"
 WeepinbellPokedexEntry:: INCLUDE "data/pokemon/dex_entries/weepinbell.asm"

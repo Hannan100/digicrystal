@@ -67,7 +67,7 @@ KantoMonSpecials:
 	db 120 ; KADABRA
 	db 135 ; ALAKAZAM
 	db  35 ; MACHOP
-	db  50 ; MACHOKE
+	db  50 ; STRIKDRMON
 	db  65 ; MACHAMP
 	db  70 ; LALAMON
 	db  85 ; WEEPINBELL

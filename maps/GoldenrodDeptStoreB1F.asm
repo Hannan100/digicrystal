@@ -55,8 +55,8 @@ GoldenrodDeptStoreB1FBlackBelt3Script:
 
 GoldenrodDeptStoreB1FMachopScript:
 	opentext
-	writetext GoldenrodDeptStoreB1FMachokeText
-	cry MACHOKE
+	writetext GoldenrodDeptStoreB1FStrikdrmonText
+	cry STRIKDRMON
 	waitbutton
 	closetext
 	end
@@ -103,8 +103,8 @@ GoldenrodDeptStoreB1FBlackBelt3Text:
 	line "want it!"
 	done
 
-GoldenrodDeptStoreB1FMachokeText:
-	text "MACHOKE: Maaacho!"
+GoldenrodDeptStoreB1FStrikdrmonText:
+	text "STRIKDRMON: Maaacho!"
 	done
 
 GoldenrodDeptStoreB1F_MapEvents:

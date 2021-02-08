@@ -72,7 +72,7 @@ PokemonCries::
 	mon_cry CRY_WORMMON,     $0a8,  $140 ; KADABRA
 	mon_cry CRY_WORMMON,     $098,  $17f ; ALAKAZAM
 	mon_cry CRY_RENAMON,   $0ee,  $081 ; MACHOP
-	mon_cry CRY_RENAMON,   $048,  $0e0 ; MACHOKE
+	mon_cry CRY_RENAMON,   $048,  $0e0 ; STRIKDRMON
 	mon_cry CRY_RENAMON,   $008,  $140 ; MACHAMP
 	mon_cry CRY_PSYDUCK,     $055,  $081 ; LALAMON
 	mon_cry CRY_WEEPINBELL,  $044,  $0a0 ; WEEPINBELL
@@ -328,7 +328,7 @@ PokemonCries::
 	mon_cry CRY_WORMMON,     168,  320 ; KADABRA
 	mon_cry CRY_WORMMON,     152,  383 ; ALAKAZAM
 	mon_cry CRY_RENAMON,   238,  129 ; MACHOP
-	mon_cry CRY_RENAMON,    72,  224 ; MACHOKE
+	mon_cry CRY_RENAMON,    72,  224 ; STRIKDRMON
 	mon_cry CRY_RENAMON,     8,  320 ; MACHAMP
 	mon_cry CRY_PSYDUCK,      85,  129 ; LALAMON
 	mon_cry CRY_WEEPINBELL,   68,  160 ; WEEPINBELL

@@ -627,7 +627,7 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 31, GRAVELER
-	db 32, MACHOKE
+	db 32, STRIKDRMON
 	db 31, GOTSUMON
 	db 30, GABUMON
 	db 28, MACHOP
@@ -635,7 +635,7 @@ JohtoGrassWildMons:
 	db 30, DEMDEVIMON
 	; day
 	db 31, GRAVELER
-	db 32, MACHOKE
+	db 32, STRIKDRMON
 	db 31, GOTSUMON
 	db 30, GABUMON
 	db 28, MACHOP
@@ -1059,7 +1059,7 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 48, DEMDEVIMON
-	db 48, MACHOKE
+	db 48, STRIKDRMON
 	db 47, URSARING
 	db 46, MUSHROOMONECT
 	db 48, MUSHROOMONECT
@@ -1067,7 +1067,7 @@ JohtoGrassWildMons:
 	db 20, LARVITAR
 	; day
 	db 48, DEMDEVIMON
-	db 48, MACHOKE
+	db 48, STRIKDRMON
 	db 47, URSARING
 	db 46, MUSHROOMONECT
 	db 48, MUSHROOMONECT

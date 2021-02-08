@@ -150,8 +150,8 @@ INCBIN "gfx/pokemon/alakazam/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/alakazam/shiny.pal"
 INCBIN "gfx/pokemon/machop/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/machop/shiny.pal"
-INCBIN "gfx/pokemon/machoke/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/machoke/shiny.pal"
+INCBIN "gfx/pokemon/strikdrmon/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/strikdrmon/shiny.pal"
 INCBIN "gfx/pokemon/machamp/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/machamp/shiny.pal"
 INCBIN "gfx/pokemon/lalamon/front.gbcpal", middle_colors

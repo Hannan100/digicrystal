@@ -866,7 +866,7 @@ AlakazamEvosAttacks:
 	db 0 ; no more level-up moves
 
 MachopEvosAttacks:
-	db EVOLVE_LEVEL, 28, MACHOKE
+	db EVOLVE_LEVEL, 28, STRIKDRMON
 	db 0 ; no more evolutions
 	db 1, LOW_KICK
 	db 1, LEER
@@ -880,7 +880,7 @@ MachopEvosAttacks:
 	db 49, SUBMISSION
 	db 0 ; no more level-up moves
 
-MachokeEvosAttacks:
+StrikdrmonEvosAttacks:
 	db EVOLVE_TRADE, -1, MACHAMP
 	db 0 ; no more evolutions
 	db 1, LOW_KICK

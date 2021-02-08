@@ -65,7 +65,7 @@ FramesPointers:
 	dw KadabraFrames
 	dw AlakazamFrames
 	dw MachopFrames
-	dw MachokeFrames
+	dw StrikdrmonFrames
 	dw MachampFrames
 	dw LalamonFrames
 	dw WeepinbellFrames

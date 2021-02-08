@@ -115,7 +115,7 @@ AlphabeticalPokedexOrder:
 	db LICKITUNG
 	db LUGIA
 	db MACHAMP
-	db MACHOKE
+	db STRIKDRMON
 	db MACHOP
 	db MAGBY
 	db MAGCARGO

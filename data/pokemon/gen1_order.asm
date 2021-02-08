@@ -39,7 +39,7 @@ Pokered_MonIndices:
 	db KADABRA
 	db GRAVELER
 	db CHANSEY
-	db MACHOKE
+	db STRIKDRMON
 	db MR__MIME
 	db HITMONLEE
 	db HITMONCHAN

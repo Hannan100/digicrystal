@@ -85,7 +85,7 @@
 	const KADABRA    ; 40
 	const ALAKAZAM   ; 41
 	const MACHOP     ; 42
-	const MACHOKE    ; 43
+	const STRIKDRMON    ; 43
 	const MACHAMP    ; 44
 	const LALAMON ; 45
 	const WEEPINBELL ; 46

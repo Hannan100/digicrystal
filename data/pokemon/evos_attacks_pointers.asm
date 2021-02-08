@@ -67,7 +67,7 @@ EvosAttacksPointers::
 	dw KadabraEvosAttacks
 	dw AlakazamEvosAttacks
 	dw MachopEvosAttacks
-	dw MachokeEvosAttacks
+	dw StrikdrmonEvosAttacks
 	dw MachampEvosAttacks
 	dw LalamonEvosAttacks
 	dw WeepinbellEvosAttacks

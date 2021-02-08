@@ -59,7 +59,7 @@ GoldenrodDeptStore4FGameboyKidText:
 	line "Game Link cable."
 
 	para "I know of four:"
-	line "MACHOKE, KADABRA,"
+	line "STRIKDRMON, KADABRA,"
 
 	para "KERAMON and, um,"
 	line "GRAVELER."

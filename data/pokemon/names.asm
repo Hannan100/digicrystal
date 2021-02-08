@@ -65,7 +65,7 @@ PokemonNames::
 	db "KADABRA@@@"
 	db "ALAKAZAM@@"
 	db "MACHOP@@@@"
-	db "MACHOKE@@@"
+	db "STRIKDRMON@@@"
 	db "MACHAMP@@@"
 	db "LALAMON"
 	db "WEEPINBELL"
