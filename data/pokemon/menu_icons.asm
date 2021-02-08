@@ -129,7 +129,7 @@ MonMenuIcons:
 	db ICON_HUMANSHAPE  ; MAGMAR
 	db ICON_BUG         ; PINSIR
 	db ICON_EQUINE      ; TAUROS
-	db ICON_FISH        ; MAGIKARP
+	db ICON_FISH        ; SWIMMON
 	db ICON_GYARADOS    ; GYARADOS
 	db ICON_LAPRAS      ; LAPRAS
 	db ICON_BLOB        ; DITTO

@@ -147,7 +147,7 @@
 	const MAGMAR     ; 7e
 	const PINSIR     ; 7f
 	const TAUROS     ; 80
-	const MAGIKARP   ; 81
+	const SWIMMON   ; 81
 	const GYARADOS   ; 82
 	const LAPRAS     ; 83
 	const DITTO      ; 84

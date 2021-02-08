@@ -127,7 +127,7 @@ PokemonNames::
 	db "MAGMAR@@@@"
 	db "PINSIR@@@@"
 	db "TAUROS@@@@"
-	db "MAGIKARP@@"
+	db "SWIMMON@@"
 	db "GYARADOS@@"
 	db "LAPRAS@@@@" ; !Plesiomon
 	db "DITTO@@@@@"

@@ -128,7 +128,7 @@ PokedexDataPointerTable:
 	dw MagmarPokedexEntry
 	dw PinsirPokedexEntry
 	dw TaurosPokedexEntry
-	dw MagikarpPokedexEntry
+	dw SwimmonPokedexEntry
 	dw GyaradosPokedexEntry
 	dw LaprasPokedexEntry
 	dw DittoPokedexEntry

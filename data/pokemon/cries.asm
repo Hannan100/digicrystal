@@ -134,7 +134,7 @@ PokemonCries::
 	mon_cry CRY_GUILMON,  $0ff,  $0b0 ; MAGMAR
 	mon_cry CRY_PIDGEOTTO,   $000,  $100 ; PINSIR
 	mon_cry CRY_SQUIRTLE,    $011,  $0c0 ; TAUROS
-	mon_cry CRY_GAZIMON,       $080,  $080 ; MAGIKARP
+	mon_cry CRY_GAZIMON,       $080,  $080 ; SWIMMON
 	mon_cry CRY_GAZIMON,       $000,  $100 ; GYARADOS
 	mon_cry CRY_LAPRAS,      $000,  $100 ; LAPRAS
 	mon_cry CRY_PIDGEY,      $0ff,  $17f ; DITTO
@@ -390,7 +390,7 @@ PokemonCries::
 	mon_cry CRY_GUILMON,  255,  176 ; MAGMAR
 	mon_cry CRY_PIDGEOTTO,     0,  256 ; PINSIR
 	mon_cry CRY_SQUIRTLE,     17,  192 ; TAUROS
-	mon_cry CRY_GAZIMON,       128,  128 ; MAGIKARP
+	mon_cry CRY_GAZIMON,       128,  128 ; SWIMMON
 	mon_cry CRY_GAZIMON,         0,  256 ; GYARADOS
 	mon_cry CRY_LAPRAS,        0,  256 ; LAPRAS
 	mon_cry CRY_PIDGEY,      255,  383 ; DITTO

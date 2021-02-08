@@ -25,7 +25,7 @@ PewterMartYoungsterText:
 	line "GYARADOS!"
 
 	para "I raised it from a"
-	line "MAGIKARP. I can't"
+	line "SWIMMON. I can't"
 
 	para "believe how strong"
 	line "it has become."
@@ -34,10 +34,10 @@ PewterMartYoungsterText:
 PewterMartSuperNerdText:
 	text "There once was a"
 	line "weird old man who"
-	cont "sold MAGIKARP."
+	cont "sold SWIMMON."
 
 	para "He was saying the"
-	line "MAGIKARP from the"
+	line "SWIMMON from the"
 
 	para "LAKE OF RAGE were"
 	line "excellent."

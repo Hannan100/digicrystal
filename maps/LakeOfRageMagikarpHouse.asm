@@ -1,60 +1,60 @@
 	object_const_def
-	const LAKEOFRAGEMAGIKARPHOUSE_FISHING_GURU
+	const LAKEOFRAGESWIMMONHOUSE_FISHING_GURU
 
-LakeOfRageMagikarpHouse_MapScripts:
+LakeOfRageSwimmonHouse_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
-MagikarpLengthRaterScript:
+SwimmonLengthRaterScript:
 	faceplayer
 	opentext
 	checkevent EVENT_LAKE_OF_RAGE_ELIXIR_ON_STANDBY
 	iftrue .GetReward
-	checkevent EVENT_LAKE_OF_RAGE_ASKED_FOR_MAGIKARP
-	iftrue .AskedForMagikarp
+	checkevent EVENT_LAKE_OF_RAGE_ASKED_FOR_SWIMMON
+	iftrue .AskedForSwimmon
 	checkevent EVENT_CLEARED_ROCKET_HIDEOUT
 	iftrue .ClearedRocketHideout
-	checkevent EVENT_LAKE_OF_RAGE_EXPLAINED_WEIRD_MAGIKARP
+	checkevent EVENT_LAKE_OF_RAGE_EXPLAINED_WEIRD_SWIMMON
 	iftrue .ExplainedHistory
-	writetext MagikarpLengthRaterText_LakeOfRageHistory
+	writetext SwimmonLengthRaterText_LakeOfRageHistory
 	waitbutton
 	closetext
-	setevent EVENT_LAKE_OF_RAGE_EXPLAINED_WEIRD_MAGIKARP
+	setevent EVENT_LAKE_OF_RAGE_EXPLAINED_WEIRD_SWIMMON
 	end
 
 .ExplainedHistory:
-	writetext MagikarpLengthRaterText_MenInBlack
+	writetext SwimmonLengthRaterText_MenInBlack
 	waitbutton
 	closetext
 	end
 
 .ClearedRocketHideout:
-	writetext MagikarpLengthRaterText_WorldsLargestMagikarp
+	writetext SwimmonLengthRaterText_WorldsLargestSwimmon
 	waitbutton
 	closetext
-	setevent EVENT_LAKE_OF_RAGE_ASKED_FOR_MAGIKARP
+	setevent EVENT_LAKE_OF_RAGE_ASKED_FOR_SWIMMON
 	end
 
-.AskedForMagikarp:
-	setval MAGIKARP
+.AskedForSwimmon:
+	setval SWIMMON
 	special FindPartyMonThatSpecies
 	iffalse .ClearedRocketHideout
-	writetext MagikarpLengthRaterText_YouHaveAMagikarp
+	writetext SwimmonLengthRaterText_YouHaveASwimmon
 	waitbutton
-	special CheckMagikarpLength
-	ifequal MAGIKARPLENGTH_NOT_MAGIKARP, .NotMagikarp
-	ifequal MAGIKARPLENGTH_REFUSED, .Refused
-	ifequal MAGIKARPLENGTH_TOO_SHORT, .TooShort
-	; MAGIKARPLENGTH_BEAT_RECORD
+	special CheckSwimmonLength
+	ifequal SWIMMONLENGTH_NOT_SWIMMON, .NotSwimmon
+	ifequal SWIMMONLENGTH_REFUSED, .Refused
+	ifequal SWIMMONLENGTH_TOO_SHORT, .TooShort
+	; SWIMMONLENGTH_BEAT_RECORD
 	sjump .GetReward
 
 .GetReward:
-	writetext MagikarpLengthRaterText_Memento
+	writetext SwimmonLengthRaterText_Memento
 	promptbutton
 	verbosegiveitem ELIXER
 	iffalse .NoRoom
-	writetext MagikarpLengthRaterText_Bonus
+	writetext SwimmonLengthRaterText_Bonus
 	waitbutton
 	closetext
 	clearevent EVENT_LAKE_OF_RAGE_ELIXIR_ON_STANDBY
@@ -66,30 +66,30 @@ MagikarpLengthRaterScript:
 	end
 
 .TooShort:
-	writetext MagikarpLengthRaterText_TooShort
+	writetext SwimmonLengthRaterText_TooShort
 	waitbutton
 	closetext
 	end
 
-.NotMagikarp:
-	writetext MagikarpLengthRaterText_NotMagikarp
+.NotSwimmon:
+	writetext SwimmonLengthRaterText_NotSwimmon
 	waitbutton
 	closetext
 	end
 
 .Refused:
-	writetext MagikarpLengthRaterText_Refused
+	writetext SwimmonLengthRaterText_Refused
 	waitbutton
 	closetext
 	end
 
-LakeOfRageMagikarpHouseUnusedRecordSign: ; unreferenced
-	jumptext LakeOfRageMagikarpHouseUnusedRecordText
+LakeOfRageSwimmonHouseUnusedRecordSign: ; unreferenced
+	jumptext LakeOfRageSwimmonHouseUnusedRecordText
 
-MagikarpHouseBookshelf:
+SwimmonHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
-MagikarpLengthRaterText_LakeOfRageHistory:
+SwimmonLengthRaterText_LakeOfRageHistory:
 	text "LAKE OF RAGE is"
 	line "actually a crater"
 
@@ -111,14 +111,14 @@ MagikarpLengthRaterText_LakeOfRageHistory:
 	para "It used to be that"
 	line "you could catch"
 
-	para "lively MAGIKARP"
+	para "lively SWIMMON"
 	line "there, but…"
 
 	para "I don't understand"
 	line "what's happening."
 	done
 
-MagikarpLengthRaterText_MenInBlack:
+SwimmonLengthRaterText_MenInBlack:
 	text "The LAKE hasn't"
 	line "been normal since"
 
@@ -126,32 +126,32 @@ MagikarpLengthRaterText_MenInBlack:
 	line "black arrived."
 	done
 
-MagikarpLengthRaterText_WorldsLargestMagikarp:
+SwimmonLengthRaterText_WorldsLargestSwimmon:
 	text "LAKE OF RAGE is"
 	line "back to normal."
 
-	para "The MAGIKARP have"
+	para "The SWIMMON have"
 	line "returned."
 
 	para "I may yet realize"
 	line "my dream of see-"
 	cont "ing the world's"
-	cont "largest MAGIKARP."
+	cont "largest SWIMMON."
 
 	para "Do you have a ROD?"
 	line "Please help me if"
 	cont "you do."
 	done
 
-MagikarpLengthRaterText_YouHaveAMagikarp:
+SwimmonLengthRaterText_YouHaveASwimmon:
 	text "Ah, you have a"
-	line "MAGIKARP! Let's"
+	line "SWIMMON! Let's"
 
 	para "see how big that"
 	line "baby is."
 	done
 
-MagikarpLengthRaterText_Memento:
+SwimmonLengthRaterText_Memento:
 	text "Wow! This one is"
 	line "outstanding!"
 
@@ -162,7 +162,7 @@ MagikarpLengthRaterText_Memento:
 	line "memento!"
 	done
 
-MagikarpLengthRaterText_Bonus:
+SwimmonLengthRaterText_Bonus:
 	text "The record is the"
 	line "important thing."
 
@@ -170,7 +170,7 @@ MagikarpLengthRaterText_Bonus:
 	line "a bonus!"
 	done
 
-MagikarpLengthRaterText_TooShort:
+SwimmonLengthRaterText_TooShort:
 	text "Wow! This one is"
 	line "outstanding!"
 
@@ -181,12 +181,12 @@ MagikarpLengthRaterText_TooShort:
 	line "before."
 	done
 
-MagikarpLengthRaterText_NotMagikarp:
+SwimmonLengthRaterText_NotSwimmon:
 	text "What? That's not a"
-	line "MAGIKARP!"
+	line "SWIMMON!"
 	done
 
-MagikarpLengthRaterText_Refused:
+SwimmonLengthRaterText_Refused:
 	text "Oh… So you didn't"
 	line "get one good"
 
@@ -194,7 +194,7 @@ MagikarpLengthRaterText_Refused:
 	line "Maybe next time."
 	done
 
-LakeOfRageMagikarpHouseUnusedRecordText:
+LakeOfRageSwimmonHouseUnusedRecordText:
 	text "CURRENT RECORD"
 
 	para "@"
@@ -204,10 +204,10 @@ LakeOfRageMagikarpHouseUnusedRecordText:
 	text_ram wStringBuffer4
 	text_end
 
-LakeOfRageMagikarpHouseUnusedDummyText: ; unreferenced
+LakeOfRageSwimmonHouseUnusedDummyText: ; unreferenced
 	text_end
 
-LakeOfRageMagikarpHouse_MapEvents:
+LakeOfRageSwimmonHouse_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
@@ -217,8 +217,8 @@ LakeOfRageMagikarpHouse_MapEvents:
 	def_coord_events
 
 	def_bg_events
-	bg_event  0,  1, BGEVENT_READ, MagikarpHouseBookshelf
-	bg_event  1,  1, BGEVENT_READ, MagikarpHouseBookshelf
+	bg_event  0,  1, BGEVENT_READ, SwimmonHouseBookshelf
+	bg_event  1,  1, BGEVENT_READ, SwimmonHouseBookshelf
 
 	def_object_events
-	object_event  2,  3, SPRITE_FISHING_GURU, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MagikarpLengthRaterScript, -1
+	object_event  2,  3, SPRITE_FISHING_GURU, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SwimmonLengthRaterScript, -1

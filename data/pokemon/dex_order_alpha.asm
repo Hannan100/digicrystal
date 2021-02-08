@@ -119,7 +119,7 @@ AlphabeticalPokedexOrder:
 	db MACHOP
 	db MAGBY
 	db MAGCARGO
-	db MAGIKARP
+	db SWIMMON
 	db MAGMAR
 	db HAGURUMON
 	db MAGNETON

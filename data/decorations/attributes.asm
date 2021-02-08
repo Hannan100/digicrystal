@@ -47,7 +47,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,    BETAMON,         SET_UP_DOLL,       EVENT_DECO_BETAMON_DOLL,            SPRITE_BETAMON
 	decoration DECO_DOLL,    DIGLETT,         SET_UP_DOLL,       EVENT_DECO_DIGLETT_DOLL,            SPRITE_DIGLETT
 	decoration DECO_DOLL,    STARYU,          SET_UP_DOLL,       EVENT_DECO_STARMIE_DOLL,            SPRITE_STARMIE
-	decoration DECO_DOLL,    MAGIKARP,        SET_UP_DOLL,       EVENT_DECO_MAGIKARP_DOLL,           SPRITE_MAGIKARP
+	decoration DECO_DOLL,    SWIMMON,        SET_UP_DOLL,       EVENT_DECO_SWIMMON_DOLL,           SPRITE_SWIMMON
 	decoration DECO_DOLL,    GOBLIMON,          SET_UP_DOLL,       EVENT_DECO_GOBLIMON_DOLL,             SPRITE_GOBLIMON
 	decoration DECO_DOLL,    GENGAR,          SET_UP_DOLL,       EVENT_DECO_GENGAR_DOLL,             SPRITE_GENGAR
 	decoration DECO_DOLL,    SHELLDER,        SET_UP_DOLL,       EVENT_DECO_SHELLDER_DOLL,           SPRITE_SHELLDER

@@ -128,18 +128,18 @@ LakeOfRageCooltrainerFScript:
 LakeOfRageSign:
 	jumptext LakeOfRageSignText
 
-MagikarpHouseSignScript:
+SwimmonHouseSignScript:
 	opentext
 	writetext FishingGurusHouseSignText
 	checkevent EVENT_CLEARED_ROCKET_HIDEOUT
-	iftrue .MagikarpLengthRecord
+	iftrue .SwimmonLengthRecord
 	waitbutton
 	closetext
 	end
 
-.MagikarpLengthRecord:
+.SwimmonLengthRecord:
 	promptbutton
-	special MagikarpHouseSign
+	special SwimmonHouseSign
 	closetext
 	end
 
@@ -247,7 +247,7 @@ LakeOfRageLanceForcedToEvolveText:
 	line "of GYARADOS but"
 	cont "nothing else…"
 
-	para "So the MAGIKARP"
+	para "So the SWIMMON"
 	line "are being forced"
 	cont "to evolve…"
 	done
@@ -284,7 +284,7 @@ LakeOfRageLanceRadioSignalText:
 	text "LANCE: Excellent!"
 
 	para "It seems that the"
-	line "LAKE's MAGIKARP"
+	line "LAKE's SWIMMON"
 
 	para "are being forced"
 	line "to evolve."
@@ -496,13 +496,13 @@ LakeOfRage_MapEvents:
 
 	def_warp_events
 	warp_event  7,  3, LAKE_OF_RAGE_HIDDEN_POWER_HOUSE, 1
-	warp_event 27, 31, LAKE_OF_RAGE_MAGIKARP_HOUSE, 1
+	warp_event 27, 31, LAKE_OF_RAGE_SWIMMON_HOUSE, 1
 
 	def_coord_events
 
 	def_bg_events
 	bg_event 21, 27, BGEVENT_READ, LakeOfRageSign
-	bg_event 25, 31, BGEVENT_READ, MagikarpHouseSignScript
+	bg_event 25, 31, BGEVENT_READ, SwimmonHouseSignScript
 	bg_event 11, 28, BGEVENT_ITEM, LakeOfRageHiddenFullRestore
 	bg_event  4,  4, BGEVENT_ITEM, LakeOfRageHiddenRareCandy
 	bg_event 35,  5, BGEVENT_ITEM, LakeOfRageHiddenMaxPotion

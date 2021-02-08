@@ -76,7 +76,7 @@ NewPokedexOrder:
 	db POLIWHIRL
 	db POLIWRATH
 	db POLITOED
-	db MAGIKARP
+	db SWIMMON
 	db GYARADOS
 	db GIZAMON
 	db SEAKING

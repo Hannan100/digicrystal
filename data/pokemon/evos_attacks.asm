@@ -1754,7 +1754,7 @@ TaurosEvosAttacks:
 	db 53, TAKE_DOWN
 	db 0 ; no more level-up moves
 
-MagikarpEvosAttacks:
+SwimmonEvosAttacks:
 	db EVOLVE_LEVEL, 20, GYARADOS
 	db 0 ; no more evolutions
 	db 1, SPLASH

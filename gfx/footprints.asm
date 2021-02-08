@@ -298,7 +298,7 @@ INCBIN "gfx/footprints/magmar.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/pinsir.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/tauros.1bpp",     footprint_bottom
 ; 129-136 top halves
-INCBIN "gfx/footprints/magikarp.1bpp",   footprint_top
+INCBIN "gfx/footprints/swimmon.1bpp",   footprint_top
 INCBIN "gfx/footprints/gyarados.1bpp",   footprint_top
 INCBIN "gfx/footprints/lapras.1bpp",     footprint_top
 INCBIN "gfx/footprints/ditto.1bpp",      footprint_top
@@ -307,7 +307,7 @@ INCBIN "gfx/footprints/vaporeon.1bpp",   footprint_top
 INCBIN "gfx/footprints/jolteon.1bpp",    footprint_top
 INCBIN "gfx/footprints/flareon.1bpp",    footprint_top
 ; 129-136 bottom halves
-INCBIN "gfx/footprints/magikarp.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/swimmon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/gyarados.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/lapras.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/ditto.1bpp",      footprint_bottom

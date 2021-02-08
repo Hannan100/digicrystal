@@ -127,7 +127,7 @@ FramesPointers:
 	dw MagmarFrames
 	dw PinsirFrames
 	dw TaurosFrames
-	dw MagikarpFrames
+	dw SwimmonFrames
 	dw GyaradosFrames
 	dw LaprasFrames
 	dw DittoFrames

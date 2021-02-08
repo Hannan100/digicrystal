@@ -127,7 +127,7 @@ AnimationIdlePointers:
 	dw MagmarAnimationIdle
 	dw PinsirAnimationIdle
 	dw TaurosAnimationIdle
-	dw MagikarpAnimationIdle
+	dw SwimmonAnimationIdle
 	dw GyaradosAnimationIdle
 	dw LaprasAnimationIdle
 	dw DittoAnimationIdle

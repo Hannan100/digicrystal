@@ -136,9 +136,9 @@ KantoWaterWildMons:
 
 	map_id FUCHSIA_CITY
 	db 2 percent ; encounter rate
-	db 20, MAGIKARP
-	db 15, MAGIKARP
-	db 10, MAGIKARP
+	db 20, SWIMMON
+	db 15, SWIMMON
+	db 10, SWIMMON
 
 	map_id CINNABAR_ISLAND
 	db 6 percent ; encounter rate

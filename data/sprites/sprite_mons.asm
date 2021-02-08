@@ -8,7 +8,7 @@ SpriteMons:
 	db GOBLIMON
 	db GENGAR
 	db PAGUMON
-	db MAGIKARP
+	db SWIMMON
 	db SQUIRTLE
 	db DEMIVEEMON
 	db BUTTERFREE

@@ -7,8 +7,8 @@ SpriteAnimOAMData:
 	dbw $5c, .OAMData_1x1_Palette0             ; SPRITE_ANIM_OAMSET_GS_INTRO_BUBBLE_2
 	dbw $6c, .OAMData_GSIntroShellder          ; SPRITE_ANIM_OAMSET_GS_INTRO_SHELLDER_1
 	dbw $6e, .OAMData_GSIntroShellder          ; SPRITE_ANIM_OAMSET_GS_INTRO_SHELLDER_2
-	dbw $2d, .OAMData_GSIntroMagikarp          ; SPRITE_ANIM_OAMSET_GS_INTRO_MAGIKARP_1
-	dbw $4d, .OAMData_GSIntroMagikarp          ; SPRITE_ANIM_OAMSET_GS_INTRO_MAGIKARP_2
+	dbw $2d, .OAMData_GSIntroSwimmon          ; SPRITE_ANIM_OAMSET_GS_INTRO_SWIMMON_1
+	dbw $4d, .OAMData_GSIntroSwimmon          ; SPRITE_ANIM_OAMSET_GS_INTRO_SWIMMON_2
 	dbw $60, .OAMData_GSIntroLapras            ; SPRITE_ANIM_OAMSET_GS_INTRO_UNUSED_LAPRAS
 	dbw $00, .OAMData_GSIntroLapras            ; SPRITE_ANIM_OAMSET_GS_INTRO_LAPRAS_1
 	dbw $00, .OAMData_GSIntroLapras            ; SPRITE_ANIM_OAMSET_GS_INTRO_LAPRAS_2
@@ -386,7 +386,7 @@ SpriteAnimOAMData:
 	dbsprite -1,  0,  0,  0, $09, PAL_OW_RED
 	dbsprite  0,  0,  0,  0, $07, PAL_OW_RED
 
-.OAMData_GSIntroMagikarp:
+.OAMData_GSIntroSwimmon:
 	db 6
 	dbsprite -2, -1,  4,  0, $00, 1
 	dbsprite -1, -1,  4,  0, $01, 1

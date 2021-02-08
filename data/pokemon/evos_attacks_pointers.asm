@@ -129,7 +129,7 @@ EvosAttacksPointers::
 	dw MagmarEvosAttacks
 	dw PinsirEvosAttacks
 	dw TaurosEvosAttacks
-	dw MagikarpEvosAttacks
+	dw SwimmonEvosAttacks
 	dw GyaradosEvosAttacks
 	dw LaprasEvosAttacks
 	dw DittoEvosAttacks

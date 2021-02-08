@@ -129,7 +129,7 @@ KantoMonSpecials:
 	db  85 ; MAGMAR
 	db  55 ; PINSIR
 	db  70 ; TAUROS
-	db  20 ; MAGIKARP
+	db  20 ; SWIMMON
 	db 100 ; GYARADOS
 	db  95 ; LAPRAS
 	db  48 ; DITTO
