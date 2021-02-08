@@ -15,7 +15,7 @@ AnimationPointers:
 	dw TentomonAnimation
 	dw KabutrimonAnimation
 	dw PidgeyAnimation
-	dw PegasusmontoAnimation
+	dw AngemonAnimation
 	dw PegasusmonAnimation
 	dw TsunomonAnimation
 	dw GabumonAnimation

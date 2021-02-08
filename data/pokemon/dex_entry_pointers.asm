@@ -16,7 +16,7 @@ PokedexDataPointerTable:
 	dw TentomonPokedexEntry
 	dw KabutrimonPokedexEntry
 	dw PidgeyPokedexEntry
-	dw PegasusmontoPokedexEntry
+	dw AngemonPokedexEntry
 	dw PegasusmonPokedexEntry
 	dw TsunomonPokedexEntry
 	dw GabumonPokedexEntry

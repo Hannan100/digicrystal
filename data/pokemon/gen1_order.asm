@@ -148,7 +148,7 @@ Pokered_MonIndices:
 	db KERAMON
 	db ABRA
 	db ALAKAZAM
-	db PEGASUSMONTO
+	db ANGEMON
 	db PEGASUSMON
 	db STARMIE
 	db NYOKOMON

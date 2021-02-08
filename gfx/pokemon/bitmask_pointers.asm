@@ -15,7 +15,7 @@ BitmasksPointers:
 	dw TentomonBitmasks
 	dw KabutrimonBitmasks
 	dw PidgeyBitmasks
-	dw PegasusmontoBitmasks
+	dw AngemonBitmasks
 	dw PegasusmonBitmasks
 	dw TsunomonBitmasks
 	dw GabumonBitmasks

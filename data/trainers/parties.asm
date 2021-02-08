@@ -14,7 +14,7 @@ FalknerGroup:
 	; FALKNER (1)
 	db "FALKNER@", TRAINERTYPE_MOVES
 	db  7, PIDGEY,     TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
-	db  9, PEGASUSMONTO,  TACKLE, MUD_SLAP, GUST, NO_MOVE
+	db  9, ANGEMON,  TACKLE, MUD_SLAP, GUST, NO_MOVE
 	db -1 ; end
 
 WhitneyGroup:
@@ -585,7 +585,7 @@ BirdKeeperGroup:
 	; BIRD_KEEPER (3)
 	db "BRYAN@", TRAINERTYPE_NORMAL
 	db 12, PIDGEY
-	db 14, PEGASUSMONTO
+	db 14, ANGEMON
 	db -1 ; end
 
 	; BIRD_KEEPER (4)
@@ -613,8 +613,8 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (7)
 	db "VANCE@", TRAINERTYPE_NORMAL
-	db 25, PEGASUSMONTO
-	db 25, PEGASUSMONTO
+	db 25, ANGEMON
+	db 25, ANGEMON
 	db -1 ; end
 
 	; BIRD_KEEPER (8)
@@ -665,7 +665,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (16)
 	db "BRET@", TRAINERTYPE_NORMAL
-	db 32, PEGASUSMONTO
+	db 32, ANGEMON
 	db 32, PATAMON
 	db -1 ; end
 
@@ -676,8 +676,8 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (18)
 	db "VANCE@", TRAINERTYPE_NORMAL
-	db 32, PEGASUSMONTO
-	db 32, PEGASUSMONTO
+	db 32, ANGEMON
+	db 32, ANGEMON
 	db -1 ; end
 
 	; BIRD_KEEPER (19)
@@ -727,7 +727,7 @@ LassGroup:
 	; LASS (7)
 	db "LAURA@", TRAINERTYPE_NORMAL
 	db 28, OGREMON
-	db 31, PEGASUSMONTO
+	db 31, ANGEMON
 	db 31, BELLOSSOM
 	db -1 ; end
 
