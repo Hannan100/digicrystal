@@ -911,7 +911,7 @@ MachampEvosAttacks:
 	db 61, SUBMISSION
 	db 0 ; no more level-up moves
 
-BellsproutEvosAttacks:
+LalamonEvosAttacks:
 	db EVOLVE_LEVEL, 21, WEEPINBELL
 	db 0 ; no more evolutions
 	db 1, VINE_WHIP

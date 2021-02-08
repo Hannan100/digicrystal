@@ -74,7 +74,7 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,   $0ee,  $081 ; MACHOP
 	mon_cry CRY_GROWLITHE,   $048,  $0e0 ; MACHOKE
 	mon_cry CRY_GROWLITHE,   $008,  $140 ; MACHAMP
-	mon_cry CRY_PSYDUCK,     $055,  $081 ; BELLSPROUT
+	mon_cry CRY_PSYDUCK,     $055,  $081 ; LALAMON
 	mon_cry CRY_WEEPINBELL,  $044,  $0a0 ; WEEPINBELL
 	mon_cry CRY_WEEPINBELL,  $066,  $14c ; VICTREEBEL
 	mon_cry CRY_KUNEMON,     $000,  $100 ; TENTACOOL
@@ -330,7 +330,7 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,   238,  129 ; MACHOP
 	mon_cry CRY_GROWLITHE,    72,  224 ; MACHOKE
 	mon_cry CRY_GROWLITHE,     8,  320 ; MACHAMP
-	mon_cry CRY_PSYDUCK,      85,  129 ; BELLSPROUT
+	mon_cry CRY_PSYDUCK,      85,  129 ; LALAMON
 	mon_cry CRY_WEEPINBELL,   68,  160 ; WEEPINBELL
 	mon_cry CRY_WEEPINBELL,  102,  332 ; VICTREEBEL
 	mon_cry CRY_KUNEMON,       0,  256 ; TENTACOOL

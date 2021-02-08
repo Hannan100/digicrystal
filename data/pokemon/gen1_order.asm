@@ -186,7 +186,7 @@ Pokered_MonIndices:
 	db GOBLIMON
 	db GLOOM
 	db VILEPLUME
-	db BELLSPROUT
+	db LALAMON
 	db WEEPINBELL
 	db VICTREEBEL
 

@@ -201,7 +201,7 @@ MachopEggMoves:
 	db ENCORE
 	db -1 ; end
 
-BellsproutEggMoves:
+LalamonEggMoves:
 	db SWORDS_DANCE
 	db ENCORE
 	db REFLECT

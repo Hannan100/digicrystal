@@ -1249,7 +1249,7 @@ JohtoGrassWildMons:
 	; morn
 	db 4, GUMMYMON
 	db 4, MINOMON
-	db 5, BELLSPROUT
+	db 5, LALAMON
 	db 5, PIDGEY
 	db 4, MOTIMON
 	db 5, YOKOMON
@@ -1257,7 +1257,7 @@ JohtoGrassWildMons:
 	; day
 	db 4, PIDGEY
 	db 4, MINOMON
-	db 5, BELLSPROUT
+	db 5, LALAMON
 	db 5, PIDGEY
 	db 4, MOTIMON
 	db 5, YOKOMON
@@ -1265,7 +1265,7 @@ JohtoGrassWildMons:
 	; nite
 	db 4, KOKOMON
 	db 4, POLIWAG
-	db 5, BELLSPROUT
+	db 5, LALAMON
 	db 5,POROMON
 	db 4, PAGUMON
 	db 5, TSUMEMON
@@ -1276,7 +1276,7 @@ JohtoGrassWildMons:
 	; morn
 	db 4, GAZIMON
 	db 5, TSUNOMON
-	db 7, BELLSPROUT
+	db 7, LALAMON
 	db 6, YOKOMON
 	db 7, PIDGEY
 	db 7, YOKOMON
@@ -1284,7 +1284,7 @@ JohtoGrassWildMons:
 	; day
 	db 4, GAZIMON
 	db 5, TSUNOMON
-	db 7, BELLSPROUT
+	db 7, LALAMON
 	db 6, YOKOMON
 	db 7, PIDGEY
 	db 7, YOKOMON
@@ -1292,7 +1292,7 @@ JohtoGrassWildMons:
 	; nite
 	db 4, WOOPER
 	db 5, TSUNOMON
-	db 7, BELLSPROUT
+	db 7, LALAMON
 	db 6, PAGUMON
 	db 7,POROMON
 	db 7, TSUMEMON
@@ -1384,7 +1384,7 @@ JohtoGrassWildMons:
 	; morn
 	db 4, GUMMYMON
 	db 4, PIDGEY
-	db 5, BELLSPROUT
+	db 5, LALAMON
 	db 5, GROWLITHE
 	db 5, PIDGEY
 	db 6, PIDGEY
@@ -1392,7 +1392,7 @@ JohtoGrassWildMons:
 	; day
 	db 4, PIDGEY
 	db 4, PIDGEY
-	db 5, BELLSPROUT
+	db 5, LALAMON
 	db 5, GROWLITHE
 	db 5, PIDGEY
 	db 6, PIDGEY
@@ -1400,7 +1400,7 @@ JohtoGrassWildMons:
 	; nite
 	db 4, KOKOMON
 	db 4,POROMON
-	db 5, BELLSPROUT
+	db 5, LALAMON
 	db 5,POROMON
 	db 5,POROMON
 	db 5, TSUMEMON
@@ -1546,7 +1546,7 @@ JohtoGrassWildMons:
 	; morn
 	db 23, TANGELA
 	db 22, LICKITUNG
-	db 22, BELLSPROUT
+	db 22, LALAMON
 	db 24, WEEPINBELL
 	db 24, LICKITUNG
 	db 26, LICKITUNG
@@ -1554,7 +1554,7 @@ JohtoGrassWildMons:
 	; day
 	db 23, TANGELA
 	db 22, LICKITUNG
-	db 22, BELLSPROUT
+	db 22, LALAMON
 	db 24, WEEPINBELL
 	db 24, LICKITUNG
 	db 26, LICKITUNG
@@ -1562,7 +1562,7 @@ JohtoGrassWildMons:
 	; nite
 	db 23, TANGELA
 	db 22, POLIWAG
-	db 22, BELLSPROUT
+	db 22, LALAMON
 	db 24, WEEPINBELL
 	db 24, POLIWHIRL
 	db 26, POLIWHIRL

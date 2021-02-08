@@ -14,7 +14,7 @@ AlphabeticalPokedexOrder:
 	db BAYLEEF
 	db BEEDRILL
 	db BELLOSSOM
-	db BELLSPROUT
+	db LALAMON
 	db BLASTOISE
 	db BLISSEY
 	db NYOKOMON
