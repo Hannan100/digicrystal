@@ -12,8 +12,8 @@ PokemonCries::
 	mon_cry CRY_GUILMON,  $060,  $0c0 ; GUILMON
 	mon_cry CRY_GUILMON,  $020,  $0c0 ; GROWLMON
 	mon_cry CRY_GUILMON,  $000,  $100 ; TYRANNOMON
-	mon_cry CRY_SQUIRTLE,    $060,  $0c0 ; SQUIRTLE
-	mon_cry CRY_SQUIRTLE,    $020,  $0c0 ; WARTORTLE
+	mon_cry CRY_GARURUMON,    $060,  $0c0 ; GARURUMON
+	mon_cry CRY_GARURUMON,    $020,  $0c0 ; WARTORTLE
 	mon_cry CRY_BLASTOISE,   $000,  $100 ; BLASTOISE
 	mon_cry CRY_MINOMON,    $080,  $0a0 ; MINOMON
 	mon_cry CRY_WORMMON,     $0cc,  $081 ; WORMMON
@@ -46,8 +46,8 @@ PokemonCries::
 	mon_cry CRY_VULPIX,      $088,  $0e0 ; NINETALES
 	mon_cry CRY_PIDGEY,      $0ff,  $0b5 ; CANDLEMON
 	mon_cry CRY_PIDGEY,      $068,  $0e0 ; MERAMON
-	mon_cry CRY_SQUIRTLE,    $0e0,  $100 ; PAGUMON
-	mon_cry CRY_SQUIRTLE,    $0fa,  $100 ; DEMDEVIMON
+	mon_cry CRY_GARURUMON,    $0e0,  $100 ; PAGUMON
+	mon_cry CRY_GARURUMON,    $0fa,  $100 ; DEMDEVIMON
 	mon_cry CRY_GOBLIMON,      $0dd,  $081 ; GOBLIMON
 	mon_cry CRY_GOBLIMON,      $0aa,  $0c0 ; OGREMON
 	mon_cry CRY_VILEPLUME,   $022,  $17f ; VILEPLUME
@@ -133,7 +133,7 @@ PokemonCries::
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; ELECTABUZZ
 	mon_cry CRY_GUILMON,  $0ff,  $0b0 ; MAGMAR
 	mon_cry CRY_PEGASUSMONTO,   $000,  $100 ; PINSIR
-	mon_cry CRY_SQUIRTLE,    $011,  $0c0 ; TAUROS
+	mon_cry CRY_GARURUMON,    $011,  $0c0 ; TAUROS
 	mon_cry CRY_GAZIMON,       $080,  $080 ; SWIMMON
 	mon_cry CRY_GAZIMON,       $000,  $100 ; GYARADOS
 	mon_cry CRY_LAPRAS,      $000,  $100 ; LAPRAS
@@ -174,7 +174,7 @@ PokemonCries::
 	mon_cry CRY_GUMMYMON,     -$096,  $138 ; TERRIERMON
 	mon_cry CRY_KOKOMON,    $011,  $200 ; KOKOMON
 	mon_cry CRY_KOKOMON,   -$0ae,  $1e2 ; LOPMON
-	mon_cry CRY_SQUIRTLE,   -$010,  $140 ; DEVIMON
+	mon_cry CRY_GARURUMON,   -$010,  $140 ; DEVIMON
 	mon_cry CRY_KOROMON,   $3c9,  $140 ; ENDIGOMON
 	mon_cry CRY_KOROMON,   $2d0,  $110 ; LANTURN
 	mon_cry CRY_PICHU,       $000,  $140 ; PICHU
@@ -268,8 +268,8 @@ PokemonCries::
 	mon_cry CRY_GUILMON,   96,  192 ; GUILMON
 	mon_cry CRY_GUILMON,   32,  192 ; GROWLMON
 	mon_cry CRY_GUILMON,    0,  256 ; TYRANNOMON
-	mon_cry CRY_SQUIRTLE,     96,  192 ; SQUIRTLE
-	mon_cry CRY_SQUIRTLE,     32,  192 ; WARTORTLE
+	mon_cry CRY_GARURUMON,     96,  192 ; GARURUMON
+	mon_cry CRY_GARURUMON,     32,  192 ; WARTORTLE
 	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
 	mon_cry CRY_MINOMON,    128,  160 ; MINOMON
 	mon_cry CRY_WORMMON,     204,  129 ; WORMMON
@@ -302,8 +302,8 @@ PokemonCries::
 	mon_cry CRY_VULPIX,      136,  224 ; NINETALES
 	mon_cry CRY_PIDGEY,      255,  181 ; CANDLEMON
 	mon_cry CRY_PIDGEY,      104,  224 ; MERAMON
-	mon_cry CRY_SQUIRTLE,    224,  256 ; PAGUMON
-	mon_cry CRY_SQUIRTLE,    250,  256 ; DEMDEVIMON
+	mon_cry CRY_GARURUMON,    224,  256 ; PAGUMON
+	mon_cry CRY_GARURUMON,    250,  256 ; DEMDEVIMON
 	mon_cry CRY_GOBLIMON,      221,  129 ; GOBLIMON
 	mon_cry CRY_GOBLIMON,      170,  192 ; OGREMON
 	mon_cry CRY_VILEPLUME,    34,  383 ; VILEPLUME
@@ -389,7 +389,7 @@ PokemonCries::
 	mon_cry CRY_VOLTORB,     143,  383 ; ELECTABUZZ
 	mon_cry CRY_GUILMON,  255,  176 ; MAGMAR
 	mon_cry CRY_PEGASUSMONTO,     0,  256 ; PINSIR
-	mon_cry CRY_SQUIRTLE,     17,  192 ; TAUROS
+	mon_cry CRY_GARURUMON,     17,  192 ; TAUROS
 	mon_cry CRY_GAZIMON,       128,  128 ; SWIMMON
 	mon_cry CRY_GAZIMON,         0,  256 ; GYARADOS
 	mon_cry CRY_LAPRAS,        0,  256 ; LAPRAS
@@ -430,7 +430,7 @@ PokemonCries::
 	mon_cry CRY_GUMMYMON,     -150,  312 ; TERRIERMON
 	mon_cry CRY_KOKOMON,     17,  512 ; KOKOMON
 	mon_cry CRY_KOKOMON,   -174,  482 ; LOPMON
-	mon_cry CRY_SQUIRTLE,    -16,  320 ; DEVIMON
+	mon_cry CRY_GARURUMON,    -16,  320 ; DEVIMON
 	mon_cry CRY_KOROMON,   969,  320 ; ENDIGOMON
 	mon_cry CRY_KOROMON,   720,  272 ; LANTURN
 	mon_cry CRY_PICHU,         0,  320 ; PICHU

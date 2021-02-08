@@ -209,7 +209,7 @@ AlphabeticalPokedexOrder:
 	db ELECMON
 	db TOKOOMON
 	db KOKOMON
-	db SQUIRTLE
+	db GARURUMON
 	db STANTLER
 	db STARMIE
 	db STARYU

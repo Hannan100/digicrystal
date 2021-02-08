@@ -14,8 +14,8 @@ PokemonPicPointers::
 	dba_pic GrowlmonBackpic
 	dba_pic TyrannomonFrontpic
 	dba_pic TyrannomonBackpic
-	dba_pic SquirtleFrontpic
-	dba_pic SquirtleBackpic
+	dba_pic GarurumonFrontpic
+	dba_pic GarurumonBackpic
 	dba_pic WartortleFrontpic
 	dba_pic WartortleBackpic
 	dba_pic BlastoiseFrontpic

@@ -5,7 +5,7 @@ FramesPointers:
 	dw GuilmonFrames
 	dw GrowlmonFrames
 	dw TyrannomonFrames
-	dw SquirtleFrames
+	dw GarurumonFrames
 	dw WartortleFrames
 	dw BlastoiseFrames
 	dw MinomonFrames

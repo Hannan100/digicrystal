@@ -30,7 +30,7 @@ GuilmonEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
-SquirtleEggMoves:
+GarurumonEggMoves:
 	db MIRROR_COAT
 	db HAZE
 	db MIST

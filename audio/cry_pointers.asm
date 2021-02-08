@@ -28,7 +28,7 @@ Cries:
 	dba Cry_Kunemon
 	dba Cry_Lapras
 	dba Cry_Wormmon
-	dba Cry_Squirtle
+	dba Cry_Garurumon
 	dba Cry_Mushroomon
 	dba Cry_Renamon
 	dba Cry_Crabmon

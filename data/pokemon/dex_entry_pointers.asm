@@ -6,7 +6,7 @@ PokedexDataPointerTable:
 	dw GuilmonPokedexEntry
 	dw GrowlmonPokedexEntry
 	dw TyrannomonPokedexEntry
-	dw SquirtlePokedexEntry
+	dw GarurumonPokedexEntry
 	dw WartortlePokedexEntry
 	dw BlastoisePokedexEntry
 	dw MinomonPokedexEntry

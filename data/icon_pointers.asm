@@ -21,7 +21,7 @@ IconPointers:
 	dw BlobIcon
 	dw SerpentIcon
 	dw VoltorbIcon
-	dw SquirtleIcon
+	dw GarurumonIcon
 	dw NyokomonIcon
 	dw GuilmonIcon
 	dw CaterpillarIcon

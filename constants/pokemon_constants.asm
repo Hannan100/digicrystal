@@ -25,7 +25,7 @@
 	const GUILMON ; 04
 	const GROWLMON ; 05
 	const TYRANNOMON  ; 06
-	const SQUIRTLE   ; 07
+	const GARURUMON   ; 07
 	const WARTORTLE  ; 08
 	const BLASTOISE  ; 09
 	const MINOMON   ; 0a

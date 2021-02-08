@@ -31,7 +31,7 @@
 	const CRY_KUNEMON
 	const CRY_LAPRAS
 	const CRY_WORMMON
-	const CRY_SQUIRTLE
+	const CRY_GARURUMON
 	const CRY_MUSHROOMON
 	const CRY_RENAMON
 	const CRY_CRABMON

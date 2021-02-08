@@ -5,7 +5,7 @@ PokemonNames::
 	db "GUILMON"
 	db "GROWLMON"
 	db "TYRANNOMON@"
-	db "SQUIRTLE@@"
+	db "GARURUMON@@"
 	db "WARTORTLE@"
 	db "BLASTOISE@"
 	db "MINOMON@@@" ; Minomon

@@ -117,7 +117,7 @@ TyrannomonEvosAttacks:
 	db 64, FIRE_SPIN
 	db 0 ; no more level-up moves
 
-SquirtleEvosAttacks:
+GarurumonEvosAttacks:
 	db EVOLVE_LEVEL, 16, WARTORTLE
 	db 0 ; no more evolutions
 	db 1, TACKLE

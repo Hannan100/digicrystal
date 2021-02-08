@@ -7,7 +7,7 @@ EvosAttacksPointers::
 	dw GuilmonEvosAttacks
 	dw GrowlmonEvosAttacks
 	dw TyrannomonEvosAttacks
-	dw SquirtleEvosAttacks
+	dw GarurumonEvosAttacks
 	dw WartortleEvosAttacks
 	dw BlastoiseEvosAttacks
 	dw MinomonEvosAttacks

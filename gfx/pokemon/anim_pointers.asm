@@ -5,7 +5,7 @@ AnimationPointers:
 	dw GuilmonAnimation
 	dw GrowlmonAnimation
 	dw TyrannomonAnimation
-	dw SquirtleAnimation
+	dw GarurumonAnimation
 	dw WartortleAnimation
 	dw BlastoiseAnimation
 	dw MinomonAnimation

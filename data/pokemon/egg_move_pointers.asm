@@ -5,7 +5,7 @@ EggMovePointers::
 	dw GuilmonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw SquirtleEggMoves
+	dw GarurumonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
