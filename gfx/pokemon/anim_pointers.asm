@@ -158,7 +158,7 @@ AnimationPointers:
 	dw GreymonAnimation
 	dw BukamonAnimation
 	dw GomamonAnimation
-	dw FeraligatrAnimation
+	dw IkkakumonAnimation
 	dw NyaromonAnimation
 	dw SalamonAnimation
 	dw PoromonAnimation

@@ -160,7 +160,7 @@ MonMenuIcons:
 	db ICON_FOX         ; GREYMON
 	db ICON_MONSTER     ; BUKAMON
 	db ICON_MONSTER     ; GOMAMON
-	db ICON_MONSTER     ; FERALIGATR
+	db ICON_MONSTER     ; IKKAKUMON
 	db ICON_FOX         ; NYAROMON
 	db ICON_FOX         ; SALAMON
 	db ICON_BIRD        ; POROMON

@@ -60,7 +60,7 @@ AlphabeticalPokedexOrder:
 	db DIGMON
 	db FARFETCH_D
 	db PATAMON
-	db FERALIGATR
+	db IKKAKUMON
 	db RAIDRAMON
 	db FLAREON
 	db WASPMON

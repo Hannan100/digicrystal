@@ -2162,7 +2162,7 @@ BukamonEvosAttacks:
 	db 0 ; no more level-up moves
 
 GomamonEvosAttacks:
-	db EVOLVE_LEVEL, 30, FERALIGATR
+	db EVOLVE_LEVEL, 30, IKKAKUMON
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
@@ -2176,7 +2176,7 @@ GomamonEvosAttacks:
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-FeraligatrEvosAttacks:
+IkkakumonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER

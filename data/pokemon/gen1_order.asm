@@ -198,7 +198,7 @@ Pokered_MonIndices:
 	db GREYMON
 	db BUKAMON
 	db GOMAMON
-	db FERALIGATR
+	db IKKAKUMON
 	db NYAROMON
 	db SALAMON
 	db POROMON

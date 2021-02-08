@@ -160,7 +160,7 @@ EvosAttacksPointers::
 	dw GreymonEvosAttacks
 	dw BukamonEvosAttacks
 	dw GomamonEvosAttacks
-	dw FeraligatrEvosAttacks
+	dw IkkakumonEvosAttacks
 	dw NyaromonEvosAttacks
 	dw SalamonEvosAttacks
 	dw PoromonEvosAttacks

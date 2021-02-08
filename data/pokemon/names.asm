@@ -158,7 +158,7 @@ PokemonNames::
 	db "GREYMON" ; !Greymon
 	db "BUKAMON@@@" ; Bukamon
 	db "GOMAMON@@@" ; Gomamon
-	db "FERALIGATR" ; !Ikakumon
+	db "IKKAKUMON" ; !Ikakumon
 	db "NYAROMON@@@" ; !Gummymon
 	db "SALAMON@@@@" ; !Terriermon
 	db "POROMON@@" ; !Poromon

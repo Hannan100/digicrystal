@@ -179,7 +179,7 @@ JOHTO_POKEMON EQU const_value
 	const GREYMON ; 9d
 	const BUKAMON   ; 9e
 	const GOMAMON   ; 9f
-	const FERALIGATR ; a0
+	const IKKAKUMON ; a0
 	const NYAROMON    ; a1
 	const SALAMON     ; a2
 	const POROMON   ; a3

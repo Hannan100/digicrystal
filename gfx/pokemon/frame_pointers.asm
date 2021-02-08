@@ -158,7 +158,7 @@ FramesPointers:
 	dw GreymonFrames
 	dw BukamonFrames
 	dw GomamonFrames
-	dw FeraligatrFrames
+	dw IkkakumonFrames
 	dw NyaromonFrames
 	dw SalamonFrames
 	dw PoromonFrames

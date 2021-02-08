@@ -9,7 +9,7 @@ NewPokedexOrder:
 	db GREYMON
 	db BUKAMON
 	db GOMAMON
-	db FERALIGATR
+	db IKKAKUMON
 	db PIDGEY
 	db ANGEMON
 	db PEGASUSMON

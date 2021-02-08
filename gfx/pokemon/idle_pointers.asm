@@ -158,7 +158,7 @@ AnimationIdlePointers:
 	dw GreymonAnimationIdle
 	dw BukamonAnimationIdle
 	dw GomamonAnimationIdle
-	dw FeraligatrAnimationIdle
+	dw IkkakumonAnimationIdle
 	dw NyaromonAnimationIdle
 	dw SalamonAnimationIdle
 	dw PoromonAnimationIdle

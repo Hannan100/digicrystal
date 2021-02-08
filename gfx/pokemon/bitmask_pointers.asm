@@ -158,7 +158,7 @@ BitmasksPointers:
 	dw GreymonBitmasks
 	dw BukamonBitmasks
 	dw GomamonBitmasks
-	dw FeraligatrBitmasks
+	dw IkkakumonBitmasks
 	dw NyaromonBitmasks
 	dw SalamonBitmasks
 	dw PoromonBitmasks

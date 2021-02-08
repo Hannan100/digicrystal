@@ -320,8 +320,8 @@ PokemonPicPointers::
 	dba_pic BukamonBackpic
 	dba_pic GomamonFrontpic
 	dba_pic GomamonBackpic
-	dba_pic FeraligatrFrontpic
-	dba_pic FeraligatrBackpic
+	dba_pic IkkakumonFrontpic
+	dba_pic IkkakumonBackpic
 	dba_pic NyaromonFrontpic
 	dba_pic NyaromonBackpic
 	dba_pic SalamonFrontpic

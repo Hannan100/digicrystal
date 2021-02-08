@@ -159,7 +159,7 @@ PokedexDataPointerTable:
 	dw GreymonPokedexEntry
 	dw BukamonPokedexEntry
 	dw GomamonPokedexEntry
-	dw FeraligatrPokedexEntry
+	dw IkkakumonPokedexEntry
 	dw NyaromonPokedexEntry
 	dw SalamonPokedexEntry
 	dw PoromonPokedexEntry
