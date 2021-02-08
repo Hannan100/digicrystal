@@ -34,10 +34,10 @@ PokemonPicPointers::
 	dba_pic KabutrimonBackpic
 	dba_pic PidgeyFrontpic
 	dba_pic PidgeyBackpic
-	dba_pic PidgeottoFrontpic
-	dba_pic PidgeottoBackpic
-	dba_pic PidgeotFrontpic
-	dba_pic PidgeotBackpic
+	dba_pic PegasusmontoFrontpic
+	dba_pic PegasusmontoBackpic
+	dba_pic PegasusmonFrontpic
+	dba_pic PegasusmonBackpic
 	dba_pic TsunomonFrontpic
 	dba_pic TsunomonBackpic
 	dba_pic GabumonFrontpic

@@ -158,8 +158,8 @@ AlphabeticalPokedexOrder:
 	db PERSIAN
 	db PHANPY
 	db PICHU
-	db PIDGEOT
-	db PIDGEOTTO
+	db PEGASUSMON
+	db PEGASUSMONTO
 	db PIDGEY
 	db PIKACHU
 	db PILOSWINE

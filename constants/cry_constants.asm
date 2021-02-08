@@ -22,7 +22,7 @@
 	const CRY_RHYDON
 	const CRY_GOLEM
 	const CRY_BLASTOISE
-	const CRY_PIDGEOTTO
+	const CRY_PEGASUSMONTO
 	const CRY_MOTIMON
 	const CRY_MINOMON
 	const CRY_GAZIMON

@@ -19,7 +19,7 @@ Cries:
 	dba Cry_Rhydon
 	dba Cry_Golem
 	dba Cry_Blastoise
-	dba Cry_Pidgeotto
+	dba Cry_Pegasusmonto
 	dba Cry_Motimon
 	dba Cry_Minomon
 	dba Cry_Gazimon

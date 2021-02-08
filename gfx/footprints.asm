@@ -46,8 +46,8 @@ INCBIN "gfx/footprints/tentomon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/kabutrimon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/pidgey.1bpp",     footprint_bottom
 ; 017-024 top halves
-INCBIN "gfx/footprints/pidgeotto.1bpp",  footprint_top
-INCBIN "gfx/footprints/pidgeot.1bpp",    footprint_top
+INCBIN "gfx/footprints/pegasusmonto.1bpp",  footprint_top
+INCBIN "gfx/footprints/pegasusmon.1bpp",    footprint_top
 INCBIN "gfx/footprints/tsunomon.1bpp",    footprint_top
 INCBIN "gfx/footprints/gabumon.1bpp",   footprint_top
 INCBIN "gfx/footprints/tokoomon.1bpp",    footprint_top
@@ -55,8 +55,8 @@ INCBIN "gfx/footprints/patamon.1bpp",     footprint_top
 INCBIN "gfx/footprints/gazimon.1bpp",      footprint_top
 INCBIN "gfx/footprints/arbok.1bpp",      footprint_top
 ; 017-024 bottom halves
-INCBIN "gfx/footprints/pidgeotto.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/pidgeot.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/pegasusmonto.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/pegasusmon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/tsunomon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/gabumon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/tokoomon.1bpp",    footprint_bottom

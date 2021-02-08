@@ -15,8 +15,8 @@ PokemonNames::
 	db "TENTOMON@@@@"
 	db "KABUTRIMON@@"
 	db "PIDGEY@@@@" ; !Biyomon
-	db "PIDGEOTTO@" ; !Birdramon
-	db "PIDGEOT@@@"
+	db "PEGASUSMONTO@" ; !Birdramon
+	db "PEGASUSMON@@@"
 	db "TSUNOMON@@@"
 	db "GABUMON@@"
 	db "TOKOOMON@@@"

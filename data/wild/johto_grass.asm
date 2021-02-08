@@ -1413,7 +1413,7 @@ JohtoGrassWildMons:
 	db 14, RENAMON
 	db 15, PIDGEY
 	db 16, RENAMON
-	db 15, PIDGEOTTO
+	db 15, PEGASUSMONTO
 	db 15, TERRIERMON
 	db 15, TERRIERMON
 	; day
@@ -1421,7 +1421,7 @@ JohtoGrassWildMons:
 	db 14, RENAMON
 	db 15, PIDGEY
 	db 16, RENAMON
-	db 15, PIDGEOTTO
+	db 15, PEGASUSMONTO
 	db 15, PIDGEY
 	db 15, PIDGEY
 	; nite
@@ -1439,7 +1439,7 @@ JohtoGrassWildMons:
 	db 16, TSUNOMON
 	db 16, GABUMON
 	db 16, HAGURUMON
-	db 16, PIDGEOTTO
+	db 16, PEGASUSMONTO
 	db 13, TAUROS
 	db 13, MILTANK
 	db 13, MILTANK
@@ -1447,7 +1447,7 @@ JohtoGrassWildMons:
 	db 16, TSUNOMON
 	db 16, GABUMON
 	db 16, HAGURUMON
-	db 16, PIDGEOTTO
+	db 16, PEGASUSMONTO
 	db 13, TAUROS
 	db 13, MILTANK
 	db 13, MILTANK
@@ -1466,7 +1466,7 @@ JohtoGrassWildMons:
 	db 16, TSUNOMON
 	db 16, GABUMON
 	db 16, HAGURUMON
-	db 16, PIDGEOTTO
+	db 16, PEGASUSMONTO
 	db 15, MILTANK
 	db 15, TAUROS
 	db 15, TAUROS
@@ -1474,7 +1474,7 @@ JohtoGrassWildMons:
 	db 16, TSUNOMON
 	db 16, GABUMON
 	db 16, HAGURUMON
-	db 16, PIDGEOTTO
+	db 16, PEGASUSMONTO
 	db 15, MILTANK
 	db 15, TAUROS
 	db 15, TAUROS
@@ -1518,7 +1518,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 15, NYAROMON
-	db 16, PIDGEOTTO
+	db 16, PEGASUSMONTO
 	db 16, FARFETCH_D
 	db 15, SALAMON
 	db 17, GABUMON
@@ -1526,7 +1526,7 @@ JohtoGrassWildMons:
 	db 17, SALAMON
 	; day
 	db 15, NYAROMON
-	db 16, PIDGEOTTO
+	db 16, PEGASUSMONTO
 	db 16, FARFETCH_D
 	db 15, SALAMON
 	db 17, GABUMON

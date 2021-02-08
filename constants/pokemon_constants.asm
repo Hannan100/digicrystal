@@ -35,8 +35,8 @@
 	const TENTOMON     ; 0e
 	const KABUTRIMON   ; 0f
 	const PIDGEY     ; 10
-	const PIDGEOTTO  ; 11
-	const PIDGEOT    ; 12
+	const PEGASUSMONTO  ; 11
+	const PEGASUSMON    ; 12
 	const TSUNOMON    ; 13
 	const GABUMON   ; 14
 	const TOKOOMON    ; 15

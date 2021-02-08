@@ -206,7 +206,7 @@ KantoGrassWildMons:
 	db 3, PIDGEY
 	db 5, PIDGEY
 	db 7, STINGMON
-	db 7, PIDGEOTTO
+	db 7, PEGASUSMONTO
 	db 4, PIKACHU
 	db 4, PIKACHU
 	; nite
@@ -277,7 +277,7 @@ KantoGrassWildMons:
 	; morn
 	db 13, PIDGEY
 	db 13, ELECMON
-	db 15, PIDGEOTTO
+	db 15, PEGASUSMONTO
 	db 12, ABRA
 	db 14, CANDLEMON
 	db 14, ABRA
@@ -285,7 +285,7 @@ KantoGrassWildMons:
 	; day
 	db 13, PIDGEY
 	db 13, ELECMON
-	db 15, PIDGEOTTO
+	db 15, PEGASUSMONTO
 	db 12, ABRA
 	db 14, CANDLEMON
 	db 14, ABRA
@@ -357,7 +357,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 17, ELECMON
-	db 19, PIDGEOTTO
+	db 19, PEGASUSMONTO
 	db 16, ABRA
 	db 17, RENAMON
 	db 16, CANDLEMON
@@ -365,7 +365,7 @@ KantoGrassWildMons:
 	db 18, KADABRA
 	; day
 	db 17, ELECMON
-	db 19, PIDGEOTTO
+	db 19, PEGASUSMONTO
 	db 16, ABRA
 	db 17, RENAMON
 	db 16, CANDLEMON
@@ -440,7 +440,7 @@ KantoGrassWildMons:
 	db 14, YOKOMON
 	db 13, GABUMON
 	db 15, HAGURUMON
-	db 16, PIDGEOTTO
+	db 16, PEGASUSMONTO
 	db 16, TSUNOMON
 	db 16, YOKOMON
 	db 16, YOKOMON
@@ -448,7 +448,7 @@ KantoGrassWildMons:
 	db 14, YOKOMON
 	db 13, GABUMON
 	db 15, HAGURUMON
-	db 16, PIDGEOTTO
+	db 16, PEGASUSMONTO
 	db 16, TSUNOMON
 	db 16, YOKOMON
 	db 16, YOKOMON
@@ -466,7 +466,7 @@ KantoGrassWildMons:
 	; morn
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, PIDGEOTTO
+	db 25, PEGASUSMONTO
 	db 25, YOKOMON
 	db 27, YOKOMON
 	db 27, YOKOMON
@@ -474,7 +474,7 @@ KantoGrassWildMons:
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, PIDGEOTTO
+	db 25, PEGASUSMONTO
 	db 25, YOKOMON
 	db 27, YOKOMON
 	db 27, YOKOMON
@@ -493,7 +493,7 @@ KantoGrassWildMons:
 	; morn
 	db 26, NIDORINO
 	db 26, NIDORINA
-	db 28, PIDGEOTTO
+	db 28, PEGASUSMONTO
 	db 28, YOKOMON
 	db 30, BIYOMON
 	db 30, BIYOMON
@@ -501,7 +501,7 @@ KantoGrassWildMons:
 	; day
 	db 26, NIDORINO
 	db 26, NIDORINA
-	db 28, PIDGEOTTO
+	db 28, PEGASUSMONTO
 	db 28, YOKOMON
 	db 30, BIYOMON
 	db 30, BIYOMON
@@ -520,7 +520,7 @@ KantoGrassWildMons:
 	; morn
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, PIDGEOTTO
+	db 25, PEGASUSMONTO
 	db 25, YOKOMON
 	db 27, YOKOMON
 	db 27, YOKOMON
@@ -528,7 +528,7 @@ KantoGrassWildMons:
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, PIDGEOTTO
+	db 25, PEGASUSMONTO
 	db 25, YOKOMON
 	db 27, YOKOMON
 	db 27, YOKOMON
@@ -709,7 +709,7 @@ KantoGrassWildMons:
 	; morn
 	db 10, MINOMON
 	db 10, PIDGEY
-	db 12, PIDGEOTTO
+	db 12, PEGASUSMONTO
 	db 12, WORMMON
 	db 10, LALAMON
 	db 14, STINGMON
@@ -717,7 +717,7 @@ KantoGrassWildMons:
 	; day
 	db 10, MINOMON
 	db 10, PIDGEY
-	db 12, PIDGEOTTO
+	db 12, PEGASUSMONTO
 	db 12, WORMMON
 	db 10, LALAMON
 	db 14, STINGMON

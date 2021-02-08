@@ -22,8 +22,8 @@ PokemonCries::
 	mon_cry CRY_BLASTOISE,   $0ff,  $081 ; TENTOMON
 	mon_cry CRY_BLASTOISE,   $060,  $100 ; KABUTRIMON
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; PIDGEY
-	mon_cry CRY_PIDGEOTTO,   $028,  $140 ; PIDGEOTTO
-	mon_cry CRY_PIDGEOTTO,   $011,  $17f ; PIDGEOT
+	mon_cry CRY_PEGASUSMONTO,   $028,  $140 ; PEGASUSMONTO
+	mon_cry CRY_PEGASUSMONTO,   $011,  $17f ; PEGASUSMON
 	mon_cry CRY_TSUNOMON,     $000,  $100 ; TSUNOMON
 	mon_cry CRY_TSUNOMON,     $020,  $17f ; GABUMON
 	mon_cry CRY_TOKOOMON,     $000,  $100 ; TOKOOMON
@@ -118,7 +118,7 @@ PokemonCries::
 	mon_cry CRY_GOLEM,       $0ff,  $17f ; WEEZING
 	mon_cry CRY_GUILMON,  $000,  $100 ; RHYHORN
 	mon_cry CRY_RHYDON,      $000,  $100 ; RHYDON
-	mon_cry CRY_PIDGEOTTO,   $00a,  $140 ; CHANSEY
+	mon_cry CRY_PEGASUSMONTO,   $00a,  $140 ; CHANSEY
 	mon_cry CRY_GOLEM,       $000,  $100 ; TANGELA
 	mon_cry CRY_KANGASKHAN,  $000,  $100 ; KANGASKHAN
 	mon_cry CRY_CLEFAIRY,    $099,  $090 ; HORSEA
@@ -132,7 +132,7 @@ PokemonCries::
 	mon_cry CRY_TAPIRMON,     $0ff,  $17f ; JYNX
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; ELECTABUZZ
 	mon_cry CRY_GUILMON,  $0ff,  $0b0 ; MAGMAR
-	mon_cry CRY_PIDGEOTTO,   $000,  $100 ; PINSIR
+	mon_cry CRY_PEGASUSMONTO,   $000,  $100 ; PINSIR
 	mon_cry CRY_SQUIRTLE,    $011,  $0c0 ; TAUROS
 	mon_cry CRY_GAZIMON,       $080,  $080 ; SWIMMON
 	mon_cry CRY_GAZIMON,       $000,  $100 ; GYARADOS
@@ -278,8 +278,8 @@ PokemonCries::
 	mon_cry CRY_BLASTOISE,   255,  129 ; TENTOMON
 	mon_cry CRY_BLASTOISE,    96,  256 ; KABUTRIMON
 	mon_cry CRY_PIDGEY,      223,  132 ; PIDGEY
-	mon_cry CRY_PIDGEOTTO,    40,  320 ; PIDGEOTTO
-	mon_cry CRY_PIDGEOTTO,    17,  383 ; PIDGEOT
+	mon_cry CRY_PEGASUSMONTO,    40,  320 ; PEGASUSMONTO
+	mon_cry CRY_PEGASUSMONTO,    17,  383 ; PEGASUSMON
 	mon_cry CRY_TSUNOMON,       0,  256 ; TSUNOMON
 	mon_cry CRY_TSUNOMON,      32,  383 ; GABUMON
 	mon_cry CRY_TOKOOMON,       0,  256 ; TOKOOMON
@@ -374,7 +374,7 @@ PokemonCries::
 	mon_cry CRY_GOLEM,       255,  383 ; WEEZING
 	mon_cry CRY_GUILMON,    0,  256 ; RHYHORN
 	mon_cry CRY_RHYDON,        0,  256 ; RHYDON
-	mon_cry CRY_PIDGEOTTO,    10,  320 ; CHANSEY
+	mon_cry CRY_PEGASUSMONTO,    10,  320 ; CHANSEY
 	mon_cry CRY_GOLEM,         0,  256 ; TANGELA
 	mon_cry CRY_KANGASKHAN,    0,  256 ; KANGASKHAN
 	mon_cry CRY_CLEFAIRY,    153,  144 ; HORSEA
@@ -388,7 +388,7 @@ PokemonCries::
 	mon_cry CRY_TAPIRMON,     255,  383 ; JYNX
 	mon_cry CRY_VOLTORB,     143,  383 ; ELECTABUZZ
 	mon_cry CRY_GUILMON,  255,  176 ; MAGMAR
-	mon_cry CRY_PIDGEOTTO,     0,  256 ; PINSIR
+	mon_cry CRY_PEGASUSMONTO,     0,  256 ; PINSIR
 	mon_cry CRY_SQUIRTLE,     17,  192 ; TAUROS
 	mon_cry CRY_GAZIMON,       128,  128 ; SWIMMON
 	mon_cry CRY_GAZIMON,         0,  256 ; GYARADOS

@@ -17,8 +17,8 @@ EvosAttacksPointers::
 	dw TentomonEvosAttacks
 	dw KabutrimonEvosAttacks
 	dw PidgeyEvosAttacks
-	dw PidgeottoEvosAttacks
-	dw PidgeotEvosAttacks
+	dw PegasusmontoEvosAttacks
+	dw PegasusmonEvosAttacks
 	dw TsunomonEvosAttacks
 	dw GabumonEvosAttacks
 	dw TokoomonEvosAttacks

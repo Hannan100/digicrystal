@@ -17,8 +17,8 @@ MonMenuIcons:
 	db ICON_CATERPILLAR ; TENTOMON
 	db ICON_BUG         ; KABUTRIMON
 	db ICON_BIRD        ; PIDGEY
-	db ICON_BIRD        ; PIDGEOTTO
-	db ICON_BIRD        ; PIDGEOT
+	db ICON_BIRD        ; PEGASUSMONTO
+	db ICON_BIRD        ; PEGASUSMON
 	db ICON_FOX         ; TSUNOMON
 	db ICON_FOX         ; GABUMON
 	db ICON_BIRD        ; TOKOOMON

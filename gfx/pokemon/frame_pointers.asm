@@ -15,8 +15,8 @@ FramesPointers:
 	dw TentomonFrames
 	dw KabutrimonFrames
 	dw PidgeyFrames
-	dw PidgeottoFrames
-	dw PidgeotFrames
+	dw PegasusmontoFrames
+	dw PegasusmonFrames
 	dw TsunomonFrames
 	dw GabumonFrames
 	dw TokoomonFrames
