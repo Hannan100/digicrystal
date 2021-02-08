@@ -187,7 +187,7 @@ AnimationIdlePointers:
 	dw PolitoedAnimationIdle
 	dw YokomonAnimationIdle
 	dw BiyomonAnimationIdle
-	dw JumpluffAnimationIdle
+	dw BirdramonAnimationIdle
 	dw AipomAnimationIdle
 	dw SunkernAnimationIdle
 	dw SunfloraAnimationIdle

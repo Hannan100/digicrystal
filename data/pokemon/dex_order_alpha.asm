@@ -96,7 +96,7 @@ AlphabeticalPokedexOrder:
 	db PUNIMON
 	db CANDLEMON
 	db JOLTEON
-	db JUMPLUFF
+	db BIRDRAMON
 	db JYNX
 	db KABUTO
 	db KABUTOPS

@@ -378,8 +378,8 @@ PokemonPicPointers::
 	dba_pic YokomonBackpic
 	dba_pic BiyomonFrontpic
 	dba_pic BiyomonBackpic
-	dba_pic JumpluffFrontpic
-	dba_pic JumpluffBackpic
+	dba_pic BirdramonFrontpic
+	dba_pic BirdramonBackpic
 	dba_pic AipomFrontpic
 	dba_pic AipomBackpic
 	dba_pic SunkernFrontpic

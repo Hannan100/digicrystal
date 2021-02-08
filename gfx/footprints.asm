@@ -428,7 +428,7 @@ INCBIN "gfx/footprints/sudowoodo.1bpp",  footprint_top
 INCBIN "gfx/footprints/politoed.1bpp",   footprint_top
 INCBIN "gfx/footprints/yokomon.1bpp",     footprint_top
 INCBIN "gfx/footprints/biyomon.1bpp",   footprint_top
-INCBIN "gfx/footprints/jumpluff.1bpp",   footprint_top
+INCBIN "gfx/footprints/birdramon.1bpp",   footprint_top
 INCBIN "gfx/footprints/aipom.1bpp",      footprint_top
 INCBIN "gfx/footprints/sunkern.1bpp",    footprint_top
 INCBIN "gfx/footprints/sunflora.1bpp",   footprint_top
@@ -437,7 +437,7 @@ INCBIN "gfx/footprints/sudowoodo.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/politoed.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/yokomon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/biyomon.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/jumpluff.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/birdramon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/aipom.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/sunkern.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/sunflora.1bpp",   footprint_bottom

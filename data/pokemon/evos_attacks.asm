@@ -2538,7 +2538,7 @@ YokomonEvosAttacks:
 	db 0 ; no more level-up moves
 
 BiyomonEvosAttacks:
-	db EVOLVE_LEVEL, 27, JUMPLUFF
+	db EVOLVE_LEVEL, 27, BIRDRAMON
 	db 0 ; no more evolutions
 	db 1, SPLASH
 	db 1, SYNTHESIS
@@ -2555,7 +2555,7 @@ BiyomonEvosAttacks:
 	db 36, MEGA_DRAIN
 	db 0 ; no more level-up moves
 
-JumpluffEvosAttacks:
+BirdramonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SPLASH
 	db 1, SYNTHESIS

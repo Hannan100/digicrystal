@@ -187,7 +187,7 @@ FramesPointers:
 	dw PolitoedFrames
 	dw YokomonFrames
 	dw BiyomonFrames
-	dw JumpluffFrames
+	dw BirdramonFrames
 	dw AipomFrames
 	dw SunkernFrames
 	dw SunfloraFrames

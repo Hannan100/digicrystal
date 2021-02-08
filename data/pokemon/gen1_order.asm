@@ -227,7 +227,7 @@ Pokered_MonIndices:
 	db POLITOED
 	db YOKOMON
 	db BIYOMON
-	db JUMPLUFF
+	db BIRDRAMON
 	db AIPOM
 	db SUNKERN
 	db SUNFLORA

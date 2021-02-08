@@ -188,7 +188,7 @@ PokedexDataPointerTable:
 	dw PolitoedPokedexEntry
 	dw YokomonPokedexEntry
 	dw BiyomonPokedexEntry
-	dw JumpluffPokedexEntry
+	dw BirdramonPokedexEntry
 	dw AipomPokedexEntry
 	dw SunkernPokedexEntry
 	dw SunfloraPokedexEntry

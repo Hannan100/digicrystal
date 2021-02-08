@@ -187,7 +187,7 @@ BitmasksPointers:
 	dw PolitoedBitmasks
 	dw YokomonBitmasks
 	dw BiyomonBitmasks
-	dw JumpluffBitmasks
+	dw BirdramonBitmasks
 	dw AipomBitmasks
 	dw SunkernBitmasks
 	dw SunfloraBitmasks

@@ -208,7 +208,7 @@ JOHTO_POKEMON EQU const_value
 	const POLITOED   ; ba
 	const YOKOMON     ; bb
 	const BIYOMON   ; bc
-	const JUMPLUFF   ; bd
+	const BIRDRAMON   ; bd
 	const AIPOM      ; be
 	const SUNKERN    ; bf
 	const SUNFLORA   ; c0

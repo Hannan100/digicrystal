@@ -91,5 +91,5 @@ EZChat_SortedPokemon:
 .ru:       db JYNX, LUGIA, -1
 .re:       db MAGNETON, TERRIERMON, GUMMYMON, -1
 .ro:       db VULPIX, -1
-.wa:       db JUMPLUFF, BUKAMON, MACHOP ;, -1
+.wa:       db BIRDRAMON, BUKAMON, MACHOP ;, -1
 .end:      db -1

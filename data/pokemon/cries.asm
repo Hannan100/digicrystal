@@ -194,7 +194,7 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,     -$2a3,  $1c8 ; POLITOED
 	mon_cry CRY_CLEFFA,      $03b,  $0c8 ; YOKOMON
 	mon_cry CRY_CLEFFA,      $027,  $138 ; BIYOMON
-	mon_cry CRY_CLEFFA,      $000,  $180 ; JUMPLUFF
+	mon_cry CRY_CLEFFA,      $000,  $180 ; BIRDRAMON
 	mon_cry CRY_AIPOM,      -$051,  $0e8 ; AIPOM
 	mon_cry CRY_MARILL,      $12b,  $0b8 ; SUNKERN
 	mon_cry CRY_SUNFLORA,   -$020,  $180 ; SUNFLORA
@@ -450,7 +450,7 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,     -675,  456 ; POLITOED
 	mon_cry CRY_CLEFFA,       59,  200 ; YOKOMON
 	mon_cry CRY_CLEFFA,       39,  312 ; BIYOMON
-	mon_cry CRY_CLEFFA,        0,  384 ; JUMPLUFF
+	mon_cry CRY_CLEFFA,        0,  384 ; BIRDRAMON
 	mon_cry CRY_AIPOM,       -81,  232 ; AIPOM
 	mon_cry CRY_MARILL,      299,  184 ; SUNKERN
 	mon_cry CRY_SUNFLORA,    -32,  384 ; SUNFLORA

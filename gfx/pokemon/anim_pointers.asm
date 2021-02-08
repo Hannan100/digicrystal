@@ -187,7 +187,7 @@ AnimationPointers:
 	dw PolitoedAnimation
 	dw YokomonAnimation
 	dw BiyomonAnimation
-	dw JumpluffAnimation
+	dw BirdramonAnimation
 	dw AipomAnimation
 	dw SunkernAnimation
 	dw SunfloraAnimation
