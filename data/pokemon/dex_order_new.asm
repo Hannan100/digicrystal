@@ -65,7 +65,7 @@ NewPokedexOrder:
 	db ARMDILOMON
 	db STEELIX
 	db LALAMON
-	db WEEPINBELL
+	db WOODMON
 	db VICTREEBEL
 	db YOKOMON
 	db BIYOMON

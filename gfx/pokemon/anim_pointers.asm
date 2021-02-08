@@ -68,7 +68,7 @@ AnimationPointers:
 	dw StrikdrmonAnimation
 	dw MachampAnimation
 	dw LalamonAnimation
-	dw WeepinbellAnimation
+	dw WoodmonAnimation
 	dw VictreebelAnimation
 	dw TentacoolAnimation
 	dw TentacruelAnimation

@@ -39,7 +39,7 @@
 	const CRY_TSUNOMON
 	const CRY_VILEPLUME
 	const CRY_VULPIX
-	const CRY_WEEPINBELL
+	const CRY_WOODMON
 
 ; gen 2
 	const CRY_MARILL

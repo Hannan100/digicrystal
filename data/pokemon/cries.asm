@@ -75,15 +75,15 @@ PokemonCries::
 	mon_cry CRY_RENAMON,   $048,  $0e0 ; STRIKDRMON
 	mon_cry CRY_RENAMON,   $008,  $140 ; MACHAMP
 	mon_cry CRY_PSYDUCK,     $055,  $081 ; LALAMON
-	mon_cry CRY_WEEPINBELL,  $044,  $0a0 ; WEEPINBELL
-	mon_cry CRY_WEEPINBELL,  $066,  $14c ; VICTREEBEL
+	mon_cry CRY_WOODMON,  $044,  $0a0 ; WOODMON
+	mon_cry CRY_WOODMON,  $066,  $14c ; VICTREEBEL
 	mon_cry CRY_KUNEMON,     $000,  $100 ; TENTACOOL
 	mon_cry CRY_KUNEMON,     $0ee,  $17f ; TENTACRUEL
 	mon_cry CRY_VULPIX,      $0f0,  $090 ; GOTSUMON
 	mon_cry CRY_VULPIX,      $000,  $100 ; GRAVELER
 	mon_cry CRY_GOLEM,       $0e0,  $0c0 ; GOLEM
-	mon_cry CRY_WEEPINBELL,  $000,  $100 ; PONYTA
-	mon_cry CRY_WEEPINBELL,  $020,  $140 ; RAPIDASH
+	mon_cry CRY_WOODMON,  $000,  $100 ; PONYTA
+	mon_cry CRY_WOODMON,  $020,  $140 ; RAPIDASH
 	mon_cry CRY_OTAMAMON,    $000,  $100 ; OTAMAMON
 	mon_cry CRY_RENAMON,   $000,  $100 ; SLOWBRO
 	mon_cry CRY_WORMMON,     $080,  $0e0 ; HAGURUMON
@@ -142,7 +142,7 @@ PokemonCries::
 	mon_cry CRY_KUNEMON,     $0aa,  $17f ; VAPOREON
 	mon_cry CRY_KUNEMON,     $03d,  $100 ; JOLTEON
 	mon_cry CRY_KUNEMON,     $010,  $0a0 ; FLAREON
-	mon_cry CRY_WEEPINBELL,  $0aa,  $17f ; PORYGON
+	mon_cry CRY_WOODMON,  $0aa,  $17f ; PORYGON
 	mon_cry CRY_RENAMON,   $0f0,  $081 ; OMANYTE
 	mon_cry CRY_RENAMON,   $0ff,  $0c0 ; OMASTAR
 	mon_cry CRY_MINOMON,    $0bb,  $0c0 ; KABUTO
@@ -331,15 +331,15 @@ PokemonCries::
 	mon_cry CRY_RENAMON,    72,  224 ; STRIKDRMON
 	mon_cry CRY_RENAMON,     8,  320 ; MACHAMP
 	mon_cry CRY_PSYDUCK,      85,  129 ; LALAMON
-	mon_cry CRY_WEEPINBELL,   68,  160 ; WEEPINBELL
-	mon_cry CRY_WEEPINBELL,  102,  332 ; VICTREEBEL
+	mon_cry CRY_WOODMON,   68,  160 ; WOODMON
+	mon_cry CRY_WOODMON,  102,  332 ; VICTREEBEL
 	mon_cry CRY_KUNEMON,       0,  256 ; TENTACOOL
 	mon_cry CRY_KUNEMON,     238,  383 ; TENTACRUEL
 	mon_cry CRY_VULPIX,      240,  144 ; GOTSUMON
 	mon_cry CRY_VULPIX,        0,  256 ; GRAVELER
 	mon_cry CRY_GOLEM,       224,  192 ; GOLEM
-	mon_cry CRY_WEEPINBELL,    0,  256 ; PONYTA
-	mon_cry CRY_WEEPINBELL,   32,  320 ; RAPIDASH
+	mon_cry CRY_WOODMON,    0,  256 ; PONYTA
+	mon_cry CRY_WOODMON,   32,  320 ; RAPIDASH
 	mon_cry CRY_OTAMAMON,      0,  256 ; OTAMAMON
 	mon_cry CRY_RENAMON,     0,  256 ; SLOWBRO
 	mon_cry CRY_WORMMON,     128,  224 ; HAGURUMON
@@ -398,7 +398,7 @@ PokemonCries::
 	mon_cry CRY_KUNEMON,     170,  383 ; VAPOREON
 	mon_cry CRY_KUNEMON,      61,  256 ; JOLTEON
 	mon_cry CRY_KUNEMON,      16,  160 ; FLAREON
-	mon_cry CRY_WEEPINBELL,  170,  383 ; PORYGON
+	mon_cry CRY_WOODMON,  170,  383 ; PORYGON
 	mon_cry CRY_RENAMON,   240,  129 ; OMANYTE
 	mon_cry CRY_RENAMON,   255,  192 ; OMASTAR
 	mon_cry CRY_MINOMON,    187,  192 ; KABUTO

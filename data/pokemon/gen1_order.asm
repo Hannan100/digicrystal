@@ -187,7 +187,7 @@ Pokered_MonIndices:
 	db OGREMON
 	db VILEPLUME
 	db LALAMON
-	db WEEPINBELL
+	db WOODMON
 	db VICTREEBEL
 
 	db TANEMON

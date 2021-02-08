@@ -69,7 +69,7 @@ PokedexDataPointerTable:
 	dw StrikdrmonPokedexEntry
 	dw MachampPokedexEntry
 	dw LalamonPokedexEntry
-	dw WeepinbellPokedexEntry
+	dw WoodmonPokedexEntry
 	dw VictreebelPokedexEntry
 	dw TentacoolPokedexEntry
 	dw TentacruelPokedexEntry

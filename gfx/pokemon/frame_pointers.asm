@@ -68,7 +68,7 @@ FramesPointers:
 	dw StrikdrmonFrames
 	dw MachampFrames
 	dw LalamonFrames
-	dw WeepinbellFrames
+	dw WoodmonFrames
 	dw VictreebelFrames
 	dw TentacoolFrames
 	dw TentacruelFrames

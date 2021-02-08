@@ -243,7 +243,7 @@ AlphabeticalPokedexOrder:
 	db VULPIX
 	db WARTORTLE
 	db MOTIMON
-	db WEEPINBELL
+	db WOODMON
 	db WEEZING
 	db MERAMON
 	db WOBBUFFET

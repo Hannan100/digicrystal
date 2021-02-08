@@ -70,7 +70,7 @@ KantoMonSpecials:
 	db  50 ; STRIKDRMON
 	db  65 ; MACHAMP
 	db  70 ; LALAMON
-	db  85 ; WEEPINBELL
+	db  85 ; WOODMON
 	db 100 ; VICTREEBEL
 	db 100 ; TENTACOOL
 	db 120 ; TENTACRUEL

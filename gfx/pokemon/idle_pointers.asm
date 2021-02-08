@@ -68,7 +68,7 @@ AnimationIdlePointers:
 	dw StrikdrmonAnimationIdle
 	dw MachampAnimationIdle
 	dw LalamonAnimationIdle
-	dw WeepinbellAnimationIdle
+	dw WoodmonAnimationIdle
 	dw VictreebelAnimationIdle
 	dw TentacoolAnimationIdle
 	dw TentacruelAnimationIdle

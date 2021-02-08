@@ -88,7 +88,7 @@
 	const STRIKDRMON    ; 43
 	const MACHAMP    ; 44
 	const LALAMON ; 45
-	const WEEPINBELL ; 46
+	const WOODMON ; 46
 	const VICTREEBEL ; 47
 	const TENTACOOL  ; 48
 	const TENTACRUEL ; 49

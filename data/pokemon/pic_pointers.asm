@@ -140,8 +140,8 @@ PokemonPicPointers::
 	dba_pic MachampBackpic
 	dba_pic LalamonFrontpic
 	dba_pic LalamonBackpic
-	dba_pic WeepinbellFrontpic
-	dba_pic WeepinbellBackpic
+	dba_pic WoodmonFrontpic
+	dba_pic WoodmonBackpic
 	dba_pic VictreebelFrontpic
 	dba_pic VictreebelBackpic
 	dba_pic TentacoolFrontpic

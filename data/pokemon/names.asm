@@ -68,7 +68,7 @@ PokemonNames::
 	db "STRIKDRMON@@@"
 	db "MACHAMP@@@"
 	db "LALAMON"
-	db "WEEPINBELL"
+	db "WOODMON"
 	db "VICTREEBEL"
 	db "TENTACOOL@"
 	db "TENTACRUEL"

@@ -70,7 +70,7 @@ EvosAttacksPointers::
 	dw StrikdrmonEvosAttacks
 	dw MachampEvosAttacks
 	dw LalamonEvosAttacks
-	dw WeepinbellEvosAttacks
+	dw WoodmonEvosAttacks
 	dw VictreebelEvosAttacks
 	dw TentacoolEvosAttacks
 	dw TentacruelEvosAttacks

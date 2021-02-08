@@ -36,7 +36,7 @@ Cries:
 	dba Cry_Tsunomon
 	dba Cry_Vileplume
 	dba Cry_Vulpix
-	dba Cry_Weepinbell
+	dba Cry_Woodmon
 	dba Cry_Marill
 	dba Cry_Kokomon
 	dba Cry_Demiveemon
