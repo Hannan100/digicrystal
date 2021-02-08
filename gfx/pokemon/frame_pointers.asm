@@ -72,7 +72,7 @@ FramesPointers:
 	dw VictreebelFrames
 	dw TentacoolFrames
 	dw TentacruelFrames
-	dw GeodudeFrames
+	dw GotsumonFrames
 	dw GravelerFrames
 	dw GolemFrames
 	dw PonytaFrames

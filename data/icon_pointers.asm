@@ -26,7 +26,7 @@ IconPointers:
 	dw GuilmonIcon
 	dw CaterpillarIcon
 	dw UnownIcon
-	dw GeodudeIcon
+	dw GotsumonIcon
 	dw FighterIcon
 	dw EggIcon
 	dw JellyfishIcon

@@ -67,7 +67,7 @@ AlphabeticalPokedexOrder:
 	db SALAMON
 	db TSUMEMON
 	db GENGAR
-	db GEODUDE
+	db GOTSUMON
 	db GIRAFARIG
 	db GLIGAR
 	db GLOOM

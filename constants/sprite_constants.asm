@@ -109,7 +109,7 @@
 	const_next $80
 SPRITE_POKEMON EQU const_value
 	const SPRITE_UNOWN ; 80
-	const SPRITE_GEODUDE ; 81
+	const SPRITE_GOTSUMON ; 81
 	const SPRITE_RENAMON ; 82
 	const SPRITE_MOTIMON ; 83
 	const SPRITE_SHELLDER ; 84

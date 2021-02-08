@@ -72,7 +72,7 @@ PokemonNames::
 	db "VICTREEBEL"
 	db "TENTACOOL@"
 	db "TENTACRUEL"
-	db "GEODUDE@@@" ; !Gotsumon
+	db "GOTSUMON@@@" ; !Gotsumon
 	db "GRAVELER@@"
 	db "GOLEM@@@@@"
 	db "PONYTA@@@@"

@@ -73,7 +73,7 @@ PokedexDataPointerTable:
 	dw VictreebelPokedexEntry
 	dw TentacoolPokedexEntry
 	dw TentacruelPokedexEntry
-	dw GeodudePokedexEntry
+	dw GotsumonPokedexEntry
 	dw GravelerPokedexEntry
 	dw GolemPokedexEntry
 	dw PonytaPokedexEntry

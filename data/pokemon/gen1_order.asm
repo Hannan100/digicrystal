@@ -167,7 +167,7 @@ Pokered_MonIndices:
 	db GABUMON
 	db NIDORINO
 	db NIDORINA
-	db GEODUDE
+	db GOTSUMON
 	db PORYGON
 	db AERODACTYL
 	db RAIKOU ; MISSINGNO.

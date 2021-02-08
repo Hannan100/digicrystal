@@ -148,8 +148,8 @@ PokemonPicPointers::
 	dba_pic TentacoolBackpic
 	dba_pic TentacruelFrontpic
 	dba_pic TentacruelBackpic
-	dba_pic GeodudeFrontpic
-	dba_pic GeodudeBackpic
+	dba_pic GotsumonFrontpic
+	dba_pic GotsumonBackpic
 	dba_pic GravelerFrontpic
 	dba_pic GravelerBackpic
 	dba_pic GolemFrontpic

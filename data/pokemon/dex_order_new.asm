@@ -34,7 +34,7 @@ NewPokedexOrder:
 	db TERRIERMON
 	db KOKOMON
 	db LOPMON
-	db GEODUDE
+	db GOTSUMON
 	db GRAVELER
 	db GOLEM
 	db PAGUMON

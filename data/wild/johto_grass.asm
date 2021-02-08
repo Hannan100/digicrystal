@@ -410,7 +410,7 @@ JohtoGrassWildMons:
 	map_id UNION_CAVE_1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 6, GEODUDE
+	db 6, GOTSUMON
 	db 6, SANDSHREW
 	db 5, PAGUMON
 	db 4, TSUNOMON
@@ -418,7 +418,7 @@ JohtoGrassWildMons:
 	db 6, ARMDILOMON
 	db 6, ARMDILOMON
 	; day
-	db 6, GEODUDE
+	db 6, GOTSUMON
 	db 6, SANDSHREW
 	db 5, PAGUMON
 	db 4, TSUNOMON
@@ -426,7 +426,7 @@ JohtoGrassWildMons:
 	db 6, ARMDILOMON
 	db 6, ARMDILOMON
 	; nite
-	db 6, GEODUDE
+	db 6, GOTSUMON
 	db 6, TSUNOMON
 	db 5, WOOPER
 	db 4, TSUNOMON
@@ -437,7 +437,7 @@ JohtoGrassWildMons:
 	map_id UNION_CAVE_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 8, GEODUDE
+	db 8, GOTSUMON
 	db 6, PAGUMON
 	db 8, PAGUMON
 	db 8, ARMDILOMON
@@ -445,7 +445,7 @@ JohtoGrassWildMons:
 	db 8, TSUNOMON
 	db 8, TSUNOMON
 	; day
-	db 8, GEODUDE
+	db 8, GOTSUMON
 	db 6, PAGUMON
 	db 8, PAGUMON
 	db 8, ARMDILOMON
@@ -453,7 +453,7 @@ JohtoGrassWildMons:
 	db 8, TSUNOMON
 	db 8, TSUNOMON
 	; nite
-	db 8, GEODUDE
+	db 8, GOTSUMON
 	db 6, PAGUMON
 	db 8, WOOPER
 	db 8, ARMDILOMON
@@ -468,7 +468,7 @@ JohtoGrassWildMons:
 	db 22, DEMDEVIMON
 	db 22, PAGUMON
 	db 21, GABUMON
-	db 20, GEODUDE
+	db 20, GOTSUMON
 	db 23, ARMDILOMON
 	db 23, ARMDILOMON
 	; day
@@ -476,7 +476,7 @@ JohtoGrassWildMons:
 	db 22, DEMDEVIMON
 	db 22, PAGUMON
 	db 21, GABUMON
-	db 20, GEODUDE
+	db 20, GOTSUMON
 	db 23, ARMDILOMON
 	db 23, ARMDILOMON
 	; nite
@@ -484,7 +484,7 @@ JohtoGrassWildMons:
 	db 22, DEMDEVIMON
 	db 22, QUAGSIRE
 	db 21, GABUMON
-	db 20, GEODUDE
+	db 20, GOTSUMON
 	db 23, ARMDILOMON
 	db 23, ARMDILOMON
 
@@ -576,7 +576,7 @@ JohtoGrassWildMons:
 	db 13, PAGUMON
 	db 14, MACHOP
 	db 13, DEMDEVIMON
-	db 14, GEODUDE
+	db 14, GOTSUMON
 	db 16, GABUMON
 	db 16, GABUMON
 	; day
@@ -584,7 +584,7 @@ JohtoGrassWildMons:
 	db 13, PAGUMON
 	db 14, MACHOP
 	db 13, DEMDEVIMON
-	db 14, GEODUDE
+	db 14, GOTSUMON
 	db 16, GABUMON
 	db 16, GABUMON
 	; nite
@@ -592,14 +592,14 @@ JohtoGrassWildMons:
 	db 13, PAGUMON
 	db 14, MARILL
 	db 13, DEMDEVIMON
-	db 14, GEODUDE
+	db 14, GOTSUMON
 	db 16, GABUMON
 	db 16, GABUMON
 
 	map_id MOUNT_MORTAR_1F_INSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, GEODUDE
+	db 13, GOTSUMON
 	db 14, TSUNOMON
 	db 15, MACHOP
 	db 14, GABUMON
@@ -607,7 +607,7 @@ JohtoGrassWildMons:
 	db 15, DEMDEVIMON
 	db 15, DEMDEVIMON
 	; day
-	db 13, GEODUDE
+	db 13, GOTSUMON
 	db 14, TSUNOMON
 	db 15, MACHOP
 	db 14, GABUMON
@@ -615,7 +615,7 @@ JohtoGrassWildMons:
 	db 15, DEMDEVIMON
 	db 15, DEMDEVIMON
 	; nite
-	db 13, GEODUDE
+	db 13, GOTSUMON
 	db 14, TSUNOMON
 	db 15, GABUMON
 	db 14, PAGUMON
@@ -628,7 +628,7 @@ JohtoGrassWildMons:
 	; morn
 	db 31, GRAVELER
 	db 32, MACHOKE
-	db 31, GEODUDE
+	db 31, GOTSUMON
 	db 30, GABUMON
 	db 28, MACHOP
 	db 30, DEMDEVIMON
@@ -636,14 +636,14 @@ JohtoGrassWildMons:
 	; day
 	db 31, GRAVELER
 	db 32, MACHOKE
-	db 31, GEODUDE
+	db 31, GOTSUMON
 	db 30, GABUMON
 	db 28, MACHOP
 	db 30, DEMDEVIMON
 	db 30, DEMDEVIMON
 	; nite
 	db 31, GRAVELER
-	db 31, GEODUDE
+	db 31, GOTSUMON
 	db 30, GABUMON
 	db 30, DEMDEVIMON
 	db 28, MARILL
@@ -657,7 +657,7 @@ JohtoGrassWildMons:
 	db 17, PAGUMON
 	db 17, DEMDEVIMON
 	db 16, MACHOP
-	db 16, GEODUDE
+	db 16, GOTSUMON
 	db 18, GABUMON
 	db 18, GABUMON
 	; day
@@ -665,7 +665,7 @@ JohtoGrassWildMons:
 	db 17, PAGUMON
 	db 17, DEMDEVIMON
 	db 16, MACHOP
-	db 16, GEODUDE
+	db 16, GOTSUMON
 	db 18, GABUMON
 	db 18, GABUMON
 	; nite
@@ -673,7 +673,7 @@ JohtoGrassWildMons:
 	db 17, PAGUMON
 	db 17, DEMDEVIMON
 	db 16, MARILL
-	db 16, GEODUDE
+	db 16, GOTSUMON
 	db 18, GABUMON
 	db 18, GABUMON
 
@@ -1139,26 +1139,26 @@ JohtoGrassWildMons:
 	map_id DARK_CAVE_VIOLET_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, GEODUDE
+	db 3, GOTSUMON
 	db 2, PAGUMON
-	db 2, GEODUDE
-	db 4, GEODUDE
+	db 2, GOTSUMON
+	db 4, GOTSUMON
 	db 2, IMPMON
 	db 4, PAGUMON
 	db 4, KUDAMON
 	; day
-	db 3, GEODUDE
+	db 3, GOTSUMON
 	db 2, PAGUMON
-	db 2, GEODUDE
-	db 4, GEODUDE
+	db 2, GOTSUMON
+	db 4, GOTSUMON
 	db 2, PAGUMON
 	db 4, PAGUMON
 	db 4, KUDAMON
 	; nite
-	db 3, GEODUDE
+	db 3, GOTSUMON
 	db 2, PAGUMON
-	db 2, GEODUDE
-	db 4, GEODUDE
+	db 2, GOTSUMON
+	db 4, GOTSUMON
 	db 2, PAGUMON
 	db 4, PAGUMON
 	db 4, KUDAMON
@@ -1166,7 +1166,7 @@ JohtoGrassWildMons:
 	map_id DARK_CAVE_BLACKTHORN_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, GEODUDE
+	db 23, GOTSUMON
 	db 23, PAGUMON
 	db 25, GRAVELER
 	db 25, URSARING
@@ -1174,7 +1174,7 @@ JohtoGrassWildMons:
 	db 23, DEMDEVIMON
 	db 23, DEMDEVIMON
 	; day
-	db 23, GEODUDE
+	db 23, GOTSUMON
 	db 23, PAGUMON
 	db 25, GRAVELER
 	db 25, URSARING
@@ -1182,7 +1182,7 @@ JohtoGrassWildMons:
 	db 23, DEMDEVIMON
 	db 23, DEMDEVIMON
 	; nite
-	db 23, GEODUDE
+	db 23, GOTSUMON
 	db 23, PAGUMON
 	db 25, GRAVELER
 	db 20, WOBBUFFET
@@ -1303,7 +1303,7 @@ JohtoGrassWildMons:
 	; morn
 	db 6, TSUNOMON
 	db 6, TOKOOMON
-	db 6, GEODUDE
+	db 6, GOTSUMON
 	db 6, YOKOMON
 	db 7, GAZIMON
 	db 7, YOKOMON
@@ -1311,7 +1311,7 @@ JohtoGrassWildMons:
 	; day
 	db 6, TSUNOMON
 	db 6, TOKOOMON
-	db 6, GEODUDE
+	db 6, GOTSUMON
 	db 6, YOKOMON
 	db 7, GAZIMON
 	db 7, YOKOMON
@@ -1319,7 +1319,7 @@ JohtoGrassWildMons:
 	; nite
 	db 6, TSUNOMON
 	db 6, PAGUMON
-	db 6, GEODUDE
+	db 6, GOTSUMON
 	db 6, PAGUMON
 	db 7, TSUNOMON
 	db 7, TSUNOMON
@@ -1571,7 +1571,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_45
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, GEODUDE
+	db 23, GOTSUMON
 	db 23, GRAVELER
 	db 24, GLIGAR
 	db 25, DONPHAN
@@ -1579,7 +1579,7 @@ JohtoGrassWildMons:
 	db 27, SKARMORY
 	db 27, SKARMORY
 	; day
-	db 23, GEODUDE
+	db 23, GOTSUMON
 	db 23, GRAVELER
 	db 24, GLIGAR
 	db 25, DONPHAN
@@ -1587,7 +1587,7 @@ JohtoGrassWildMons:
 	db 27, SKARMORY
 	db 27, SKARMORY
 	; nite
-	db 23, GEODUDE
+	db 23, GOTSUMON
 	db 23, GRAVELER
 	db 24, GLIGAR
 	db 25, GRAVELER
@@ -1598,25 +1598,25 @@ JohtoGrassWildMons:
 	map_id ROUTE_46
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, GEODUDE
+	db 2, GOTSUMON
 	db 2, TOKOOMON
-	db 3, GEODUDE
+	db 3, GOTSUMON
 	db 3, TSUNOMON
 	db 2, PHANPY
 	db 2, TSUNOMON
 	db 2, TSUNOMON
 	; day
-	db 2, GEODUDE
+	db 2, GOTSUMON
 	db 2, TOKOOMON
-	db 3, GEODUDE
+	db 3, GOTSUMON
 	db 3, TSUNOMON
 	db 2, TSUNOMON
 	db 2, TSUNOMON
 	db 2, TSUNOMON
 	; nite
-	db 2, GEODUDE
+	db 2, GOTSUMON
 	db 2, TSUNOMON
-	db 3, GEODUDE
+	db 3, GOTSUMON
 	db 3, TSUNOMON
 	db 2, TSUNOMON
 	db 2, TSUNOMON
