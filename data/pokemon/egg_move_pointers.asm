@@ -237,7 +237,7 @@ EggMovePointers::
 	dw KuramonEggMoves
 	dw NoEggMoves
 	dw FloramonEggMoves
-	dw ElekidEggMoves
+	dw KiwimonEggMoves
 	dw MagbyEggMoves
 	dw MiltankEggMoves
 	dw NoEggMoves

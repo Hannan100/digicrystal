@@ -239,7 +239,7 @@ EvosAttacksPointers::
 	dw KuramonEvosAttacks
 	dw HitmontopEvosAttacks
 	dw FloramonEvosAttacks
-	dw ElekidEvosAttacks
+	dw KiwimonEvosAttacks
 	dw MagbyEvosAttacks
 	dw MiltankEvosAttacks
 	dw BlisseyEvosAttacks

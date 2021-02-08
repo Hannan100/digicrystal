@@ -238,7 +238,7 @@ PokedexDataPointerTable:
 	dw KuramonPokedexEntry
 	dw HitmontopPokedexEntry
 	dw FloramonPokedexEntry
-	dw ElekidPokedexEntry
+	dw KiwimonPokedexEntry
 	dw MagbyPokedexEntry
 	dw MiltankPokedexEntry
 	dw BlisseyPokedexEntry

@@ -154,7 +154,7 @@ NewPokedexOrder:
 	db MAGMAR
 	db FLORAMON
 	db JYNX
-	db ELEKID
+	db KIWIMON
 	db ELECTABUZZ
 	db MR__MIME
 	db SMEARGLE

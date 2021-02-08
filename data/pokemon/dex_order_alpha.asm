@@ -53,7 +53,7 @@ AlphabeticalPokedexOrder:
 	db GAZIMON
 	db ELECTABUZZ
 	db ELECTRODE
-	db ELEKID
+	db KIWIMON
 	db ENTEI
 	db ESPEON
 	db CHUUMON

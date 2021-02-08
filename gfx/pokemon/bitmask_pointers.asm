@@ -237,7 +237,7 @@ BitmasksPointers:
 	dw KuramonBitmasks
 	dw HitmontopBitmasks
 	dw FloramonBitmasks
-	dw ElekidBitmasks
+	dw KiwimonBitmasks
 	dw MagbyBitmasks
 	dw MiltankBitmasks
 	dw BlisseyBitmasks

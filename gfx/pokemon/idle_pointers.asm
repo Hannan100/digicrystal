@@ -237,7 +237,7 @@ AnimationIdlePointers:
 	dw KuramonAnimationIdle
 	dw HitmontopAnimationIdle
 	dw FloramonAnimationIdle
-	dw ElekidAnimationIdle
+	dw KiwimonAnimationIdle
 	dw MagbyAnimationIdle
 	dw MiltankAnimationIdle
 	dw BlisseyAnimationIdle

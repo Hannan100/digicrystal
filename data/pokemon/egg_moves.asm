@@ -778,7 +778,7 @@ FloramonEggMoves:
 	db MEDITATE
 	db -1 ; end
 
-ElekidEggMoves:
+KiwimonEggMoves:
 	db KARATE_CHOP
 	db BARRIER
 	db ROLLING_KICK

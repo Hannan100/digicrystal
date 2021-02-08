@@ -237,7 +237,7 @@ PokemonNames::
 	db "KURAMON@@@"
 	db "HITMONTOP@"
 	db "FLORAMON@@"
-	db "ELEKID@@@@"
+	db "KIWIMON@@@@"
 	db "MAGBY@@@@@"
 	db "MILTANK@@@"
 	db "BLISSEY@@@"

@@ -481,8 +481,8 @@ PokemonPicPointers::
 	dba_pic HitmontopBackpic
 	dba_pic FloramonFrontpic
 	dba_pic FloramonBackpic
-	dba_pic ElekidFrontpic
-	dba_pic ElekidBackpic
+	dba_pic KiwimonFrontpic
+	dba_pic KiwimonBackpic
 	dba_pic MagbyFrontpic
 	dba_pic MagbyBackpic
 	dba_pic MiltankFrontpic

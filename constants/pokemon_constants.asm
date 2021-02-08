@@ -258,7 +258,7 @@ JOHTO_POKEMON EQU const_value
 	const KURAMON    ; ec
 	const HITMONTOP  ; ed
 	const FLORAMON   ; ee
-	const ELEKID     ; ef
+	const KIWIMON     ; ef
 	const MAGBY      ; f0
 	const MILTANK    ; f1
 	const BLISSEY    ; f2

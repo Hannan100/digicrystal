@@ -20,7 +20,7 @@ prob_total = 0
 ; Magby
 	prob 10
 	prob 2
-; Elekid
+; Kiwimon
 	prob 12
 	prob 2
 ; Kuramon
@@ -289,7 +289,7 @@ OddEggs:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 
-	db ELEKID
+	db KIWIMON
 	db NO_ITEM
 	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
 	dw 03072 ; OT ID
@@ -315,7 +315,7 @@ OddEggs:
 	bigdw 10 ; SDef
 	db "EGG@@@@@@@@"
 
-	db ELEKID
+	db KIWIMON
 	db NO_ITEM
 	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
 	dw 00512 ; OT ID

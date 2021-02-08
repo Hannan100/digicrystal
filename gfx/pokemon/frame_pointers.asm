@@ -237,7 +237,7 @@ FramesPointers:
 	dw KuramonFrames
 	dw HitmontopFrames
 	dw FloramonFrames
-	dw ElekidFrames
+	dw KiwimonFrames
 	dw MagbyFrames
 	dw MiltankFrames
 	dw BlisseyFrames

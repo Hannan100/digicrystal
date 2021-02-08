@@ -237,7 +237,7 @@ AnimationPointers:
 	dw KuramonAnimation
 	dw HitmontopAnimation
 	dw FloramonAnimation
-	dw ElekidAnimation
+	dw KiwimonAnimation
 	dw MagbyAnimation
 	dw MiltankAnimation
 	dw BlisseyAnimation
