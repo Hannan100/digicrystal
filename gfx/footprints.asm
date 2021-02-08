@@ -175,7 +175,7 @@ INCBIN "gfx/footprints/tentacool.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/tentacruel.1bpp", footprint_top
 INCBIN "gfx/footprints/gotsumon.1bpp",    footprint_top
 INCBIN "gfx/footprints/monocromon.1bpp",   footprint_top
-INCBIN "gfx/footprints/golem.1bpp",      footprint_top
+INCBIN "gfx/footprints/golemon.1bpp",      footprint_top
 INCBIN "gfx/footprints/ponyta.1bpp",     footprint_top
 INCBIN "gfx/footprints/rapidash.1bpp",   footprint_top
 INCBIN "gfx/footprints/otamamon.1bpp",   footprint_top
@@ -184,7 +184,7 @@ INCBIN "gfx/footprints/slowbro.1bpp",    footprint_top
 INCBIN "gfx/footprints/tentacruel.1bpp", footprint_bottom
 INCBIN "gfx/footprints/gotsumon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/monocromon.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/golem.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/golemon.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/ponyta.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/rapidash.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/otamamon.1bpp",   footprint_bottom

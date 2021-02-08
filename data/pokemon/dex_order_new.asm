@@ -36,7 +36,7 @@ NewPokedexOrder:
 	db LOPMON
 	db GOTSUMON
 	db MONOCROMON
-	db GOLEM
+	db GOLEMON
 	db PAGUMON
 	db DEMDEVIMON
 	db DEVIMON

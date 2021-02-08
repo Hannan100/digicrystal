@@ -74,7 +74,7 @@ AnimationPointers:
 	dw TentacruelAnimation
 	dw GotsumonAnimation
 	dw MonocromonAnimation
-	dw GolemAnimation
+	dw GolemonAnimation
 	dw PonytaAnimation
 	dw RapidashAnimation
 	dw OtamamonAnimation

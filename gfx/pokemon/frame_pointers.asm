@@ -74,7 +74,7 @@ FramesPointers:
 	dw TentacruelFrames
 	dw GotsumonFrames
 	dw MonocromonFrames
-	dw GolemFrames
+	dw GolemonFrames
 	dw PonytaFrames
 	dw RapidashFrames
 	dw OtamamonFrames

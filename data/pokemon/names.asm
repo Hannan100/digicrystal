@@ -74,7 +74,7 @@ PokemonNames::
 	db "TENTACRUEL"
 	db "GOTSUMON@@@" ; !Gotsumon
 	db "MONOCROMON@@"
-	db "GOLEM@@@@@"
+	db "GOLEMON@@@@@"
 	db "PONYTA@@@@"
 	db "RAPIDASH@@"
 	db "OTAMAMON@@"

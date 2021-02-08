@@ -76,7 +76,7 @@ KantoMonSpecials:
 	db 120 ; TENTACRUEL
 	db  30 ; GOTSUMON
 	db  45 ; MONOCROMON
-	db  55 ; GOLEM
+	db  55 ; GOLEMON
 	db  65 ; PONYTA
 	db  80 ; RAPIDASH
 	db  40 ; OTAMAMON

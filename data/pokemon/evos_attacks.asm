@@ -995,7 +995,7 @@ GotsumonEvosAttacks:
 	db 0 ; no more level-up moves
 
 MonocromonEvosAttacks:
-	db EVOLVE_TRADE, -1, GOLEM
+	db EVOLVE_TRADE, -1, GOLEMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
@@ -1010,7 +1010,7 @@ MonocromonEvosAttacks:
 	db 48, EXPLOSION
 	db 0 ; no more level-up moves
 
-GolemEvosAttacks:
+GolemonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL

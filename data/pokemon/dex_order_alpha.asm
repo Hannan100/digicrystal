@@ -74,7 +74,7 @@ AlphabeticalPokedexOrder:
 	db DEMDEVIMON
 	db GIZAMON
 	db GOLDUCK
-	db GOLEM
+	db GOLEMON
 	db LEOMON
 	db MONOCROMON
 	db NUMEMON

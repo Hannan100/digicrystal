@@ -47,7 +47,7 @@ Pokered_MonIndices:
 	db MUSHROOMONECT
 	db PSYDUCK
 	db TAPIRMON
-	db GOLEM
+	db GOLEMON
 	db SHADRAMON ; MISSINGNO.
 	db MAGMAR
 	db HO_OH ; MISSINGNO.

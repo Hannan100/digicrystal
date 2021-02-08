@@ -81,7 +81,7 @@ PokemonCries::
 	mon_cry CRY_KUNEMON,     $0ee,  $17f ; TENTACRUEL
 	mon_cry CRY_VULPIX,      $0f0,  $090 ; GOTSUMON
 	mon_cry CRY_VULPIX,      $000,  $100 ; MONOCROMON
-	mon_cry CRY_GOLEM,       $0e0,  $0c0 ; GOLEM
+	mon_cry CRY_GOLEMON,       $0e0,  $0c0 ; GOLEMON
 	mon_cry CRY_WOODMON,  $000,  $100 ; PONYTA
 	mon_cry CRY_WOODMON,  $020,  $140 ; RAPIDASH
 	mon_cry CRY_OTAMAMON,    $000,  $100 ; OTAMAMON
@@ -111,15 +111,15 @@ PokemonCries::
 	mon_cry CRY_TAPIRMON,     $000,  $100 ; DIGMON
 	mon_cry CRY_CLEFAIRY,    $000,  $100 ; CUBONE
 	mon_cry CRY_GOBLIMON,      $04f,  $0e0 ; MAROWAK
-	mon_cry CRY_GOLEM,       $080,  $140 ; HITMONLEE
+	mon_cry CRY_GOLEMON,       $080,  $140 ; HITMONLEE
 	mon_cry CRY_SEEL,        $0ee,  $140 ; HITMONCHAN
 	mon_cry CRY_SEEL,        $000,  $100 ; LICKITUNG
-	mon_cry CRY_GOLEM,       $0e6,  $15d ; KOFFING
-	mon_cry CRY_GOLEM,       $0ff,  $17f ; WEEZING
+	mon_cry CRY_GOLEMON,       $0e6,  $15d ; KOFFING
+	mon_cry CRY_GOLEMON,       $0ff,  $17f ; WEEZING
 	mon_cry CRY_GUILMON,  $000,  $100 ; RHYHORN
 	mon_cry CRY_RHYDON,      $000,  $100 ; RHYDON
 	mon_cry CRY_ANGEMON,   $00a,  $140 ; CHANSEY
-	mon_cry CRY_GOLEM,       $000,  $100 ; SHURIMON
+	mon_cry CRY_GOLEMON,       $000,  $100 ; SHURIMON
 	mon_cry CRY_KANGASKHAN,  $000,  $100 ; KANGASKHAN
 	mon_cry CRY_CLEFAIRY,    $099,  $090 ; HORSEA
 	mon_cry CRY_CLEFAIRY,    $03c,  $081 ; SEADRA
@@ -337,7 +337,7 @@ PokemonCries::
 	mon_cry CRY_KUNEMON,     238,  383 ; TENTACRUEL
 	mon_cry CRY_VULPIX,      240,  144 ; GOTSUMON
 	mon_cry CRY_VULPIX,        0,  256 ; MONOCROMON
-	mon_cry CRY_GOLEM,       224,  192 ; GOLEM
+	mon_cry CRY_GOLEMON,       224,  192 ; GOLEMON
 	mon_cry CRY_WOODMON,    0,  256 ; PONYTA
 	mon_cry CRY_WOODMON,   32,  320 ; RAPIDASH
 	mon_cry CRY_OTAMAMON,      0,  256 ; OTAMAMON
@@ -367,15 +367,15 @@ PokemonCries::
 	mon_cry CRY_TAPIRMON,       0,  256 ; DIGMON
 	mon_cry CRY_CLEFAIRY,      0,  256 ; CUBONE
 	mon_cry CRY_GOBLIMON,       79,  224 ; MAROWAK
-	mon_cry CRY_GOLEM,       128,  320 ; HITMONLEE
+	mon_cry CRY_GOLEMON,       128,  320 ; HITMONLEE
 	mon_cry CRY_SEEL,        238,  320 ; HITMONCHAN
 	mon_cry CRY_SEEL,          0,  256 ; LICKITUNG
-	mon_cry CRY_GOLEM,       230,  349 ; KOFFING
-	mon_cry CRY_GOLEM,       255,  383 ; WEEZING
+	mon_cry CRY_GOLEMON,       230,  349 ; KOFFING
+	mon_cry CRY_GOLEMON,       255,  383 ; WEEZING
 	mon_cry CRY_GUILMON,    0,  256 ; RHYHORN
 	mon_cry CRY_RHYDON,        0,  256 ; RHYDON
 	mon_cry CRY_ANGEMON,    10,  320 ; CHANSEY
-	mon_cry CRY_GOLEM,         0,  256 ; SHURIMON
+	mon_cry CRY_GOLEMON,         0,  256 ; SHURIMON
 	mon_cry CRY_KANGASKHAN,    0,  256 ; KANGASKHAN
 	mon_cry CRY_CLEFAIRY,    153,  144 ; HORSEA
 	mon_cry CRY_CLEFAIRY,     60,  129 ; SEADRA

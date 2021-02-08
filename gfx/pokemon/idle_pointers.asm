@@ -74,7 +74,7 @@ AnimationIdlePointers:
 	dw TentacruelAnimationIdle
 	dw GotsumonAnimationIdle
 	dw MonocromonAnimationIdle
-	dw GolemAnimationIdle
+	dw GolemonAnimationIdle
 	dw PonytaAnimationIdle
 	dw RapidashAnimationIdle
 	dw OtamamonAnimationIdle

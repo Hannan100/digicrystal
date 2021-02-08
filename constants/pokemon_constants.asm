@@ -94,7 +94,7 @@
 	const TENTACRUEL ; 49
 	const GOTSUMON    ; 4a
 	const MONOCROMON   ; 4b
-	const GOLEM      ; 4c
+	const GOLEMON      ; 4c
 	const PONYTA     ; 4d
 	const RAPIDASH   ; 4e
 	const OTAMAMON   ; 4f

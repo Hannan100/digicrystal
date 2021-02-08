@@ -20,7 +20,7 @@
 	const CRY_NYOKOMON
 	const CRY_TOKOOMON
 	const CRY_RHYDON
-	const CRY_GOLEM
+	const CRY_GOLEMON
 	const CRY_BLASTOISE
 	const CRY_ANGEMON
 	const CRY_MOTIMON

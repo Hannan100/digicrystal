@@ -74,7 +74,7 @@ BitmasksPointers:
 	dw TentacruelBitmasks
 	dw GotsumonBitmasks
 	dw MonocromonBitmasks
-	dw GolemBitmasks
+	dw GolemonBitmasks
 	dw PonytaBitmasks
 	dw RapidashBitmasks
 	dw OtamamonBitmasks
