@@ -20,7 +20,7 @@ BitmasksPointers:
 	dw TsunomonBitmasks
 	dw GabumonBitmasks
 	dw TokoomonBitmasks
-	dw FearowBitmasks
+	dw PatamonBitmasks
 	dw GazimonBitmasks
 	dw ArbokBitmasks
 	dw PikachuBitmasks

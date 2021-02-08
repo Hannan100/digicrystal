@@ -20,7 +20,7 @@ FramesPointers:
 	dw TsunomonFrames
 	dw GabumonFrames
 	dw TokoomonFrames
-	dw FearowFrames
+	dw PatamonFrames
 	dw GazimonFrames
 	dw ArbokFrames
 	dw PikachuFrames

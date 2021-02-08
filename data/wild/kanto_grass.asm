@@ -386,16 +386,16 @@ KantoGrassWildMons:
 	db 15, TSUNOMON
 	db 15, TOKOOMON
 	db 15, GABUMON
-	db 15, FEAROW
-	db 15, FEAROW
+	db 15, PATAMON
+	db 15, PATAMON
 	db 18, MAROWAK
 	db 18, MAROWAK
 	; day
 	db 15, TSUNOMON
 	db 15, TOKOOMON
 	db 15, GABUMON
-	db 15, FEAROW
-	db 15, FEAROW
+	db 15, PATAMON
+	db 15, PATAMON
 	db 18, MAROWAK
 	db 18, MAROWAK
 	; nite
@@ -413,7 +413,7 @@ KantoGrassWildMons:
 	db 15, TOKOOMON
 	db 17, VOLTORB
 	db 15, GABUMON
-	db 15, FEAROW
+	db 15, PATAMON
 	db 15, MAROWAK
 	db 16, ELECTABUZZ
 	db 16, ELECTABUZZ
@@ -421,7 +421,7 @@ KantoGrassWildMons:
 	db 15, TOKOOMON
 	db 17, VOLTORB
 	db 15, GABUMON
-	db 15, FEAROW
+	db 15, PATAMON
 	db 15, MAROWAK
 	db 18, ELECTABUZZ
 	db 18, ELECTABUZZ
@@ -546,17 +546,17 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 26, GRIMER
-	db 27, FEAROW
+	db 27, PATAMON
 	db 28, GRIMER
-	db 29, FEAROW
-	db 29, FEAROW
+	db 29, PATAMON
+	db 29, PATAMON
 	db 30, MUK
 	db 30, MUK
 	; day
 	db 26, GRIMER
-	db 27, FEAROW
+	db 27, PATAMON
 	db 28, GRIMER
-	db 29, FEAROW
+	db 29, PATAMON
 	db 29, SLUGMA
 	db 30, MUK
 	db 30, MUK
@@ -572,18 +572,18 @@ KantoGrassWildMons:
 	map_id ROUTE_17
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 30, FEAROW
+	db 30, PATAMON
 	db 29, GRIMER
 	db 31, GRIMER
-	db 32, FEAROW
+	db 32, PATAMON
 	db 33, GRIMER
 	db 33, MUK
 	db 33, MUK
 	; day
-	db 30, FEAROW
+	db 30, PATAMON
 	db 29, SLUGMA
 	db 29, GRIMER
-	db 32, FEAROW
+	db 32, PATAMON
 	db 32, SLUGMA
 	db 33, MUK
 	db 33, MUK
@@ -600,17 +600,17 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 26, GRIMER
-	db 27, FEAROW
+	db 27, PATAMON
 	db 28, GRIMER
-	db 29, FEAROW
-	db 29, FEAROW
+	db 29, PATAMON
+	db 29, PATAMON
 	db 30, MUK
 	db 30, MUK
 	; day
 	db 26, GRIMER
-	db 27, FEAROW
+	db 27, PATAMON
 	db 28, GRIMER
-	db 29, FEAROW
+	db 29, PATAMON
 	db 29, SLUGMA
 	db 30, MUK
 	db 30, MUK
@@ -658,16 +658,16 @@ KantoGrassWildMons:
 	db 5, TOKOOMON
 	db 4, DODUO
 	db 6, PONYTA
-	db 7, FEAROW
-	db 7, FEAROW
+	db 7, PATAMON
+	db 7, PATAMON
 	; day
 	db 3, TSUNOMON
 	db 3, TOKOOMON
 	db 5, TOKOOMON
 	db 4, DODUO
 	db 6, PONYTA
-	db 7, FEAROW
-	db 7, FEAROW
+	db 7, PATAMON
+	db 7, PATAMON
 	; nite
 	db 3, TSUNOMON
 	db 3, POLIWAG

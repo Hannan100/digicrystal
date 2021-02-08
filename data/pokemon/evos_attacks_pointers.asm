@@ -22,7 +22,7 @@ EvosAttacksPointers::
 	dw TsunomonEvosAttacks
 	dw GabumonEvosAttacks
 	dw TokoomonEvosAttacks
-	dw FearowEvosAttacks
+	dw PatamonEvosAttacks
 	dw GazimonEvosAttacks
 	dw ArbokEvosAttacks
 	dw PikachuEvosAttacks

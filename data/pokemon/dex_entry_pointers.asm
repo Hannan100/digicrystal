@@ -21,7 +21,7 @@ PokedexDataPointerTable:
 	dw TsunomonPokedexEntry
 	dw GabumonPokedexEntry
 	dw TokoomonPokedexEntry
-	dw FearowPokedexEntry
+	dw PatamonPokedexEntry
 	dw GazimonPokedexEntry
 	dw ArbokPokedexEntry
 	dw PikachuPokedexEntry

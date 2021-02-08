@@ -59,7 +59,7 @@ AlphabeticalPokedexOrder:
 	db EXEGGCUTE
 	db EXEGGUTOR
 	db FARFETCH_D
-	db FEAROW
+	db PATAMON
 	db FERALIGATR
 	db RAIDRAMON
 	db FLAREON

@@ -33,7 +33,7 @@ Pokered_MonIndices:
 	db SHUCKLE ; MISSINGNO.
 	db GROWLITHE
 	db ARMDILOMON
-	db FEAROW
+	db PATAMON
 	db PIDGEY
 	db SLOWPOKE
 	db KADABRA

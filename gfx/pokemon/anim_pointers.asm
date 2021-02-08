@@ -20,7 +20,7 @@ AnimationPointers:
 	dw TsunomonAnimation
 	dw GabumonAnimation
 	dw TokoomonAnimation
-	dw FearowAnimation
+	dw PatamonAnimation
 	dw GazimonAnimation
 	dw ArbokAnimation
 	dw PikachuAnimation

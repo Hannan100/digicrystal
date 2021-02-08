@@ -14,7 +14,7 @@ NewPokedexOrder:
 	db PIDGEOTTO
 	db PIDGEOT
 	db TOKOOMON
-	db FEAROW
+	db PATAMON
 	db POROMON
 	db HAWKMON
 	db TSUNOMON

@@ -44,8 +44,8 @@ PokemonPicPointers::
 	dba_pic GabumonBackpic
 	dba_pic TokoomonFrontpic
 	dba_pic TokoomonBackpic
-	dba_pic FearowFrontpic
-	dba_pic FearowBackpic
+	dba_pic PatamonFrontpic
+	dba_pic PatamonBackpic
 	dba_pic GazimonFrontpic
 	dba_pic GazimonBackpic
 	dba_pic ArbokFrontpic

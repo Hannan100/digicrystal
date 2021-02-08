@@ -20,7 +20,7 @@ AnimationIdlePointers:
 	dw TsunomonAnimationIdle
 	dw GabumonAnimationIdle
 	dw TokoomonAnimationIdle
-	dw FearowAnimationIdle
+	dw PatamonAnimationIdle
 	dw GazimonAnimationIdle
 	dw ArbokAnimationIdle
 	dw PikachuAnimationIdle

@@ -291,7 +291,7 @@ GabumonEvosAttacks:
 	db 0 ; no more level-up moves
 
 TokoomonEvosAttacks:
-	db EVOLVE_LEVEL, 20, FEAROW
+	db EVOLVE_LEVEL, 20, PATAMON
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, GROWL
@@ -303,7 +303,7 @@ TokoomonEvosAttacks:
 	db 43, AGILITY
 	db 0 ; no more level-up moves
 
-FearowEvosAttacks:
+PatamonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, GROWL

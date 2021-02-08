@@ -22,7 +22,7 @@ KantoMonSpecials:
 	db  25 ; TSUNOMON
 	db  50 ; GABUMON
 	db  31 ; TOKOOMON
-	db  61 ; FEAROW
+	db  61 ; PATAMON
 	db  40 ; GAZIMON
 	db  65 ; ARBOK
 	db  50 ; PIKACHU

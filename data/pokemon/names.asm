@@ -20,7 +20,7 @@ PokemonNames::
 	db "TSUNOMON@@@"
 	db "GABUMON@@"
 	db "TOKOOMON@@@"
-	db "FEAROW@@@@"
+	db "PATAMON@@@@"
 	db "GAZIMON@@@@@"
 	db "ARBOK@@@@@"
 	db "PIKACHU@@@"

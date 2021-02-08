@@ -1495,16 +1495,16 @@ JohtoGrassWildMons:
 	db 15, TSUNOMON
 	db 16, GABUMON
 	db 15, ARBOK
-	db 16, FEAROW
-	db 16, FEAROW
+	db 16, PATAMON
+	db 16, PATAMON
 	; day
 	db 13, GAZIMON
 	db 14, TOKOOMON
 	db 15, TSUNOMON
 	db 16, GABUMON
 	db 15, ARBOK
-	db 16, FEAROW
-	db 16, FEAROW
+	db 16, PATAMON
+	db 16, PATAMON
 	; nite
 	db 13, TSUNOMON
 	db 14, PAGUMON

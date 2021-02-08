@@ -26,7 +26,7 @@
 	const CRY_MOTIMON
 	const CRY_MINOMON
 	const CRY_GAZIMON
-	const CRY_FEAROW
+	const CRY_PATAMON
 	const CRY_CLEFAIRY
 	const CRY_KUNEMON
 	const CRY_LAPRAS
