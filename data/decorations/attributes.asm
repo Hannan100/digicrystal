@@ -51,7 +51,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,    GOBLIMON,          SET_UP_DOLL,       EVENT_DECO_GOBLIMON_DOLL,             SPRITE_GOBLIMON
 	decoration DECO_DOLL,    KRYSALIMON,          SET_UP_DOLL,       EVENT_DECO_KRYSALIMON_DOLL,             SPRITE_KRYSALIMON
 	decoration DECO_DOLL,    SHELLDER,        SET_UP_DOLL,       EVENT_DECO_SHELLDER_DOLL,           SPRITE_SHELLDER
-	decoration DECO_DOLL,    GRIMER,          SET_UP_DOLL,       EVENT_DECO_GRIMER_DOLL,             SPRITE_GRIMER
+	decoration DECO_DOLL,    NUMEMON,          SET_UP_DOLL,       EVENT_DECO_NUMEMON_DOLL,             SPRITE_NUMEMON
 	decoration DECO_DOLL,    VOLTORB,         SET_UP_DOLL,       EVENT_DECO_VOLTORB_DOLL,            SPRITE_VOLTORB
 	decoration DECO_DOLL,    MOTIMON,          SET_UP_DOLL,       EVENT_DECO_MOTIMON_DOLL,             SPRITE_MOTIMON
 	decoration DECO_DOLL,    UNOWN,           SET_UP_DOLL,       EVENT_DECO_UNOWN_DOLL,              SPRITE_UNOWN

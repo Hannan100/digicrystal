@@ -86,7 +86,7 @@ FramesPointers:
 	dw DodrioFrames
 	dw SeelFrames
 	dw DewgongFrames
-	dw GrimerFrames
+	dw NumemonFrames
 	dw MukFrames
 	dw ShellderFrames
 	dw CloysterFrames

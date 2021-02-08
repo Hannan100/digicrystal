@@ -87,7 +87,7 @@ PokedexDataPointerTable:
 	dw DodrioPokedexEntry
 	dw SeelPokedexEntry
 	dw DewgongPokedexEntry
-	dw GrimerPokedexEntry
+	dw NumemonPokedexEntry
 	dw MukPokedexEntry
 	dw ShellderPokedexEntry
 	dw CloysterPokedexEntry

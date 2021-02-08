@@ -545,25 +545,25 @@ KantoGrassWildMons:
 	map_id ROUTE_16
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 26, GRIMER
+	db 26, NUMEMON
 	db 27, PATAMON
-	db 28, GRIMER
+	db 28, NUMEMON
 	db 29, PATAMON
 	db 29, PATAMON
 	db 30, MUK
 	db 30, MUK
 	; day
-	db 26, GRIMER
+	db 26, NUMEMON
 	db 27, PATAMON
-	db 28, GRIMER
+	db 28, NUMEMON
 	db 29, PATAMON
 	db 29, SLUGMA
 	db 30, MUK
 	db 30, MUK
 	; nite
-	db 26, GRIMER
-	db 27, GRIMER
-	db 28, GRIMER
+	db 26, NUMEMON
+	db 27, NUMEMON
+	db 28, NUMEMON
 	db 29, MURKROW
 	db 29, MURKROW
 	db 30, MUK
@@ -573,53 +573,53 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 30, PATAMON
-	db 29, GRIMER
-	db 31, GRIMER
+	db 29, NUMEMON
+	db 31, NUMEMON
 	db 32, PATAMON
-	db 33, GRIMER
+	db 33, NUMEMON
 	db 33, MUK
 	db 33, MUK
 	; day
 	db 30, PATAMON
 	db 29, SLUGMA
-	db 29, GRIMER
+	db 29, NUMEMON
 	db 32, PATAMON
 	db 32, SLUGMA
 	db 33, MUK
 	db 33, MUK
 	; nite
-	db 30, GRIMER
-	db 29, GRIMER
-	db 31, GRIMER
-	db 32, GRIMER
-	db 33, GRIMER
+	db 30, NUMEMON
+	db 29, NUMEMON
+	db 31, NUMEMON
+	db 32, NUMEMON
+	db 33, NUMEMON
 	db 33, MUK
 	db 33, MUK
 
 	map_id ROUTE_18
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 26, GRIMER
+	db 26, NUMEMON
 	db 27, PATAMON
-	db 28, GRIMER
+	db 28, NUMEMON
 	db 29, PATAMON
 	db 29, PATAMON
 	db 30, MUK
 	db 30, MUK
 	; day
-	db 26, GRIMER
+	db 26, NUMEMON
 	db 27, PATAMON
-	db 28, GRIMER
+	db 28, NUMEMON
 	db 29, PATAMON
 	db 29, SLUGMA
 	db 30, MUK
 	db 30, MUK
 	; nite
-	db 26, GRIMER
-	db 27, GRIMER
-	db 28, GRIMER
-	db 29, GRIMER
-	db 29, GRIMER
+	db 26, NUMEMON
+	db 27, NUMEMON
+	db 28, NUMEMON
+	db 29, NUMEMON
+	db 29, NUMEMON
 	db 30, MUK
 	db 30, MUK
 

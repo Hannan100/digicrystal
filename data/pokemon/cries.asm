@@ -93,7 +93,7 @@ PokemonCries::
 	mon_cry CRY_DIGLETT,     $099,  $0a0 ; DODRIO
 	mon_cry CRY_SEEL,        $088,  $140 ; SEEL
 	mon_cry CRY_SEEL,        $023,  $17f ; DEWGONG
-	mon_cry CRY_GRIMER,      $000,  $100 ; GRIMER
+	mon_cry CRY_NUMEMON,      $000,  $100 ; NUMEMON
 	mon_cry CRY_MUK,         $0ef,  $17f ; MUK
 	mon_cry CRY_PATAMON,      $000,  $100 ; SHELLDER
 	mon_cry CRY_PATAMON,      $06f,  $160 ; CLOYSTER
@@ -148,7 +148,7 @@ PokemonCries::
 	mon_cry CRY_MINOMON,    $0bb,  $0c0 ; KABUTO
 	mon_cry CRY_PATAMON,      $0ee,  $081 ; KABUTOPS
 	mon_cry CRY_VILEPLUME,   $020,  $170 ; AERODACTYL
-	mon_cry CRY_GRIMER,      $055,  $081 ; SNORLAX
+	mon_cry CRY_NUMEMON,      $055,  $081 ; SNORLAX
 	mon_cry CRY_RAICHU,      $080,  $0c0 ; ARTICUNO
 	mon_cry CRY_PATAMON,      $0ff,  $100 ; ZAPDOS
 	mon_cry CRY_RAICHU,      $0f8,  $0c0 ; MOLTRES
@@ -349,7 +349,7 @@ PokemonCries::
 	mon_cry CRY_DIGLETT,     153,  160 ; DODRIO
 	mon_cry CRY_SEEL,        136,  320 ; SEEL
 	mon_cry CRY_SEEL,         35,  383 ; DEWGONG
-	mon_cry CRY_GRIMER,        0,  256 ; GRIMER
+	mon_cry CRY_NUMEMON,        0,  256 ; NUMEMON
 	mon_cry CRY_MUK,         239,  383 ; MUK
 	mon_cry CRY_PATAMON,        0,  256 ; SHELLDER
 	mon_cry CRY_PATAMON,      111,  352 ; CLOYSTER
@@ -404,7 +404,7 @@ PokemonCries::
 	mon_cry CRY_MINOMON,    187,  192 ; KABUTO
 	mon_cry CRY_PATAMON,      238,  129 ; KABUTOPS
 	mon_cry CRY_VILEPLUME,    32,  368 ; AERODACTYL
-	mon_cry CRY_GRIMER,       85,  129 ; SNORLAX
+	mon_cry CRY_NUMEMON,       85,  129 ; SNORLAX
 	mon_cry CRY_RAICHU,      128,  192 ; ARTICUNO
 	mon_cry CRY_PATAMON,      255,  256 ; ZAPDOS
 	mon_cry CRY_RAICHU,      248,  192 ; MOLTRES

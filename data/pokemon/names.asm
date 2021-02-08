@@ -86,7 +86,7 @@ PokemonNames::
 	db "DODRIO@@@@"
 	db "SEEL@@@@@@"
 	db "DEWGONG@@@"
-	db "GRIMER@@@@"
+	db "NUMEMON@@@@"
 	db "MUK@@@@@@@"
 	db "SHELLDER@@"
 	db "CLOYSTER@@"

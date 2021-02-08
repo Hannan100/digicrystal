@@ -86,7 +86,7 @@ AnimationPointers:
 	dw DodrioAnimation
 	dw SeelAnimation
 	dw DewgongAnimation
-	dw GrimerAnimation
+	dw NumemonAnimation
 	dw MukAnimation
 	dw ShellderAnimation
 	dw CloysterAnimation

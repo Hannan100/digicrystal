@@ -3,7 +3,7 @@ FleeMons:
 
 SometimesFleeMons:
 	db HAGURUMON
-	db GRIMER
+	db NUMEMON
 	db SHURIMON
 	db MR__MIME
 	db EEVEE

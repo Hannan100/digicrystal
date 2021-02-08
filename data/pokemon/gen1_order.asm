@@ -11,7 +11,7 @@ Pokered_MonIndices:
 	db DIGMON
 	db LICKITUNG
 	db CHUUMON
-	db GRIMER
+	db NUMEMON
 	db KRYSALIMON
 	db NIDORAN_F
 	db NIDOQUEEN

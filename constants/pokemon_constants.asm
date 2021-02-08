@@ -106,7 +106,7 @@
 	const DODRIO     ; 55
 	const SEEL       ; 56
 	const DEWGONG    ; 57
-	const GRIMER     ; 58
+	const NUMEMON     ; 58
 	const MUK        ; 59
 	const SHELLDER   ; 5a
 	const CLOYSTER   ; 5b

@@ -4,7 +4,7 @@ Cries:
 	dba Cry_Otamamon
 	dba Cry_Kangaskhan
 	dba Cry_Guilmon
-	dba Cry_Grimer
+	dba Cry_Numemon
 	dba Cry_Voltorb
 	dba Cry_Muk
 	dba Cry_Goblimon

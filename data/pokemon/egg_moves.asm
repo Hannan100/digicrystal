@@ -263,7 +263,7 @@ SeelEggMoves:
 	db ENCORE
 	db -1 ; end
 
-GrimerEggMoves:
+NumemonEggMoves:
 	db HAZE
 	db MEAN_LOOK
 	db LICK

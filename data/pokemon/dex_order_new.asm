@@ -116,7 +116,7 @@ NewPokedexOrder:
 	db SHADRAMON
 	db KOFFING
 	db WEEZING
-	db GRIMER
+	db NUMEMON
 	db MUK
 	db HAGURUMON
 	db MAGNETON

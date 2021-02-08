@@ -7,7 +7,7 @@
 	const CRY_OTAMAMON
 	const CRY_KANGASKHAN
 	const CRY_GUILMON
-	const CRY_GRIMER
+	const CRY_NUMEMON
 	const CRY_VOLTORB
 	const CRY_MUK
 	const CRY_GOBLIMON

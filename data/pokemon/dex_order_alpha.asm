@@ -77,7 +77,7 @@ AlphabeticalPokedexOrder:
 	db GOLEM
 	db LEOMON
 	db GRAVELER
-	db GRIMER
+	db NUMEMON
 	db RENAMON
 	db GYARADOS
 	db KERAMON
