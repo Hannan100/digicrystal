@@ -670,9 +670,9 @@ KantoGrassWildMons:
 	db 7, PATAMON
 	; nite
 	db 3, TSUNOMON
-	db 3, POLIWAG
+	db 3, BETAMON
 	db 5, TSUNOMON
-	db 4, POLIWAG
+	db 4, BETAMON
 	db 6, TSUNOMON
 	db 7, TSUNOMON
 	db 7, TSUNOMON

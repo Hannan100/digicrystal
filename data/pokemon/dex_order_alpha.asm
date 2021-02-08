@@ -166,7 +166,7 @@ AlphabeticalPokedexOrder:
 	db FANBEEMON
 	db PINSIR
 	db POLITOED
-	db POLIWAG
+	db BETAMON
 	db POLIWHIRL
 	db POLIWRATH
 	db PONYTA

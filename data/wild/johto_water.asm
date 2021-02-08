@@ -112,14 +112,14 @@ JohtoWaterWildMons:
 
 	map_id ROUTE_30
 	db 2 percent ; encounter rate
-	db 20, POLIWAG
-	db 15, POLIWAG
+	db 20, BETAMON
+	db 15, BETAMON
 	db 20, POLIWHIRL
 
 	map_id ROUTE_31
 	db 2 percent ; encounter rate
-	db 20, POLIWAG
-	db 15, POLIWAG
+	db 20, BETAMON
+	db 15, BETAMON
 	db 20, POLIWHIRL
 
 	map_id ROUTE_32
@@ -166,8 +166,8 @@ JohtoWaterWildMons:
 
 	map_id ROUTE_44
 	db 2 percent ; encounter rate
-	db 25, POLIWAG
-	db 20, POLIWAG
+	db 25, BETAMON
+	db 20, BETAMON
 	db 25, POLIWHIRL
 
 	map_id ROUTE_45
@@ -190,8 +190,8 @@ JohtoWaterWildMons:
 
 	map_id VIOLET_CITY
 	db 2 percent ; encounter rate
-	db 20, POLIWAG
-	db 15, POLIWAG
+	db 20, BETAMON
+	db 15, BETAMON
 	db 20, POLIWHIRL
 
 	map_id CIANWOOD_CITY
@@ -208,8 +208,8 @@ JohtoWaterWildMons:
 
 	map_id ECRUTEAK_CITY
 	db 2 percent ; encounter rate
-	db 20, POLIWAG
-	db 15, POLIWAG
+	db 20, BETAMON
+	db 15, BETAMON
 	db 20, POLIWHIRL
 
 	map_id LAKE_OF_RAGE
@@ -228,6 +228,6 @@ JohtoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 35, POLIWHIRL
 	db 40, POLIWHIRL
-	db 35, POLIWAG
+	db 35, BETAMON
 
 	db -1 ; end

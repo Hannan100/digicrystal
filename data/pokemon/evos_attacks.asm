@@ -791,7 +791,7 @@ ArcanineEvosAttacks:
 	db 50, EXTREMESPEED
 	db 0 ; no more level-up moves
 
-PoliwagEvosAttacks:
+BetamonEvosAttacks:
 	db EVOLVE_LEVEL, 25, POLIWHIRL
 	db 0 ; no more evolutions
 	db 1, BUBBLE

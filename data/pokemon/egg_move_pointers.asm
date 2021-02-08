@@ -58,7 +58,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw RenamonEggMoves
 	dw NoEggMoves
-	dw PoliwagEggMoves
+	dw BetamonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw AbraEggMoves

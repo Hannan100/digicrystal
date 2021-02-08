@@ -58,7 +58,7 @@ AnimationPointers:
 	dw PrimeapeAnimation
 	dw RenamonAnimation
 	dw ArcanineAnimation
-	dw PoliwagAnimation
+	dw BetamonAnimation
 	dw PoliwhirlAnimation
 	dw PoliwrathAnimation
 	dw AbraAnimation

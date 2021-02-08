@@ -58,7 +58,7 @@ AnimationIdlePointers:
 	dw PrimeapeAnimationIdle
 	dw RenamonAnimationIdle
 	dw ArcanineAnimationIdle
-	dw PoliwagAnimationIdle
+	dw BetamonAnimationIdle
 	dw PoliwhirlAnimationIdle
 	dw PoliwrathAnimationIdle
 	dw AbraAnimationIdle

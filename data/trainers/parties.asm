@@ -1641,8 +1641,8 @@ FisherGroup:
 
 	; FISHER (5)
 	db "HENRY@", TRAINERTYPE_NORMAL
-	db  8, POLIWAG
-	db  8, POLIWAG
+	db  8, BETAMON
+	db  8, BETAMON
 	db -1 ; end
 
 	; FISHER (6)
@@ -2036,7 +2036,7 @@ SailorGroup:
 
 	; SAILOR (2)
 	db "HUEY@", TRAINERTYPE_NORMAL
-	db 18, POLIWAG
+	db 18, BETAMON
 	db 18, POLIWHIRL
 	db -1 ; end
 

@@ -180,7 +180,7 @@ RenamonEggMoves:
 	db FIRE_SPIN
 	db -1 ; end
 
-PoliwagEggMoves:
+BetamonEggMoves:
 	db MIST
 	db SPLASH
 	db BUBBLEBEAM

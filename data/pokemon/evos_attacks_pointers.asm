@@ -60,7 +60,7 @@ EvosAttacksPointers::
 	dw PrimeapeEvosAttacks
 	dw RenamonEvosAttacks
 	dw ArcanineEvosAttacks
-	dw PoliwagEvosAttacks
+	dw BetamonEvosAttacks
 	dw PoliwhirlEvosAttacks
 	dw PoliwrathEvosAttacks
 	dw AbraEvosAttacks

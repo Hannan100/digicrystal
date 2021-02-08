@@ -1238,7 +1238,7 @@ JohtoGrassWildMons:
 	; nite
 	db 3, KOKOMON
 	db 3,POROMON
-	db 4, POLIWAG
+	db 4, BETAMON
 	db 4,POROMON
 	db 3, PAGUMON
 	db 4,POROMON
@@ -1264,7 +1264,7 @@ JohtoGrassWildMons:
 	db 5, YOKOMON
 	; nite
 	db 4, KOKOMON
-	db 4, POLIWAG
+	db 4, BETAMON
 	db 5, LALAMON
 	db 5,POROMON
 	db 4, PAGUMON
@@ -1561,7 +1561,7 @@ JohtoGrassWildMons:
 	db 26, LICKITUNG
 	; nite
 	db 23, TANGELA
-	db 22, POLIWAG
+	db 22, BETAMON
 	db 22, LALAMON
 	db 24, WEEPINBELL
 	db 24, POLIWHIRL

@@ -120,8 +120,8 @@ PokemonPicPointers::
 	dba_pic RenamonBackpic
 	dba_pic ArcanineFrontpic
 	dba_pic ArcanineBackpic
-	dba_pic PoliwagFrontpic
-	dba_pic PoliwagBackpic
+	dba_pic BetamonFrontpic
+	dba_pic BetamonBackpic
 	dba_pic PoliwhirlFrontpic
 	dba_pic PoliwhirlBackpic
 	dba_pic PoliwrathFrontpic

@@ -58,7 +58,7 @@ BitmasksPointers:
 	dw PrimeapeBitmasks
 	dw RenamonBitmasks
 	dw ArcanineBitmasks
-	dw PoliwagBitmasks
+	dw BetamonBitmasks
 	dw PoliwhirlBitmasks
 	dw PoliwrathBitmasks
 	dw AbraBitmasks

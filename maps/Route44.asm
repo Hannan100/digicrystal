@@ -173,7 +173,7 @@ TrainerFisherWilton1:
 	iftrue Route44NumberAcceptedM
 	checkevent EVENT_WILTON_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskedAlready
-	writetext FisherWiltonHugePoliwagText
+	writetext FisherWiltonHugeBetamonText
 	promptbutton
 	setevent EVENT_WILTON_ASKED_FOR_PHONE_NUMBER
 	scall Route44AskNumber1M
@@ -320,7 +320,7 @@ Route44HiddenElixer:
 
 FisherWilton1SeenText:
 	text "Aack! You made me"
-	line "lose a POLIWAG!"
+	line "lose a BETAMON!"
 
 	para "What are you going"
 	line "to do about it?"
@@ -331,8 +331,8 @@ FisherWilton1BeatenText:
 	line "it."
 	done
 
-FisherWiltonHugePoliwagText:
-	text "That POLIWAG that"
+FisherWiltonHugeBetamonText:
+	text "That BETAMON that"
 	line "got away…"
 	cont "It was huge."
 

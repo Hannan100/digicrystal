@@ -60,7 +60,7 @@ KantoMonSpecials:
 	db  60 ; PRIMEAPE
 	db  50 ; RENAMON
 	db  80 ; ARCANINE
-	db  40 ; POLIWAG
+	db  40 ; BETAMON
 	db  50 ; POLIWHIRL
 	db  70 ; POLIWRATH
 	db 105 ; ABRA

@@ -70,8 +70,8 @@ KantoWaterWildMons:
 
 	map_id ROUTE_22
 	db 2 percent ; encounter rate
-	db 10, POLIWAG
-	db 5, POLIWAG
+	db 10, BETAMON
+	db 5, BETAMON
 	db 10, POLIWHIRL
 
 	map_id ROUTE_24
@@ -100,8 +100,8 @@ KantoWaterWildMons:
 
 	map_id ROUTE_28
 	db 2 percent ; encounter rate
-	db 40, POLIWAG
-	db 35, POLIWAG
+	db 40, BETAMON
+	db 35, BETAMON
 	db 40, POLIWHIRL
 
 	map_id PALLET_TOWN
@@ -112,8 +112,8 @@ KantoWaterWildMons:
 
 	map_id VIRIDIAN_CITY
 	db 2 percent ; encounter rate
-	db 10, POLIWAG
-	db 5, POLIWAG
+	db 10, BETAMON
+	db 5, BETAMON
 	db 10, POLIWHIRL
 
 	map_id CERULEAN_CITY

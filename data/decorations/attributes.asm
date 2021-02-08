@@ -44,7 +44,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,    NYOKOMON,       SET_UP_DOLL,       EVENT_DECO_NYOKOMON_DOLL,          SPRITE_NYOKOMON
 	decoration DECO_DOLL,    GUILMON,      SET_UP_DOLL,       EVENT_DECO_GUILMON_DOLL,         SPRITE_GUILMON
 	decoration DECO_DOLL,    SQUIRTLE,        SET_UP_DOLL,       EVENT_DECO_SQUIRTLE_DOLL,           SPRITE_SQUIRTLE
-	decoration DECO_DOLL,    POLIWAG,         SET_UP_DOLL,       EVENT_DECO_POLIWAG_DOLL,            SPRITE_POLIWAG
+	decoration DECO_DOLL,    BETAMON,         SET_UP_DOLL,       EVENT_DECO_BETAMON_DOLL,            SPRITE_BETAMON
 	decoration DECO_DOLL,    DIGLETT,         SET_UP_DOLL,       EVENT_DECO_DIGLETT_DOLL,            SPRITE_DIGLETT
 	decoration DECO_DOLL,    STARYU,          SET_UP_DOLL,       EVENT_DECO_STARMIE_DOLL,            SPRITE_STARMIE
 	decoration DECO_DOLL,    MAGIKARP,        SET_UP_DOLL,       EVENT_DECO_MAGIKARP_DOLL,           SPRITE_MAGIKARP
