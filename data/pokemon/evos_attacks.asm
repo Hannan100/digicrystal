@@ -1277,7 +1277,7 @@ GengarEvosAttacks:
 	db 48, DESTINY_BOND
 	db 0 ; no more level-up moves
 
-OnixEvosAttacks:
+ArmdilomonEvosAttacks:
 	db EVOLVE_TRADE, METAL_COAT, STEELIX
 	db 0 ; no more evolutions
 	db 1, TACKLE

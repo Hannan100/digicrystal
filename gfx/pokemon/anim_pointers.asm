@@ -93,7 +93,7 @@ AnimationPointers:
 	dw TsumemonAnimation
 	dw KeramonAnimation
 	dw GengarAnimation
-	dw OnixAnimation
+	dw ArmdilomonAnimation
 	dw DrowzeeAnimation
 	dw HypnoAnimation
 	dw KrabbyAnimation

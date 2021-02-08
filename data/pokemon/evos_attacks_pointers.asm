@@ -95,7 +95,7 @@ EvosAttacksPointers::
 	dw TsumemonEvosAttacks
 	dw KeramonEvosAttacks
 	dw GengarEvosAttacks
-	dw OnixEvosAttacks
+	dw ArmdilomonEvosAttacks
 	dw DrowzeeEvosAttacks
 	dw HypnoEvosAttacks
 	dw KrabbyEvosAttacks

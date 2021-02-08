@@ -283,7 +283,7 @@ TsumemonEggMoves:
 	db HAZE
 	db -1 ; end
 
-OnixEggMoves:
+ArmdilomonEggMoves:
 	db ROCK_SLIDE
 	db FLAIL
 	db -1 ; end

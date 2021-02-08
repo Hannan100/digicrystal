@@ -81,7 +81,7 @@
 	const SPRITE_FAIRY ; 4d
 	const SPRITE_BIRD ; 4e
 	const SPRITE_DRAGON ; 4f
-	const SPRITE_BIG_ONIX ; 50
+	const SPRITE_BIG_ARMDILOMON ; 50
 	const SPRITE_N64 ; 51
 	const SPRITE_SUDOWOODO ; 52
 	const SPRITE_SURF ; 53

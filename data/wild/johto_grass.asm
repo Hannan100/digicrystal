@@ -415,24 +415,24 @@ JohtoGrassWildMons:
 	db 5, PAGUMON
 	db 4, TSUNOMON
 	db 7, PAGUMON
-	db 6, ONIX
-	db 6, ONIX
+	db 6, ARMDILOMON
+	db 6, ARMDILOMON
 	; day
 	db 6, GEODUDE
 	db 6, SANDSHREW
 	db 5, PAGUMON
 	db 4, TSUNOMON
 	db 7, PAGUMON
-	db 6, ONIX
-	db 6, ONIX
+	db 6, ARMDILOMON
+	db 6, ARMDILOMON
 	; nite
 	db 6, GEODUDE
 	db 6, TSUNOMON
 	db 5, WOOPER
 	db 4, TSUNOMON
 	db 7, PAGUMON
-	db 6, ONIX
-	db 6, ONIX
+	db 6, ARMDILOMON
+	db 6, ARMDILOMON
 
 	map_id UNION_CAVE_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -440,7 +440,7 @@ JohtoGrassWildMons:
 	db 8, GEODUDE
 	db 6, PAGUMON
 	db 8, PAGUMON
-	db 8, ONIX
+	db 8, ARMDILOMON
 	db 6, TSUNOMON
 	db 8, TSUNOMON
 	db 8, TSUNOMON
@@ -448,7 +448,7 @@ JohtoGrassWildMons:
 	db 8, GEODUDE
 	db 6, PAGUMON
 	db 8, PAGUMON
-	db 8, ONIX
+	db 8, ARMDILOMON
 	db 6, TSUNOMON
 	db 8, TSUNOMON
 	db 8, TSUNOMON
@@ -456,7 +456,7 @@ JohtoGrassWildMons:
 	db 8, GEODUDE
 	db 6, PAGUMON
 	db 8, WOOPER
-	db 8, ONIX
+	db 8, ARMDILOMON
 	db 6, TSUNOMON
 	db 8, TSUNOMON
 	db 8, TSUNOMON
@@ -469,24 +469,24 @@ JohtoGrassWildMons:
 	db 22, PAGUMON
 	db 21, RATICATE
 	db 20, GEODUDE
-	db 23, ONIX
-	db 23, ONIX
+	db 23, ARMDILOMON
+	db 23, ARMDILOMON
 	; day
 	db 22, PAGUMON
 	db 22, DEMDEVIMON
 	db 22, PAGUMON
 	db 21, RATICATE
 	db 20, GEODUDE
-	db 23, ONIX
-	db 23, ONIX
+	db 23, ARMDILOMON
+	db 23, ARMDILOMON
 	; nite
 	db 22, PAGUMON
 	db 22, DEMDEVIMON
 	db 22, QUAGSIRE
 	db 21, RATICATE
 	db 20, GEODUDE
-	db 23, ONIX
-	db 23, ONIX
+	db 23, ARMDILOMON
+	db 23, ARMDILOMON
 
 	map_id SLOWPOKE_WELL_B1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -1033,7 +1033,7 @@ JohtoGrassWildMons:
 	; morn
 	db 43, GRAVELER
 	db 44, URSARING
-	db 42, ONIX
+	db 42, ARMDILOMON
 	db 45, MAGMAR
 	db 45, DEMDEVIMON
 	db 20, LARVITAR
@@ -1041,7 +1041,7 @@ JohtoGrassWildMons:
 	; day
 	db 43, GRAVELER
 	db 44, URSARING
-	db 42, ONIX
+	db 42, ARMDILOMON
 	db 45, MAGMAR
 	db 45, DEMDEVIMON
 	db 20, LARVITAR
@@ -1049,7 +1049,7 @@ JohtoGrassWildMons:
 	; nite
 	db 43, GRAVELER
 	db 44, DEMDEVIMON
-	db 42, ONIX
+	db 42, ARMDILOMON
 	db 42, DEMDEVIMON
 	db 45, GOLDUCK
 	db 46, DEMDEVIMON
@@ -1086,7 +1086,7 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 51, DEMDEVIMON
-	db 48, ONIX
+	db 48, ARMDILOMON
 	db 48, GRAVELER
 	db 50, URSARING
 	db 20, LARVITAR
@@ -1094,7 +1094,7 @@ JohtoGrassWildMons:
 	db 20, PUPITAR
 	; day
 	db 51, DEMDEVIMON
-	db 48, ONIX
+	db 48, ARMDILOMON
 	db 48, GRAVELER
 	db 50, URSARING
 	db 20, LARVITAR
@@ -1102,7 +1102,7 @@ JohtoGrassWildMons:
 	db 20, PUPITAR
 	; nite
 	db 51, DEMDEVIMON
-	db 48, ONIX
+	db 48, ARMDILOMON
 	db 48, GRAVELER
 	db 49, DEMDEVIMON
 	db 45, GOLDUCK

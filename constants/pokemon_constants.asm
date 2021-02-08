@@ -113,7 +113,7 @@
 	const TSUMEMON     ; 5c
 	const KERAMON    ; 5d
 	const GENGAR     ; 5e
-	const ONIX       ; 5f
+	const ARMDILOMON       ; 5f
 	const DROWZEE    ; 60
 	const HYPNO      ; 61
 	const KRABBY     ; 62

@@ -190,8 +190,8 @@ PokemonPicPointers::
 	dba_pic KeramonBackpic
 	dba_pic GengarFrontpic
 	dba_pic GengarBackpic
-	dba_pic OnixFrontpic
-	dba_pic OnixBackpic
+	dba_pic ArmdilomonFrontpic
+	dba_pic ArmdilomonBackpic
 	dba_pic DrowzeeFrontpic
 	dba_pic DrowzeeBackpic
 	dba_pic HypnoFrontpic

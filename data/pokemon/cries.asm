@@ -100,7 +100,7 @@ PokemonCries::
 	mon_cry CRY_WORMMON,     $000,  $100 ; TSUMEMON
 	mon_cry CRY_WORMMON,     $030,  $0c0 ; KERAMON
 	mon_cry CRY_MUK,         $000,  $17f ; GENGAR
-	mon_cry CRY_GAZIMON,       $0ff,  $140 ; ONIX
+	mon_cry CRY_GAZIMON,       $0ff,  $140 ; ARMDILOMON
 	mon_cry CRY_DROWZEE,     $088,  $0a0 ; DROWZEE
 	mon_cry CRY_DROWZEE,     $0ee,  $0c0 ; HYPNO
 	mon_cry CRY_KRABBY,      $020,  $160 ; KRABBY
@@ -356,7 +356,7 @@ PokemonCries::
 	mon_cry CRY_WORMMON,       0,  256 ; TSUMEMON
 	mon_cry CRY_WORMMON,      48,  192 ; KERAMON
 	mon_cry CRY_MUK,           0,  383 ; GENGAR
-	mon_cry CRY_GAZIMON,       255,  320 ; ONIX
+	mon_cry CRY_GAZIMON,       255,  320 ; ARMDILOMON
 	mon_cry CRY_DROWZEE,     136,  160 ; DROWZEE
 	mon_cry CRY_DROWZEE,     238,  192 ; HYPNO
 	mon_cry CRY_KRABBY,       32,  352 ; KRABBY

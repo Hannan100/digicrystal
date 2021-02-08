@@ -95,7 +95,7 @@ KantoMonSpecials:
 	db 100 ; TSUMEMON
 	db 115 ; KERAMON
 	db 130 ; GENGAR
-	db  30 ; ONIX
+	db  30 ; ARMDILOMON
 	db  90 ; DROWZEE
 	db 115 ; HYPNO
 	db  25 ; KRABBY

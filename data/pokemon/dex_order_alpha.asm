@@ -152,7 +152,7 @@ AlphabeticalPokedexOrder:
 	db GOBLIMON
 	db OMANYTE
 	db OMASTAR
-	db ONIX
+	db ARMDILOMON
 	db MUSHROOMON
 	db MUSHROOMONECT
 	db PERSIAN

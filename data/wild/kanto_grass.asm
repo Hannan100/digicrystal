@@ -88,7 +88,7 @@ KantoGrassWildMons:
 	; morn
 	db 12, CUBONE
 	db 14, GEODUDE
-	db 16, ONIX
+	db 16, ARMDILOMON
 	db 12, PAGUMON
 	db 15, MAROWAK
 	db 15, KANGASKHAN
@@ -96,7 +96,7 @@ KantoGrassWildMons:
 	; day
 	db 12, CUBONE
 	db 14, GEODUDE
-	db 16, ONIX
+	db 16, ARMDILOMON
 	db 12, PAGUMON
 	db 15, MAROWAK
 	db 15, KANGASKHAN
@@ -104,7 +104,7 @@ KantoGrassWildMons:
 	; nite
 	db 12, PAGUMON
 	db 14, GEODUDE
-	db 16, ONIX
+	db 16, ARMDILOMON
 	db 15, PAGUMON
 	db 15, KERAMON
 	db 15, DEMDEVIMON
@@ -115,7 +115,7 @@ KantoGrassWildMons:
 	; morn
 	db 34, GRAVELER
 	db 32, RHYHORN
-	db 33, ONIX
+	db 33, ARMDILOMON
 	db 34, DEMDEVIMON
 	db 35, SANDSLASH
 	db 35, RHYDON
@@ -123,7 +123,7 @@ KantoGrassWildMons:
 	; day
 	db 34, GRAVELER
 	db 32, RHYHORN
-	db 33, ONIX
+	db 33, ARMDILOMON
 	db 34, DEMDEVIMON
 	db 35, SANDSLASH
 	db 35, RHYDON
@@ -131,7 +131,7 @@ KantoGrassWildMons:
 	; nite
 	db 34, DEMDEVIMON
 	db 34, GRAVELER
-	db 32, ONIX
+	db 32, ARMDILOMON
 	db 36, GRAVELER
 	db 38, GRAVELER
 	db 40, GRAVELER

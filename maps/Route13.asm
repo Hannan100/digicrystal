@@ -149,7 +149,7 @@ BirdKeeperBretAfterBattleText:
 HikerKennySeenText:
 	text "I should go to"
 	line "ROCK TUNNEL to get"
-	cont "myself an ONIX."
+	cont "myself an ARMDILOMON."
 	done
 
 HikerKennyBeatenText:

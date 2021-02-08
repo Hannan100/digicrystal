@@ -32,7 +32,7 @@ Pokered_MonIndices:
 	db SCIZOR ; MISSINGNO.
 	db SHUCKLE ; MISSINGNO.
 	db GROWLITHE
-	db ONIX
+	db ARMDILOMON
 	db FEAROW
 	db PIDGEY
 	db SLOWPOKE

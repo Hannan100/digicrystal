@@ -98,7 +98,7 @@ ENDM
 ; FindOwnedBigDolls.big_dolls values (see engine/overworld/decorations.asm)
 	const BIG_DOLLS
 	deco  BIG_SNORLAX_DOLL
-	deco  BIG_ONIX_DOLL
+	deco  BIG_ARMDILOMON_DOLL
 	deco  BIG_LAPRAS_DOLL
 ; FindOwnedOrnaments.ornaments values (see engine/overworld/decorations.asm)
 	const DOLLS

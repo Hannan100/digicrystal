@@ -93,7 +93,7 @@ PokemonNames::
 	db "TSUMEMON@@@@"
 	db "KERAMON@@@"
 	db "GENGAR@@@@"
-	db "ONIX@@@@@@"
+	db "ARMDILOMON@@@@@@"
 	db "DROWZEE@@@"
 	db "HYPNO@@@@@"
 	db "KRABBY@@@@"

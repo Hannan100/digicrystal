@@ -62,7 +62,7 @@ NewPokedexOrder:
 	db KERAMON
 	db GENGAR
 	db UNOWN
-	db ONIX
+	db ARMDILOMON
 	db STEELIX
 	db LALAMON
 	db WEEPINBELL
