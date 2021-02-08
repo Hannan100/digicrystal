@@ -2276,7 +2276,7 @@ TerriermonEvosAttacks:
 	db 0 ; no more level-up moves
 
 KokomonEvosAttacks:
-	db EVOLVE_LEVEL, 22, ARIADOS
+	db EVOLVE_LEVEL, 22, LOPMON
 	db 0 ; no more evolutions
 	db 1, POISON_STING
 	db 1, STRING_SHOT
@@ -2290,7 +2290,7 @@ KokomonEvosAttacks:
 	db 53, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-AriadosEvosAttacks:
+LopmonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POISON_STING
 	db 1, STRING_SHOT

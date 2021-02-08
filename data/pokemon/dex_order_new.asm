@@ -33,7 +33,7 @@ NewPokedexOrder:
 	db GUMMYMON
 	db TERRIERMON
 	db KOKOMON
-	db ARIADOS
+	db LOPMON
 	db GEODUDE
 	db GRAVELER
 	db GOLEM

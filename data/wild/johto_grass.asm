@@ -1430,8 +1430,8 @@ JohtoGrassWildMons:
 	db 15,POROMON
 	db 16, STANTLER
 	db 15, HAWKMON
-	db 15, ARIADOS
-	db 15, ARIADOS
+	db 15, LOPMON
+	db 15, LOPMON
 
 	map_id ROUTE_38
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

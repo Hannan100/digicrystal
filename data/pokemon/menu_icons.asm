@@ -168,7 +168,7 @@ MonMenuIcons:
 	db ICON_BUG         ; GUMMYMON
 	db ICON_BUG         ; TERRIERMON
 	db ICON_BUG         ; KOKOMON
-	db ICON_BUG         ; ARIADOS
+	db ICON_BUG         ; LOPMON
 	db ICON_BAT         ; CROBAT
 	db ICON_FISH        ; CHINCHOU
 	db ICON_FISH        ; LANTURN

@@ -206,7 +206,7 @@ Pokered_MonIndices:
 	db GUMMYMON
 	db TERRIERMON
 	db KOKOMON
-	db ARIADOS
+	db LOPMON
 	db CROBAT
 	db CHINCHOU
 	db LANTURN

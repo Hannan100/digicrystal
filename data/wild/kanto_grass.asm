@@ -214,7 +214,7 @@ KantoGrassWildMons:
 	db 3, KOKOMON
 	db 5, POROMON
 	db 7, HAWKMON
-	db 7, ARIADOS
+	db 7, LOPMON
 	db 4, HAWKMON
 	db 4, HAWKMON
 

@@ -8,7 +8,7 @@ AlphabeticalPokedexOrder:
 	db AMPHAROS
 	db ARBOK
 	db ARCANINE
-	db ARIADOS
+	db LOPMON
 	db ARTICUNO
 	db AZUMARILL
 	db PALMON

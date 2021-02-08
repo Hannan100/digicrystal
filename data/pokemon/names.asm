@@ -166,7 +166,7 @@ PokemonNames::
 	db "GUMMYMON@@@@" ; !Puroromon
 	db "TERRIERMON@@@@" ; !Fanbeemon
 	db "KOKOMON@@" ; !Tentomon
-	db "ARIADOS@@@" ; !Kbuterimon
+	db "LOPMON@@@" ; !Kbuterimon
 	db "CROBAT@@@@"
 	db "CHINCHOU@@"
 	db "LANTURN@@@"

@@ -336,8 +336,8 @@ PokemonPicPointers::
 	dba_pic TerriermonBackpic
 	dba_pic KokomonFrontpic
 	dba_pic KokomonBackpic
-	dba_pic AriadosFrontpic
-	dba_pic AriadosBackpic
+	dba_pic LopmonFrontpic
+	dba_pic LopmonBackpic
 	dba_pic CrobatFrontpic
 	dba_pic CrobatBackpic
 	dba_pic ChinchouFrontpic

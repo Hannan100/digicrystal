@@ -166,7 +166,7 @@ AnimationIdlePointers:
 	dw GummymonAnimationIdle
 	dw TerriermonAnimationIdle
 	dw KokomonAnimationIdle
-	dw AriadosAnimationIdle
+	dw LopmonAnimationIdle
 	dw CrobatAnimationIdle
 	dw ChinchouAnimationIdle
 	dw LanturnAnimationIdle
