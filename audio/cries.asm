@@ -139,11 +139,11 @@ Cry_Veedramon:
 	musicheader 1, 6, Cry_Veedramon_Ch6
 	musicheader 1, 8, Cry_Veedramon_Ch8
 =======
-Cry_Natu:
+Cry_Veedramon:
 	channel_count 3
-	channel 5, Cry_Natu_Ch5
-	channel 6, Cry_Natu_Ch6
-	channel 8, Cry_Natu_Ch8
+	channel 5, Cry_Veedramon_Ch5
+	channel 6, Cry_Veedramon_Ch6
+	channel 8, Cry_Veedramon_Ch8
 >>>>>>> pret/master
 
 Cry_Impmon:
@@ -852,7 +852,7 @@ Cry_Mantine_branch_f3310:
 Cry_Mantine_branch_f331d:
 Cry_Veedramon_Ch8:
 =======
-Cry_Natu_Ch5:
+Cry_Veedramon_Ch5:
 	duty_cycle_pattern 3, 1, 3, 2
 .body1:
 	square_note 4, 15, 8, 1969
@@ -864,7 +864,7 @@ Cry_Natu_Ch5:
 	square_note 4, 4, 8, 1972
 	sound_ret
 
-Cry_Natu_Ch6:
+Cry_Veedramon_Ch6:
 Cry_Sunflora_Ch6:
 .body1:
 	duty_cycle_pattern 3, 3, 0, 2
@@ -877,7 +877,7 @@ Cry_Sunflora_Ch6:
 	square_note 4, 4, 8, 1976
 	sound_ret
 
-Cry_Natu_Ch8:
+Cry_Veedramon_Ch8:
 >>>>>>> pret/master
 Cry_Sunflora_Ch8:
 .body1:
@@ -897,12 +897,12 @@ Cry_Impmon_Ch8:
 
 Cry_Sunflora_Ch5:
 	duty_cycle 0
-	sound_jump Cry_Natu_Ch5.body1
+	sound_jump Cry_Veedramon_Ch5.body1
 
 Cry_Mantine_Ch5:
 	duty_cycle 0
-	sound_call Cry_Natu_Ch5.body1
-	sound_call Cry_Natu_Ch5.body2
+	sound_call Cry_Veedramon_Ch5.body1
+	sound_call Cry_Veedramon_Ch5.body2
 	sound_ret
 
 Cry_Mantine_Ch6:

@@ -175,7 +175,7 @@ PokemonNames::
 	db "IGGLYBUFF@"
 	db "DEMIVEEMON" ; Demiveemon
 	db "VEEMON@@@@" ; Veemon
-	db "VEEDRAMON@" ; Natu
+	db "VEEDRAMON@" ; Veedramon
 	db "EX-VEEMON@" ; Xatu
 	db "FLAMEDRMON" ; Mareep
 	db "RAIDRAMON@" ; Flaaffy

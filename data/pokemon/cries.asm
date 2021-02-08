@@ -438,8 +438,8 @@ PokemonCries::
 	mon_cry CRY_TANEMON,   232,  232 ; IGGLYBUFF
 	mon_cry CRY_DEMIVEEMON,       16,  256 ; DEMIVEEMON
 	mon_cry CRY_VEEMON,      59,   56 ; VEEMON
-	mon_cry CRY_NATU,       -103,  256 ; NATU
-	mon_cry CRY_NATU,       -167,  360 ; XATU
+	mon_cry CRY_VEEDRAMON,       -103,  256 ; VEEDRAMON
+	mon_cry CRY_VEEDRAMON,       -167,  360 ; XATU
 	mon_cry CRY_MAREEP,       34,  216 ; MAREEP
 	mon_cry CRY_MAREEP,       -7,  384 ; FLAAFFY
 	mon_cry CRY_AMPHAROS,   -124,  232 ; AMPHAROS
