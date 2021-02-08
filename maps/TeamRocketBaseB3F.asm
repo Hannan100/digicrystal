@@ -125,7 +125,7 @@ RocketBaseMurkrow:
 	setevent EVENT_LEARNED_HAIL_GIOVANNI
 	end
 
-SlowpokeTailGrunt:
+OtamamonTailGrunt:
 	trainer GRUNTF, GRUNTF_5, EVENT_BEAT_ROCKET_GRUNTF_5, GruntF5SeenText, GruntF5BeatenText, 0, GruntF5Script
 
 GruntF5Script:
@@ -134,7 +134,7 @@ GruntF5Script:
 	writetext GruntF5AfterBattleText
 	waitbutton
 	closetext
-	setevent EVENT_LEARNED_SLOWPOKETAIL
+	setevent EVENT_LEARNED_OTAMAMONTAIL
 	end
 
 GabumonTailGrunt:
@@ -176,7 +176,7 @@ TeamRocketBaseB3FLockedDoor:
 
 .Script:
 	opentext
-	checkevent EVENT_LEARNED_SLOWPOKETAIL
+	checkevent EVENT_LEARNED_OTAMAMONTAIL
 	iffalse .NeedsPassword
 	checkevent EVENT_LEARNED_GABUMON_TAIL
 	iffalse .NeedsPassword
@@ -452,7 +452,7 @@ GruntF5AfterBattleText:
 	text "The password to"
 	line "the boss's room is"
 
-	para "SLOWPOKETAIL."
+	para "OTAMAMONTAIL."
 
 	para "But it's useless"
 	line "unless you have"
@@ -593,7 +593,7 @@ TeamRocketBaseB3F_MapEvents:
 	object_event 25, 14, SPRITE_LANCE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LanceGetPasswordScript, EVENT_TEAM_ROCKET_BASE_B3F_LANCE_PASSWORDS
 	object_event  8,  3, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B3F_EXECUTIVE
 	object_event  7,  2, SPRITE_MOLTRES, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, RocketBaseMurkrow, EVENT_TEAM_ROCKET_BASE_POPULATION
-	object_event 21,  7, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, SlowpokeTailGrunt, EVENT_TEAM_ROCKET_BASE_POPULATION
+	object_event 21,  7, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, OtamamonTailGrunt, EVENT_TEAM_ROCKET_BASE_POPULATION
 	object_event  5, 14, SPRITE_ROCKET, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, GabumonTailGrunt, EVENT_TEAM_ROCKET_BASE_POPULATION
 	object_event 23, 11, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerScientistRoss, EVENT_TEAM_ROCKET_BASE_POPULATION
 	object_event 11, 15, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerScientistMitch, EVENT_TEAM_ROCKET_BASE_POPULATION

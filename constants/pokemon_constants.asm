@@ -97,7 +97,7 @@
 	const GOLEM      ; 4c
 	const PONYTA     ; 4d
 	const RAPIDASH   ; 4e
-	const SLOWPOKE   ; 4f
+	const OTAMAMON   ; 4f
 	const SLOWBRO    ; 50
 	const HAGURUMON  ; 51
 	const MAGNETON   ; 52

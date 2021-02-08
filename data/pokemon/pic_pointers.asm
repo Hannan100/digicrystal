@@ -158,8 +158,8 @@ PokemonPicPointers::
 	dba_pic PonytaBackpic
 	dba_pic RapidashFrontpic
 	dba_pic RapidashBackpic
-	dba_pic SlowpokeFrontpic
-	dba_pic SlowpokeBackpic
+	dba_pic OtamamonFrontpic
+	dba_pic OtamamonBackpic
 	dba_pic SlowbroFrontpic
 	dba_pic SlowbroBackpic
 	dba_pic HagurumonFrontpic

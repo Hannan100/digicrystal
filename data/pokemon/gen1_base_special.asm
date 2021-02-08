@@ -79,7 +79,7 @@ KantoMonSpecials:
 	db  55 ; GOLEM
 	db  65 ; PONYTA
 	db  80 ; RAPIDASH
-	db  40 ; SLOWPOKE
+	db  40 ; OTAMAMON
 	db  80 ; SLOWBRO
 	db  95 ; HAGURUMON
 	db 120 ; MAGNETON

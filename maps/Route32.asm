@@ -17,7 +17,7 @@
 Route32_MapScripts:
 	def_scene_scripts
 	scene_script .DummyScene0 ; SCENE_DEFAULT
-	scene_script .DummyScene1 ; SCENE_ROUTE32_OFFER_SLOWPOKETAIL
+	scene_script .DummyScene1 ; SCENE_ROUTE32_OFFER_OTAMAMONTAIL
 	scene_script .DummyScene2 ; SCENE_ROUTE32_NOTHING
 
 	def_callbacks
@@ -117,17 +117,17 @@ Route32RoarTMGuyScript:
 	closetext
 	end
 
-Route32WannaBuyASlowpokeTailScript:
+Route32WannaBuyAOtamamonTailScript:
 	turnobject ROUTE32_FISHER4, DOWN
 	turnobject PLAYER, UP
-	sjump _OfferToSellSlowpokeTail
+	sjump _OfferToSellOtamamonTail
 
-SlowpokeTailSalesmanScript:
+OtamamonTailSalesmanScript:
 	faceplayer
-_OfferToSellSlowpokeTail:
+_OfferToSellOtamamonTail:
 	setscene SCENE_ROUTE32_NOTHING
 	opentext
-	writetext Text_MillionDollarSlowpokeTail
+	writetext Text_MillionDollarOtamamonTail
 	yesorno
 	iffalse .refused
 	writetext Text_ThoughtKidsWereLoaded
@@ -136,7 +136,7 @@ _OfferToSellSlowpokeTail:
 	end
 
 .refused
-	writetext Text_RefusedToBuySlowpokeTail
+	writetext Text_RefusedToBuyOtamamonTail
 	waitbutton
 	closetext
 	end
@@ -602,12 +602,12 @@ Route32CooltrainerMText_ExperiencesShouldBeUseful:
 	line "for your journey."
 	done
 
-Text_MillionDollarSlowpokeTail:
+Text_MillionDollarOtamamonTail:
 	text "How would you like"
 	line "to have this"
 
 	para "tasty, nutritious"
-	line "SLOWPOKETAIL?"
+	line "OTAMAMONTAIL?"
 
 	para "For you right now,"
 	line "just ¥1,000,000!"
@@ -621,7 +621,7 @@ Text_ThoughtKidsWereLoaded:
 	cont "were loaded…"
 	done
 
-Text_RefusedToBuySlowpokeTail:
+Text_RefusedToBuyOtamamonTail:
 	text "You don't want it?"
 	line "Then scram. Shoo!"
 	done
@@ -931,7 +931,7 @@ Route32_MapEvents:
 
 	def_coord_events
 	coord_event 18,  8, SCENE_DEFAULT, Route32CooltrainerMStopsYouScene
-	coord_event  7, 71, SCENE_ROUTE32_OFFER_SLOWPOKETAIL, Route32WannaBuyASlowpokeTailScript
+	coord_event  7, 71, SCENE_ROUTE32_OFFER_OTAMAMONTAIL, Route32WannaBuyAOtamamonTailScript
 
 	def_bg_events
 	bg_event 13,  5, BGEVENT_READ, Route32Sign
@@ -951,7 +951,7 @@ Route32_MapEvents:
 	object_event 10, 30, SPRITE_LASS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 1, TrainerPicnickerLiz1, -1
 	object_event 19,  8, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route32CooltrainerMScript, -1
 	object_event 11, 82, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerBirdKeeperPeter, -1
-	object_event  7, 70, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SlowpokeTailSalesmanScript, EVENT_SLOWPOKE_WELL_ROCKETS
+	object_event  7, 70, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OtamamonTailSalesmanScript, EVENT_OTAMAMON_WELL_ROCKETS
 	object_event  6, 53, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route32GreatBall, EVENT_ROUTE_32_GREAT_BALL
 	object_event 15, 13, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route32RoarTMGuyScript, -1
 	object_event 12, 67, SPRITE_LASS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, FriedaScript, EVENT_ROUTE_32_FRIEDA_OF_FRIDAY

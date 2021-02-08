@@ -1057,7 +1057,7 @@ RapidashEvosAttacks:
 	db 61, FIRE_BLAST
 	db 0 ; no more level-up moves
 
-SlowpokeEvosAttacks:
+OtamamonEvosAttacks:
 	db EVOLVE_LEVEL, 37, SLOWBRO
 	db EVOLVE_TRADE, KINGS_ROCK, SLOWKING
 	db 0 ; no more evolutions

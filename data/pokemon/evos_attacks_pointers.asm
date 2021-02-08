@@ -79,7 +79,7 @@ EvosAttacksPointers::
 	dw GolemEvosAttacks
 	dw PonytaEvosAttacks
 	dw RapidashEvosAttacks
-	dw SlowpokeEvosAttacks
+	dw OtamamonEvosAttacks
 	dw SlowbroEvosAttacks
 	dw HagurumonEvosAttacks
 	dw MagnetonEvosAttacks

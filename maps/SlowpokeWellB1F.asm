@@ -1,21 +1,21 @@
 	object_const_def
-	const SLOWPOKEWELLB1F_ROCKET1
-	const SLOWPOKEWELLB1F_ROCKET2
-	const SLOWPOKEWELLB1F_ROCKET3
-	const SLOWPOKEWELLB1F_ROCKET_GIRL
-	const SLOWPOKEWELLB1F_SLOWPOKE1
-	const SLOWPOKEWELLB1F_SLOWPOKE2
-	const SLOWPOKEWELLB1F_KURT
-	const SLOWPOKEWELLB1F_BOULDER
-	const SLOWPOKEWELLB1F_POKE_BALL
+	const OTAMAMONWELLB1F_ROCKET1
+	const OTAMAMONWELLB1F_ROCKET2
+	const OTAMAMONWELLB1F_ROCKET3
+	const OTAMAMONWELLB1F_ROCKET_GIRL
+	const OTAMAMONWELLB1F_OTAMAMON1
+	const OTAMAMONWELLB1F_OTAMAMON2
+	const OTAMAMONWELLB1F_KURT
+	const OTAMAMONWELLB1F_BOULDER
+	const OTAMAMONWELLB1F_POKE_BALL
 
-SlowpokeWellB1F_MapScripts:
+OtamamonWellB1F_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
-SlowpokeWellB1FKurtScript:
-	jumptextfaceplayer SlowpokeWellB1FKurtText
+OtamamonWellB1FKurtScript:
+	jumptextfaceplayer OtamamonWellB1FKurtText
 
 TrainerGruntM29:
 	trainer GRUNTM, GRUNTM_29, EVENT_BEAT_ROCKET_GRUNTM_29, GruntM29SeenText, GruntM29BeatenText, 0, .Script
@@ -38,32 +38,32 @@ TrainerGruntM1:
 	closetext
 	special FadeBlackQuickly
 	special ReloadSpritesNoPalettes
-	disappear SLOWPOKEWELLB1F_ROCKET1
-	disappear SLOWPOKEWELLB1F_ROCKET2
-	disappear SLOWPOKEWELLB1F_ROCKET3
-	disappear SLOWPOKEWELLB1F_ROCKET_GIRL
+	disappear OTAMAMONWELLB1F_ROCKET1
+	disappear OTAMAMONWELLB1F_ROCKET2
+	disappear OTAMAMONWELLB1F_ROCKET3
+	disappear OTAMAMONWELLB1F_ROCKET_GIRL
 	pause 15
 	special FadeInQuickly
-	disappear SLOWPOKEWELLB1F_KURT
-	moveobject SLOWPOKEWELLB1F_KURT, 11, 6
-	appear SLOWPOKEWELLB1F_KURT
-	applymovement SLOWPOKEWELLB1F_KURT, KurtSlowpokeWellVictoryMovementData
+	disappear OTAMAMONWELLB1F_KURT
+	moveobject OTAMAMONWELLB1F_KURT, 11, 6
+	appear OTAMAMONWELLB1F_KURT
+	applymovement OTAMAMONWELLB1F_KURT, KurtOtamamonWellVictoryMovementData
 	turnobject PLAYER, RIGHT
 	opentext
-	writetext KurtLeaveSlowpokeWellText
+	writetext KurtLeaveOtamamonWellText
 	waitbutton
 	closetext
-	setevent EVENT_CLEARED_SLOWPOKE_WELL
+	setevent EVENT_CLEARED_OTAMAMON_WELL
 	variablesprite SPRITE_AZALEA_ROCKET, SPRITE_SILVER
 	setmapscene AZALEA_TOWN, SCENE_AZALEATOWN_RIVAL_BATTLE
 	clearevent EVENT_ILEX_FOREST_APPRENTICE
 	clearevent EVENT_ILEX_FOREST_FARFETCHD
 	setevent EVENT_CHARCOAL_KILN_FARFETCH_D
 	setevent EVENT_CHARCOAL_KILN_APPRENTICE
-	setevent EVENT_SLOWPOKE_WELL_SLOWPOKES
-	setevent EVENT_SLOWPOKE_WELL_KURT
-	clearevent EVENT_AZALEA_TOWN_SLOWPOKES
-	clearevent EVENT_KURTS_HOUSE_SLOWPOKE
+	setevent EVENT_OTAMAMON_WELL_OTAMAMONS
+	setevent EVENT_OTAMAMON_WELL_KURT
+	clearevent EVENT_AZALEA_TOWN_OTAMAMONS
+	clearevent EVENT_KURTS_HOUSE_OTAMAMON
 	clearevent EVENT_KURTS_HOUSE_KURT_1
 	special FadeOutPalettes
 	special HealParty
@@ -93,38 +93,38 @@ TrainerGruntF1:
 	closetext
 	end
 
-SlowpokeWellB1FSlowpokeWithMailScript:
+OtamamonWellB1FOtamamonWithMailScript:
 	faceplayer
 	opentext
-	cry SLOWPOKE
-	writetext SlowpokeWellB1FSlowpokeWithMailText
+	cry OTAMAMON
+	writetext OtamamonWellB1FOtamamonWithMailText
 	yesorno
 	iftrue .ReadMail
 	closetext
 	end
 
 .ReadMail:
-	writetext SlowpokeWellB1FSlowpokeMailText
+	writetext OtamamonWellB1FOtamamonMailText
 	waitbutton
 	closetext
 	end
 
-SlowpokeWellB1FTaillessSlowpokeScript:
+OtamamonWellB1FTaillessOtamamonScript:
 	faceplayer
 	opentext
-	writetext SlowpokeWellB1FTaillessSlowpokeText
-	cry SLOWPOKE
+	writetext OtamamonWellB1FTaillessOtamamonText
+	cry OTAMAMON
 	waitbutton
 	closetext
 	end
 
-SlowpokeWellB1FBoulder:
+OtamamonWellB1FBoulder:
 	jumpstd StrengthBoulderScript
 
-SlowpokeWellB1FSuperPotion:
+OtamamonWellB1FSuperPotion:
 	itemball SUPER_POTION
 
-KurtSlowpokeWellVictoryMovementData:
+KurtOtamamonWellVictoryMovementData:
 	step LEFT
 	step LEFT
 	step LEFT
@@ -142,7 +142,7 @@ KurtSlowpokeWellVictoryMovementData:
 	turn_head LEFT
 	step_end
 
-SlowpokeWellB1FKurtText:
+OtamamonWellB1FKurtText:
 	text "KURT: Hey there,"
 	line "<PLAYER>!"
 
@@ -172,7 +172,7 @@ SlowpokeWellB1FKurtText:
 	cont "in my place!"
 	done
 
-KurtLeaveSlowpokeWellText:
+KurtLeaveOtamamonWellText:
 	text "KURT: Way to go,"
 	line "<PLAYER>!"
 
@@ -209,7 +209,7 @@ GruntM29AfterBattleText:
 	text "Sure, we've been"
 	line "hacking the tails"
 
-	para "off SLOWPOKE and"
+	para "off OTAMAMON and"
 	line "selling them."
 
 	para "Everything we do"
@@ -285,22 +285,22 @@ GruntF1BeatenText:
 	done
 
 GruntF1AfterBattleText:
-	text "SLOWPOKETAILS"
+	text "OTAMAMONTAILS"
 	line "grow back fast!"
 
 	para "What's wrong with"
 	line "selling them?"
 	done
 
-SlowpokeWellB1FSlowpokeWithMailText:
-	text "A SLOWPOKE with"
+OtamamonWellB1FOtamamonWithMailText:
+	text "A OTAMAMON with"
 	line "its TAIL cut off…"
 
 	para "Huh? It has MAIL."
 	line "Read it?"
 	done
 
-SlowpokeWellB1FSlowpokeMailText:
+OtamamonWellB1FOtamamonMailText:
 	text "<PLAYER> read the"
 	line "MAIL."
 
@@ -308,34 +308,34 @@ SlowpokeWellB1FSlowpokeMailText:
 	line "after the house"
 
 	para "with Grandpa and"
-	line "SLOWPOKE."
+	line "OTAMAMON."
 
 	para "Love, Dad"
 	done
 
-SlowpokeWellB1FTaillessSlowpokeText:
-	text "A SLOWPOKE with"
+OtamamonWellB1FTaillessOtamamonText:
+	text "A OTAMAMON with"
 	line "its TAIL cut off…"
 	done
 
-SlowpokeWellB1F_MapEvents:
+OtamamonWellB1F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
 	warp_event 17, 15, AZALEA_TOWN, 6
-	warp_event  7, 11, SLOWPOKE_WELL_B2F, 1
+	warp_event  7, 11, OTAMAMON_WELL_B2F, 1
 
 	def_coord_events
 
 	def_bg_events
 
 	def_object_events
-	object_event 15,  7, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerGruntM29, EVENT_SLOWPOKE_WELL_ROCKETS
-	object_event  5,  2, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerGruntM1, EVENT_SLOWPOKE_WELL_ROCKETS
-	object_event  5,  6, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerGruntM2, EVENT_SLOWPOKE_WELL_ROCKETS
-	object_event 10,  4, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 4, TrainerGruntF1, EVENT_SLOWPOKE_WELL_ROCKETS
-	object_event  7,  4, SPRITE_SLOWPOKE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SlowpokeWellB1FSlowpokeWithMailScript, EVENT_SLOWPOKE_WELL_SLOWPOKES
-	object_event  6,  2, SPRITE_SLOWPOKE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SlowpokeWellB1FTaillessSlowpokeScript, EVENT_SLOWPOKE_WELL_SLOWPOKES
-	object_event 16, 14, SPRITE_KURT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SlowpokeWellB1FKurtScript, EVENT_SLOWPOKE_WELL_KURT
-	object_event  3,  2, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SlowpokeWellB1FBoulder, -1
-	object_event 10,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SlowpokeWellB1FSuperPotion, EVENT_SLOWPOKE_WELL_B1F_SUPER_POTION
+	object_event 15,  7, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerGruntM29, EVENT_OTAMAMON_WELL_ROCKETS
+	object_event  5,  2, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerGruntM1, EVENT_OTAMAMON_WELL_ROCKETS
+	object_event  5,  6, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerGruntM2, EVENT_OTAMAMON_WELL_ROCKETS
+	object_event 10,  4, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 4, TrainerGruntF1, EVENT_OTAMAMON_WELL_ROCKETS
+	object_event  7,  4, SPRITE_OTAMAMON, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OtamamonWellB1FOtamamonWithMailScript, EVENT_OTAMAMON_WELL_OTAMAMONS
+	object_event  6,  2, SPRITE_OTAMAMON, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OtamamonWellB1FTaillessOtamamonScript, EVENT_OTAMAMON_WELL_OTAMAMONS
+	object_event 16, 14, SPRITE_KURT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OtamamonWellB1FKurtScript, EVENT_OTAMAMON_WELL_KURT
+	object_event  3,  2, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OtamamonWellB1FBoulder, -1
+	object_event 10,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, OtamamonWellB1FSuperPotion, EVENT_OTAMAMON_WELL_B1F_SUPER_POTION

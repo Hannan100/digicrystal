@@ -84,7 +84,7 @@ PokemonCries::
 	mon_cry CRY_GOLEM,       $0e0,  $0c0 ; GOLEM
 	mon_cry CRY_WEEPINBELL,  $000,  $100 ; PONYTA
 	mon_cry CRY_WEEPINBELL,  $020,  $140 ; RAPIDASH
-	mon_cry CRY_SLOWPOKE,    $000,  $100 ; SLOWPOKE
+	mon_cry CRY_OTAMAMON,    $000,  $100 ; OTAMAMON
 	mon_cry CRY_RENAMON,   $000,  $100 ; SLOWBRO
 	mon_cry CRY_WORMMON,     $080,  $0e0 ; HAGURUMON
 	mon_cry CRY_WORMMON,     $020,  $140 ; MAGNETON
@@ -340,7 +340,7 @@ PokemonCries::
 	mon_cry CRY_GOLEM,       224,  192 ; GOLEM
 	mon_cry CRY_WEEPINBELL,    0,  256 ; PONYTA
 	mon_cry CRY_WEEPINBELL,   32,  320 ; RAPIDASH
-	mon_cry CRY_SLOWPOKE,      0,  256 ; SLOWPOKE
+	mon_cry CRY_OTAMAMON,      0,  256 ; OTAMAMON
 	mon_cry CRY_RENAMON,     0,  256 ; SLOWBRO
 	mon_cry CRY_WORMMON,     128,  224 ; HAGURUMON
 	mon_cry CRY_WORMMON,      32,  320 ; MAGNETON

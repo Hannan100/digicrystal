@@ -200,7 +200,7 @@ AlphabeticalPokedexOrder:
 	db BIYOMON
 	db SLOWBRO
 	db SLOWKING
-	db SLOWPOKE
+	db OTAMAMON
 	db SLUGMA
 	db SMEARGLE
 	db FLORAMON

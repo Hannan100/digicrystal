@@ -178,7 +178,7 @@ INCBIN "gfx/footprints/graveler.1bpp",   footprint_top
 INCBIN "gfx/footprints/golem.1bpp",      footprint_top
 INCBIN "gfx/footprints/ponyta.1bpp",     footprint_top
 INCBIN "gfx/footprints/rapidash.1bpp",   footprint_top
-INCBIN "gfx/footprints/slowpoke.1bpp",   footprint_top
+INCBIN "gfx/footprints/otamamon.1bpp",   footprint_top
 INCBIN "gfx/footprints/slowbro.1bpp",    footprint_top
 ; 073-080 bottom halves
 INCBIN "gfx/footprints/tentacruel.1bpp", footprint_bottom
@@ -187,7 +187,7 @@ INCBIN "gfx/footprints/graveler.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/golem.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/ponyta.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/rapidash.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/slowpoke.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/otamamon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/slowbro.1bpp",    footprint_bottom
 ; 081-088 top halves
 INCBIN "gfx/footprints/hagurumon.1bpp",  footprint_top

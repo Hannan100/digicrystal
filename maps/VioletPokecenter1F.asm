@@ -35,7 +35,7 @@ VioletPokecenter1F_ElmsAideScript:
 	setevent EVENT_GOT_DEMIVEEMON_EGG_FROM_ELMS_AIDE
 	clearevent EVENT_ELMS_AIDE_IN_LAB
 	clearevent EVENT_DEMIVEEMON_HATCHED
-	setmapscene ROUTE_32, SCENE_ROUTE32_OFFER_SLOWPOKETAIL
+	setmapscene ROUTE_32, SCENE_ROUTE32_OFFER_OTAMAMONTAIL
 	writetext VioletPokecenterElmsAideGiveEggText
 	waitbutton
 	closetext

@@ -77,7 +77,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw PonytaEggMoves
 	dw NoEggMoves
-	dw SlowpokeEggMoves
+	dw OtamamonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

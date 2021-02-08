@@ -77,7 +77,7 @@ FramesPointers:
 	dw GolemFrames
 	dw PonytaFrames
 	dw RapidashFrames
-	dw SlowpokeFrames
+	dw OtamamonFrames
 	dw SlowbroFrames
 	dw HagurumonFrames
 	dw MagnetonFrames

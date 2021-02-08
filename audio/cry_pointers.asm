@@ -1,7 +1,7 @@
 Cries:
 	dba Cry_Nidoran_M
 	dba Cry_Nidoran_F
-	dba Cry_Slowpoke
+	dba Cry_Otamamon
 	dba Cry_Kangaskhan
 	dba Cry_Guilmon
 	dba Cry_Grimer

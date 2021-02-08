@@ -77,7 +77,7 @@ PokemonNames::
 	db "GOLEM@@@@@"
 	db "PONYTA@@@@"
 	db "RAPIDASH@@"
-	db "SLOWPOKE@@"
+	db "OTAMAMON@@"
 	db "SLOWBRO@@@"
 	db "HAGURUMON@" ; !Hagurumon
 	db "MAGNETON@@"

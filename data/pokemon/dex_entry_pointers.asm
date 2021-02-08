@@ -78,7 +78,7 @@ PokedexDataPointerTable:
 	dw GolemPokedexEntry
 	dw PonytaPokedexEntry
 	dw RapidashPokedexEntry
-	dw SlowpokePokedexEntry
+	dw OtamamonPokedexEntry
 	dw SlowbroPokedexEntry
 	dw HagurumonPokedexEntry
 	dw MagnetonPokedexEntry

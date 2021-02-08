@@ -488,59 +488,59 @@ JohtoGrassWildMons:
 	db 23, ARMDILOMON
 	db 23, ARMDILOMON
 
-	map_id SLOWPOKE_WELL_B1F
+	map_id OTAMAMON_WELL_B1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	db 5, PAGUMON
 	db 6, PAGUMON
 	db 7, PAGUMON
-	db 6, SLOWPOKE
+	db 6, OTAMAMON
 	db 8, PAGUMON
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 8, OTAMAMON
+	db 8, OTAMAMON
 	; day
 	db 5, PAGUMON
 	db 6, PAGUMON
 	db 7, PAGUMON
-	db 6, SLOWPOKE
+	db 6, OTAMAMON
 	db 8, PAGUMON
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 8, OTAMAMON
+	db 8, OTAMAMON
 	; nite
 	db 5, PAGUMON
 	db 6, PAGUMON
 	db 7, PAGUMON
-	db 6, SLOWPOKE
+	db 6, OTAMAMON
 	db 8, PAGUMON
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 8, OTAMAMON
+	db 8, OTAMAMON
 
-	map_id SLOWPOKE_WELL_B2F
+	map_id OTAMAMON_WELL_B2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	db 21, PAGUMON
 	db 23, PAGUMON
 	db 19, PAGUMON
-	db 21, SLOWPOKE
+	db 21, OTAMAMON
 	db 23, DEMDEVIMON
-	db 23, SLOWPOKE
-	db 23, SLOWPOKE
+	db 23, OTAMAMON
+	db 23, OTAMAMON
 	; day
 	db 21, PAGUMON
 	db 23, PAGUMON
 	db 19, PAGUMON
-	db 21, SLOWPOKE
+	db 21, OTAMAMON
 	db 23, DEMDEVIMON
-	db 23, SLOWPOKE
-	db 23, SLOWPOKE
+	db 23, OTAMAMON
+	db 23, OTAMAMON
 	; nite
 	db 21, PAGUMON
 	db 23, PAGUMON
 	db 19, PAGUMON
-	db 21, SLOWPOKE
+	db 21, OTAMAMON
 	db 23, DEMDEVIMON
-	db 23, SLOWPOKE
-	db 23, SLOWPOKE
+	db 23, OTAMAMON
+	db 23, OTAMAMON
 
 	map_id ILEX_FOREST
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite

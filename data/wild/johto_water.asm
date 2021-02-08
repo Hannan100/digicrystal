@@ -26,16 +26,16 @@ JohtoWaterWildMons:
 	db 20, QUAGSIRE
 	db 20, TENTACRUEL
 
-	map_id SLOWPOKE_WELL_B1F
+	map_id OTAMAMON_WELL_B1F
 	db 2 percent ; encounter rate
-	db 15, SLOWPOKE
-	db 20, SLOWPOKE
-	db 10, SLOWPOKE
+	db 15, OTAMAMON
+	db 20, OTAMAMON
+	db 10, OTAMAMON
 
-	map_id SLOWPOKE_WELL_B2F
+	map_id OTAMAMON_WELL_B2F
 	db 2 percent ; encounter rate
-	db 15, SLOWPOKE
-	db 20, SLOWPOKE
+	db 15, OTAMAMON
+	db 20, OTAMAMON
 	db 20, SLOWBRO
 
 	map_id ILEX_FOREST

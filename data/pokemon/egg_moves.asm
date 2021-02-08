@@ -231,7 +231,7 @@ PonytaEggMoves:
 	db QUICK_ATTACK
 	db -1 ; end
 
-SlowpokeEggMoves:
+OtamamonEggMoves:
 	db SAFEGUARD
 	db BELLY_DRUM
 	db FUTURE_SIGHT

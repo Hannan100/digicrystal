@@ -143,26 +143,26 @@ KantoGrassWildMons:
 	db 22, PAGUMON
 	db 22, GABUMON
 	db 24, DEMDEVIMON
-	db 21, SLOWPOKE
+	db 21, OTAMAMON
 	db 20, TSUNOMON
-	db 23, SLOWPOKE
-	db 23, SLOWPOKE
+	db 23, OTAMAMON
+	db 23, OTAMAMON
 	; day
 	db 22, PAGUMON
 	db 22, GABUMON
 	db 24, DEMDEVIMON
-	db 21, SLOWPOKE
+	db 21, OTAMAMON
 	db 20, TSUNOMON
-	db 23, SLOWPOKE
-	db 23, SLOWPOKE
+	db 23, OTAMAMON
+	db 23, OTAMAMON
 	; nite
 	db 22, PAGUMON
 	db 22, GABUMON
 	db 24, DEMDEVIMON
-	db 21, SLOWPOKE
+	db 21, OTAMAMON
 	db 20, TSUNOMON
-	db 23, SLOWPOKE
-	db 23, SLOWPOKE
+	db 23, OTAMAMON
+	db 23, OTAMAMON
 
 	map_id ROUTE_1
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

@@ -80,7 +80,7 @@ NewPokedexOrder:
 	db GYARADOS
 	db GOLDEEN
 	db SEAKING
-	db SLOWPOKE
+	db OTAMAMON
 	db SLOWBRO
 	db SLOWKING
 	db GOBLIMON

@@ -36,6 +36,6 @@ IconPointers:
 	dw HoOhIcon
 	dw LugiaIcon
 	dw GyaradosIcon
-	dw SlowpokeIcon
+	dw OtamamonIcon
 	dw SudowoodoIcon
 	dw BigmonIcon

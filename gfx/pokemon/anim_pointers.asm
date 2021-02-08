@@ -77,7 +77,7 @@ AnimationPointers:
 	dw GolemAnimation
 	dw PonytaAnimation
 	dw RapidashAnimation
-	dw SlowpokeAnimation
+	dw OtamamonAnimation
 	dw SlowbroAnimation
 	dw HagurumonAnimation
 	dw MagnetonAnimation

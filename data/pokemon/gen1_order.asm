@@ -35,7 +35,7 @@ Pokered_MonIndices:
 	db ARMDILOMON
 	db PATAMON
 	db PIDGEY
-	db SLOWPOKE
+	db OTAMAMON
 	db KADABRA
 	db GRAVELER
 	db CHANSEY
