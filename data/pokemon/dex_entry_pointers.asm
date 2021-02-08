@@ -74,7 +74,7 @@ PokedexDataPointerTable:
 	dw TentacoolPokedexEntry
 	dw TentacruelPokedexEntry
 	dw GotsumonPokedexEntry
-	dw GravelerPokedexEntry
+	dw MonocromonPokedexEntry
 	dw GolemPokedexEntry
 	dw PonytaPokedexEntry
 	dw RapidashPokedexEntry

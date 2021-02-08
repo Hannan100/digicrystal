@@ -93,7 +93,7 @@
 	const TENTACOOL  ; 48
 	const TENTACRUEL ; 49
 	const GOTSUMON    ; 4a
-	const GRAVELER   ; 4b
+	const MONOCROMON   ; 4b
 	const GOLEM      ; 4c
 	const PONYTA     ; 4d
 	const RAPIDASH   ; 4e

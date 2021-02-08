@@ -35,7 +35,7 @@ NewPokedexOrder:
 	db KOKOMON
 	db LOPMON
 	db GOTSUMON
-	db GRAVELER
+	db MONOCROMON
 	db GOLEM
 	db PAGUMON
 	db DEMDEVIMON

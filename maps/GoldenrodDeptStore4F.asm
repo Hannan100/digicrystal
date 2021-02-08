@@ -62,7 +62,7 @@ GoldenrodDeptStore4FGameboyKidText:
 	line "STRIKDRMON, KADWIZARDMON,"
 
 	para "KERAMON and, um,"
-	line "GRAVELER."
+	line "MONOCROMON."
 
 	para "I heard there are"
 	line "others too."

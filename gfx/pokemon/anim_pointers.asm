@@ -73,7 +73,7 @@ AnimationPointers:
 	dw TentacoolAnimation
 	dw TentacruelAnimation
 	dw GotsumonAnimation
-	dw GravelerAnimation
+	dw MonocromonAnimation
 	dw GolemAnimation
 	dw PonytaAnimation
 	dw RapidashAnimation

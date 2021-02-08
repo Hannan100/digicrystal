@@ -113,7 +113,7 @@ KantoGrassWildMons:
 	map_id VICTORY_ROAD
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 34, GRAVELER
+	db 34, MONOCROMON
 	db 32, RHYHORN
 	db 33, ARMDILOMON
 	db 34, DEMDEVIMON
@@ -121,7 +121,7 @@ KantoGrassWildMons:
 	db 35, RHYDON
 	db 35, RHYDON
 	; day
-	db 34, GRAVELER
+	db 34, MONOCROMON
 	db 32, RHYHORN
 	db 33, ARMDILOMON
 	db 34, DEMDEVIMON
@@ -130,12 +130,12 @@ KantoGrassWildMons:
 	db 35, RHYDON
 	; nite
 	db 34, DEMDEVIMON
-	db 34, GRAVELER
+	db 34, MONOCROMON
 	db 32, ARMDILOMON
-	db 36, GRAVELER
-	db 38, GRAVELER
-	db 40, GRAVELER
-	db 40, GRAVELER
+	db 36, MONOCROMON
+	db 38, MONOCROMON
+	db 40, MONOCROMON
+	db 40, MONOCROMON
 
 	map_id TOHJO_FALLS
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite

@@ -80,7 +80,7 @@ PokemonCries::
 	mon_cry CRY_KUNEMON,     $000,  $100 ; TENTACOOL
 	mon_cry CRY_KUNEMON,     $0ee,  $17f ; TENTACRUEL
 	mon_cry CRY_VULPIX,      $0f0,  $090 ; GOTSUMON
-	mon_cry CRY_VULPIX,      $000,  $100 ; GRAVELER
+	mon_cry CRY_VULPIX,      $000,  $100 ; MONOCROMON
 	mon_cry CRY_GOLEM,       $0e0,  $0c0 ; GOLEM
 	mon_cry CRY_WOODMON,  $000,  $100 ; PONYTA
 	mon_cry CRY_WOODMON,  $020,  $140 ; RAPIDASH
@@ -336,7 +336,7 @@ PokemonCries::
 	mon_cry CRY_KUNEMON,       0,  256 ; TENTACOOL
 	mon_cry CRY_KUNEMON,     238,  383 ; TENTACRUEL
 	mon_cry CRY_VULPIX,      240,  144 ; GOTSUMON
-	mon_cry CRY_VULPIX,        0,  256 ; GRAVELER
+	mon_cry CRY_VULPIX,        0,  256 ; MONOCROMON
 	mon_cry CRY_GOLEM,       224,  192 ; GOLEM
 	mon_cry CRY_WOODMON,    0,  256 ; PONYTA
 	mon_cry CRY_WOODMON,   32,  320 ; RAPIDASH

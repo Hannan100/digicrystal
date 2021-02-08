@@ -981,7 +981,7 @@ TentacruelEvosAttacks:
 	db 0 ; no more level-up moves
 
 GotsumonEvosAttacks:
-	db EVOLVE_LEVEL, 25, GRAVELER
+	db EVOLVE_LEVEL, 25, MONOCROMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 6, DEFENSE_CURL
@@ -994,7 +994,7 @@ GotsumonEvosAttacks:
 	db 41, EXPLOSION
 	db 0 ; no more level-up moves
 
-GravelerEvosAttacks:
+MonocromonEvosAttacks:
 	db EVOLVE_TRADE, -1, GOLEM
 	db 0 ; no more evolutions
 	db 1, TACKLE

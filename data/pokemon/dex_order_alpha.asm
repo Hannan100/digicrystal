@@ -76,7 +76,7 @@ AlphabeticalPokedexOrder:
 	db GOLDUCK
 	db GOLEM
 	db LEOMON
-	db GRAVELER
+	db MONOCROMON
 	db NUMEMON
 	db RENAMON
 	db GYARADOS

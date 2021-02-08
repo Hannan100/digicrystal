@@ -75,7 +75,7 @@ EvosAttacksPointers::
 	dw TentacoolEvosAttacks
 	dw TentacruelEvosAttacks
 	dw GotsumonEvosAttacks
-	dw GravelerEvosAttacks
+	dw MonocromonEvosAttacks
 	dw GolemEvosAttacks
 	dw PonytaEvosAttacks
 	dw RapidashEvosAttacks

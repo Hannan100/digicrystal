@@ -37,7 +37,7 @@ Pokered_MonIndices:
 	db PIDGEY
 	db OTAMAMON
 	db KADWIZARDMON
-	db GRAVELER
+	db MONOCROMON
 	db CHANSEY
 	db STRIKDRMON
 	db MR__MIME

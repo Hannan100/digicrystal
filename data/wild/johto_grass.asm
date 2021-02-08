@@ -626,7 +626,7 @@ JohtoGrassWildMons:
 	map_id MOUNT_MORTAR_2F_INSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 31, GRAVELER
+	db 31, MONOCROMON
 	db 32, STRIKDRMON
 	db 31, GOTSUMON
 	db 30, GABUMON
@@ -634,7 +634,7 @@ JohtoGrassWildMons:
 	db 30, DEMDEVIMON
 	db 30, DEMDEVIMON
 	; day
-	db 31, GRAVELER
+	db 31, MONOCROMON
 	db 32, STRIKDRMON
 	db 31, GOTSUMON
 	db 30, GABUMON
@@ -642,7 +642,7 @@ JohtoGrassWildMons:
 	db 30, DEMDEVIMON
 	db 30, DEMDEVIMON
 	; nite
-	db 31, GRAVELER
+	db 31, MONOCROMON
 	db 31, GOTSUMON
 	db 30, GABUMON
 	db 30, DEMDEVIMON
@@ -1031,7 +1031,7 @@ JohtoGrassWildMons:
 	map_id SILVER_CAVE_ROOM_1
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 43, GRAVELER
+	db 43, MONOCROMON
 	db 44, URSARING
 	db 42, ARMDILOMON
 	db 45, MAGMAR
@@ -1039,7 +1039,7 @@ JohtoGrassWildMons:
 	db 20, LARVITAR
 	db 15, LARVITAR
 	; day
-	db 43, GRAVELER
+	db 43, MONOCROMON
 	db 44, URSARING
 	db 42, ARMDILOMON
 	db 45, MAGMAR
@@ -1047,7 +1047,7 @@ JohtoGrassWildMons:
 	db 20, LARVITAR
 	db 15, LARVITAR
 	; nite
-	db 43, GRAVELER
+	db 43, MONOCROMON
 	db 44, DEMDEVIMON
 	db 42, ARMDILOMON
 	db 42, DEMDEVIMON
@@ -1087,7 +1087,7 @@ JohtoGrassWildMons:
 	; morn
 	db 51, DEMDEVIMON
 	db 48, ARMDILOMON
-	db 48, GRAVELER
+	db 48, MONOCROMON
 	db 50, URSARING
 	db 20, LARVITAR
 	db 15, LARVITAR
@@ -1095,7 +1095,7 @@ JohtoGrassWildMons:
 	; day
 	db 51, DEMDEVIMON
 	db 48, ARMDILOMON
-	db 48, GRAVELER
+	db 48, MONOCROMON
 	db 50, URSARING
 	db 20, LARVITAR
 	db 15, LARVITAR
@@ -1103,7 +1103,7 @@ JohtoGrassWildMons:
 	; nite
 	db 51, DEMDEVIMON
 	db 48, ARMDILOMON
-	db 48, GRAVELER
+	db 48, MONOCROMON
 	db 49, DEMDEVIMON
 	db 45, GOLDUCK
 	db 53, DEMDEVIMON
@@ -1168,7 +1168,7 @@ JohtoGrassWildMons:
 	; morn
 	db 23, GOTSUMON
 	db 23, PAGUMON
-	db 25, GRAVELER
+	db 25, MONOCROMON
 	db 25, URSARING
 	db 20, IMPMON
 	db 23, DEMDEVIMON
@@ -1176,7 +1176,7 @@ JohtoGrassWildMons:
 	; day
 	db 23, GOTSUMON
 	db 23, PAGUMON
-	db 25, GRAVELER
+	db 25, MONOCROMON
 	db 25, URSARING
 	db 30, URSARING
 	db 23, DEMDEVIMON
@@ -1184,7 +1184,7 @@ JohtoGrassWildMons:
 	; nite
 	db 23, GOTSUMON
 	db 23, PAGUMON
-	db 25, GRAVELER
+	db 25, MONOCROMON
 	db 20, WOBBUFFET
 	db 25, WOBBUFFET
 	db 23, DEMDEVIMON
@@ -1572,7 +1572,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, GOTSUMON
-	db 23, GRAVELER
+	db 23, MONOCROMON
 	db 24, GLIGAR
 	db 25, DONPHAN
 	db 20, PHANPY
@@ -1580,7 +1580,7 @@ JohtoGrassWildMons:
 	db 27, SKARMORY
 	; day
 	db 23, GOTSUMON
-	db 23, GRAVELER
+	db 23, MONOCROMON
 	db 24, GLIGAR
 	db 25, DONPHAN
 	db 30, DONPHAN
@@ -1588,12 +1588,12 @@ JohtoGrassWildMons:
 	db 27, SKARMORY
 	; nite
 	db 23, GOTSUMON
-	db 23, GRAVELER
+	db 23, MONOCROMON
 	db 24, GLIGAR
-	db 25, GRAVELER
-	db 27, GRAVELER
-	db 27, GRAVELER
-	db 27, GRAVELER
+	db 25, MONOCROMON
+	db 27, MONOCROMON
+	db 27, MONOCROMON
+	db 27, MONOCROMON
 
 	map_id ROUTE_46
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
