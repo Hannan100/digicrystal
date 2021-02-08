@@ -167,7 +167,7 @@ PokemonNames::
 	db "TERRIERMON@@@@" ; !Fanbeemon
 	db "KOKOMON@@" ; !Tentomon
 	db "LOPMON@@@" ; !Kbuterimon
-	db "CROBAT@@@@"
+	db "DEVIMON@@@@"
 	db "CHINCHOU@@"
 	db "LANTURN@@@"
 	db "PICHU@@@@@"

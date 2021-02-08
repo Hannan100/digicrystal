@@ -168,7 +168,7 @@ PokedexDataPointerTable:
 	dw TerriermonPokedexEntry
 	dw KokomonPokedexEntry
 	dw LopmonPokedexEntry
-	dw CrobatPokedexEntry
+	dw DevimonPokedexEntry
 	dw ChinchouPokedexEntry
 	dw LanturnPokedexEntry
 	dw PichuPokedexEntry

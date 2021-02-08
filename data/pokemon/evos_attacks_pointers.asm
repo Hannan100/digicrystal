@@ -169,7 +169,7 @@ EvosAttacksPointers::
 	dw TerriermonEvosAttacks
 	dw KokomonEvosAttacks
 	dw LopmonEvosAttacks
-	dw CrobatEvosAttacks
+	dw DevimonEvosAttacks
 	dw ChinchouEvosAttacks
 	dw LanturnEvosAttacks
 	dw PichuEvosAttacks

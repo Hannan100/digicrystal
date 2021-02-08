@@ -167,7 +167,7 @@ AnimationPointers:
 	dw TerriermonAnimation
 	dw KokomonAnimation
 	dw LopmonAnimation
-	dw CrobatAnimation
+	dw DevimonAnimation
 	dw ChinchouAnimation
 	dw LanturnAnimation
 	dw PichuAnimation

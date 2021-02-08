@@ -174,7 +174,7 @@ PokemonCries::
 	mon_cry CRY_GUMMYMON,     -$096,  $138 ; TERRIERMON
 	mon_cry CRY_KOKOMON,    $011,  $200 ; KOKOMON
 	mon_cry CRY_KOKOMON,   -$0ae,  $1e2 ; LOPMON
-	mon_cry CRY_SQUIRTLE,   -$010,  $140 ; CROBAT
+	mon_cry CRY_SQUIRTLE,   -$010,  $140 ; DEVIMON
 	mon_cry CRY_KOROMON,   $3c9,  $140 ; CHINCHOU
 	mon_cry CRY_KOROMON,   $2d0,  $110 ; LANTURN
 	mon_cry CRY_PICHU,       $000,  $140 ; PICHU
@@ -430,7 +430,7 @@ PokemonCries::
 	mon_cry CRY_GUMMYMON,     -150,  312 ; TERRIERMON
 	mon_cry CRY_KOKOMON,     17,  512 ; KOKOMON
 	mon_cry CRY_KOKOMON,   -174,  482 ; LOPMON
-	mon_cry CRY_SQUIRTLE,    -16,  320 ; CROBAT
+	mon_cry CRY_SQUIRTLE,    -16,  320 ; DEVIMON
 	mon_cry CRY_KOROMON,   969,  320 ; CHINCHOU
 	mon_cry CRY_KOROMON,   720,  272 ; LANTURN
 	mon_cry CRY_PICHU,         0,  320 ; PICHU

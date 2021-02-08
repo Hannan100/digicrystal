@@ -32,7 +32,7 @@ AlphabeticalPokedexOrder:
 	db CLEFFA
 	db CLOYSTER
 	db CORSOLA
-	db CROBAT
+	db DEVIMON
 	db GOMAMON
 	db CUBONE
 	db KOROMON

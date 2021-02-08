@@ -545,7 +545,7 @@ PagumonEvosAttacks:
 	db 0 ; no more level-up moves
 
 DemdevimonEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, CROBAT
+	db EVOLVE_HAPPINESS, TR_ANYTIME, DEVIMON
 	db 0 ; no more evolutions
 	db 1, SCREECH
 	db 1, LEECH_LIFE
@@ -2306,7 +2306,7 @@ LopmonEvosAttacks:
 	db 63, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-CrobatEvosAttacks:
+DevimonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCREECH
 	db 1, LEECH_LIFE

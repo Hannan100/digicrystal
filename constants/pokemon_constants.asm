@@ -188,7 +188,7 @@ JOHTO_POKEMON EQU const_value
 	const TERRIERMON     ; a6
 	const KOKOMON   ; a7
 	const LOPMON    ; a8
-	const CROBAT     ; a9
+	const DEVIMON     ; a9
 	const CHINCHOU   ; aa
 	const LANTURN    ; ab
 	const PICHU      ; ac

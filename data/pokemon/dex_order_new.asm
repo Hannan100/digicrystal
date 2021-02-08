@@ -39,7 +39,7 @@ NewPokedexOrder:
 	db GOLEM
 	db PAGUMON
 	db DEMDEVIMON
-	db CROBAT
+	db DEVIMON
 	db CLEFFA
 	db CLEFAIRY
 	db CLEFABLE

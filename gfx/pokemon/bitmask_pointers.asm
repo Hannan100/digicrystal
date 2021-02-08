@@ -167,7 +167,7 @@ BitmasksPointers:
 	dw TerriermonBitmasks
 	dw KokomonBitmasks
 	dw LopmonBitmasks
-	dw CrobatBitmasks
+	dw DevimonBitmasks
 	dw ChinchouBitmasks
 	dw LanturnBitmasks
 	dw PichuBitmasks

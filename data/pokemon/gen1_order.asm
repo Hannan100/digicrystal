@@ -207,7 +207,7 @@ Pokered_MonIndices:
 	db TERRIERMON
 	db KOKOMON
 	db LOPMON
-	db CROBAT
+	db DEVIMON
 	db CHINCHOU
 	db LANTURN
 	db PICHU
