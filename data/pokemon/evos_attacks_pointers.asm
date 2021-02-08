@@ -59,7 +59,7 @@ EvosAttacksPointers::
 	dw MankeyEvosAttacks
 	dw PrimeapeEvosAttacks
 	dw RenamonEvosAttacks
-	dw ArcanineEvosAttacks
+	dw KyubimonEvosAttacks
 	dw BetamonEvosAttacks
 	dw PoliwhirlEvosAttacks
 	dw PoliwrathEvosAttacks

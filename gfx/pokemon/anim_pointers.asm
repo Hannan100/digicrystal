@@ -57,7 +57,7 @@ AnimationPointers:
 	dw MankeyAnimation
 	dw PrimeapeAnimation
 	dw RenamonAnimation
-	dw ArcanineAnimation
+	dw KyubimonAnimation
 	dw BetamonAnimation
 	dw PoliwhirlAnimation
 	dw PoliwrathAnimation

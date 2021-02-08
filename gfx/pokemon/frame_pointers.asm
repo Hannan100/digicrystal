@@ -57,7 +57,7 @@ FramesPointers:
 	dw MankeyFrames
 	dw PrimeapeFrames
 	dw RenamonFrames
-	dw ArcanineFrames
+	dw KyubimonFrames
 	dw BetamonFrames
 	dw PoliwhirlFrames
 	dw PoliwrathFrames

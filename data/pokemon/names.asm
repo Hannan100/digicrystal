@@ -57,7 +57,7 @@ PokemonNames::
 	db "MANKEY@@@@"
 	db "PRIMEAPE@@"
 	db "RENAMON@"
-	db "ARCANINE@@"
+	db "KYUBIMON@@"
 	db "BETAMON@@@"
 	db "POLIWHIRL@"
 	db "POLIWRATH@"

@@ -59,7 +59,7 @@ MonMenuIcons:
 	db ICON_FIGHTER     ; MANKEY
 	db ICON_FIGHTER     ; PRIMEAPE
 	db ICON_FOX         ; RENAMON
-	db ICON_FOX         ; ARCANINE
+	db ICON_FOX         ; KYUBIMON
 	db ICON_BETAMON     ; BETAMON
 	db ICON_BETAMON     ; POLIWHIRL
 	db ICON_BETAMON     ; POLIWRATH

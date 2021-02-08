@@ -64,7 +64,7 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,   $0dd,  $0e0 ; MANKEY
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; PRIMEAPE
 	mon_cry CRY_RENAMON,   $020,  $0c0 ; RENAMON
-	mon_cry CRY_MOTIMON,      $000,  $100 ; ARCANINE
+	mon_cry CRY_MOTIMON,      $000,  $100 ; KYUBIMON
 	mon_cry CRY_PIDGEY,      $0ff,  $17f ; BETAMON
 	mon_cry CRY_PIDGEY,      $077,  $0e0 ; POLIWHIRL
 	mon_cry CRY_PIDGEY,      $000,  $17f ; POLIWRATH
@@ -320,7 +320,7 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,   221,  224 ; MANKEY
 	mon_cry CRY_NIDOQUEEN,   175,  192 ; PRIMEAPE
 	mon_cry CRY_RENAMON,    32,  192 ; RENAMON
-	mon_cry CRY_MOTIMON,        0,  256 ; ARCANINE
+	mon_cry CRY_MOTIMON,        0,  256 ; KYUBIMON
 	mon_cry CRY_PIDGEY,      255,  383 ; BETAMON
 	mon_cry CRY_PIDGEY,      119,  224 ; POLIWHIRL
 	mon_cry CRY_PIDGEY,        0,  383 ; POLIWRATH

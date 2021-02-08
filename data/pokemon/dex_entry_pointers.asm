@@ -58,7 +58,7 @@ PokedexDataPointerTable:
 	dw MankeyPokedexEntry
 	dw PrimeapePokedexEntry
 	dw RenamonPokedexEntry
-	dw ArcaninePokedexEntry
+	dw KyubimonPokedexEntry
 	dw BetamonPokedexEntry
 	dw PoliwhirlPokedexEntry
 	dw PoliwrathPokedexEntry

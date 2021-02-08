@@ -770,7 +770,7 @@ PrimeapeEvosAttacks:
 	db 0 ; no more level-up moves
 
 RenamonEvosAttacks:
-	db EVOLVE_ITEM, FIRE_STONE, ARCANINE
+	db EVOLVE_ITEM, FIRE_STONE, KYUBIMON
 	db 0 ; no more evolutions
 	db 1, BITE
 	db 1, ROAR
@@ -782,7 +782,7 @@ RenamonEvosAttacks:
 	db 50, FLAMETHROWER
 	db 0 ; no more level-up moves
 
-ArcanineEvosAttacks:
+KyubimonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ROAR
 	db 1, LEER

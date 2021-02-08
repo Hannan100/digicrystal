@@ -7,7 +7,7 @@ AlphabeticalPokedexOrder:
 	db ALAKAZAM
 	db AMPHAROS
 	db ARBOK
-	db ARCANINE
+	db KYUBIMON
 	db LOPMON
 	db ARTICUNO
 	db AZUMARILL

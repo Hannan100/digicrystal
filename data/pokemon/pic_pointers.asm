@@ -118,8 +118,8 @@ PokemonPicPointers::
 	dba_pic PrimeapeBackpic
 	dba_pic RenamonFrontpic
 	dba_pic RenamonBackpic
-	dba_pic ArcanineFrontpic
-	dba_pic ArcanineBackpic
+	dba_pic KyubimonFrontpic
+	dba_pic KyubimonBackpic
 	dba_pic BetamonFrontpic
 	dba_pic BetamonBackpic
 	dba_pic PoliwhirlFrontpic

@@ -128,7 +128,7 @@ NewPokedexOrder:
 	db VULPIX
 	db NINETALES
 	db RENAMON
-	db ARCANINE
+	db KYUBIMON
 	db STANTLER
 	db MARILL
 	db AZUMARILL
