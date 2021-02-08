@@ -114,6 +114,8 @@ if NEW_FRONT_SPRITE is not None:
         shutil.copyfile(NEW_BACK_SPRITE, BACK_SPRITE_PATH)
     else:
         shutil.copyfile(NEW_FRONT_SPRITE, BACK_SPRITE_PATH)
+else:
+    print("No sprite provided, skipping sprite replacement")
 
 
 for filename in FILES_TO_UPDATE:
