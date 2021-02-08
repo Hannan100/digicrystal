@@ -111,7 +111,7 @@ NewPokedexOrder:
 	db KUNEMON
 	db VENOMOTH
 	db KUWAGAMON
-	db SCIZOR
+	db HUNYBEEMON
 	db PINSIR
 	db HERACROSS
 	db KOFFING

@@ -210,7 +210,7 @@ AnimationIdlePointers:
 	dw ElecmonAnimationIdle
 	dw GranbullAnimationIdle
 	dw QwilfishAnimationIdle
-	dw ScizorAnimationIdle
+	dw HunybeemonAnimationIdle
 	dw ShuckleAnimationIdle
 	dw HeracrossAnimationIdle
 	dw SneaselAnimationIdle

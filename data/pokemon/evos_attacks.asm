@@ -1670,7 +1670,7 @@ MrMimeEvosAttacks:
 	db 0 ; no more level-up moves
 
 KuwagamonEvosAttacks:
-	db EVOLVE_TRADE, METAL_COAT, SCIZOR
+	db EVOLVE_TRADE, METAL_COAT, HUNYBEEMON
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 1, LEER
@@ -2838,7 +2838,7 @@ QwilfishEvosAttacks:
 	db 46, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-ScizorEvosAttacks:
+HunybeemonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 1, LEER

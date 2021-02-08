@@ -188,7 +188,7 @@ AlphabeticalPokedexOrder:
 	db RHYHORN
 	db SANDSHREW
 	db SANDSLASH
-	db SCIZOR
+	db HUNYBEEMON
 	db KUWAGAMON
 	db SEADRA
 	db SEAKING

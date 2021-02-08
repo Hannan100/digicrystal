@@ -212,7 +212,7 @@ EvosAttacksPointers::
 	dw ElecmonEvosAttacks
 	dw GranbullEvosAttacks
 	dw QwilfishEvosAttacks
-	dw ScizorEvosAttacks
+	dw HunybeemonEvosAttacks
 	dw ShuckleEvosAttacks
 	dw HeracrossEvosAttacks
 	dw SneaselEvosAttacks

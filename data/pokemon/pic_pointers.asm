@@ -427,8 +427,8 @@ PokemonPicPointers::
 	dba_pic GranbullBackpic
 	dba_pic QwilfishFrontpic
 	dba_pic QwilfishBackpic
-	dba_pic ScizorFrontpic
-	dba_pic ScizorBackpic
+	dba_pic HunybeemonFrontpic
+	dba_pic HunybeemonBackpic
 	dba_pic ShuckleFrontpic
 	dba_pic ShuckleBackpic
 	dba_pic HeracrossFrontpic

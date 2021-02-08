@@ -210,7 +210,7 @@ PokemonNames::
 	db "ELECMON@@"
 	db "GRANBULL@@"
 	db "QWILFISH@@"
-	db "SCIZOR@@@@"
+	db "HUNYBEEMON@@@@"
 	db "SHUCKLE@@@"
 	db "HERACROSS@"
 	db "SNEASEL@@@"

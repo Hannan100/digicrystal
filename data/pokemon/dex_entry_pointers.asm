@@ -211,7 +211,7 @@ PokedexDataPointerTable:
 	dw ElecmonPokedexEntry
 	dw GranbullPokedexEntry
 	dw QwilfishPokedexEntry
-	dw ScizorPokedexEntry
+	dw HunybeemonPokedexEntry
 	dw ShucklePokedexEntry
 	dw HeracrossPokedexEntry
 	dw SneaselPokedexEntry

@@ -210,7 +210,7 @@ AnimationPointers:
 	dw ElecmonAnimation
 	dw GranbullAnimation
 	dw QwilfishAnimation
-	dw ScizorAnimation
+	dw HunybeemonAnimation
 	dw ShuckleAnimation
 	dw HeracrossAnimation
 	dw SneaselAnimation

@@ -210,7 +210,7 @@ BitmasksPointers:
 	dw ElecmonBitmasks
 	dw GranbullBitmasks
 	dw QwilfishBitmasks
-	dw ScizorBitmasks
+	dw HunybeemonBitmasks
 	dw ShuckleBitmasks
 	dw HeracrossBitmasks
 	dw SneaselBitmasks
