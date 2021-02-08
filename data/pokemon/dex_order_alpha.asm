@@ -64,7 +64,7 @@ AlphabeticalPokedexOrder:
 	db RAIDRAMON
 	db FLAREON
 	db FORRETRESS
-	db FURRET
+	db SALAMON
 	db TSUMEMON
 	db GENGAR
 	db GEODUDE

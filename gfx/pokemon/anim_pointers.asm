@@ -160,7 +160,7 @@ AnimationPointers:
 	dw GomamonAnimation
 	dw FeraligatrAnimation
 	dw NyaromonAnimation
-	dw FurretAnimation
+	dw SalamonAnimation
 	dw PoromonAnimation
 	dw HawkmonAnimation
 	dw GummymonAnimation

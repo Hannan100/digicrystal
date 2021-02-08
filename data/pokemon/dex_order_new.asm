@@ -20,7 +20,7 @@ NewPokedexOrder:
 	db TSUNOMON
 	db GABUMON
 	db NYAROMON
-	db FURRET
+	db SALAMON
 	db PICHU
 	db PIKACHU
 	db RAICHU

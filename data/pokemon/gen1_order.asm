@@ -200,7 +200,7 @@ Pokered_MonIndices:
 	db GOMAMON
 	db FERALIGATR
 	db NYAROMON
-	db FURRET
+	db SALAMON
 	db POROMON
 	db HAWKMON
 	db GUMMYMON

@@ -171,7 +171,7 @@ KantoGrassWildMons:
 	db 2, TSUNOMON
 	db 3, NYAROMON
 	db 3, PIDGEY
-	db 6, FURRET
+	db 6, SALAMON
 	db 4, PIDGEY
 	db 4, PIDGEY
 	; day
@@ -179,7 +179,7 @@ KantoGrassWildMons:
 	db 2, TSUNOMON
 	db 3, NYAROMON
 	db 3, PIDGEY
-	db 6, FURRET
+	db 6, SALAMON
 	db 4, PIDGEY
 	db 4, PIDGEY
 	; nite

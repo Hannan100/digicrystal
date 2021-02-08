@@ -1520,18 +1520,18 @@ JohtoGrassWildMons:
 	db 15, NYAROMON
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
-	db 15, FURRET
+	db 15, SALAMON
 	db 17, GABUMON
-	db 17, FURRET
-	db 17, FURRET
+	db 17, SALAMON
+	db 17, SALAMON
 	; day
 	db 15, NYAROMON
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
-	db 15, FURRET
+	db 15, SALAMON
 	db 17, GABUMON
-	db 17, FURRET
-	db 17, FURRET
+	db 17, SALAMON
+	db 17, SALAMON
 	; nite
 	db 15, KUNEMON
 	db 16, HAWKMON

@@ -167,7 +167,7 @@ PokemonCries::
 	mon_cry CRY_BUKAMON,    $440,  $110 ; GOMAMON
 	mon_cry CRY_BUKAMON,    $3fc,  $180 ; FERALIGATR
 	mon_cry CRY_NYAROMON,     $08a,  $0b8 ; NYAROMON
-	mon_cry CRY_NYAROMON,     $06b,  $102 ; FURRET
+	mon_cry CRY_NYAROMON,     $06b,  $102 ; SALAMON
 	mon_cry CRY_POROMON,    $091,  $0d8 ; POROMON
 	mon_cry CRY_POROMON,    $000,  $1a0 ; HAWKMON
 	mon_cry CRY_GUMMYMON,      $000,  $0de ; GUMMYMON
@@ -423,7 +423,7 @@ PokemonCries::
 	mon_cry CRY_BUKAMON,   1088,  272 ; CROCONAW
 	mon_cry CRY_BUKAMON,   1020,  384 ; FERALIGATR
 	mon_cry CRY_NYAROMON,     138,  184 ; NYAROMON
-	mon_cry CRY_NYAROMON,     107,  258 ; FURRET
+	mon_cry CRY_NYAROMON,     107,  258 ; SALAMON
 	mon_cry CRY_POROMON,    145,  216 ; POROMON
 	mon_cry CRY_POROMON,      0,  416 ; HAWKMON
 	mon_cry CRY_GUMMYMON,        0,  222 ; GUMMYMON

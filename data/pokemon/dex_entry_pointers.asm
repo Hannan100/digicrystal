@@ -161,7 +161,7 @@ PokedexDataPointerTable:
 	dw GomamonPokedexEntry
 	dw FeraligatrPokedexEntry
 	dw NyaromonPokedexEntry
-	dw FurretPokedexEntry
+	dw SalamonPokedexEntry
 	dw PoromonPokedexEntry
 	dw HawkmonPokedexEntry
 	dw GummymonPokedexEntry

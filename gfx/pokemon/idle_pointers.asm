@@ -160,7 +160,7 @@ AnimationIdlePointers:
 	dw GomamonAnimationIdle
 	dw FeraligatrAnimationIdle
 	dw NyaromonAnimationIdle
-	dw FurretAnimationIdle
+	dw SalamonAnimationIdle
 	dw PoromonAnimationIdle
 	dw HawkmonAnimationIdle
 	dw GummymonAnimationIdle

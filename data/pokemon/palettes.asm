@@ -360,8 +360,8 @@ INCBIN "gfx/pokemon/feraligatr/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/feraligatr/shiny.pal"
 INCBIN "gfx/pokemon/nyaromon/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/nyaromon/shiny.pal"
-INCBIN "gfx/pokemon/furret/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/furret/shiny.pal"
+INCBIN "gfx/pokemon/salamon/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/salamon/shiny.pal"
 <<<<<<< HEAD
 INCLUDE "gfx/pokemon/poromon/normal.pal"
 INCLUDE "gfx/pokemon/poromon/shiny.pal"

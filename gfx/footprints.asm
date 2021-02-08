@@ -371,7 +371,7 @@ INCBIN "gfx/footprints/gomamon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/feraligatr.1bpp", footprint_bottom
 ; 161-168 top halves
 INCBIN "gfx/footprints/nyaromon.1bpp",    footprint_top
-INCBIN "gfx/footprints/furret.1bpp",     footprint_top
+INCBIN "gfx/footprints/salamon.1bpp",     footprint_top
 INCBIN "gfx/footprints/poromon.1bpp",   footprint_top
 INCBIN "gfx/footprints/hawkmon.1bpp",    footprint_top
 INCBIN "gfx/footprints/gummymon.1bpp",     footprint_top
@@ -380,7 +380,7 @@ INCBIN "gfx/footprints/kokomon.1bpp",   footprint_top
 INCBIN "gfx/footprints/lopmon.1bpp",    footprint_top
 ; 161-168 bottom halves
 INCBIN "gfx/footprints/nyaromon.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/furret.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/salamon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/poromon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/hawkmon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/gummymon.1bpp",     footprint_bottom

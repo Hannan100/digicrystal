@@ -160,7 +160,7 @@ FramesPointers:
 	dw GomamonFrames
 	dw FeraligatrFrames
 	dw NyaromonFrames
-	dw FurretFrames
+	dw SalamonFrames
 	dw PoromonFrames
 	dw HawkmonFrames
 	dw GummymonFrames

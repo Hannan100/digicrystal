@@ -181,7 +181,7 @@ JOHTO_POKEMON EQU const_value
 	const GOMAMON   ; 9f
 	const FERALIGATR ; a0
 	const NYAROMON    ; a1
-	const FURRET     ; a2
+	const SALAMON     ; a2
 	const POROMON   ; a3
 	const HAWKMON    ; a4
 	const GUMMYMON     ; a5

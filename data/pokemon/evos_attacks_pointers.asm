@@ -162,7 +162,7 @@ EvosAttacksPointers::
 	dw GomamonEvosAttacks
 	dw FeraligatrEvosAttacks
 	dw NyaromonEvosAttacks
-	dw FurretEvosAttacks
+	dw SalamonEvosAttacks
 	dw PoromonEvosAttacks
 	dw HawkmonEvosAttacks
 	dw GummymonEvosAttacks

@@ -162,7 +162,7 @@ MonMenuIcons:
 	db ICON_MONSTER     ; GOMAMON
 	db ICON_MONSTER     ; FERALIGATR
 	db ICON_FOX         ; NYAROMON
-	db ICON_FOX         ; FURRET
+	db ICON_FOX         ; SALAMON
 	db ICON_BIRD        ; POROMON
 	db ICON_BIRD        ; HAWKMON
 	db ICON_BUG         ; GUMMYMON

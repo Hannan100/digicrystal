@@ -160,7 +160,7 @@ PokemonNames::
 	db "GOMAMON@@@" ; Gomamon
 	db "FERALIGATR" ; !Ikakumon
 	db "NYAROMON@@@" ; !Gummymon
-	db "FURRET@@@@" ; !Terriermon
+	db "SALAMON@@@@" ; !Terriermon
 	db "POROMON@@" ; !Poromon
 	db "HAWKMON@@@" ; !Hawkmon
 	db "GUMMYMON@@@@" ; !Puroromon
