@@ -15,7 +15,7 @@ INCBIN "gfx/footprints/punimon.1bpp",    footprint_top
 INCBIN "gfx/footprints/botamon.1bpp",   footprint_top
 INCBIN "gfx/footprints/guilmon.1bpp", footprint_top
 INCBIN "gfx/footprints/charmeleon.1bpp", footprint_top
-INCBIN "gfx/footprints/charizard.1bpp",  footprint_top
+INCBIN "gfx/footprints/tyrannomon.1bpp",  footprint_top
 INCBIN "gfx/footprints/squirtle.1bpp",   footprint_top
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_top
 ; 001-008 bottom halves
@@ -24,7 +24,7 @@ INCBIN "gfx/footprints/punimon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/botamon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/guilmon.1bpp", footprint_bottom
 INCBIN "gfx/footprints/charmeleon.1bpp", footprint_bottom
-INCBIN "gfx/footprints/charizard.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/tyrannomon.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/squirtle.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_bottom
 ; 009-016 top halves

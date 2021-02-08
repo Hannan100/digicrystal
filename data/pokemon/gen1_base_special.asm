@@ -6,7 +6,7 @@ KantoMonSpecials:
 	db 100 ; BOTAMON
 	db  50 ; GUILMON
 	db  65 ; CHARMELEON
-	db  85 ; CHARIZARD
+	db  85 ; TYRANNOMON
 	db  50 ; SQUIRTLE
 	db  65 ; WARTORTLE
 	db  85 ; BLASTOISE

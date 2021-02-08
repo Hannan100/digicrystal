@@ -4,7 +4,7 @@ AnimationIdlePointers:
 	dw BotamonAnimationIdle
 	dw GuilmonAnimationIdle
 	dw CharmeleonAnimationIdle
-	dw CharizardAnimationIdle
+	dw TyrannomonAnimationIdle
 	dw SquirtleAnimationIdle
 	dw WartortleAnimationIdle
 	dw BlastoiseAnimationIdle

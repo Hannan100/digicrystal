@@ -4,7 +4,7 @@ PokemonNames::
 	db "BOTAMON@@"
 	db "GUILMON"
 	db "CHARMELEON"
-	db "CHARIZARD@"
+	db "TYRANNOMON@"
 	db "SQUIRTLE@@"
 	db "WARTORTLE@"
 	db "BLASTOISE@"

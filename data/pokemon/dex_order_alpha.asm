@@ -22,7 +22,7 @@ AlphabeticalPokedexOrder:
 	db MINOMON
 	db CELEBI
 	db CHANSEY
-	db CHARIZARD
+	db TYRANNOMON
 	db GUILMON
 	db CHARMELEON
 	db TANEMON

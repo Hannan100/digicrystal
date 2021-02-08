@@ -4,7 +4,7 @@ FramesPointers:
 	dw BotamonFrames
 	dw GuilmonFrames
 	dw CharmeleonFrames
-	dw CharizardFrames
+	dw TyrannomonFrames
 	dw SquirtleFrames
 	dw WartortleFrames
 	dw BlastoiseFrames

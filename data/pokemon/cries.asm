@@ -11,7 +11,7 @@ PokemonCries::
 	mon_cry CRY_NYOKOMON,   $000,  $140 ; BOTAMON
 	mon_cry CRY_GUILMON,  $060,  $0c0 ; GUILMON
 	mon_cry CRY_GUILMON,  $020,  $0c0 ; CHARMELEON
-	mon_cry CRY_GUILMON,  $000,  $100 ; CHARIZARD
+	mon_cry CRY_GUILMON,  $000,  $100 ; TYRANNOMON
 	mon_cry CRY_SQUIRTLE,    $060,  $0c0 ; SQUIRTLE
 	mon_cry CRY_SQUIRTLE,    $020,  $0c0 ; WARTORTLE
 	mon_cry CRY_BLASTOISE,   $000,  $100 ; BLASTOISE
@@ -267,7 +267,7 @@ PokemonCries::
 	mon_cry CRY_NYOKOMON,     0,  320 ; BOTAMON
 	mon_cry CRY_GUILMON,   96,  192 ; GUILMON
 	mon_cry CRY_GUILMON,   32,  192 ; CHARMELEON
-	mon_cry CRY_GUILMON,    0,  256 ; CHARIZARD
+	mon_cry CRY_GUILMON,    0,  256 ; TYRANNOMON
 	mon_cry CRY_SQUIRTLE,     96,  192 ; SQUIRTLE
 	mon_cry CRY_SQUIRTLE,     32,  192 ; WARTORTLE
 	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE

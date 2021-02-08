@@ -6,7 +6,7 @@ EvosAttacksPointers::
 	dw BotamonEvosAttacks
 	dw GuilmonEvosAttacks
 	dw CharmeleonEvosAttacks
-	dw CharizardEvosAttacks
+	dw TyrannomonEvosAttacks
 	dw SquirtleEvosAttacks
 	dw WartortleEvosAttacks
 	dw BlastoiseEvosAttacks

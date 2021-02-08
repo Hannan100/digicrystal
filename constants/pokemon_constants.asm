@@ -24,7 +24,7 @@
 	const BOTAMON   ; 03
 	const GUILMON ; 04
 	const CHARMELEON ; 05
-	const CHARIZARD  ; 06
+	const TYRANNOMON  ; 06
 	const SQUIRTLE   ; 07
 	const WARTORTLE  ; 08
 	const BLASTOISE  ; 09

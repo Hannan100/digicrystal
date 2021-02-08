@@ -4,7 +4,7 @@ AnimationPointers:
 	dw BotamonAnimation
 	dw GuilmonAnimation
 	dw CharmeleonAnimation
-	dw CharizardAnimation
+	dw TyrannomonAnimation
 	dw SquirtleAnimation
 	dw WartortleAnimation
 	dw BlastoiseAnimation
