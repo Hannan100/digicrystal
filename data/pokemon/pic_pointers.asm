@@ -413,8 +413,8 @@ PokemonPicPointers::
 	dba_pic GirafarigBackpic
 	dba_pic FanbeemonFrontpic
 	dba_pic FanbeemonBackpic
-	dba_pic ForretressFrontpic
-	dba_pic ForretressBackpic
+	dba_pic WaspmonFrontpic
+	dba_pic WaspmonBackpic
 	dba_pic KudamonFrontpic
 	dba_pic KudamonBackpic
 	dba_pic GligarFrontpic

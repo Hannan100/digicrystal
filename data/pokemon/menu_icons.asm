@@ -205,7 +205,7 @@ MonMenuIcons:
 	db ICON_GHOST       ; WOBBUFFET
 	db ICON_EQUINE      ; GIRAFARIG
 	db ICON_BUG         ; FANBEEMON
-	db ICON_BUG         ; FORRETRESS
+	db ICON_BUG         ; WASPMON
 	db ICON_SERPENT     ; KUDAMON
 	db ICON_BUG         ; GLIGAR
 	db ICON_SERPENT     ; STEELIX

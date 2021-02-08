@@ -2735,7 +2735,7 @@ GirafarigEvosAttacks:
 	db 0 ; no more level-up moves
 
 FanbeemonEvosAttacks:
-	db EVOLVE_LEVEL, 31, FORRETRESS
+	db EVOLVE_LEVEL, 31, WASPMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, PROTECT
@@ -2748,7 +2748,7 @@ FanbeemonEvosAttacks:
 	db 50, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
-ForretressEvosAttacks:
+WaspmonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, PROTECT

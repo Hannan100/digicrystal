@@ -203,7 +203,7 @@ PokemonNames::
 	db "WOBBUFFET@" ; !Flybeemon
 	db "GIRAFARIG@" ; !Orcamon
 	db "FANBEEMON@@@@" ; !Moosemon
-	db "FORRETRESS" ; !Harpymon
+	db "WASPMON" ; !Harpymon
 	db "KUDAMON@" ; !Toucanmon
 	db "GLIGAR@@@@" ; !Peacockmon
 	db "STEELIX@@@"

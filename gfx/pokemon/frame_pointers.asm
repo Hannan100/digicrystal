@@ -203,7 +203,7 @@ FramesPointers:
 	dw WobbuffetFrames
 	dw GirafarigFrames
 	dw FanbeemonFrames
-	dw ForretressFrames
+	dw WaspmonFrames
 	dw KudamonFrames
 	dw GligarFrames
 	dw SteelixFrames

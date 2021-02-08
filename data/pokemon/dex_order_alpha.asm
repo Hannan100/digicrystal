@@ -63,7 +63,7 @@ AlphabeticalPokedexOrder:
 	db FERALIGATR
 	db RAIDRAMON
 	db FLAREON
-	db FORRETRESS
+	db WASPMON
 	db SALAMON
 	db TSUMEMON
 	db GENGAR

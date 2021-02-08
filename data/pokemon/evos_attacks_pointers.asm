@@ -205,7 +205,7 @@ EvosAttacksPointers::
 	dw WobbuffetEvosAttacks
 	dw GirafarigEvosAttacks
 	dw FanbeemonEvosAttacks
-	dw ForretressEvosAttacks
+	dw WaspmonEvosAttacks
 	dw KudamonEvosAttacks
 	dw GligarEvosAttacks
 	dw SteelixEvosAttacks

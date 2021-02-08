@@ -94,7 +94,7 @@ NewPokedexOrder:
 	db ALAKAZAM
 	db DITTO
 	db FANBEEMON
-	db FORRETRESS
+	db WASPMON
 	db NIDORAN_F
 	db NIDORINA
 	db NIDOQUEEN

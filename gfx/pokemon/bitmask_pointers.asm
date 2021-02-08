@@ -203,7 +203,7 @@ BitmasksPointers:
 	dw WobbuffetBitmasks
 	dw GirafarigBitmasks
 	dw FanbeemonBitmasks
-	dw ForretressBitmasks
+	dw WaspmonBitmasks
 	dw KudamonBitmasks
 	dw GligarBitmasks
 	dw SteelixBitmasks

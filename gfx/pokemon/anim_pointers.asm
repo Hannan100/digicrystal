@@ -203,7 +203,7 @@ AnimationPointers:
 	dw WobbuffetAnimation
 	dw GirafarigAnimation
 	dw FanbeemonAnimation
-	dw ForretressAnimation
+	dw WaspmonAnimation
 	dw KudamonAnimation
 	dw GligarAnimation
 	dw SteelixAnimation

@@ -243,7 +243,7 @@ Pokered_MonIndices:
 	db WOBBUFFET
 	db GIRAFARIG
 	db FANBEEMON
-	db FORRETRESS
+	db WASPMON
 	db KUDAMON
 	db GLIGAR
 	db STEELIX

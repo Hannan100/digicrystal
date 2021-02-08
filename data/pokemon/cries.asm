@@ -210,7 +210,7 @@ PokemonCries::
 	mon_cry CRY_AMPHAROS,    $27b,  $144 ; WOBBUFFET
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; GIRAFARIG
 	mon_cry CRY_SLOWKING,    $080,  $100 ; FANBEEMON
-	mon_cry CRY_SLOWKING,    $000,  $180 ; FORRETRESS
+	mon_cry CRY_SLOWKING,    $000,  $180 ; WASPMON
 	mon_cry CRY_KUDAMON,   $1c4,  $100 ; KUDAMON
 	mon_cry CRY_GLIGAR,     -$102,  $100 ; GLIGAR
 	mon_cry CRY_TYPHLOSION,  $0ef,  $0f7 ; STEELIX
@@ -466,7 +466,7 @@ PokemonCries::
 	mon_cry CRY_AMPHAROS,    635,  324 ; WOBBUFFET
 	mon_cry CRY_GIRAFARIG,    65,  512 ; GIRAFARIG
 	mon_cry CRY_SLOWKING,    128,  256 ; FANBEEMON
-	mon_cry CRY_SLOWKING,      0,  384 ; FORRETRESS
+	mon_cry CRY_SLOWKING,      0,  384 ; WASPMON
 	mon_cry CRY_KUDAMON,   452,  256 ; KUDAMON
 	mon_cry CRY_GLIGAR,     -258,  256 ; GLIGAR
 	mon_cry CRY_TYPHLOSION,  239,  247 ; STEELIX

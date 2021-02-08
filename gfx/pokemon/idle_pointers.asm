@@ -203,7 +203,7 @@ AnimationIdlePointers:
 	dw WobbuffetAnimationIdle
 	dw GirafarigAnimationIdle
 	dw FanbeemonAnimationIdle
-	dw ForretressAnimationIdle
+	dw WaspmonAnimationIdle
 	dw KudamonAnimationIdle
 	dw GligarAnimationIdle
 	dw SteelixAnimationIdle
