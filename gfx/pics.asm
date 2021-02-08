@@ -34,7 +34,7 @@ TaurosFrontpic:      INCBIN "gfx/pokemon/tauros/front.animated.2bpp.lz"
 BotamonFrontpic:    INCBIN "gfx/pokemon/botamon/front.animated.2bpp.lz"
 EnteiFrontpic:       INCBIN "gfx/pokemon/entei/front.animated.2bpp.lz"
 SuicuneFrontpic:     INCBIN "gfx/pokemon/suicune/front.animated.2bpp.lz"
-TyphlosionFrontpic:  INCBIN "gfx/pokemon/typhlosion/front.animated.2bpp.lz"
+GreymonFrontpic:  INCBIN "gfx/pokemon/greymon/front.animated.2bpp.lz"
 
 
 SECTION "Pics 2", ROMX
@@ -383,7 +383,7 @@ PidgeyBackpic:       INCBIN "gfx/pokemon/pidgey/back.2bpp.lz"
 ScientistPic:        INCBIN "gfx/trainers/scientist.2bpp.lz"
 QwilfishBackpic:     INCBIN "gfx/pokemon/qwilfish/back.2bpp.lz"
 GligarBackpic:       INCBIN "gfx/pokemon/gligar/back.2bpp.lz"
-TyphlosionBackpic:   INCBIN "gfx/pokemon/typhlosion/back.2bpp.lz"
+GreymonBackpic:   INCBIN "gfx/pokemon/greymon/back.2bpp.lz"
 CharmeleonBackpic:   INCBIN "gfx/pokemon/charmeleon/back.2bpp.lz"
 NidoqueenBackpic:    INCBIN "gfx/pokemon/nidoqueen/back.2bpp.lz"
 PichuFrontpic:       INCBIN "gfx/pokemon/pichu/front.animated.2bpp.lz"

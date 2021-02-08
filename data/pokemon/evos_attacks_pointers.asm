@@ -157,7 +157,7 @@ EvosAttacksPointers::
 	dw MeganiumEvosAttacks
 	dw KoromonEvosAttacks
 	dw AgumonEvosAttacks
-	dw TyphlosionEvosAttacks
+	dw GreymonEvosAttacks
 	dw BukamonEvosAttacks
 	dw GomamonEvosAttacks
 	dw FeraligatrEvosAttacks

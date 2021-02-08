@@ -127,11 +127,11 @@ Cry_Donphan:
 	channel 6, Cry_Donphan_Ch6
 	channel 8, Cry_Donphan_Ch8
 
-Cry_Typhlosion:
+Cry_Greymon:
 	channel_count 3
-	channel 5, Cry_Typhlosion_Ch5
-	channel 6, Cry_Typhlosion_Ch6
-	channel 8, Cry_Typhlosion_Ch8
+	channel 5, Cry_Greymon_Ch5
+	channel 6, Cry_Greymon_Ch6
+	channel 8, Cry_Greymon_Ch8
 
 <<<<<<< HEAD
 Cry_Veedramon:
@@ -781,7 +781,7 @@ Cry_Donphan_Ch8:
 	sound_ret
 
 Cry_Impmon_Ch5:
-Cry_Typhlosion_Ch5:
+Cry_Greymon_Ch5:
 	duty_cycle_pattern 0, 1, 0, 2
 .loop1:
 	square_note 3, 12, 1, 1937
@@ -804,7 +804,7 @@ Cry_Typhlosion_Ch5:
 	sound_ret
 
 Cry_Impmon_Ch6:
-Cry_Typhlosion_Ch6:
+Cry_Greymon_Ch6:
 	duty_cycle_pattern 1, 3, 2, 0
 	square_note 8, 9, -1, 1856
 	square_note 8, 7, -1, 1862
@@ -815,7 +815,7 @@ Cry_Typhlosion_Ch6:
 	square_note 24, 14, 2, 1923
 	sound_ret
 
-Cry_Typhlosion_Ch8:
+Cry_Greymon_Ch8:
 	noise_note 16, 10, 6, 22
 	noise_note 24, 9, 8, 61
 	noise_note 32, 9, 8, 92

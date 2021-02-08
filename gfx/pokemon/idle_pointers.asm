@@ -155,7 +155,7 @@ AnimationIdlePointers:
 	dw MeganiumAnimationIdle
 	dw KoromonAnimationIdle
 	dw AgumonAnimationIdle
-	dw TyphlosionAnimationIdle
+	dw GreymonAnimationIdle
 	dw BukamonAnimationIdle
 	dw GomamonAnimationIdle
 	dw FeraligatrAnimationIdle

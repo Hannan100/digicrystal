@@ -155,7 +155,7 @@ AnimationPointers:
 	dw MeganiumAnimation
 	dw KoromonAnimation
 	dw AgumonAnimation
-	dw TyphlosionAnimation
+	dw GreymonAnimation
 	dw BukamonAnimation
 	dw GomamonAnimation
 	dw FeraligatrAnimation

@@ -155,7 +155,7 @@ PokemonNames::
 	db "MEGANIUM@@" ; !Togemon
 	db "KOROMON@@@" ; Koromon
 	db "AGUMON@@@" ; !Agumon
-	db "TYPHLOSION" ; !Greymon
+	db "GREYMON" ; !Greymon
 	db "BUKAMON@@@" ; Bukamon
 	db "GOMAMON@@@" ; Gomamon
 	db "FERALIGATR" ; !Ikakumon

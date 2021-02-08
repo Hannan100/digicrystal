@@ -162,7 +162,7 @@ PokemonCries::
 	mon_cry CRY_TANEMON,    -$0b7,  $200 ; TOGEMON
 	mon_cry CRY_KOROMON,   $347,  $080 ; KOROMON
 	mon_cry CRY_KOROMON,   $321,  $120 ; AGUMON
-	mon_cry CRY_TYPHLOSION,  $f00,  $0d4 ; TYPHLOSION
+	mon_cry CRY_GREYMON,  $f00,  $0d4 ; GREYMON
 	mon_cry CRY_BUKAMON,    $46c,  $0e8 ; BUKAMON
 	mon_cry CRY_BUKAMON,    $440,  $110 ; GOMAMON
 	mon_cry CRY_BUKAMON,    $3fc,  $180 ; FERALIGATR
@@ -213,7 +213,7 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    $000,  $180 ; WASPMON
 	mon_cry CRY_KUDAMON,   $1c4,  $100 ; KUDAMON
 	mon_cry CRY_GLIGAR,     -$102,  $100 ; GLIGAR
-	mon_cry CRY_TYPHLOSION,  $0ef,  $0f7 ; STEELIX
+	mon_cry CRY_GREYMON,  $0ef,  $0f7 ; STEELIX
 	mon_cry CRY_KUDAMON,   $112,  $0e8 ; ELECMON
 	mon_cry CRY_KUDAMON,   $000,  $180 ; LEOMON
 	mon_cry CRY_SLOWKING,    $160,  $0e0 ; QWILFISH
@@ -254,7 +254,7 @@ PokemonCries::
 	mon_cry CRY_RAIKOU,      $05f,  $0d0 ; LARVITAR
 	mon_cry CRY_KOKOMON,   -$1db,  $150 ; PUPITAR
 	mon_cry CRY_RAIKOU,     -$100,  $180 ; TYRANITAR
-	mon_cry CRY_TYPHLOSION,  $000,  $100 ; LUGIA
+	mon_cry CRY_GREYMON,  $000,  $100 ; LUGIA
 	mon_cry CRY_AIPOM,       $000,  $180 ; HO_OH
 	mon_cry CRY_ENTEI,       $14a,  $111 ; CELEBI
 	mon_cry CRY_NIDORAN_M,      0,     0 ; 252
@@ -418,7 +418,7 @@ PokemonCries::
 	mon_cry CRY_TANEMON,  -183,  512 ; MEGANIUM
 	mon_cry CRY_KOROMON,   839,  128 ; KOROMON
 	mon_cry CRY_KOROMON,   801,  288 ; AGUMON
-	mon_cry CRY_TYPHLOSION, 3840,  212 ; TYPHLOSION
+	mon_cry CRY_GREYMON, 3840,  212 ; GREYMON
 	mon_cry CRY_BUKAMON,   1132,  232 ; BUKAMON
 	mon_cry CRY_BUKAMON,   1088,  272 ; GOMAMON
 	mon_cry CRY_BUKAMON,   1020,  384 ; FERALIGATR
@@ -469,7 +469,7 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,      0,  384 ; WASPMON
 	mon_cry CRY_KUDAMON,   452,  256 ; KUDAMON
 	mon_cry CRY_GLIGAR,     -258,  256 ; GLIGAR
-	mon_cry CRY_TYPHLOSION,  239,  247 ; STEELIX
+	mon_cry CRY_GREYMON,  239,  247 ; STEELIX
 	mon_cry CRY_KUDAMON,   274,  232 ; ELECMON
 	mon_cry CRY_KUDAMON,     0,  384 ; LEOMON
 	mon_cry CRY_SLOWKING,    352,  224 ; QWILFISH
@@ -510,7 +510,7 @@ PokemonCries::
 	mon_cry CRY_RAIKOU,       95,  208 ; LARVITAR
 	mon_cry CRY_KOKOMON,   -475,  336 ; PUPITAR
 	mon_cry CRY_RAIKOU,     -256,  384 ; TYRANITAR
-	mon_cry CRY_TYPHLOSION,    0,  256 ; LUGIA
+	mon_cry CRY_GREYMON,    0,  256 ; LUGIA
 	mon_cry CRY_AIPOM,         0,  384 ; HO_OH
 	mon_cry CRY_ENTEI,       330,  273 ; CELEBI
 	mon_cry CRY_NIDORAN_M,     0,    0 ; 252

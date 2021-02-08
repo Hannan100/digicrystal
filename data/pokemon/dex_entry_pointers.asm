@@ -156,7 +156,7 @@ PokedexDataPointerTable:
 	dw MeganiumPokedexEntry
 	dw KoromonPokedexEntry
 	dw AgumonPokedexEntry
-	dw TyphlosionPokedexEntry
+	dw GreymonPokedexEntry
 	dw BukamonPokedexEntry
 	dw GomamonPokedexEntry
 	dw FeraligatrPokedexEntry

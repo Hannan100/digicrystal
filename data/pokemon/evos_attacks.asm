@@ -2120,7 +2120,7 @@ KoromonEvosAttacks:
 	db 0 ; no more level-up moves
 
 AgumonEvosAttacks:
-	db EVOLVE_LEVEL, 36, TYPHLOSION
+	db EVOLVE_LEVEL, 36, GREYMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
@@ -2133,7 +2133,7 @@ AgumonEvosAttacks:
 	db 54, FLAMETHROWER
 	db 0 ; no more level-up moves
 
-TyphlosionEvosAttacks:
+GreymonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER

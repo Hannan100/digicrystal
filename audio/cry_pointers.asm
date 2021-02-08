@@ -57,7 +57,7 @@ Cries:
 	dba Cry_Entei
 	dba Cry_Wooper
 	dba Cry_Mantine
-	dba Cry_Typhlosion
+	dba Cry_Greymon
 	dba Cry_Veedramon
 	dba Cry_Impmon
 	dba Cry_Sunflora

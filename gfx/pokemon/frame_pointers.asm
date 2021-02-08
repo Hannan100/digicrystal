@@ -155,7 +155,7 @@ FramesPointers:
 	dw MeganiumFrames
 	dw KoromonFrames
 	dw AgumonFrames
-	dw TyphlosionFrames
+	dw GreymonFrames
 	dw BukamonFrames
 	dw GomamonFrames
 	dw FeraligatrFrames

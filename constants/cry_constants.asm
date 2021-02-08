@@ -62,7 +62,7 @@
 	const CRY_ENTEI
 	const CRY_WOOPER
 	const CRY_MANTINE
-	const CRY_TYPHLOSION
+	const CRY_GREYMON
 	const CRY_VEEDRAMON
 	const CRY_IMPMON
 	const CRY_SUNFLORA

@@ -6,7 +6,7 @@ NewPokedexOrder:
 	db MEGANIUM
 	db KOROMON
 	db AGUMON
-	db TYPHLOSION
+	db GREYMON
 	db BUKAMON
 	db GOMAMON
 	db FERALIGATR

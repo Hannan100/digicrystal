@@ -157,7 +157,7 @@ MonMenuIcons:
 	db ICON_GOBLIMON      ; TOGEMON
 	db ICON_FOX         ; KOROMON
 	db ICON_FOX         ; AGUMON
-	db ICON_FOX         ; TYPHLOSION
+	db ICON_FOX         ; GREYMON
 	db ICON_MONSTER     ; BUKAMON
 	db ICON_MONSTER     ; GOMAMON
 	db ICON_MONSTER     ; FERALIGATR

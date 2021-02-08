@@ -227,7 +227,7 @@ AlphabeticalPokedexOrder:
 	db DEMIVEEMON
 	db VEEMON
 	db BUKAMON
-	db TYPHLOSION
+	db GREYMON
 	db TYRANITAR
 	db KURAMON
 	db UMBREON

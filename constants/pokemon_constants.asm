@@ -176,7 +176,7 @@ JOHTO_POKEMON EQU const_value
 	const MEGANIUM   ; 9a
 	const KOROMON  ; 9b
 	const AGUMON    ; 9c
-	const TYPHLOSION ; 9d
+	const GREYMON ; 9d
 	const BUKAMON   ; 9e
 	const GOMAMON   ; 9f
 	const FERALIGATR ; a0
