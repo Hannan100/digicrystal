@@ -78,7 +78,7 @@ PokemonNames::
 	db "PONYTA@@@@"
 	db "RAPIDASH@@"
 	db "OTAMAMON@@"
-	db "SLOWBRO@@@"
+	db "GEKOMON@@@"
 	db "HAGURUMON@" ; !Hagurumon
 	db "GUARDROMON@@"
 	db "FARFETCH'D"

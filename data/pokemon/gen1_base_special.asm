@@ -80,7 +80,7 @@ KantoMonSpecials:
 	db  65 ; PONYTA
 	db  80 ; RAPIDASH
 	db  40 ; OTAMAMON
-	db  80 ; SLOWBRO
+	db  80 ; GEKOMON
 	db  95 ; HAGURUMON
 	db 120 ; GUARDROMON
 	db  58 ; FARFETCH_D

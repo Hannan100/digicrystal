@@ -81,7 +81,7 @@ NewPokedexOrder:
 	db GIZAMON
 	db SEAKING
 	db OTAMAMON
-	db SLOWBRO
+	db GEKOMON
 	db SLOWKING
 	db GOBLIMON
 	db OGREMON

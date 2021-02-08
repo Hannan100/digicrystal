@@ -85,7 +85,7 @@ PokemonCries::
 	mon_cry CRY_WOODMON,  $000,  $100 ; PONYTA
 	mon_cry CRY_WOODMON,  $020,  $140 ; RAPIDASH
 	mon_cry CRY_OTAMAMON,    $000,  $100 ; OTAMAMON
-	mon_cry CRY_RENAMON,   $000,  $100 ; SLOWBRO
+	mon_cry CRY_RENAMON,   $000,  $100 ; GEKOMON
 	mon_cry CRY_WORMMON,     $080,  $0e0 ; HAGURUMON
 	mon_cry CRY_WORMMON,     $020,  $140 ; GUARDROMON
 	mon_cry CRY_TOKOOMON,     $0dd,  $081 ; FARFETCH_D
@@ -341,7 +341,7 @@ PokemonCries::
 	mon_cry CRY_WOODMON,    0,  256 ; PONYTA
 	mon_cry CRY_WOODMON,   32,  320 ; RAPIDASH
 	mon_cry CRY_OTAMAMON,      0,  256 ; OTAMAMON
-	mon_cry CRY_RENAMON,     0,  256 ; SLOWBRO
+	mon_cry CRY_RENAMON,     0,  256 ; GEKOMON
 	mon_cry CRY_WORMMON,     128,  224 ; HAGURUMON
 	mon_cry CRY_WORMMON,      32,  320 ; GUARDROMON
 	mon_cry CRY_TOKOOMON,     221,  129 ; FARFETCH_D

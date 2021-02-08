@@ -78,7 +78,7 @@ AnimationPointers:
 	dw PonytaAnimation
 	dw RapidashAnimation
 	dw OtamamonAnimation
-	dw SlowbroAnimation
+	dw GekomonAnimation
 	dw HagurumonAnimation
 	dw GuardromonAnimation
 	dw FarfetchDAnimation

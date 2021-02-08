@@ -198,7 +198,7 @@ AlphabeticalPokedexOrder:
 	db SHUCKLE
 	db HALSEMON
 	db BIYOMON
-	db SLOWBRO
+	db GEKOMON
 	db SLOWKING
 	db OTAMAMON
 	db SLUGMA

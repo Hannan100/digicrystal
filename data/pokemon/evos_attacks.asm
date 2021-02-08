@@ -1058,7 +1058,7 @@ RapidashEvosAttacks:
 	db 0 ; no more level-up moves
 
 OtamamonEvosAttacks:
-	db EVOLVE_LEVEL, 37, SLOWBRO
+	db EVOLVE_LEVEL, 37, GEKOMON
 	db EVOLVE_TRADE, KINGS_ROCK, SLOWKING
 	db 0 ; no more evolutions
 	db 1, CURSE
@@ -1072,7 +1072,7 @@ OtamamonEvosAttacks:
 	db 48, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-SlowbroEvosAttacks:
+GekomonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CURSE
 	db 1, TACKLE

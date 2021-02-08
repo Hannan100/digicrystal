@@ -35,10 +35,10 @@ CeruleanCityCooltrainerMScript:
 CeruleanCitySuperNerdScript:
 	jumptextfaceplayer CeruleanCitySuperNerdText
 
-CeruleanCitySlowbro:
+CeruleanCityGekomon:
 	opentext
-	writetext CeruleanCitySlowbroText
-	cry SLOWBRO
+	writetext CeruleanCityGekomonText
+	cry GEKOMON
 	waitbutton
 	closetext
 	end
@@ -55,8 +55,8 @@ CeruleanCityCooltrainerFScript:
 	waitbutton
 	closetext
 	opentext
-	writetext CeruleanCitySlowbroText
-	cry SLOWBRO
+	writetext CeruleanCityGekomonText
+	cry GEKOMON
 	waitbutton
 	closetext
 	opentext
@@ -180,18 +180,18 @@ CeruleanCitySuperNerdText:
 	line "Girls like it!"
 	done
 
-CeruleanCitySlowbroText:
-	text "SLOWBRO: Yarah?"
+CeruleanCityGekomonText:
+	text "GEKOMON: Yarah?"
 	done
 
 CeruleanCityCooltrainerFText1:
-	text "My SLOWBRO and I"
+	text "My GEKOMON and I"
 	line "make an awesome"
 	cont "combination!"
 	done
 
 CeruleanCityCooltrainerFText2:
-	text "SLOWBRO, show me"
+	text "GEKOMON, show me"
 	line "your CONFUSION!"
 	done
 
@@ -300,7 +300,7 @@ CeruleanCity_MapEvents:
 	def_object_events
 	object_event 15, 23, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CeruleanCityCooltrainerMScript, -1
 	object_event 23, 15, SPRITE_SUPER_NERD, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CeruleanCitySuperNerdScript, -1
-	object_event 20, 24, SPRITE_OTAMAMON, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CeruleanCitySlowbro, -1
+	object_event 20, 24, SPRITE_OTAMAMON, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CeruleanCityGekomon, -1
 	object_event 21, 24, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CeruleanCityCooltrainerFScript, -1
 	object_event 30, 26, SPRITE_FISHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeruleanCityFisherScript, -1
 	object_event  6, 12, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeruleanCityYoungsterScript, -1

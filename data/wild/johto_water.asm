@@ -36,7 +36,7 @@ JohtoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 15, OTAMAMON
 	db 20, OTAMAMON
-	db 20, SLOWBRO
+	db 20, GEKOMON
 
 	map_id ILEX_FOREST
 	db 2 percent ; encounter rate

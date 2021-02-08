@@ -6,7 +6,7 @@ Pokered_MonIndices:
 	db TOKOOMON
 	db VOLTORB
 	db NIDOKING
-	db SLOWBRO
+	db GEKOMON
 	db PUNIMON
 	db DIGMON
 	db LICKITUNG

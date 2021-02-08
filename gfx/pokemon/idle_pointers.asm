@@ -78,7 +78,7 @@ AnimationIdlePointers:
 	dw PonytaAnimationIdle
 	dw RapidashAnimationIdle
 	dw OtamamonAnimationIdle
-	dw SlowbroAnimationIdle
+	dw GekomonAnimationIdle
 	dw HagurumonAnimationIdle
 	dw GuardromonAnimationIdle
 	dw FarfetchDAnimationIdle

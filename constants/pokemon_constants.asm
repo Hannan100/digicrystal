@@ -98,7 +98,7 @@
 	const PONYTA     ; 4d
 	const RAPIDASH   ; 4e
 	const OTAMAMON   ; 4f
-	const SLOWBRO    ; 50
+	const GEKOMON    ; 50
 	const HAGURUMON  ; 51
 	const GUARDROMON   ; 52
 	const FARFETCH_D ; 53
