@@ -4,7 +4,7 @@ IconPointers:
 	dw BetamonIcon
 	dw CandlemonIcon
 	dw DiglettIcon
-	dw PikachuIcon
+	dw GatomonIcon
 	dw StaryuIcon
 	dw FishIcon
 	dw BirdIcon

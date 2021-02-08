@@ -34,8 +34,8 @@ TrainerPokefanmDerek:
 	iftrue .HasNugget
 	checkcellnum PHONE_POKEFANM_DEREK
 	iftrue .NumberAccepted
-	checkpoke PIKACHU
-	iffalse .WantsPikachu
+	checkpoke GATOMON
+	iffalse .WantsGatomon
 	checkevent EVENT_DEREK_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskedAlready
 	writetext PokefanMDerekText_NotBragging
@@ -64,8 +64,8 @@ TrainerPokefanmDerek:
 .NoRoom:
 	sjump .PackFull
 
-.WantsPikachu:
-	writetext PokefanMDerekPikachuIsItText
+.WantsGatomon:
+	writetext PokefanMDerekGatomonIsItText
 	waitbutton
 	closetext
 	end
@@ -209,12 +209,12 @@ SailorEugeneAfterBattleText:
 PokefanmDerekSeenText:
 	text "This is a good"
 	line "time to brag about"
-	cont "my PIKACHU!"
+	cont "my GATOMON!"
 	done
 
 PokefanmDerekBeatenText:
 	text "I had no time to"
-	line "show off PIKACHU…"
+	line "show off GATOMON…"
 	done
 
 PokefanMDerekText_NotBragging:
@@ -250,8 +250,8 @@ PokefanfRuthAfterBattleText:
 	line "adorable!"
 	done
 
-PokefanMDerekPikachuIsItText:
-	text "PIKACHU is it!"
+PokefanMDerekGatomonIsItText:
+	text "GATOMON is it!"
 	line "Don't you agree?"
 	done
 

@@ -4,7 +4,7 @@
 	const ICON_BETAMON
 	const ICON_CANDLEMON
 	const ICON_DIGLETT
-	const ICON_PIKACHU
+	const ICON_GATOMON
 	const ICON_STARYU
 	const ICON_FISH
 	const ICON_BIRD

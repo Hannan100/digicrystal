@@ -161,7 +161,7 @@ AlphabeticalPokedexOrder:
 	db PEGASUSMON
 	db PEGASUSMONTO
 	db PIDGEY
-	db PIKACHU
+	db GATOMON
 	db PILOSWINE
 	db FANBEEMON
 	db PINSIR

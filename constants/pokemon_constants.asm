@@ -43,7 +43,7 @@
 	const PATAMON     ; 16
 	const GAZIMON      ; 17
 	const ARBOK      ; 18
-	const PIKACHU    ; 19
+	const GATOMON    ; 19
 	const RAICHU     ; 1a
 	const SANDSHREW  ; 1b
 	const SANDSLASH  ; 1c

@@ -24,7 +24,7 @@ PokedexDataPointerTable:
 	dw PatamonPokedexEntry
 	dw GazimonPokedexEntry
 	dw ArbokPokedexEntry
-	dw PikachuPokedexEntry
+	dw GatomonPokedexEntry
 	dw RaichuPokedexEntry
 	dw SandshrewPokedexEntry
 	dw SandslashPokedexEntry

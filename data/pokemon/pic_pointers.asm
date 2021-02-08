@@ -50,8 +50,8 @@ PokemonPicPointers::
 	dba_pic GazimonBackpic
 	dba_pic ArbokFrontpic
 	dba_pic ArbokBackpic
-	dba_pic PikachuFrontpic
-	dba_pic PikachuBackpic
+	dba_pic GatomonFrontpic
+	dba_pic GatomonBackpic
 	dba_pic RaichuFrontpic
 	dba_pic RaichuBackpic
 	dba_pic SandshrewFrontpic

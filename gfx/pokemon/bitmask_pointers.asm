@@ -23,7 +23,7 @@ BitmasksPointers:
 	dw PatamonBitmasks
 	dw GazimonBitmasks
 	dw ArbokBitmasks
-	dw PikachuBitmasks
+	dw GatomonBitmasks
 	dw RaichuBitmasks
 	dw SandshrewBitmasks
 	dw SandslashBitmasks

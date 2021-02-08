@@ -25,7 +25,7 @@ EvosAttacksPointers::
 	dw PatamonEvosAttacks
 	dw GazimonEvosAttacks
 	dw ArbokEvosAttacks
-	dw PikachuEvosAttacks
+	dw GatomonEvosAttacks
 	dw RaichuEvosAttacks
 	dw SandshrewEvosAttacks
 	dw SandslashEvosAttacks

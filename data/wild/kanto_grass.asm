@@ -199,16 +199,16 @@ KantoGrassWildMons:
 	db 5, PIDGEY
 	db 7, STINGMON
 	db 7, TERRIERMON
-	db 4, PIKACHU
-	db 4, PIKACHU
+	db 4, GATOMON
+	db 4, GATOMON
 	; day
 	db 3, MINOMON
 	db 3, PIDGEY
 	db 5, PIDGEY
 	db 7, STINGMON
 	db 7, PEGASUSMONTO
-	db 4, PIKACHU
-	db 4, PIKACHU
+	db 4, GATOMON
+	db 4, GATOMON
 	; nite
 	db 3,POROMON
 	db 3, KOKOMON

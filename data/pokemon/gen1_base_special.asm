@@ -25,7 +25,7 @@ KantoMonSpecials:
 	db  61 ; PATAMON
 	db  40 ; GAZIMON
 	db  65 ; ARBOK
-	db  50 ; PIKACHU
+	db  50 ; GATOMON
 	db  90 ; RAICHU
 	db  30 ; SANDSHREW
 	db  55 ; SANDSLASH

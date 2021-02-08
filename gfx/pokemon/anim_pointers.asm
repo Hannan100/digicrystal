@@ -23,7 +23,7 @@ AnimationPointers:
 	dw PatamonAnimation
 	dw GazimonAnimation
 	dw ArbokAnimation
-	dw PikachuAnimation
+	dw GatomonAnimation
 	dw RaichuAnimation
 	dw SandshrewAnimation
 	dw SandslashAnimation

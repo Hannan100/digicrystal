@@ -23,7 +23,7 @@ AnimationIdlePointers:
 	dw PatamonAnimationIdle
 	dw GazimonAnimationIdle
 	dw ArbokAnimationIdle
-	dw PikachuAnimationIdle
+	dw GatomonAnimationIdle
 	dw RaichuAnimationIdle
 	dw SandshrewAnimationIdle
 	dw SandslashAnimationIdle

@@ -15,16 +15,16 @@ SpriteAnimOAMData:
 	dbw $06, .OAMData_GSIntroLapras            ; SPRITE_ANIM_OAMSET_GS_INTRO_LAPRAS_3
 	dbw $0c, .OAMData_GSIntroNote              ; SPRITE_ANIM_OAMSET_GS_INTRO_NOTE
 	dbw $0d, .OAMData_1x1_Palette0             ; SPRITE_ANIM_OAMSET_GS_INTRO_INVISIBLE_NOTE
-	dbw $00, .OAMData_GSIntroCandlemonPikachu ; SPRITE_ANIM_OAMSET_GS_INTRO_CANDLEMON_1
-	dbw $04, .OAMData_GSIntroCandlemonPikachu ; SPRITE_ANIM_OAMSET_GS_INTRO_CANDLEMON_2
-	dbw $08, .OAMData_GSIntroCandlemonPikachu ; SPRITE_ANIM_OAMSET_GS_INTRO_CANDLEMON_3
-	dbw $40, .OAMData_GSIntroCandlemonPikachu ; SPRITE_ANIM_OAMSET_GS_INTRO_PIKACHU_1
-	dbw $44, .OAMData_GSIntroCandlemonPikachu ; SPRITE_ANIM_OAMSET_GS_INTRO_PIKACHU_2
-	dbw $48, .OAMData_GSIntroCandlemonPikachu ; SPRITE_ANIM_OAMSET_GS_INTRO_PIKACHU_3
-	dbw $4c, .OAMData_GSIntroCandlemonPikachu ; SPRITE_ANIM_OAMSET_GS_INTRO_PIKACHU_4
-	dbw $80, .OAMData_GSIntroPikachuTail       ; SPRITE_ANIM_OAMSET_GS_INTRO_PIKACHU_TAIL_1
-	dbw $85, .OAMData_GSIntroPikachuTail       ; SPRITE_ANIM_OAMSET_GS_INTRO_PIKACHU_TAIL_2
-	dbw $8a, .OAMData_GSIntroPikachuTail       ; SPRITE_ANIM_OAMSET_GS_INTRO_PIKACHU_TAIL_3
+	dbw $00, .OAMData_GSIntroCandlemonGatomon ; SPRITE_ANIM_OAMSET_GS_INTRO_CANDLEMON_1
+	dbw $04, .OAMData_GSIntroCandlemonGatomon ; SPRITE_ANIM_OAMSET_GS_INTRO_CANDLEMON_2
+	dbw $08, .OAMData_GSIntroCandlemonGatomon ; SPRITE_ANIM_OAMSET_GS_INTRO_CANDLEMON_3
+	dbw $40, .OAMData_GSIntroCandlemonGatomon ; SPRITE_ANIM_OAMSET_GS_INTRO_GATOMON_1
+	dbw $44, .OAMData_GSIntroCandlemonGatomon ; SPRITE_ANIM_OAMSET_GS_INTRO_GATOMON_2
+	dbw $48, .OAMData_GSIntroCandlemonGatomon ; SPRITE_ANIM_OAMSET_GS_INTRO_GATOMON_3
+	dbw $4c, .OAMData_GSIntroCandlemonGatomon ; SPRITE_ANIM_OAMSET_GS_INTRO_GATOMON_4
+	dbw $80, .OAMData_GSIntroGatomonTail       ; SPRITE_ANIM_OAMSET_GS_INTRO_GATOMON_TAIL_1
+	dbw $85, .OAMData_GSIntroGatomonTail       ; SPRITE_ANIM_OAMSET_GS_INTRO_GATOMON_TAIL_2
+	dbw $8a, .OAMData_GSIntroGatomonTail       ; SPRITE_ANIM_OAMSET_GS_INTRO_GATOMON_TAIL_3
 	dbw $00, .OAMData_IntroUnownF2_1           ; SPRITE_ANIM_OAMSET_GS_INTRO_SMALL_FIREBALL
 	dbw $01, .OAMData_TradePoofBubble          ; SPRITE_ANIM_OAMSET_GS_INTRO_MED_FIREBALL
 	dbw $09, .OAMData_GSIntroBigFireball       ; SPRITE_ANIM_OAMSET_GS_INTRO_BIG_FIREBALL
@@ -258,7 +258,7 @@ SpriteAnimOAMData:
 	dbsprite -1,  0,  4,  4, $21, 0
 	dbsprite  0,  0,  4,  4, $22, 0
 
-.OAMData_GSIntroCandlemonPikachu:
+.OAMData_GSIntroCandlemonGatomon:
 	db 16
 	dbsprite -2, -2,  0,  0, $00, 0
 	dbsprite -1, -2,  0,  0, $01, 0
@@ -432,7 +432,7 @@ SpriteAnimOAMData:
 	dbsprite -1, -1,  4,  0, $00, 0
 	dbsprite -1,  0,  4,  0, $10, 0
 
-.OAMData_GSIntroPikachuTail:
+.OAMData_GSIntroGatomonTail:
 	db 5
 	dbsprite  3, -2,  0,  0, $00, 0
 	dbsprite  4, -2,  0,  0, $01, 0

@@ -23,7 +23,7 @@ FramesPointers:
 	dw PatamonFrames
 	dw GazimonFrames
 	dw ArbokFrames
-	dw PikachuFrames
+	dw GatomonFrames
 	dw RaichuFrames
 	dw SandshrewFrames
 	dw SandslashFrames

@@ -344,7 +344,7 @@ ArbokEvosAttacks:
 	db 51, HAZE
 	db 0 ; no more level-up moves
 
-PikachuEvosAttacks:
+GatomonEvosAttacks:
 	db EVOLVE_ITEM, THUNDERSTONE, RAICHU
 	db 0 ; no more evolutions
 	db 1, THUNDERSHOCK
@@ -2348,7 +2348,7 @@ LanturnEvosAttacks:
 	db 0 ; no more level-up moves
 
 PichuEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, PIKACHU
+	db EVOLVE_HAPPINESS, TR_ANYTIME, GATOMON
 	db 0 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, CHARM

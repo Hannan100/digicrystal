@@ -14,7 +14,7 @@ SpriteMons:
 	db STINGMON
 	db DIGLETT
 	db BETAMON
-	db PIKACHU
+	db GATOMON
 	db CLEFAIRY
 	db GUILMON
 	db JYNX

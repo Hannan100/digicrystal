@@ -23,7 +23,7 @@ PokemonNames::
 	db "PATAMON@@@@"
 	db "GAZIMON@@@@@"
 	db "ARBOK@@@@@"
-	db "PIKACHU@@@"
+	db "GATOMON@@@"
 	db "RAICHU@@@@"
 	db "SANDSHREW@"
 	db "SANDSLASH@"

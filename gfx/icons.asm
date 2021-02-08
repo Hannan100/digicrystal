@@ -4,7 +4,7 @@ NullIcon:
 BetamonIcon:      INCBIN "gfx/icons/betamon.2bpp"
 CandlemonIcon:   INCBIN "gfx/icons/candlemon.2bpp"
 DiglettIcon:      INCBIN "gfx/icons/diglett.2bpp"
-PikachuIcon:      INCBIN "gfx/icons/pikachu.2bpp"
+GatomonIcon:      INCBIN "gfx/icons/gatomon.2bpp"
 StaryuIcon:       INCBIN "gfx/icons/staryu.2bpp"
 FishIcon:         INCBIN "gfx/icons/fish.2bpp"
 BirdIcon:         INCBIN "gfx/icons/bird.2bpp"

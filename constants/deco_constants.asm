@@ -27,7 +27,7 @@
 	const _DOLL
 	const BIG_
 	const FEATHERY_BED
-	const PIKACHU_BED
+	const GATOMON_BED
 	const PINK_BED
 	const POLKADOT_BED
 	const RED_CARPET
@@ -71,7 +71,7 @@ ENDM
 	deco  FEATHERY_BED
 	deco  PINK_BED
 	deco  POLKADOT_BED
-	deco  PIKACHU_BED
+	deco  GATOMON_BED
 ; FindOwnedCarpets.carpets values (see engine/overworld/decorations.asm)
 	const CARPETS
 	deco  RED_CARPET
@@ -86,7 +86,7 @@ ENDM
 ; FindOwnedPosters.posters values (see engine/overworld/decorations.asm)
 	const POSTERS
 	deco  TOWN_MAP
-	deco  PIKACHU_POSTER
+	deco  GATOMON_POSTER
 	deco  CLEFAIRY_POSTER
 	deco  CANDLEMON_POSTER
 ; FindOwnedConsoles.consoles values (see engine/overworld/decorations.asm)
@@ -102,8 +102,8 @@ ENDM
 	deco  BIG_LAPRAS_DOLL
 ; FindOwnedOrnaments.ornaments values (see engine/overworld/decorations.asm)
 	const DOLLS
-	deco  PIKACHU_DOLL
-	deco  SURF_PIKACHU_DOLL
+	deco  GATOMON_DOLL
+	deco  SURF_GATOMON_DOLL
 	deco  CLEFAIRY_DOLL
 	deco  CANDLEMON_DOLL
 	deco  NYOKOMON_DOLL

@@ -22,7 +22,7 @@ NewPokedexOrder:
 	db NYAROMON
 	db SALAMON
 	db PICHU
-	db PIKACHU
+	db GATOMON
 	db RAICHU
 	db MINOMON
 	db WORMMON
