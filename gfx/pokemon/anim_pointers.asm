@@ -225,7 +225,7 @@ AnimationPointers:
 	dw OctilleryAnimation
 	dw DelibirdAnimation
 	dw MantineAnimation
-	dw SkarmoryAnimation
+	dw HalsemonAnimation
 	dw HoundourAnimation
 	dw HoundoomAnimation
 	dw KingdraAnimation

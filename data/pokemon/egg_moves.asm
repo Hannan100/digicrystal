@@ -735,7 +735,7 @@ MantineEggMoves:
 	db SLAM
 	db -1 ; end
 
-SkarmoryEggMoves:
+HalsemonEggMoves:
 	db DRILL_PECK
 	db PURSUIT
 	db WHIRLWIND

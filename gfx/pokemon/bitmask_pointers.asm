@@ -225,7 +225,7 @@ BitmasksPointers:
 	dw OctilleryBitmasks
 	dw DelibirdBitmasks
 	dw MantineBitmasks
-	dw SkarmoryBitmasks
+	dw HalsemonBitmasks
 	dw HoundourBitmasks
 	dw HoundoomBitmasks
 	dw KingdraBitmasks

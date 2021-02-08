@@ -1,4 +1,4 @@
-	db SKARMORY ; 227
+	db HALSEMON ; 227
 
 	db  65,  80, 140,  70,  40,  70
 	;   hp  atk  def  spd  sat  sdf
@@ -11,7 +11,7 @@
 	db 100 ; unknown 1
 	db 25 ; step cycles to hatch
 	db 5 ; unknown 2
-	INCBIN "gfx/pokemon/skarmory/front.dimensions"
+	INCBIN "gfx/pokemon/halsemon/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_SLOW ; growth rate
 	dn EGG_FLYING, EGG_FLYING ; egg groups

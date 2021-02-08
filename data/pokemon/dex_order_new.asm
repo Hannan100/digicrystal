@@ -198,7 +198,7 @@ NewPokedexOrder:
 	db PHANPY
 	db DONPHAN
 	db MANTINE
-	db SKARMORY
+	db HALSEMON
 	db DODUO
 	db DODRIO
 	db PONYTA

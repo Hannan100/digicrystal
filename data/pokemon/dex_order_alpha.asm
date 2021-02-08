@@ -196,7 +196,7 @@ AlphabeticalPokedexOrder:
 	db NYAROMON
 	db SHELLDER
 	db SHUCKLE
-	db SKARMORY
+	db HALSEMON
 	db BIYOMON
 	db SLOWBRO
 	db SLOWKING

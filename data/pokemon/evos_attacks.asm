@@ -3027,7 +3027,7 @@ MantineEvosAttacks:
 	db 49, CONFUSE_RAY
 	db 0 ; no more level-up moves
 
-SkarmoryEvosAttacks:
+HalsemonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, PECK
