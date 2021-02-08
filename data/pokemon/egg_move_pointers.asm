@@ -121,7 +121,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw MrMimeEggMoves
-	dw ScytherEggMoves
+	dw KuwagamonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

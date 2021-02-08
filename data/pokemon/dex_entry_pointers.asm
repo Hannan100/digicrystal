@@ -122,7 +122,7 @@ PokedexDataPointerTable:
 	dw StaryuPokedexEntry
 	dw StarmiePokedexEntry
 	dw MrMimePokedexEntry
-	dw ScytherPokedexEntry
+	dw KuwagamonPokedexEntry
 	dw JynxPokedexEntry
 	dw ElectabuzzPokedexEntry
 	dw MagmarPokedexEntry

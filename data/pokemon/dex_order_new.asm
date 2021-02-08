@@ -110,7 +110,7 @@ NewPokedexOrder:
 	db WOBBUFFET
 	db KUNEMON
 	db VENOMOTH
-	db SCYTHER
+	db KUWAGAMON
 	db SCIZOR
 	db PINSIR
 	db HERACROSS

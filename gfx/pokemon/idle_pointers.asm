@@ -121,7 +121,7 @@ AnimationIdlePointers:
 	dw StaryuAnimationIdle
 	dw StarmieAnimationIdle
 	dw MrMimeAnimationIdle
-	dw ScytherAnimationIdle
+	dw KuwagamonAnimationIdle
 	dw JynxAnimationIdle
 	dw ElectabuzzAnimationIdle
 	dw MagmarAnimationIdle

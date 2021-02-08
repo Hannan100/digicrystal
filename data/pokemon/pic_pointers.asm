@@ -246,8 +246,8 @@ PokemonPicPointers::
 	dba_pic StarmieBackpic
 	dba_pic MrMimeFrontpic
 	dba_pic MrMimeBackpic
-	dba_pic ScytherFrontpic
-	dba_pic ScytherBackpic
+	dba_pic KuwagamonFrontpic
+	dba_pic KuwagamonBackpic
 	dba_pic JynxFrontpic
 	dba_pic JynxBackpic
 	dba_pic ElectabuzzFrontpic

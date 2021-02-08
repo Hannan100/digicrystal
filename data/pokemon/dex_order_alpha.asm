@@ -189,7 +189,7 @@ AlphabeticalPokedexOrder:
 	db SANDSHREW
 	db SANDSLASH
 	db SCIZOR
-	db SCYTHER
+	db KUWAGAMON
 	db SEADRA
 	db SEAKING
 	db SEEL

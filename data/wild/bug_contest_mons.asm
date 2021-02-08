@@ -8,6 +8,6 @@ ContestMons:
 	db  5, KABUTRIMON,   12, 15
 	db 10, KUNEMON,    10, 16
 	db 10, MUSHROOMON,      10, 17
-	db  5, SCYTHER,    13, 14
+	db  5, KUWAGAMON,    13, 14
 	db  5, PINSIR,     13, 14
 	db -1, VENOMOTH,   30, 40

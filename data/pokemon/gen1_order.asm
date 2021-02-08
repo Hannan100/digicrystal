@@ -24,7 +24,7 @@ Pokered_MonIndices:
 	db SHELLDER
 	db TENTACOOL
 	db TSUMEMON
-	db SCYTHER
+	db KUWAGAMON
 	db STARYU
 	db BLASTOISE
 	db PINSIR

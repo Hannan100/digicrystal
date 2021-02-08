@@ -144,7 +144,7 @@ BugCatchingContestant4AText:
 
 BugCatchingContestant5AText:
 	text "BENNY: Ssh! You'll"
-	line "scare off SCYTHER."
+	line "scare off KUWAGAMON."
 
 	para "I'll talk to you"
 	line "later."

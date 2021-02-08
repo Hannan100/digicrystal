@@ -32,7 +32,7 @@ BugContestant_BugCatcherEd:
 
 BugContestant_CooltrainerMNick:
 	db COOLTRAINERM, NICK
-	dbw SCYTHER,    357
+	dbw KUWAGAMON,    357
 	dbw STINGMON, 349
 	dbw PINSIR,     368
 
@@ -62,7 +62,7 @@ BugContestant_PicnickerCindy:
 
 BugContestant_BugCatcherJosh:
 	db BUG_CATCHER, JOSH
-	dbw SCYTHER,    326
+	dbw KUWAGAMON,    326
 	dbw STINGMON, 292
 	dbw WORMMON,    282
 

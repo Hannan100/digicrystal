@@ -121,7 +121,7 @@ PokemonNames::
 	db "STARYU@@@@"
 	db "STARMIE@@@"
 	db "MR.MIME@@@"
-	db "SCYTHER@@@"
+	db "KUWAGAMON@@@"
 	db "JYNX@@@@@@"
 	db "ELECTABUZZ"
 	db "MAGMAR@@@@"

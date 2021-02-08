@@ -128,7 +128,7 @@ PokemonCries::
 	mon_cry CRY_MUSHROOMON,       $002,  $0a0 ; STARYU
 	mon_cry CRY_MUSHROOMON,       $000,  $100 ; STARMIE
 	mon_cry CRY_CRABMON,      $008,  $0c0 ; MR__MIME
-	mon_cry CRY_MINOMON,    $000,  $100 ; SCYTHER
+	mon_cry CRY_MINOMON,    $000,  $100 ; KUWAGAMON
 	mon_cry CRY_TAPIRMON,     $0ff,  $17f ; JYNX
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; ELECTABUZZ
 	mon_cry CRY_GUILMON,  $0ff,  $0b0 ; MAGMAR
@@ -384,7 +384,7 @@ PokemonCries::
 	mon_cry CRY_MUSHROOMON,         2,  160 ; STARYU
 	mon_cry CRY_MUSHROOMON,         0,  256 ; STARMIE
 	mon_cry CRY_CRABMON,        8,  192 ; MR__MIME
-	mon_cry CRY_MINOMON,      0,  256 ; SCYTHER
+	mon_cry CRY_MINOMON,      0,  256 ; KUWAGAMON
 	mon_cry CRY_TAPIRMON,     255,  383 ; JYNX
 	mon_cry CRY_VOLTORB,     143,  383 ; ELECTABUZZ
 	mon_cry CRY_GUILMON,  255,  176 ; MAGMAR

@@ -121,7 +121,7 @@ FramesPointers:
 	dw StaryuFrames
 	dw StarmieFrames
 	dw MrMimeFrames
-	dw ScytherFrames
+	dw KuwagamonFrames
 	dw JynxFrames
 	dw ElectabuzzFrames
 	dw MagmarFrames

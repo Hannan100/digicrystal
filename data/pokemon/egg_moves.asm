@@ -386,7 +386,7 @@ MrMimeEggMoves:
 	db MIMIC
 	db -1 ; end
 
-ScytherEggMoves:
+KuwagamonEggMoves:
 	db COUNTER
 	db SAFEGUARD
 	db BATON_PASS

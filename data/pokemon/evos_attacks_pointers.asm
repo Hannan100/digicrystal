@@ -123,7 +123,7 @@ EvosAttacksPointers::
 	dw StaryuEvosAttacks
 	dw StarmieEvosAttacks
 	dw MrMimeEvosAttacks
-	dw ScytherEvosAttacks
+	dw KuwagamonEvosAttacks
 	dw JynxEvosAttacks
 	dw ElectabuzzEvosAttacks
 	dw MagmarEvosAttacks
