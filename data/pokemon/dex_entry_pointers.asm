@@ -136,7 +136,7 @@ PokedexDataPointerTable:
 	dw VaporeonPokedexEntry
 	dw JolteonPokedexEntry
 	dw FlareonPokedexEntry
-	dw PorygonPokedexEntry
+	dw PorymonPokedexEntry
 	dw OmanytePokedexEntry
 	dw OmastarPokedexEntry
 	dw KabutoPokedexEntry
@@ -232,7 +232,7 @@ PokedexDataPointerTable:
 	dw KingdraPokedexEntry
 	dw PhanpyPokedexEntry
 	dw DonphanPokedexEntry
-	dw Porygon2PokedexEntry
+	dw Porymon2PokedexEntry
 	dw StantlerPokedexEntry
 	dw SmearglePokedexEntry
 	dw KuramonPokedexEntry

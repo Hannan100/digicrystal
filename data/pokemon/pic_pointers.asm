@@ -274,8 +274,8 @@ PokemonPicPointers::
 	dba_pic JolteonBackpic
 	dba_pic FlareonFrontpic
 	dba_pic FlareonBackpic
-	dba_pic PorygonFrontpic
-	dba_pic PorygonBackpic
+	dba_pic PorymonFrontpic
+	dba_pic PorymonBackpic
 	dba_pic OmanyteFrontpic
 	dba_pic OmanyteBackpic
 	dba_pic OmastarFrontpic
@@ -469,8 +469,8 @@ PokemonPicPointers::
 	dba_pic PhanpyBackpic
 	dba_pic DonphanFrontpic
 	dba_pic DonphanBackpic
-	dba_pic Porygon2Frontpic
-	dba_pic Porygon2Backpic
+	dba_pic Porymon2Frontpic
+	dba_pic Porymon2Backpic
 	dba_pic StantlerFrontpic
 	dba_pic StantlerBackpic
 	dba_pic SmeargleFrontpic

@@ -155,7 +155,7 @@
 	const VAPOREON   ; 86
 	const JOLTEON    ; 87
 	const FLAREON    ; 88
-	const PORYGON    ; 89
+	const PORYMON    ; 89
 	const OMANYTE    ; 8a
 	const OMASTAR    ; 8b
 	const KABUTO     ; 8c
@@ -252,7 +252,7 @@ JOHTO_POKEMON EQU const_value
 	const KINGDRA    ; e6
 	const PHANPY     ; e7
 	const DONPHAN    ; e8
-	const PORYGON2   ; e9
+	const PORYMON2   ; e9
 	const STANTLER   ; ea
 	const SMEARGLE   ; eb
 	const KURAMON    ; ec

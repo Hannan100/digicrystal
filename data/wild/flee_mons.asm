@@ -7,7 +7,7 @@ SometimesFleeMons:
 	db SHURIMON
 	db MR__MIME
 	db EEVEE
-	db PORYGON
+	db PORYMON
 	db DRATINI
 	db DRAGONAIR
 	db VEEMON

@@ -170,8 +170,8 @@ AlphabeticalPokedexOrder:
 	db POLIWHIRL
 	db POLIWRATH
 	db PONYTA
-	db PORYGON
-	db PORYGON2
+	db PORYMON
+	db PORYMON2
 	db PRIMEAPE
 	db PSYDUCK
 	db PUPITAR

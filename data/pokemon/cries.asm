@@ -142,7 +142,7 @@ PokemonCries::
 	mon_cry CRY_KUNEMON,     $0aa,  $17f ; VAPOREON
 	mon_cry CRY_KUNEMON,     $03d,  $100 ; JOLTEON
 	mon_cry CRY_KUNEMON,     $010,  $0a0 ; FLAREON
-	mon_cry CRY_WOODMON,  $0aa,  $17f ; PORYGON
+	mon_cry CRY_WOODMON,  $0aa,  $17f ; PORYMON
 	mon_cry CRY_RENAMON,   $0f0,  $081 ; OMANYTE
 	mon_cry CRY_RENAMON,   $0ff,  $0c0 ; OMASTAR
 	mon_cry CRY_MINOMON,    $0bb,  $0c0 ; KABUTO
@@ -238,7 +238,7 @@ PokemonCries::
 	mon_cry CRY_SLUGMA,      $2fb,  $100 ; KINGDRA
 	mon_cry CRY_NYAROMON,     $048,  $230 ; PHANPY
 	mon_cry CRY_DONPHAN,     $000,  $1a0 ; DONPHAN
-	mon_cry CRY_GIRAFARIG,   $073,  $240 ; PORYGON2
+	mon_cry CRY_GIRAFARIG,   $073,  $240 ; PORYMON2
 	mon_cry CRY_AIPOM,      -$160,  $180 ; STANTLER
 	mon_cry CRY_PICHU,      -$21a,  $1f0 ; SMEARGLE
 	mon_cry CRY_AIPOM,       $02c,  $108 ; KURAMON
@@ -398,7 +398,7 @@ PokemonCries::
 	mon_cry CRY_KUNEMON,     170,  383 ; VAPOREON
 	mon_cry CRY_KUNEMON,      61,  256 ; JOLTEON
 	mon_cry CRY_KUNEMON,      16,  160 ; FLAREON
-	mon_cry CRY_WOODMON,  170,  383 ; PORYGON
+	mon_cry CRY_WOODMON,  170,  383 ; PORYMON
 	mon_cry CRY_RENAMON,   240,  129 ; OMANYTE
 	mon_cry CRY_RENAMON,   255,  192 ; OMASTAR
 	mon_cry CRY_MINOMON,    187,  192 ; KABUTO
@@ -494,7 +494,7 @@ PokemonCries::
 	mon_cry CRY_SLUGMA,      763,  256 ; KINGDRA
 	mon_cry CRY_NYAROMON,      72,  560 ; PHANPY
 	mon_cry CRY_DONPHAN,       0,  416 ; DONPHAN
-	mon_cry CRY_GIRAFARIG,   115,  576 ; PORYGON2
+	mon_cry CRY_GIRAFARIG,   115,  576 ; PORYMON2
 	mon_cry CRY_AIPOM,      -352,  384 ; STANTLER
 	mon_cry CRY_PICHU,      -538,  496 ; SMEARGLE
 	mon_cry CRY_AIPOM,        44,  264 ; KURAMON

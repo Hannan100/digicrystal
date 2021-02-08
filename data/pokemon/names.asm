@@ -135,7 +135,7 @@ PokemonNames::
 	db "VAPOREON@@"
 	db "JOLTEON@@@"
 	db "FLAREON@@@"
-	db "PORYGON@@@" ; Porymon ;)
+	db "PORYMON@@@" ; Porymon ;)
 	db "OMANYTE@@@"
 	db "OMASTAR@@@"
 	db "KABUTO@@@@"
@@ -231,7 +231,7 @@ PokemonNames::
 	db "KINGDRA@@@"
 	db "PHANPY@@@@"
 	db "DONPHAN@@@"
-	db "PORYGON2@@"
+	db "PORYMON2@@"
 	db "STANTLER@@"
 	db "SMEARGLE@@"
 	db "KURAMON@@@"

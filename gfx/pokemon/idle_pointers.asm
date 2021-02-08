@@ -135,7 +135,7 @@ AnimationIdlePointers:
 	dw VaporeonAnimationIdle
 	dw JolteonAnimationIdle
 	dw FlareonAnimationIdle
-	dw PorygonAnimationIdle
+	dw PorymonAnimationIdle
 	dw OmanyteAnimationIdle
 	dw OmastarAnimationIdle
 	dw KabutoAnimationIdle
@@ -231,7 +231,7 @@ AnimationIdlePointers:
 	dw KingdraAnimationIdle
 	dw PhanpyAnimationIdle
 	dw DonphanAnimationIdle
-	dw Porygon2AnimationIdle
+	dw Porymon2AnimationIdle
 	dw StantlerAnimationIdle
 	dw SmeargleAnimationIdle
 	dw KuramonAnimationIdle

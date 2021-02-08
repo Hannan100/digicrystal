@@ -135,7 +135,7 @@ AnimationPointers:
 	dw VaporeonAnimation
 	dw JolteonAnimation
 	dw FlareonAnimation
-	dw PorygonAnimation
+	dw PorymonAnimation
 	dw OmanyteAnimation
 	dw OmastarAnimation
 	dw KabutoAnimation
@@ -231,7 +231,7 @@ AnimationPointers:
 	dw KingdraAnimation
 	dw PhanpyAnimation
 	dw DonphanAnimation
-	dw Porygon2Animation
+	dw Porymon2Animation
 	dw StantlerAnimation
 	dw SmeargleAnimation
 	dw KuramonAnimation

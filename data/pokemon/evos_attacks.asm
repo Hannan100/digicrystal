@@ -1853,8 +1853,8 @@ FlareonEvosAttacks:
 	db 52, FLAMETHROWER
 	db 0 ; no more level-up moves
 
-PorygonEvosAttacks:
-	db EVOLVE_TRADE, UP_GRADE, PORYGON2
+PorymonEvosAttacks:
+	db EVOLVE_TRADE, UP_GRADE, PORYMON2
 	db 0 ; no more evolutions
 	db 1, CONVERSION2
 	db 1, TACKLE
@@ -3102,7 +3102,7 @@ DonphanEvosAttacks:
 	db 49, EARTHQUAKE
 	db 0 ; no more level-up moves
 
-Porygon2EvosAttacks:
+Porymon2EvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CONVERSION2
 	db 1, TACKLE

@@ -135,7 +135,7 @@ FramesPointers:
 	dw VaporeonFrames
 	dw JolteonFrames
 	dw FlareonFrames
-	dw PorygonFrames
+	dw PorymonFrames
 	dw OmanyteFrames
 	dw OmastarFrames
 	dw KabutoFrames
@@ -231,7 +231,7 @@ FramesPointers:
 	dw KingdraFrames
 	dw PhanpyFrames
 	dw DonphanFrames
-	dw Porygon2Frames
+	dw Porymon2Frames
 	dw StantlerFrames
 	dw SmeargleFrames
 	dw KuramonFrames

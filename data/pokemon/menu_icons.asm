@@ -137,7 +137,7 @@ MonMenuIcons:
 	db ICON_FOX         ; VAPOREON
 	db ICON_FOX         ; JOLTEON
 	db ICON_FOX         ; FLAREON
-	db ICON_VOLTORB     ; PORYGON
+	db ICON_VOLTORB     ; PORYMON
 	db ICON_SHELL       ; OMANYTE
 	db ICON_SHELL       ; OMASTAR
 	db ICON_SHELL       ; KABUTO
@@ -233,7 +233,7 @@ MonMenuIcons:
 	db ICON_BIGMON      ; KINGDRA
 	db ICON_EQUINE      ; PHANPY
 	db ICON_EQUINE      ; DONPHAN
-	db ICON_VOLTORB     ; PORYGON2
+	db ICON_VOLTORB     ; PORYMON2
 	db ICON_EQUINE      ; STANTLER
 	db ICON_MONSTER     ; SMEARGLE
 	db ICON_FIGHTER     ; KURAMON

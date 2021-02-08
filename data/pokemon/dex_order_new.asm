@@ -215,8 +215,8 @@ NewPokedexOrder:
 	db MAGCARGO
 	db SNEASEL
 	db MISDREAVUS
-	db PORYGON
-	db PORYGON2
+	db PORYMON
+	db PORYMON2
 	db CHANSEY
 	db BLISSEY
 	db LAPRAS
