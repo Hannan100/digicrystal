@@ -197,7 +197,7 @@ KantoGrassWildMons:
 	db 3, MINOMON
 	db 3, GUMMYMON
 	db 5, PIDGEY
-	db 7, BUTTERFREE
+	db 7, STINGMON
 	db 7, TERRIERMON
 	db 4, PIKACHU
 	db 4, PIKACHU
@@ -205,7 +205,7 @@ KantoGrassWildMons:
 	db 3, MINOMON
 	db 3, PIDGEY
 	db 5, PIDGEY
-	db 7, BUTTERFREE
+	db 7, STINGMON
 	db 7, PIDGEOTTO
 	db 4, PIKACHU
 	db 4, PIKACHU
@@ -685,16 +685,16 @@ KantoGrassWildMons:
 	db 12, WORMMON
 	db 12, ABRA
 	db 10, LALAMON
-	db 14, BUTTERFREE
-	db 14, BUTTERFREE
+	db 14, STINGMON
+	db 14, STINGMON
 	; day
 	db 8, MINOMON
 	db 12, SUNKERN
 	db 10, MINOMON
 	db 12, ABRA
 	db 10, LALAMON
-	db 14, BUTTERFREE
-	db 14, BUTTERFREE
+	db 14, STINGMON
+	db 14, STINGMON
 	; nite
 	db 10, KUNEMON
 	db 10, GOBLIMON
@@ -712,16 +712,16 @@ KantoGrassWildMons:
 	db 12, PIDGEOTTO
 	db 12, WORMMON
 	db 10, LALAMON
-	db 14, BUTTERFREE
-	db 14, BUTTERFREE
+	db 14, STINGMON
+	db 14, STINGMON
 	; day
 	db 10, MINOMON
 	db 10, PIDGEY
 	db 12, PIDGEOTTO
 	db 12, WORMMON
 	db 10, LALAMON
-	db 14, BUTTERFREE
-	db 14, BUTTERFREE
+	db 14, STINGMON
+	db 14, STINGMON
 	; nite
 	db 10, GOBLIMON
 	db 10, POROMON

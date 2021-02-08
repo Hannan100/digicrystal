@@ -4,7 +4,7 @@ ContestMons:
 	db 20, MOTIMON,      7, 18
 	db 10, WORMMON,     9, 18
 	db 10, TENTOMON,      9, 18
-	db  5, BUTTERFREE, 12, 15
+	db  5, STINGMON, 12, 15
 	db  5, BEEDRILL,   12, 15
 	db 10, KUNEMON,    10, 16
 	db 10, MUSHROOMON,      10, 17

@@ -10,7 +10,7 @@ AnimationIdlePointers:
 	dw BlastoiseAnimationIdle
 	dw MinomonAnimationIdle
 	dw WormmonAnimationIdle
-	dw ButterfreeAnimationIdle
+	dw StingmonAnimationIdle
 	dw MotimonAnimationIdle
 	dw TentomonAnimationIdle
 	dw BeedrillAnimationIdle

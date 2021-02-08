@@ -11,7 +11,7 @@ PokedexDataPointerTable:
 	dw BlastoisePokedexEntry
 	dw MinomonPokedexEntry
 	dw WormmonPokedexEntry
-	dw ButterfreePokedexEntry
+	dw StingmonPokedexEntry
 	dw MotimonPokedexEntry
 	dw TentomonPokedexEntry
 	dw BeedrillPokedexEntry

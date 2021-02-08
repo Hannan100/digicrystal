@@ -3,7 +3,7 @@
 AsleepTreeMonsNite:
 	db MINOMON
 	db WORMMON
-	db BUTTERFREE
+	db STINGMON
 	db MOTIMON
 	db TENTOMON
 	db BEEDRILL

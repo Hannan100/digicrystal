@@ -10,7 +10,7 @@ FramesPointers:
 	dw BlastoiseFrames
 	dw MinomonFrames
 	dw WormmonFrames
-	dw ButterfreeFrames
+	dw StingmonFrames
 	dw MotimonFrames
 	dw TentomonFrames
 	dw BeedrillFrames

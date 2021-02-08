@@ -31,7 +31,7 @@ INCBIN "gfx/footprints/wartortle.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/blastoise.1bpp",  footprint_top
 INCBIN "gfx/footprints/minomon.1bpp",   footprint_top
 INCBIN "gfx/footprints/wormmon.1bpp",    footprint_top
-INCBIN "gfx/footprints/butterfree.1bpp", footprint_top
+INCBIN "gfx/footprints/stingmon.1bpp", footprint_top
 INCBIN "gfx/footprints/motimon.1bpp",     footprint_top
 INCBIN "gfx/footprints/tentomon.1bpp",     footprint_top
 INCBIN "gfx/footprints/beedrill.1bpp",   footprint_top
@@ -40,7 +40,7 @@ INCBIN "gfx/footprints/pidgey.1bpp",     footprint_top
 INCBIN "gfx/footprints/blastoise.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/minomon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/wormmon.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/butterfree.1bpp", footprint_bottom
+INCBIN "gfx/footprints/stingmon.1bpp", footprint_bottom
 INCBIN "gfx/footprints/motimon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/tentomon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/beedrill.1bpp",   footprint_bottom

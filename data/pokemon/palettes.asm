@@ -40,8 +40,8 @@ INCLUDE "gfx/pokemon/minomon/shiny.pal"
 INCBIN "gfx/pokemon/wormmon/front.gbcpal", middle_colors
 >>>>>>> pret/master
 INCLUDE "gfx/pokemon/wormmon/shiny.pal"
-INCBIN "gfx/pokemon/butterfree/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/butterfree/shiny.pal"
+INCBIN "gfx/pokemon/stingmon/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/stingmon/shiny.pal"
 INCBIN "gfx/pokemon/motimon/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/motimon/shiny.pal"
 INCBIN "gfx/pokemon/tentomon/front.gbcpal", middle_colors

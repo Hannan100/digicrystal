@@ -10,7 +10,7 @@ AnimationPointers:
 	dw BlastoiseAnimation
 	dw MinomonAnimation
 	dw WormmonAnimation
-	dw ButterfreeAnimation
+	dw StingmonAnimation
 	dw MotimonAnimation
 	dw TentomonAnimation
 	dw BeedrillAnimation

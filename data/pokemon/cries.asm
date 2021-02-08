@@ -17,7 +17,7 @@ PokemonCries::
 	mon_cry CRY_BLASTOISE,   $000,  $100 ; BLASTOISE
 	mon_cry CRY_MINOMON,    $080,  $0a0 ; MINOMON
 	mon_cry CRY_WORMMON,     $0cc,  $081 ; WORMMON
-	mon_cry CRY_MINOMON,    $077,  $0c0 ; BUTTERFREE
+	mon_cry CRY_MINOMON,    $077,  $0c0 ; STINGMON
 	mon_cry CRY_MOTIMON,      $0ee,  $081 ; MOTIMON
 	mon_cry CRY_BLASTOISE,   $0ff,  $081 ; TENTOMON
 	mon_cry CRY_BLASTOISE,   $060,  $100 ; BEEDRILL
@@ -273,7 +273,7 @@ PokemonCries::
 	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
 	mon_cry CRY_MINOMON,    128,  160 ; MINOMON
 	mon_cry CRY_WORMMON,     204,  129 ; WORMMON
-	mon_cry CRY_MINOMON,    119,  192 ; BUTTERFREE
+	mon_cry CRY_MINOMON,    119,  192 ; STINGMON
 	mon_cry CRY_MOTIMON,      238,  129 ; MOTIMON
 	mon_cry CRY_BLASTOISE,   255,  129 ; TENTOMON
 	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL

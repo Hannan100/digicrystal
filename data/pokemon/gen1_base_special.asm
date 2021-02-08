@@ -12,7 +12,7 @@ KantoMonSpecials:
 	db  85 ; BLASTOISE
 	db  20 ; MINOMON
 	db  25 ; WORMMON
-	db  80 ; BUTTERFREE
+	db  80 ; STINGMON
 	db  20 ; MOTIMON
 	db  25 ; TENTOMON
 	db  45 ; BEEDRILL

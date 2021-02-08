@@ -30,7 +30,7 @@
 	const BLASTOISE  ; 09
 	const MINOMON   ; 0a
 	const WORMMON    ; 0b
-	const BUTTERFREE ; 0c
+	const STINGMON ; 0c
 	const MOTIMON     ; 0d
 	const TENTOMON     ; 0e
 	const BEEDRILL   ; 0f

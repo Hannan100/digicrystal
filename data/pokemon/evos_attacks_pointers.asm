@@ -12,7 +12,7 @@ EvosAttacksPointers::
 	dw BlastoiseEvosAttacks
 	dw MinomonEvosAttacks
 	dw WormmonEvosAttacks
-	dw ButterfreeEvosAttacks
+	dw StingmonEvosAttacks
 	dw MotimonEvosAttacks
 	dw TentomonEvosAttacks
 	dw BeedrillEvosAttacks

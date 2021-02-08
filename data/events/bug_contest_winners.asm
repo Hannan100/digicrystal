@@ -26,25 +26,25 @@ BugContestant_BugCatcherDon:
 
 BugContestant_BugCatcherEd:
 	db BUG_CATCHER, ED
-	dbw BUTTERFREE, 286
-	dbw BUTTERFREE, 251
+	dbw STINGMON, 286
+	dbw STINGMON, 251
 	dbw WORMMON,   237
 
 BugContestant_CooltrainerMNick:
 	db COOLTRAINERM, NICK
 	dbw SCYTHER,    357
-	dbw BUTTERFREE, 349
+	dbw STINGMON, 349
 	dbw PINSIR,     368
 
 BugContestant_PokefanMWilliam:
 	db POKEFANM, WILLIAM
 	dbw PINSIR,     332
-	dbw BUTTERFREE, 324
+	dbw STINGMON, 324
 	dbw KUNEMON,    321
 
 BugContestant_BugCatcherBenny:
 	db BUG_CATCHER, BUG_CATCHER_BENNY
-	dbw BUTTERFREE, 318
+	dbw STINGMON, 318
 	dbw MOTIMON,     295
 	dbw WORMMON,   285
 
@@ -56,14 +56,14 @@ BugContestant_CamperBarry:
 
 BugContestant_PicnickerCindy:
 	db PICNICKER, CINDY
-	dbw BUTTERFREE, 341
+	dbw STINGMON, 341
 	dbw WORMMON,    301
 	dbw WORMMON,   264
 
 BugContestant_BugCatcherJosh:
 	db BUG_CATCHER, JOSH
 	dbw SCYTHER,    326
-	dbw BUTTERFREE, 292
+	dbw STINGMON, 292
 	dbw WORMMON,    282
 
 BugContestant_YoungsterSamuel:

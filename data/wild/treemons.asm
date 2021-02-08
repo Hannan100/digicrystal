@@ -111,7 +111,7 @@ TreeMonSet_Forest:
 	db 15, FANBEEMON,     10
 	db 15, FANBEEMON,     10
 	db 10, HAWKMON,    10
-	db  5, BUTTERFREE, 10
+	db  5, STINGMON, 10
 	db  5, BEEDRILL,   10
 	db -1
 ; rare

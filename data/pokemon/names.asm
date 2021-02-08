@@ -10,7 +10,7 @@ PokemonNames::
 	db "BLASTOISE@"
 	db "MINOMON@@@" ; Minomon
 	db "WORMMON@@@" ; !Stingmon
-	db "BUTTERFREE" ; !Armor evo
+	db "STINGMON" ; !Armor evo
 	db "MOTIMON@@@@" ; !Armor evo
 	db "TENTOMON@@@@"
 	db "BEEDRILL@@"

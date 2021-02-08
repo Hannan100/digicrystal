@@ -24,8 +24,8 @@ PokemonPicPointers::
 	dba_pic MinomonBackpic
 	dba_pic WormmonFrontpic
 	dba_pic WormmonBackpic
-	dba_pic ButterfreeFrontpic
-	dba_pic ButterfreeBackpic
+	dba_pic StingmonFrontpic
+	dba_pic StingmonBackpic
 	dba_pic MotimonFrontpic
 	dba_pic MotimonBackpic
 	dba_pic TentomonFrontpic

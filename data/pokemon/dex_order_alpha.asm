@@ -18,7 +18,7 @@ AlphabeticalPokedexOrder:
 	db BLASTOISE
 	db BLISSEY
 	db NYOKOMON
-	db BUTTERFREE
+	db STINGMON
 	db MINOMON
 	db CELEBI
 	db CHANSEY
