@@ -96,7 +96,7 @@ FramesPointers:
 	dw ArmdilomonFrames
 	dw TapirmonFrames
 	dw HypnoFrames
-	dw KrabbyFrames
+	dw CrabmonFrames
 	dw KinglerFrames
 	dw VoltorbFrames
 	dw ElectrodeFrames

@@ -164,7 +164,7 @@ NewPokedexOrder:
 	db QWILFISH
 	db TENTACOOL
 	db TENTACRUEL
-	db KRABBY
+	db CRABMON
 	db KINGLER
 	db SHUCKLE
 	db STARYU

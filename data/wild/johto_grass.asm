@@ -815,26 +815,26 @@ JohtoGrassWildMons:
 	map_id WHIRL_ISLAND_NW
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, KRABBY
+	db 22, CRABMON
 	db 23, PAGUMON
 	db 22, SEEL
-	db 24, KRABBY
+	db 24, CRABMON
 	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; day
-	db 22, KRABBY
+	db 22, CRABMON
 	db 23, PAGUMON
 	db 22, SEEL
-	db 24, KRABBY
+	db 24, CRABMON
 	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; nite
-	db 22, KRABBY
+	db 22, CRABMON
 	db 23, PAGUMON
-	db 22, KRABBY
-	db 24, KRABBY
+	db 22, CRABMON
+	db 24, CRABMON
 	db 25, DEMDEVIMON
 	db 24, DEMDEVIMON
 	db 24, DEMDEVIMON
@@ -842,26 +842,26 @@ JohtoGrassWildMons:
 	map_id WHIRL_ISLAND_NE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, KRABBY
+	db 22, CRABMON
 	db 23, PAGUMON
 	db 22, SEEL
-	db 24, KRABBY
+	db 24, CRABMON
 	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; day
-	db 22, KRABBY
+	db 22, CRABMON
 	db 23, PAGUMON
 	db 22, SEEL
-	db 24, KRABBY
+	db 24, CRABMON
 	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; nite
-	db 22, KRABBY
+	db 22, CRABMON
 	db 23, PAGUMON
-	db 22, KRABBY
-	db 24, KRABBY
+	db 22, CRABMON
+	db 24, CRABMON
 	db 25, DEMDEVIMON
 	db 24, DEMDEVIMON
 	db 24, DEMDEVIMON
@@ -869,26 +869,26 @@ JohtoGrassWildMons:
 	map_id WHIRL_ISLAND_SW
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, KRABBY
+	db 22, CRABMON
 	db 23, PAGUMON
 	db 22, SEEL
-	db 24, KRABBY
+	db 24, CRABMON
 	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; day
-	db 22, KRABBY
+	db 22, CRABMON
 	db 23, PAGUMON
 	db 22, SEEL
-	db 24, KRABBY
+	db 24, CRABMON
 	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; nite
-	db 22, KRABBY
+	db 22, CRABMON
 	db 23, PAGUMON
-	db 22, KRABBY
-	db 24, KRABBY
+	db 22, CRABMON
+	db 24, CRABMON
 	db 25, DEMDEVIMON
 	db 24, DEMDEVIMON
 	db 24, DEMDEVIMON
@@ -896,26 +896,26 @@ JohtoGrassWildMons:
 	map_id WHIRL_ISLAND_CAVE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, KRABBY
+	db 22, CRABMON
 	db 23, PAGUMON
 	db 22, SEEL
-	db 24, KRABBY
+	db 24, CRABMON
 	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; day
-	db 22, KRABBY
+	db 22, CRABMON
 	db 23, PAGUMON
 	db 22, SEEL
-	db 24, KRABBY
+	db 24, CRABMON
 	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; nite
-	db 22, KRABBY
+	db 22, CRABMON
 	db 23, PAGUMON
-	db 22, KRABBY
-	db 24, KRABBY
+	db 22, CRABMON
+	db 24, CRABMON
 	db 25, DEMDEVIMON
 	db 24, DEMDEVIMON
 	db 24, DEMDEVIMON
@@ -923,26 +923,26 @@ JohtoGrassWildMons:
 	map_id WHIRL_ISLAND_SE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, KRABBY
+	db 22, CRABMON
 	db 23, PAGUMON
 	db 22, SEEL
-	db 24, KRABBY
+	db 24, CRABMON
 	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; day
-	db 22, KRABBY
+	db 22, CRABMON
 	db 23, PAGUMON
 	db 22, SEEL
-	db 24, KRABBY
+	db 24, CRABMON
 	db 25, DEMDEVIMON
 	db 24, SEEL
 	db 24, SEEL
 	; nite
-	db 22, KRABBY
+	db 22, CRABMON
 	db 23, PAGUMON
-	db 22, KRABBY
-	db 24, KRABBY
+	db 22, CRABMON
+	db 24, CRABMON
 	db 25, DEMDEVIMON
 	db 24, DEMDEVIMON
 	db 24, DEMDEVIMON
@@ -950,26 +950,26 @@ JohtoGrassWildMons:
 	map_id WHIRL_ISLAND_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, KRABBY
+	db 23, CRABMON
 	db 24, PAGUMON
 	db 23, SEEL
-	db 25, KRABBY
+	db 25, CRABMON
 	db 26, DEMDEVIMON
 	db 25, SEEL
 	db 25, SEEL
 	; day
-	db 23, KRABBY
+	db 23, CRABMON
 	db 24, PAGUMON
 	db 23, SEEL
-	db 25, KRABBY
+	db 25, CRABMON
 	db 26, DEMDEVIMON
 	db 25, SEEL
 	db 25, SEEL
 	; nite
-	db 23, KRABBY
+	db 23, CRABMON
 	db 24, PAGUMON
-	db 23, KRABBY
-	db 25, KRABBY
+	db 23, CRABMON
+	db 25, CRABMON
 	db 26, DEMDEVIMON
 	db 25, DEMDEVIMON
 	db 25, DEMDEVIMON
@@ -977,26 +977,26 @@ JohtoGrassWildMons:
 	map_id WHIRL_ISLAND_B2F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 24, KRABBY
+	db 24, CRABMON
 	db 25, PAGUMON
 	db 24, SEEL
-	db 26, KRABBY
+	db 26, CRABMON
 	db 27, DEMDEVIMON
 	db 26, SEEL
 	db 26, SEEL
 	; day
-	db 24, KRABBY
+	db 24, CRABMON
 	db 25, PAGUMON
 	db 24, SEEL
-	db 26, KRABBY
+	db 26, CRABMON
 	db 27, DEMDEVIMON
 	db 26, SEEL
 	db 26, SEEL
 	; nite
-	db 24, KRABBY
+	db 24, CRABMON
 	db 25, PAGUMON
-	db 24, KRABBY
-	db 26, KRABBY
+	db 24, CRABMON
+	db 26, CRABMON
 	db 27, DEMDEVIMON
 	db 26, DEMDEVIMON
 	db 26, DEMDEVIMON
@@ -1004,26 +1004,26 @@ JohtoGrassWildMons:
 	map_id WHIRL_ISLAND_LUGIA_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 25, KRABBY
+	db 25, CRABMON
 	db 26, PAGUMON
 	db 25, SEEL
-	db 27, KRABBY
+	db 27, CRABMON
 	db 28, DEMDEVIMON
 	db 27, SEEL
 	db 27, SEEL
 	; day
-	db 25, KRABBY
+	db 25, CRABMON
 	db 26, PAGUMON
 	db 25, SEEL
-	db 27, KRABBY
+	db 27, CRABMON
 	db 28, DEMDEVIMON
 	db 27, SEEL
 	db 27, SEEL
 	; nite
-	db 25, KRABBY
+	db 25, CRABMON
 	db 26, PAGUMON
-	db 25, KRABBY
-	db 27, KRABBY
+	db 25, CRABMON
+	db 27, CRABMON
 	db 28, DEMDEVIMON
 	db 27, DEMDEVIMON
 	db 27, DEMDEVIMON

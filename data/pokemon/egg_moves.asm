@@ -293,7 +293,7 @@ TapirmonEggMoves:
 	db BARRIER
 	db -1 ; end
 
-KrabbyEggMoves:
+CrabmonEggMoves:
 	db DIG
 	db HAZE
 	db AMNESIA

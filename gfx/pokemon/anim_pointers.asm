@@ -96,7 +96,7 @@ AnimationPointers:
 	dw ArmdilomonAnimation
 	dw TapirmonAnimation
 	dw HypnoAnimation
-	dw KrabbyAnimation
+	dw CrabmonAnimation
 	dw KinglerAnimation
 	dw VoltorbAnimation
 	dw ElectrodeAnimation

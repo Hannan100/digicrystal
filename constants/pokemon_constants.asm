@@ -116,7 +116,7 @@
 	const ARMDILOMON       ; 5f
 	const TAPIRMON    ; 60
 	const HYPNO      ; 61
-	const KRABBY     ; 62
+	const CRABMON     ; 62
 	const KINGLER    ; 63
 	const VOLTORB    ; 64
 	const ELECTRODE  ; 65

@@ -31,7 +31,7 @@ Cries:
 	dba Cry_Squirtle
 	dba Cry_Mushroomon
 	dba Cry_Renamon
-	dba Cry_Krabby
+	dba Cry_Crabmon
 	dba Cry_Psyduck
 	dba Cry_Tsunomon
 	dba Cry_Vileplume

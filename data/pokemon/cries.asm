@@ -103,8 +103,8 @@ PokemonCries::
 	mon_cry CRY_GAZIMON,       $0ff,  $140 ; ARMDILOMON
 	mon_cry CRY_TAPIRMON,     $088,  $0a0 ; TAPIRMON
 	mon_cry CRY_TAPIRMON,     $0ee,  $0c0 ; HYPNO
-	mon_cry CRY_KRABBY,      $020,  $160 ; KRABBY
-	mon_cry CRY_KRABBY,      $0ee,  $160 ; KINGLER
+	mon_cry CRY_CRABMON,      $020,  $160 ; CRABMON
+	mon_cry CRY_CRABMON,      $0ee,  $160 ; KINGLER
 	mon_cry CRY_VOLTORB,     $0ed,  $100 ; VOLTORB
 	mon_cry CRY_VOLTORB,     $0a8,  $110 ; ELECTRODE
 	mon_cry CRY_DIGLETT,     $000,  $100 ; CHUUMON
@@ -127,7 +127,7 @@ PokemonCries::
 	mon_cry CRY_MINOMON,    $010,  $17f ; SEAKING
 	mon_cry CRY_MUSHROOMON,       $002,  $0a0 ; STARYU
 	mon_cry CRY_MUSHROOMON,       $000,  $100 ; STARMIE
-	mon_cry CRY_KRABBY,      $008,  $0c0 ; MR__MIME
+	mon_cry CRY_CRABMON,      $008,  $0c0 ; MR__MIME
 	mon_cry CRY_MINOMON,    $000,  $100 ; SCYTHER
 	mon_cry CRY_TAPIRMON,     $0ff,  $17f ; JYNX
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; ELECTABUZZ
@@ -359,8 +359,8 @@ PokemonCries::
 	mon_cry CRY_GAZIMON,       255,  320 ; ARMDILOMON
 	mon_cry CRY_TAPIRMON,     136,  160 ; TAPIRMON
 	mon_cry CRY_TAPIRMON,     238,  192 ; HYPNO
-	mon_cry CRY_KRABBY,       32,  352 ; KRABBY
-	mon_cry CRY_KRABBY,      238,  352 ; KINGLER
+	mon_cry CRY_CRABMON,       32,  352 ; CRABMON
+	mon_cry CRY_CRABMON,      238,  352 ; KINGLER
 	mon_cry CRY_VOLTORB,     237,  256 ; VOLTORB
 	mon_cry CRY_VOLTORB,     168,  272 ; ELECTRODE
 	mon_cry CRY_DIGLETT,       0,  256 ; CHUUMON
@@ -383,7 +383,7 @@ PokemonCries::
 	mon_cry CRY_MINOMON,     16,  383 ; SEAKING
 	mon_cry CRY_MUSHROOMON,         2,  160 ; STARYU
 	mon_cry CRY_MUSHROOMON,         0,  256 ; STARMIE
-	mon_cry CRY_KRABBY,        8,  192 ; MR__MIME
+	mon_cry CRY_CRABMON,        8,  192 ; MR__MIME
 	mon_cry CRY_MINOMON,      0,  256 ; SCYTHER
 	mon_cry CRY_TAPIRMON,     255,  383 ; JYNX
 	mon_cry CRY_VOLTORB,     143,  383 ; ELECTABUZZ

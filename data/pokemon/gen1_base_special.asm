@@ -98,7 +98,7 @@ KantoMonSpecials:
 	db  30 ; ARMDILOMON
 	db  90 ; TAPIRMON
 	db 115 ; HYPNO
-	db  25 ; KRABBY
+	db  25 ; CRABMON
 	db  50 ; KINGLER
 	db  55 ; VOLTORB
 	db  80 ; ELECTRODE

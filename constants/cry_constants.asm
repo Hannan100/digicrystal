@@ -34,7 +34,7 @@
 	const CRY_SQUIRTLE
 	const CRY_MUSHROOMON
 	const CRY_RENAMON
-	const CRY_KRABBY
+	const CRY_CRABMON
 	const CRY_PSYDUCK
 	const CRY_TSUNOMON
 	const CRY_VILEPLUME

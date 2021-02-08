@@ -96,7 +96,7 @@ PokemonNames::
 	db "ARMDILOMON@@@@@@"
 	db "TAPIRMON@@@"
 	db "HYPNO@@@@@"
-	db "KRABBY@@@@"
+	db "CRABMON@@@@"
 	db "KINGLER@@@"
 	db "VOLTORB@@@"
 	db "ELECTRODE@"

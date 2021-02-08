@@ -97,7 +97,7 @@ PokedexDataPointerTable:
 	dw ArmdilomonPokedexEntry
 	dw TapirmonPokedexEntry
 	dw HypnoPokedexEntry
-	dw KrabbyPokedexEntry
+	dw CrabmonPokedexEntry
 	dw KinglerPokedexEntry
 	dw VoltorbPokedexEntry
 	dw ElectrodePokedexEntry

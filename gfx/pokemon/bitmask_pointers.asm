@@ -96,7 +96,7 @@ BitmasksPointers:
 	dw ArmdilomonBitmasks
 	dw TapirmonBitmasks
 	dw HypnoBitmasks
-	dw KrabbyBitmasks
+	dw CrabmonBitmasks
 	dw KinglerBitmasks
 	dw VoltorbBitmasks
 	dw ElectrodeBitmasks
