@@ -132,3 +132,5 @@ for filename in FILES_TO_MOVE:
     print("Moving " + filename)
     os.makedirs(os.path.dirname( filename.replace(OLD_NAME, NEW_NAME)), exist_ok=True)
     os.replace(filename, filename.replace(OLD_NAME, NEW_NAME))
+
+    # TODO: Edit all inserted back sprites to 48x48 😞
