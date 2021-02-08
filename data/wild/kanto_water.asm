@@ -4,7 +4,7 @@ KantoWaterWildMons:
 
 	map_id TOHJO_FALLS
 	db 4 percent ; encounter rate
-	db 20, GOLDEEN
+	db 20, GIZAMON
 	db 20, OTAMAMON
 	db 20, SEAKING
 
@@ -16,8 +16,8 @@ KantoWaterWildMons:
 
 	map_id ROUTE_4
 	db 4 percent ; encounter rate
-	db 10, GOLDEEN
-	db 5, GOLDEEN
+	db 10, GIZAMON
+	db 5, GIZAMON
 	db 10, SEAKING
 
 	map_id ROUTE_6
@@ -28,14 +28,14 @@ KantoWaterWildMons:
 
 	map_id ROUTE_9
 	db 4 percent ; encounter rate
-	db 15, GOLDEEN
-	db 10, GOLDEEN
+	db 15, GIZAMON
+	db 10, GIZAMON
 	db 15, SEAKING
 
 	map_id ROUTE_10_NORTH
 	db 4 percent ; encounter rate
-	db 15, GOLDEEN
-	db 10, GOLDEEN
+	db 15, GIZAMON
+	db 10, GIZAMON
 	db 15, SEAKING
 
 	map_id ROUTE_12
@@ -76,14 +76,14 @@ KantoWaterWildMons:
 
 	map_id ROUTE_24
 	db 4 percent ; encounter rate
-	db 10, GOLDEEN
-	db 5, GOLDEEN
+	db 10, GIZAMON
+	db 5, GIZAMON
 	db 10, SEAKING
 
 	map_id ROUTE_25
 	db 4 percent ; encounter rate
-	db 10, GOLDEEN
-	db 5, GOLDEEN
+	db 10, GIZAMON
+	db 5, GIZAMON
 	db 10, SEAKING
 
 	map_id ROUTE_26
@@ -118,8 +118,8 @@ KantoWaterWildMons:
 
 	map_id CERULEAN_CITY
 	db 4 percent ; encounter rate
-	db 10, GOLDEEN
-	db 5, GOLDEEN
+	db 10, GIZAMON
+	db 5, GIZAMON
 	db 10, SEAKING
 
 	map_id VERMILION_CITY

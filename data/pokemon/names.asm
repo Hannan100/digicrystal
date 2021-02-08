@@ -116,7 +116,7 @@ PokemonNames::
 	db "KANGASKHAN"
 	db "HORSEA@@@@"
 	db "SEADRA@@@@"
-	db "GOLDEEN@@@"
+	db "GIZAMON@@@"
 	db "SEAKING@@@"
 	db "STARYU@@@@"
 	db "STARMIE@@@"

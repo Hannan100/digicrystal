@@ -72,7 +72,7 @@ AlphabeticalPokedexOrder:
 	db GLIGAR
 	db GLOOM
 	db DEMDEVIMON
-	db GOLDEEN
+	db GIZAMON
 	db GOLDUCK
 	db GOLEM
 	db GRANBULL

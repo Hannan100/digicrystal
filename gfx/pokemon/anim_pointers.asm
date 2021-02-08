@@ -116,7 +116,7 @@ AnimationPointers:
 	dw KangaskhanAnimation
 	dw HorseaAnimation
 	dw SeadraAnimation
-	dw GoldeenAnimation
+	dw GizamonAnimation
 	dw SeakingAnimation
 	dw StaryuAnimation
 	dw StarmieAnimation

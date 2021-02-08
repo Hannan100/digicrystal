@@ -374,7 +374,7 @@ HorseaEggMoves:
 	db DRAGON_RAGE
 	db -1 ; end
 
-GoldeenEggMoves:
+GizamonEggMoves:
 	db PSYBEAM
 	db HAZE
 	db HYDRO_PUMP

@@ -123,7 +123,7 @@ PokemonCries::
 	mon_cry CRY_KANGASKHAN,  $000,  $100 ; KANGASKHAN
 	mon_cry CRY_CLEFAIRY,    $099,  $090 ; HORSEA
 	mon_cry CRY_CLEFAIRY,    $03c,  $081 ; SEADRA
-	mon_cry CRY_MINOMON,    $080,  $0c0 ; GOLDEEN
+	mon_cry CRY_MINOMON,    $080,  $0c0 ; GIZAMON
 	mon_cry CRY_MINOMON,    $010,  $17f ; SEAKING
 	mon_cry CRY_MUSHROOMON,       $002,  $0a0 ; STARYU
 	mon_cry CRY_MUSHROOMON,       $000,  $100 ; STARMIE
@@ -379,7 +379,7 @@ PokemonCries::
 	mon_cry CRY_KANGASKHAN,    0,  256 ; KANGASKHAN
 	mon_cry CRY_CLEFAIRY,    153,  144 ; HORSEA
 	mon_cry CRY_CLEFAIRY,     60,  129 ; SEADRA
-	mon_cry CRY_MINOMON,    128,  192 ; GOLDEEN
+	mon_cry CRY_MINOMON,    128,  192 ; GIZAMON
 	mon_cry CRY_MINOMON,     16,  383 ; SEAKING
 	mon_cry CRY_MUSHROOMON,         2,  160 ; STARYU
 	mon_cry CRY_MUSHROOMON,         0,  256 ; STARMIE

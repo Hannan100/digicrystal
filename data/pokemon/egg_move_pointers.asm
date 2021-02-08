@@ -116,7 +116,7 @@ EggMovePointers::
 	dw KangaskhanEggMoves
 	dw HorseaEggMoves
 	dw NoEggMoves
-	dw GoldeenEggMoves
+	dw GizamonEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

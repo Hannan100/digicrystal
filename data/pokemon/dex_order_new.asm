@@ -78,7 +78,7 @@ NewPokedexOrder:
 	db POLITOED
 	db MAGIKARP
 	db GYARADOS
-	db GOLDEEN
+	db GIZAMON
 	db SEAKING
 	db OTAMAMON
 	db SLOWBRO
