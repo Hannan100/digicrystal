@@ -101,7 +101,7 @@ FramesPointers:
 	dw VoltorbFrames
 	dw ElectrodeFrames
 	dw ChuumonFrames
-	dw ExeggutorFrames
+	dw DigmonFrames
 	dw CuboneFrames
 	dw MarowakFrames
 	dw HitmonleeFrames

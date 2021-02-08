@@ -103,7 +103,7 @@ KantoMonSpecials:
 	db  55 ; VOLTORB
 	db  80 ; ELECTRODE
 	db  60 ; CHUUMON
-	db 125 ; EXEGGUTOR
+	db 125 ; DIGMON
 	db  40 ; CUBONE
 	db  50 ; MAROWAK
 	db  35 ; HITMONLEE

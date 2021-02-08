@@ -103,7 +103,7 @@ EvosAttacksPointers::
 	dw VoltorbEvosAttacks
 	dw ElectrodeEvosAttacks
 	dw ChuumonEvosAttacks
-	dw ExeggutorEvosAttacks
+	dw DigmonEvosAttacks
 	dw CuboneEvosAttacks
 	dw MarowakEvosAttacks
 	dw HitmonleeEvosAttacks

@@ -206,8 +206,8 @@ PokemonPicPointers::
 	dba_pic ElectrodeBackpic
 	dba_pic ChuumonFrontpic
 	dba_pic ChuumonBackpic
-	dba_pic ExeggutorFrontpic
-	dba_pic ExeggutorBackpic
+	dba_pic DigmonFrontpic
+	dba_pic DigmonBackpic
 	dba_pic CuboneFrontpic
 	dba_pic CuboneBackpic
 	dba_pic MarowakFrontpic

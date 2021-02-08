@@ -105,7 +105,7 @@ NewPokedexOrder:
 	db SUNKERN
 	db SUNFLORA
 	db CHUUMON
-	db EXEGGUTOR
+	db DIGMON
 	db SUDOWOODO
 	db WOBBUFFET
 	db KUNEMON

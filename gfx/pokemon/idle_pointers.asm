@@ -101,7 +101,7 @@ AnimationIdlePointers:
 	dw VoltorbAnimationIdle
 	dw ElectrodeAnimationIdle
 	dw ChuumonAnimationIdle
-	dw ExeggutorAnimationIdle
+	dw DigmonAnimationIdle
 	dw CuboneAnimationIdle
 	dw MarowakAnimationIdle
 	dw HitmonleeAnimationIdle

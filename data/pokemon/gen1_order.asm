@@ -8,7 +8,7 @@ Pokered_MonIndices:
 	db NIDOKING
 	db SLOWBRO
 	db PUNIMON
-	db EXEGGUTOR
+	db DIGMON
 	db LICKITUNG
 	db CHUUMON
 	db GRIMER

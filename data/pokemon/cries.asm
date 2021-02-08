@@ -108,7 +108,7 @@ PokemonCries::
 	mon_cry CRY_VOLTORB,     $0ed,  $100 ; VOLTORB
 	mon_cry CRY_VOLTORB,     $0a8,  $110 ; ELECTRODE
 	mon_cry CRY_DIGLETT,     $000,  $100 ; CHUUMON
-	mon_cry CRY_TAPIRMON,     $000,  $100 ; EXEGGUTOR
+	mon_cry CRY_TAPIRMON,     $000,  $100 ; DIGMON
 	mon_cry CRY_CLEFAIRY,    $000,  $100 ; CUBONE
 	mon_cry CRY_GOBLIMON,      $04f,  $0e0 ; MAROWAK
 	mon_cry CRY_GOLEM,       $080,  $140 ; HITMONLEE
@@ -364,7 +364,7 @@ PokemonCries::
 	mon_cry CRY_VOLTORB,     237,  256 ; VOLTORB
 	mon_cry CRY_VOLTORB,     168,  272 ; ELECTRODE
 	mon_cry CRY_DIGLETT,       0,  256 ; CHUUMON
-	mon_cry CRY_TAPIRMON,       0,  256 ; EXEGGUTOR
+	mon_cry CRY_TAPIRMON,       0,  256 ; DIGMON
 	mon_cry CRY_CLEFAIRY,      0,  256 ; CUBONE
 	mon_cry CRY_GOBLIMON,       79,  224 ; MAROWAK
 	mon_cry CRY_GOLEM,       128,  320 ; HITMONLEE
