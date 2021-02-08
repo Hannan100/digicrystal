@@ -115,7 +115,7 @@
 	const KRYSALIMON     ; 5e
 	const ARMDILOMON       ; 5f
 	const TAPIRMON    ; 60
-	const HYPNO      ; 61
+	const BOARMON      ; 61
 	const CRABMON     ; 62
 	const KINGLER    ; 63
 	const VOLTORB    ; 64

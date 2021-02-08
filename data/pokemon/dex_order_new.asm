@@ -88,7 +88,7 @@ NewPokedexOrder:
 	db VILEPLUME
 	db BELLOSSOM
 	db TAPIRMON
-	db HYPNO
+	db BOARMON
 	db ABRA
 	db KADABRA
 	db ALAKAZAM

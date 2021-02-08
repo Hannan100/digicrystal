@@ -458,8 +458,8 @@ KantoGrassWildMons:
 	db 15, HAGURUMON
 	db 16, HAWKMON
 	db 16, GABUMON
-	db 16, HYPNO
-	db 16, HYPNO
+	db 16, BOARMON
+	db 16, BOARMON
 
 	map_id ROUTE_13
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

@@ -95,7 +95,7 @@ AnimationIdlePointers:
 	dw KrysalimonAnimationIdle
 	dw ArmdilomonAnimationIdle
 	dw TapirmonAnimationIdle
-	dw HypnoAnimationIdle
+	dw BoarmonAnimationIdle
 	dw CrabmonAnimationIdle
 	dw KinglerAnimationIdle
 	dw VoltorbAnimationIdle

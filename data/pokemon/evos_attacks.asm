@@ -795,7 +795,7 @@ BetamonEvosAttacks:
 	db EVOLVE_LEVEL, 25, POLIWHIRL
 	db 0 ; no more evolutions
 	db 1, BUBBLE
-	db 7, HYPNOSIS
+	db 7, BOARMONSIS
 	db 13, WATER_GUN
 	db 19, DOUBLESLAP
 	db 25, RAIN_DANCE
@@ -809,9 +809,9 @@ PoliwhirlEvosAttacks:
 	db EVOLVE_TRADE, KINGS_ROCK, POLITOED
 	db 0 ; no more evolutions
 	db 1, BUBBLE
-	db 1, HYPNOSIS
+	db 1, BOARMONSIS
 	db 1, WATER_GUN
-	db 7, HYPNOSIS
+	db 7, BOARMONSIS
 	db 13, WATER_GUN
 	db 19, DOUBLESLAP
 	db 27, RAIN_DANCE
@@ -823,7 +823,7 @@ PoliwhirlEvosAttacks:
 PoliwrathEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
-	db 1, HYPNOSIS
+	db 1, BOARMONSIS
 	db 1, DOUBLESLAP
 	db 1, SUBMISSION
 	db 35, SUBMISSION
@@ -1237,7 +1237,7 @@ CloysterEvosAttacks:
 TsumemonEvosAttacks:
 	db EVOLVE_LEVEL, 25, KERAMON
 	db 0 ; no more evolutions
-	db 1, HYPNOSIS
+	db 1, BOARMONSIS
 	db 1, LICK
 	db 8, SPITE
 	db 13, MEAN_LOOK
@@ -1251,7 +1251,7 @@ TsumemonEvosAttacks:
 KeramonEvosAttacks:
 	db EVOLVE_TRADE, -1, KRYSALIMON
 	db 0 ; no more evolutions
-	db 1, HYPNOSIS
+	db 1, BOARMONSIS
 	db 1, LICK
 	db 1, SPITE
 	db 8, SPITE
@@ -1265,7 +1265,7 @@ KeramonEvosAttacks:
 
 KrysalimonEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, HYPNOSIS
+	db 1, BOARMONSIS
 	db 1, LICK
 	db 1, SPITE
 	db 8, SPITE
@@ -1291,10 +1291,10 @@ ArmdilomonEvosAttacks:
 	db 0 ; no more level-up moves
 
 TapirmonEvosAttacks:
-	db EVOLVE_LEVEL, 26, HYPNO
+	db EVOLVE_LEVEL, 26, BOARMON
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 1, HYPNOSIS
+	db 1, BOARMONSIS
 	db 10, DISABLE
 	db 18, CONFUSION
 	db 25, HEADBUTT
@@ -1305,10 +1305,10 @@ TapirmonEvosAttacks:
 	db 45, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
-HypnoEvosAttacks:
+BoarmonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 1, HYPNOSIS
+	db 1, BOARMONSIS
 	db 1, DISABLE
 	db 1, CONFUSION
 	db 10, DISABLE
@@ -1382,7 +1382,7 @@ ChuumonEvosAttacks:
 	db EVOLVE_ITEM, LEAF_STONE, EXEGGUTOR
 	db 0 ; no more evolutions
 	db 1, BARRAGE
-	db 1, HYPNOSIS
+	db 1, BOARMONSIS
 	db 7, REFLECT
 	db 13, LEECH_SEED
 	db 19, CONFUSION
@@ -1395,7 +1395,7 @@ ChuumonEvosAttacks:
 ExeggutorEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BARRAGE
-	db 1, HYPNOSIS
+	db 1, BOARMONSIS
 	db 1, CONFUSION
 	db 19, STOMP
 	db 31, EGG_BOMB
@@ -2223,7 +2223,7 @@ PoromonEvosAttacks:
 	db 1, GROWL
 	db 6, FORESIGHT
 	db 11, PECK
-	db 16, HYPNOSIS
+	db 16, BOARMONSIS
 	db 22, REFLECT
 	db 28, TAKE_DOWN
 	db 34, CONFUSION
@@ -2238,7 +2238,7 @@ HawkmonEvosAttacks:
 	db 1, PECK
 	db 6, FORESIGHT
 	db 11, PECK
-	db 16, HYPNOSIS
+	db 16, BOARMONSIS
 	db 25, REFLECT
 	db 33, TAKE_DOWN
 	db 41, CONFUSION
@@ -2515,7 +2515,7 @@ SudowoodoEvosAttacks:
 PolitoedEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
-	db 1, HYPNOSIS
+	db 1, BOARMONSIS
 	db 1, DOUBLESLAP
 	db 1, PERISH_SONG
 	db 35, PERISH_SONG
@@ -3120,7 +3120,7 @@ StantlerEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 8, LEER
-	db 15, HYPNOSIS
+	db 15, BOARMONSIS
 	db 23, STOMP
 	db 31, SAND_ATTACK
 	db 40, TAKE_DOWN

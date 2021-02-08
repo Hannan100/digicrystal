@@ -96,7 +96,7 @@ PokedexDataPointerTable:
 	dw KrysalimonPokedexEntry
 	dw ArmdilomonPokedexEntry
 	dw TapirmonPokedexEntry
-	dw HypnoPokedexEntry
+	dw BoarmonPokedexEntry
 	dw CrabmonPokedexEntry
 	dw KinglerPokedexEntry
 	dw VoltorbPokedexEntry

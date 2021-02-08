@@ -95,7 +95,7 @@ FramesPointers:
 	dw KrysalimonFrames
 	dw ArmdilomonFrames
 	dw TapirmonFrames
-	dw HypnoFrames
+	dw BoarmonFrames
 	dw CrabmonFrames
 	dw KinglerFrames
 	dw VoltorbFrames

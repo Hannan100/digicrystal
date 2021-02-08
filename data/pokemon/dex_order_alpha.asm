@@ -91,7 +91,7 @@ AlphabeticalPokedexOrder:
 	db HORSEA
 	db HOUNDOOM
 	db HOUNDOUR
-	db HYPNO
+	db BOARMON
 	db IGGLYBUFF
 	db PUNIMON
 	db CANDLEMON

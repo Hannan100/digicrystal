@@ -102,7 +102,7 @@ PokemonCries::
 	mon_cry CRY_MUK,         $000,  $17f ; KRYSALIMON
 	mon_cry CRY_GAZIMON,       $0ff,  $140 ; ARMDILOMON
 	mon_cry CRY_TAPIRMON,     $088,  $0a0 ; TAPIRMON
-	mon_cry CRY_TAPIRMON,     $0ee,  $0c0 ; HYPNO
+	mon_cry CRY_TAPIRMON,     $0ee,  $0c0 ; BOARMON
 	mon_cry CRY_CRABMON,      $020,  $160 ; CRABMON
 	mon_cry CRY_CRABMON,      $0ee,  $160 ; KINGLER
 	mon_cry CRY_VOLTORB,     $0ed,  $100 ; VOLTORB
@@ -358,7 +358,7 @@ PokemonCries::
 	mon_cry CRY_MUK,           0,  383 ; KRYSALIMON
 	mon_cry CRY_GAZIMON,       255,  320 ; ARMDILOMON
 	mon_cry CRY_TAPIRMON,     136,  160 ; TAPIRMON
-	mon_cry CRY_TAPIRMON,     238,  192 ; HYPNO
+	mon_cry CRY_TAPIRMON,     238,  192 ; BOARMON
 	mon_cry CRY_CRABMON,       32,  352 ; CRABMON
 	mon_cry CRY_CRABMON,      238,  352 ; KINGLER
 	mon_cry CRY_VOLTORB,     237,  256 ; VOLTORB

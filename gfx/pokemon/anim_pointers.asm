@@ -95,7 +95,7 @@ AnimationPointers:
 	dw KrysalimonAnimation
 	dw ArmdilomonAnimation
 	dw TapirmonAnimation
-	dw HypnoAnimation
+	dw BoarmonAnimation
 	dw CrabmonAnimation
 	dw KinglerAnimation
 	dw VoltorbAnimation

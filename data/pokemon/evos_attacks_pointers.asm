@@ -97,7 +97,7 @@ EvosAttacksPointers::
 	dw KrysalimonEvosAttacks
 	dw ArmdilomonEvosAttacks
 	dw TapirmonEvosAttacks
-	dw HypnoEvosAttacks
+	dw BoarmonEvosAttacks
 	dw CrabmonEvosAttacks
 	dw KinglerEvosAttacks
 	dw VoltorbEvosAttacks
