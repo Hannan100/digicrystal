@@ -99,7 +99,7 @@ ENDM
 	const BIG_DOLLS
 	deco  BIG_SNORLAX_DOLL
 	deco  BIG_ARMDILOMON_DOLL
-	deco  BIG_LAPRAS_DOLL
+	deco  BIG_SEADRAMON_DOLL
 ; FindOwnedOrnaments.ornaments values (see engine/overworld/decorations.asm)
 	const DOLLS
 	deco  GATOMON_DOLL

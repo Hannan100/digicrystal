@@ -108,7 +108,7 @@ AlphabeticalPokedexOrder:
 	db KOFFING
 	db CRABMON
 	db LANTURN
-	db LAPRAS
+	db SEADRAMON
 	db LARVITAR
 	db TERRIERMON
 	db GUMMYMON

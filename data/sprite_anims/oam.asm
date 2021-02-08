@@ -9,10 +9,10 @@ SpriteAnimOAMData:
 	dbw $6e, .OAMData_GSIntroShellder          ; SPRITE_ANIM_OAMSET_GS_INTRO_SHELLDER_2
 	dbw $2d, .OAMData_GSIntroSwimmon          ; SPRITE_ANIM_OAMSET_GS_INTRO_SWIMMON_1
 	dbw $4d, .OAMData_GSIntroSwimmon          ; SPRITE_ANIM_OAMSET_GS_INTRO_SWIMMON_2
-	dbw $60, .OAMData_GSIntroLapras            ; SPRITE_ANIM_OAMSET_GS_INTRO_UNUSED_LAPRAS
-	dbw $00, .OAMData_GSIntroLapras            ; SPRITE_ANIM_OAMSET_GS_INTRO_LAPRAS_1
-	dbw $00, .OAMData_GSIntroLapras            ; SPRITE_ANIM_OAMSET_GS_INTRO_LAPRAS_2
-	dbw $06, .OAMData_GSIntroLapras            ; SPRITE_ANIM_OAMSET_GS_INTRO_LAPRAS_3
+	dbw $60, .OAMData_GSIntroSeadramon            ; SPRITE_ANIM_OAMSET_GS_INTRO_UNUSED_SEADRAMON
+	dbw $00, .OAMData_GSIntroSeadramon            ; SPRITE_ANIM_OAMSET_GS_INTRO_SEADRAMON_1
+	dbw $00, .OAMData_GSIntroSeadramon            ; SPRITE_ANIM_OAMSET_GS_INTRO_SEADRAMON_2
+	dbw $06, .OAMData_GSIntroSeadramon            ; SPRITE_ANIM_OAMSET_GS_INTRO_SEADRAMON_3
 	dbw $0c, .OAMData_GSIntroNote              ; SPRITE_ANIM_OAMSET_GS_INTRO_NOTE
 	dbw $0d, .OAMData_1x1_Palette0             ; SPRITE_ANIM_OAMSET_GS_INTRO_INVISIBLE_NOTE
 	dbw $00, .OAMData_GSIntroCandlemonGatomon ; SPRITE_ANIM_OAMSET_GS_INTRO_CANDLEMON_1
@@ -395,7 +395,7 @@ SpriteAnimOAMData:
 	dbsprite -1,  0,  4,  0, $11, 1
 	dbsprite  0,  0,  4,  0, $12, 1
 
-.OAMData_GSIntroLapras:
+.OAMData_GSIntroSeadramon:
 	db 29
 	dbsprite -3, -3,  0,  0, $00, 0
 	dbsprite -2, -3,  0,  0, $01, 0

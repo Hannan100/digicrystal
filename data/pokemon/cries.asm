@@ -136,7 +136,7 @@ PokemonCries::
 	mon_cry CRY_GARURUMON,    $011,  $0c0 ; TAUROS
 	mon_cry CRY_GAZIMON,       $080,  $080 ; SWIMMON
 	mon_cry CRY_GAZIMON,       $000,  $100 ; GYARADOS
-	mon_cry CRY_LAPRAS,      $000,  $100 ; LAPRAS
+	mon_cry CRY_SEADRAMON,      $000,  $100 ; SEADRAMON
 	mon_cry CRY_PIDGEY,      $0ff,  $17f ; DITTO
 	mon_cry CRY_KUNEMON,     $088,  $0e0 ; EEVEE
 	mon_cry CRY_KUNEMON,     $0aa,  $17f ; VAPOREON
@@ -392,7 +392,7 @@ PokemonCries::
 	mon_cry CRY_GARURUMON,     17,  192 ; TAUROS
 	mon_cry CRY_GAZIMON,       128,  128 ; SWIMMON
 	mon_cry CRY_GAZIMON,         0,  256 ; GYARADOS
-	mon_cry CRY_LAPRAS,        0,  256 ; LAPRAS
+	mon_cry CRY_SEADRAMON,        0,  256 ; SEADRAMON
 	mon_cry CRY_PIDGEY,      255,  383 ; DITTO
 	mon_cry CRY_KUNEMON,     136,  224 ; EEVEE
 	mon_cry CRY_KUNEMON,     170,  383 ; VAPOREON

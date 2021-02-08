@@ -262,8 +262,8 @@ PokemonPicPointers::
 	dba_pic SwimmonBackpic
 	dba_pic GyaradosFrontpic
 	dba_pic GyaradosBackpic
-	dba_pic LaprasFrontpic
-	dba_pic LaprasBackpic
+	dba_pic SeadramonFrontpic
+	dba_pic SeadramonBackpic
 	dba_pic DittoFrontpic
 	dba_pic DittoBackpic
 	dba_pic EeveeFrontpic

@@ -131,7 +131,7 @@ KantoMonSpecials:
 	db  70 ; TAUROS
 	db  20 ; SWIMMON
 	db 100 ; GYARADOS
-	db  95 ; LAPRAS
+	db  95 ; SEADRAMON
 	db  48 ; DITTO
 	db  65 ; EEVEE
 	db 110 ; VAPOREON

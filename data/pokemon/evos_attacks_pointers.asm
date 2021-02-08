@@ -131,7 +131,7 @@ EvosAttacksPointers::
 	dw TaurosEvosAttacks
 	dw SwimmonEvosAttacks
 	dw GyaradosEvosAttacks
-	dw LaprasEvosAttacks
+	dw SeadramonEvosAttacks
 	dw DittoEvosAttacks
 	dw EeveeEvosAttacks
 	dw VaporeonEvosAttacks

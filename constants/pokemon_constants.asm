@@ -149,7 +149,7 @@
 	const TAUROS     ; 80
 	const SWIMMON   ; 81
 	const GYARADOS   ; 82
-	const LAPRAS     ; 83
+	const SEADRAMON     ; 83
 	const DITTO      ; 84
 	const EEVEE      ; 85
 	const VAPOREON   ; 86

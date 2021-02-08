@@ -130,7 +130,7 @@ PokedexDataPointerTable:
 	dw TaurosPokedexEntry
 	dw SwimmonPokedexEntry
 	dw GyaradosPokedexEntry
-	dw LaprasPokedexEntry
+	dw SeadramonPokedexEntry
 	dw DittoPokedexEntry
 	dw EeveePokedexEntry
 	dw VaporeonPokedexEntry

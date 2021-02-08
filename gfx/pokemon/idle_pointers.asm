@@ -129,7 +129,7 @@ AnimationIdlePointers:
 	dw TaurosAnimationIdle
 	dw SwimmonAnimationIdle
 	dw GyaradosAnimationIdle
-	dw LaprasAnimationIdle
+	dw SeadramonAnimationIdle
 	dw DittoAnimationIdle
 	dw EeveeAnimationIdle
 	dw VaporeonAnimationIdle

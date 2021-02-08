@@ -141,7 +141,7 @@ SECTION "Pokedex Entries 129-192", ROMX
 
 SwimmonPokedexEntry::   INCLUDE "data/pokemon/dex_entries/swimmon.asm"
 GyaradosPokedexEntry::   INCLUDE "data/pokemon/dex_entries/gyarados.asm"
-LaprasPokedexEntry::     INCLUDE "data/pokemon/dex_entries/lapras.asm"
+SeadramonPokedexEntry::     INCLUDE "data/pokemon/dex_entries/seadramon.asm"
 DittoPokedexEntry::      INCLUDE "data/pokemon/dex_entries/ditto.asm"
 EeveePokedexEntry::      INCLUDE "data/pokemon/dex_entries/eevee.asm"
 VaporeonPokedexEntry::   INCLUDE "data/pokemon/dex_entries/vaporeon.asm"

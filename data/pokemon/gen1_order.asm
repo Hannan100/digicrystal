@@ -17,7 +17,7 @@ Pokered_MonIndices:
 	db NIDOQUEEN
 	db CUBONE
 	db RHYHORN
-	db LAPRAS
+	db SEADRAMON
 	db KYUBIMON
 	db MEW
 	db GYARADOS

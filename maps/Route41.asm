@@ -272,7 +272,7 @@ SwimmerfSusieBeatenText:
 SwimmerfSusieAfterBattleText:
 	text "Wasn't there a hit"
 	line "song about a boy"
-	cont "riding a LAPRAS?"
+	cont "riding a SEADRAMON?"
 	done
 
 SwimmerfDeniseSeenText:

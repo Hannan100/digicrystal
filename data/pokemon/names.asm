@@ -129,7 +129,7 @@ PokemonNames::
 	db "TAUROS@@@@"
 	db "SWIMMON@@"
 	db "GYARADOS@@"
-	db "LAPRAS@@@@" ; !Plesiomon
+	db "SEADRAMON@@@@" ; !Plesiomon
 	db "DITTO@@@@@"
 	db "EEVEE@@@@@"
 	db "VAPOREON@@"

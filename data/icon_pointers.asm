@@ -13,7 +13,7 @@ IconPointers:
 	dw GoblimonIcon
 	dw BugIcon
 	dw GhostIcon
-	dw LaprasIcon
+	dw SeadramonIcon
 	dw HumanshapeIcon
 	dw FoxIcon
 	dw EquineIcon

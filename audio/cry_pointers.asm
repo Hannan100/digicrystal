@@ -26,7 +26,7 @@ Cries:
 	dba Cry_Patamon
 	dba Cry_Clefairy
 	dba Cry_Kunemon
-	dba Cry_Lapras
+	dba Cry_Seadramon
 	dba Cry_Wormmon
 	dba Cry_Garurumon
 	dba Cry_Mushroomon

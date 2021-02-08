@@ -129,7 +129,7 @@ BitmasksPointers:
 	dw TaurosBitmasks
 	dw SwimmonBitmasks
 	dw GyaradosBitmasks
-	dw LaprasBitmasks
+	dw SeadramonBitmasks
 	dw DittoBitmasks
 	dw EeveeBitmasks
 	dw VaporeonBitmasks

@@ -86,8 +86,8 @@ MonMenuIcons:
 	db ICON_BIRD        ; FARFETCH_D
 	db ICON_BIRD        ; DODUO
 	db ICON_BIRD        ; DODRIO
-	db ICON_LAPRAS      ; SEEL
-	db ICON_LAPRAS      ; DEWGONG
+	db ICON_SEADRAMON      ; SEEL
+	db ICON_SEADRAMON      ; DEWGONG
 	db ICON_BLOB        ; NUMEMON
 	db ICON_BLOB        ; RAREMON
 	db ICON_SHELL       ; SHELLDER
@@ -131,7 +131,7 @@ MonMenuIcons:
 	db ICON_EQUINE      ; TAUROS
 	db ICON_FISH        ; SWIMMON
 	db ICON_GYARADOS    ; GYARADOS
-	db ICON_LAPRAS      ; LAPRAS
+	db ICON_SEADRAMON      ; SEADRAMON
 	db ICON_BLOB        ; DITTO
 	db ICON_FOX         ; EEVEE
 	db ICON_FOX         ; VAPOREON

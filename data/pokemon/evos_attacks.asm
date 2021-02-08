@@ -1774,7 +1774,7 @@ GyaradosEvosAttacks:
 	db 50, HYPER_BEAM
 	db 0 ; no more level-up moves
 
-LaprasEvosAttacks:
+SeadramonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, GROWL

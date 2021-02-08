@@ -219,7 +219,7 @@ NewPokedexOrder:
 	db PORYMON2
 	db CHANSEY
 	db BLISSEY
-	db LAPRAS
+	db SEADRAMON
 	db OMANYTE
 	db OMASTAR
 	db KABUTO

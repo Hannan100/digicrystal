@@ -129,7 +129,7 @@ AnimationPointers:
 	dw TaurosAnimation
 	dw SwimmonAnimation
 	dw GyaradosAnimation
-	dw LaprasAnimation
+	dw SeadramonAnimation
 	dw DittoAnimation
 	dw EeveeAnimation
 	dw VaporeonAnimation
