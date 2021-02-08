@@ -164,7 +164,7 @@ FramesPointers:
 	dw PoromonFrames
 	dw HawkmonFrames
 	dw GummymonFrames
-	dw LedianFrames
+	dw TerriermonFrames
 	dw KokomonFrames
 	dw AriadosFrames
 	dw CrobatFrames

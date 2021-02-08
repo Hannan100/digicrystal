@@ -332,8 +332,8 @@ PokemonPicPointers::
 	dba_pic HawkmonBackpic
 	dba_pic GummymonFrontpic
 	dba_pic GummymonBackpic
-	dba_pic LedianFrontpic
-	dba_pic LedianBackpic
+	dba_pic TerriermonFrontpic
+	dba_pic TerriermonBackpic
 	dba_pic KokomonFrontpic
 	dba_pic KokomonBackpic
 	dba_pic AriadosFrontpic

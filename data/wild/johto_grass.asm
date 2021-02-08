@@ -1414,8 +1414,8 @@ JohtoGrassWildMons:
 	db 15, PIDGEY
 	db 16, GROWLITHE
 	db 15, PIDGEOTTO
-	db 15, LEDIAN
-	db 15, LEDIAN
+	db 15, TERRIERMON
+	db 15, TERRIERMON
 	; day
 	db 13, PIDGEY
 	db 14, GROWLITHE

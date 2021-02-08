@@ -164,7 +164,7 @@ AnimationPointers:
 	dw PoromonAnimation
 	dw HawkmonAnimation
 	dw GummymonAnimation
-	dw LedianAnimation
+	dw TerriermonAnimation
 	dw KokomonAnimation
 	dw AriadosAnimation
 	dw CrobatAnimation

@@ -164,7 +164,7 @@ PokemonNames::
 	db "POROMON@@" ; !Poromon
 	db "HAWKMON@@@" ; !Hawkmon
 	db "GUMMYMON@@@@" ; !Puroromon
-	db "LEDIAN@@@@" ; !Fanbeemon
+	db "TERRIERMON@@@@" ; !Fanbeemon
 	db "KOKOMON@@" ; !Tentomon
 	db "ARIADOS@@@" ; !Kbuterimon
 	db "CROBAT@@@@"

@@ -198,7 +198,7 @@ KantoGrassWildMons:
 	db 3, GUMMYMON
 	db 5, PIDGEY
 	db 7, BUTTERFREE
-	db 7, LEDIAN
+	db 7, TERRIERMON
 	db 4, PIKACHU
 	db 4, PIKACHU
 	; day

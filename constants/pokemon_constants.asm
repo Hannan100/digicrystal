@@ -185,7 +185,7 @@ JOHTO_POKEMON EQU const_value
 	const POROMON   ; a3
 	const HAWKMON    ; a4
 	const GUMMYMON     ; a5
-	const LEDIAN     ; a6
+	const TERRIERMON     ; a6
 	const KOKOMON   ; a7
 	const ARIADOS    ; a8
 	const CROBAT     ; a9

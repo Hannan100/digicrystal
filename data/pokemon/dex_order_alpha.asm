@@ -110,7 +110,7 @@ AlphabeticalPokedexOrder:
 	db LANTURN
 	db LAPRAS
 	db LARVITAR
-	db LEDIAN
+	db TERRIERMON
 	db GUMMYMON
 	db LICKITUNG
 	db LUGIA

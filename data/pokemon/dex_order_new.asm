@@ -31,7 +31,7 @@ NewPokedexOrder:
 	db TENTOMON
 	db BEEDRILL
 	db GUMMYMON
-	db LEDIAN
+	db TERRIERMON
 	db KOKOMON
 	db ARIADOS
 	db GEODUDE

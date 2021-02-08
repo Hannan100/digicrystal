@@ -480,7 +480,7 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (11)
 	db "NATE@", TRAINERTYPE_NORMAL
-	db 32, LEDIAN
+	db 32, TERRIERMON
 	db 32, EXEGGUTOR
 	db -1 ; end
 

@@ -164,7 +164,7 @@ BitmasksPointers:
 	dw PoromonBitmasks
 	dw HawkmonBitmasks
 	dw GummymonBitmasks
-	dw LedianBitmasks
+	dw TerriermonBitmasks
 	dw KokomonBitmasks
 	dw AriadosBitmasks
 	dw CrobatBitmasks

@@ -166,7 +166,7 @@ EvosAttacksPointers::
 	dw PoromonEvosAttacks
 	dw HawkmonEvosAttacks
 	dw GummymonEvosAttacks
-	dw LedianEvosAttacks
+	dw TerriermonEvosAttacks
 	dw KokomonEvosAttacks
 	dw AriadosEvosAttacks
 	dw CrobatEvosAttacks

@@ -171,7 +171,7 @@ PokemonCries::
 	mon_cry CRY_POROMON,    $091,  $0d8 ; POROMON
 	mon_cry CRY_POROMON,    $000,  $1a0 ; HAWKMON
 	mon_cry CRY_GUMMYMON,      $000,  $0de ; GUMMYMON
-	mon_cry CRY_GUMMYMON,     -$096,  $138 ; LEDIAN
+	mon_cry CRY_GUMMYMON,     -$096,  $138 ; TERRIERMON
 	mon_cry CRY_KOKOMON,    $011,  $200 ; KOKOMON
 	mon_cry CRY_KOKOMON,   -$0ae,  $1e2 ; ARIADOS
 	mon_cry CRY_SQUIRTLE,   -$010,  $140 ; CROBAT
@@ -427,7 +427,7 @@ PokemonCries::
 	mon_cry CRY_POROMON,    145,  216 ; POROMON
 	mon_cry CRY_POROMON,      0,  416 ; HAWKMON
 	mon_cry CRY_GUMMYMON,        0,  222 ; GUMMYMON
-	mon_cry CRY_GUMMYMON,     -150,  312 ; LEDIAN
+	mon_cry CRY_GUMMYMON,     -150,  312 ; TERRIERMON
 	mon_cry CRY_KOKOMON,     17,  512 ; KOKOMON
 	mon_cry CRY_KOKOMON,   -174,  482 ; ARIADOS
 	mon_cry CRY_SQUIRTLE,    -16,  320 ; CROBAT

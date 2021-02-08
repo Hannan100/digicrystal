@@ -204,7 +204,7 @@ Pokered_MonIndices:
 	db POROMON
 	db HAWKMON
 	db GUMMYMON
-	db LEDIAN
+	db TERRIERMON
 	db KOKOMON
 	db ARIADOS
 	db CROBAT

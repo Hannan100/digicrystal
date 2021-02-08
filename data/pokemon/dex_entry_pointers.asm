@@ -165,7 +165,7 @@ PokedexDataPointerTable:
 	dw PoromonPokedexEntry
 	dw HawkmonPokedexEntry
 	dw GummymonPokedexEntry
-	dw LedianPokedexEntry
+	dw TerriermonPokedexEntry
 	dw KokomonPokedexEntry
 	dw AriadosPokedexEntry
 	dw CrobatPokedexEntry
