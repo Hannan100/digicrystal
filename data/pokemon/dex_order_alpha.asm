@@ -15,7 +15,7 @@ AlphabeticalPokedexOrder:
 	db KABUTRIMON
 	db BELLOSSOM
 	db LALAMON
-	db BLASTOISE
+	db SHELLMON
 	db BLISSEY
 	db NYOKOMON
 	db STINGMON

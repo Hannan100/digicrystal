@@ -18,7 +18,7 @@ Cries:
 	dba Cry_Tokoomon
 	dba Cry_Rhydon
 	dba Cry_Golemon
-	dba Cry_Blastoise
+	dba Cry_Shellmon
 	dba Cry_Angemon
 	dba Cry_Motimon
 	dba Cry_Minomon

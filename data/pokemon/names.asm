@@ -7,7 +7,7 @@ PokemonNames::
 	db "TYRANNOMON@"
 	db "GARURUMON@@"
 	db "WARTORTLE@"
-	db "BLASTOISE@"
+	db "SHELLMON@"
 	db "MINOMON@@@" ; Minomon
 	db "WORMMON@@@" ; !Stingmon
 	db "STINGMON" ; !Armor evo

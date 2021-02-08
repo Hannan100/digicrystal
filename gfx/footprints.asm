@@ -28,7 +28,7 @@ INCBIN "gfx/footprints/tyrannomon.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/garurumon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_bottom
 ; 009-016 top halves
-INCBIN "gfx/footprints/blastoise.1bpp",  footprint_top
+INCBIN "gfx/footprints/shellmon.1bpp",  footprint_top
 INCBIN "gfx/footprints/minomon.1bpp",   footprint_top
 INCBIN "gfx/footprints/wormmon.1bpp",    footprint_top
 INCBIN "gfx/footprints/stingmon.1bpp", footprint_top
@@ -37,7 +37,7 @@ INCBIN "gfx/footprints/tentomon.1bpp",     footprint_top
 INCBIN "gfx/footprints/kabutrimon.1bpp",   footprint_top
 INCBIN "gfx/footprints/pidgey.1bpp",     footprint_top
 ; 009-016 bottom halves
-INCBIN "gfx/footprints/blastoise.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/shellmon.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/minomon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/wormmon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/stingmon.1bpp", footprint_bottom

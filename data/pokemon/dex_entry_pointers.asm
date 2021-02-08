@@ -8,7 +8,7 @@ PokedexDataPointerTable:
 	dw TyrannomonPokedexEntry
 	dw GarurumonPokedexEntry
 	dw WartortlePokedexEntry
-	dw BlastoisePokedexEntry
+	dw ShellmonPokedexEntry
 	dw MinomonPokedexEntry
 	dw WormmonPokedexEntry
 	dw StingmonPokedexEntry

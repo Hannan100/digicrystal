@@ -9,7 +9,7 @@ EvosAttacksPointers::
 	dw TyrannomonEvosAttacks
 	dw GarurumonEvosAttacks
 	dw WartortleEvosAttacks
-	dw BlastoiseEvosAttacks
+	dw ShellmonEvosAttacks
 	dw MinomonEvosAttacks
 	dw WormmonEvosAttacks
 	dw StingmonEvosAttacks

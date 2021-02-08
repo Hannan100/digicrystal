@@ -39,7 +39,7 @@ GreymonFrontpic:  INCBIN "gfx/pokemon/greymon/front.animated.2bpp.lz"
 
 SECTION "Pics 2", ROMX
 
-BlastoiseFrontpic:   INCBIN "gfx/pokemon/blastoise/front.animated.2bpp.lz"
+ShellmonFrontpic:   INCBIN "gfx/pokemon/shellmon/front.animated.2bpp.lz"
 RapidashFrontpic:    INCBIN "gfx/pokemon/rapidash/front.animated.2bpp.lz"
 TogemonFrontpic:    INCBIN "gfx/pokemon/togemon/front.animated.2bpp.lz"
 NidoqueenFrontpic:   INCBIN "gfx/pokemon/nidoqueen/front.animated.2bpp.lz"
@@ -436,7 +436,7 @@ VileplumeBackpic:    INCBIN "gfx/pokemon/vileplume/back.2bpp.lz"
 HitmonchanBackpic:   INCBIN "gfx/pokemon/hitmonchan/back.2bpp.lz"
 BirdramonBackpic:     INCBIN "gfx/pokemon/birdramon/back.2bpp.lz"
 CooltrainermPic:     INCBIN "gfx/trainers/cooltrainer_m.2bpp.lz"
-BlastoiseBackpic:    INCBIN "gfx/pokemon/blastoise/back.2bpp.lz"
+ShellmonBackpic:    INCBIN "gfx/pokemon/shellmon/back.2bpp.lz"
 MisdreavusBackpic:   INCBIN "gfx/pokemon/misdreavus/back.2bpp.lz"
 KuramonBackpic:      INCBIN "gfx/pokemon/kuramon/back.2bpp.lz"
 GotsumonFrontpic:     INCBIN "gfx/pokemon/gotsumon/front.animated.2bpp.lz"

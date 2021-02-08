@@ -7,7 +7,7 @@ BitmasksPointers:
 	dw TyrannomonBitmasks
 	dw GarurumonBitmasks
 	dw WartortleBitmasks
-	dw BlastoiseBitmasks
+	dw ShellmonBitmasks
 	dw MinomonBitmasks
 	dw WormmonBitmasks
 	dw StingmonBitmasks

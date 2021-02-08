@@ -9,7 +9,7 @@ KantoMonSpecials:
 	db  85 ; TYRANNOMON
 	db  50 ; GARURUMON
 	db  65 ; WARTORTLE
-	db  85 ; BLASTOISE
+	db  85 ; SHELLMON
 	db  20 ; MINOMON
 	db  25 ; WORMMON
 	db  80 ; STINGMON

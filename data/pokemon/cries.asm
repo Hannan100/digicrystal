@@ -14,13 +14,13 @@ PokemonCries::
 	mon_cry CRY_GUILMON,  $000,  $100 ; TYRANNOMON
 	mon_cry CRY_GARURUMON,    $060,  $0c0 ; GARURUMON
 	mon_cry CRY_GARURUMON,    $020,  $0c0 ; WARTORTLE
-	mon_cry CRY_BLASTOISE,   $000,  $100 ; BLASTOISE
+	mon_cry CRY_SHELLMON,   $000,  $100 ; SHELLMON
 	mon_cry CRY_MINOMON,    $080,  $0a0 ; MINOMON
 	mon_cry CRY_WORMMON,     $0cc,  $081 ; WORMMON
 	mon_cry CRY_MINOMON,    $077,  $0c0 ; STINGMON
 	mon_cry CRY_MOTIMON,      $0ee,  $081 ; MOTIMON
-	mon_cry CRY_BLASTOISE,   $0ff,  $081 ; TENTOMON
-	mon_cry CRY_BLASTOISE,   $060,  $100 ; KABUTRIMON
+	mon_cry CRY_SHELLMON,   $0ff,  $081 ; TENTOMON
+	mon_cry CRY_SHELLMON,   $060,  $100 ; KABUTRIMON
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; PIDGEY
 	mon_cry CRY_ANGEMON,   $028,  $140 ; ANGEMON
 	mon_cry CRY_ANGEMON,   $011,  $17f ; PEGASUSMON
@@ -270,13 +270,13 @@ PokemonCries::
 	mon_cry CRY_GUILMON,    0,  256 ; TYRANNOMON
 	mon_cry CRY_GARURUMON,     96,  192 ; GARURUMON
 	mon_cry CRY_GARURUMON,     32,  192 ; WARTORTLE
-	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
+	mon_cry CRY_SHELLMON,     0,  256 ; SHELLMON
 	mon_cry CRY_MINOMON,    128,  160 ; MINOMON
 	mon_cry CRY_WORMMON,     204,  129 ; WORMMON
 	mon_cry CRY_MINOMON,    119,  192 ; STINGMON
 	mon_cry CRY_MOTIMON,      238,  129 ; MOTIMON
-	mon_cry CRY_BLASTOISE,   255,  129 ; TENTOMON
-	mon_cry CRY_BLASTOISE,    96,  256 ; KABUTRIMON
+	mon_cry CRY_SHELLMON,   255,  129 ; TENTOMON
+	mon_cry CRY_SHELLMON,    96,  256 ; KABUTRIMON
 	mon_cry CRY_PIDGEY,      223,  132 ; PIDGEY
 	mon_cry CRY_ANGEMON,    40,  320 ; ANGEMON
 	mon_cry CRY_ANGEMON,    17,  383 ; PEGASUSMON

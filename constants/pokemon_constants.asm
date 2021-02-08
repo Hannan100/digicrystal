@@ -27,7 +27,7 @@
 	const TYRANNOMON  ; 06
 	const GARURUMON   ; 07
 	const WARTORTLE  ; 08
-	const BLASTOISE  ; 09
+	const SHELLMON  ; 09
 	const MINOMON   ; 0a
 	const WORMMON    ; 0b
 	const STINGMON ; 0c

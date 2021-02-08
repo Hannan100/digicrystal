@@ -21,7 +21,7 @@
 	const CRY_TOKOOMON
 	const CRY_RHYDON
 	const CRY_GOLEMON
-	const CRY_BLASTOISE
+	const CRY_SHELLMON
 	const CRY_ANGEMON
 	const CRY_MOTIMON
 	const CRY_MINOMON

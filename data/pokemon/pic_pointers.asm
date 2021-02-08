@@ -18,8 +18,8 @@ PokemonPicPointers::
 	dba_pic GarurumonBackpic
 	dba_pic WartortleFrontpic
 	dba_pic WartortleBackpic
-	dba_pic BlastoiseFrontpic
-	dba_pic BlastoiseBackpic
+	dba_pic ShellmonFrontpic
+	dba_pic ShellmonBackpic
 	dba_pic MinomonFrontpic
 	dba_pic MinomonBackpic
 	dba_pic WormmonFrontpic
