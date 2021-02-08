@@ -113,7 +113,7 @@ NewPokedexOrder:
 	db KUWAGAMON
 	db HUNYBEEMON
 	db PINSIR
-	db HERACROSS
+	db SHADRAMON
 	db KOFFING
 	db WEEZING
 	db GRIMER

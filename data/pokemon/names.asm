@@ -212,7 +212,7 @@ PokemonNames::
 	db "QWILFISH@@"
 	db "HUNYBEEMON@@@@"
 	db "SHUCKLE@@@"
-	db "HERACROSS@"
+	db "SHADRAMON@"
 	db "SNEASEL@@@"
 	db "IMPMON@"
 	db "URSARING@@"

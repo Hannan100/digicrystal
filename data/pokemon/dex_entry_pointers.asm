@@ -213,7 +213,7 @@ PokedexDataPointerTable:
 	dw QwilfishPokedexEntry
 	dw HunybeemonPokedexEntry
 	dw ShucklePokedexEntry
-	dw HeracrossPokedexEntry
+	dw ShadramonPokedexEntry
 	dw SneaselPokedexEntry
 	dw ImpmonPokedexEntry
 	dw UrsaringPokedexEntry

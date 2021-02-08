@@ -14,7 +14,7 @@ SometimesFleeMons:
 	db UMBREON
 	db UNOWN
 	db ELECMON
-	db HERACROSS
+	db SHADRAMON
 	db -1
 
 OftenFleeMons:

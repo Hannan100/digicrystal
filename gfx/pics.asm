@@ -125,7 +125,7 @@ TsumemonFrontpic:      INCBIN "gfx/pokemon/tsumemon/front.animated.2bpp.lz"
 AzumarillFrontpic:   INCBIN "gfx/pokemon/azumarill/front.animated.2bpp.lz"
 MushroomonectFrontpic:    INCBIN "gfx/pokemon/mushroomonect/front.animated.2bpp.lz"
 MrMimeFrontpic:      INCBIN "gfx/pokemon/mr__mime/front.animated.2bpp.lz"
-HeracrossFrontpic:   INCBIN "gfx/pokemon/heracross/front.animated.2bpp.lz"
+ShadramonFrontpic:   INCBIN "gfx/pokemon/shadramon/front.animated.2bpp.lz"
 
 
 SECTION "Pics 6", ROMX
@@ -390,7 +390,7 @@ PichuFrontpic:       INCBIN "gfx/pokemon/pichu/front.animated.2bpp.lz"
 ElectabuzzBackpic:   INCBIN "gfx/pokemon/electabuzz/back.2bpp.lz"
 TerriermonBackpic:       INCBIN "gfx/pokemon/terriermon/back.2bpp.lz"
 PupitarBackpic:      INCBIN "gfx/pokemon/pupitar/back.2bpp.lz"
-HeracrossBackpic:    INCBIN "gfx/pokemon/heracross/back.2bpp.lz"
+ShadramonBackpic:    INCBIN "gfx/pokemon/shadramon/back.2bpp.lz"
 UnownDFrontpic:      INCBIN "gfx/pokemon/unown_d/front.animated.2bpp.lz"
 MiltankBackpic:      INCBIN "gfx/pokemon/miltank/back.2bpp.lz"
 SteelixBackpic:      INCBIN "gfx/pokemon/steelix/back.2bpp.lz"

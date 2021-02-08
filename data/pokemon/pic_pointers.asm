@@ -431,8 +431,8 @@ PokemonPicPointers::
 	dba_pic HunybeemonBackpic
 	dba_pic ShuckleFrontpic
 	dba_pic ShuckleBackpic
-	dba_pic HeracrossFrontpic
-	dba_pic HeracrossBackpic
+	dba_pic ShadramonFrontpic
+	dba_pic ShadramonBackpic
 	dba_pic SneaselFrontpic
 	dba_pic SneaselBackpic
 	dba_pic ImpmonFrontpic

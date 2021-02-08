@@ -669,7 +669,7 @@ ShuckleEggMoves:
 	db SWEET_SCENT
 	db -1 ; end
 
-HeracrossEggMoves:
+ShadramonEggMoves:
 	db HARDEN
 	db BIDE
 	db FLAIL

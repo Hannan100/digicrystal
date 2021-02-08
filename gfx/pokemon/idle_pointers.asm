@@ -212,7 +212,7 @@ AnimationIdlePointers:
 	dw QwilfishAnimationIdle
 	dw HunybeemonAnimationIdle
 	dw ShuckleAnimationIdle
-	dw HeracrossAnimationIdle
+	dw ShadramonAnimationIdle
 	dw SneaselAnimationIdle
 	dw ImpmonAnimationIdle
 	dw UrsaringAnimationIdle

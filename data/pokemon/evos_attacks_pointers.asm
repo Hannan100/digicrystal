@@ -214,7 +214,7 @@ EvosAttacksPointers::
 	dw QwilfishEvosAttacks
 	dw HunybeemonEvosAttacks
 	dw ShuckleEvosAttacks
-	dw HeracrossEvosAttacks
+	dw ShadramonEvosAttacks
 	dw SneaselEvosAttacks
 	dw ImpmonEvosAttacks
 	dw UrsaringEvosAttacks

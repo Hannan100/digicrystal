@@ -233,7 +233,7 @@ JOHTO_POKEMON EQU const_value
 	const QWILFISH   ; d3
 	const HUNYBEEMON     ; d4
 	const SHUCKLE    ; d5
-	const HERACROSS  ; d6
+	const SHADRAMON  ; d6
 	const SNEASEL    ; d7
 	const IMPMON  ; d8
 	const URSARING   ; d9

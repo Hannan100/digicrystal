@@ -81,7 +81,7 @@ AlphabeticalPokedexOrder:
 	db RENAMON
 	db GYARADOS
 	db KERAMON
-	db HERACROSS
+	db SHADRAMON
 	db HITMONCHAN
 	db HITMONLEE
 	db HITMONTOP

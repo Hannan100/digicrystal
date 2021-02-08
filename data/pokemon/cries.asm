@@ -219,7 +219,7 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    $160,  $0e0 ; QWILFISH
 	mon_cry CRY_AMPHAROS,    $000,  $160 ; HUNYBEEMON
 	mon_cry CRY_KUDAMON,   $290,  $0a8 ; SHUCKLE
-	mon_cry CRY_AMPHAROS,    $035,  $0e0 ; HERACROSS
+	mon_cry CRY_AMPHAROS,    $035,  $0e0 ; SHADRAMON
 	mon_cry CRY_WOOPER,      $053,  $0af ; SNEASEL
 	mon_cry CRY_IMPMON,   $7a2,  $06e ; IMPMON
 	mon_cry CRY_IMPMON,   $640,  $0d8 ; URSARING
@@ -475,7 +475,7 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    352,  224 ; QWILFISH
 	mon_cry CRY_AMPHAROS,      0,  352 ; HUNYBEEMON
 	mon_cry CRY_KUDAMON,   656,  168 ; SHUCKLE
-	mon_cry CRY_AMPHAROS,     53,  224 ; HERACROSS
+	mon_cry CRY_AMPHAROS,     53,  224 ; SHADRAMON
 	mon_cry CRY_WOOPER,       83,  175 ; SNEASEL
 	mon_cry CRY_IMPMON,  1954,  110 ; IMPMON
 	mon_cry CRY_IMPMON,  1600,  216 ; URSARING

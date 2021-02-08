@@ -214,7 +214,7 @@ MonMenuIcons:
 	db ICON_FISH        ; QWILFISH
 	db ICON_BUG         ; HUNYBEEMON
 	db ICON_BUG         ; SHUCKLE
-	db ICON_BUG         ; HERACROSS
+	db ICON_BUG         ; SHADRAMON
 	db ICON_FOX         ; SNEASEL
 	db ICON_MONSTER     ; IMPMON
 	db ICON_MONSTER     ; URSARING

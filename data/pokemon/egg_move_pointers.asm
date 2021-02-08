@@ -212,7 +212,7 @@ EggMovePointers::
 	dw QwilfishEggMoves
 	dw NoEggMoves
 	dw ShuckleEggMoves
-	dw HeracrossEggMoves
+	dw ShadramonEggMoves
 	dw SneaselEggMoves
 	dw ImpmonEggMoves
 	dw NoEggMoves

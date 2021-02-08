@@ -212,7 +212,7 @@ FramesPointers:
 	dw QwilfishFrames
 	dw HunybeemonFrames
 	dw ShuckleFrames
-	dw HeracrossFrames
+	dw ShadramonFrames
 	dw SneaselFrames
 	dw ImpmonFrames
 	dw UrsaringFrames

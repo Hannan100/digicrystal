@@ -212,7 +212,7 @@ AnimationPointers:
 	dw QwilfishAnimation
 	dw HunybeemonAnimation
 	dw ShuckleAnimation
-	dw HeracrossAnimation
+	dw ShadramonAnimation
 	dw SneaselAnimation
 	dw ImpmonAnimation
 	dw UrsaringAnimation

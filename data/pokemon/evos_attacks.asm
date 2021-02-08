@@ -2863,7 +2863,7 @@ ShuckleEvosAttacks:
 	db 37, REST
 	db 0 ; no more level-up moves
 
-HeracrossEvosAttacks:
+ShadramonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER

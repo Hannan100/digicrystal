@@ -212,7 +212,7 @@ BitmasksPointers:
 	dw QwilfishBitmasks
 	dw HunybeemonBitmasks
 	dw ShuckleBitmasks
-	dw HeracrossBitmasks
+	dw ShadramonBitmasks
 	dw SneaselBitmasks
 	dw ImpmonBitmasks
 	dw UrsaringBitmasks
