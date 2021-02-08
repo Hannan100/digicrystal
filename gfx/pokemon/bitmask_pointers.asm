@@ -209,7 +209,7 @@ BitmasksPointers:
 	dw AnkylomonBitmasks
 	dw ElecmonBitmasks
 	dw LeomonBitmasks
-	dw QwilfishBitmasks
+	dw SubmarimonBitmasks
 	dw HunybeemonBitmasks
 	dw ShuckleBitmasks
 	dw ShadramonBitmasks

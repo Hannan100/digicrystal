@@ -209,7 +209,7 @@ PokemonNames::
 	db "ANKYLOMON@@@"
 	db "ELECMON@@"
 	db "LEOMON@@"
-	db "QWILFISH@@"
+	db "SUBMARIMON@@"
 	db "HUNYBEEMON@@@@"
 	db "SHUCKLE@@@"
 	db "SHADRAMON@"

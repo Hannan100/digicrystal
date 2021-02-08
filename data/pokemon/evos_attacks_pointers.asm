@@ -211,7 +211,7 @@ EvosAttacksPointers::
 	dw AnkylomonEvosAttacks
 	dw ElecmonEvosAttacks
 	dw LeomonEvosAttacks
-	dw QwilfishEvosAttacks
+	dw SubmarimonEvosAttacks
 	dw HunybeemonEvosAttacks
 	dw ShuckleEvosAttacks
 	dw ShadramonEvosAttacks

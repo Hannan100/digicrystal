@@ -658,7 +658,7 @@ ElecmonEggMoves:
 	db LEER
 	db -1 ; end
 
-QwilfishEggMoves:
+SubmarimonEggMoves:
 	db FLAIL
 	db HAZE
 	db BUBBLEBEAM

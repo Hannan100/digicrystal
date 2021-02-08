@@ -230,7 +230,7 @@ JOHTO_POKEMON EQU const_value
 	const ANKYLOMON    ; d0
 	const ELECMON   ; d1
 	const LEOMON   ; d2
-	const QWILFISH   ; d3
+	const SUBMARIMON   ; d3
 	const HUNYBEEMON     ; d4
 	const SHUCKLE    ; d5
 	const SHADRAMON  ; d6

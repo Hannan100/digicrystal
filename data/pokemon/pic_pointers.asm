@@ -425,8 +425,8 @@ PokemonPicPointers::
 	dba_pic ElecmonBackpic
 	dba_pic LeomonFrontpic
 	dba_pic LeomonBackpic
-	dba_pic QwilfishFrontpic
-	dba_pic QwilfishBackpic
+	dba_pic SubmarimonFrontpic
+	dba_pic SubmarimonBackpic
 	dba_pic HunybeemonFrontpic
 	dba_pic HunybeemonBackpic
 	dba_pic ShuckleFrontpic

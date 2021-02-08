@@ -211,7 +211,7 @@ MonMenuIcons:
 	db ICON_SERPENT     ; ANKYLOMON
 	db ICON_MONSTER     ; ELECMON
 	db ICON_MONSTER     ; LEOMON
-	db ICON_FISH        ; QWILFISH
+	db ICON_FISH        ; SUBMARIMON
 	db ICON_BUG         ; HUNYBEEMON
 	db ICON_BUG         ; SHUCKLE
 	db ICON_BUG         ; SHADRAMON

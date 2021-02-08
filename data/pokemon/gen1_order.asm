@@ -249,6 +249,6 @@ Pokered_MonIndices:
 	db ANKYLOMON
 	db ELECMON
 	db LEOMON
-	db QWILFISH
+	db SUBMARIMON
 	db WOBBUFFET
 	db WOBBUFFET

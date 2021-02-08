@@ -210,7 +210,7 @@ PokedexDataPointerTable:
 	dw AnkylomonPokedexEntry
 	dw ElecmonPokedexEntry
 	dw LeomonPokedexEntry
-	dw QwilfishPokedexEntry
+	dw SubmarimonPokedexEntry
 	dw HunybeemonPokedexEntry
 	dw ShucklePokedexEntry
 	dw ShadramonPokedexEntry

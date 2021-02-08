@@ -209,7 +209,7 @@ AnimationPointers:
 	dw AnkylomonAnimation
 	dw ElecmonAnimation
 	dw LeomonAnimation
-	dw QwilfishAnimation
+	dw SubmarimonAnimation
 	dw HunybeemonAnimation
 	dw ShuckleAnimation
 	dw ShadramonAnimation

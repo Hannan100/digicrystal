@@ -480,7 +480,7 @@ INCBIN "gfx/footprints/ankylomon.1bpp",    footprint_bottom
 ; 209-216 top halves
 INCBIN "gfx/footprints/elecmon.1bpp",   footprint_top
 INCBIN "gfx/footprints/leomon.1bpp",   footprint_top
-INCBIN "gfx/footprints/qwilfish.1bpp",   footprint_top
+INCBIN "gfx/footprints/submarimon.1bpp",   footprint_top
 INCBIN "gfx/footprints/hunybeemon.1bpp",     footprint_top
 INCBIN "gfx/footprints/shuckle.1bpp",    footprint_top
 INCBIN "gfx/footprints/shadramon.1bpp",  footprint_top
@@ -489,7 +489,7 @@ INCBIN "gfx/footprints/impmon.1bpp",  footprint_top
 ; 209-216 bottom halves
 INCBIN "gfx/footprints/elecmon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/leomon.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/qwilfish.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/submarimon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/hunybeemon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/shuckle.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/shadramon.1bpp",  footprint_bottom

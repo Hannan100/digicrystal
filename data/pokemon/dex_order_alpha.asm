@@ -177,7 +177,7 @@ AlphabeticalPokedexOrder:
 	db PUPITAR
 	db QUAGSIRE
 	db AGUMON
-	db QWILFISH
+	db SUBMARIMON
 	db RAICHU
 	db RAIKOU
 	db RAPIDASH

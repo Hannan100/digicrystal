@@ -209,7 +209,7 @@ FramesPointers:
 	dw AnkylomonFrames
 	dw ElecmonFrames
 	dw LeomonFrames
-	dw QwilfishFrames
+	dw SubmarimonFrames
 	dw HunybeemonFrames
 	dw ShuckleFrames
 	dw ShadramonFrames

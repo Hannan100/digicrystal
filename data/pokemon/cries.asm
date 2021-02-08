@@ -216,7 +216,7 @@ PokemonCries::
 	mon_cry CRY_GREYMON,  $0ef,  $0f7 ; ANKYLOMON
 	mon_cry CRY_KUDAMON,   $112,  $0e8 ; ELECMON
 	mon_cry CRY_KUDAMON,   $000,  $180 ; LEOMON
-	mon_cry CRY_SLOWKING,    $160,  $0e0 ; QWILFISH
+	mon_cry CRY_SLOWKING,    $160,  $0e0 ; SUBMARIMON
 	mon_cry CRY_AMPHAROS,    $000,  $160 ; HUNYBEEMON
 	mon_cry CRY_KUDAMON,   $290,  $0a8 ; SHUCKLE
 	mon_cry CRY_AMPHAROS,    $035,  $0e0 ; SHADRAMON
@@ -472,7 +472,7 @@ PokemonCries::
 	mon_cry CRY_GREYMON,  239,  247 ; ANKYLOMON
 	mon_cry CRY_KUDAMON,   274,  232 ; ELECMON
 	mon_cry CRY_KUDAMON,     0,  384 ; LEOMON
-	mon_cry CRY_SLOWKING,    352,  224 ; QWILFISH
+	mon_cry CRY_SLOWKING,    352,  224 ; SUBMARIMON
 	mon_cry CRY_AMPHAROS,      0,  352 ; HUNYBEEMON
 	mon_cry CRY_KUDAMON,   656,  168 ; SHUCKLE
 	mon_cry CRY_AMPHAROS,     53,  224 ; SHADRAMON

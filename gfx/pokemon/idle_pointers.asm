@@ -209,7 +209,7 @@ AnimationIdlePointers:
 	dw AnkylomonAnimationIdle
 	dw ElecmonAnimationIdle
 	dw LeomonAnimationIdle
-	dw QwilfishAnimationIdle
+	dw SubmarimonAnimationIdle
 	dw HunybeemonAnimationIdle
 	dw ShuckleAnimationIdle
 	dw ShadramonAnimationIdle
