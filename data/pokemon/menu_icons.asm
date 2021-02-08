@@ -44,7 +44,7 @@ MonMenuIcons:
 	db ICON_BAT         ; PAGUMON
 	db ICON_BAT         ; DEMDEVIMON
 	db ICON_GOBLIMON      ; GOBLIMON
-	db ICON_GOBLIMON      ; GLOOM
+	db ICON_GOBLIMON      ; OGREMON
 	db ICON_GOBLIMON      ; VILEPLUME
 	db ICON_BUG         ; MUSHROOMON
 	db ICON_BUG         ; MUSHROOMONECT

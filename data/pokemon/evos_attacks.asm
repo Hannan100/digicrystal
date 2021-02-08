@@ -559,7 +559,7 @@ DemdevimonEvosAttacks:
 	db 0 ; no more level-up moves
 
 GoblimonEvosAttacks:
-	db EVOLVE_LEVEL, 21, GLOOM
+	db EVOLVE_LEVEL, 21, OGREMON
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 7, SWEET_SCENT
@@ -571,7 +571,7 @@ GoblimonEvosAttacks:
 	db 39, PETAL_DANCE
 	db 0 ; no more level-up moves
 
-GloomEvosAttacks:
+OgremonEvosAttacks:
 	db EVOLVE_ITEM, LEAF_STONE, VILEPLUME
 	db EVOLVE_ITEM, SUN_STONE, BELLOSSOM
 	db 0 ; no more evolutions

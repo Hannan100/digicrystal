@@ -70,7 +70,7 @@ AlphabeticalPokedexOrder:
 	db GOTSUMON
 	db GIRAFARIG
 	db GLIGAR
-	db GLOOM
+	db OGREMON
 	db DEMDEVIMON
 	db GIZAMON
 	db GOLDUCK

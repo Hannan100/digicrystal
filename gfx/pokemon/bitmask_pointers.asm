@@ -42,7 +42,7 @@ BitmasksPointers:
 	dw PagumonBitmasks
 	dw DemdevimonBitmasks
 	dw GoblimonBitmasks
-	dw GloomBitmasks
+	dw OgremonBitmasks
 	dw VileplumeBitmasks
 	dw MushroomonBitmasks
 	dw MushroomonectBitmasks

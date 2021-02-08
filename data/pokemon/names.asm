@@ -42,7 +42,7 @@ PokemonNames::
 	db "PAGUMON@@@@@"
 	db "DEMDEVIMON@@@@"
 	db "GOBLIMON@@@@"
-	db "GLOOM@@@@@"
+	db "OGREMON@@@@@"
 	db "VILEPLUME@"
 	db "MUSHROOMON@@@@@"
 	db "MUSHROOMONECT@@"

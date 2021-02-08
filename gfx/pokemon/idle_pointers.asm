@@ -42,7 +42,7 @@ AnimationIdlePointers:
 	dw PagumonAnimationIdle
 	dw DemdevimonAnimationIdle
 	dw GoblimonAnimationIdle
-	dw GloomAnimationIdle
+	dw OgremonAnimationIdle
 	dw VileplumeAnimationIdle
 	dw MushroomonAnimationIdle
 	dw MushroomonectAnimationIdle

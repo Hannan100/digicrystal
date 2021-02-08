@@ -103,7 +103,7 @@ INCBIN "gfx/footprints/meramon.1bpp", footprint_bottom
 INCBIN "gfx/footprints/pagumon.1bpp",      footprint_top
 INCBIN "gfx/footprints/demdevimon.1bpp",     footprint_top
 INCBIN "gfx/footprints/goblimon.1bpp",     footprint_top
-INCBIN "gfx/footprints/gloom.1bpp",      footprint_top
+INCBIN "gfx/footprints/ogremon.1bpp",      footprint_top
 INCBIN "gfx/footprints/vileplume.1bpp",  footprint_top
 INCBIN "gfx/footprints/mushroomon.1bpp",      footprint_top
 INCBIN "gfx/footprints/mushroomonect.1bpp",   footprint_top
@@ -112,7 +112,7 @@ INCBIN "gfx/footprints/kunemon.1bpp",    footprint_top
 INCBIN "gfx/footprints/pagumon.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/demdevimon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/goblimon.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/gloom.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/ogremon.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/vileplume.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/mushroomon.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/mushroomonect.1bpp",   footprint_bottom

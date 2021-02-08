@@ -62,7 +62,7 @@
 	const PAGUMON      ; 29
 	const DEMDEVIMON     ; 2a
 	const GOBLIMON     ; 2b
-	const GLOOM      ; 2c
+	const OGREMON      ; 2c
 	const VILEPLUME  ; 2d
 	const MUSHROOMON      ; 2e
 	const MUSHROOMONECT   ; 2f

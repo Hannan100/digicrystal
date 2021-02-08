@@ -88,8 +88,8 @@ PokemonPicPointers::
 	dba_pic DemdevimonBackpic
 	dba_pic GoblimonFrontpic
 	dba_pic GoblimonBackpic
-	dba_pic GloomFrontpic
-	dba_pic GloomBackpic
+	dba_pic OgremonFrontpic
+	dba_pic OgremonBackpic
 	dba_pic VileplumeFrontpic
 	dba_pic VileplumeBackpic
 	dba_pic MushroomonFrontpic

@@ -498,7 +498,7 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (14)
 	db "JACK@", TRAINERTYPE_NORMAL
-	db 28, GLOOM
+	db 28, OGREMON
 	db 31, ELECTRODE
 	db -1 ; end
 
@@ -530,7 +530,7 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (19)
 	db "JACK@", TRAINERTYPE_NORMAL
-	db 30, GLOOM
+	db 30, OGREMON
 	db 33, RENAMON
 	db 33, ELECTRODE
 	db -1 ; end
@@ -701,9 +701,9 @@ LassGroup:
 
 	; LASS (3)
 	db "ALICE@", TRAINERTYPE_NORMAL
-	db 30, GLOOM
+	db 30, OGREMON
 	db 34, ARBOK
-	db 30, GLOOM
+	db 30, OGREMON
 	db -1 ; end
 
 	; LASS (4)
@@ -726,7 +726,7 @@ LassGroup:
 
 	; LASS (7)
 	db "LAURA@", TRAINERTYPE_NORMAL
-	db 28, GLOOM
+	db 28, OGREMON
 	db 31, PEGASUSMONTO
 	db 31, BELLOSSOM
 	db -1 ; end
@@ -3068,7 +3068,7 @@ ExecutiveFGroup:
 	; EXECUTIVEF (2)
 	db "EXECUTIVE@", TRAINERTYPE_MOVES
 	db 23, ARBOK,      WRAP, LEER, POISON_STING, BITE
-	db 23, GLOOM,      ABSORB, SWEET_SCENT, SLEEP_POWDER, ACID
+	db 23, OGREMON,      ABSORB, SWEET_SCENT, SLEEP_POWDER, ACID
 	db 25, MURKROW,    PECK, PURSUIT, HAZE, NO_MOVE
 	db -1 ; end
 
@@ -3470,8 +3470,8 @@ GruntFGroup:
 
 	; GRUNTF (3)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 25, GLOOM
-	db 25, GLOOM
+	db 25, OGREMON
+	db 25, OGREMON
 	db -1 ; end
 
 	; GRUNTF (4)
@@ -3479,13 +3479,13 @@ GruntFGroup:
 	db 21, GAZIMON
 	db 23, GOBLIMON
 	db 21, GAZIMON
-	db 24, GLOOM
+	db 24, OGREMON
 	db -1 ; end
 
 	; GRUNTF (5)
 	db "GRUNT@", TRAINERTYPE_MOVES
 	db 18, GAZIMON,      WRAP, LEER, POISON_STING, BITE
-	db 18, GLOOM,      ABSORB, SWEET_SCENT, STUN_SPORE, SLEEP_POWDER
+	db 18, OGREMON,      ABSORB, SWEET_SCENT, STUN_SPORE, SLEEP_POWDER
 	db -1 ; end
 
 MysticalmanGroup:

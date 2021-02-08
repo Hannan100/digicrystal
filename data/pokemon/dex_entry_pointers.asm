@@ -43,7 +43,7 @@ PokedexDataPointerTable:
 	dw PagumonPokedexEntry
 	dw DemdevimonPokedexEntry
 	dw GoblimonPokedexEntry
-	dw GloomPokedexEntry
+	dw OgremonPokedexEntry
 	dw VileplumePokedexEntry
 	dw MushroomonPokedexEntry
 	dw MushroomonectPokedexEntry

@@ -42,7 +42,7 @@ AnimationPointers:
 	dw PagumonAnimation
 	dw DemdevimonAnimation
 	dw GoblimonAnimation
-	dw GloomAnimation
+	dw OgremonAnimation
 	dw VileplumeAnimation
 	dw MushroomonAnimation
 	dw MushroomonectAnimation

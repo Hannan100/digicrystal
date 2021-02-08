@@ -44,7 +44,7 @@ KantoMonSpecials:
 	db  40 ; PAGUMON
 	db  75 ; DEMDEVIMON
 	db  75 ; GOBLIMON
-	db  85 ; GLOOM
+	db  85 ; OGREMON
 	db 100 ; VILEPLUME
 	db  55 ; MUSHROOMON
 	db  80 ; MUSHROOMONECT

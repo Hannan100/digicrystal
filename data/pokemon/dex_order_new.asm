@@ -84,7 +84,7 @@ NewPokedexOrder:
 	db SLOWBRO
 	db SLOWKING
 	db GOBLIMON
-	db GLOOM
+	db OGREMON
 	db VILEPLUME
 	db BELLOSSOM
 	db TAPIRMON

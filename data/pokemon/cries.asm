@@ -49,7 +49,7 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,    $0e0,  $100 ; PAGUMON
 	mon_cry CRY_SQUIRTLE,    $0fa,  $100 ; DEMDEVIMON
 	mon_cry CRY_GOBLIMON,      $0dd,  $081 ; GOBLIMON
-	mon_cry CRY_GOBLIMON,      $0aa,  $0c0 ; GLOOM
+	mon_cry CRY_GOBLIMON,      $0aa,  $0c0 ; OGREMON
 	mon_cry CRY_VILEPLUME,   $022,  $17f ; VILEPLUME
 	mon_cry CRY_MUSHROOMON,       $020,  $160 ; MUSHROOMON
 	mon_cry CRY_MUSHROOMON,       $042,  $17f ; MUSHROOMONECT
@@ -305,7 +305,7 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,    224,  256 ; PAGUMON
 	mon_cry CRY_SQUIRTLE,    250,  256 ; DEMDEVIMON
 	mon_cry CRY_GOBLIMON,      221,  129 ; GOBLIMON
-	mon_cry CRY_GOBLIMON,      170,  192 ; GLOOM
+	mon_cry CRY_GOBLIMON,      170,  192 ; OGREMON
 	mon_cry CRY_VILEPLUME,    34,  383 ; VILEPLUME
 	mon_cry CRY_MUSHROOMON,        32,  352 ; MUSHROOMON
 	mon_cry CRY_MUSHROOMON,        66,  383 ; MUSHROOMONECT

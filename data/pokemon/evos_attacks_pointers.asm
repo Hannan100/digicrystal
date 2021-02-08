@@ -44,7 +44,7 @@ EvosAttacksPointers::
 	dw PagumonEvosAttacks
 	dw DemdevimonEvosAttacks
 	dw GoblimonEvosAttacks
-	dw GloomEvosAttacks
+	dw OgremonEvosAttacks
 	dw VileplumeEvosAttacks
 	dw MushroomonEvosAttacks
 	dw MushroomonectEvosAttacks

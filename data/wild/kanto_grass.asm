@@ -701,8 +701,8 @@ KantoGrassWildMons:
 	db 12, GOBLIMON
 	db 12, ABRA
 	db 10, LALAMON
-	db 14, GLOOM
-	db 14, GLOOM
+	db 14, OGREMON
+	db 14, OGREMON
 
 	map_id ROUTE_25
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
