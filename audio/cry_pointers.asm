@@ -30,7 +30,7 @@ Cries:
 	dba Cry_Wormmon
 	dba Cry_Squirtle
 	dba Cry_Mushroomon
-	dba Cry_Growlithe
+	dba Cry_Renamon
 	dba Cry_Krabby
 	dba Cry_Psyduck
 	dba Cry_Tsunomon

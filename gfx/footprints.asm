@@ -137,7 +137,7 @@ INCBIN "gfx/footprints/golduck.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/mankey.1bpp",     footprint_bottom
 ; 057-064 top halves
 INCBIN "gfx/footprints/primeape.1bpp",   footprint_top
-INCBIN "gfx/footprints/growlithe.1bpp",  footprint_top
+INCBIN "gfx/footprints/renamon.1bpp",  footprint_top
 INCBIN "gfx/footprints/arcanine.1bpp",   footprint_top
 INCBIN "gfx/footprints/poliwag.1bpp",    footprint_top
 INCBIN "gfx/footprints/poliwhirl.1bpp",  footprint_top
@@ -146,7 +146,7 @@ INCBIN "gfx/footprints/abra.1bpp",       footprint_top
 INCBIN "gfx/footprints/kadabra.1bpp",    footprint_top
 ; 057-064 bottom halves
 INCBIN "gfx/footprints/primeape.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/growlithe.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/renamon.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/arcanine.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/poliwag.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/poliwhirl.1bpp",  footprint_bottom

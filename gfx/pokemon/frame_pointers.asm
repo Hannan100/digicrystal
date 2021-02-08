@@ -56,7 +56,7 @@ FramesPointers:
 	dw GolduckFrames
 	dw MankeyFrames
 	dw PrimeapeFrames
-	dw GrowlitheFrames
+	dw RenamonFrames
 	dw ArcanineFrames
 	dw PoliwagFrames
 	dw PoliwhirlFrames

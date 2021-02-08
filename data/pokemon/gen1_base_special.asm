@@ -58,7 +58,7 @@ KantoMonSpecials:
 	db  80 ; GOLDUCK
 	db  35 ; MANKEY
 	db  60 ; PRIMEAPE
-	db  50 ; GROWLITHE
+	db  50 ; RENAMON
 	db  80 ; ARCANINE
 	db  40 ; POLIWAG
 	db  50 ; POLIWHIRL

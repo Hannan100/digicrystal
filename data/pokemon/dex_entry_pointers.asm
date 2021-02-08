@@ -57,7 +57,7 @@ PokedexDataPointerTable:
 	dw GolduckPokedexEntry
 	dw MankeyPokedexEntry
 	dw PrimeapePokedexEntry
-	dw GrowlithePokedexEntry
+	dw RenamonPokedexEntry
 	dw ArcaninePokedexEntry
 	dw PoliwagPokedexEntry
 	dw PoliwhirlPokedexEntry

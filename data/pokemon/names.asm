@@ -56,7 +56,7 @@ PokemonNames::
 	db "GOLDUCK@@@"
 	db "MANKEY@@@@"
 	db "PRIMEAPE@@"
-	db "GROWLITHE@"
+	db "RENAMON@"
 	db "ARCANINE@@"
 	db "POLIWAG@@@"
 	db "POLIWHIRL@"

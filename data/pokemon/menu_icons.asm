@@ -58,7 +58,7 @@ MonMenuIcons:
 	db ICON_MONSTER     ; GOLDUCK
 	db ICON_FIGHTER     ; MANKEY
 	db ICON_FIGHTER     ; PRIMEAPE
-	db ICON_FOX         ; GROWLITHE
+	db ICON_FOX         ; RENAMON
 	db ICON_FOX         ; ARCANINE
 	db ICON_POLIWAG     ; POLIWAG
 	db ICON_POLIWAG     ; POLIWHIRL

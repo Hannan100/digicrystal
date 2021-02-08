@@ -1357,7 +1357,7 @@ JohtoGrassWildMons:
 	; morn
 	db 12, ELECMON
 	db 14, PIDGEY
-	db 13, GROWLITHE
+	db 13, RENAMON
 	db 10, ABRA
 	db 12, CANDLEMON
 	db 10, DITTO
@@ -1365,7 +1365,7 @@ JohtoGrassWildMons:
 	; day
 	db 12, ELECMON
 	db 14, PIDGEY
-	db 13, GROWLITHE
+	db 13, RENAMON
 	db 10, ABRA
 	db 12, CANDLEMON
 	db 10, DITTO
@@ -1385,7 +1385,7 @@ JohtoGrassWildMons:
 	db 4, GUMMYMON
 	db 4, PIDGEY
 	db 5, LALAMON
-	db 5, GROWLITHE
+	db 5, RENAMON
 	db 5, PIDGEY
 	db 6, PIDGEY
 	db 6, PIDGEY
@@ -1393,7 +1393,7 @@ JohtoGrassWildMons:
 	db 4, PIDGEY
 	db 4, PIDGEY
 	db 5, LALAMON
-	db 5, GROWLITHE
+	db 5, RENAMON
 	db 5, PIDGEY
 	db 6, PIDGEY
 	db 6, PIDGEY
@@ -1410,17 +1410,17 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 13, GUMMYMON
-	db 14, GROWLITHE
+	db 14, RENAMON
 	db 15, PIDGEY
-	db 16, GROWLITHE
+	db 16, RENAMON
 	db 15, PIDGEOTTO
 	db 15, TERRIERMON
 	db 15, TERRIERMON
 	; day
 	db 13, PIDGEY
-	db 14, GROWLITHE
+	db 14, RENAMON
 	db 15, PIDGEY
-	db 16, GROWLITHE
+	db 16, RENAMON
 	db 15, PIDGEOTTO
 	db 15, PIDGEY
 	db 15, PIDGEY

@@ -2,7 +2,7 @@ SpriteMons:
 ; entries correspond to SPRITE_* constants past SPRITE_POKEMON
 	db UNOWN
 	db GEODUDE
-	db GROWLITHE
+	db RENAMON
 	db MOTIMON
 	db SHELLDER
 	db GOBLIMON

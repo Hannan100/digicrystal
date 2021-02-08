@@ -56,7 +56,7 @@ AnimationPointers:
 	dw GolduckAnimation
 	dw MankeyAnimation
 	dw PrimeapeAnimation
-	dw GrowlitheAnimation
+	dw RenamonAnimation
 	dw ArcanineAnimation
 	dw PoliwagAnimation
 	dw PoliwhirlAnimation

@@ -769,7 +769,7 @@ PrimeapeEvosAttacks:
 	db 63, THRASH
 	db 0 ; no more level-up moves
 
-GrowlitheEvosAttacks:
+RenamonEvosAttacks:
 	db EVOLVE_ITEM, FIRE_STONE, ARCANINE
 	db 0 ; no more evolutions
 	db 1, BITE

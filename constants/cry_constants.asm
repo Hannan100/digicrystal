@@ -33,7 +33,7 @@
 	const CRY_WORMMON
 	const CRY_SQUIRTLE
 	const CRY_MUSHROOMON
-	const CRY_GROWLITHE
+	const CRY_RENAMON
 	const CRY_KRABBY
 	const CRY_PSYDUCK
 	const CRY_TSUNOMON
