@@ -6,7 +6,7 @@ SpriteMons:
 	db MOTIMON
 	db SHELLDER
 	db GOBLIMON
-	db GENGAR
+	db KRYSALIMON
 	db PAGUMON
 	db SWIMMON
 	db SQUIRTLE

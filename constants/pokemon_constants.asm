@@ -112,7 +112,7 @@
 	const CLOYSTER   ; 5b
 	const TSUMEMON     ; 5c
 	const KERAMON    ; 5d
-	const GENGAR     ; 5e
+	const KRYSALIMON     ; 5e
 	const ARMDILOMON       ; 5f
 	const TAPIRMON    ; 60
 	const HYPNO      ; 61

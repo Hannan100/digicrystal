@@ -99,7 +99,7 @@ PokemonCries::
 	mon_cry CRY_PATAMON,      $06f,  $160 ; CLOYSTER
 	mon_cry CRY_WORMMON,     $000,  $100 ; TSUMEMON
 	mon_cry CRY_WORMMON,     $030,  $0c0 ; KERAMON
-	mon_cry CRY_MUK,         $000,  $17f ; GENGAR
+	mon_cry CRY_MUK,         $000,  $17f ; KRYSALIMON
 	mon_cry CRY_GAZIMON,       $0ff,  $140 ; ARMDILOMON
 	mon_cry CRY_TAPIRMON,     $088,  $0a0 ; TAPIRMON
 	mon_cry CRY_TAPIRMON,     $0ee,  $0c0 ; HYPNO
@@ -355,7 +355,7 @@ PokemonCries::
 	mon_cry CRY_PATAMON,      111,  352 ; CLOYSTER
 	mon_cry CRY_WORMMON,       0,  256 ; TSUMEMON
 	mon_cry CRY_WORMMON,      48,  192 ; KERAMON
-	mon_cry CRY_MUK,           0,  383 ; GENGAR
+	mon_cry CRY_MUK,           0,  383 ; KRYSALIMON
 	mon_cry CRY_GAZIMON,       255,  320 ; ARMDILOMON
 	mon_cry CRY_TAPIRMON,     136,  160 ; TAPIRMON
 	mon_cry CRY_TAPIRMON,     238,  192 ; HYPNO

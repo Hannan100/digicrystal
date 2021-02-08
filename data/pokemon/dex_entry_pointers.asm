@@ -93,7 +93,7 @@ PokedexDataPointerTable:
 	dw CloysterPokedexEntry
 	dw TsumemonPokedexEntry
 	dw KeramonPokedexEntry
-	dw GengarPokedexEntry
+	dw KrysalimonPokedexEntry
 	dw ArmdilomonPokedexEntry
 	dw TapirmonPokedexEntry
 	dw HypnoPokedexEntry

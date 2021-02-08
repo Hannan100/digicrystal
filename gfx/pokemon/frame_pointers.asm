@@ -92,7 +92,7 @@ FramesPointers:
 	dw CloysterFrames
 	dw TsumemonFrames
 	dw KeramonFrames
-	dw GengarFrames
+	dw KrysalimonFrames
 	dw ArmdilomonFrames
 	dw TapirmonFrames
 	dw HypnoFrames

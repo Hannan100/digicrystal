@@ -12,7 +12,7 @@ Pokered_MonIndices:
 	db LICKITUNG
 	db CHUUMON
 	db GRIMER
-	db GENGAR
+	db KRYSALIMON
 	db NIDORAN_F
 	db NIDOQUEEN
 	db CUBONE

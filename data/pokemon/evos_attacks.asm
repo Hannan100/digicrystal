@@ -1249,7 +1249,7 @@ TsumemonEvosAttacks:
 	db 0 ; no more level-up moves
 
 KeramonEvosAttacks:
-	db EVOLVE_TRADE, -1, GENGAR
+	db EVOLVE_TRADE, -1, KRYSALIMON
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
 	db 1, LICK
@@ -1263,7 +1263,7 @@ KeramonEvosAttacks:
 	db 48, DESTINY_BOND
 	db 0 ; no more level-up moves
 
-GengarEvosAttacks:
+KrysalimonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
 	db 1, LICK

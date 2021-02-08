@@ -49,7 +49,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,    STARYU,          SET_UP_DOLL,       EVENT_DECO_STARMIE_DOLL,            SPRITE_STARMIE
 	decoration DECO_DOLL,    SWIMMON,        SET_UP_DOLL,       EVENT_DECO_SWIMMON_DOLL,           SPRITE_SWIMMON
 	decoration DECO_DOLL,    GOBLIMON,          SET_UP_DOLL,       EVENT_DECO_GOBLIMON_DOLL,             SPRITE_GOBLIMON
-	decoration DECO_DOLL,    GENGAR,          SET_UP_DOLL,       EVENT_DECO_GENGAR_DOLL,             SPRITE_GENGAR
+	decoration DECO_DOLL,    KRYSALIMON,          SET_UP_DOLL,       EVENT_DECO_KRYSALIMON_DOLL,             SPRITE_KRYSALIMON
 	decoration DECO_DOLL,    SHELLDER,        SET_UP_DOLL,       EVENT_DECO_SHELLDER_DOLL,           SPRITE_SHELLDER
 	decoration DECO_DOLL,    GRIMER,          SET_UP_DOLL,       EVENT_DECO_GRIMER_DOLL,             SPRITE_GRIMER
 	decoration DECO_DOLL,    VOLTORB,         SET_UP_DOLL,       EVENT_DECO_VOLTORB_DOLL,            SPRITE_VOLTORB

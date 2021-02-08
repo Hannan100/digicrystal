@@ -66,7 +66,7 @@ AlphabeticalPokedexOrder:
 	db WASPMON
 	db SALAMON
 	db TSUMEMON
-	db GENGAR
+	db KRYSALIMON
 	db GOTSUMON
 	db GIRAFARIG
 	db GLIGAR

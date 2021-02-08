@@ -94,7 +94,7 @@ KantoMonSpecials:
 	db  85 ; CLOYSTER
 	db 100 ; TSUMEMON
 	db 115 ; KERAMON
-	db 130 ; GENGAR
+	db 130 ; KRYSALIMON
 	db  30 ; ARMDILOMON
 	db  90 ; TAPIRMON
 	db 115 ; HYPNO

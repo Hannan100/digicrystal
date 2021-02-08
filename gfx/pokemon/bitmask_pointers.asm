@@ -92,7 +92,7 @@ BitmasksPointers:
 	dw CloysterBitmasks
 	dw TsumemonBitmasks
 	dw KeramonBitmasks
-	dw GengarBitmasks
+	dw KrysalimonBitmasks
 	dw ArmdilomonBitmasks
 	dw TapirmonBitmasks
 	dw HypnoBitmasks
