@@ -280,24 +280,24 @@ JohtoGrassWildMons:
 	db 15, TSUNOMON
 	db 14, PAGUMON
 	db 15, TSUNOMON
-	db 15, RATICATE
-	db 15, RATICATE
+	db 15, GABUMON
+	db 15, GABUMON
 	; day
 	db 13, TSUNOMON
 	db 14, KOFFING
 	db 15, TSUNOMON
 	db 14, PAGUMON
 	db 15, TSUNOMON
-	db 15, RATICATE
-	db 15, RATICATE
+	db 15, GABUMON
+	db 15, GABUMON
 	; nite
 	db 13, TSUNOMON
 	db 14, KOFFING
 	db 15, TSUNOMON
 	db 14, PAGUMON
 	db 15, TSUNOMON
-	db 15, RATICATE
-	db 15, RATICATE
+	db 15, GABUMON
+	db 15, GABUMON
 
 	map_id BURNED_TOWER_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -467,7 +467,7 @@ JohtoGrassWildMons:
 	db 22, PAGUMON
 	db 22, DEMDEVIMON
 	db 22, PAGUMON
-	db 21, RATICATE
+	db 21, GABUMON
 	db 20, GEODUDE
 	db 23, ARMDILOMON
 	db 23, ARMDILOMON
@@ -475,7 +475,7 @@ JohtoGrassWildMons:
 	db 22, PAGUMON
 	db 22, DEMDEVIMON
 	db 22, PAGUMON
-	db 21, RATICATE
+	db 21, GABUMON
 	db 20, GEODUDE
 	db 23, ARMDILOMON
 	db 23, ARMDILOMON
@@ -483,7 +483,7 @@ JohtoGrassWildMons:
 	db 22, PAGUMON
 	db 22, DEMDEVIMON
 	db 22, QUAGSIRE
-	db 21, RATICATE
+	db 21, GABUMON
 	db 20, GEODUDE
 	db 23, ARMDILOMON
 	db 23, ARMDILOMON
@@ -577,24 +577,24 @@ JohtoGrassWildMons:
 	db 14, MACHOP
 	db 13, DEMDEVIMON
 	db 14, GEODUDE
-	db 16, RATICATE
-	db 16, RATICATE
+	db 16, GABUMON
+	db 16, GABUMON
 	; day
 	db 14, TSUNOMON
 	db 13, PAGUMON
 	db 14, MACHOP
 	db 13, DEMDEVIMON
 	db 14, GEODUDE
-	db 16, RATICATE
-	db 16, RATICATE
+	db 16, GABUMON
+	db 16, GABUMON
 	; nite
 	db 14, TSUNOMON
 	db 13, PAGUMON
 	db 14, MARILL
 	db 13, DEMDEVIMON
 	db 14, GEODUDE
-	db 16, RATICATE
-	db 16, RATICATE
+	db 16, GABUMON
+	db 16, GABUMON
 
 	map_id MOUNT_MORTAR_1F_INSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -602,7 +602,7 @@ JohtoGrassWildMons:
 	db 13, GEODUDE
 	db 14, TSUNOMON
 	db 15, MACHOP
-	db 14, RATICATE
+	db 14, GABUMON
 	db 15, PAGUMON
 	db 15, DEMDEVIMON
 	db 15, DEMDEVIMON
@@ -610,14 +610,14 @@ JohtoGrassWildMons:
 	db 13, GEODUDE
 	db 14, TSUNOMON
 	db 15, MACHOP
-	db 14, RATICATE
+	db 14, GABUMON
 	db 15, PAGUMON
 	db 15, DEMDEVIMON
 	db 15, DEMDEVIMON
 	; nite
 	db 13, GEODUDE
 	db 14, TSUNOMON
-	db 15, RATICATE
+	db 15, GABUMON
 	db 14, PAGUMON
 	db 15, MARILL
 	db 15, DEMDEVIMON
@@ -629,7 +629,7 @@ JohtoGrassWildMons:
 	db 31, GRAVELER
 	db 32, MACHOKE
 	db 31, GEODUDE
-	db 30, RATICATE
+	db 30, GABUMON
 	db 28, MACHOP
 	db 30, DEMDEVIMON
 	db 30, DEMDEVIMON
@@ -637,14 +637,14 @@ JohtoGrassWildMons:
 	db 31, GRAVELER
 	db 32, MACHOKE
 	db 31, GEODUDE
-	db 30, RATICATE
+	db 30, GABUMON
 	db 28, MACHOP
 	db 30, DEMDEVIMON
 	db 30, DEMDEVIMON
 	; nite
 	db 31, GRAVELER
 	db 31, GEODUDE
-	db 30, RATICATE
+	db 30, GABUMON
 	db 30, DEMDEVIMON
 	db 28, MARILL
 	db 32, DEMDEVIMON
@@ -658,24 +658,24 @@ JohtoGrassWildMons:
 	db 17, DEMDEVIMON
 	db 16, MACHOP
 	db 16, GEODUDE
-	db 18, RATICATE
-	db 18, RATICATE
+	db 18, GABUMON
+	db 18, GABUMON
 	; day
 	db 15, PAGUMON
 	db 17, PAGUMON
 	db 17, DEMDEVIMON
 	db 16, MACHOP
 	db 16, GEODUDE
-	db 18, RATICATE
-	db 18, RATICATE
+	db 18, GABUMON
+	db 18, GABUMON
 	; nite
 	db 15, PAGUMON
 	db 17, PAGUMON
 	db 17, DEMDEVIMON
 	db 16, MARILL
 	db 16, GEODUDE
-	db 18, RATICATE
-	db 18, RATICATE
+	db 18, GABUMON
+	db 18, GABUMON
 
 	map_id ICE_PATH_1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -1437,7 +1437,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 16, TSUNOMON
-	db 16, RATICATE
+	db 16, GABUMON
 	db 16, HAGURUMON
 	db 16, PIDGEOTTO
 	db 13, TAUROS
@@ -1445,7 +1445,7 @@ JohtoGrassWildMons:
 	db 13, MILTANK
 	; day
 	db 16, TSUNOMON
-	db 16, RATICATE
+	db 16, GABUMON
 	db 16, HAGURUMON
 	db 16, PIDGEOTTO
 	db 13, TAUROS
@@ -1453,7 +1453,7 @@ JohtoGrassWildMons:
 	db 13, MILTANK
 	; nite
 	db 16, MEOWTH
-	db 16, RATICATE
+	db 16, GABUMON
 	db 16, HAGURUMON
 	db 16, HAWKMON
 	db 16, MEOWTH
@@ -1464,7 +1464,7 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	db 16, TSUNOMON
-	db 16, RATICATE
+	db 16, GABUMON
 	db 16, HAGURUMON
 	db 16, PIDGEOTTO
 	db 15, MILTANK
@@ -1472,7 +1472,7 @@ JohtoGrassWildMons:
 	db 15, TAUROS
 	; day
 	db 16, TSUNOMON
-	db 16, RATICATE
+	db 16, GABUMON
 	db 16, HAGURUMON
 	db 16, PIDGEOTTO
 	db 15, MILTANK
@@ -1480,7 +1480,7 @@ JohtoGrassWildMons:
 	db 15, TAUROS
 	; nite
 	db 16, MEOWTH
-	db 16, RATICATE
+	db 16, GABUMON
 	db 16, HAGURUMON
 	db 16, HAWKMON
 	db 18, MEOWTH
@@ -1493,7 +1493,7 @@ JohtoGrassWildMons:
 	db 13, GAZIMON
 	db 14, TOKOOMON
 	db 15, TSUNOMON
-	db 16, RATICATE
+	db 16, GABUMON
 	db 15, ARBOK
 	db 16, FEAROW
 	db 16, FEAROW
@@ -1501,14 +1501,14 @@ JohtoGrassWildMons:
 	db 13, GAZIMON
 	db 14, TOKOOMON
 	db 15, TSUNOMON
-	db 16, RATICATE
+	db 16, GABUMON
 	db 15, ARBOK
 	db 16, FEAROW
 	db 16, FEAROW
 	; nite
 	db 13, TSUNOMON
 	db 14, PAGUMON
-	db 15, RATICATE
+	db 15, GABUMON
 	db 16, DEMDEVIMON
 	db 15, MARILL
 	db 16, DEMDEVIMON
@@ -1521,7 +1521,7 @@ JohtoGrassWildMons:
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
 	db 15, FURRET
-	db 17, RATICATE
+	db 17, GABUMON
 	db 17, FURRET
 	db 17, FURRET
 	; day
@@ -1529,15 +1529,15 @@ JohtoGrassWildMons:
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
 	db 15, FURRET
-	db 17, RATICATE
+	db 17, GABUMON
 	db 17, FURRET
 	db 17, FURRET
 	; nite
 	db 15, KUNEMON
 	db 16, HAWKMON
-	db 16, RATICATE
+	db 16, GABUMON
 	db 17, KUNEMON
-	db 17, RATICATE
+	db 17, GABUMON
 	db 17, VENOMOTH
 	db 17, VENOMOTH
 

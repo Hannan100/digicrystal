@@ -181,7 +181,7 @@ AlphabeticalPokedexOrder:
 	db RAICHU
 	db RAIKOU
 	db RAPIDASH
-	db RATICATE
+	db GABUMON
 	db TSUNOMON
 	db REMORAID
 	db RHYDON

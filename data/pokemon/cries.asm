@@ -25,7 +25,7 @@ PokemonCries::
 	mon_cry CRY_PIDGEOTTO,   $028,  $140 ; PIDGEOTTO
 	mon_cry CRY_PIDGEOTTO,   $011,  $17f ; PIDGEOT
 	mon_cry CRY_TSUNOMON,     $000,  $100 ; TSUNOMON
-	mon_cry CRY_TSUNOMON,     $020,  $17f ; RATICATE
+	mon_cry CRY_TSUNOMON,     $020,  $17f ; GABUMON
 	mon_cry CRY_TOKOOMON,     $000,  $100 ; TOKOOMON
 	mon_cry CRY_FEAROW,      $040,  $120 ; FEAROW
 	mon_cry CRY_GAZIMON,       $012,  $0c0 ; GAZIMON
@@ -281,7 +281,7 @@ PokemonCries::
 	mon_cry CRY_PIDGEOTTO,    40,  320 ; PIDGEOTTO
 	mon_cry CRY_PIDGEOTTO,    17,  383 ; PIDGEOT
 	mon_cry CRY_TSUNOMON,       0,  256 ; TSUNOMON
-	mon_cry CRY_TSUNOMON,      32,  383 ; RATICATE
+	mon_cry CRY_TSUNOMON,      32,  383 ; GABUMON
 	mon_cry CRY_TOKOOMON,       0,  256 ; TOKOOMON
 	mon_cry CRY_FEAROW,       64,  288 ; FEAROW
 	mon_cry CRY_GAZIMON,        18,  192 ; GAZIMON

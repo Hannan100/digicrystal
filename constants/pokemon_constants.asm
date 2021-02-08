@@ -38,7 +38,7 @@
 	const PIDGEOTTO  ; 11
 	const PIDGEOT    ; 12
 	const TSUNOMON    ; 13
-	const RATICATE   ; 14
+	const GABUMON   ; 14
 	const TOKOOMON    ; 15
 	const FEAROW     ; 16
 	const GAZIMON      ; 17

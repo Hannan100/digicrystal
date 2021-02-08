@@ -267,7 +267,7 @@ PidgeotEvosAttacks:
 	db 0 ; no more level-up moves
 
 TsunomonEvosAttacks:
-	db EVOLVE_LEVEL, 20, RATICATE
+	db EVOLVE_LEVEL, 20, GABUMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
@@ -278,7 +278,7 @@ TsunomonEvosAttacks:
 	db 34, SUPER_FANG
 	db 0 ; no more level-up moves
 
-RaticateEvosAttacks:
+GabumonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP

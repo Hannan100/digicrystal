@@ -141,7 +141,7 @@ KantoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 22, PAGUMON
-	db 22, RATICATE
+	db 22, GABUMON
 	db 24, DEMDEVIMON
 	db 21, SLOWPOKE
 	db 20, TSUNOMON
@@ -149,7 +149,7 @@ KantoGrassWildMons:
 	db 23, SLOWPOKE
 	; day
 	db 22, PAGUMON
-	db 22, RATICATE
+	db 22, GABUMON
 	db 24, DEMDEVIMON
 	db 21, SLOWPOKE
 	db 20, TSUNOMON
@@ -157,7 +157,7 @@ KantoGrassWildMons:
 	db 23, SLOWPOKE
 	; nite
 	db 22, PAGUMON
-	db 22, RATICATE
+	db 22, GABUMON
 	db 24, DEMDEVIMON
 	db 21, SLOWPOKE
 	db 20, TSUNOMON
@@ -187,7 +187,7 @@ KantoGrassWildMons:
 	db 2, TSUNOMON
 	db 3, TSUNOMON
 	db 3, POROMON
-	db 6, RATICATE
+	db 6, GABUMON
 	db 4 ,POROMON
 	db 4, POROMON
 
@@ -224,7 +224,7 @@ KantoGrassWildMons:
 	db 5, TOKOOMON
 	db 5, TSUNOMON
 	db 8, GAZIMON
-	db 10, RATICATE
+	db 10, GABUMON
 	db 10, ARBOK
 	db 10, SANDSHREW
 	db 10, SANDSHREW
@@ -232,14 +232,14 @@ KantoGrassWildMons:
 	db 5, TOKOOMON
 	db 5, TSUNOMON
 	db 8, GAZIMON
-	db 10, RATICATE
+	db 10, GABUMON
 	db 10, ARBOK
 	db 10, SANDSHREW
 	db 10, SANDSHREW
 	; nite
 	db 5, TSUNOMON
 	db 10, TSUNOMON
-	db 10, RATICATE
+	db 10, GABUMON
 	db 6, PAGUMON
 	db 5, TSUNOMON
 	db 6, CLEFAIRY
@@ -251,7 +251,7 @@ KantoGrassWildMons:
 	db 5, TOKOOMON
 	db 5, TSUNOMON
 	db 8, GAZIMON
-	db 10, RATICATE
+	db 10, GABUMON
 	db 10, ARBOK
 	db 10, SANDSHREW
 	db 10, SANDSHREW
@@ -259,14 +259,14 @@ KantoGrassWildMons:
 	db 5, TOKOOMON
 	db 5, TSUNOMON
 	db 8, GAZIMON
-	db 10, RATICATE
+	db 10, GABUMON
 	db 10, ARBOK
 	db 10, SANDSHREW
 	db 10, SANDSHREW
 	; nite
 	db 5, TSUNOMON
 	db 10, TSUNOMON
-	db 10, RATICATE
+	db 10, GABUMON
 	db 6, PAGUMON
 	db 5, TSUNOMON
 	db 6, CLEFAIRY
@@ -305,7 +305,7 @@ KantoGrassWildMons:
 	db 13, TSUNOMON
 	db 13, ELECMON
 	db 14, HAGURUMON
-	db 15, RATICATE
+	db 15, GABUMON
 	db 12, CANDLEMON
 	db 15, GRANBULL
 	db 15, GRANBULL
@@ -313,7 +313,7 @@ KantoGrassWildMons:
 	db 13, TSUNOMON
 	db 13, ELECMON
 	db 14, HAGURUMON
-	db 15, RATICATE
+	db 15, GABUMON
 	db 12, CANDLEMON
 	db 15, GRANBULL
 	db 15, GRANBULL
@@ -323,8 +323,8 @@ KantoGrassWildMons:
 	db 14, HAGURUMON
 	db 15, PSYDUCK
 	db 12, CANDLEMON
-	db 15, RATICATE
-	db 15, RATICATE
+	db 15, GABUMON
+	db 15, GABUMON
 
 	map_id ROUTE_7
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -332,7 +332,7 @@ KantoGrassWildMons:
 	db 17, TSUNOMON
 	db 17, TOKOOMON
 	db 18, ELECMON
-	db 18, RATICATE
+	db 18, GABUMON
 	db 18, CANDLEMON
 	db 16, ABRA
 	db 16, ABRA
@@ -340,7 +340,7 @@ KantoGrassWildMons:
 	db 17, TSUNOMON
 	db 17, TOKOOMON
 	db 18, ELECMON
-	db 18, RATICATE
+	db 18, GABUMON
 	db 18, CANDLEMON
 	db 16, ABRA
 	db 16, ABRA
@@ -385,7 +385,7 @@ KantoGrassWildMons:
 	; morn
 	db 15, TSUNOMON
 	db 15, TOKOOMON
-	db 15, RATICATE
+	db 15, GABUMON
 	db 15, FEAROW
 	db 15, FEAROW
 	db 18, MAROWAK
@@ -393,7 +393,7 @@ KantoGrassWildMons:
 	; day
 	db 15, TSUNOMON
 	db 15, TOKOOMON
-	db 15, RATICATE
+	db 15, GABUMON
 	db 15, FEAROW
 	db 15, FEAROW
 	db 18, MAROWAK
@@ -401,18 +401,18 @@ KantoGrassWildMons:
 	; nite
 	db 15, TSUNOMON
 	db 15, KUNEMON
-	db 15, RATICATE
+	db 15, GABUMON
 	db 15, VENOMOTH
 	db 15, PAGUMON
-	db 18, RATICATE
-	db 18, RATICATE
+	db 18, GABUMON
+	db 18, GABUMON
 
 	map_id ROUTE_10_NORTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 15, TOKOOMON
 	db 17, VOLTORB
-	db 15, RATICATE
+	db 15, GABUMON
 	db 15, FEAROW
 	db 15, MAROWAK
 	db 16, ELECTABUZZ
@@ -420,7 +420,7 @@ KantoGrassWildMons:
 	; day
 	db 15, TOKOOMON
 	db 17, VOLTORB
-	db 15, RATICATE
+	db 15, GABUMON
 	db 15, FEAROW
 	db 15, MAROWAK
 	db 18, ELECTABUZZ
@@ -428,7 +428,7 @@ KantoGrassWildMons:
 	; nite
 	db 15, KUNEMON
 	db 17, VOLTORB
-	db 15, RATICATE
+	db 15, GABUMON
 	db 15, VENOMOTH
 	db 15, PAGUMON
 	db 16, ELECTABUZZ
@@ -438,7 +438,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 14, YOKOMON
-	db 13, RATICATE
+	db 13, GABUMON
 	db 15, HAGURUMON
 	db 16, PIDGEOTTO
 	db 16, TSUNOMON
@@ -446,7 +446,7 @@ KantoGrassWildMons:
 	db 16, YOKOMON
 	; day
 	db 14, YOKOMON
-	db 13, RATICATE
+	db 13, GABUMON
 	db 15, HAGURUMON
 	db 16, PIDGEOTTO
 	db 16, TSUNOMON
@@ -457,7 +457,7 @@ KantoGrassWildMons:
 	db 13, MEOWTH
 	db 15, HAGURUMON
 	db 16, HAWKMON
-	db 16, RATICATE
+	db 16, GABUMON
 	db 16, HYPNO
 	db 16, HYPNO
 
@@ -629,7 +629,7 @@ KantoGrassWildMons:
 	db 30, TANGELA
 	db 25, TSUNOMON
 	db 35, TANGELA
-	db 20, RATICATE
+	db 20, GABUMON
 	db 30, MR__MIME
 	db 28, MR__MIME
 	db 28, MR__MIME
@@ -637,7 +637,7 @@ KantoGrassWildMons:
 	db 30, TANGELA
 	db 25, TSUNOMON
 	db 35, TANGELA
-	db 20, RATICATE
+	db 20, GABUMON
 	db 28, MR__MIME
 	db 30, MR__MIME
 	db 30, MR__MIME
@@ -645,7 +645,7 @@ KantoGrassWildMons:
 	db 30, TANGELA
 	db 25, TSUNOMON
 	db 35, TANGELA
-	db 20, RATICATE
+	db 20, GABUMON
 	db 30, TANGELA
 	db 28, TANGELA
 	db 28, TANGELA
@@ -737,7 +737,7 @@ KantoGrassWildMons:
 	db 28, DODUO
 	db 28, SANDSLASH
 	db 32, PONYTA
-	db 30, RATICATE
+	db 30, GABUMON
 	db 30, DODUO
 	db 30, ARBOK
 	db 30, ARBOK
@@ -745,15 +745,15 @@ KantoGrassWildMons:
 	db 28, DODUO
 	db 28, SANDSLASH
 	db 32, PONYTA
-	db 30, RATICATE
+	db 30, GABUMON
 	db 30, DODUO
 	db 30, ARBOK
 	db 30, ARBOK
 	; nite
 	db 28, HAWKMON
-	db 28, RATICATE
+	db 28, GABUMON
 	db 32, HAWKMON
-	db 30, RATICATE
+	db 30, GABUMON
 	db 30, QUAGSIRE
 	db 30, QUAGSIRE
 	db 30, QUAGSIRE
@@ -763,7 +763,7 @@ KantoGrassWildMons:
 	; morn
 	db 28, DODUO
 	db 28, ARBOK
-	db 30, RATICATE
+	db 30, GABUMON
 	db 30, DODUO
 	db 32, PONYTA
 	db 30, DODRIO
@@ -771,7 +771,7 @@ KantoGrassWildMons:
 	; day
 	db 28, DODUO
 	db 28, ARBOK
-	db 30, RATICATE
+	db 30, GABUMON
 	db 30, DODUO
 	db 32, PONYTA
 	db 30, DODRIO
@@ -779,7 +779,7 @@ KantoGrassWildMons:
 	; nite
 	db 28, QUAGSIRE
 	db 28, HAWKMON
-	db 30, RATICATE
+	db 30, GABUMON
 	db 30, QUAGSIRE
 	db 32, HAWKMON
 	db 32, HAWKMON

@@ -20,7 +20,7 @@ EvosAttacksPointers::
 	dw PidgeottoEvosAttacks
 	dw PidgeotEvosAttacks
 	dw TsunomonEvosAttacks
-	dw RaticateEvosAttacks
+	dw GabumonEvosAttacks
 	dw TokoomonEvosAttacks
 	dw FearowEvosAttacks
 	dw GazimonEvosAttacks

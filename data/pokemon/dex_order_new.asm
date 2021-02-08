@@ -18,7 +18,7 @@ NewPokedexOrder:
 	db POROMON
 	db HAWKMON
 	db TSUNOMON
-	db RATICATE
+	db GABUMON
 	db NYAROMON
 	db FURRET
 	db PICHU

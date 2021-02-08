@@ -20,7 +20,7 @@ KantoMonSpecials:
 	db  50 ; PIDGEOTTO
 	db  70 ; PIDGEOT
 	db  25 ; TSUNOMON
-	db  50 ; RATICATE
+	db  50 ; GABUMON
 	db  31 ; TOKOOMON
 	db  61 ; FEAROW
 	db  40 ; GAZIMON

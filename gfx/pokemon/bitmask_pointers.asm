@@ -18,7 +18,7 @@ BitmasksPointers:
 	dw PidgeottoBitmasks
 	dw PidgeotBitmasks
 	dw TsunomonBitmasks
-	dw RaticateBitmasks
+	dw GabumonBitmasks
 	dw TokoomonBitmasks
 	dw FearowBitmasks
 	dw GazimonBitmasks

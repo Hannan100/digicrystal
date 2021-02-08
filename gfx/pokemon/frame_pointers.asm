@@ -18,7 +18,7 @@ FramesPointers:
 	dw PidgeottoFrames
 	dw PidgeotFrames
 	dw TsunomonFrames
-	dw RaticateFrames
+	dw GabumonFrames
 	dw TokoomonFrames
 	dw FearowFrames
 	dw GazimonFrames

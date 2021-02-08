@@ -20,7 +20,7 @@ MonMenuIcons:
 	db ICON_BIRD        ; PIDGEOTTO
 	db ICON_BIRD        ; PIDGEOT
 	db ICON_FOX         ; TSUNOMON
-	db ICON_FOX         ; RATICATE
+	db ICON_FOX         ; GABUMON
 	db ICON_BIRD        ; TOKOOMON
 	db ICON_BIRD        ; FEAROW
 	db ICON_SERPENT     ; GAZIMON
