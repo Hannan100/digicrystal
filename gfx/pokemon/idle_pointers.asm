@@ -13,7 +13,7 @@ AnimationIdlePointers:
 	dw StingmonAnimationIdle
 	dw MotimonAnimationIdle
 	dw TentomonAnimationIdle
-	dw BeedrillAnimationIdle
+	dw KabutrimonAnimationIdle
 	dw PidgeyAnimationIdle
 	dw PidgeottoAnimationIdle
 	dw PidgeotAnimationIdle

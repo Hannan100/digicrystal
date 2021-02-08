@@ -15,7 +15,7 @@ KantoMonSpecials:
 	db  80 ; STINGMON
 	db  20 ; MOTIMON
 	db  25 ; TENTOMON
-	db  45 ; BEEDRILL
+	db  45 ; KABUTRIMON
 	db  35 ; PIDGEY
 	db  50 ; PIDGEOTTO
 	db  70 ; PIDGEOT

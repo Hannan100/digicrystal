@@ -13,7 +13,7 @@ FramesPointers:
 	dw StingmonFrames
 	dw MotimonFrames
 	dw TentomonFrames
-	dw BeedrillFrames
+	dw KabutrimonFrames
 	dw PidgeyFrames
 	dw PidgeottoFrames
 	dw PidgeotFrames

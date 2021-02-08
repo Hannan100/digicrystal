@@ -12,7 +12,7 @@ AlphabeticalPokedexOrder:
 	db ARTICUNO
 	db AZUMARILL
 	db PALMON
-	db BEEDRILL
+	db KABUTRIMON
 	db BELLOSSOM
 	db LALAMON
 	db BLASTOISE

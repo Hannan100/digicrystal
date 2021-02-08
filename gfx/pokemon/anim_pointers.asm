@@ -13,7 +13,7 @@ AnimationPointers:
 	dw StingmonAnimation
 	dw MotimonAnimation
 	dw TentomonAnimation
-	dw BeedrillAnimation
+	dw KabutrimonAnimation
 	dw PidgeyAnimation
 	dw PidgeottoAnimation
 	dw PidgeotAnimation

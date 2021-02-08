@@ -14,7 +14,7 @@ PokedexDataPointerTable:
 	dw StingmonPokedexEntry
 	dw MotimonPokedexEntry
 	dw TentomonPokedexEntry
-	dw BeedrillPokedexEntry
+	dw KabutrimonPokedexEntry
 	dw PidgeyPokedexEntry
 	dw PidgeottoPokedexEntry
 	dw PidgeotPokedexEntry

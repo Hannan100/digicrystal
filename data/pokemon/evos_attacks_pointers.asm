@@ -15,7 +15,7 @@ EvosAttacksPointers::
 	dw StingmonEvosAttacks
 	dw MotimonEvosAttacks
 	dw TentomonEvosAttacks
-	dw BeedrillEvosAttacks
+	dw KabutrimonEvosAttacks
 	dw PidgeyEvosAttacks
 	dw PidgeottoEvosAttacks
 	dw PidgeotEvosAttacks

@@ -33,7 +33,7 @@
 	const STINGMON ; 0c
 	const MOTIMON     ; 0d
 	const TENTOMON     ; 0e
-	const BEEDRILL   ; 0f
+	const KABUTRIMON   ; 0f
 	const PIDGEY     ; 10
 	const PIDGEOTTO  ; 11
 	const PIDGEOT    ; 12

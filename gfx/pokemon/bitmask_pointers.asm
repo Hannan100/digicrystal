@@ -13,7 +13,7 @@ BitmasksPointers:
 	dw StingmonBitmasks
 	dw MotimonBitmasks
 	dw TentomonBitmasks
-	dw BeedrillBitmasks
+	dw KabutrimonBitmasks
 	dw PidgeyBitmasks
 	dw PidgeottoBitmasks
 	dw PidgeotBitmasks

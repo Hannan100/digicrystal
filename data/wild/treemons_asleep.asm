@@ -6,7 +6,7 @@ AsleepTreeMonsNite:
 	db STINGMON
 	db MOTIMON
 	db TENTOMON
-	db BEEDRILL
+	db KABUTRIMON
 	db TOKOOMON
 	db GAZIMON
 	db CHUUMON

@@ -13,7 +13,7 @@ PokemonNames::
 	db "STINGMON" ; !Armor evo
 	db "MOTIMON@@@@" ; !Armor evo
 	db "TENTOMON@@@@"
-	db "BEEDRILL@@"
+	db "KABUTRIMON@@"
 	db "PIDGEY@@@@" ; !Biyomon
 	db "PIDGEOTTO@" ; !Birdramon
 	db "PIDGEOT@@@"
