@@ -112,7 +112,7 @@ AnimationIdlePointers:
 	dw RhyhornAnimationIdle
 	dw RhydonAnimationIdle
 	dw ChanseyAnimationIdle
-	dw TangelaAnimationIdle
+	dw ShurimonAnimationIdle
 	dw KangaskhanAnimationIdle
 	dw HorseaAnimationIdle
 	dw SeadraAnimationIdle

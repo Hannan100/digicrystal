@@ -132,7 +132,7 @@
 	const RHYHORN    ; 6f
 	const RHYDON     ; 70
 	const CHANSEY    ; 71
-	const TANGELA    ; 72
+	const SHURIMON    ; 72
 	const KANGASKHAN ; 73
 	const HORSEA     ; 74
 	const SEADRA     ; 75

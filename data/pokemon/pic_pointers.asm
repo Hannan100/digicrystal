@@ -228,8 +228,8 @@ PokemonPicPointers::
 	dba_pic RhydonBackpic
 	dba_pic ChanseyFrontpic
 	dba_pic ChanseyBackpic
-	dba_pic TangelaFrontpic
-	dba_pic TangelaBackpic
+	dba_pic ShurimonFrontpic
+	dba_pic ShurimonBackpic
 	dba_pic KangaskhanFrontpic
 	dba_pic KangaskhanBackpic
 	dba_pic HorseaFrontpic

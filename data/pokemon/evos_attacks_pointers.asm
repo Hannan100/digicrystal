@@ -114,7 +114,7 @@ EvosAttacksPointers::
 	dw RhyhornEvosAttacks
 	dw RhydonEvosAttacks
 	dw ChanseyEvosAttacks
-	dw TangelaEvosAttacks
+	dw ShurimonEvosAttacks
 	dw KangaskhanEvosAttacks
 	dw HorseaEvosAttacks
 	dw SeadraEvosAttacks

@@ -113,7 +113,7 @@ PokedexDataPointerTable:
 	dw RhyhornPokedexEntry
 	dw RhydonPokedexEntry
 	dw ChanseyPokedexEntry
-	dw TangelaPokedexEntry
+	dw ShurimonPokedexEntry
 	dw KangaskhanPokedexEntry
 	dw HorseaPokedexEntry
 	dw SeadraPokedexEntry

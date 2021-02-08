@@ -112,7 +112,7 @@ AnimationPointers:
 	dw RhyhornAnimation
 	dw RhydonAnimation
 	dw ChanseyAnimation
-	dw TangelaAnimation
+	dw ShurimonAnimation
 	dw KangaskhanAnimation
 	dw HorseaAnimation
 	dw SeadraAnimation

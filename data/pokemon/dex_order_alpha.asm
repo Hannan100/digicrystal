@@ -219,7 +219,7 @@ AlphabeticalPokedexOrder:
 	db SUNFLORA
 	db SUNKERN
 	db SWINUB
-	db TANGELA
+	db SHURIMON
 	db TAUROS
 	db IMPMON
 	db TENTACOOL

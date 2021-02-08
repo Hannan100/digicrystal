@@ -112,7 +112,7 @@ PokemonNames::
 	db "RHYHORN@@@"
 	db "RHYDON@@@@"
 	db "CHANSEY@@@"
-	db "TANGELA@@@"
+	db "SHURIMON@@@"
 	db "KANGASKHAN"
 	db "HORSEA@@@@"
 	db "SEADRA@@@@"

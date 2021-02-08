@@ -114,7 +114,7 @@ KantoMonSpecials:
 	db  30 ; RHYHORN
 	db  45 ; RHYDON
 	db 105 ; CHANSEY
-	db 100 ; TANGELA
+	db 100 ; SHURIMON
 	db  40 ; KANGASKHAN
 	db  70 ; HORSEA
 	db  95 ; SEADRA

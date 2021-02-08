@@ -112,7 +112,7 @@ BitmasksPointers:
 	dw RhyhornBitmasks
 	dw RhydonBitmasks
 	dw ChanseyBitmasks
-	dw TangelaBitmasks
+	dw ShurimonBitmasks
 	dw KangaskhanBitmasks
 	dw HorseaBitmasks
 	dw SeadraBitmasks

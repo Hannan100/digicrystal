@@ -1544,7 +1544,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_44
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, TANGELA
+	db 23, SHURIMON
 	db 22, LICKITUNG
 	db 22, LALAMON
 	db 24, WOODMON
@@ -1552,7 +1552,7 @@ JohtoGrassWildMons:
 	db 26, LICKITUNG
 	db 26, LICKITUNG
 	; day
-	db 23, TANGELA
+	db 23, SHURIMON
 	db 22, LICKITUNG
 	db 22, LALAMON
 	db 24, WOODMON
@@ -1560,7 +1560,7 @@ JohtoGrassWildMons:
 	db 26, LICKITUNG
 	db 26, LICKITUNG
 	; nite
-	db 23, TANGELA
+	db 23, SHURIMON
 	db 22, BETAMON
 	db 22, LALAMON
 	db 24, WOODMON
@@ -1625,7 +1625,7 @@ JohtoGrassWildMons:
 	map_id SILVER_CAVE_OUTSIDE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 41, TANGELA
+	db 41, SHURIMON
 	db 42, PONYTA
 	db 42, ARBOK
 	db 44, RAPIDASH
@@ -1633,7 +1633,7 @@ JohtoGrassWildMons:
 	db 43, DODRIO
 	db 43, DODRIO
 	; day
-	db 41, TANGELA
+	db 41, SHURIMON
 	db 42, PONYTA
 	db 42, ARBOK
 	db 44, RAPIDASH
@@ -1641,7 +1641,7 @@ JohtoGrassWildMons:
 	db 43, DODRIO
 	db 43, DODRIO
 	; nite
-	db 41, TANGELA
+	db 41, SHURIMON
 	db 42, POLIWHIRL
 	db 42, DEMDEVIMON
 	db 44, POLIWHIRL

@@ -179,7 +179,7 @@ NewPokedexOrder:
 	db SEEL
 	db DEWGONG
 	db LICKITUNG
-	db TANGELA
+	db SHURIMON
 	db EEVEE
 	db VAPOREON
 	db JOLTEON

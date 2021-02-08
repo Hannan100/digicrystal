@@ -119,7 +119,7 @@ PokemonCries::
 	mon_cry CRY_GUILMON,  $000,  $100 ; RHYHORN
 	mon_cry CRY_RHYDON,      $000,  $100 ; RHYDON
 	mon_cry CRY_PEGASUSMONTO,   $00a,  $140 ; CHANSEY
-	mon_cry CRY_GOLEM,       $000,  $100 ; TANGELA
+	mon_cry CRY_GOLEM,       $000,  $100 ; SHURIMON
 	mon_cry CRY_KANGASKHAN,  $000,  $100 ; KANGASKHAN
 	mon_cry CRY_CLEFAIRY,    $099,  $090 ; HORSEA
 	mon_cry CRY_CLEFAIRY,    $03c,  $081 ; SEADRA
@@ -375,7 +375,7 @@ PokemonCries::
 	mon_cry CRY_GUILMON,    0,  256 ; RHYHORN
 	mon_cry CRY_RHYDON,        0,  256 ; RHYDON
 	mon_cry CRY_PEGASUSMONTO,    10,  320 ; CHANSEY
-	mon_cry CRY_GOLEM,         0,  256 ; TANGELA
+	mon_cry CRY_GOLEM,         0,  256 ; SHURIMON
 	mon_cry CRY_KANGASKHAN,    0,  256 ; KANGASKHAN
 	mon_cry CRY_CLEFAIRY,    153,  144 ; HORSEA
 	mon_cry CRY_CLEFAIRY,     60,  129 ; SEADRA
