@@ -152,7 +152,7 @@ PokemonNames::
 	db "MEW@@@@@@@"
 	db "TANEMON@@@" ; Tanemon
 	db "PALMON@@@" ; !Palmon
-	db "MEGANIUM@@" ; !Togemon
+	db "TOGEMON@@" ; !Togemon
 	db "KOROMON@@@" ; Koromon
 	db "AGUMON@@@" ; !Agumon
 	db "GREYMON" ; !Greymon

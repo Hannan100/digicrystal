@@ -415,7 +415,7 @@ PokemonCries::
 	mon_cry CRY_MUSHROOMON,       238,  383 ; MEW
 	mon_cry CRY_TANEMON,   -16,  176 ; TANEMON
 	mon_cry CRY_TANEMON,   -34,  288 ; PALMON
-	mon_cry CRY_TANEMON,  -183,  512 ; MEGANIUM
+	mon_cry CRY_TANEMON,  -183,  512 ; TOGEMON
 	mon_cry CRY_KOROMON,   839,  128 ; KOROMON
 	mon_cry CRY_KOROMON,   801,  288 ; AGUMON
 	mon_cry CRY_GREYMON, 3840,  212 ; GREYMON
