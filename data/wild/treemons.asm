@@ -56,17 +56,17 @@ TreeMonSet_Route:
 	db 50, POROMON,   10
 	db 15, KOKOMON,   10
 	db 15, GUMMYMON,     10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 10, CHUUMON,  10
+	db  5, CHUUMON,  10
+	db  5, CHUUMON,  10
 	db -1
 ; rare
 	db 50, POROMON,   10
 	db 15, FANBEEMON,     10
 	db 15, FANBEEMON,     10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 10, CHUUMON,  10
+	db  5, CHUUMON,  10
+	db  5, CHUUMON,  10
 	db -1
 
 TreeMonSet_Kanto:
@@ -74,17 +74,17 @@ TreeMonSet_Kanto:
 	db 50, POROMON,   10
 	db 15, GAZIMON,      10
 	db 15, POROMON,   10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 10, CHUUMON,  10
+	db  5, CHUUMON,  10
+	db  5, CHUUMON,  10
 	db -1
 ; rare
 	db 50, POROMON,   10
 	db 15, FANBEEMON,     10
 	db 15, FANBEEMON,     10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 10, CHUUMON,  10
+	db  5, CHUUMON,  10
+	db  5, CHUUMON,  10
 	db -1
 
 TreeMonSet_Lake:
@@ -92,17 +92,17 @@ TreeMonSet_Lake:
 	db 50, POROMON,   10
 	db 15, KUNEMON,    10
 	db 15, POROMON,   10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 10, CHUUMON,  10
+	db  5, CHUUMON,  10
+	db  5, CHUUMON,  10
 	db -1
 ; rare
 	db 50, POROMON,   10
 	db 15, FANBEEMON,     10
 	db 15, FANBEEMON,     10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 10, CHUUMON,  10
+	db  5, CHUUMON,  10
+	db  5, CHUUMON,  10
 	db -1
 
 TreeMonSet_Forest:

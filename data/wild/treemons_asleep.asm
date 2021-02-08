@@ -9,7 +9,7 @@ AsleepTreeMonsNite:
 	db BEEDRILL
 	db TOKOOMON
 	db GAZIMON
-	db EXEGGCUTE
+	db CHUUMON
 	db GUMMYMON
 	db AIPOM
 	db -1 ; end

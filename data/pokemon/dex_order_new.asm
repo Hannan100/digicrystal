@@ -104,7 +104,7 @@ NewPokedexOrder:
 	db YANMA
 	db SUNKERN
 	db SUNFLORA
-	db EXEGGCUTE
+	db CHUUMON
 	db EXEGGUTOR
 	db SUDOWOODO
 	db WOBBUFFET

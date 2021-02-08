@@ -56,7 +56,7 @@ AlphabeticalPokedexOrder:
 	db ELEKID
 	db ENTEI
 	db ESPEON
-	db EXEGGCUTE
+	db CHUUMON
 	db EXEGGUTOR
 	db FARFETCH_D
 	db PATAMON

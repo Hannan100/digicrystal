@@ -10,7 +10,7 @@ Pokered_MonIndices:
 	db PUNIMON
 	db EXEGGUTOR
 	db LICKITUNG
-	db EXEGGCUTE
+	db CHUUMON
 	db GRIMER
 	db GENGAR
 	db NIDORAN_F

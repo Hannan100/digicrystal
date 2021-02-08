@@ -100,7 +100,7 @@ FramesPointers:
 	dw KinglerFrames
 	dw VoltorbFrames
 	dw ElectrodeFrames
-	dw ExeggcuteFrames
+	dw ChuumonFrames
 	dw ExeggutorFrames
 	dw CuboneFrames
 	dw MarowakFrames

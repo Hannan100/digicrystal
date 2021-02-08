@@ -231,7 +231,7 @@ INCBIN "gfx/footprints/krabby.1bpp",     footprint_top
 INCBIN "gfx/footprints/kingler.1bpp",    footprint_top
 INCBIN "gfx/footprints/voltorb.1bpp",    footprint_top
 INCBIN "gfx/footprints/electrode.1bpp",  footprint_top
-INCBIN "gfx/footprints/exeggcute.1bpp",  footprint_top
+INCBIN "gfx/footprints/chuumon.1bpp",  footprint_top
 INCBIN "gfx/footprints/exeggutor.1bpp",  footprint_top
 INCBIN "gfx/footprints/cubone.1bpp",     footprint_top
 ; 097-104 bottom halves
@@ -240,7 +240,7 @@ INCBIN "gfx/footprints/krabby.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/kingler.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/voltorb.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/electrode.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/exeggcute.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/chuumon.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/exeggutor.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/cubone.1bpp",     footprint_bottom
 ; 105-112 top halves
