@@ -206,7 +206,7 @@ EvosAttacksPointers::
 	dw GirafarigEvosAttacks
 	dw FanbeemonEvosAttacks
 	dw ForretressEvosAttacks
-	dw DunsparceEvosAttacks
+	dw KudamonEvosAttacks
 	dw GligarEvosAttacks
 	dw SteelixEvosAttacks
 	dw ElecmonEvosAttacks

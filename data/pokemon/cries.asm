@@ -211,14 +211,14 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; GIRAFARIG
 	mon_cry CRY_SLOWKING,    $080,  $100 ; FANBEEMON
 	mon_cry CRY_SLOWKING,    $000,  $180 ; FORRETRESS
-	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; DUNSPARCE
+	mon_cry CRY_KUDAMON,   $1c4,  $100 ; KUDAMON
 	mon_cry CRY_GLIGAR,     -$102,  $100 ; GLIGAR
 	mon_cry CRY_TYPHLOSION,  $0ef,  $0f7 ; STEELIX
-	mon_cry CRY_DUNSPARCE,   $112,  $0e8 ; ELECMON
-	mon_cry CRY_DUNSPARCE,   $000,  $180 ; GRANBULL
+	mon_cry CRY_KUDAMON,   $112,  $0e8 ; ELECMON
+	mon_cry CRY_KUDAMON,   $000,  $180 ; GRANBULL
 	mon_cry CRY_SLOWKING,    $160,  $0e0 ; QWILFISH
 	mon_cry CRY_AMPHAROS,    $000,  $160 ; SCIZOR
-	mon_cry CRY_DUNSPARCE,   $290,  $0a8 ; SHUCKLE
+	mon_cry CRY_KUDAMON,   $290,  $0a8 ; SHUCKLE
 	mon_cry CRY_AMPHAROS,    $035,  $0e0 ; HERACROSS
 	mon_cry CRY_WOOPER,      $053,  $0af ; SNEASEL
 	mon_cry CRY_IMPMON,   $7a2,  $06e ; IMPMON
@@ -467,14 +467,14 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,    65,  512 ; GIRAFARIG
 	mon_cry CRY_SLOWKING,    128,  256 ; FANBEEMON
 	mon_cry CRY_SLOWKING,      0,  384 ; FORRETRESS
-	mon_cry CRY_DUNSPARCE,   452,  256 ; DUNSPARCE
+	mon_cry CRY_KUDAMON,   452,  256 ; KUDAMON
 	mon_cry CRY_GLIGAR,     -258,  256 ; GLIGAR
 	mon_cry CRY_TYPHLOSION,  239,  247 ; STEELIX
-	mon_cry CRY_DUNSPARCE,   274,  232 ; ELECMON
-	mon_cry CRY_DUNSPARCE,     0,  384 ; GRANBULL
+	mon_cry CRY_KUDAMON,   274,  232 ; ELECMON
+	mon_cry CRY_KUDAMON,     0,  384 ; GRANBULL
 	mon_cry CRY_SLOWKING,    352,  224 ; QWILFISH
 	mon_cry CRY_AMPHAROS,      0,  352 ; SCIZOR
-	mon_cry CRY_DUNSPARCE,   656,  168 ; SHUCKLE
+	mon_cry CRY_KUDAMON,   656,  168 ; SHUCKLE
 	mon_cry CRY_AMPHAROS,     53,  224 ; HERACROSS
 	mon_cry CRY_WOOPER,       83,  175 ; SNEASEL
 	mon_cry CRY_IMPMON,  1954,  110 ; IMPMON

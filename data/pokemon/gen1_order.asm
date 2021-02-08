@@ -244,7 +244,7 @@ Pokered_MonIndices:
 	db GIRAFARIG
 	db FANBEEMON
 	db FORRETRESS
-	db DUNSPARCE
+	db KUDAMON
 	db GLIGAR
 	db STEELIX
 	db ELECMON

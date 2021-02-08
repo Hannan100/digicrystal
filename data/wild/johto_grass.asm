@@ -1145,7 +1145,7 @@ JohtoGrassWildMons:
 	db 4, GEODUDE
 	db 2, IMPMON
 	db 4, PAGUMON
-	db 4, DUNSPARCE
+	db 4, KUDAMON
 	; day
 	db 3, GEODUDE
 	db 2, PAGUMON
@@ -1153,7 +1153,7 @@ JohtoGrassWildMons:
 	db 4, GEODUDE
 	db 2, PAGUMON
 	db 4, PAGUMON
-	db 4, DUNSPARCE
+	db 4, KUDAMON
 	; nite
 	db 3, GEODUDE
 	db 2, PAGUMON
@@ -1161,7 +1161,7 @@ JohtoGrassWildMons:
 	db 4, GEODUDE
 	db 2, PAGUMON
 	db 4, PAGUMON
-	db 4, DUNSPARCE
+	db 4, KUDAMON
 
 	map_id DARK_CAVE_BLACKTHORN_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite

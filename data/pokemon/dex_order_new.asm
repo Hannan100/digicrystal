@@ -52,7 +52,7 @@ NewPokedexOrder:
 	db SANDSLASH
 	db GAZIMON
 	db ARBOK
-	db DUNSPARCE
+	db KUDAMON
 	db FLAMEDRMON
 	db RAIDRAMON
 	db AMPHAROS

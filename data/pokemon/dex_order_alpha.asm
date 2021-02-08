@@ -48,7 +48,7 @@ AlphabeticalPokedexOrder:
 	db DRATINI
 	db TAPIRMON
 	db DUGTRIO
-	db DUNSPARCE
+	db KUDAMON
 	db EEVEE
 	db GAZIMON
 	db ELECTABUZZ

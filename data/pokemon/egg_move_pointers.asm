@@ -204,7 +204,7 @@ EggMovePointers::
 	dw GirafarigEggMoves
 	dw FanbeemonEggMoves
 	dw NoEggMoves
-	dw DunsparceEggMoves
+	dw KudamonEggMoves
 	dw GligarEggMoves
 	dw NoEggMoves
 	dw ElecmonEggMoves

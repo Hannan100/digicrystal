@@ -204,7 +204,7 @@ PokemonNames::
 	db "GIRAFARIG@" ; !Orcamon
 	db "FANBEEMON@@@@" ; !Moosemon
 	db "FORRETRESS" ; !Harpymon
-	db "DUNSPARCE@" ; !Toucanmon
+	db "KUDAMON@" ; !Toucanmon
 	db "GLIGAR@@@@" ; !Peacockmon
 	db "STEELIX@@@"
 	db "ELECMON@@"

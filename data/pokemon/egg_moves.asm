@@ -632,7 +632,7 @@ FanbeemonEggMoves:
 	db SWIFT
 	db -1 ; end
 
-DunsparceEggMoves:
+KudamonEggMoves:
 	db BIDE
 	db ANCIENTPOWER
 	db ROCK_SLIDE

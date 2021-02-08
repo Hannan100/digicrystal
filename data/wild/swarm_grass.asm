@@ -2,33 +2,33 @@
 
 SwarmGrassWildMons:
 
-; Dunsparce swarm
+; Kudamon swarm
 	map_id DARK_CAVE_VIOLET_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, GEODUDE
-	db 3, DUNSPARCE
+	db 3, KUDAMON
 	db 2, PAGUMON
 	db 2, GEODUDE
-	db 2, DUNSPARCE
-	db 4, DUNSPARCE
-	db 4, DUNSPARCE
+	db 2, KUDAMON
+	db 4, KUDAMON
+	db 4, KUDAMON
 	; day
 	db 3, GEODUDE
-	db 3, DUNSPARCE
+	db 3, KUDAMON
 	db 2, PAGUMON
 	db 2, GEODUDE
-	db 2, DUNSPARCE
-	db 4, DUNSPARCE
-	db 4, DUNSPARCE
+	db 2, KUDAMON
+	db 4, KUDAMON
+	db 4, KUDAMON
 	; nite
 	db 3, GEODUDE
-	db 3, DUNSPARCE
+	db 3, KUDAMON
 	db 2, PAGUMON
 	db 2, GEODUDE
-	db 2, DUNSPARCE
-	db 4, DUNSPARCE
-	db 4, DUNSPARCE
+	db 2, KUDAMON
+	db 4, KUDAMON
+	db 4, KUDAMON
 
 ; Yanma swarm
 	map_id ROUTE_35

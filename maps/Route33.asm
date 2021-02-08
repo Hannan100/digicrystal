@@ -20,7 +20,7 @@ TrainerHikerAnthony:
 	opentext
 	checkflag ENGINE_ANTHONY_READY_FOR_REMATCH
 	iftrue .Rematch
-	checkflag ENGINE_DUNSPARCE_SWARM
+	checkflag ENGINE_KUDAMON_SWARM
 	iftrue .Swarm
 	checkcellnum PHONE_HIKER_ANTHONY
 	iftrue .NumberAccepted
@@ -103,7 +103,7 @@ TrainerHikerAnthony:
 	end
 
 .Swarm:
-	writetext HikerAnthonyDunsparceText
+	writetext HikerAnthonyKudamonText
 	waitbutton
 	closetext
 	end
@@ -161,9 +161,9 @@ HikerAnthony2AfterText:
 	cont "mountains."
 	done
 
-HikerAnthonyDunsparceText:
+HikerAnthonyKudamonText:
 	text "Hey, did you get a"
-	line "DUNSPARCE?"
+	line "KUDAMON?"
 
 	para "I caught one too."
 

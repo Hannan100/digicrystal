@@ -70,5 +70,5 @@
 	const CRY_MAGCARGO
 	const CRY_PICHU
 	const CRY_AIPOM
-	const CRY_DUNSPARCE
+	const CRY_KUDAMON
 	const CRY_DONPHAN

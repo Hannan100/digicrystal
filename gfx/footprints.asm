@@ -465,7 +465,7 @@ INCBIN "gfx/footprints/wobbuffet.1bpp",  footprint_top
 INCBIN "gfx/footprints/girafarig.1bpp",  footprint_top
 INCBIN "gfx/footprints/fanbeemon.1bpp",     footprint_top
 INCBIN "gfx/footprints/forretress.1bpp", footprint_top
-INCBIN "gfx/footprints/dunsparce.1bpp",  footprint_top
+INCBIN "gfx/footprints/kudamon.1bpp",  footprint_top
 INCBIN "gfx/footprints/gligar.1bpp",     footprint_top
 INCBIN "gfx/footprints/steelix.1bpp",    footprint_top
 ; 201-208 bottom halves
@@ -474,7 +474,7 @@ INCBIN "gfx/footprints/wobbuffet.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/girafarig.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/fanbeemon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/forretress.1bpp", footprint_bottom
-INCBIN "gfx/footprints/dunsparce.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/kudamon.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/gligar.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/steelix.1bpp",    footprint_bottom
 ; 209-216 top halves

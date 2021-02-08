@@ -65,5 +65,5 @@ Cries:
 	dba Cry_Magcargo
 	dba Cry_Pichu
 	dba Cry_Aipom
-	dba Cry_Dunsparce
+	dba Cry_Kudamon
 	dba Cry_Donphan

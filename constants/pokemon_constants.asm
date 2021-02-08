@@ -225,7 +225,7 @@ JOHTO_POKEMON EQU const_value
 	const GIRAFARIG  ; cb
 	const FANBEEMON     ; cc
 	const FORRETRESS ; cd
-	const DUNSPARCE  ; ce
+	const KUDAMON  ; ce
 	const GLIGAR     ; cf
 	const STEELIX    ; d0
 	const ELECMON   ; d1

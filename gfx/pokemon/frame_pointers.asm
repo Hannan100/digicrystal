@@ -204,7 +204,7 @@ FramesPointers:
 	dw GirafarigFrames
 	dw FanbeemonFrames
 	dw ForretressFrames
-	dw DunsparceFrames
+	dw KudamonFrames
 	dw GligarFrames
 	dw SteelixFrames
 	dw ElecmonFrames

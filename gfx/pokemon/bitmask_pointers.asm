@@ -204,7 +204,7 @@ BitmasksPointers:
 	dw GirafarigBitmasks
 	dw FanbeemonBitmasks
 	dw ForretressBitmasks
-	dw DunsparceBitmasks
+	dw KudamonBitmasks
 	dw GligarBitmasks
 	dw SteelixBitmasks
 	dw ElecmonBitmasks

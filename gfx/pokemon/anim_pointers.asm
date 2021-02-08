@@ -204,7 +204,7 @@ AnimationPointers:
 	dw GirafarigAnimation
 	dw FanbeemonAnimation
 	dw ForretressAnimation
-	dw DunsparceAnimation
+	dw KudamonAnimation
 	dw GligarAnimation
 	dw SteelixAnimation
 	dw ElecmonAnimation

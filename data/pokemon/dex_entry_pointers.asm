@@ -205,7 +205,7 @@ PokedexDataPointerTable:
 	dw GirafarigPokedexEntry
 	dw FanbeemonPokedexEntry
 	dw ForretressPokedexEntry
-	dw DunsparcePokedexEntry
+	dw KudamonPokedexEntry
 	dw GligarPokedexEntry
 	dw SteelixPokedexEntry
 	dw ElecmonPokedexEntry
