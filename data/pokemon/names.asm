@@ -25,7 +25,7 @@ PokemonNames::
 	db "ARBOK@@@@@"
 	db "GATOMON@@@"
 	db "RAICHU@@@@"
-	db "SANDSHREW@"
+	db "NEFERTIMON@"
 	db "SANDSLASH@"
 	db "NIDORAN♀@@"
 	db "NIDORINA@@"

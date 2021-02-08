@@ -25,7 +25,7 @@ FramesPointers:
 	dw ArbokFrames
 	dw GatomonFrames
 	dw RaichuFrames
-	dw SandshrewFrames
+	dw NefertimonFrames
 	dw SandslashFrames
 	dw NidoranFFrames
 	dw NidorinaFrames

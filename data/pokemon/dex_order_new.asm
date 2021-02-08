@@ -48,7 +48,7 @@ NewPokedexOrder:
 	db MERAMON
 	db DEMIVEEMON
 	db VEEMON
-	db SANDSHREW
+	db NEFERTIMON
 	db SANDSLASH
 	db GAZIMON
 	db ARBOK

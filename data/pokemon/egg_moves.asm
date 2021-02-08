@@ -70,7 +70,7 @@ GazimonEggMoves:
 	db CRUNCH
 	db -1 ; end
 
-SandshrewEggMoves:
+NefertimonEggMoves:
 	db FLAIL
 	db SAFEGUARD
 	db COUNTER

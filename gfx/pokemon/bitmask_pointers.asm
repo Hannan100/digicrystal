@@ -25,7 +25,7 @@ BitmasksPointers:
 	dw ArbokBitmasks
 	dw GatomonBitmasks
 	dw RaichuBitmasks
-	dw SandshrewBitmasks
+	dw NefertimonBitmasks
 	dw SandslashBitmasks
 	dw NidoranFBitmasks
 	dw NidorinaBitmasks

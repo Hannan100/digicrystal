@@ -34,7 +34,7 @@ KantoGrassWildMons:
 	; morn
 	db 6, PAGUMON
 	db 8, GOTSUMON
-	db 8, SANDSHREW
+	db 8, NEFERTIMON
 	db 12, MUSHROOMON
 	db 10, GOTSUMON
 	db 8, CLEFAIRY
@@ -42,7 +42,7 @@ KantoGrassWildMons:
 	; day
 	db 6, PAGUMON
 	db 8, GOTSUMON
-	db 8, SANDSHREW
+	db 8, NEFERTIMON
 	db 12, MUSHROOMON
 	db 10, GOTSUMON
 	db 8, CLEFAIRY
@@ -226,16 +226,16 @@ KantoGrassWildMons:
 	db 8, GAZIMON
 	db 10, GABUMON
 	db 10, ARBOK
-	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, NEFERTIMON
+	db 10, NEFERTIMON
 	; day
 	db 5, TOKOOMON
 	db 5, TSUNOMON
 	db 8, GAZIMON
 	db 10, GABUMON
 	db 10, ARBOK
-	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, NEFERTIMON
+	db 10, NEFERTIMON
 	; nite
 	db 5, TSUNOMON
 	db 10, TSUNOMON
@@ -253,16 +253,16 @@ KantoGrassWildMons:
 	db 8, GAZIMON
 	db 10, GABUMON
 	db 10, ARBOK
-	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, NEFERTIMON
+	db 10, NEFERTIMON
 	; day
 	db 5, TOKOOMON
 	db 5, TSUNOMON
 	db 8, GAZIMON
 	db 10, GABUMON
 	db 10, ARBOK
-	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, NEFERTIMON
+	db 10, NEFERTIMON
 	; nite
 	db 5, TSUNOMON
 	db 10, TSUNOMON

@@ -25,7 +25,7 @@ AnimationIdlePointers:
 	dw ArbokAnimationIdle
 	dw GatomonAnimationIdle
 	dw RaichuAnimationIdle
-	dw SandshrewAnimationIdle
+	dw NefertimonAnimationIdle
 	dw SandslashAnimationIdle
 	dw NidoranFAnimationIdle
 	dw NidorinaAnimationIdle

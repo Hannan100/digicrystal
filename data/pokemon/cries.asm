@@ -32,7 +32,7 @@ PokemonCries::
 	mon_cry CRY_GAZIMON,       $0e0,  $090 ; ARBOK
 	mon_cry CRY_NYOKOMON,   $0ee,  $081 ; GATOMON
 	mon_cry CRY_RAICHU,      $0ee,  $088 ; RAICHU
-	mon_cry CRY_NIDORAN_M,   $020,  $0c0 ; SANDSHREW
+	mon_cry CRY_NIDORAN_M,   $020,  $0c0 ; NEFERTIMON
 	mon_cry CRY_NIDORAN_M,   $0ff,  $17f ; SANDSLASH
 	mon_cry CRY_NIDORAN_F,   $000,  $100 ; NIDORAN_F
 	mon_cry CRY_NIDORAN_F,   $02c,  $160 ; NIDORINA
@@ -288,7 +288,7 @@ PokemonCries::
 	mon_cry CRY_GAZIMON,       224,  144 ; ARBOK
 	mon_cry CRY_NYOKOMON,   238,  129 ; GATOMON
 	mon_cry CRY_RAICHU,      238,  136 ; RAICHU
-	mon_cry CRY_NIDORAN_M,    32,  192 ; SANDSHREW
+	mon_cry CRY_NIDORAN_M,    32,  192 ; NEFERTIMON
 	mon_cry CRY_NIDORAN_M,   255,  383 ; SANDSLASH
 	mon_cry CRY_NIDORAN_F,     0,  256 ; NIDORAN_F
 	mon_cry CRY_NIDORAN_F,    44,  352 ; NIDORINA

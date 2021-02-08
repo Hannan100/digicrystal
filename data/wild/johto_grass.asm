@@ -411,7 +411,7 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 6, GOTSUMON
-	db 6, SANDSHREW
+	db 6, NEFERTIMON
 	db 5, PAGUMON
 	db 4, TSUNOMON
 	db 7, PAGUMON
@@ -419,7 +419,7 @@ JohtoGrassWildMons:
 	db 6, ARMDILOMON
 	; day
 	db 6, GOTSUMON
-	db 6, SANDSHREW
+	db 6, NEFERTIMON
 	db 5, PAGUMON
 	db 4, TSUNOMON
 	db 7, PAGUMON

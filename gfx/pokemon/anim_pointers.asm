@@ -25,7 +25,7 @@ AnimationPointers:
 	dw ArbokAnimation
 	dw GatomonAnimation
 	dw RaichuAnimation
-	dw SandshrewAnimation
+	dw NefertimonAnimation
 	dw SandslashAnimation
 	dw NidoranFAnimation
 	dw NidorinaAnimation

@@ -361,7 +361,7 @@ YoungsterGroup:
 	; YOUNGSTER (5)
 	db "SAMUEL@", TRAINERTYPE_NORMAL
 	db  7, TSUNOMON
-	db 10, SANDSHREW
+	db 10, NEFERTIMON
 	db  8, TOKOOMON
 	db  8, TOKOOMON
 	db -1 ; end
@@ -2934,7 +2934,7 @@ CamperGroup:
 
 	; CAMPER (4)
 	db "ELLIOT@", TRAINERTYPE_NORMAL
-	db 13, SANDSHREW
+	db 13, NEFERTIMON
 	db 15, MARILL
 	db -1 ; end
 
@@ -3029,7 +3029,7 @@ CamperGroup:
 
 	; CAMPER (19)
 	db "SPENCER@", TRAINERTYPE_NORMAL
-	db 17, SANDSHREW
+	db 17, NEFERTIMON
 	db 17, SANDSLASH
 	db 19, PAGUMON
 	db -1 ; end

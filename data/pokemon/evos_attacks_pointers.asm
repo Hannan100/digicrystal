@@ -27,7 +27,7 @@ EvosAttacksPointers::
 	dw ArbokEvosAttacks
 	dw GatomonEvosAttacks
 	dw RaichuEvosAttacks
-	dw SandshrewEvosAttacks
+	dw NefertimonEvosAttacks
 	dw SandslashEvosAttacks
 	dw NidoranFEvosAttacks
 	dw NidorinaEvosAttacks

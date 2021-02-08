@@ -186,7 +186,7 @@ AlphabeticalPokedexOrder:
 	db REMORAID
 	db RHYDON
 	db RHYHORN
-	db SANDSHREW
+	db NEFERTIMON
 	db SANDSLASH
 	db HUNYBEEMON
 	db KUWAGAMON
