@@ -206,7 +206,7 @@ AnimationPointers:
 	dw WaspmonAnimation
 	dw KudamonAnimation
 	dw GligarAnimation
-	dw SteelixAnimation
+	dw AnkylomonAnimation
 	dw ElecmonAnimation
 	dw LeomonAnimation
 	dw QwilfishAnimation

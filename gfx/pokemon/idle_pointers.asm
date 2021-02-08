@@ -206,7 +206,7 @@ AnimationIdlePointers:
 	dw WaspmonAnimationIdle
 	dw KudamonAnimationIdle
 	dw GligarAnimationIdle
-	dw SteelixAnimationIdle
+	dw AnkylomonAnimationIdle
 	dw ElecmonAnimationIdle
 	dw LeomonAnimationIdle
 	dw QwilfishAnimationIdle

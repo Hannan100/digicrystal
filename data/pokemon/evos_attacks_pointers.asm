@@ -208,7 +208,7 @@ EvosAttacksPointers::
 	dw WaspmonEvosAttacks
 	dw KudamonEvosAttacks
 	dw GligarEvosAttacks
-	dw SteelixEvosAttacks
+	dw AnkylomonEvosAttacks
 	dw ElecmonEvosAttacks
 	dw LeomonEvosAttacks
 	dw QwilfishEvosAttacks

@@ -208,7 +208,7 @@ MonMenuIcons:
 	db ICON_BUG         ; WASPMON
 	db ICON_SERPENT     ; KUDAMON
 	db ICON_BUG         ; GLIGAR
-	db ICON_SERPENT     ; STEELIX
+	db ICON_SERPENT     ; ANKYLOMON
 	db ICON_MONSTER     ; ELECMON
 	db ICON_MONSTER     ; LEOMON
 	db ICON_FISH        ; QWILFISH

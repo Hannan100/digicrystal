@@ -206,7 +206,7 @@ BitmasksPointers:
 	dw WaspmonBitmasks
 	dw KudamonBitmasks
 	dw GligarBitmasks
-	dw SteelixBitmasks
+	dw AnkylomonBitmasks
 	dw ElecmonBitmasks
 	dw LeomonBitmasks
 	dw QwilfishBitmasks

@@ -59,7 +59,7 @@ AgumonFrontpic:     INCBIN "gfx/pokemon/agumon/front.animated.2bpp.lz"
 
 SECTION "Pics 3", ROMX
 
-SteelixFrontpic:     INCBIN "gfx/pokemon/steelix/front.animated.2bpp.lz"
+AnkylomonFrontpic:     INCBIN "gfx/pokemon/ankylomon/front.animated.2bpp.lz"
 AlakazamFrontpic:    INCBIN "gfx/pokemon/alakazam/front.animated.2bpp.lz"
 GyaradosFrontpic:    INCBIN "gfx/pokemon/gyarados/front.animated.2bpp.lz"
 KangaskhanFrontpic:  INCBIN "gfx/pokemon/kangaskhan/front.animated.2bpp.lz"
@@ -393,7 +393,7 @@ PupitarBackpic:      INCBIN "gfx/pokemon/pupitar/back.2bpp.lz"
 ShadramonBackpic:    INCBIN "gfx/pokemon/shadramon/back.2bpp.lz"
 UnownDFrontpic:      INCBIN "gfx/pokemon/unown_d/front.animated.2bpp.lz"
 MiltankBackpic:      INCBIN "gfx/pokemon/miltank/back.2bpp.lz"
-SteelixBackpic:      INCBIN "gfx/pokemon/steelix/back.2bpp.lz"
+AnkylomonBackpic:      INCBIN "gfx/pokemon/ankylomon/back.2bpp.lz"
 PersianBackpic:      INCBIN "gfx/pokemon/persian/back.2bpp.lz"
 LtSurgePic:          INCBIN "gfx/trainers/lt_surge.2bpp.lz"
 TeacherPic:          INCBIN "gfx/trainers/teacher.2bpp.lz"

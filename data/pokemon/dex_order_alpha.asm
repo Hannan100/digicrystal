@@ -213,7 +213,7 @@ AlphabeticalPokedexOrder:
 	db STANTLER
 	db STARMIE
 	db STARYU
-	db STEELIX
+	db ANKYLOMON
 	db SUDOWOODO
 	db SUICUNE
 	db SUNFLORA

@@ -246,7 +246,7 @@ Pokered_MonIndices:
 	db WASPMON
 	db KUDAMON
 	db GLIGAR
-	db STEELIX
+	db ANKYLOMON
 	db ELECMON
 	db LEOMON
 	db QWILFISH

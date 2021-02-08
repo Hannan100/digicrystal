@@ -1278,7 +1278,7 @@ KrysalimonEvosAttacks:
 	db 0 ; no more level-up moves
 
 ArmdilomonEvosAttacks:
-	db EVOLVE_TRADE, METAL_COAT, STEELIX
+	db EVOLVE_TRADE, METAL_COAT, ANKYLOMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SCREECH
@@ -2785,7 +2785,7 @@ GligarEvosAttacks:
 	db 52, GUILLOTINE
 	db 0 ; no more level-up moves
 
-SteelixEvosAttacks:
+AnkylomonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SCREECH

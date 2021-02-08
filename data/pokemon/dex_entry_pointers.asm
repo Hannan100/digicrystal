@@ -207,7 +207,7 @@ PokedexDataPointerTable:
 	dw WaspmonPokedexEntry
 	dw KudamonPokedexEntry
 	dw GligarPokedexEntry
-	dw SteelixPokedexEntry
+	dw AnkylomonPokedexEntry
 	dw ElecmonPokedexEntry
 	dw LeomonPokedexEntry
 	dw QwilfishPokedexEntry

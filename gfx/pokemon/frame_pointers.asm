@@ -206,7 +206,7 @@ FramesPointers:
 	dw WaspmonFrames
 	dw KudamonFrames
 	dw GligarFrames
-	dw SteelixFrames
+	dw AnkylomonFrames
 	dw ElecmonFrames
 	dw LeomonFrames
 	dw QwilfishFrames

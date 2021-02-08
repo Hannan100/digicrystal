@@ -227,7 +227,7 @@ JOHTO_POKEMON EQU const_value
 	const WASPMON ; cd
 	const KUDAMON  ; ce
 	const GLIGAR     ; cf
-	const STEELIX    ; d0
+	const ANKYLOMON    ; d0
 	const ELECMON   ; d1
 	const LEOMON   ; d2
 	const QWILFISH   ; d3

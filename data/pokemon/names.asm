@@ -206,7 +206,7 @@ PokemonNames::
 	db "WASPMON" ; !Harpymon
 	db "KUDAMON@" ; !Toucanmon
 	db "GLIGAR@@@@" ; !Peacockmon
-	db "STEELIX@@@"
+	db "ANKYLOMON@@@"
 	db "ELECMON@@"
 	db "LEOMON@@"
 	db "QWILFISH@@"

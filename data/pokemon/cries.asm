@@ -213,7 +213,7 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    $000,  $180 ; WASPMON
 	mon_cry CRY_KUDAMON,   $1c4,  $100 ; KUDAMON
 	mon_cry CRY_GLIGAR,     -$102,  $100 ; GLIGAR
-	mon_cry CRY_GREYMON,  $0ef,  $0f7 ; STEELIX
+	mon_cry CRY_GREYMON,  $0ef,  $0f7 ; ANKYLOMON
 	mon_cry CRY_KUDAMON,   $112,  $0e8 ; ELECMON
 	mon_cry CRY_KUDAMON,   $000,  $180 ; LEOMON
 	mon_cry CRY_SLOWKING,    $160,  $0e0 ; QWILFISH
@@ -469,7 +469,7 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,      0,  384 ; WASPMON
 	mon_cry CRY_KUDAMON,   452,  256 ; KUDAMON
 	mon_cry CRY_GLIGAR,     -258,  256 ; GLIGAR
-	mon_cry CRY_GREYMON,  239,  247 ; STEELIX
+	mon_cry CRY_GREYMON,  239,  247 ; ANKYLOMON
 	mon_cry CRY_KUDAMON,   274,  232 ; ELECMON
 	mon_cry CRY_KUDAMON,     0,  384 ; LEOMON
 	mon_cry CRY_SLOWKING,    352,  224 ; QWILFISH

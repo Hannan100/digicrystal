@@ -419,8 +419,8 @@ PokemonPicPointers::
 	dba_pic KudamonBackpic
 	dba_pic GligarFrontpic
 	dba_pic GligarBackpic
-	dba_pic SteelixFrontpic
-	dba_pic SteelixBackpic
+	dba_pic AnkylomonFrontpic
+	dba_pic AnkylomonBackpic
 	dba_pic ElecmonFrontpic
 	dba_pic ElecmonBackpic
 	dba_pic LeomonFrontpic

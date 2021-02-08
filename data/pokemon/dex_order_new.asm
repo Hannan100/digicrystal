@@ -63,7 +63,7 @@ NewPokedexOrder:
 	db KRYSALIMON
 	db UNOWN
 	db ARMDILOMON
-	db STEELIX
+	db ANKYLOMON
 	db LALAMON
 	db WOODMON
 	db VICTREEBEL
