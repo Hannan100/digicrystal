@@ -239,7 +239,7 @@ JOHTO_POKEMON EQU const_value
 	const URSARING   ; d9
 	const SLUGMA     ; da
 	const MAGCARGO   ; db
-	const SWINUB     ; dc
+	const FRIGIMON     ; dc
 	const PILOSWINE  ; dd
 	const CORSOLA    ; de
 	const REMORAID   ; df

@@ -218,7 +218,7 @@ AnimationIdlePointers:
 	dw UrsaringAnimationIdle
 	dw SlugmaAnimationIdle
 	dw MagcargoAnimationIdle
-	dw SwinubAnimationIdle
+	dw FrigimonAnimationIdle
 	dw PiloswineAnimationIdle
 	dw CorsolaAnimationIdle
 	dw RemoraidAnimationIdle

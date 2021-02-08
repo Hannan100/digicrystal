@@ -680,18 +680,18 @@ JohtoGrassWildMons:
 	map_id ICE_PATH_1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 21, SWINUB
+	db 21, FRIGIMON
 	db 22, PAGUMON
 	db 22, DEMDEVIMON
-	db 23, SWINUB
+	db 23, FRIGIMON
 	db 24, DEMDEVIMON
 	db 22, DEMDEVIMON
 	db 22, DEMDEVIMON
 	; day
-	db 21, SWINUB
+	db 21, FRIGIMON
 	db 22, PAGUMON
 	db 22, DEMDEVIMON
-	db 23, SWINUB
+	db 23, FRIGIMON
 	db 24, DEMDEVIMON
 	db 22, DEMDEVIMON
 	db 22, DEMDEVIMON
@@ -707,18 +707,18 @@ JohtoGrassWildMons:
 	map_id ICE_PATH_B1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, SWINUB
+	db 22, FRIGIMON
 	db 23, PAGUMON
 	db 23, DEMDEVIMON
-	db 24, SWINUB
+	db 24, FRIGIMON
 	db 25, DEMDEVIMON
 	db 23, DEMDEVIMON
 	db 22, JYNX
 	; day
-	db 22, SWINUB
+	db 22, FRIGIMON
 	db 23, PAGUMON
 	db 23, DEMDEVIMON
-	db 24, SWINUB
+	db 24, FRIGIMON
 	db 25, DEMDEVIMON
 	db 23, DEMDEVIMON
 	db 22, JYNX
@@ -734,18 +734,18 @@ JohtoGrassWildMons:
 	map_id ICE_PATH_B2F_MAHOGANY_SIDE
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, SWINUB
+	db 23, FRIGIMON
 	db 24, PAGUMON
 	db 24, DEMDEVIMON
-	db 25, SWINUB
+	db 25, FRIGIMON
 	db 26, DEMDEVIMON
 	db 22, JYNX
 	db 24, JYNX
 	; day
-	db 23, SWINUB
+	db 23, FRIGIMON
 	db 24, PAGUMON
 	db 24, DEMDEVIMON
-	db 25, SWINUB
+	db 25, FRIGIMON
 	db 26, DEMDEVIMON
 	db 22, JYNX
 	db 24, JYNX
@@ -761,18 +761,18 @@ JohtoGrassWildMons:
 	map_id ICE_PATH_B2F_BLACKTHORN_SIDE
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, SWINUB
+	db 23, FRIGIMON
 	db 24, PAGUMON
 	db 24, DEMDEVIMON
-	db 25, SWINUB
+	db 25, FRIGIMON
 	db 26, DEMDEVIMON
 	db 22, JYNX
 	db 24, JYNX
 	; day
-	db 23, SWINUB
+	db 23, FRIGIMON
 	db 24, PAGUMON
 	db 24, DEMDEVIMON
-	db 25, SWINUB
+	db 25, FRIGIMON
 	db 26, DEMDEVIMON
 	db 22, JYNX
 	db 24, JYNX
@@ -788,18 +788,18 @@ JohtoGrassWildMons:
 	map_id ICE_PATH_B3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 24, SWINUB
+	db 24, FRIGIMON
 	db 25, PAGUMON
 	db 25, DEMDEVIMON
-	db 26, SWINUB
+	db 26, FRIGIMON
 	db 22, JYNX
 	db 24, JYNX
 	db 26, JYNX
 	; day
-	db 24, SWINUB
+	db 24, FRIGIMON
 	db 25, PAGUMON
 	db 25, DEMDEVIMON
-	db 26, SWINUB
+	db 26, FRIGIMON
 	db 22, JYNX
 	db 24, JYNX
 	db 26, JYNX

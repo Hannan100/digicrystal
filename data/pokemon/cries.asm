@@ -225,7 +225,7 @@ PokemonCries::
 	mon_cry CRY_IMPMON,   $640,  $0d8 ; URSARING
 	mon_cry CRY_SLUGMA,     -$1d8,  $140 ; SLUGMA
 	mon_cry CRY_MAGCARGO,   -$20d,  $1c0 ; MAGCARGO
-	mon_cry CRY_KOROMON,   $1fe,  $140 ; SWINUB
+	mon_cry CRY_KOROMON,   $1fe,  $140 ; FRIGIMON
 	mon_cry CRY_MAGCARGO,   -$109,  $100 ; PILOSWINE
 	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; CORSOLA
 	mon_cry CRY_SUNFLORA,    $00d,  $100 ; REMORAID
@@ -481,7 +481,7 @@ PokemonCries::
 	mon_cry CRY_IMPMON,  1600,  216 ; URSARING
 	mon_cry CRY_SLUGMA,     -472,  320 ; SLUGMA
 	mon_cry CRY_MAGCARGO,   -525,  448 ; MAGCARGO
-	mon_cry CRY_KOROMON,   510,  320 ; SWINUB
+	mon_cry CRY_KOROMON,   510,  320 ; FRIGIMON
 	mon_cry CRY_MAGCARGO,   -265,  256 ; PILOSWINE
 	mon_cry CRY_MAGCARGO,    161,  232 ; CORSOLA
 	mon_cry CRY_SUNFLORA,     13,  256 ; REMORAID

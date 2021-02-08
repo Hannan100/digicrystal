@@ -218,7 +218,7 @@ AlphabeticalPokedexOrder:
 	db SUICUNE
 	db SUNFLORA
 	db SUNKERN
-	db SWINUB
+	db FRIGIMON
 	db SHURIMON
 	db TAUROS
 	db IMPMON

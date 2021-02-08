@@ -218,7 +218,7 @@ PokemonNames::
 	db "URSARING@@"
 	db "SLUGMA@@@@"
 	db "MAGCARGO@@"
-	db "SWINUB@@@@"
+	db "FRIGIMON@@@@"
 	db "PILOSWINE@"
 	db "CORSOLA@@@"
 	db "REMORAID@@"

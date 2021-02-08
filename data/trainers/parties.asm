@@ -2324,7 +2324,7 @@ HikerGroup:
 	; HIKER (9)
 	db "PARRY@", TRAINERTYPE_NORMAL
 	db 35, ARMDILOMON
-	db 33, SWINUB
+	db 33, FRIGIMON
 	db -1 ; end
 
 	; HIKER (10)
@@ -3200,8 +3200,8 @@ BoarderGroup:
 
 	; BOARDER (2)
 	db "BRAD@", TRAINERTYPE_NORMAL
-	db 26, SWINUB
-	db 26, SWINUB
+	db 26, FRIGIMON
+	db 26, FRIGIMON
 	db -1 ; end
 
 	; BOARDER (3)

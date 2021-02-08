@@ -218,7 +218,7 @@ FramesPointers:
 	dw UrsaringFrames
 	dw SlugmaFrames
 	dw MagcargoFrames
-	dw SwinubFrames
+	dw FrigimonFrames
 	dw PiloswineFrames
 	dw CorsolaFrames
 	dw RemoraidFrames

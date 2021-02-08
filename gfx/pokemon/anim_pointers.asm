@@ -218,7 +218,7 @@ AnimationPointers:
 	dw UrsaringAnimation
 	dw SlugmaAnimation
 	dw MagcargoAnimation
-	dw SwinubAnimation
+	dw FrigimonAnimation
 	dw PiloswineAnimation
 	dw CorsolaAnimation
 	dw RemoraidAnimation

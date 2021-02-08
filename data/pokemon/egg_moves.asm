@@ -696,7 +696,7 @@ SlugmaEggMoves:
 	db ACID_ARMOR
 	db -1 ; end
 
-SwinubEggMoves:
+FrigimonEggMoves:
 	db TAKE_DOWN
 	db BITE
 	db BODY_SLAM

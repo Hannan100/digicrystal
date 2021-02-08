@@ -443,8 +443,8 @@ PokemonPicPointers::
 	dba_pic SlugmaBackpic
 	dba_pic MagcargoFrontpic
 	dba_pic MagcargoBackpic
-	dba_pic SwinubFrontpic
-	dba_pic SwinubBackpic
+	dba_pic FrigimonFrontpic
+	dba_pic FrigimonBackpic
 	dba_pic PiloswineFrontpic
 	dba_pic PiloswineBackpic
 	dba_pic CorsolaFrontpic

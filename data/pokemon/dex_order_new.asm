@@ -191,7 +191,7 @@ NewPokedexOrder:
 	db KINGDRA
 	db GLIGAR
 	db DELIBIRD
-	db SWINUB
+	db FRIGIMON
 	db PILOSWINE
 	db IMPMON
 	db URSARING

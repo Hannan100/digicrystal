@@ -219,7 +219,7 @@ PokedexDataPointerTable:
 	dw UrsaringPokedexEntry
 	dw SlugmaPokedexEntry
 	dw MagcargoPokedexEntry
-	dw SwinubPokedexEntry
+	dw FrigimonPokedexEntry
 	dw PiloswinePokedexEntry
 	dw CorsolaPokedexEntry
 	dw RemoraidPokedexEntry
