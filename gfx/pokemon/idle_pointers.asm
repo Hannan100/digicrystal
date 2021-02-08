@@ -168,7 +168,7 @@ AnimationIdlePointers:
 	dw KokomonAnimationIdle
 	dw LopmonAnimationIdle
 	dw DevimonAnimationIdle
-	dw ChinchouAnimationIdle
+	dw EndigomonAnimationIdle
 	dw LanturnAnimationIdle
 	dw PichuAnimationIdle
 	dw CleffaAnimationIdle

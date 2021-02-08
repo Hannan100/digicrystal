@@ -170,7 +170,7 @@ EvosAttacksPointers::
 	dw KokomonEvosAttacks
 	dw LopmonEvosAttacks
 	dw DevimonEvosAttacks
-	dw ChinchouEvosAttacks
+	dw EndigomonEvosAttacks
 	dw LanturnEvosAttacks
 	dw PichuEvosAttacks
 	dw CleffaEvosAttacks

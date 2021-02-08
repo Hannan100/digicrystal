@@ -174,7 +174,7 @@ NewPokedexOrder:
 	db CORSOLA
 	db REMORAID
 	db OCTILLERY
-	db CHINCHOU
+	db ENDIGOMON
 	db LANTURN
 	db SEEL
 	db DEWGONG

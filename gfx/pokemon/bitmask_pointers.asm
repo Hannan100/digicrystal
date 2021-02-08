@@ -168,7 +168,7 @@ BitmasksPointers:
 	dw KokomonBitmasks
 	dw LopmonBitmasks
 	dw DevimonBitmasks
-	dw ChinchouBitmasks
+	dw EndigomonBitmasks
 	dw LanturnBitmasks
 	dw PichuBitmasks
 	dw CleffaBitmasks

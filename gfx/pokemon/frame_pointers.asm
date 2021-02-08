@@ -168,7 +168,7 @@ FramesPointers:
 	dw KokomonFrames
 	dw LopmonFrames
 	dw DevimonFrames
-	dw ChinchouFrames
+	dw EndigomonFrames
 	dw LanturnFrames
 	dw PichuFrames
 	dw CleffaFrames

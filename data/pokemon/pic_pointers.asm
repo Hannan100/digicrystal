@@ -340,8 +340,8 @@ PokemonPicPointers::
 	dba_pic LopmonBackpic
 	dba_pic DevimonFrontpic
 	dba_pic DevimonBackpic
-	dba_pic ChinchouFrontpic
-	dba_pic ChinchouBackpic
+	dba_pic EndigomonFrontpic
+	dba_pic EndigomonBackpic
 	dba_pic LanturnFrontpic
 	dba_pic LanturnBackpic
 	dba_pic PichuFrontpic

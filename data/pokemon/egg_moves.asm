@@ -501,7 +501,7 @@ KokomonEggMoves:
 	db PURSUIT
 	db -1 ; end
 
-ChinchouEggMoves:
+EndigomonEggMoves:
 	db FLAIL
 	db SUPERSONIC
 	db SCREECH

@@ -208,7 +208,7 @@ Pokered_MonIndices:
 	db KOKOMON
 	db LOPMON
 	db DEVIMON
-	db CHINCHOU
+	db ENDIGOMON
 	db LANTURN
 	db PICHU
 	db CLEFFA

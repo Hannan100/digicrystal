@@ -168,7 +168,7 @@ AnimationPointers:
 	dw KokomonAnimation
 	dw LopmonAnimation
 	dw DevimonAnimation
-	dw ChinchouAnimation
+	dw EndigomonAnimation
 	dw LanturnAnimation
 	dw PichuAnimation
 	dw CleffaAnimation

@@ -26,7 +26,7 @@ AlphabeticalPokedexOrder:
 	db GUILMON
 	db CHARMELEON
 	db TANEMON
-	db CHINCHOU
+	db ENDIGOMON
 	db CLEFABLE
 	db CLEFAIRY
 	db CLEFFA

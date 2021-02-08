@@ -168,7 +168,7 @@ PokemonNames::
 	db "KOKOMON@@" ; !Tentomon
 	db "LOPMON@@@" ; !Kbuterimon
 	db "DEVIMON@@@@"
-	db "CHINCHOU@@"
+	db "ENDIGOMON@@"
 	db "LANTURN@@@"
 	db "PICHU@@@@@"
 	db "CLEFFA@@@@"
