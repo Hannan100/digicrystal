@@ -208,7 +208,7 @@ FramesPointers:
 	dw GligarFrames
 	dw SteelixFrames
 	dw ElecmonFrames
-	dw GranbullFrames
+	dw LeomonFrames
 	dw QwilfishFrames
 	dw HunybeemonFrames
 	dw ShuckleFrames

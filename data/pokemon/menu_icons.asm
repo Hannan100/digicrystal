@@ -210,7 +210,7 @@ MonMenuIcons:
 	db ICON_BUG         ; GLIGAR
 	db ICON_SERPENT     ; STEELIX
 	db ICON_MONSTER     ; ELECMON
-	db ICON_MONSTER     ; GRANBULL
+	db ICON_MONSTER     ; LEOMON
 	db ICON_FISH        ; QWILFISH
 	db ICON_BUG         ; HUNYBEEMON
 	db ICON_BUG         ; SHUCKLE

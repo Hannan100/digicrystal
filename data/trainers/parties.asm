@@ -754,7 +754,7 @@ LassGroup:
 	; LASS (11)
 	db "ELLEN@", TRAINERTYPE_NORMAL
 	db 30, WIGGLYTUFF
-	db 34, GRANBULL
+	db 34, LEOMON
 	db -1 ; end
 
 	; LASS (12)
@@ -3405,7 +3405,7 @@ PokefanFGroup:
 
 	; POKEFANF (4)
 	db "BEVERLY@", TRAINERTYPE_ITEM
-	db 30, GRANBULL,   BERRY
+	db 30, LEOMON,   BERRY
 	db -1 ; end
 
 	; POKEFANF (5)

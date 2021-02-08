@@ -75,7 +75,7 @@ AlphabeticalPokedexOrder:
 	db GIZAMON
 	db GOLDUCK
 	db GOLEM
-	db GRANBULL
+	db LEOMON
 	db GRAVELER
 	db GRIMER
 	db RENAMON

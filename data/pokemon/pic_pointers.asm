@@ -423,8 +423,8 @@ PokemonPicPointers::
 	dba_pic SteelixBackpic
 	dba_pic ElecmonFrontpic
 	dba_pic ElecmonBackpic
-	dba_pic GranbullFrontpic
-	dba_pic GranbullBackpic
+	dba_pic LeomonFrontpic
+	dba_pic LeomonBackpic
 	dba_pic QwilfishFrontpic
 	dba_pic QwilfishBackpic
 	dba_pic HunybeemonFrontpic

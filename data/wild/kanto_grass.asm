@@ -307,16 +307,16 @@ KantoGrassWildMons:
 	db 14, HAGURUMON
 	db 15, GABUMON
 	db 12, CANDLEMON
-	db 15, GRANBULL
-	db 15, GRANBULL
+	db 15, LEOMON
+	db 15, LEOMON
 	; day
 	db 13, TSUNOMON
 	db 13, ELECMON
 	db 14, HAGURUMON
 	db 15, GABUMON
 	db 12, CANDLEMON
-	db 15, GRANBULL
-	db 15, GRANBULL
+	db 15, LEOMON
+	db 15, LEOMON
 	; nite
 	db 13, MEOWTH
 	db 13, TAPIRMON

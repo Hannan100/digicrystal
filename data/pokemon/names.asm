@@ -208,7 +208,7 @@ PokemonNames::
 	db "GLIGAR@@@@" ; !Peacockmon
 	db "STEELIX@@@"
 	db "ELECMON@@"
-	db "GRANBULL@@"
+	db "LEOMON@@"
 	db "QWILFISH@@"
 	db "HUNYBEEMON@@@@"
 	db "SHUCKLE@@@"

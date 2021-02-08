@@ -229,7 +229,7 @@ JOHTO_POKEMON EQU const_value
 	const GLIGAR     ; cf
 	const STEELIX    ; d0
 	const ELECMON   ; d1
-	const GRANBULL   ; d2
+	const LEOMON   ; d2
 	const QWILFISH   ; d3
 	const HUNYBEEMON     ; d4
 	const SHUCKLE    ; d5

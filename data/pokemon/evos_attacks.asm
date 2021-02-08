@@ -2799,7 +2799,7 @@ SteelixEvosAttacks:
 	db 0 ; no more level-up moves
 
 ElecmonEvosAttacks:
-	db EVOLVE_LEVEL, 23, GRANBULL
+	db EVOLVE_LEVEL, 23, LEOMON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SCARY_FACE
@@ -2812,7 +2812,7 @@ ElecmonEvosAttacks:
 	db 43, TAKE_DOWN
 	db 0 ; no more level-up moves
 
-GranbullEvosAttacks:
+LeomonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SCARY_FACE

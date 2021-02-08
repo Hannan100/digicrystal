@@ -248,7 +248,7 @@ Pokered_MonIndices:
 	db GLIGAR
 	db STEELIX
 	db ELECMON
-	db GRANBULL
+	db LEOMON
 	db QWILFISH
 	db WOBBUFFET
 	db WOBBUFFET

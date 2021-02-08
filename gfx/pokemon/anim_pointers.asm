@@ -208,7 +208,7 @@ AnimationPointers:
 	dw GligarAnimation
 	dw SteelixAnimation
 	dw ElecmonAnimation
-	dw GranbullAnimation
+	dw LeomonAnimation
 	dw QwilfishAnimation
 	dw HunybeemonAnimation
 	dw ShuckleAnimation

@@ -124,7 +124,7 @@ NewPokedexOrder:
 	db ELECTRODE
 	db AIPOM
 	db ELECMON
-	db GRANBULL
+	db LEOMON
 	db VULPIX
 	db NINETALES
 	db RENAMON
