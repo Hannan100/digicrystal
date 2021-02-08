@@ -198,8 +198,8 @@ PokemonPicPointers::
 	dba_pic BoarmonBackpic
 	dba_pic CrabmonFrontpic
 	dba_pic CrabmonBackpic
-	dba_pic KinglerFrontpic
-	dba_pic KinglerBackpic
+	dba_pic CoelamonFrontpic
+	dba_pic CoelamonBackpic
 	dba_pic VoltorbFrontpic
 	dba_pic VoltorbBackpic
 	dba_pic ElectrodeFrontpic

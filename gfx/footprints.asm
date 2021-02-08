@@ -228,7 +228,7 @@ INCBIN "gfx/footprints/tapirmon.1bpp",    footprint_bottom
 ; 097-104 top halves
 INCBIN "gfx/footprints/boarmon.1bpp",      footprint_top
 INCBIN "gfx/footprints/crabmon.1bpp",     footprint_top
-INCBIN "gfx/footprints/kingler.1bpp",    footprint_top
+INCBIN "gfx/footprints/coelamon.1bpp",    footprint_top
 INCBIN "gfx/footprints/voltorb.1bpp",    footprint_top
 INCBIN "gfx/footprints/electrode.1bpp",  footprint_top
 INCBIN "gfx/footprints/chuumon.1bpp",  footprint_top
@@ -237,7 +237,7 @@ INCBIN "gfx/footprints/cubone.1bpp",     footprint_top
 ; 097-104 bottom halves
 INCBIN "gfx/footprints/boarmon.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/crabmon.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/kingler.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/coelamon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/voltorb.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/electrode.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/chuumon.1bpp",  footprint_bottom

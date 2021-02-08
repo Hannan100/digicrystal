@@ -99,7 +99,7 @@ EvosAttacksPointers::
 	dw TapirmonEvosAttacks
 	dw BoarmonEvosAttacks
 	dw CrabmonEvosAttacks
-	dw KinglerEvosAttacks
+	dw CoelamonEvosAttacks
 	dw VoltorbEvosAttacks
 	dw ElectrodeEvosAttacks
 	dw ChuumonEvosAttacks

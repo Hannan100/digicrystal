@@ -99,7 +99,7 @@ KantoMonSpecials:
 	db  90 ; TAPIRMON
 	db 115 ; BOARMON
 	db  25 ; CRABMON
-	db  50 ; KINGLER
+	db  50 ; COELAMON
 	db  55 ; VOLTORB
 	db  80 ; ELECTRODE
 	db  60 ; CHUUMON

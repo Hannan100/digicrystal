@@ -104,7 +104,7 @@ AlphabeticalPokedexOrder:
 	db TENTOMON
 	db KANGASKHAN
 	db KINGDRA
-	db KINGLER
+	db COELAMON
 	db KOFFING
 	db CRABMON
 	db LANTURN

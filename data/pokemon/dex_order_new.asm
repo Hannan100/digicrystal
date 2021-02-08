@@ -165,7 +165,7 @@ NewPokedexOrder:
 	db TENTACOOL
 	db TENTACRUEL
 	db CRABMON
-	db KINGLER
+	db COELAMON
 	db SHUCKLE
 	db STARYU
 	db STARMIE

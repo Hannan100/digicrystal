@@ -97,7 +97,7 @@ FramesPointers:
 	dw TapirmonFrames
 	dw BoarmonFrames
 	dw CrabmonFrames
-	dw KinglerFrames
+	dw CoelamonFrames
 	dw VoltorbFrames
 	dw ElectrodeFrames
 	dw ChuumonFrames

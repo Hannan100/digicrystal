@@ -117,7 +117,7 @@
 	const TAPIRMON    ; 60
 	const BOARMON      ; 61
 	const CRABMON     ; 62
-	const KINGLER    ; 63
+	const COELAMON    ; 63
 	const VOLTORB    ; 64
 	const ELECTRODE  ; 65
 	const CHUUMON  ; 66

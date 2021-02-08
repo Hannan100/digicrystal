@@ -97,7 +97,7 @@ AnimationPointers:
 	dw TapirmonAnimation
 	dw BoarmonAnimation
 	dw CrabmonAnimation
-	dw KinglerAnimation
+	dw CoelamonAnimation
 	dw VoltorbAnimation
 	dw ElectrodeAnimation
 	dw ChuumonAnimation

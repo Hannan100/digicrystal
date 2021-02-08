@@ -104,7 +104,7 @@ PokemonCries::
 	mon_cry CRY_TAPIRMON,     $088,  $0a0 ; TAPIRMON
 	mon_cry CRY_TAPIRMON,     $0ee,  $0c0 ; BOARMON
 	mon_cry CRY_CRABMON,      $020,  $160 ; CRABMON
-	mon_cry CRY_CRABMON,      $0ee,  $160 ; KINGLER
+	mon_cry CRY_CRABMON,      $0ee,  $160 ; COELAMON
 	mon_cry CRY_VOLTORB,     $0ed,  $100 ; VOLTORB
 	mon_cry CRY_VOLTORB,     $0a8,  $110 ; ELECTRODE
 	mon_cry CRY_DIGLETT,     $000,  $100 ; CHUUMON
@@ -360,7 +360,7 @@ PokemonCries::
 	mon_cry CRY_TAPIRMON,     136,  160 ; TAPIRMON
 	mon_cry CRY_TAPIRMON,     238,  192 ; BOARMON
 	mon_cry CRY_CRABMON,       32,  352 ; CRABMON
-	mon_cry CRY_CRABMON,      238,  352 ; KINGLER
+	mon_cry CRY_CRABMON,      238,  352 ; COELAMON
 	mon_cry CRY_VOLTORB,     237,  256 ; VOLTORB
 	mon_cry CRY_VOLTORB,     168,  272 ; ELECTRODE
 	mon_cry CRY_DIGLETT,       0,  256 ; CHUUMON

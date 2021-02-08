@@ -98,7 +98,7 @@ PokedexDataPointerTable:
 	dw TapirmonPokedexEntry
 	dw BoarmonPokedexEntry
 	dw CrabmonPokedexEntry
-	dw KinglerPokedexEntry
+	dw CoelamonPokedexEntry
 	dw VoltorbPokedexEntry
 	dw ElectrodePokedexEntry
 	dw ChuumonPokedexEntry

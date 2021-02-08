@@ -97,7 +97,7 @@ PokemonNames::
 	db "TAPIRMON@@@"
 	db "BOARMON@@@@@"
 	db "CRABMON@@@@"
-	db "KINGLER@@@"
+	db "COELAMON@@@"
 	db "VOLTORB@@@"
 	db "ELECTRODE@"
 	db "CHUUMON@"

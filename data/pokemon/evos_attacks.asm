@@ -1322,7 +1322,7 @@ BoarmonEvosAttacks:
 	db 0 ; no more level-up moves
 
 CrabmonEvosAttacks:
-	db EVOLVE_LEVEL, 28, KINGLER
+	db EVOLVE_LEVEL, 28, COELAMON
 	db 0 ; no more evolutions
 	db 1, BUBBLE
 	db 5, LEER
@@ -1334,7 +1334,7 @@ CrabmonEvosAttacks:
 	db 41, CRABHAMMER
 	db 0 ; no more level-up moves
 
-KinglerEvosAttacks:
+CoelamonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BUBBLE
 	db 1, LEER
