@@ -89,7 +89,7 @@ MonMenuIcons:
 	db ICON_LAPRAS      ; SEEL
 	db ICON_LAPRAS      ; DEWGONG
 	db ICON_BLOB        ; NUMEMON
-	db ICON_BLOB        ; MUK
+	db ICON_BLOB        ; RAREMON
 	db ICON_SHELL       ; SHELLDER
 	db ICON_SHELL       ; CLOYSTER
 	db ICON_GHOST       ; TSUMEMON

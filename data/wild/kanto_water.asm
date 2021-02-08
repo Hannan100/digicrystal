@@ -132,7 +132,7 @@ KantoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 20, NUMEMON
 	db 15, NUMEMON
-	db 15, MUK
+	db 15, RAREMON
 
 	map_id FUCHSIA_CITY
 	db 2 percent ; encounter rate

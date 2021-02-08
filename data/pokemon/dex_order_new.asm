@@ -117,7 +117,7 @@ NewPokedexOrder:
 	db KOFFING
 	db WEEZING
 	db NUMEMON
-	db MUK
+	db RAREMON
 	db HAGURUMON
 	db MAGNETON
 	db VOLTORB

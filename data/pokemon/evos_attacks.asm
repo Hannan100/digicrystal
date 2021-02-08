@@ -1183,7 +1183,7 @@ DewgongEvosAttacks:
 	db 0 ; no more level-up moves
 
 NumemonEvosAttacks:
-	db EVOLVE_LEVEL, 38, MUK
+	db EVOLVE_LEVEL, 38, RAREMON
 	db 0 ; no more evolutions
 	db 1, POISON_GAS
 	db 1, POUND
@@ -1196,7 +1196,7 @@ NumemonEvosAttacks:
 	db 50, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
-MukEvosAttacks:
+RaremonEvosAttacks:
 	db 0 ; no more evolutions
 	; moves are not sorted by level
 	db 1, POISON_GAS

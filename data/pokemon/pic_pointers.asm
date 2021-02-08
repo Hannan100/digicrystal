@@ -178,8 +178,8 @@ PokemonPicPointers::
 	dba_pic DewgongBackpic
 	dba_pic NumemonFrontpic
 	dba_pic NumemonBackpic
-	dba_pic MukFrontpic
-	dba_pic MukBackpic
+	dba_pic RaremonFrontpic
+	dba_pic RaremonBackpic
 	dba_pic ShellderFrontpic
 	dba_pic ShellderBackpic
 	dba_pic CloysterFrontpic

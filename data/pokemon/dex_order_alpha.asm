@@ -137,7 +137,7 @@ AlphabeticalPokedexOrder:
 	db MISDREAVUS
 	db MOLTRES
 	db MR__MIME
-	db MUK
+	db RAREMON
 	db MURKROW
 	db VEEDRAMON
 	db NIDOKING

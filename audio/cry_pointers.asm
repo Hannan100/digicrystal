@@ -6,7 +6,7 @@ Cries:
 	dba Cry_Guilmon
 	dba Cry_Numemon
 	dba Cry_Voltorb
-	dba Cry_Muk
+	dba Cry_Raremon
 	dba Cry_Goblimon
 	dba Cry_Raichu
 	dba Cry_Nidoqueen

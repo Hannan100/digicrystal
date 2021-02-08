@@ -94,12 +94,12 @@ PokemonCries::
 	mon_cry CRY_SEEL,        $088,  $140 ; SEEL
 	mon_cry CRY_SEEL,        $023,  $17f ; DEWGONG
 	mon_cry CRY_NUMEMON,      $000,  $100 ; NUMEMON
-	mon_cry CRY_MUK,         $0ef,  $17f ; MUK
+	mon_cry CRY_RAREMON,         $0ef,  $17f ; RAREMON
 	mon_cry CRY_PATAMON,      $000,  $100 ; SHELLDER
 	mon_cry CRY_PATAMON,      $06f,  $160 ; CLOYSTER
 	mon_cry CRY_WORMMON,     $000,  $100 ; TSUMEMON
 	mon_cry CRY_WORMMON,     $030,  $0c0 ; KERAMON
-	mon_cry CRY_MUK,         $000,  $17f ; KRYSALIMON
+	mon_cry CRY_RAREMON,         $000,  $17f ; KRYSALIMON
 	mon_cry CRY_GAZIMON,       $0ff,  $140 ; ARMDILOMON
 	mon_cry CRY_TAPIRMON,     $088,  $0a0 ; TAPIRMON
 	mon_cry CRY_TAPIRMON,     $0ee,  $0c0 ; BOARMON
@@ -350,12 +350,12 @@ PokemonCries::
 	mon_cry CRY_SEEL,        136,  320 ; SEEL
 	mon_cry CRY_SEEL,         35,  383 ; DEWGONG
 	mon_cry CRY_NUMEMON,        0,  256 ; NUMEMON
-	mon_cry CRY_MUK,         239,  383 ; MUK
+	mon_cry CRY_RAREMON,         239,  383 ; RAREMON
 	mon_cry CRY_PATAMON,        0,  256 ; SHELLDER
 	mon_cry CRY_PATAMON,      111,  352 ; CLOYSTER
 	mon_cry CRY_WORMMON,       0,  256 ; TSUMEMON
 	mon_cry CRY_WORMMON,      48,  192 ; KERAMON
-	mon_cry CRY_MUK,           0,  383 ; KRYSALIMON
+	mon_cry CRY_RAREMON,           0,  383 ; KRYSALIMON
 	mon_cry CRY_GAZIMON,       255,  320 ; ARMDILOMON
 	mon_cry CRY_TAPIRMON,     136,  160 ; TAPIRMON
 	mon_cry CRY_TAPIRMON,     238,  192 ; BOARMON

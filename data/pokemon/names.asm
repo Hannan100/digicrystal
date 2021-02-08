@@ -87,7 +87,7 @@ PokemonNames::
 	db "SEEL@@@@@@"
 	db "DEWGONG@@@"
 	db "NUMEMON@@@@"
-	db "MUK@@@@@@@"
+	db "RAREMON@@@@@@@"
 	db "SHELLDER@@"
 	db "CLOYSTER@@"
 	db "TSUMEMON@@@@"

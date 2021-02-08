@@ -89,7 +89,7 @@ KantoMonSpecials:
 	db  70 ; SEEL
 	db  95 ; DEWGONG
 	db  40 ; NUMEMON
-	db  65 ; MUK
+	db  65 ; RAREMON
 	db  45 ; SHELLDER
 	db  85 ; CLOYSTER
 	db 100 ; TSUMEMON

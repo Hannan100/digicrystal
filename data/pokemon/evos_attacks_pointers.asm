@@ -89,7 +89,7 @@ EvosAttacksPointers::
 	dw SeelEvosAttacks
 	dw DewgongEvosAttacks
 	dw NumemonEvosAttacks
-	dw MukEvosAttacks
+	dw RaremonEvosAttacks
 	dw ShellderEvosAttacks
 	dw CloysterEvosAttacks
 	dw TsumemonEvosAttacks

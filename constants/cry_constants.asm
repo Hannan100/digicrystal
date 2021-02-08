@@ -9,7 +9,7 @@
 	const CRY_GUILMON
 	const CRY_NUMEMON
 	const CRY_VOLTORB
-	const CRY_MUK
+	const CRY_RAREMON
 	const CRY_GOBLIMON
 	const CRY_RAICHU
 	const CRY_NIDOQUEEN

@@ -107,7 +107,7 @@
 	const SEEL       ; 56
 	const DEWGONG    ; 57
 	const NUMEMON     ; 58
-	const MUK        ; 59
+	const RAREMON        ; 59
 	const SHELLDER   ; 5a
 	const CLOYSTER   ; 5b
 	const TSUMEMON     ; 5c
