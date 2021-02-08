@@ -15,6 +15,9 @@ args = parser.parse_args()
 
 OLD_NAME = vars(args).get("o")
 NEW_NAME = vars(args).get("n")
+if len(NEW_NAME) > 10:
+    print(NEW_NAME + " is " + str(len(NEW_NAME)) + " characters long!")
+    exit()
 NEW_FRONT_SPRITE = vars(args).get("f")
 NEW_BACK_SPRITE = vars(args).get("b")
 
