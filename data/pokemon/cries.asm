@@ -439,7 +439,7 @@ PokemonCries::
 	mon_cry CRY_DEMIVEEMON,       16,  256 ; DEMIVEEMON
 	mon_cry CRY_VEEMON,      59,   56 ; VEEMON
 	mon_cry CRY_VEEDRAMON,       -103,  256 ; VEEDRAMON
-	mon_cry CRY_VEEDRAMON,       -167,  360 ; XATU
+	mon_cry CRY_VEEDRAMON,       -167,  360 ; EXVEEMON
 	mon_cry CRY_MAREEP,       34,  216 ; MAREEP
 	mon_cry CRY_MAREEP,       -7,  384 ; FLAAFFY
 	mon_cry CRY_AMPHAROS,   -124,  232 ; AMPHAROS
