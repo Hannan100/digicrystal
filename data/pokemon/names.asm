@@ -3,7 +3,7 @@ PokemonNames::
 	db "PUNIMON@@@"
 	db "BOTAMON@@"
 	db "GUILMON"
-	db "CHARMELEON"
+	db "GROWLMON"
 	db "TYRANNOMON@"
 	db "SQUIRTLE@@"
 	db "WARTORTLE@"

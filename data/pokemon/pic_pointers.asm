@@ -10,8 +10,8 @@ PokemonPicPointers::
 	dba_pic BotamonBackpic
 	dba_pic GuilmonFrontpic
 	dba_pic GuilmonBackpic
-	dba_pic CharmeleonFrontpic
-	dba_pic CharmeleonBackpic
+	dba_pic GrowlmonFrontpic
+	dba_pic GrowlmonBackpic
 	dba_pic TyrannomonFrontpic
 	dba_pic TyrannomonBackpic
 	dba_pic SquirtleFrontpic

@@ -3,7 +3,7 @@ AnimationIdlePointers:
 	dw PunimonAnimationIdle
 	dw BotamonAnimationIdle
 	dw GuilmonAnimationIdle
-	dw CharmeleonAnimationIdle
+	dw GrowlmonAnimationIdle
 	dw TyrannomonAnimationIdle
 	dw SquirtleAnimationIdle
 	dw WartortleAnimationIdle

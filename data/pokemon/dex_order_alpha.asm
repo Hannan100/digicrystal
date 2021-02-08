@@ -24,7 +24,7 @@ AlphabeticalPokedexOrder:
 	db CHANSEY
 	db TYRANNOMON
 	db GUILMON
-	db CHARMELEON
+	db GROWLMON
 	db TANEMON
 	db ENDIGOMON
 	db CLEFABLE

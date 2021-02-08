@@ -3,7 +3,7 @@ FramesPointers:
 	dw PunimonFrames
 	dw BotamonFrames
 	dw GuilmonFrames
-	dw CharmeleonFrames
+	dw GrowlmonFrames
 	dw TyrannomonFrames
 	dw SquirtleFrames
 	dw WartortleFrames

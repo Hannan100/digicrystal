@@ -4,7 +4,7 @@ PokedexDataPointerTable:
 	dw PunimonPokedexEntry
 	dw BotamonPokedexEntry
 	dw GuilmonPokedexEntry
-	dw CharmeleonPokedexEntry
+	dw GrowlmonPokedexEntry
 	dw TyrannomonPokedexEntry
 	dw SquirtlePokedexEntry
 	dw WartortlePokedexEntry

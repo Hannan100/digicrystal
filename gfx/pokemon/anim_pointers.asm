@@ -3,7 +3,7 @@ AnimationPointers:
 	dw PunimonAnimation
 	dw BotamonAnimation
 	dw GuilmonAnimation
-	dw CharmeleonAnimation
+	dw GrowlmonAnimation
 	dw TyrannomonAnimation
 	dw SquirtleAnimation
 	dw WartortleAnimation

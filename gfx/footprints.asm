@@ -14,7 +14,7 @@ INCBIN "gfx/footprints/nyokomon.1bpp",  footprint_top
 INCBIN "gfx/footprints/punimon.1bpp",    footprint_top
 INCBIN "gfx/footprints/botamon.1bpp",   footprint_top
 INCBIN "gfx/footprints/guilmon.1bpp", footprint_top
-INCBIN "gfx/footprints/charmeleon.1bpp", footprint_top
+INCBIN "gfx/footprints/growlmon.1bpp", footprint_top
 INCBIN "gfx/footprints/tyrannomon.1bpp",  footprint_top
 INCBIN "gfx/footprints/squirtle.1bpp",   footprint_top
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_top
@@ -23,7 +23,7 @@ INCBIN "gfx/footprints/nyokomon.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/punimon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/botamon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/guilmon.1bpp", footprint_bottom
-INCBIN "gfx/footprints/charmeleon.1bpp", footprint_bottom
+INCBIN "gfx/footprints/growlmon.1bpp", footprint_bottom
 INCBIN "gfx/footprints/tyrannomon.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/squirtle.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_bottom

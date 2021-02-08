@@ -70,7 +70,7 @@ BotamonEvosAttacks:
 	db 0 ; no more level-up moves
 
 GuilmonEvosAttacks:
-	db EVOLVE_LEVEL, 16, CHARMELEON
+	db EVOLVE_LEVEL, 16, GROWLMON
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -84,7 +84,7 @@ GuilmonEvosAttacks:
 	db 49, FIRE_SPIN
 	db 0 ; no more level-up moves
 
-CharmeleonEvosAttacks:
+GrowlmonEvosAttacks:
 	db EVOLVE_LEVEL, 36, TYRANNOMON
 	db 0 ; no more evolutions
 	db 1, SCRATCH
