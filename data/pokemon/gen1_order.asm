@@ -191,7 +191,7 @@ Pokered_MonIndices:
 	db VICTREEBEL
 
 	db TANEMON
-	db BAYLEEF
+	db PALMON
 	db MEGANIUM
 	db KOROMON
 	db AGUMON

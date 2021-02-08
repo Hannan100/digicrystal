@@ -151,7 +151,7 @@ AnimationPointers:
 	dw MewtwoAnimation
 	dw MewAnimation
 	dw TanemonAnimation
-	dw BayleefAnimation
+	dw PalmonAnimation
 	dw MeganiumAnimation
 	dw KoromonAnimation
 	dw AgumonAnimation

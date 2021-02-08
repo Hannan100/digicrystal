@@ -2,7 +2,7 @@
 
 NewPokedexOrder:
 	db TANEMON
-	db BAYLEEF
+	db PALMON
 	db MEGANIUM
 	db KOROMON
 	db AGUMON

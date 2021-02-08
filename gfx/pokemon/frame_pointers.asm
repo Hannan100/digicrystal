@@ -151,7 +151,7 @@ FramesPointers:
 	dw MewtwoFrames
 	dw MewFrames
 	dw TanemonFrames
-	dw BayleefFrames
+	dw PalmonFrames
 	dw MeganiumFrames
 	dw KoromonFrames
 	dw AgumonFrames

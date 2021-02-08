@@ -151,7 +151,7 @@ AnimationIdlePointers:
 	dw MewtwoAnimationIdle
 	dw MewAnimationIdle
 	dw TanemonAnimationIdle
-	dw BayleefAnimationIdle
+	dw PalmonAnimationIdle
 	dw MeganiumAnimationIdle
 	dw KoromonAnimationIdle
 	dw AgumonAnimationIdle

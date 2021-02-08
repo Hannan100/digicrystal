@@ -172,7 +172,7 @@
 	const MEW        ; 97
 JOHTO_POKEMON EQU const_value
 	const TANEMON    ; 98
-	const BAYLEEF    ; 99
+	const PALMON    ; 99
 	const MEGANIUM   ; 9a
 	const KOROMON  ; 9b
 	const AGUMON    ; 9c

@@ -151,7 +151,7 @@ BitmasksPointers:
 	dw MewtwoBitmasks
 	dw MewBitmasks
 	dw TanemonBitmasks
-	dw BayleefBitmasks
+	dw PalmonBitmasks
 	dw MeganiumBitmasks
 	dw KoromonBitmasks
 	dw AgumonBitmasks
