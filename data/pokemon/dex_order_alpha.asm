@@ -165,7 +165,7 @@ AlphabeticalPokedexOrder:
 	db PILOSWINE
 	db FANBEEMON
 	db PINSIR
-	db POLITOED
+	db AERVDRAMON
 	db BETAMON
 	db POLIWHIRL
 	db POLIWRATH

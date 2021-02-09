@@ -806,7 +806,7 @@ BetamonEvosAttacks:
 
 PoliwhirlEvosAttacks:
 	db EVOLVE_ITEM, WATER_STONE, POLIWRATH
-	db EVOLVE_TRADE, KINGS_ROCK, POLITOED
+	db EVOLVE_TRADE, KINGS_ROCK, AERVDRAMON
 	db 0 ; no more evolutions
 	db 1, BUBBLE
 	db 1, BOARMONSIS
@@ -2512,7 +2512,7 @@ SudowoodoEvosAttacks:
 	db 46, SLAM
 	db 0 ; no more level-up moves
 
-PolitoedEvosAttacks:
+AervdramonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, BOARMONSIS

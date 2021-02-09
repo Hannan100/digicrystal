@@ -75,7 +75,7 @@ NewPokedexOrder:
 	db BETAMON
 	db POLIWHIRL
 	db POLIWRATH
-	db POLITOED
+	db AERVDRAMON
 	db SWIMMON
 	db GYARADOS
 	db GIZAMON

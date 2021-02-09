@@ -184,7 +184,7 @@ BitmasksPointers:
 	dw MarillBitmasks
 	dw AzumarillBitmasks
 	dw SudowoodoBitmasks
-	dw PolitoedBitmasks
+	dw AervdramonBitmasks
 	dw YokomonBitmasks
 	dw BiyomonBitmasks
 	dw BirdramonBitmasks

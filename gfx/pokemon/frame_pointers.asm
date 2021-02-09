@@ -184,7 +184,7 @@ FramesPointers:
 	dw MarillFrames
 	dw AzumarillFrames
 	dw SudowoodoFrames
-	dw PolitoedFrames
+	dw AervdramonFrames
 	dw YokomonFrames
 	dw BiyomonFrames
 	dw BirdramonFrames

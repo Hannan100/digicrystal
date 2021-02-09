@@ -224,7 +224,7 @@ Pokered_MonIndices:
 	db MARILL
 	db AZUMARILL
 	db SUDOWOODO
-	db POLITOED
+	db AERVDRAMON
 	db YOKOMON
 	db BIYOMON
 	db BIRDRAMON

@@ -186,7 +186,7 @@ EvosAttacksPointers::
 	dw MarillEvosAttacks
 	dw AzumarillEvosAttacks
 	dw SudowoodoEvosAttacks
-	dw PolitoedEvosAttacks
+	dw AervdramonEvosAttacks
 	dw YokomonEvosAttacks
 	dw BiyomonEvosAttacks
 	dw BirdramonEvosAttacks

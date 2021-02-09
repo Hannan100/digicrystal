@@ -184,7 +184,7 @@ AnimationPointers:
 	dw MarillAnimation
 	dw AzumarillAnimation
 	dw SudowoodoAnimation
-	dw PolitoedAnimation
+	dw AervdramonAnimation
 	dw YokomonAnimation
 	dw BiyomonAnimation
 	dw BirdramonAnimation

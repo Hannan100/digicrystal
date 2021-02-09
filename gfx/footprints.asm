@@ -425,7 +425,7 @@ INCBIN "gfx/footprints/marill.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/azumarill.1bpp",  footprint_bottom
 ; 185-192 top halves
 INCBIN "gfx/footprints/sudowoodo.1bpp",  footprint_top
-INCBIN "gfx/footprints/politoed.1bpp",   footprint_top
+INCBIN "gfx/footprints/aervdramon.1bpp",   footprint_top
 INCBIN "gfx/footprints/yokomon.1bpp",     footprint_top
 INCBIN "gfx/footprints/biyomon.1bpp",   footprint_top
 INCBIN "gfx/footprints/birdramon.1bpp",   footprint_top
@@ -434,7 +434,7 @@ INCBIN "gfx/footprints/sunkern.1bpp",    footprint_top
 INCBIN "gfx/footprints/sunflora.1bpp",   footprint_top
 ; 185-192 bottom halves
 INCBIN "gfx/footprints/sudowoodo.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/politoed.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/aervdramon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/yokomon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/biyomon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/birdramon.1bpp",   footprint_bottom

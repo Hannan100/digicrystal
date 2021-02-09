@@ -191,7 +191,7 @@ PokemonCries::
 	mon_cry CRY_MARILL,      $11b,  $120 ; MARILL
 	mon_cry CRY_MARILL,      $0b6,  $180 ; AZUMARILL
 	mon_cry CRY_CLEFFA,      $f40,  $180 ; SUDOWOODO
-	mon_cry CRY_CLEFFA,     -$2a3,  $1c8 ; POLITOED
+	mon_cry CRY_CLEFFA,     -$2a3,  $1c8 ; AERVDRAMON
 	mon_cry CRY_CLEFFA,      $03b,  $0c8 ; YOKOMON
 	mon_cry CRY_CLEFFA,      $027,  $138 ; BIYOMON
 	mon_cry CRY_CLEFFA,      $000,  $180 ; BIRDRAMON
@@ -447,7 +447,7 @@ PokemonCries::
 	mon_cry CRY_MARILL,      283,  288 ; MARILL
 	mon_cry CRY_MARILL,      182,  384 ; AZUMARILL
 	mon_cry CRY_CLEFFA,     3904,  384 ; SUDOWOODO
-	mon_cry CRY_CLEFFA,     -675,  456 ; POLITOED
+	mon_cry CRY_CLEFFA,     -675,  456 ; AERVDRAMON
 	mon_cry CRY_CLEFFA,       59,  200 ; YOKOMON
 	mon_cry CRY_CLEFFA,       39,  312 ; BIYOMON
 	mon_cry CRY_CLEFFA,        0,  384 ; BIRDRAMON

@@ -184,7 +184,7 @@ PokemonNames::
 	db "MARILL@@@@" ; !Imprldrmon
 	db "AZUMARILL@" 
 	db "SUDOWOODO@" ; !Woodmon
-	db "POLITOED@@" ; !Cherrymon
+	db "AERVDRAMON@@" ; !Cherrymon
 	db "YOKOMON@@@@" ; !Puppetmon
 	db "BIYOMON@@"
 	db "BIRDRAMON@@"
