@@ -179,7 +179,7 @@ FramesPointers:
 	dw ExVeemonFrames
 	dw FlamedrmonFrames
 	dw RaidramonFrames
-	dw AmpharosFrames
+	dw PaildramonFrames
 	dw DinobeemonFrames
 	dw MarillFrames
 	dw AzumarillFrames

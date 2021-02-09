@@ -2450,7 +2450,7 @@ RaidramonEvosAttacks:
 	db 45, THUNDER
 	db 0 ; no more level-up moves
 
-AmpharosEvosAttacks:
+PaildramonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL

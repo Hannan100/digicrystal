@@ -186,7 +186,7 @@ PokemonCries::
 	mon_cry CRY_VEEDRAMON,       -$0a7,  $168 ; EXVEEMON
 	mon_cry CRY_FLAMEDRMON,      $022,  $0d8 ; FLAMEDRMON
 	mon_cry CRY_FLAMEDRMON,     -$007,  $180 ; RAIDRAMON
-	mon_cry CRY_AMPHAROS,   -$07c,  $0e8 ; AMPHAROS
+	mon_cry CRY_PAILDRAMON,   -$07c,  $0e8 ; PAILDRAMON
 	mon_cry CRY_CLEFFA,      $084,  $150 ; DINOBEEMON
 	mon_cry CRY_MARILL,      $11b,  $120 ; MARILL
 	mon_cry CRY_MARILL,      $0b6,  $180 ; AZUMARILL
@@ -207,7 +207,7 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    $104,  $200 ; SLOWKING
 	mon_cry CRY_POROMON,    $130,  $0e8 ; MISDREAVUS
 	mon_cry CRY_POROMON,    $162,  $100 ; UNOWN
-	mon_cry CRY_AMPHAROS,    $27b,  $144 ; WOBBUFFET
+	mon_cry CRY_PAILDRAMON,    $27b,  $144 ; WOBBUFFET
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; GIRAFARIG
 	mon_cry CRY_SLOWKING,    $080,  $100 ; FANBEEMON
 	mon_cry CRY_SLOWKING,    $000,  $180 ; WASPMON
@@ -217,9 +217,9 @@ PokemonCries::
 	mon_cry CRY_KUDAMON,   $112,  $0e8 ; ELECMON
 	mon_cry CRY_KUDAMON,   $000,  $180 ; LEOMON
 	mon_cry CRY_SLOWKING,    $160,  $0e0 ; SUBMARIMON
-	mon_cry CRY_AMPHAROS,    $000,  $160 ; HUNYBEEMON
+	mon_cry CRY_PAILDRAMON,    $000,  $160 ; HUNYBEEMON
 	mon_cry CRY_KUDAMON,   $290,  $0a8 ; SHUCKLE
-	mon_cry CRY_AMPHAROS,    $035,  $0e0 ; SHADRAMON
+	mon_cry CRY_PAILDRAMON,    $035,  $0e0 ; SHADRAMON
 	mon_cry CRY_WOOPER,      $053,  $0af ; SNEASEL
 	mon_cry CRY_IMPMON,   $7a2,  $06e ; IMPMON
 	mon_cry CRY_IMPMON,   $640,  $0d8 ; URSARING
@@ -232,7 +232,7 @@ PokemonCries::
 	mon_cry CRY_BUKAMON,    $000,  $180 ; OCTILLERY
 	mon_cry CRY_IMPMON,   $002,  $06a ; DELIBIRD
 	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; MANTINE
-	mon_cry CRY_AMPHAROS,    $8a9,  $180 ; HALSEMON
+	mon_cry CRY_PAILDRAMON,    $8a9,  $180 ; HALSEMON
 	mon_cry CRY_KOROMON,   $039,  $140 ; HOUNDOUR
 	mon_cry CRY_BUKAMON,   -$10a,  $100 ; HOUNDOOM
 	mon_cry CRY_SLUGMA,      $2fb,  $100 ; KINGDRA
@@ -442,7 +442,7 @@ PokemonCries::
 	mon_cry CRY_VEEDRAMON,       -167,  360 ; EXVEEMON
 	mon_cry CRY_FLAMEDRMON,       34,  216 ; FLAMEDRMON
 	mon_cry CRY_FLAMEDRMON,       -7,  384 ; FLAAFFY
-	mon_cry CRY_AMPHAROS,   -124,  232 ; AMPHAROS
+	mon_cry CRY_PAILDRAMON,   -124,  232 ; PAILDRAMON
 	mon_cry CRY_CLEFFA,      132,  336 ; DINOBEEMON
 	mon_cry CRY_MARILL,      283,  288 ; MARILL
 	mon_cry CRY_MARILL,      182,  384 ; AZUMARILL
@@ -463,7 +463,7 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    260,  512 ; SLOWKING
 	mon_cry CRY_POROMON,    304,  232 ; MISDREAVUS
 	mon_cry CRY_POROMON,    354,  256 ; UNOWN
-	mon_cry CRY_AMPHAROS,    635,  324 ; WOBBUFFET
+	mon_cry CRY_PAILDRAMON,    635,  324 ; WOBBUFFET
 	mon_cry CRY_GIRAFARIG,    65,  512 ; GIRAFARIG
 	mon_cry CRY_SLOWKING,    128,  256 ; FANBEEMON
 	mon_cry CRY_SLOWKING,      0,  384 ; WASPMON
@@ -473,9 +473,9 @@ PokemonCries::
 	mon_cry CRY_KUDAMON,   274,  232 ; ELECMON
 	mon_cry CRY_KUDAMON,     0,  384 ; LEOMON
 	mon_cry CRY_SLOWKING,    352,  224 ; SUBMARIMON
-	mon_cry CRY_AMPHAROS,      0,  352 ; HUNYBEEMON
+	mon_cry CRY_PAILDRAMON,      0,  352 ; HUNYBEEMON
 	mon_cry CRY_KUDAMON,   656,  168 ; SHUCKLE
-	mon_cry CRY_AMPHAROS,     53,  224 ; SHADRAMON
+	mon_cry CRY_PAILDRAMON,     53,  224 ; SHADRAMON
 	mon_cry CRY_WOOPER,       83,  175 ; SNEASEL
 	mon_cry CRY_IMPMON,  1954,  110 ; IMPMON
 	mon_cry CRY_IMPMON,  1600,  216 ; URSARING
@@ -488,7 +488,7 @@ PokemonCries::
 	mon_cry CRY_BUKAMON,      0,  384 ; OCTILLERY
 	mon_cry CRY_IMPMON,     2,  106 ; DELIBIRD
 	mon_cry CRY_MANTINE,    -190,  240 ; MANTINE
-	mon_cry CRY_AMPHAROS,   2217,  384 ; HALSEMON
+	mon_cry CRY_PAILDRAMON,   2217,  384 ; HALSEMON
 	mon_cry CRY_KOROMON,    57,  320 ; HOUNDOUR
 	mon_cry CRY_BUKAMON,   -266,  256 ; HOUNDOOM
 	mon_cry CRY_SLUGMA,      763,  256 ; KINGDRA

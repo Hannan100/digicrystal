@@ -405,7 +405,7 @@ INCLUDE "gfx/pokemon/flamedrmon/normal.pal"
 INCLUDE "gfx/pokemon/flamedrmon/shiny.pal"
 INCLUDE "gfx/pokemon/raidramon/normal.pal"
 INCLUDE "gfx/pokemon/raidramon/shiny.pal"
-INCLUDE "gfx/pokemon/ampharos/normal.pal"
+INCLUDE "gfx/pokemon/paildramon/normal.pal"
 =======
 INCBIN "gfx/pokemon/demiveemon/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/demiveemon/shiny.pal"
@@ -419,9 +419,9 @@ INCBIN "gfx/pokemon/flamedrmon/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/flamedrmon/shiny.pal"
 INCBIN "gfx/pokemon/flaaffy/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/flaaffy/shiny.pal"
-INCBIN "gfx/pokemon/ampharos/front.gbcpal", middle_colors
+INCBIN "gfx/pokemon/paildramon/front.gbcpal", middle_colors
 >>>>>>> pret/master
-INCLUDE "gfx/pokemon/ampharos/shiny.pal"
+INCLUDE "gfx/pokemon/paildramon/shiny.pal"
 INCBIN "gfx/pokemon/dinobeemon/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/dinobeemon/shiny.pal"
 INCBIN "gfx/pokemon/marill/front.gbcpal", middle_colors

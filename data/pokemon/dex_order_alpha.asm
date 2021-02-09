@@ -5,7 +5,7 @@ AlphabeticalPokedexOrder:
 	db AERODACTYL
 	db AIPOM
 	db ALAKAZAM
-	db AMPHAROS
+	db PAILDRAMON
 	db ARBOK
 	db KYUBIMON
 	db LOPMON

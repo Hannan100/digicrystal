@@ -44,7 +44,7 @@ OlivineLighthouseJasmine:
 	promptbutton
 	closetext
 	special RestartMapMusic
-	cry AMPHAROS
+	cry PAILDRAMON
 	special FadeOutPalettes
 	pause 10
 	special FadeInPalettes
@@ -106,7 +106,7 @@ OlivineLighthouseAmphy:
 	checkevent EVENT_JASMINE_RETURNED_TO_GYM
 	iftrue .HealthyNow
 	writetext AmphyPalPalooText
-	setval AMPHAROS
+	setval PAILDRAMON
 	special PlaySlowCry
 	promptbutton
 	writetext AmphyBreathingLaboredText
@@ -116,7 +116,7 @@ OlivineLighthouseAmphy:
 
 .HealthyNow:
 	writetext AmphyPaluPaluluText
-	cry AMPHAROS
+	cry PAILDRAMON
 	waitbutton
 	closetext
 	special FadeOutPalettes

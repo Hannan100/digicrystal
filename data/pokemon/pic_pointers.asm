@@ -362,8 +362,8 @@ PokemonPicPointers::
 	dba_pic FlamedrmonBackpic
 	dba_pic RaidramonFrontpic
 	dba_pic RaidramonBackpic
-	dba_pic AmpharosFrontpic
-	dba_pic AmpharosBackpic
+	dba_pic PaildramonFrontpic
+	dba_pic PaildramonBackpic
 	dba_pic DinobeemonFrontpic
 	dba_pic DinobeemonBackpic
 	dba_pic MarillFrontpic

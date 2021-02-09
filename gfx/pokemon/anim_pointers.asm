@@ -179,7 +179,7 @@ AnimationPointers:
 	dw ExVeemonAnimation
 	dw FlamedrmonAnimation
 	dw RaidramonAnimation
-	dw AmpharosAnimation
+	dw PaildramonAnimation
 	dw DinobeemonAnimation
 	dw MarillAnimation
 	dw AzumarillAnimation

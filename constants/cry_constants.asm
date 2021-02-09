@@ -66,7 +66,7 @@
 	const CRY_VEEDRAMON
 	const CRY_IMPMON
 	const CRY_SUNFLORA
-	const CRY_AMPHAROS
+	const CRY_PAILDRAMON
 	const CRY_MAGCARGO
 	const CRY_PICHU
 	const CRY_AIPOM

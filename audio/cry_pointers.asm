@@ -61,7 +61,7 @@ Cries:
 	dba Cry_Veedramon
 	dba Cry_Impmon
 	dba Cry_Sunflora
-	dba Cry_Ampharos
+	dba Cry_Paildramon
 	dba Cry_Magcargo
 	dba Cry_Pichu
 	dba Cry_Aipom
