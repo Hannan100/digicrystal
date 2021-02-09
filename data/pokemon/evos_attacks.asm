@@ -573,7 +573,7 @@ GoblimonEvosAttacks:
 
 OgremonEvosAttacks:
 	db EVOLVE_ITEM, LEAF_STONE, VILEPLUME
-	db EVOLVE_ITEM, SUN_STONE, BELLOSSOM
+	db EVOLVE_ITEM, SUN_STONE, DINOBEEMON
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 1, SWEET_SCENT
@@ -2464,7 +2464,7 @@ AmpharosEvosAttacks:
 	db 57, THUNDER
 	db 0 ; no more level-up moves
 
-BellossomEvosAttacks:
+DinobeemonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 1, SWEET_SCENT

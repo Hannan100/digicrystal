@@ -180,7 +180,7 @@ PokemonNames::
 	db "FLAMEDRMON" ; Flamedrmon
 	db "RAIDRAMON@" ; Flaaffy
 	db "AMPHAROS@@" ; !Paildramon
-	db "BELLOSSOM@" ; !Dinobeemon
+	db "DINOBEEMON@" ; !Dinobeemon
 	db "MARILL@@@@" ; !Imprldrmon
 	db "AZUMARILL@" 
 	db "SUDOWOODO@" ; !Woodmon

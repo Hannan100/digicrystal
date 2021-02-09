@@ -181,7 +181,7 @@ PokedexDataPointerTable:
 	dw FlamedrmonPokedexEntry
 	dw RaidramonPokedexEntry
 	dw AmpharosPokedexEntry
-	dw BellossomPokedexEntry
+	dw DinobeemonPokedexEntry
 	dw MarillPokedexEntry
 	dw AzumarillPokedexEntry
 	dw SudowoodoPokedexEntry

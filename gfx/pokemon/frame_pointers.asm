@@ -180,7 +180,7 @@ FramesPointers:
 	dw FlamedrmonFrames
 	dw RaidramonFrames
 	dw AmpharosFrames
-	dw BellossomFrames
+	dw DinobeemonFrames
 	dw MarillFrames
 	dw AzumarillFrames
 	dw SudowoodoFrames

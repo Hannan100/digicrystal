@@ -187,7 +187,7 @@ PokemonCries::
 	mon_cry CRY_FLAMEDRMON,      $022,  $0d8 ; FLAMEDRMON
 	mon_cry CRY_FLAMEDRMON,     -$007,  $180 ; RAIDRAMON
 	mon_cry CRY_AMPHAROS,   -$07c,  $0e8 ; AMPHAROS
-	mon_cry CRY_CLEFFA,      $084,  $150 ; BELLOSSOM
+	mon_cry CRY_CLEFFA,      $084,  $150 ; DINOBEEMON
 	mon_cry CRY_MARILL,      $11b,  $120 ; MARILL
 	mon_cry CRY_MARILL,      $0b6,  $180 ; AZUMARILL
 	mon_cry CRY_CLEFFA,      $f40,  $180 ; SUDOWOODO
@@ -443,7 +443,7 @@ PokemonCries::
 	mon_cry CRY_FLAMEDRMON,       34,  216 ; FLAMEDRMON
 	mon_cry CRY_FLAMEDRMON,       -7,  384 ; FLAAFFY
 	mon_cry CRY_AMPHAROS,   -124,  232 ; AMPHAROS
-	mon_cry CRY_CLEFFA,      132,  336 ; BELLOSSOM
+	mon_cry CRY_CLEFFA,      132,  336 ; DINOBEEMON
 	mon_cry CRY_MARILL,      283,  288 ; MARILL
 	mon_cry CRY_MARILL,      182,  384 ; AZUMARILL
 	mon_cry CRY_CLEFFA,     3904,  384 ; SUDOWOODO

@@ -13,7 +13,7 @@ AlphabeticalPokedexOrder:
 	db AZUMARILL
 	db PALMON
 	db KABUTRIMON
-	db BELLOSSOM
+	db DINOBEEMON
 	db LALAMON
 	db SHELLMON
 	db BLISSEY

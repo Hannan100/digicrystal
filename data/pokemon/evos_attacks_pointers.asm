@@ -182,7 +182,7 @@ EvosAttacksPointers::
 	dw FlamedrmonEvosAttacks
 	dw RaidramonEvosAttacks
 	dw AmpharosEvosAttacks
-	dw BellossomEvosAttacks
+	dw DinobeemonEvosAttacks
 	dw MarillEvosAttacks
 	dw AzumarillEvosAttacks
 	dw SudowoodoEvosAttacks

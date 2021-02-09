@@ -180,7 +180,7 @@ AnimationPointers:
 	dw FlamedrmonAnimation
 	dw RaidramonAnimation
 	dw AmpharosAnimation
-	dw BellossomAnimation
+	dw DinobeemonAnimation
 	dw MarillAnimation
 	dw AzumarillAnimation
 	dw SudowoodoAnimation
