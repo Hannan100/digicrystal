@@ -107,7 +107,7 @@ FramesPointers:
 	dw HitmonleeFrames
 	dw HitmonchanFrames
 	dw LickitungFrames
-	dw KoffingFrames
+	dw LadydevmonFrames
 	dw WeezingFrames
 	dw RhyhornFrames
 	dw RhydonFrames

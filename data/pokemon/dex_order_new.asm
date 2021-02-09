@@ -114,7 +114,7 @@ NewPokedexOrder:
 	db HUNYBEEMON
 	db PINSIR
 	db SHADRAMON
-	db KOFFING
+	db LADYDEVMON
 	db WEEZING
 	db NUMEMON
 	db RAREMON

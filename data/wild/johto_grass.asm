@@ -276,7 +276,7 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 13, TSUNOMON
-	db 14, KOFFING
+	db 14, LADYDEVMON
 	db 15, TSUNOMON
 	db 14, PAGUMON
 	db 15, TSUNOMON
@@ -284,7 +284,7 @@ JohtoGrassWildMons:
 	db 15, GABUMON
 	; day
 	db 13, TSUNOMON
-	db 14, KOFFING
+	db 14, LADYDEVMON
 	db 15, TSUNOMON
 	db 14, PAGUMON
 	db 15, TSUNOMON
@@ -292,7 +292,7 @@ JohtoGrassWildMons:
 	db 15, GABUMON
 	; nite
 	db 13, TSUNOMON
-	db 14, KOFFING
+	db 14, LADYDEVMON
 	db 15, TSUNOMON
 	db 14, PAGUMON
 	db 15, TSUNOMON
@@ -303,27 +303,27 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 14, TSUNOMON
-	db 14, KOFFING
-	db 16, KOFFING
+	db 14, LADYDEVMON
+	db 16, LADYDEVMON
 	db 15, PAGUMON
-	db 12, KOFFING
-	db 16, KOFFING
+	db 12, LADYDEVMON
+	db 16, LADYDEVMON
 	db 16, WEEZING
 	; day
 	db 14, TSUNOMON
-	db 14, KOFFING
-	db 16, KOFFING
+	db 14, LADYDEVMON
+	db 16, LADYDEVMON
 	db 15, PAGUMON
-	db 12, KOFFING
-	db 16, KOFFING
+	db 12, LADYDEVMON
+	db 16, LADYDEVMON
 	db 16, WEEZING
 	; nite
 	db 14, TSUNOMON
-	db 14, KOFFING
-	db 16, KOFFING
+	db 14, LADYDEVMON
+	db 16, LADYDEVMON
 	db 15, PAGUMON
-	db 12, KOFFING
-	db 16, KOFFING
+	db 12, LADYDEVMON
+	db 16, LADYDEVMON
 	db 16, WEEZING
 
 	map_id NATIONAL_PARK

@@ -114,7 +114,7 @@ PokemonCries::
 	mon_cry CRY_GOLEMON,       $080,  $140 ; HITMONLEE
 	mon_cry CRY_SEEL,        $0ee,  $140 ; HITMONCHAN
 	mon_cry CRY_SEEL,        $000,  $100 ; LICKITUNG
-	mon_cry CRY_GOLEMON,       $0e6,  $15d ; KOFFING
+	mon_cry CRY_GOLEMON,       $0e6,  $15d ; LADYDEVMON
 	mon_cry CRY_GOLEMON,       $0ff,  $17f ; WEEZING
 	mon_cry CRY_GUILMON,  $000,  $100 ; RHYHORN
 	mon_cry CRY_RHYDON,      $000,  $100 ; RHYDON
@@ -370,7 +370,7 @@ PokemonCries::
 	mon_cry CRY_GOLEMON,       128,  320 ; HITMONLEE
 	mon_cry CRY_SEEL,        238,  320 ; HITMONCHAN
 	mon_cry CRY_SEEL,          0,  256 ; LICKITUNG
-	mon_cry CRY_GOLEMON,       230,  349 ; KOFFING
+	mon_cry CRY_GOLEMON,       230,  349 ; LADYDEVMON
 	mon_cry CRY_GOLEMON,       255,  383 ; WEEZING
 	mon_cry CRY_GUILMON,    0,  256 ; RHYHORN
 	mon_cry CRY_RHYDON,        0,  256 ; RHYDON

@@ -107,7 +107,7 @@ AnimationPointers:
 	dw HitmonleeAnimation
 	dw HitmonchanAnimation
 	dw LickitungAnimation
-	dw KoffingAnimation
+	dw LadydevmonAnimation
 	dw WeezingAnimation
 	dw RhyhornAnimation
 	dw RhydonAnimation

@@ -325,7 +325,7 @@ LickitungEggMoves:
 	db BODY_SLAM
 	db -1 ; end
 
-KoffingEggMoves:
+LadydevmonEggMoves:
 	db SCREECH
 	db PSYWAVE
 	db PSYBEAM

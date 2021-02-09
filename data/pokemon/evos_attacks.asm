@@ -1476,7 +1476,7 @@ LickitungEvosAttacks:
 	db 43, SCREECH
 	db 0 ; no more level-up moves
 
-KoffingEvosAttacks:
+LadydevmonEvosAttacks:
 	db EVOLVE_LEVEL, 35, WEEZING
 	db 0 ; no more evolutions
 	db 1, POISON_GAS

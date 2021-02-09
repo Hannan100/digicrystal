@@ -107,7 +107,7 @@ AnimationIdlePointers:
 	dw HitmonleeAnimationIdle
 	dw HitmonchanAnimationIdle
 	dw LickitungAnimationIdle
-	dw KoffingAnimationIdle
+	dw LadydevmonAnimationIdle
 	dw WeezingAnimationIdle
 	dw RhyhornAnimationIdle
 	dw RhydonAnimationIdle

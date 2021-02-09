@@ -53,7 +53,7 @@ Pokered_MonIndices:
 	db HO_OH ; MISSINGNO.
 	db ELECTABUZZ
 	db GUARDROMON
-	db KOFFING
+	db LADYDEVMON
 	db SNEASEL ; MISSINGNO.
 	db MANKEY
 	db SEEL

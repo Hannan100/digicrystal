@@ -127,7 +127,7 @@
 	const HITMONLEE  ; 6a
 	const HITMONCHAN ; 6b
 	const LICKITUNG  ; 6c
-	const KOFFING    ; 6d
+	const LADYDEVMON    ; 6d
 	const WEEZING    ; 6e
 	const RHYHORN    ; 6f
 	const RHYDON     ; 70

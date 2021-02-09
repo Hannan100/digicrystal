@@ -105,7 +105,7 @@ AlphabeticalPokedexOrder:
 	db KANGASKHAN
 	db KINGDRA
 	db COELAMON
-	db KOFFING
+	db LADYDEVMON
 	db CRABMON
 	db LANTURN
 	db SEADRAMON

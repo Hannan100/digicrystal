@@ -109,7 +109,7 @@ KantoMonSpecials:
 	db  35 ; HITMONLEE
 	db  35 ; HITMONCHAN
 	db  60 ; LICKITUNG
-	db  60 ; KOFFING
+	db  60 ; LADYDEVMON
 	db  85 ; WEEZING
 	db  30 ; RHYHORN
 	db  45 ; RHYDON
