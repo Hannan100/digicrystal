@@ -29,7 +29,7 @@ MonMenuIcons:
 	db ICON_GATOMON     ; RAICHU
 	db ICON_MONSTER     ; NEFERTIMON
 	db ICON_MONSTER     ; SANDSLASH
-	db ICON_FOX         ; NIDORAN_F
+	db ICON_FOX         ; MEGADRAMON
 	db ICON_FOX         ; NIDORINA
 	db ICON_MONSTER     ; NIDOQUEEN
 	db ICON_FOX         ; NIDORAN_M

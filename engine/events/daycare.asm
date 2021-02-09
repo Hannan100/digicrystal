@@ -591,7 +591,7 @@ DayCare_InitBreeding:
 	ld a, EGG_LEVEL
 	ld [wCurPartyLevel], a
 
-; Nidoran♀ can give birth to either gender of Nidoran
+; Megadramon can give birth to either gender of Nidoran
 	ld a, [wCurPartySpecies]
 	cp NIDORAN_F
 	jr nz, .GotEggSpecies

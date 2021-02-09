@@ -47,7 +47,7 @@
 	const RAICHU     ; 1a
 	const NEFERTIMON  ; 1b
 	const SANDSLASH  ; 1c
-	const NIDORAN_F  ; 1d
+	const MEGADRAMON  ; 1d
 	const NIDORINA   ; 1e
 	const NIDOQUEEN  ; 1f
 	const NIDORAN_M  ; 20

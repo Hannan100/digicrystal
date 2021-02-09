@@ -13,7 +13,7 @@ Pokered_MonIndices:
 	db CHUUMON
 	db NUMEMON
 	db KRYSALIMON
-	db NIDORAN_F
+	db MEGADRAMON
 	db NIDOQUEEN
 	db CUBONE
 	db RHYHORN

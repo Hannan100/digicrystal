@@ -27,7 +27,7 @@ PokemonNames::
 	db "RAICHU@@@@"
 	db "NEFERTIMON@"
 	db "SANDSLASH@"
-	db "NIDORAN♀@@"
+	db "MEGADRAMON@@"
 	db "NIDORINA@@"
 	db "NIDOQUEEN@"
 	db "NIDORAN♂@@"

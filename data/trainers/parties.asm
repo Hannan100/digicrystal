@@ -2762,7 +2762,7 @@ PsychicGroup:
 PicnickerGroup:
 	; PICNICKER (1)
 	db "LIZ@", TRAINERTYPE_NORMAL
-	db  9, NIDORAN_F
+	db  9, MEGADRAMON
 	db -1 ; end
 
 	; PICNICKER (2)

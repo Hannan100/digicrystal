@@ -29,7 +29,7 @@ KantoMonSpecials:
 	db  90 ; RAICHU
 	db  30 ; NEFERTIMON
 	db  55 ; SANDSLASH
-	db  40 ; NIDORAN_F
+	db  40 ; MEGADRAMON
 	db  55 ; NIDORINA
 	db  75 ; NIDOQUEEN
 	db  40 ; NIDORAN_M

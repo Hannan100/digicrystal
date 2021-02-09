@@ -142,7 +142,7 @@ AlphabeticalPokedexOrder:
 	db VEEDRAMON
 	db NIDOKING
 	db NIDOQUEEN
-	db NIDORAN_F
+	db MEGADRAMON
 	db NIDORAN_M
 	db NIDORINA
 	db OKUWAMON

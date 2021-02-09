@@ -95,7 +95,7 @@ NewPokedexOrder:
 	db DITTO
 	db FANBEEMON
 	db WASPMON
-	db NIDORAN_F
+	db MEGADRAMON
 	db NIDORINA
 	db NIDOQUEEN
 	db NIDORAN_M

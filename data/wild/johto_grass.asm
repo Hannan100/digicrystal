@@ -330,14 +330,14 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 12, NIDORAN_M
-	db 12, NIDORAN_F
+	db 12, MEGADRAMON
 	db 14, GUMMYMON
 	db 13, MKABUTIMON
 	db 10, MINOMON
 	db 10, MOTIMON
 	db 10, MOTIMON
 	; day
-	db 12, NIDORAN_F
+	db 12, MEGADRAMON
 	db 12, NIDORAN_M
 	db 14, SUNKERN
 	db 13, MKABUTIMON
