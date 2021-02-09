@@ -145,7 +145,7 @@ AlphabeticalPokedexOrder:
 	db NIDORAN_F
 	db NIDORAN_M
 	db NIDORINA
-	db NIDORINO
+	db OKUWAMON
 	db NINETALES
 	db HAWKMON
 	db OCTILLERY

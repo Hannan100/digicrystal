@@ -82,7 +82,7 @@ INCBIN "gfx/footprints/nidorina.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/nidoqueen.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/nidoran_m.1bpp",  footprint_bottom
 ; 033-040 top halves
-INCBIN "gfx/footprints/nidorino.1bpp",   footprint_top
+INCBIN "gfx/footprints/okuwamon.1bpp",   footprint_top
 INCBIN "gfx/footprints/nidoking.1bpp",   footprint_top
 INCBIN "gfx/footprints/clefairy.1bpp",   footprint_top
 INCBIN "gfx/footprints/clefable.1bpp",   footprint_top
@@ -91,7 +91,7 @@ INCBIN "gfx/footprints/ninetales.1bpp",  footprint_top
 INCBIN "gfx/footprints/candlemon.1bpp", footprint_top
 INCBIN "gfx/footprints/meramon.1bpp", footprint_top
 ; 033-040 bottom halves
-INCBIN "gfx/footprints/nidorino.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/okuwamon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/nidoking.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/clefairy.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/clefable.1bpp",   footprint_bottom

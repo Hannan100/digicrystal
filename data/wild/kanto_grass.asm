@@ -464,7 +464,7 @@ KantoGrassWildMons:
 	map_id ROUTE_13
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, NIDORINO
+	db 23, OKUWAMON
 	db 23, NIDORINA
 	db 25, ANGEMON
 	db 25, YOKOMON
@@ -472,7 +472,7 @@ KantoGrassWildMons:
 	db 27, YOKOMON
 	db 25, CHANSEY
 	; day
-	db 23, NIDORINO
+	db 23, OKUWAMON
 	db 23, NIDORINA
 	db 25, ANGEMON
 	db 25, YOKOMON
@@ -491,7 +491,7 @@ KantoGrassWildMons:
 	map_id ROUTE_14
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 26, NIDORINO
+	db 26, OKUWAMON
 	db 26, NIDORINA
 	db 28, ANGEMON
 	db 28, YOKOMON
@@ -499,7 +499,7 @@ KantoGrassWildMons:
 	db 30, BIYOMON
 	db 28, CHANSEY
 	; day
-	db 26, NIDORINO
+	db 26, OKUWAMON
 	db 26, NIDORINA
 	db 28, ANGEMON
 	db 28, YOKOMON
@@ -518,7 +518,7 @@ KantoGrassWildMons:
 	map_id ROUTE_15
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, NIDORINO
+	db 23, OKUWAMON
 	db 23, NIDORINA
 	db 25, ANGEMON
 	db 25, YOKOMON
@@ -526,7 +526,7 @@ KantoGrassWildMons:
 	db 27, YOKOMON
 	db 25, CHANSEY
 	; day
-	db 23, NIDORINO
+	db 23, OKUWAMON
 	db 23, NIDORINA
 	db 25, ANGEMON
 	db 25, YOKOMON

@@ -99,7 +99,7 @@ NewPokedexOrder:
 	db NIDORINA
 	db NIDOQUEEN
 	db NIDORAN_M
-	db NIDORINO
+	db OKUWAMON
 	db NIDOKING
 	db YANMA
 	db SUNKERN

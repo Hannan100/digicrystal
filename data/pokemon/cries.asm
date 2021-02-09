@@ -38,7 +38,7 @@ PokemonCries::
 	mon_cry CRY_NIDORAN_F,   $02c,  $160 ; NIDORINA
 	mon_cry CRY_NIDOQUEEN,   $000,  $100 ; NIDOQUEEN
 	mon_cry CRY_NIDORAN_M,   $000,  $100 ; NIDORAN_M
-	mon_cry CRY_NIDORAN_M,   $02c,  $140 ; NIDORINO
+	mon_cry CRY_NIDORAN_M,   $02c,  $140 ; OKUWAMON
 	mon_cry CRY_RAICHU,      $000,  $100 ; NIDOKING
 	mon_cry CRY_CLEFAIRY,    $0cc,  $081 ; CLEFAIRY
 	mon_cry CRY_CLEFAIRY,    $0aa,  $0a0 ; CLEFABLE
@@ -294,7 +294,7 @@ PokemonCries::
 	mon_cry CRY_NIDORAN_F,    44,  352 ; NIDORINA
 	mon_cry CRY_NIDOQUEEN,     0,  256 ; NIDOQUEEN
 	mon_cry CRY_NIDORAN_M,     0,  256 ; NIDORAN_M
-	mon_cry CRY_NIDORAN_M,    44,  320 ; NIDORINO
+	mon_cry CRY_NIDORAN_M,    44,  320 ; OKUWAMON
 	mon_cry CRY_RAICHU,        0,  256 ; NIDOKING
 	mon_cry CRY_CLEFAIRY,    204,  129 ; CLEFAIRY
 	mon_cry CRY_CLEFAIRY,    170,  160 ; CLEFABLE

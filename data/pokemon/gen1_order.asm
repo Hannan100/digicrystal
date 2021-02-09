@@ -165,7 +165,7 @@ Pokered_MonIndices:
 	db RAPIDASH
 	db TSUNOMON
 	db GABUMON
-	db NIDORINO
+	db OKUWAMON
 	db NIDORINA
 	db GOTSUMON
 	db PORYMON

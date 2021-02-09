@@ -51,7 +51,7 @@
 	const NIDORINA   ; 1e
 	const NIDOQUEEN  ; 1f
 	const NIDORAN_M  ; 20
-	const NIDORINO   ; 21
+	const OKUWAMON   ; 21
 	const NIDOKING   ; 22
 	const CLEFAIRY   ; 23
 	const CLEFABLE   ; 24

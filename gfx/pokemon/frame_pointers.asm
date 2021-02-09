@@ -31,7 +31,7 @@ FramesPointers:
 	dw NidorinaFrames
 	dw NidoqueenFrames
 	dw NidoranMFrames
-	dw NidorinoFrames
+	dw OkuwamonFrames
 	dw NidokingFrames
 	dw ClefairyFrames
 	dw ClefableFrames

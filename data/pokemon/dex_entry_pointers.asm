@@ -32,7 +32,7 @@ PokedexDataPointerTable:
 	dw NidorinaPokedexEntry
 	dw NidoqueenPokedexEntry
 	dw NidoranMPokedexEntry
-	dw NidorinoPokedexEntry
+	dw OkuwamonPokedexEntry
 	dw NidokingPokedexEntry
 	dw ClefairyPokedexEntry
 	dw ClefablePokedexEntry

@@ -31,7 +31,7 @@ AnimationIdlePointers:
 	dw NidorinaAnimationIdle
 	dw NidoqueenAnimationIdle
 	dw NidoranMAnimationIdle
-	dw NidorinoAnimationIdle
+	dw OkuwamonAnimationIdle
 	dw NidokingAnimationIdle
 	dw ClefairyAnimationIdle
 	dw ClefableAnimationIdle

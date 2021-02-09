@@ -431,7 +431,7 @@ NidoqueenEvosAttacks:
 	db 0 ; no more level-up moves
 
 NidoranMEvosAttacks:
-	db EVOLVE_LEVEL, 16, NIDORINO
+	db EVOLVE_LEVEL, 16, OKUWAMON
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, TACKLE
@@ -443,7 +443,7 @@ NidoranMEvosAttacks:
 	db 38, HORN_DRILL
 	db 0 ; no more level-up moves
 
-NidorinoEvosAttacks:
+OkuwamonEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, NIDOKING
 	db 0 ; no more evolutions
 	db 1, LEER

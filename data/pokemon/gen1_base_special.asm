@@ -33,7 +33,7 @@ KantoMonSpecials:
 	db  55 ; NIDORINA
 	db  75 ; NIDOQUEEN
 	db  40 ; NIDORAN_M
-	db  55 ; NIDORINO
+	db  55 ; OKUWAMON
 	db  75 ; NIDOKING
 	db  60 ; CLEFAIRY
 	db  85 ; CLEFABLE

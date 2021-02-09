@@ -31,7 +31,7 @@ AnimationPointers:
 	dw NidorinaAnimation
 	dw NidoqueenAnimation
 	dw NidoranMAnimation
-	dw NidorinoAnimation
+	dw OkuwamonAnimation
 	dw NidokingAnimation
 	dw ClefairyAnimation
 	dw ClefableAnimation

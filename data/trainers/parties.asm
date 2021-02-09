@@ -1177,7 +1177,7 @@ PokemaniacGroup:
 	; POKEMANIAC (4)
 	db "SHANE@", TRAINERTYPE_NORMAL
 	db 16, NIDORINA
-	db 16, NIDORINO
+	db 16, OKUWAMON
 	db -1 ; end
 
 	; POKEMANIAC (5)
@@ -2825,7 +2825,7 @@ PicnickerGroup:
 	; PICNICKER (12)
 	db "LIZ@", TRAINERTYPE_NORMAL
 	db 19, WOODMON
-	db 19, NIDORINO
+	db 19, OKUWAMON
 	db 21, NIDOQUEEN
 	db -1 ; end
 
@@ -2884,7 +2884,7 @@ PicnickerGroup:
 	; PICNICKER (22)
 	db "LIZ@", TRAINERTYPE_NORMAL
 	db 24, WOODMON
-	db 26, NIDORINO
+	db 26, OKUWAMON
 	db 26, NIDOQUEEN
 	db -1 ; end
 
@@ -2963,12 +2963,12 @@ CamperGroup:
 
 	; CAMPER (9)
 	db "HARVEY@", TRAINERTYPE_NORMAL
-	db 15, NIDORINO
+	db 15, OKUWAMON
 	db -1 ; end
 
 	; CAMPER (10)
 	db "DALE@", TRAINERTYPE_NORMAL
-	db 15, NIDORINO
+	db 15, OKUWAMON
 	db -1 ; end
 
 	; CAMPER (11)
