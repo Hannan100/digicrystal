@@ -546,7 +546,7 @@ UnknownText_0x61cef: ; unreferenced
 	line "new thing for the"
 	cont "TRADE CORNER!"
 
-	para "I make a PIDGEY"
+	para "I make a MKABUTIMON"
 	line "hold MAIL, then"
 
 	para "put it up for"
@@ -559,7 +559,7 @@ UnknownText_0x61cef: ; unreferenced
 	para "be traded with all"
 	line "sorts of people!"
 
-	para "I call it PIDGEY"
+	para "I call it MKABUTIMON"
 	line "MAIL!"
 
 	para "If it becomes"

@@ -246,7 +246,7 @@ MeowthFrontpic:      INCBIN "gfx/pokemon/meowth/front.animated.2bpp.lz"
 Porymon2Frontpic:    INCBIN "gfx/pokemon/porymon2/front.animated.2bpp.lz"
 NefertimonFrontpic:   INCBIN "gfx/pokemon/nefertimon/front.animated.2bpp.lz"
 NidoranFFrontpic:    INCBIN "gfx/pokemon/nidoran_f/front.animated.2bpp.lz"
-PidgeyFrontpic:      INCBIN "gfx/pokemon/pidgey/front.animated.2bpp.lz"
+MkabutimonFrontpic:      INCBIN "gfx/pokemon/mkabutimon/front.animated.2bpp.lz"
 MushroomonectBackpic:     INCBIN "gfx/pokemon/mushroomonect/back.2bpp.lz"
 
 
@@ -379,7 +379,7 @@ StarmieBackpic:      INCBIN "gfx/pokemon/starmie/back.2bpp.lz"
 SECTION "Pics 13", ROMX
 
 OmanyteBackpic:      INCBIN "gfx/pokemon/omanyte/back.2bpp.lz"
-PidgeyBackpic:       INCBIN "gfx/pokemon/pidgey/back.2bpp.lz"
+MkabutimonBackpic:       INCBIN "gfx/pokemon/mkabutimon/back.2bpp.lz"
 ScientistPic:        INCBIN "gfx/trainers/scientist.2bpp.lz"
 SubmarimonBackpic:     INCBIN "gfx/pokemon/submarimon/back.2bpp.lz"
 GligarBackpic:       INCBIN "gfx/pokemon/gligar/back.2bpp.lz"

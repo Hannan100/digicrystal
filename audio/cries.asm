@@ -1150,11 +1150,11 @@ Cry_Tapirmon:
 	channel 6, Cry_Tapirmon_Ch6
 	channel 8, Cry_Tapirmon_Ch8
 
-Cry_Pidgey:
+Cry_Mkabutimon:
 	channel_count 3
-	channel 5, Cry_Pidgey_Ch5
-	channel 6, Cry_Pidgey_Ch6
-	channel 8, Cry_Pidgey_Ch8
+	channel 5, Cry_Mkabutimon_Ch5
+	channel 6, Cry_Mkabutimon_Ch6
+	channel 8, Cry_Mkabutimon_Ch8
 
 Cry_Nyokomon:
 	channel_count 3
@@ -1586,7 +1586,7 @@ Cry_Nidoran_M_Ch8:
 	noise_note 8, 8, 1, 28
 	sound_ret
 
-Cry_Pidgey_Ch5:
+Cry_Mkabutimon_Ch5:
 	duty_cycle_pattern 2, 2, 1, 1
 	square_note 4, 14, 1, 1792
 	square_note 4, 15, 2, 1920
@@ -1594,7 +1594,7 @@ Cry_Pidgey_Ch5:
 	square_note 8, 14, 1, 1536
 	sound_ret
 
-Cry_Pidgey_Ch6:
+Cry_Mkabutimon_Ch6:
 	duty_cycle_pattern 0, 0, 2, 2
 	square_note 4, 11, 1, 1761
 	square_note 3, 12, 2, 1761
@@ -1602,7 +1602,7 @@ Cry_Pidgey_Ch6:
 	square_note 8, 11, 1, 1505
 	sound_ret
 
-Cry_Pidgey_Ch8:
+Cry_Mkabutimon_Ch8:
 	noise_note 2, 6, 1, 50
 	noise_note 2, 6, 1, 33
 	noise_note 8, 6, 1, 17

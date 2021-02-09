@@ -13,7 +13,7 @@ Cries:
 	dba Cry_Diglett
 	dba Cry_Seel
 	dba Cry_Tapirmon
-	dba Cry_Pidgey
+	dba Cry_Mkabutimon
 	dba Cry_Nyokomon
 	dba Cry_Tokoomon
 	dba Cry_Rhydon

@@ -14,7 +14,7 @@ PokemonNames::
 	db "MOTIMON@@@@" ; !Armor evo
 	db "TENTOMON@@@@"
 	db "KABUTRIMON@@"
-	db "PIDGEY@@@@" ; !Biyomon
+	db "MKABUTIMON@@@@" ; !Biyomon
 	db "ANGEMON@" ; !Birdramon
 	db "PEGASUSMON@@@"
 	db "TSUNOMON@@@"

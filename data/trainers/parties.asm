@@ -13,7 +13,7 @@ Trainers:
 FalknerGroup:
 	; FALKNER (1)
 	db "FALKNER@", TRAINERTYPE_MOVES
-	db  7, PIDGEY,     TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
+	db  7, MKABUTIMON,     TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
 	db  9, ANGEMON,  TACKLE, MUD_SLAP, GUST, NO_MOVE
 	db -1 ; end
 
@@ -343,7 +343,7 @@ YoungsterGroup:
 
 	; YOUNGSTER (2)
 	db "MIKEY@", TRAINERTYPE_NORMAL
-	db  2, PIDGEY
+	db  2, MKABUTIMON
 	db  4, TSUNOMON
 	db -1 ; end
 
@@ -573,8 +573,8 @@ SchoolboyGroup:
 BirdKeeperGroup:
 	; BIRD_KEEPER (1)
 	db "ROD@", TRAINERTYPE_NORMAL
-	db  7, PIDGEY
-	db  7, PIDGEY
+	db  7, MKABUTIMON
+	db  7, MKABUTIMON
 	db -1 ; end
 
 	; BIRD_KEEPER (2)
@@ -584,17 +584,17 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (3)
 	db "BRYAN@", TRAINERTYPE_NORMAL
-	db 12, PIDGEY
+	db 12, MKABUTIMON
 	db 14, ANGEMON
 	db -1 ; end
 
 	; BIRD_KEEPER (4)
 	db "THEO@", TRAINERTYPE_NORMAL
-	db 17, PIDGEY
-	db 15, PIDGEY
-	db 19, PIDGEY
-	db 15, PIDGEY
-	db 15, PIDGEY
+	db 17, MKABUTIMON
+	db 15, MKABUTIMON
+	db 19, MKABUTIMON
+	db 15, MKABUTIMON
+	db 15, MKABUTIMON
 	db -1 ; end
 
 	; BIRD_KEEPER (5)
@@ -619,7 +619,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (8)
 	db "HANK@", TRAINERTYPE_NORMAL
-	db 12, PIDGEY
+	db 12, MKABUTIMON
 	db 34, PEGASUSMON
 	db -1 ; end
 
@@ -648,8 +648,8 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (13)
 	db "PETER@", TRAINERTYPE_NORMAL
-	db  6, PIDGEY
-	db  6, PIDGEY
+	db  6, MKABUTIMON
+	db  6, MKABUTIMON
 	db  8, TOKOOMON
 	db -1 ; end
 

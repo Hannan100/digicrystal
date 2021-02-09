@@ -167,21 +167,21 @@ KantoGrassWildMons:
 	map_id ROUTE_1
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, PIDGEY
+	db 2, MKABUTIMON
 	db 2, TSUNOMON
 	db 3, NYAROMON
-	db 3, PIDGEY
+	db 3, MKABUTIMON
 	db 6, SALAMON
-	db 4, PIDGEY
-	db 4, PIDGEY
+	db 4, MKABUTIMON
+	db 4, MKABUTIMON
 	; day
-	db 2, PIDGEY
+	db 2, MKABUTIMON
 	db 2, TSUNOMON
 	db 3, NYAROMON
-	db 3, PIDGEY
+	db 3, MKABUTIMON
 	db 6, SALAMON
-	db 4, PIDGEY
-	db 4, PIDGEY
+	db 4, MKABUTIMON
+	db 4, MKABUTIMON
 	; nite
 	db 2, POROMON
 	db 2, TSUNOMON
@@ -196,15 +196,15 @@ KantoGrassWildMons:
 	; morn
 	db 3, MINOMON
 	db 3, GUMMYMON
-	db 5, PIDGEY
+	db 5, MKABUTIMON
 	db 7, STINGMON
 	db 7, TERRIERMON
 	db 4, GATOMON
 	db 4, GATOMON
 	; day
 	db 3, MINOMON
-	db 3, PIDGEY
-	db 5, PIDGEY
+	db 3, MKABUTIMON
+	db 5, MKABUTIMON
 	db 7, STINGMON
 	db 7, ANGEMON
 	db 4, GATOMON
@@ -275,7 +275,7 @@ KantoGrassWildMons:
 	map_id ROUTE_5
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, PIDGEY
+	db 13, MKABUTIMON
 	db 13, ELECMON
 	db 15, ANGEMON
 	db 12, WIZARDMON
@@ -283,7 +283,7 @@ KantoGrassWildMons:
 	db 14, WIZARDMON
 	db 14, WIZARDMON
 	; day
-	db 13, PIDGEY
+	db 13, MKABUTIMON
 	db 13, ELECMON
 	db 15, ANGEMON
 	db 12, WIZARDMON
@@ -708,7 +708,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 10, MINOMON
-	db 10, PIDGEY
+	db 10, MKABUTIMON
 	db 12, ANGEMON
 	db 12, WORMMON
 	db 10, LALAMON
@@ -716,7 +716,7 @@ KantoGrassWildMons:
 	db 14, STINGMON
 	; day
 	db 10, MINOMON
-	db 10, PIDGEY
+	db 10, MKABUTIMON
 	db 12, ANGEMON
 	db 12, WORMMON
 	db 10, LALAMON

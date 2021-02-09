@@ -39,7 +39,7 @@ GarurumonEggMoves:
 	db FLAIL
 	db -1 ; end
 
-PidgeyEggMoves:
+MkabutimonEggMoves:
 	db PURSUIT
 	db FAINT_ATTACK
 	db FORESIGHT

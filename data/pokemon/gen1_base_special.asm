@@ -16,7 +16,7 @@ KantoMonSpecials:
 	db  20 ; MOTIMON
 	db  25 ; TENTOMON
 	db  45 ; KABUTRIMON
-	db  35 ; PIDGEY
+	db  35 ; MKABUTIMON
 	db  50 ; ANGEMON
 	db  70 ; PEGASUSMON
 	db  25 ; TSUNOMON

@@ -10,7 +10,7 @@ NewPokedexOrder:
 	db BUKAMON
 	db GOMAMON
 	db IKKAKUMON
-	db PIDGEY
+	db MKABUTIMON
 	db ANGEMON
 	db PEGASUSMON
 	db TOKOOMON

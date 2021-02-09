@@ -16,7 +16,7 @@
 	const CRY_DIGLETT
 	const CRY_SEEL
 	const CRY_TAPIRMON
-	const CRY_PIDGEY
+	const CRY_MKABUTIMON
 	const CRY_NYOKOMON
 	const CRY_TOKOOMON
 	const CRY_RHYDON

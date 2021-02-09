@@ -32,8 +32,8 @@ PokemonPicPointers::
 	dba_pic TentomonBackpic
 	dba_pic KabutrimonFrontpic
 	dba_pic KabutrimonBackpic
-	dba_pic PidgeyFrontpic
-	dba_pic PidgeyBackpic
+	dba_pic MkabutimonFrontpic
+	dba_pic MkabutimonBackpic
 	dba_pic AngemonFrontpic
 	dba_pic AngemonBackpic
 	dba_pic PegasusmonFrontpic

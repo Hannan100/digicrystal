@@ -21,7 +21,7 @@ PokemonCries::
 	mon_cry CRY_MOTIMON,      $0ee,  $081 ; MOTIMON
 	mon_cry CRY_SHELLMON,   $0ff,  $081 ; TENTOMON
 	mon_cry CRY_SHELLMON,   $060,  $100 ; KABUTRIMON
-	mon_cry CRY_PIDGEY,      $0df,  $084 ; PIDGEY
+	mon_cry CRY_MKABUTIMON,      $0df,  $084 ; MKABUTIMON
 	mon_cry CRY_ANGEMON,   $028,  $140 ; ANGEMON
 	mon_cry CRY_ANGEMON,   $011,  $17f ; PEGASUSMON
 	mon_cry CRY_TSUNOMON,     $000,  $100 ; TSUNOMON
@@ -44,8 +44,8 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,    $0aa,  $0a0 ; CLEFABLE
 	mon_cry CRY_VULPIX,      $04f,  $090 ; VULPIX
 	mon_cry CRY_VULPIX,      $088,  $0e0 ; NINETALES
-	mon_cry CRY_PIDGEY,      $0ff,  $0b5 ; CANDLEMON
-	mon_cry CRY_PIDGEY,      $068,  $0e0 ; MERAMON
+	mon_cry CRY_MKABUTIMON,      $0ff,  $0b5 ; CANDLEMON
+	mon_cry CRY_MKABUTIMON,      $068,  $0e0 ; MERAMON
 	mon_cry CRY_GARURUMON,    $0e0,  $100 ; PAGUMON
 	mon_cry CRY_GARURUMON,    $0fa,  $100 ; DEMDEVIMON
 	mon_cry CRY_GOBLIMON,      $0dd,  $081 ; GOBLIMON
@@ -65,9 +65,9 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; PRIMEAPE
 	mon_cry CRY_RENAMON,   $020,  $0c0 ; RENAMON
 	mon_cry CRY_MOTIMON,      $000,  $100 ; KYUBIMON
-	mon_cry CRY_PIDGEY,      $0ff,  $17f ; BETAMON
-	mon_cry CRY_PIDGEY,      $077,  $0e0 ; POLIWHIRL
-	mon_cry CRY_PIDGEY,      $000,  $17f ; POLIWRATH
+	mon_cry CRY_MKABUTIMON,      $0ff,  $17f ; BETAMON
+	mon_cry CRY_MKABUTIMON,      $077,  $0e0 ; POLIWHIRL
+	mon_cry CRY_MKABUTIMON,      $000,  $17f ; POLIWRATH
 	mon_cry CRY_WORMMON,     $0c0,  $081 ; WIZARDMON
 	mon_cry CRY_WORMMON,     $0a8,  $140 ; KADWIZARDMON
 	mon_cry CRY_WORMMON,     $098,  $17f ; ALAKAZAM
@@ -137,7 +137,7 @@ PokemonCries::
 	mon_cry CRY_GAZIMON,       $080,  $080 ; SWIMMON
 	mon_cry CRY_GAZIMON,       $000,  $100 ; GYARADOS
 	mon_cry CRY_SEADRAMON,      $000,  $100 ; SEADRAMON
-	mon_cry CRY_PIDGEY,      $0ff,  $17f ; DITTO
+	mon_cry CRY_MKABUTIMON,      $0ff,  $17f ; DITTO
 	mon_cry CRY_KUNEMON,     $088,  $0e0 ; EEVEE
 	mon_cry CRY_KUNEMON,     $0aa,  $17f ; VAPOREON
 	mon_cry CRY_KUNEMON,     $03d,  $100 ; JOLTEON
@@ -277,7 +277,7 @@ PokemonCries::
 	mon_cry CRY_MOTIMON,      238,  129 ; MOTIMON
 	mon_cry CRY_SHELLMON,   255,  129 ; TENTOMON
 	mon_cry CRY_SHELLMON,    96,  256 ; KABUTRIMON
-	mon_cry CRY_PIDGEY,      223,  132 ; PIDGEY
+	mon_cry CRY_MKABUTIMON,      223,  132 ; MKABUTIMON
 	mon_cry CRY_ANGEMON,    40,  320 ; ANGEMON
 	mon_cry CRY_ANGEMON,    17,  383 ; PEGASUSMON
 	mon_cry CRY_TSUNOMON,       0,  256 ; TSUNOMON
@@ -300,8 +300,8 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,    170,  160 ; CLEFABLE
 	mon_cry CRY_VULPIX,       79,  144 ; VULPIX
 	mon_cry CRY_VULPIX,      136,  224 ; NINETALES
-	mon_cry CRY_PIDGEY,      255,  181 ; CANDLEMON
-	mon_cry CRY_PIDGEY,      104,  224 ; MERAMON
+	mon_cry CRY_MKABUTIMON,      255,  181 ; CANDLEMON
+	mon_cry CRY_MKABUTIMON,      104,  224 ; MERAMON
 	mon_cry CRY_GARURUMON,    224,  256 ; PAGUMON
 	mon_cry CRY_GARURUMON,    250,  256 ; DEMDEVIMON
 	mon_cry CRY_GOBLIMON,      221,  129 ; GOBLIMON
@@ -321,9 +321,9 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,   175,  192 ; PRIMEAPE
 	mon_cry CRY_RENAMON,    32,  192 ; RENAMON
 	mon_cry CRY_MOTIMON,        0,  256 ; KYUBIMON
-	mon_cry CRY_PIDGEY,      255,  383 ; BETAMON
-	mon_cry CRY_PIDGEY,      119,  224 ; POLIWHIRL
-	mon_cry CRY_PIDGEY,        0,  383 ; POLIWRATH
+	mon_cry CRY_MKABUTIMON,      255,  383 ; BETAMON
+	mon_cry CRY_MKABUTIMON,      119,  224 ; POLIWHIRL
+	mon_cry CRY_MKABUTIMON,        0,  383 ; POLIWRATH
 	mon_cry CRY_WORMMON,     192,  129 ; WIZARDMON
 	mon_cry CRY_WORMMON,     168,  320 ; KADWIZARDMON
 	mon_cry CRY_WORMMON,     152,  383 ; ALAKAZAM
@@ -393,7 +393,7 @@ PokemonCries::
 	mon_cry CRY_GAZIMON,       128,  128 ; SWIMMON
 	mon_cry CRY_GAZIMON,         0,  256 ; GYARADOS
 	mon_cry CRY_SEADRAMON,        0,  256 ; SEADRAMON
-	mon_cry CRY_PIDGEY,      255,  383 ; DITTO
+	mon_cry CRY_MKABUTIMON,      255,  383 ; DITTO
 	mon_cry CRY_KUNEMON,     136,  224 ; EEVEE
 	mon_cry CRY_KUNEMON,     170,  383 ; VAPOREON
 	mon_cry CRY_KUNEMON,      61,  256 ; JOLTEON

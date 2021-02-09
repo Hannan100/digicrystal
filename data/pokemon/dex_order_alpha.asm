@@ -160,7 +160,7 @@ AlphabeticalPokedexOrder:
 	db PICHU
 	db PEGASUSMON
 	db ANGEMON
-	db PIDGEY
+	db MKABUTIMON
 	db GATOMON
 	db PILOSWINE
 	db FANBEEMON

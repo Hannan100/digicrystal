@@ -223,7 +223,7 @@ KabutrimonEvosAttacks:
 	db 40, AGILITY
 	db 0 ; no more level-up moves
 
-PidgeyEvosAttacks:
+MkabutimonEvosAttacks:
 	db EVOLVE_LEVEL, 18, ANGEMON
 	db 0 ; no more evolutions
 	db 1, TACKLE

@@ -332,7 +332,7 @@ JohtoGrassWildMons:
 	db 12, NIDORAN_M
 	db 12, NIDORAN_F
 	db 14, GUMMYMON
-	db 13, PIDGEY
+	db 13, MKABUTIMON
 	db 10, MINOMON
 	db 10, MOTIMON
 	db 10, MOTIMON
@@ -340,7 +340,7 @@ JohtoGrassWildMons:
 	db 12, NIDORAN_F
 	db 12, NIDORAN_M
 	db 14, SUNKERN
-	db 13, PIDGEY
+	db 13, MKABUTIMON
 	db 10, MINOMON
 	db 10, MOTIMON
 	db 10, MOTIMON
@@ -549,7 +549,7 @@ JohtoGrassWildMons:
 	db 5, MOTIMON
 	db 7, WORMMON
 	db 7, TENTOMON
-	db 7, PIDGEY
+	db 7, MKABUTIMON
 	db 6, MUSHROOMON
 	db 6, MUSHROOMON
 	; day
@@ -557,7 +557,7 @@ JohtoGrassWildMons:
 	db 5, MOTIMON
 	db 7, WORMMON
 	db 7, TENTOMON
-	db 7, PIDGEY
+	db 7, MKABUTIMON
 	db 6, MUSHROOMON
 	db 6, MUSHROOMON
 	; nite
@@ -1193,17 +1193,17 @@ JohtoGrassWildMons:
 	map_id ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, PIDGEY
+	db 2, MKABUTIMON
 	db 2, NYAROMON
-	db 3, PIDGEY
+	db 3, MKABUTIMON
 	db 3, NYAROMON
 	db 2, TSUNOMON
 	db 3, YOKOMON
 	db 3, YOKOMON
 	; day
-	db 2, PIDGEY
+	db 2, MKABUTIMON
 	db 2, NYAROMON
-	db 3, PIDGEY
+	db 3, MKABUTIMON
 	db 3, NYAROMON
 	db 2, TSUNOMON
 	db 3, YOKOMON
@@ -1223,15 +1223,15 @@ JohtoGrassWildMons:
 	db 3, GUMMYMON
 	db 3, MINOMON
 	db 4, MINOMON
-	db 4, PIDGEY
+	db 4, MKABUTIMON
 	db 3, MOTIMON
 	db 4, YOKOMON
 	db 4, YOKOMON
 	; day
-	db 3, PIDGEY
+	db 3, MKABUTIMON
 	db 3, MINOMON
 	db 4, MINOMON
-	db 4, PIDGEY
+	db 4, MKABUTIMON
 	db 3, MOTIMON
 	db 4, YOKOMON
 	db 4, YOKOMON
@@ -1250,15 +1250,15 @@ JohtoGrassWildMons:
 	db 4, GUMMYMON
 	db 4, MINOMON
 	db 5, LALAMON
-	db 5, PIDGEY
+	db 5, MKABUTIMON
 	db 4, MOTIMON
 	db 5, YOKOMON
 	db 5, YOKOMON
 	; day
-	db 4, PIDGEY
+	db 4, MKABUTIMON
 	db 4, MINOMON
 	db 5, LALAMON
-	db 5, PIDGEY
+	db 5, MKABUTIMON
 	db 4, MOTIMON
 	db 5, YOKOMON
 	db 5, YOKOMON
@@ -1278,7 +1278,7 @@ JohtoGrassWildMons:
 	db 5, TSUNOMON
 	db 7, LALAMON
 	db 6, YOKOMON
-	db 7, PIDGEY
+	db 7, MKABUTIMON
 	db 7, YOKOMON
 	db 7, YOKOMON
 	; day
@@ -1286,7 +1286,7 @@ JohtoGrassWildMons:
 	db 5, TSUNOMON
 	db 7, LALAMON
 	db 6, YOKOMON
-	db 7, PIDGEY
+	db 7, MKABUTIMON
 	db 7, YOKOMON
 	db 7, YOKOMON
 	; nite
@@ -1330,7 +1330,7 @@ JohtoGrassWildMons:
 	; morn
 	db 10, ELECMON
 	db 11, TSUNOMON
-	db 12, PIDGEY
+	db 12, MKABUTIMON
 	db 10, WIZARDMON
 	db 12, CANDLEMON
 	db 10, DITTO
@@ -1338,7 +1338,7 @@ JohtoGrassWildMons:
 	; day
 	db 10, ELECMON
 	db 11, TSUNOMON
-	db 12, PIDGEY
+	db 12, MKABUTIMON
 	db 10, WIZARDMON
 	db 12, CANDLEMON
 	db 10, DITTO
@@ -1356,7 +1356,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 12, ELECMON
-	db 14, PIDGEY
+	db 14, MKABUTIMON
 	db 13, RENAMON
 	db 10, WIZARDMON
 	db 12, CANDLEMON
@@ -1364,7 +1364,7 @@ JohtoGrassWildMons:
 	db 12, YANMA
 	; day
 	db 12, ELECMON
-	db 14, PIDGEY
+	db 14, MKABUTIMON
 	db 13, RENAMON
 	db 10, WIZARDMON
 	db 12, CANDLEMON
@@ -1383,20 +1383,20 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 4, GUMMYMON
-	db 4, PIDGEY
+	db 4, MKABUTIMON
 	db 5, LALAMON
 	db 5, RENAMON
-	db 5, PIDGEY
-	db 6, PIDGEY
-	db 6, PIDGEY
+	db 5, MKABUTIMON
+	db 6, MKABUTIMON
+	db 6, MKABUTIMON
 	; day
-	db 4, PIDGEY
-	db 4, PIDGEY
+	db 4, MKABUTIMON
+	db 4, MKABUTIMON
 	db 5, LALAMON
 	db 5, RENAMON
-	db 5, PIDGEY
-	db 6, PIDGEY
-	db 6, PIDGEY
+	db 5, MKABUTIMON
+	db 6, MKABUTIMON
+	db 6, MKABUTIMON
 	; nite
 	db 4, KOKOMON
 	db 4,POROMON
@@ -1411,19 +1411,19 @@ JohtoGrassWildMons:
 	; morn
 	db 13, GUMMYMON
 	db 14, RENAMON
-	db 15, PIDGEY
+	db 15, MKABUTIMON
 	db 16, RENAMON
 	db 15, ANGEMON
 	db 15, TERRIERMON
 	db 15, TERRIERMON
 	; day
-	db 13, PIDGEY
+	db 13, MKABUTIMON
 	db 14, RENAMON
-	db 15, PIDGEY
+	db 15, MKABUTIMON
 	db 16, RENAMON
 	db 15, ANGEMON
-	db 15, PIDGEY
-	db 15, PIDGEY
+	db 15, MKABUTIMON
+	db 15, MKABUTIMON
 	; nite
 	db 13, KOKOMON
 	db 14, STANTLER

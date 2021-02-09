@@ -35,7 +35,7 @@ INCBIN "gfx/footprints/stingmon.1bpp", footprint_top
 INCBIN "gfx/footprints/motimon.1bpp",     footprint_top
 INCBIN "gfx/footprints/tentomon.1bpp",     footprint_top
 INCBIN "gfx/footprints/kabutrimon.1bpp",   footprint_top
-INCBIN "gfx/footprints/pidgey.1bpp",     footprint_top
+INCBIN "gfx/footprints/mkabutimon.1bpp",     footprint_top
 ; 009-016 bottom halves
 INCBIN "gfx/footprints/shellmon.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/minomon.1bpp",   footprint_bottom
@@ -44,7 +44,7 @@ INCBIN "gfx/footprints/stingmon.1bpp", footprint_bottom
 INCBIN "gfx/footprints/motimon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/tentomon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/kabutrimon.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/pidgey.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/mkabutimon.1bpp",     footprint_bottom
 ; 017-024 top halves
 INCBIN "gfx/footprints/angemon.1bpp",  footprint_top
 INCBIN "gfx/footprints/pegasusmon.1bpp",    footprint_top
