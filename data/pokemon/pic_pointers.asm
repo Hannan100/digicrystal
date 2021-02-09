@@ -48,8 +48,8 @@ PokemonPicPointers::
 	dba_pic PatamonBackpic
 	dba_pic GazimonFrontpic
 	dba_pic GazimonBackpic
-	dba_pic ArbokFrontpic
-	dba_pic ArbokBackpic
+	dba_pic EtemonFrontpic
+	dba_pic EtemonBackpic
 	dba_pic GatomonFrontpic
 	dba_pic GatomonBackpic
 	dba_pic RaichuFrontpic

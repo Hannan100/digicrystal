@@ -225,7 +225,7 @@ KantoGrassWildMons:
 	db 5, TSUNOMON
 	db 8, GAZIMON
 	db 10, GABUMON
-	db 10, ARBOK
+	db 10, ETEMON
 	db 10, NEFERTIMON
 	db 10, NEFERTIMON
 	; day
@@ -233,7 +233,7 @@ KantoGrassWildMons:
 	db 5, TSUNOMON
 	db 8, GAZIMON
 	db 10, GABUMON
-	db 10, ARBOK
+	db 10, ETEMON
 	db 10, NEFERTIMON
 	db 10, NEFERTIMON
 	; nite
@@ -252,7 +252,7 @@ KantoGrassWildMons:
 	db 5, TSUNOMON
 	db 8, GAZIMON
 	db 10, GABUMON
-	db 10, ARBOK
+	db 10, ETEMON
 	db 10, NEFERTIMON
 	db 10, NEFERTIMON
 	; day
@@ -260,7 +260,7 @@ KantoGrassWildMons:
 	db 5, TSUNOMON
 	db 8, GAZIMON
 	db 10, GABUMON
-	db 10, ARBOK
+	db 10, ETEMON
 	db 10, NEFERTIMON
 	db 10, NEFERTIMON
 	; nite
@@ -739,16 +739,16 @@ KantoGrassWildMons:
 	db 32, PONYTA
 	db 30, GABUMON
 	db 30, DODUO
-	db 30, ARBOK
-	db 30, ARBOK
+	db 30, ETEMON
+	db 30, ETEMON
 	; day
 	db 28, DODUO
 	db 28, SANDSLASH
 	db 32, PONYTA
 	db 30, GABUMON
 	db 30, DODUO
-	db 30, ARBOK
-	db 30, ARBOK
+	db 30, ETEMON
+	db 30, ETEMON
 	; nite
 	db 28, HAWKMON
 	db 28, GABUMON
@@ -762,7 +762,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 28, DODUO
-	db 28, ARBOK
+	db 28, ETEMON
 	db 30, GABUMON
 	db 30, DODUO
 	db 32, PONYTA
@@ -770,7 +770,7 @@ KantoGrassWildMons:
 	db 30, DODRIO
 	; day
 	db 28, DODUO
-	db 28, ARBOK
+	db 28, ETEMON
 	db 30, GABUMON
 	db 30, DODUO
 	db 32, PONYTA
@@ -791,7 +791,7 @@ KantoGrassWildMons:
 	db 39, SHURIMON
 	db 40, PONYTA
 	db 40, RAPIDASH
-	db 42, ARBOK
+	db 42, ETEMON
 	db 41, DODUO
 	db 43, DODRIO
 	db 43, DODRIO
@@ -799,7 +799,7 @@ KantoGrassWildMons:
 	db 39, SHURIMON
 	db 40, PONYTA
 	db 40, RAPIDASH
-	db 42, ARBOK
+	db 42, ETEMON
 	db 41, DODUO
 	db 43, DODRIO
 	db 43, DODRIO

@@ -53,7 +53,7 @@ INCBIN "gfx/footprints/gabumon.1bpp",   footprint_top
 INCBIN "gfx/footprints/tokoomon.1bpp",    footprint_top
 INCBIN "gfx/footprints/patamon.1bpp",     footprint_top
 INCBIN "gfx/footprints/gazimon.1bpp",      footprint_top
-INCBIN "gfx/footprints/arbok.1bpp",      footprint_top
+INCBIN "gfx/footprints/etemon.1bpp",      footprint_top
 ; 017-024 bottom halves
 INCBIN "gfx/footprints/angemon.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/pegasusmon.1bpp",    footprint_bottom
@@ -62,7 +62,7 @@ INCBIN "gfx/footprints/gabumon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/tokoomon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/patamon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/gazimon.1bpp",      footprint_bottom
-INCBIN "gfx/footprints/arbok.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/etemon.1bpp",      footprint_bottom
 ; 025-032 top halves
 INCBIN "gfx/footprints/gatomon.1bpp",    footprint_top
 INCBIN "gfx/footprints/raichu.1bpp",     footprint_top

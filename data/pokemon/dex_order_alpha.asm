@@ -6,7 +6,7 @@ AlphabeticalPokedexOrder:
 	db AIPOM
 	db ALAKAZAM
 	db PAILDRAMON
-	db ARBOK
+	db ETEMON
 	db KYUBIMON
 	db LOPMON
 	db ARTICUNO

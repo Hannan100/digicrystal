@@ -42,7 +42,7 @@
 	const TOKOOMON    ; 15
 	const PATAMON     ; 16
 	const GAZIMON      ; 17
-	const ARBOK      ; 18
+	const ETEMON      ; 18
 	const GATOMON    ; 19
 	const RAICHU     ; 1a
 	const NEFERTIMON  ; 1b

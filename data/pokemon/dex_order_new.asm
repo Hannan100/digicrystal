@@ -51,7 +51,7 @@ NewPokedexOrder:
 	db NEFERTIMON
 	db SANDSLASH
 	db GAZIMON
-	db ARBOK
+	db ETEMON
 	db KUDAMON
 	db FLAMEDRMON
 	db RAIDRAMON

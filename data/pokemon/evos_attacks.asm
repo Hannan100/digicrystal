@@ -318,7 +318,7 @@ PatamonEvosAttacks:
 	db 0 ; no more level-up moves
 
 GazimonEvosAttacks:
-	db EVOLVE_LEVEL, 22, ARBOK
+	db EVOLVE_LEVEL, 22, ETEMON
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
@@ -330,7 +330,7 @@ GazimonEvosAttacks:
 	db 43, HAZE
 	db 0 ; no more level-up moves
 
-ArbokEvosAttacks:
+EtemonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER

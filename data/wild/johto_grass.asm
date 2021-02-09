@@ -1494,7 +1494,7 @@ JohtoGrassWildMons:
 	db 14, TOKOOMON
 	db 15, TSUNOMON
 	db 16, GABUMON
-	db 15, ARBOK
+	db 15, ETEMON
 	db 16, PATAMON
 	db 16, PATAMON
 	; day
@@ -1502,7 +1502,7 @@ JohtoGrassWildMons:
 	db 14, TOKOOMON
 	db 15, TSUNOMON
 	db 16, GABUMON
-	db 15, ARBOK
+	db 15, ETEMON
 	db 16, PATAMON
 	db 16, PATAMON
 	; nite
@@ -1627,7 +1627,7 @@ JohtoGrassWildMons:
 	; morn
 	db 41, SHURIMON
 	db 42, PONYTA
-	db 42, ARBOK
+	db 42, ETEMON
 	db 44, RAPIDASH
 	db 41, DODUO
 	db 43, DODRIO
@@ -1635,7 +1635,7 @@ JohtoGrassWildMons:
 	; day
 	db 41, SHURIMON
 	db 42, PONYTA
-	db 42, ARBOK
+	db 42, ETEMON
 	db 44, RAPIDASH
 	db 41, DODUO
 	db 43, DODRIO

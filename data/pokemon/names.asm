@@ -22,7 +22,7 @@ PokemonNames::
 	db "TOKOOMON@@@"
 	db "PATAMON@@@@"
 	db "GAZIMON@@@@@"
-	db "ARBOK@@@@@"
+	db "ETEMON@@@@@"
 	db "GATOMON@@@"
 	db "RAICHU@@@@"
 	db "NEFERTIMON@"

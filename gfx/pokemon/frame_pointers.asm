@@ -22,7 +22,7 @@ FramesPointers:
 	dw TokoomonFrames
 	dw PatamonFrames
 	dw GazimonFrames
-	dw ArbokFrames
+	dw EtemonFrames
 	dw GatomonFrames
 	dw RaichuFrames
 	dw NefertimonFrames

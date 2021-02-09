@@ -23,7 +23,7 @@ PokedexDataPointerTable:
 	dw TokoomonPokedexEntry
 	dw PatamonPokedexEntry
 	dw GazimonPokedexEntry
-	dw ArbokPokedexEntry
+	dw EtemonPokedexEntry
 	dw GatomonPokedexEntry
 	dw RaichuPokedexEntry
 	dw NefertimonPokedexEntry

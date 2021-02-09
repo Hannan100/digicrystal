@@ -22,7 +22,7 @@ AnimationPointers:
 	dw TokoomonAnimation
 	dw PatamonAnimation
 	dw GazimonAnimation
-	dw ArbokAnimation
+	dw EtemonAnimation
 	dw GatomonAnimation
 	dw RaichuAnimation
 	dw NefertimonAnimation

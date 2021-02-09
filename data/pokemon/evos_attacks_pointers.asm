@@ -24,7 +24,7 @@ EvosAttacksPointers::
 	dw TokoomonEvosAttacks
 	dw PatamonEvosAttacks
 	dw GazimonEvosAttacks
-	dw ArbokEvosAttacks
+	dw EtemonEvosAttacks
 	dw GatomonEvosAttacks
 	dw RaichuEvosAttacks
 	dw NefertimonEvosAttacks

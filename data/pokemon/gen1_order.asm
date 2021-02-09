@@ -43,7 +43,7 @@ Pokered_MonIndices:
 	db MR__MIME
 	db HITMONLEE
 	db HITMONCHAN
-	db ARBOK
+	db ETEMON
 	db MUSHROOMONECT
 	db PSYDUCK
 	db TAPIRMON

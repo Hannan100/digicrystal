@@ -22,7 +22,7 @@ BitmasksPointers:
 	dw TokoomonBitmasks
 	dw PatamonBitmasks
 	dw GazimonBitmasks
-	dw ArbokBitmasks
+	dw EtemonBitmasks
 	dw GatomonBitmasks
 	dw RaichuBitmasks
 	dw NefertimonBitmasks

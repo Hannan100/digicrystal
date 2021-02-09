@@ -22,7 +22,7 @@ AnimationIdlePointers:
 	dw TokoomonAnimationIdle
 	dw PatamonAnimationIdle
 	dw GazimonAnimationIdle
-	dw ArbokAnimationIdle
+	dw EtemonAnimationIdle
 	dw GatomonAnimationIdle
 	dw RaichuAnimationIdle
 	dw NefertimonAnimationIdle
