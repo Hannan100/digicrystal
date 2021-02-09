@@ -180,8 +180,8 @@ PokemonPicPointers::
 	dba_pic NumemonBackpic
 	dba_pic RaremonFrontpic
 	dba_pic RaremonBackpic
-	dba_pic ShellderFrontpic
-	dba_pic ShellderBackpic
+	dba_pic DatamonFrontpic
+	dba_pic DatamonBackpic
 	dba_pic CloysterFrontpic
 	dba_pic CloysterBackpic
 	dba_pic TsumemonFrontpic

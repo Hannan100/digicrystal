@@ -21,7 +21,7 @@ Pokered_MonIndices:
 	db KYUBIMON
 	db MEW
 	db GYARADOS
-	db SHELLDER
+	db DATAMON
 	db TENTACOOL
 	db TSUMEMON
 	db KUWAGAMON

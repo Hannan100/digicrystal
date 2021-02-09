@@ -90,7 +90,7 @@ KantoMonSpecials:
 	db  95 ; DEWGONG
 	db  40 ; NUMEMON
 	db  65 ; RAREMON
-	db  45 ; SHELLDER
+	db  45 ; DATAMON
 	db  85 ; CLOYSTER
 	db 100 ; TSUMEMON
 	db 115 ; KERAMON

@@ -88,7 +88,7 @@ FramesPointers:
 	dw DewgongFrames
 	dw NumemonFrames
 	dw RaremonFrames
-	dw ShellderFrames
+	dw DatamonFrames
 	dw CloysterFrames
 	dw TsumemonFrames
 	dw KeramonFrames

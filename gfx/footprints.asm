@@ -209,7 +209,7 @@ INCBIN "gfx/footprints/dewgong.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/numemon.1bpp",     footprint_bottom
 ; 089-096 top halves
 INCBIN "gfx/footprints/raremon.1bpp",        footprint_top
-INCBIN "gfx/footprints/shellder.1bpp",   footprint_top
+INCBIN "gfx/footprints/datamon.1bpp",   footprint_top
 INCBIN "gfx/footprints/cloyster.1bpp",   footprint_top
 INCBIN "gfx/footprints/tsumemon.1bpp",     footprint_top
 INCBIN "gfx/footprints/keramon.1bpp",    footprint_top
@@ -218,7 +218,7 @@ INCBIN "gfx/footprints/armdilomon.1bpp",       footprint_top
 INCBIN "gfx/footprints/tapirmon.1bpp",    footprint_top
 ; 089-096 bottom halves
 INCBIN "gfx/footprints/raremon.1bpp",        footprint_bottom
-INCBIN "gfx/footprints/shellder.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/datamon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/cloyster.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/tsumemon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/keramon.1bpp",    footprint_bottom

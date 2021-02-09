@@ -43,7 +43,7 @@ OtamamonWellB2FGymGuideText:
 	line "KING'S ROCK often"
 
 	para "gets bitten by a"
-	line "SHELLDER."
+	line "DATAMON."
 
 	para "Here, I'll share a"
 	line "KING'S ROCK with"

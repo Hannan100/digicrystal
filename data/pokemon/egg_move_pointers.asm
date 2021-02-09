@@ -88,7 +88,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NumemonEggMoves
 	dw NoEggMoves
-	dw ShellderEggMoves
+	dw DatamonEggMoves
 	dw NoEggMoves
 	dw TsumemonEggMoves
 	dw NoEggMoves

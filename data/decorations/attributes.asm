@@ -50,7 +50,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,    SWIMMON,        SET_UP_DOLL,       EVENT_DECO_SWIMMON_DOLL,           SPRITE_SWIMMON
 	decoration DECO_DOLL,    GOBLIMON,          SET_UP_DOLL,       EVENT_DECO_GOBLIMON_DOLL,             SPRITE_GOBLIMON
 	decoration DECO_DOLL,    KRYSALIMON,          SET_UP_DOLL,       EVENT_DECO_KRYSALIMON_DOLL,             SPRITE_KRYSALIMON
-	decoration DECO_DOLL,    SHELLDER,        SET_UP_DOLL,       EVENT_DECO_SHELLDER_DOLL,           SPRITE_SHELLDER
+	decoration DECO_DOLL,    DATAMON,        SET_UP_DOLL,       EVENT_DECO_DATAMON_DOLL,           SPRITE_DATAMON
 	decoration DECO_DOLL,    NUMEMON,          SET_UP_DOLL,       EVENT_DECO_NUMEMON_DOLL,             SPRITE_NUMEMON
 	decoration DECO_DOLL,    VOLTORB,         SET_UP_DOLL,       EVENT_DECO_VOLTORB_DOLL,            SPRITE_VOLTORB
 	decoration DECO_DOLL,    MOTIMON,          SET_UP_DOLL,       EVENT_DECO_MOTIMON_DOLL,             SPRITE_MOTIMON

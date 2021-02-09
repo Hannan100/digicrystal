@@ -88,7 +88,7 @@ AnimationIdlePointers:
 	dw DewgongAnimationIdle
 	dw NumemonAnimationIdle
 	dw RaremonAnimationIdle
-	dw ShellderAnimationIdle
+	dw DatamonAnimationIdle
 	dw CloysterAnimationIdle
 	dw TsumemonAnimationIdle
 	dw KeramonAnimationIdle

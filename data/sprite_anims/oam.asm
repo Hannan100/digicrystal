@@ -5,8 +5,8 @@ SpriteAnimOAMData:
 	dbw $04, .OAMData_RedWalk                  ; SPRITE_ANIM_OAMSET_RED_WALK_2
 	dbw $4c, .OAMData_1x1_Palette0             ; SPRITE_ANIM_OAMSET_GS_INTRO_BUBBLE_1
 	dbw $5c, .OAMData_1x1_Palette0             ; SPRITE_ANIM_OAMSET_GS_INTRO_BUBBLE_2
-	dbw $6c, .OAMData_GSIntroShellder          ; SPRITE_ANIM_OAMSET_GS_INTRO_SHELLDER_1
-	dbw $6e, .OAMData_GSIntroShellder          ; SPRITE_ANIM_OAMSET_GS_INTRO_SHELLDER_2
+	dbw $6c, .OAMData_GSIntroDatamon          ; SPRITE_ANIM_OAMSET_GS_INTRO_DATAMON_1
+	dbw $6e, .OAMData_GSIntroDatamon          ; SPRITE_ANIM_OAMSET_GS_INTRO_DATAMON_2
 	dbw $2d, .OAMData_GSIntroSwimmon          ; SPRITE_ANIM_OAMSET_GS_INTRO_SWIMMON_1
 	dbw $4d, .OAMData_GSIntroSwimmon          ; SPRITE_ANIM_OAMSET_GS_INTRO_SWIMMON_2
 	dbw $60, .OAMData_GSIntroSeadramon            ; SPRITE_ANIM_OAMSET_GS_INTRO_UNUSED_SEADRAMON
@@ -146,7 +146,7 @@ SpriteAnimOAMData:
 	db 1
 	dbsprite -1, -1,  4,  4, $00, 0
 
-.OAMData_GSIntroShellder:
+.OAMData_GSIntroDatamon:
 	db 4
 	dbsprite -1, -1,  0,  0, $00, 0
 	dbsprite  0, -1,  0,  0, $01, 0

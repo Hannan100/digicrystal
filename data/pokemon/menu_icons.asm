@@ -90,7 +90,7 @@ MonMenuIcons:
 	db ICON_SEADRAMON      ; DEWGONG
 	db ICON_BLOB        ; NUMEMON
 	db ICON_BLOB        ; RAREMON
-	db ICON_SHELL       ; SHELLDER
+	db ICON_SHELL       ; DATAMON
 	db ICON_SHELL       ; CLOYSTER
 	db ICON_GHOST       ; TSUMEMON
 	db ICON_GHOST       ; KERAMON

@@ -169,7 +169,7 @@ NewPokedexOrder:
 	db SHUCKLE
 	db STARYU
 	db STARMIE
-	db SHELLDER
+	db DATAMON
 	db CLOYSTER
 	db CORSOLA
 	db REMORAID

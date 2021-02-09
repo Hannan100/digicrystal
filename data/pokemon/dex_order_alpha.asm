@@ -194,7 +194,7 @@ AlphabeticalPokedexOrder:
 	db SEAKING
 	db SEEL
 	db NYAROMON
-	db SHELLDER
+	db DATAMON
 	db SHUCKLE
 	db HALSEMON
 	db BIYOMON

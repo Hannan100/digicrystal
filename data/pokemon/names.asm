@@ -88,7 +88,7 @@ PokemonNames::
 	db "DEWGONG@@@"
 	db "NUMEMON@@@@"
 	db "RAREMON@@@@@@@"
-	db "SHELLDER@@"
+	db "DATAMON@@"
 	db "CLOYSTER@@"
 	db "TSUMEMON@@@@"
 	db "KERAMON@@@"

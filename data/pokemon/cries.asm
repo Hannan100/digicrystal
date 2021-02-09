@@ -95,7 +95,7 @@ PokemonCries::
 	mon_cry CRY_SEEL,        $023,  $17f ; DEWGONG
 	mon_cry CRY_NUMEMON,      $000,  $100 ; NUMEMON
 	mon_cry CRY_RAREMON,         $0ef,  $17f ; RAREMON
-	mon_cry CRY_PATAMON,      $000,  $100 ; SHELLDER
+	mon_cry CRY_PATAMON,      $000,  $100 ; DATAMON
 	mon_cry CRY_PATAMON,      $06f,  $160 ; CLOYSTER
 	mon_cry CRY_WORMMON,     $000,  $100 ; TSUMEMON
 	mon_cry CRY_WORMMON,     $030,  $0c0 ; KERAMON
@@ -351,7 +351,7 @@ PokemonCries::
 	mon_cry CRY_SEEL,         35,  383 ; DEWGONG
 	mon_cry CRY_NUMEMON,        0,  256 ; NUMEMON
 	mon_cry CRY_RAREMON,         239,  383 ; RAREMON
-	mon_cry CRY_PATAMON,        0,  256 ; SHELLDER
+	mon_cry CRY_PATAMON,        0,  256 ; DATAMON
 	mon_cry CRY_PATAMON,      111,  352 ; CLOYSTER
 	mon_cry CRY_WORMMON,       0,  256 ; TSUMEMON
 	mon_cry CRY_WORMMON,      48,  192 ; KERAMON

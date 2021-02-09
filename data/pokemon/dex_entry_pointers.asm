@@ -89,7 +89,7 @@ PokedexDataPointerTable:
 	dw DewgongPokedexEntry
 	dw NumemonPokedexEntry
 	dw RaremonPokedexEntry
-	dw ShellderPokedexEntry
+	dw DatamonPokedexEntry
 	dw CloysterPokedexEntry
 	dw TsumemonPokedexEntry
 	dw KeramonPokedexEntry

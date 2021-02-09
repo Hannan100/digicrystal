@@ -88,7 +88,7 @@ BitmasksPointers:
 	dw DewgongBitmasks
 	dw NumemonBitmasks
 	dw RaremonBitmasks
-	dw ShellderBitmasks
+	dw DatamonBitmasks
 	dw CloysterBitmasks
 	dw TsumemonBitmasks
 	dw KeramonBitmasks

@@ -269,7 +269,7 @@ NumemonEggMoves:
 	db LICK
 	db -1 ; end
 
-ShellderEggMoves:
+DatamonEggMoves:
 	db BUBBLEBEAM
 	db TAKE_DOWN
 	db BARRIER

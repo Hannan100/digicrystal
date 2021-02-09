@@ -1211,7 +1211,7 @@ RaremonEvosAttacks:
 	db 60, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
-ShellderEvosAttacks:
+DatamonEvosAttacks:
 	db EVOLVE_ITEM, WATER_STONE, CLOYSTER
 	db 0 ; no more evolutions
 	db 1, TACKLE

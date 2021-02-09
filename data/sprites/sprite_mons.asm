@@ -4,7 +4,7 @@ SpriteMons:
 	db GOTSUMON
 	db RENAMON
 	db MOTIMON
-	db SHELLDER
+	db DATAMON
 	db GOBLIMON
 	db KRYSALIMON
 	db PAGUMON

@@ -88,7 +88,7 @@ AnimationPointers:
 	dw DewgongAnimation
 	dw NumemonAnimation
 	dw RaremonAnimation
-	dw ShellderAnimation
+	dw DatamonAnimation
 	dw CloysterAnimation
 	dw TsumemonAnimation
 	dw KeramonAnimation
