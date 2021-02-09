@@ -66,7 +66,7 @@ AnimationIdlePointers:
 	dw AlakazamAnimationIdle
 	dw MachopAnimationIdle
 	dw StrikdrmonAnimationIdle
-	dw MachampAnimationIdle
+	dw CyberdrmonAnimationIdle
 	dw LalamonAnimationIdle
 	dw WoodmonAnimationIdle
 	dw VictreebelAnimationIdle

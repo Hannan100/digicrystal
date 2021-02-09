@@ -68,7 +68,7 @@ KantoMonSpecials:
 	db 135 ; ALAKAZAM
 	db  35 ; MACHOP
 	db  50 ; STRIKDRMON
-	db  65 ; MACHAMP
+	db  65 ; CYBERDRMON
 	db  70 ; LALAMON
 	db  85 ; WOODMON
 	db 100 ; VICTREEBEL

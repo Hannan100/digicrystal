@@ -157,7 +157,7 @@ INCBIN "gfx/footprints/kadwizardmon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/alakazam.1bpp",   footprint_top
 INCBIN "gfx/footprints/machop.1bpp",     footprint_top
 INCBIN "gfx/footprints/strikdrmon.1bpp",    footprint_top
-INCBIN "gfx/footprints/machamp.1bpp",    footprint_top
+INCBIN "gfx/footprints/cyberdrmon.1bpp",    footprint_top
 INCBIN "gfx/footprints/lalamon.1bpp", footprint_top
 INCBIN "gfx/footprints/woodmon.1bpp", footprint_top
 INCBIN "gfx/footprints/victreebel.1bpp", footprint_top
@@ -166,7 +166,7 @@ INCBIN "gfx/footprints/tentacool.1bpp",  footprint_top
 INCBIN "gfx/footprints/alakazam.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/machop.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/strikdrmon.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/machamp.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/cyberdrmon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/lalamon.1bpp", footprint_bottom
 INCBIN "gfx/footprints/woodmon.1bpp", footprint_bottom
 INCBIN "gfx/footprints/victreebel.1bpp", footprint_bottom

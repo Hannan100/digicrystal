@@ -881,7 +881,7 @@ MachopEvosAttacks:
 	db 0 ; no more level-up moves
 
 StrikdrmonEvosAttacks:
-	db EVOLVE_TRADE, -1, MACHAMP
+	db EVOLVE_TRADE, -1, CYBERDRMON
 	db 0 ; no more evolutions
 	db 1, LOW_KICK
 	db 1, LEER
@@ -896,7 +896,7 @@ StrikdrmonEvosAttacks:
 	db 61, SUBMISSION
 	db 0 ; no more level-up moves
 
-MachampEvosAttacks:
+CyberdrmonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LOW_KICK
 	db 1, LEER

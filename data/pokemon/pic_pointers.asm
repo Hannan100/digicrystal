@@ -136,8 +136,8 @@ PokemonPicPointers::
 	dba_pic MachopBackpic
 	dba_pic StrikdrmonFrontpic
 	dba_pic StrikdrmonBackpic
-	dba_pic MachampFrontpic
-	dba_pic MachampBackpic
+	dba_pic CyberdrmonFrontpic
+	dba_pic CyberdrmonBackpic
 	dba_pic LalamonFrontpic
 	dba_pic LalamonBackpic
 	dba_pic WoodmonFrontpic

@@ -124,7 +124,7 @@ Pokered_MonIndices:
 	db MINOMON
 	db WORMMON
 	db STINGMON
-	db MACHAMP
+	db CYBERDRMON
 	db DONPHAN ; MISSINGNO.
 	db GOLDUCK
 	db BOARMON

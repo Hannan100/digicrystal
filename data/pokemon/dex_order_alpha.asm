@@ -114,7 +114,7 @@ AlphabeticalPokedexOrder:
 	db GUMMYMON
 	db LICKITUNG
 	db LUGIA
-	db MACHAMP
+	db CYBERDRMON
 	db STRIKDRMON
 	db MACHOP
 	db MAGBY

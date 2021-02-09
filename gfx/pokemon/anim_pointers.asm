@@ -66,7 +66,7 @@ AnimationPointers:
 	dw AlakazamAnimation
 	dw MachopAnimation
 	dw StrikdrmonAnimation
-	dw MachampAnimation
+	dw CyberdrmonAnimation
 	dw LalamonAnimation
 	dw WoodmonAnimation
 	dw VictreebelAnimation

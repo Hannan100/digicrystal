@@ -66,7 +66,7 @@ PokemonNames::
 	db "ALAKAZAM@@"
 	db "MACHOP@@@@"
 	db "STRIKDRMON@@@"
-	db "MACHAMP@@@"
+	db "CYBERDRMON@@@"
 	db "LALAMON"
 	db "WOODMON"
 	db "VICTREEBEL"

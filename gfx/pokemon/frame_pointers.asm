@@ -66,7 +66,7 @@ FramesPointers:
 	dw AlakazamFrames
 	dw MachopFrames
 	dw StrikdrmonFrames
-	dw MachampFrames
+	dw CyberdrmonFrames
 	dw LalamonFrames
 	dw WoodmonFrames
 	dw VictreebelFrames
