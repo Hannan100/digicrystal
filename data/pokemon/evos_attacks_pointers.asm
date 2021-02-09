@@ -149,7 +149,7 @@ EvosAttacksPointers::
 	dw MoltresEvosAttacks
 	dw DratiniEvosAttacks
 	dw DragonairEvosAttacks
-	dw DragoniteEvosAttacks
+	dw KimeramonEvosAttacks
 	dw MewtwoEvosAttacks
 	dw MewEvosAttacks
 	dw TanemonEvosAttacks

@@ -147,7 +147,7 @@ PokemonNames::
 	db "MOLTRES@@@"
 	db "DRATINI@@@"
 	db "DRAGONAIR@"
-	db "DRAGONITE@"
+	db "KIMERAMON@"
 	db "MEWTWO@@@@"
 	db "MEW@@@@@@@"
 	db "TANEMON@@@" ; Tanemon

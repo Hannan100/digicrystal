@@ -147,7 +147,7 @@ AnimationPointers:
 	dw MoltresAnimation
 	dw DratiniAnimation
 	dw DragonairAnimation
-	dw DragoniteAnimation
+	dw KimeramonAnimation
 	dw MewtwoAnimation
 	dw MewAnimation
 	dw TanemonAnimation

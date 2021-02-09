@@ -154,7 +154,7 @@ PokemonCries::
 	mon_cry CRY_RAICHU,      $0f8,  $0c0 ; MOLTRES
 	mon_cry CRY_NYOKOMON,   $060,  $0c0 ; DRATINI
 	mon_cry CRY_NYOKOMON,   $040,  $100 ; DRAGONAIR
-	mon_cry CRY_NYOKOMON,   $03c,  $140 ; DRAGONITE
+	mon_cry CRY_NYOKOMON,   $03c,  $140 ; KIMERAMON
 	mon_cry CRY_MUSHROOMON,       $099,  $17f ; MEWTWO
 	mon_cry CRY_MUSHROOMON,       $0ee,  $17f ; MEW
 	mon_cry CRY_TANEMON,    -$010,  $0b0 ; TANEMON
@@ -410,7 +410,7 @@ PokemonCries::
 	mon_cry CRY_RAICHU,      248,  192 ; MOLTRES
 	mon_cry CRY_NYOKOMON,    96,  192 ; DRATINI
 	mon_cry CRY_NYOKOMON,    64,  256 ; DRAGONAIR
-	mon_cry CRY_NYOKOMON,    60,  320 ; DRAGONITE
+	mon_cry CRY_NYOKOMON,    60,  320 ; KIMERAMON
 	mon_cry CRY_MUSHROOMON,       153,  383 ; MEWTWO
 	mon_cry CRY_MUSHROOMON,       238,  383 ; MEW
 	mon_cry CRY_TANEMON,   -16,  176 ; TANEMON

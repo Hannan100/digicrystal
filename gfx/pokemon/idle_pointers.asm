@@ -147,7 +147,7 @@ AnimationIdlePointers:
 	dw MoltresAnimationIdle
 	dw DratiniAnimationIdle
 	dw DragonairAnimationIdle
-	dw DragoniteAnimationIdle
+	dw KimeramonAnimationIdle
 	dw MewtwoAnimationIdle
 	dw MewAnimationIdle
 	dw TanemonAnimationIdle

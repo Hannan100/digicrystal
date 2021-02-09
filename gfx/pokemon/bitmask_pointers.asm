@@ -147,7 +147,7 @@ BitmasksPointers:
 	dw MoltresBitmasks
 	dw DratiniBitmasks
 	dw DragonairBitmasks
-	dw DragoniteBitmasks
+	dw KimeramonBitmasks
 	dw MewtwoBitmasks
 	dw MewBitmasks
 	dw TanemonBitmasks

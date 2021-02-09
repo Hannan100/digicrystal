@@ -148,7 +148,7 @@ PokedexDataPointerTable:
 	dw MoltresPokedexEntry
 	dw DratiniPokedexEntry
 	dw DragonairPokedexEntry
-	dw DragonitePokedexEntry
+	dw KimeramonPokedexEntry
 	dw MewtwoPokedexEntry
 	dw MewPokedexEntry
 	dw TanemonPokedexEntry

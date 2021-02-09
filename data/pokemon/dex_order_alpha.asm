@@ -44,7 +44,7 @@ AlphabeticalPokedexOrder:
 	db DODUO
 	db DONPHAN
 	db DRAGONAIR
-	db DRAGONITE
+	db KIMERAMON
 	db DRATINI
 	db TAPIRMON
 	db DUGTRIO

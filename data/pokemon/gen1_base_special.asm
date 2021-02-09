@@ -149,6 +149,6 @@ KantoMonSpecials:
 	db 125 ; MOLTRES
 	db  50 ; DRATINI
 	db  70 ; DRAGONAIR
-	db 100 ; DRAGONITE
+	db 100 ; KIMERAMON
 	db 154 ; MEWTWO
 	db 100 ; MEW
